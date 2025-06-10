@@ -19,8 +19,6 @@ It is crucial to use the correct translation files for your specific Frappe and 
 * **Frappe Framework Version:** `<= 16.0.0`
 * **ERPNext Version:** `<= 16.0.0`
 
-Using these files with other versions might work, but it is not guaranteed and could lead to untranslated text or errors.
-
 ---
 
 ## Installation & Usage
