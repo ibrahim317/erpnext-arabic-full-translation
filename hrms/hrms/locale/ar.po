@@ -306,22 +306,22 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgid "<span class=\"h4\"><b>Masters &amp; Reports</b></span>"
-msgstr "<span class = \"h4\"> <b> masters & amp ؛ التقارير </b> </span>"
+msgstr "<span class = \"h4\"> <b> التقارير وإدارة البيانات الرئيسية </b> </span>"
 
 #. Header text in the Performance Workspace
 #: hrms/hr/workspace/performance/performance.json
 msgid "<span class=\"h4\"><b>Masters &amp; Transactions</b></span>"
-msgstr "<span class = \"h4\"> <b> masters & amp ؛ المعاملات </b> </span>"
+msgstr "<span class = \"h4\"> <b> ادارة البيانات الرئيسية والمعاملات </b> </span>"
 
 #. Header text in the Overview Workspace
 #: hrms/hr/workspace/overview/overview.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr "<span class = \"h4\"> <b> تقارير & amp ؛ الماجستير </b> </span>"
+msgstr "<span class = \"h4\"> <b> التقارير وإدارة البيانات الرئيسية </b> </span>"
 
 #. Header text in the Salary Payout Workspace
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "<span class=\"h4\"><b>Transactions &amp; Reports</b></span>"
-msgstr "<span class = \"h4\"> <b> Transactions & amp ؛ التقارير </b> </span>"
+msgstr "<span class = \"h4\"> <b> المعاملات والتقارير </b> </span>"
 
 #. Header text in the Employee Lifecycle Workspace
 #. Header text in the Expense Claims Workspace
@@ -348,7 +348,7 @@ msgstr "<span class = \"h4\"> <b> اختصاراتك </b> </span>"
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "<span style=\"font-size: 18px;\"><b>Masters &amp; Reports</b></span>"
 msgstr ""
-"<span style = \"font-size: 18px ؛\"> <b> masters & amp ؛ التقارير </b> "
+"<span style = \"font-size: 18px ؛\"> <b> التقارير وإدارة البيانات الرئيسية </b> "
 "</span>"
 
 #: hrms/public/js/utils/index.js:166
