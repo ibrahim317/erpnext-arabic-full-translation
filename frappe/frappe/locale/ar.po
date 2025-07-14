@@ -4872,7 +4872,7 @@ msgstr "المدينة / البلدة"
 #: frappe/core/doctype/recorder/recorder_list.js:12
 #: frappe/public/js/frappe/form/controls/attach.js:16
 msgid "Clear"
-msgstr "واضح"
+msgstr "مسح"
 
 #: frappe/public/js/frappe/views/communication.js:432
 msgid "Clear & Add Template"
@@ -31559,7 +31559,7 @@ msgstr "ألغيت"
 
 #: frappe/templates/includes/list/filters.html:19
 msgid "clear"
-msgstr "واضح"
+msgstr "مسح"
 
 #: frappe/public/js/frappe/form/templates/timeline_message_box.html:33
 msgid "commented"
