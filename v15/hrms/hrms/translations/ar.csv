@@ -1,0 +1,2510 @@
+"msgid","msgstr"
+" Unlink Payment on Cancellation of Employee Advance","إلغاء ربط الدفع عند إلغاء تقدم الموظفين"
+"""From Date"" can not be greater than or equal to ""To Date""","لا يمكن أن يكون ""من التاريخ"" أكبر من أو يساوي ""حتى الآن"""
+"% Utilization (B + NB) / T","٪ استخدام (B + NB) / T"
+"% Utilization (B / T)","استخدام ٪ (ب / ر)"
+"'employee_field_value' and 'timestamp' are required.","مطلوب &quot;employee_field_value&quot; و &quot;الطابع الزمني&quot;."
+") for {0}",") لـ {0}"
+"0.25","0.25"
+"0.5","0.5"
+"00:00","00:00"
+"01:00","01:00"
+"02:00","02:00"
+"03:00","03:00"
+"04:00","04:00"
+"05:00","05:00"
+"06:00","06:00"
+"07:00","07:00"
+"08:00","08:00"
+"09:00","09:00"
+"1.0","1.0"
+"10:00","10:00"
+"11:00","11:00"
+"12:00","12:00"
+"13:00","13:00"
+"14:00","14:00"
+"15:00","15:00"
+"16:00","16:00"
+"17:00","17:00"
+"18:00","18:00"
+"19:00","19:00"
+"20:00","20:00"
+"21:00","21:00"
+"22:00","22:00"
+"23:00","23:00"
+"<b>Base</b> amount has not been set for the following employee(s): {0}","لم يتم تعيين المبلغ <b> base </b> للموظف (S) التالي: {0}"
+"<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will generate a password like SAL-Jane-1972","<b>مثال:</b> SAL- {first_name} - {date_of_birth.year} <br> سيؤدي هذا إلى إنشاء كلمة مرور مثل SAL-Jane-1972"
+"<b>Total Leaves Allocated</b> are more than the number of days in the allocation period","<b> إجمالي الأوراق المخصصة </b> أكثر من عدد الأيام في فترة التخصيص"
+"<h3>Help</h3>
+
+<p>Notes:</p>
+
+<ol>
+<li>Use field <code>base</code> for using base salary of the Employee</li>
+<li>Use Salary Component abbreviations in conditions and formulas. <code>BS = Basic Salary</code></li>
+<li>Use field name for employee details in conditions and formulas. <code>Employment Type = employment_type</code><code>Branch = branch</code></li>
+<li>Use field name from Salary Slip in conditions and formulas. <code>Payment Days = payment_days</code><code>Leave without pay = leave_without_pay</code></li>
+<li>Direct Amount can also be entered based on Condition. See example 3</li></ol>
+
+<h4>Examples</h4>
+<ol>
+<li>Calculating Basic Salary based on <code>base</code>
+<pre><code>Condition: base &lt; 10000</code></pre>
+<pre><code>Formula: base * .2</code></pre></li>
+<li>Calculating HRA based on Basic Salary<code>BS</code> 
+<pre><code>Condition: BS &gt; 2000</code></pre>
+<pre><code>Formula: BS * .1</code></pre></li>
+<li>Calculating TDS based on Employment Type<code>employment_type</code> 
+<pre><code>Condition: employment_type==""Intern""</code></pre>
+<pre><code>Amount: 1000</code></pre></li>
+</ol>","<h3> مساعدة </h3>
+
+<p> الملاحظات: </p>
+
+<ol>
+<li> استخدم الحقل <code> قاعدة </code> لاستخدام الراتب الأساسي للموظف </li>
+<li> استخدم اختصارات مكونات الراتب في الظروف والصيغ. <code> bs = الراتب الأساسي </code> </li>
+<li> استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code> نوع التوظيف = التوظيف _type </code> <code> الفرع = الفرع </code> </li>
+<li> استخدم اسم الحقل من قسيمة الراتب في الظروف والصيغ. <code> أيام الدفع = payment_days </code> <code> إجازة بدون دفع = LEED_WITHOUT_PAY </code> </li>
+يمكن أيضًا إدخال المبلغ المباشر بناءً على الحالة. انظر المثال 3 </li> </ol>
+
+<h4> أمثلة </h4>
+<ol>
+<li> حساب الراتب الأساسي على أساس <code> قاعدة </code>
+<pre> <code> الشرط: base & lt ؛ 10000 </code> </pre>
+<pre> <code> الصيغة: قاعدة * .2 </code> </pre> </li>
+<li> حساب HRA استنادًا إلى الراتب الأساسي <code> BS </code> 
+<pre> <code> الشرط: bs & gt ؛ 2000 </code> </pre>
+<pre> <code> الصيغة: bs * .1 </code> </pre> </li>
+<li> حساب TDs استنادًا إلى نوع التوظيف <code> التوظيف _type </code> 
+<pre> <code> الشرط: التوظيف _type == ""Intern"" </code> </pre>
+<pre> <code> المبلغ: 1000 </code> </pre> </li>
+</ol>"
+"<h4>Condition Examples</h4>
+<ol>
+<li>Applying tax if employee born between 31-12-1937 and 01-01-1958 (Employees aged 60 to 80)<br>
+<code>Condition: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>Applying tax by employee gender<br>
+<code>Condition: gender==""Male""</code></li><br>
+<li>Applying tax by Salary Component<br>
+<code>Condition: base &gt; 10000</code></li></ol>","<h4> أمثلة الشرط </h4>
+<ol>
+<li> تطبيق الضريبة إذا ولد الموظف بين 31-12-1937 و 01-01-1958 (الموظفين الذين تتراوح أعمارهم بين 60 و 80) <br>
+<code> الشرط: date_of_birth & gt ؛ التاريخ (1937 ، 12 ، 31) و Date_of_birth & lt ؛ date (1958 ، 01 ، 01) </code> </li> <br> <li> تطبيق الضريبة حسب جنس الموظف <br> <br>
+<code> الشرط: الجنس == ""ذكر"" </code> </li> <br>
+<li> تطبيق الضريبة حسب مكون الراتب <br>
+<code> الشرط: BASE & GT ؛ 10000 </code> </li> </ol>"
+"<span class=""h4""><b>Masters &amp; Reports</b></span>","<span class = ""h4""> <b> التقارير وإدارة البيانات الرئيسية </b> </span>"
+"<span class=""h4""><b>Masters &amp; Transactions</b></span>","<span class = ""h4""> <b> ادارة البيانات الرئيسية والمعاملات </b> </span>"
+"<span class=""h4""><b>Reports &amp; Masters</b></span>","<span class = ""h4""> <b> التقارير وإدارة البيانات الرئيسية </b> </span>"
+"<span class=""h4""><b>Transactions &amp; Reports</b></span>","<span class = ""h4""> <b> المعاملات والتقارير </b> </span>"
+"<span class=""h4""><b>Your Shortcuts</b></span>","<span class = ""h4""> <b> اختصاراتك </b> </span>"
+"<span style=""font-size: 18px;""><b>Masters &amp; Reports</b></span>","<span style = ""font-size: 18px ؛""> <b> التقارير وإدارة البيانات الرئيسية </b> </span>"
+"<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>","<table class = 'table table-border'> <tr> <th> {0} </h> <th> {1} </h> </tr>"
+"A Job Requisition for {0} requested by {1} already exists: {2}","طلب مهمة لـ {0} طلبه {1} موجود بالفعل: {2}"
+"A friendly reminder of an important date for our team.","تذكير ودود بتاريخ مهم لفريقنا."
+"A {0} exists between {1} and {2} (","{0} موجود بين {1} و {2} ("
+"Abbr","اسم مختصر"
+"Absent","غائب"
+"Absent Days","أيام الغياب"
+"Absent Records","السجلات الغائبة"
+"Academics User","المستخدمين الأكادميين"
+"Accepted","مقبول"
+"Account","حساب"
+"Account Head","رئيس حساب"
+"Account No","رقم الحساب"
+"Account type cannot be set for payroll payable account {0}, please remove and try again","لا يمكن تعيين نوع الحساب لحساب كشوف المرتبات المستحقة الدفع {0} ، يرجى الإزالة والمحاولة مرة أخرى"
+"Account {0} does not belong to company: {1}","الحساب {0} لا يتنمى للشركة {1}\
+<br>\
+Account {0} does not belong to company: {1}"
+"Account {0} does not match with Company {1}","الحساب {0} لا يتطابق مع الشركة {1}"
+"Accounting","المحاسبة"
+"Accounting & Payment","المحاسبة والدفع"
+"Accounting Details","تفاصيل المحاسبة"
+"Accounting Dimension","البعد المحاسبي"
+"Accounting Dimensions","أبعاد المحاسبة"
+"Accounting Ledger","موازنة دفتر الأستاذ"
+"Accounting Reports","تقارير المحاسبة"
+"Accounts","الحسابات"
+"Accounts Payable","الحسابات الدائنة"
+"Accounts Receivable","الحسابات المدينة"
+"Accounts Settings","إعدادات الحسابات"
+"Accounts not set for Salary Component {0}","لم يتم تعيين حسابات مكون الراتب {0}"
+"Accrual Journal Entry for salaries from {0} to {1}","مدخل يومية تراكمية للرواتب من {0} إلى {1}"
+"Action","حدث"
+"Action on Submission","العمل على التقديم"
+"Actions","الإجراءات"
+"Active","نشط"
+"Activities","أنشطة"
+"Activity Name","اسم النشاط"
+"Activity Type","نوع النشاط"
+"Actual Amount","الكمية الفعلية"
+"Actual Cost","التكلفة الفعلية"
+"Actual Encashable Days","الأيام الفعلية القابلة للتنفيذ"
+"Actual balances aren't available because the leave application spans over different leave allocations. You can still apply for leaves which would be compensated during the next allocation.","الأرصدة الفعلية غير متوفرة لأن تطبيق الإجازة يمتد على مخصصات إجازة مختلفة. لا يزال بإمكانك التقدم بطلب للحصول على الأوراق التي سيتم تعويضها أثناء التخصيص التالي."
+"Add Day-wise Dates","أضف تواريخ نهارية"
+"Add Employee Property","إضافة ممتلكات الموظف"
+"Add Expense","أضف المصاريف"
+"Add Feedback","أضف ردود الفعل"
+"Add Tax","أضف الضريبة"
+"Add to Details","إضافة إلى التفاصيل"
+"Add unused leaves from previous allocations","إضافة الاجازات غير المستخدمة من المخصصات السابقة"
+"Add unused leaves from previous leave period's allocation to this allocation","أضف أوراق غير مستخدمة من تخصيص فترة الإجازة السابقة لهذا التخصيص"
+"Added On","تمت إضافة على"
+"Added tax components from the Salary Component master as the salary structure didn't have any tax component.","المكونات الضريبية المضافة من ماجستير مكون الراتب حيث أن هيكل الرواتب لم يكن لديه أي مكون ضريبي."
+"Added to details","تم اضافته الى التفاصيل"
+"Additional Amount","مبلغ إضافي"
+"Additional Information ","معلومات إضافية"
+"Additional PF","PF إضافية"
+"Additional Salary","راتب إضافي"
+"Additional Salary ","الراتب الإضافي"
+"Additional Salary for referral bonus can only be created against Employee Referral with status {0}","لا يمكن إنشاء راتب إضافي لمكافأة الإحالة إلا مقابل إحالة الموظف مع الحالة {0}"
+"Additional Salary for this salary component with {0} enabled already exists for this date","راتب إضافي لهذا مكون الرواتب مع {0} ممكّن موجود بالفعل لهذا التاريخ"
+"Additional Salary: {0} already exist for Salary Component: {1} for period {2} and {3}","الراتب الإضافي: {0} موجود بالفعل لمكون الراتب: {1} للفترة {2} و {3}"
+"Address of Organizer","عنوان المنظم"
+"Advance","مقدما"
+"Advance Account","حساب مقدم"
+"Advance Amount","المبلغ مقدما"
+"Advance Paid","مسبقا المدفوعة"
+"Advance Payments","دفعات مقدمة"
+"Advanced Filters","المرشحات المتقدمة"
+"Advances","الدفعات المقدمة"
+"All","الكل"
+"All Goals","جميع الأهداف"
+"All Jobs","جميع الوظائف"
+"All allocated assets should be returned before submission","يجب إرجاع جميع الأصول المخصصة قبل التقديم"
+"All the mandatory tasks for employee creation are not completed yet.","لم تكتمل جميع المهام الإلزامية لإنشاء الموظفين بعد."
+"Allocate Based On Leave Policy","تخصيص بناء على سياسة الإجازة"
+"Allocate Leave","تخصيص إجازة"
+"Allocate Leaves","تخصيص الأوراق"
+"Allocate leaves to {0} employee(s)?","تخصيص الأوراق إلى {0} الموظف (s)؟"
+"Allocate on Day","تخصيص في اليوم"
+"Allocated Amount","المبلغ المخصص"
+"Allocated Leaves","الإجازات المخصصة"
+"Allocated {0} leave(s) via scheduler on {1} based on the 'Allocate on Day' option set to {2}","تخصيص {0} إجازة (s) عبر Scheduler على {1} استنادًا إلى خيار ""تخصيص في اليوم"" المعين على {2}"
+"Allocating Leave","تخصيص الإجازة"
+"Allocation","توزيع"
+"Allocation Expired!","تخصيص انتهت!"
+"Allow Employee Checkin from Mobile App","السماح للموظف بالتحقق من تطبيق الهاتف المحمول"
+"Allow Encashment","السماح بالصرف"
+"Allow Geolocation Tracking","السماح بتتبع تحديد الموقع الجغرافي"
+"Allow Leave Application After (Working Days)","السماح بطلب الإجازة بعد (أيام العمل)"
+"Allow Multiple Shift Assignments for Same Date","السماح بمهام التحول المتعددة لنفس التاريخ"
+"Allow Negative Balance","السماح برصيد سالب"
+"Allow Over Allocation","السماح على التخصيص"
+"Allow Tax Exemption","السماح بالإعفاء الضريبي"
+"Allow User","تسمح للمستخدم"
+"Allow Users","السماح للمستخدمين"
+"Allow check-out after shift end time (in minutes)","السماح بتسجيل المغادرة بعد وقت انتهاء التحول (بالدقائق)"
+"Allow the following users to approve Leave Applications for block days.","السماح للمستخدمين التاليين للموافقة على طلبات الحصول على إجازة في الأيام المحظورة"
+"Allows allocating more leaves than the number of days in the allocation period.","يسمح بتخصيص أوراق أكثر من عدد الأيام في فترة التخصيص."
+"Alternating entries as IN and OUT during the same shift","بالتناوب إدخالات مثل IN و OUT خلال نفس التحول"
+"Amended From","معدل من"
+"Amount","كمية"
+"Amount Based on Formula","المبلغ على أساس الصيغة"
+"Amount based on formula","القيمة بناءا على الصيغة"
+"Amount claimed via Expense Claim","المبلغ المطالب به من خلال مطالبة المصاريف"
+"Amount of expense","مقدار المصاريف"
+"Amount paid against this encashment","المبلغ المدفوع مقابل هذا التسجيل"
+"Amount scheduled for deduction via salary","المبلغ المقرر للخصم عبر الراتب"
+"Amount should not be less than zero","لا ينبغي أن يكون المبلغ أقل من الصفر"
+"Amount that has been paid against this advance","المبلغ الذي تم دفعه مقابل هذا التقدم"
+"An amount of {0} already claimed for the component {1}, set the amount equal or greater than {2}","مبلغ {0} المطالب به بالفعل للمكون {1} ، قم بتعيين المبلغ متساوٍ أو أكبر من {2}"
+"An attendance record is linked to this checkin. Please cancel the attendance before modifying time.","يرتبط سجل الحضور بهذا الشيكات. يرجى إلغاء الحضور قبل تعديل الوقت."
+"Annual Allocation","التخصيص السنوي"
+"Annual Allocation Exceeded","التخصيص السنوي تجاوز"
+"Annual Salary","الراتب السنوي"
+"Annual Taxable Amount","المبلغ الخاضع للضريبة السنوي"
+"Any other details","أي تفاصيل أخرى"
+"Any other remarks, noteworthy effort that should go in the records","أي ملاحظات أخرى ، جهد جدير بالملاحظة يجب أن يذهب في السجلات"
+"Applicable Earnings Component","مكون الأرباح المعمول به"
+"Applicable For","قابل للتطبيق ل"
+"Applicable in the case of Employee Onboarding","ينطبق على حالة تشغيل الموظف"
+"Applicant Email Address","عنوان البريد الإلكتروني للمتقدم"
+"Applicant Name","اسم مقدم الطلب"
+"Applicant Rating","تصنيف مقدم الطلب"
+"Applicant for a Job","مقدم الطلب للحصول على وظيفة"
+"Applicant name","اسم التطبيق"
+"Application","طلب"
+"Application Status","حالة الطلب"
+"Application period cannot be across two allocation records","فترة الطلب لا يمكن ان تكون خلال سجلين مخصصين"
+"Application period cannot be outside leave allocation period","فترة الاجازة لا يمكن أن تكون خارج فترة الاجازة المسموحة للموظف.\
+<br>\
+Application period cannot be outside leave allocation period"
+"Applications Received","الطلبات المستلمة"
+"Applications received:","الطلبات المستلمة:"
+"Applies to Company","ينطبق على شركة"
+"Apply","يتقدم"
+"Apply / Approve Leaves","تطبيق / الموافقة على الأوراق"
+"Apply Filters","تطبيق المرشحات"
+"Apply Now","التطبيق الآن"
+"Appointment","موعد"
+"Appointment Date","تاريخ الموعد"
+"Appointment Letter","رسالة موعد"
+"Appointment Letter Template","قالب رسالة التعيين"
+"Appointment Letter content","محتوى رسالة التعيين"
+"Appraisal","تقييم"
+"Appraisal Cycle","دورة التقييم"
+"Appraisal Goal","الغاية من التقييم"
+"Appraisal KRA","تقييم KRA"
+"Appraisal Linking","ربط التقييم"
+"Appraisal Overview","نظرة عامة على التقييم"
+"Appraisal Template","قالب تقييم"
+"Appraisal Template Goal","الغاية من قالب التقييم"
+"Appraisal Template Missing","قالب تقييم مفقود"
+"Appraisal Template Title","عنوان قالب التقييم"
+"Appraisal Template not found for some designations.","قالب تقييم غير موجود لبعض التسميات."
+"Appraisal creation is queued. It may take a few minutes.","إنشاء التقييم في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
+"Appraisal {0} already exists for Employee {1} for this Appraisal Cycle or overlapping period","التقييم {0} موجود بالفعل للموظف {1} لدورة التقييم هذه أو فترة التداخل"
+"Appraisal {0} does not belong to Employee {1}","التقييم {0} لا ينتمي إلى الموظف {1}"
+"Appraisee","التقييم"
+"Appraisees: {0}","تقييمات: {0}"
+"Apprentice","وضع تحت التدريب"
+"Approval","موافقة"
+"Approval Status","حالة الموافقة"
+"Approval Status must be 'Approved' or 'Rejected'","حالة الموافقة يجب ان تكون (موافق عليه) او (مرفوض)"
+"Approve","يعتمد"
+"Approved","موافقة"
+"Approver","المخول بالموافقة"
+"Approvers","الموافقات"
+"Apr","أبريل"
+"Archive","أرشيف"
+"Archived","أرشفة"
+"Are you sure you want to delete the attachment","هل أنت متأكد من أنك تريد حذف المرفق"
+"Are you sure you want to delete the {0}","هل أنت متأكد أنك تريد حذف {0}"
+"Are you sure you want to email the selected salary slips?","هل أنت متأكد من أنك تريد إرسال رواتب محددة بالبريد الإلكتروني؟"
+"Are you sure you want to proceed?","هل أنت متأكد أنك تريد المتابعة؟"
+"Are you sure you want to reject the Employee Referral?","هل أنت متأكد أنك تريد رفض إحالة الموظف؟"
+"Arrival Datetime","تارخ الوصول"
+"As per your assigned Salary Structure you cannot apply for benefits","حسب هيكل الرواتب المعيّن الخاص بك ، لا يمكنك التقدم بطلب للحصول على مخصصات"
+"Asset Name","اسم الأصول"
+"Asset Recovery Cost for {0}: {1}","تكلفة استرداد الأصول لـ {0}: {1}"
+"Assets Allocated","الأصول المخصصة"
+"Assign Salary Structure to {0} employee(s)?","تعيين هيكل الراتب إلى {0} الموظف (s)؟"
+"Assign Shift","تعيين التحول"
+"Assign Shift Schedule","تعيين جدول التحول"
+"Assign Structure","تعيين هيكل"
+"Assigning Salary Structure","تعيين هيكل الراتب"
+"Assigning Structure...","تعيين هيكل ..."
+"Assigning Structures...","هيكلية التخصيص..."
+"Assigning...","تعيين ..."
+"Assignment based on","المهمة على أساس"
+"Associate Job Opening","ربط الوظيفة الافتتاح"
+"Associated Document","وثيقة مرتبطة"
+"Associated Document Type","نوع المستند المرتبط"
+"At least one interview has to be selected.","يجب اختيار مقابلة واحدة على الأقل."
+"Attach Proof","نعلق دليل"
+"Attachments","المرفقات"
+"Attendance","الحضور"
+"Attendance Calendar","تقويم الحضور"
+"Attendance Count","عدد الحضور"
+"Attendance Date","تاريخ الحضور"
+"Attendance From Date","الحضور من تاريخ"
+"Attendance From Date and Attendance To Date is mandatory","الحقل الحضور من تاريخ والحضور إلى تاريخ إلزامية\
+<br>\
+Attendance From Date and Attendance To Date is mandatory"
+"Attendance ID","معرف الحضور"
+"Attendance Marked","الحضور ملحوظ"
+"Attendance Request","طلب حضور"
+"Attendance Request History","تاريخ طلب الحضور"
+"Attendance Settings","إعدادات الحضور"
+"Attendance To Date","الحضور إلى تاريخ"
+"Attendance Updated","تحديث الحضور"
+"Attendance Warnings","تحذيرات الحضور"
+"Attendance date {0} can not be less than employee {1}'s joining date: {2}","لا يمكن أن يكون تاريخ الحضور {0} أقل من تاريخ الانضمام إلى الموظف {1}"
+"Attendance for all the employees under this criteria has been marked already.","لقد تم بالفعل تحديد الحضور لجميع الموظفين بموجب هذه المعايير."
+"Attendance for employee {0} is already marked for an overlapping shift {1}: {2}","تم وضع علامة على الحضور للموظف {0} للتحول المتداخل {1}: {2}"
+"Attendance for employee {0} is already marked for the date {1}: {2}","تم وضع علامة على الحضور للموظف {0} للتاريخ {1}: {2}"
+"Attendance for employee {0} is already marked for the following dates: {1}","تم وضع علامة على الحضور للموظف {0} للتواريخ التالية: {1}"
+"Attendance for the following dates will be skipped/overwritten on submission","سيتم تخطي/كتابة الحضور للتواريخ التالية عند التقديم"
+"Attendance from {0} to {1} has already been marked for the Employee {2}","لقد تم بالفعل وضع علامة على الحضور من {0} إلى {1} للموظف {2}"
+"Attendance has been marked as per employee check-ins","تم وضع علامة على الحضور حسب تسجيل وصول الموظف"
+"Attendance has been marked for all the employees between the selected payroll dates.","تم وضع علامة على الحضور لجميع الموظفين بين تواريخ كشوف المرتبات المحددة."
+"Attendance is pending for these employees between the selected payroll dates. Mark attendance to proceed. Refer {0} for details.","الحضور معلق لهؤلاء الموظفين بين تواريخ كشوف المرتبات المحددة. علامة الحضور للمضي قدما. الرجوع {0} للحصول على التفاصيل."
+"Attendance marked successfully","يحمل الحضور بنجاح"
+"Attendance not submitted for {0} as it is a Holiday.","لم يتم إرسال الحضور إلى {0} لأنه عطلة."
+"Attendance not submitted for {0} as {1} is on leave.","لم يتم تقديم الحضور لـ {0} لأن {1} في إجازة."
+"Attendance will be marked automatically only after this date.","سيتم تمييز الحضور تلقائيًا بعد هذا التاريخ فقط."
+"AttendanceRequestListView","attencereQuestListView"
+"Attendees","الحضور"
+"Attrition Count","عدد الاستنزاف"
+"Aug","أغسطس"
+"Auto Attendance Settings","إعدادات الحضور التلقائي"
+"Auto Leave Encashment","إجازة مغادرة السيارات"
+"Automated Based on Goal Progress","آلي بناء على تقدم الهدف"
+"Automatically fetches all assets allocated to the employee, if any","يجلب تلقائيًا جميع الأصول المخصصة للموظف ، إن وجدت"
+"Automatically update Last Sync of Checkin","تحديث تلقائيا آخر مزامنة من checkin"
+"Available Leave(s)","الإجازة (الإجازة) المتاحة"
+"Available Leaves","الأوراق المتاحة"
+"Average Feedback Score","متوسط ​​درجة ردود الفعل"
+"Average Rating","متوسط ​​التصنيف"
+"Average of Goal Score, Feedback Score, and Self Appraisal Score (out of 5)","متوسط ​​درجة الأهداف ، درجة التغذية المرتدة ، ونقاط التقييم الذاتي (من أصل 5)"
+"Average rating of demonstrated skills","متوسط ​​تصنيف المهارات الموضحة"
+"Avg Feedback Score","درجة التغذية المرتدة AVG"
+"Avg Utilization","استخدام AVG"
+"Avg Utilization (Billed Only)","استخدام AVG (فواتير فقط)"
+"Awaiting Response","انتظار الرد"
+"Backdated Leave Application is restricted. Please set the {} in {}","تطبيق الإجازة الخلفية مقيد. يرجى تعيين {} في {}"
+"Bank","مصرف"
+"Bank Account","حساب مصرفي"
+"Bank Account No","رقم الحساب البنكي"
+"Bank Details","تفاصيل البنك"
+"Bank Entries","مدخلات البنك"
+"Bank Name","اسم المصرف"
+"Bank Remittance","التحويلات المصرفية"
+"Base","الاساسي"
+"Base & Variable","قاعدة ومتغير"
+"Begin On (Days)","ابدأ (بالأيام)"
+"Begin check-in before shift start time (in minutes)","ابدأ تسجيل الوصول قبل وقت بدء التحول (بالدقائق)"
+"Beginner","مبتدئ"
+"Below is the list of upcoming holidays for you:","فيما يلي قائمة العطلات القادمة لك:"
+"Benefit","فائدة"
+"Benefits","فوائد"
+"Bill Amount","مبلغ فاتورة"
+"Billed Hours","ساعات فواتير"
+"Billed Hours (B)","ساعات الفواتير (ب)"
+"Bimonthly","نصف شهري"
+"Birthday Reminder","تذكير عيد ميلاد"
+"Birthday Reminder 🎂","تذكير عيد الميلاد 🎂"
+"Birthdays","أعياد الميلاد"
+"Block Date","تاريخ الحظر"
+"Block Days","الأيام المحظورة"
+"Block Holidays on important days.","عطلات كتلة في أيام مهمة."
+"Blue","أزرق"
+"Body","الجسم"
+"Bonus","علاوة"
+"Bonus Amount","أجمالي المكافأة"
+"Bonus Payment Date","تاريخ دفع المكافأة"
+"Bonus Payment Date cannot be a past date","لا يمكن أن يكون تاريخ الدفع المكافأ تاريخًا سابقًا"
+"Branch","فرع"
+"Branch: {0}","الفرع: {0}"
+"Bulk Assignments","المهام السائبة"
+"Bulk Leave Policy Assignment","تعيين سياسة الإجازة السائبة"
+"Bulk Salary Structure Assignment","تعيين هيكل الرواتب بالجملة"
+"By default, the Final Score is calculated as the average of Goal Score, Feedback Score, and Self Appraisal Score. Enable this to set a different formula","بشكل افتراضي ، يتم حساب النتيجة النهائية على أنها متوسط ​​درجة الأهداف ، ونقاط التغذية المرتدة ، ودرجة التقييم الذاتي. تمكين هذا من وضع صيغة مختلفة"
+"CTC","CTC"
+"Calculate Final Score based on Formula","حساب النتيجة النهائية على أساس الصيغة"
+"Calculate Gratuity Amount Based On","احسب مبلغ الإكراميات على أساس"
+"Calculate Payroll Working Days Based On","حساب أيام عمل الرواتب على أساس"
+"Calculated in days","تحسب بالأيام"
+"Calls","مكالمات هاتفية"
+"Campaign","حملة"
+"Cancel","إلغاء"
+"Cancellation Queued","الإلغاء في قائمة الانتظار"
+"Cancelled","ألغيت"
+"Cannot Modify Time","لا يمكن تعديل الوقت"
+"Cannot allocate leaves outside the allocation period {0} - {1}","لا يمكن تخصيص الأوراق خارج فترة التخصيص {0} - {1}"
+"Cannot break shift after end date","لا يمكن كسر الوردية بعد تاريخ الانتهاء"
+"Cannot break shift before start date","لا يمكن كسر الوردية قبل تاريخ البدء"
+"Cannot cancel Shift Assignment: {0} as it is linked to Attendance: {1}","لا يمكن إلغاء تعيين الوردية: {0} لأنه مرتبط بالحضور: {1}"
+"Cannot cancel Shift Assignment: {0} as it is linked to Employee Checkin: {1}","لا يمكن إلغاء تعيين الوردية: {0} لأنه مرتبط بتسجيل حضور الموظف: {1}"
+"Cannot create Salary Slip for Employee joining after Payroll Period","لا يمكن إنشاء قسيمة راتب لموظف التحق بعد فترة كشف الرواتب"
+"Cannot create Salary Slip for Employee who has left before Payroll Period","لا يمكن إنشاء قسيمة راتب لموظف غادر قبل فترة كشف الرواتب"
+"Cannot create a Job Applicant against a closed Job Opening","لا يمكن إنشاء متقدم لوظيفة لشاغر وظيفي مغلق"
+"Cannot create or change transactions against an Appraisal Cycle with status {0}.","لا يمكن إنشاء أو تغيير المعاملات في دورة تقييم حالتها {0}."
+"Cannot find active Leave Period","لا يمكن ايجاد فترة الاجازة النشطة"
+"Cannot mark attendance for an Inactive employee {0}","لا يمكن تسجيل الحضور لموظف غير نشط {0}"
+"Cannot submit. Attendance is not marked for some employees.","لا يمكن التقديم. لم يتم تسجيل الحضور لبعض الموظفين."
+"Cannot update allocation for {0} after submission","لا يمكن تحديث التخصيص لـ {0} بعد التقديم"
+"Cannot update status of Goal groups","لا يمكن تحديث حالة مجموعات الأهداف"
+"Carry Forward","المضي قدما"
+"Carry Forwarded Leaves","تحمل أوراق واحال"
+"Casual Leave","أجازة عادية"
+"Cause of Grievance","سبب التظلم"
+"Change","تغيير"
+"Changing '{0}' to {1}.","جاري تغيير '{0}' إلى {1}."
+"Changing KRA in this parent goal will align all the child goals to the same KRA, if any.","سيؤدي تغيير مؤشرات الأداء الرئيسية في هذا الهدف الرئيسي إلى مواءمة جميع الأهداف الفرعية مع نفس مؤشرات الأداء الرئيسية، إن وجدت."
+"Chart of Accounts","الشجرة المحاسبية"
+"Chart of Cost Centers","دليل مراكز التكلفة"
+"Check <a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> for more details","تحقق من <a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> لمزيد من التفاصيل"
+"Check Error Log {0} for more details.","تحقق من سجل الأخطاء {0} لمزيد من التفاصيل."
+"Check In","تسجيل الحضور"
+"Check Out","تسجيل الانصراف"
+"Check Vacancies On Job Offer Creation","التحقق من الوظائف الشاغرة عند إنشاء عرض العمل"
+"Check {0} for more details","تحقق من {0} لمزيد من التفاصيل"
+"Check-in","تسجيل الحضور"
+"Check-in Date","تاريخ الوصول"
+"Check-out","تسجيل الانصراف"
+"Check-out Date","موعد انتهاء الأقامة"
+"Checkin Radius","نطاق تسجيل الحضور"
+"Child nodes can only be created under 'Group' type nodes","لا يمكن إنشاء العقد الفرعية إلا ضمن العقد من نوع 'مجموعة'"
+"Claim Benefit For","فائدة للمطالبة"
+"Claim Date","تاريخ المطالبة"
+"Claim an Expense","المطالبة بمصروف"
+"Claimed","ادعى"
+"Claimed Amount","المبلغ المطالب به"
+"Claims","المطالبات"
+"Clear All","مسح الكل"
+"Clearance Date","تاريخ الاستحقاق"
+"Cleared","تم الاجتياز"
+"Click {0} to change the configuration and then resave salary slip","انقر فوق {0} لتغيير الإعدادات ثم أعد حفظ قسيمة الراتب"
+"Close","أغلق"
+"Closed","مغلق"
+"Closed On","أُغلق في"
+"Closes On","يُغلق في"
+"Closes on:","يُغلق في:"
+"Closing Balance","الرصيد الختامي"
+"Closing Notes","ملاحظات ختامية"
+"Collapse All","انهيار جميع"
+"Color","اللون"
+"Comments","تعليقات"
+"Commission","عمولة"
+"Company","شركة"
+"Company Details","تفاصيل الشركة"
+"Company Information","معلومات الشركة"
+"Compensatory Leave Request","طلب الإجازة التعويضية"
+"Compensatory Off","تعويض"
+"Completed","أكتمل"
+"Completed On","اكتمل في"
+"Completing onboarding","إكمال عملية الإلحاق"
+"Component","مكون"
+"Component properties and references ","خصائص المكونات والمراجع"
+"Condition","الحالة"
+"Condition & Formula","الشرط والصيغة"
+"Condition and Formula Help","مساعدة الشرط والصيغة"
+"Condition and formula","الشرط والصيغة"
+"Conditions","الظروف"
+"Conditions and Formula variable and example","متغير الشروط والصيغة والمثال"
+"Conference","مؤتمر"
+"Confirm","أكد"
+"Confirm {0}","تأكيد {0}"
+"Connections","الاتصالات"
+"Consider Grace Period","مراعاة فترة السماح"
+"Consider Marked Attendance on Holidays","مراعاة الحضور المسجل في العطلات"
+"Consider Tax Exemption Declaration","مراعاة إقرار الإعفاء الضريبي"
+"Consider Unmarked Attendance As","ضع في اعتبارك الحضور غير المحدد باسم"
+"Consolidate Leave Types","دمج أنواع الإجازات"
+"Contact Email","عنوان البريد الإلكتروني"
+"Contact Information","معلومات الاتصال"
+"Contact No.","الاتصال رقم"
+"Contact Number","رقم جهة الإتصال"
+"Continue","استمر"
+"Contract","عقد"
+"Copy of Invitation/Announcement","نسخة من الدعوة / الإعلان"
+"Cost","كلفة"
+"Cost Center","مركز التكلفة"
+"Cost Centers","مراكز التكلفة"
+"Costing","تكلف"
+"Costing Details","تفاصيل التكلفة"
+"Could not submit some Salary Slips: {}","تعذر تقديم بعض قسائم الرواتب: {}"
+"Could not update Goal","تعذر تحديث الهدف"
+"Could not update goals","تعذر تحديث الأهداف"
+"Country","الدولة"
+"Country Fixture Deletion Failed","فشل حذف بيانات البلد الثابتة"
+"Country Setup failed","فشل إعداد البلد"
+"Course","المقرر التعليمي"
+"Cover Letter","محتويات الرسالة المرفقة"
+"Create","انشاء"
+"Create Additional Salary","إنشاء راتب إضافي"
+"Create Appraisals","إنشاء التقييمات"
+"Create Employee","إنشاء موظف"
+"Create Interview","إنشاء مقابلة"
+"Create Job Applicant","إنشاء متقدم لوظيفة"
+"Create Job Opening","إنشاء شاغر وظيفي"
+"Create Journal Entry","إنشاء إدخال دفتر اليومية"
+"Create New Employee Id","إنشاء رمز موظف جديد"
+"Create Payment Entry","إنشاء إدخال الدفع"
+"Create Salary Slip","إنشاء كشف الرواتب"
+"Create Salary Slips","إنشاء قسائم الرواتب"
+"Create Separate Payment Entry Against Benefit Claim","إنشاء إدخال دفع منفصل ضد مطالبات الاستحقاق"
+"Create Shifts After","إنشاء ورديات بعد"
+"Creating Appraisals","جاري إنشاء التقييمات"
+"Creating Payment Entries......","إنشاء إدخالات الدفع ......"
+"Creating Salary Slips...","إنشاء قسائم الرواتب ..."
+"Creating {0}...","إنشاء {0}..."
+"Creation Date","تاريخ الإنشاء"
+"Creation Failed","فشل الإنشاء"
+"Creation of Salary Structure Assignments has been queued. It may take a few minutes.","تم وضع إنشاء تعيينات هياكل الرواتب في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
+"Creation of {0} has been queued. It may take a few minutes.","تم وضع إنشاء {0} في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
+"Criteria","المعايير"
+"Criteria based on which employee should be rated in Performance Feedback and Self Appraisal","المعايير التي يجب على أساسها تقييم الموظف في تقييم الأداء والتقييم الذاتي"
+"Currency","العملة"
+"Currency ","العملة "
+"Currency of selected Income Tax Slab should be {0} instead of {1}","يجب أن تكون عملة شريحة ضريبة الدخل المحددة {0} بدلاً من {1}"
+"Current","تيار"
+"Current CTC","التكلفة الإجمالية الحالية للموظف"
+"Current Count","العدد الحالي"
+"Current Employer ","صاحب العمل الحالي "
+"Current Job Title","المسمى الوظيفي الحالي"
+"Current Month Income Tax","ضريبة الدخل للشهر الحالي"
+"Current Odometer Value should be greater than Last Odometer Value {0}","يجب أن تكون قيمة عداد المسافات الحالية أكبر من قيمة آخر عداد المسافات {0}"
+"Current Odometer value ","قيمة عداد المسافات الحالية"
+"Current Openings","الفتحات الحالية"
+"Current Slab","الشريحة الحالية"
+"Current Work Experience","الخبرة العملية الحالية"
+"Currently, there is no {0} leave period for this date to create/update leave allocation.","حاليًا، لا توجد فترة إجازة {0} لهذا التاريخ لإنشاء/تحديث تخصيص الإجازة."
+"Custom Range","نطاق مخصص"
+"Customer","العميل"
+"Cyan","سماوي"
+"Cycle Name","اسم الدورة"
+"Cycles","الدورات"
+"Daily","يوميا"
+"Daily Work Summary","ملخص العمل اليومي"
+"Daily Work Summary Group","مجموعة ملخص العمل اليومي"
+"Daily Work Summary Group User","مستخدم مجموعة ملخص العمل اليومي"
+"Daily Work Summary Replies","ملخص العمل اليومي الردود"
+"Dashboard","لوحة القيادة"
+"Date","تاريخ"
+"Date ","التاريخ "
+"Date Range","النطاق الزمني"
+"Date is repeated","تاريخ متكرر\
+<br>\
+Date is repeated"
+"Date of Birth","تاريخ الميلاد"
+"Date of Joining","تاريخ الالتحاق بالعمل"
+"Dates & Reason","التواريخ والسبب"
+"Dates Based On","التواريخ بناءً على"
+"Days for which Holidays are blocked for this department.","الأيام التي تم حظر العطلات فيها لهذه الإدارة."
+"Debit A/C Number","رقم الخصم"
+"Dec","ديسمبر"
+"Decision Pending","القرار معلق"
+"Declarations","التصريحات"
+"Declared Amount","المبلغ المعلن"
+"Deduct Full Tax on Selected Payroll Date","خصم الضريبة الكاملة على تاريخ الرواتب المحدد"
+"Deduct Tax For Unclaimed Employee Benefits","خصم الضريبة لمزايا الموظف غير المطالب بها"
+"Deduct Tax For Unsubmitted Tax Exemption Proof","خصم الضريبة للحصول على إعفاء من الضرائب غير معتمد"
+"Deduction","خصم"
+"Deduction Reports","تقارير الاستقطاعات"
+"Deduction from Salary","خصم من الراتب"
+"Deductions","استقطاعات"
+"Deductions before tax calculation","الاستقطاعات قبل حساب الضريبة"
+"Default Account","الافتراضي حساب"
+"Default Amount","المبلغ الافتراضي"
+"Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected.","حساب الخزنة / البنك المعتاد سوف يعدل تلقائيا في القيود اليومية للمرتب عند اختيار هذا الوضع."
+"Default Base Pay","الأجر الأساسي الافتراضي"
+"Default Employee Advance Account","حساب سلفة الموظفين الافتراضي"
+"Default Expense Claim Payable Account","حساب مطالبات المصروفات المستحقة الدفع الافتراضي"
+"Default Payroll Payable Account","حساب الرواتب المستحقة الدفع الافتراضي"
+"Default Salary Structure","هيكل الراتب الافتراضي"
+"Default Shift","الوردية الافتراضية"
+"Deferred Expense Account","حساب المصروفات المؤجلة"
+"Delete","حذف"
+"Delete Attachment","حذف المرفق"
+"Delete {0}","حذف {0}"
+"Delivery Trip","رحلة التسليم"
+"Department","قسم"
+"Department Approver","موافقة القسم"
+"Department Wise Openings","الوظائف الشاغرة حسب الإدارة"
+"Department {0} does not belong to company: {1}","الإدارة {0} لا تنتمي إلى الشركة: {1}"
+"Department: {0}","الإدارة: {0}"
+"Departure Datetime","موعد المغادرة"
+"Depends On Payment Days","يعتمد على أيام الدفع"
+"Depends on Payment Days","يعتمد على أيام الدفع"
+"Description","وصف"
+"Description of a Job Opening","وصف الشاغر الوظيفي"
+"Designation","تعيين"
+"Designation Skill","مهارة التعيين"
+"Designation: {0}","المنصب: {0}"
+"Details","تفاصيل"
+"Details of Sponsor (Name, Location)","تفاصيل الراعي (الاسم والموقع)"
+"Determine Check-in and Check-out","تحديد الوصول والمغادرة"
+"Disable","تعطيل"
+"Disable Rounded Total","تعطيل الاجمالي المقرب"
+"Disable {0} for the {1} component, to prevent the amount from being deducted twice, as its formula already uses a payment-days-based component.","عطّل {0} لمكون {1}، لمنع خصم المبلغ مرتين، حيث تستخدم صيغته بالفعل مكونًا يعتمد على أيام الدفع."
+"Disable {0} or {1} to proceed.","عطّل {0} أو {1} للمتابعة."
+"Disabled","معطل"
+"Disabling Push Notifications...","جاري تعطيل الإشعارات الفورية..."
+"Dismiss","رفض"
+"Dispensed Amount (Pro-rated)","المبلغ المخفَّض (المحسوب)"
+"Do Not Include in Total","لا تدرج في المجموع"
+"Do not include in total","لا تدرج في المجموع"
+"Do you still want to proceed?","هل ما زلت تريد المتابعة؟"
+"Do you want to update the Job Applicant {0} as {1} based on this interview result?","هل تريد تحديث المتقدم للوظيفة {0} إلى {1} بناءً على نتيجة هذه المقابلة؟"
+"Document Status","حالة المستند"
+"Document {0} failed!","فشل المستند {0}!"
+"Domestic","المنزلي"
+"Download PDF","تحميل PDF"
+"Download Template","تحميل الوثيقة"
+"Draft","مشروع"
+"Driver","سائق"
+"Duplicate Attendance","حضور مكرر"
+"Duplicate Entry","إدخال مكرر"
+"Duplicate Job Requisition","طلب توظيف مكرر"
+"Duplicate Overwritten Salary","راتب مستبدل مكرر"
+"Duplicate Salary Withholding","حجز راتب مكرر"
+"Duration (Days)","المدة (أيام)"
+"ERROR({0}): {1}","خطأ({0}): {1}"
+"Early Exit","الخروج المبكر"
+"Early Exit By","انصراف مبكر بـ"
+"Early Exit Grace Period","الخروج المبكر فترة سماح"
+"Early Exits","الانصرافات المبكرة"
+"Earned Leave","إجازة مكتسبة"
+"Earned Leave Frequency","تكرار الإجازات المكتسبة"
+"Earned Leaves","الإجازات المكتسبة"
+"Earned Leaves are allocated as per the configured frequency via scheduler.","يتم تخصيص الإجازات المكتسبة حسب التكرار المحدد عبر المجدول."
+"Earned Leaves are auto-allocated via scheduler based on the annual allocation set in the Leave Policy: {0}","يتم تخصيص الإجازات المكتسبة تلقائيًا عبر المجدول بناءً على التخصيص السنوي المحدد في سياسة الإجازات: {0}"
+"Earned Leaves are leaves earned by an Employee after working with the company for a certain amount of time. Enabling this will allocate leaves on pro-rata basis by automatically updating Leave Allocation for leaves of this type at intervals set by 'Earned Leave Frequency.","الإجازات المكتسبة هي إجازات يكتسبها الموظف بعد العمل مع الشركة لفترة زمنية معينة. سيؤدي تمكين هذا إلى تخصيص الإجازات على أساس تناسبي عن طريق التحديث التلقائي لتخصيص الإجازات لهذا النوع من الإجازات على فترات زمنية يحددها 'تكرار الإجازة المكتسبة'."
+"Earning","مستحق"
+"Earning Component","أحدى المستحقات"
+"Earning Salary Component is required for Employee Referral Bonus.","مكون راتب الاستحقاق مطلوب لمكافأة إحالة الموظف."
+"Earnings","المستحقات"
+"Earnings & Deductions","الاستحقاقات والاستقطاعات"
+"Edit","تصحيح"
+"Edit Expense Item","تعديل بند المصروف"
+"Edit Expense Tax","تعديل ضريبة المصروف"
+"Effective From","ساري من"
+"Effective To","ساري حتى"
+"Effective from","ساري المفعول من"
+"Email","البريد الإلكتروني"
+"Email Address","البريد الالكتروني"
+"Email ID","عنوان الايميل"
+"Email Salary Slip to Employee","إرسال كشف الراتب للموظفين بالبريد الالكتروني"
+"Email Salary Slips","إرسال قسائم الرواتب بالبريد الإلكتروني"
+"Email Sent To","أرسل البريد الإلكتروني إلى"
+"Email Template","قالب البريد الإلكتروني"
+"Email sent to {0}","أرسل بريد إلكتروني إلى {0}"
+"Emails salary slip to employee based on preferred email selected in Employee","ارسال كشف الراتب إلي البريد الاكتروني المفضل من قبل الموظف"
+"Employee","الموظف"
+"Employee A/C Number","موظف A / C رقم"
+"Employee Advance","تقدم الموظف"
+"Employee Advance Balance","رصيد سلفة الموظف"
+"Employee Advance Summary","ملخص متقدم للموظف"
+"Employee Advances","سلف الموظفين"
+"Employee Analytics","تحليلات الموظفين"
+"Employee Attendance Tool","أداة الحضور للموظفين"
+"Employee Benefit Application","تطبيق مزايا الموظف"
+"Employee Benefit Application Detail","تفاصيل تطبيق استحقاق الموظف"
+"Employee Benefit Claim","مطالبة مصلحة الموظف"
+"Employee Benefits","الميزات للموظف"
+"Employee Birthday","أعياد ميلاد الموظفين"
+"Employee Boarding Activity","نشاط صعود الموظف"
+"Employee Checkin","فحص الموظف"
+"Employee Checkin History","سجل حضور الموظف"
+"Employee Cost Center","مركز تكلفة الموظف"
+"Employee Details","موظف تفاصيل"
+"Employee Emails","رسائل البريد الإلكتروني للموظفين"
+"Employee Exit","إنهاء خدمة الموظف"
+"Employee Exit Settings","إعدادات إنهاء خدمة الموظف"
+"Employee Exits","حالات إنهاء خدمة الموظفين"
+"Employee Feedback Criteria","معايير تقييم الموظفين"
+"Employee Feedback Rating","تقييم أداء الموظف"
+"Employee Grade","درجة الموظف"
+"Employee Grievance","تظلم الموظف"
+"Employee Group","مجموعة الموظفين"
+"Employee Health Insurance","التأمين الصحي للموظف"
+"Employee Hours Utilization Based On Timesheet","استغلال ساعات الموظف بناءً على الجدول الزمني"
+"Employee Image","صورة الموظف"
+"Employee Incentive","حافز الموظف"
+"Employee Info","معلومات الموظف"
+"Employee Information","معلومات الموظف"
+"Employee Journey","المسار الوظيفي للموظف"
+"Employee Leave Balance","رصيد إجازات الموظف"
+"Employee Leave Balance Summary","ملخص رصيد إجازات الموظف"
+"Employee Lifecycle","دورة حياة الموظف"
+"Employee Loan","قرض الموظف"
+"Employee Name","اسم الموظف"
+"Employee Naming By","تسمية الموظف حسب"
+"Employee Number","رقم الموظف"
+"Employee Onboarding","اعداد الموظف"
+"Employee Onboarding Template","قالب Onboarding الموظف"
+"Employee Onboarding: {0} already exists for Job Applicant: {1}","إلحاق الموظف: {0} موجود بالفعل للمتقدم للوظيفة: {1}"
+"Employee Other Income","دخل الموظف الآخر"
+"Employee Performance Feedback","تقييم أداء الموظف"
+"Employee Promotion","ترقية الموظف"
+"Employee Promotion Details","تفاصيل ترقية الموظف"
+"Employee Promotion cannot be submitted before Promotion Date","لا يمكن تقديم ترقية الموظف قبل تاريخ الترقية"
+"Employee Property History","تاريخ الممتلكات الموظف"
+"Employee Referral","إحالة موظف"
+"Employee Referral {0} is not applicable for referral bonus.","إحالة الموظف {0} غير مؤهلة لمكافأة الإحالة."
+"Employee Referrals","إحالات الموظفين"
+"Employee Responsible ","الموظف المسؤول "
+"Employee Retained","تم الاحتفاظ بالموظف"
+"Employee Separation","فصل الموظف"
+"Employee Separation Template","قالب فصل الموظفين"
+"Employee Settings","إعدادات الموظف"
+"Employee Skill","مهارة الموظف"
+"Employee Skill Map","خريطة مهارة الموظف"
+"Employee Skills","مهارات الموظف"
+"Employee Status","حالة الموظف"
+"Employee Tax Exemption Category","فئة الإعفاء من ضريبة الموظف"
+"Employee Tax Exemption Declaration","إعلان الإعفاء من ضريبة الموظف"
+"Employee Tax Exemption Declaration Category","فئة الإعفاء من ضريبة الموظف"
+"Employee Tax Exemption Proof Submission","إقرار الإعفاء من ضريبة الموظف"
+"Employee Tax Exemption Proof Submission Detail","إعفاء من ضريبة الموظف"
+"Employee Tax Exemption Sub Category","فئة الإعفاء من ضريبة الموظفين"
+"Employee Training","تدريب الموظفين"
+"Employee Transfer","نقل الموظفين"
+"Employee Transfer Detail","نقل موظف التفاصيل"
+"Employee Transfer Details","تفاصيل نقل الموظف"
+"Employee Transfer cannot be submitted before Transfer Date","لا يمكن تقديم نقل الموظف قبل تاريخ النقل"
+"Employee can be named by Employee ID if you assign one, or via Naming Series. Select your preference here.","يمكن تسمية الموظف عن طريق معرف الموظف إذا قمت بتعيين واحد، أو عبر سلسلة التسمية. حدد تفضيلك هنا."
+"Employee name","اسم الموظف"
+"Employee records are created using the selected option","يتم إنشاء سجلات الموظفين باستخدام الخيار المحدد"
+"Employee was marked Absent due to missing Employee Checkins.","تم تسجيل الموظف غائبًا بسبب عدم وجود تسجيلات حضور للموظف."
+"Employee was marked Absent for not meeting the working hours threshold.","تم تسجيل الموظف غائبًا لعدم استيفاء الحد الأدنى لساعات العمل."
+"Employee {0} already has an Attendance Request {1} that overlaps with this period","لدى الموظف {0} بالفعل طلب حضور {1} يتداخل مع هذه الفترة"
+"Employee {0} already has an active Shift {1}: {2} that overlaps within this period.","لدى الموظف {0} بالفعل وردية نشطة {1}: {2} تتداخل مع هذه الفترة."
+"Employee {0} already submitted an application {1} for the payroll period {2}","قدم الموظف {0} بالفعل طلبًا {1} لفترة كشوف المرتبات {2}"
+"Employee {0} has already applied for Shift {1}: {2} that overlaps within this period","لقد تقدم الموظف {0} بالفعل بطلب وردية {1}: {2} تتداخل مع هذه الفترة"
+"Employee {0} has already applied for {1} between {2} and {3} : {4}","لقد تقدم الموظف {0} بالفعل بطلب {1} بين {2} و {3}: {4}"
+"Employee {0} has no maximum benefit amount","الموظف {0} ليس لديه الحد الأقصى لمبلغ الاستحقاق"
+"Employee {0} is not active or does not exist","الموظف {0} غير نشط أو غير موجود\
+<br>\
+Employee {0} is not active or does not exist"
+"Employee {0} is on Leave on {1}","الموظف {0} في وضع الإجازة على {1}"
+"Employee {0} not found in Training Event Participants.","الموظف {0} غير موجود في المشاركين في حدث التدريب."
+"Employee {0} on Half day on {1}","الموظف {0} لديه اجازة نصف يوم في {1}"
+"Employee {0} relieved on {1} must be set as 'Left'","الموظف {0} الذي انتهت خدمته في {1} يجب تعيينه كـ 'غادر'"
+"Employee: {0} have to complete minimum {1} years for gratuity","الموظف: {0} يجب أن يكمل {1} سنوات كحد أدنى للحصول على مكافأة نهاية الخدمة"
+"Employees","الموظفين"
+"Employees HTML","الموظفين HTML"
+"Employees Working on a Holiday","الموظفون العاملون في عطلة"
+"Employees cannot give feedback to themselves. Use {0} instead: {1}","لا يمكن للموظفين تقديم ملاحظات لأنفسهم. استخدم {0} بدلاً من ذلك: {1}"
+"Employees will miss holiday reminders from {} until {}. <br> Do you want to proceed with this change?","سيفوت الموظفون تذكيرات العطلات من {} حتى {}. <br> هل تريد المتابعة مع هذا التغيير؟"
+"Employees without Feedback: {0}","موظفون بدون تقييم: {0}"
+"Employees without Goals: {0}","موظفون بدون أهداف: {0}"
+"Employees working on a holiday","الموظفون يعملون في يوم العطلة"
+"Employment Type","نوع التوظيف"
+"Enable Auto Attendance","تمكين الحضور التلقائي"
+"Enable Early Exit Marking","تمكين تحديد الانصراف المبكر"
+"Enable Late Entry Marking","تمكين تحديد الحضور المتأخر"
+"Enable Push Notifications","تمكين الإشعارات الفورية"
+"Enabled","تمكين"
+"Enabling Push Notifications...","جاري تمكين الإشعارات الفورية..."
+"Encashment","المدفوعات النقدية"
+"Encashment Amount","مبلغ مقطوع"
+"Encashment Date","تاريخ التحصيل"
+"Encashment Days","أيام صرف الرصيد"
+"Encashment Days cannot exceed {0} {1} as per Leave Type settings","أيام صرف الرصيد لا يمكن أن تتجاوز {0} {1} حسب إعدادات نوع الإجازة"
+"Encashment Limit Applied","تم تطبيق حد صرف الرصيد"
+"Encrypt Salary Slips in Emails","تشفير قسائم الرواتب في رسائل البريد الإلكتروني"
+"End","النهاية"
+"End Date","نهاية التاريخ"
+"End Date cannot be before Start Date","لا يمكن أن يكون تاريخ الانتهاء قبل تاريخ البدء"
+"End Time","وقت الانتهاء"
+"End date: {0}","تاريخ الانتهاء: {0}"
+"End time cannot be before start time","لا يمكن أن يكون وقت الانتهاء قبل وقت البدء"
+"Energy Point Log","سجل نقطة الطاقة"
+"Energy Point Rule","قاعدة نقطة الطاقة"
+"Energy Point Settings","إعدادات نقطة الطاقة"
+"Energy Points","نقاط الطاقة"
+"Enter the Standard Working Hours for a normal work day. These hours will be used in calculations of reports such as Employee Hours Utilization and Project Profitability analysis.","أدخل ساعات العمل القياسية ليوم عمل عادي. سيتم استخدام هذه الساعات في حسابات التقارير مثل تقرير استغلال ساعات عمل الموظف وتحليل ربحية المشاريع."
+"Enter the number of leaves you want to allocate for the period.","أدخل عدد الإجازات التي تريد تخصيصها للفترة."
+"Enter {0}","أدخل {0}"
+"Error","خطأ"
+"Error Log","سجل الأخطاء"
+"Error Message","رسالة خطأ"
+"Error creating {0}","خطأ في إنشاء {0}"
+"Error deleting {0}","خطأ في حذف {0}"
+"Error in formula or condition","خطأ في الصيغة أو الشرط"
+"Error in formula or condition: {0} in Income Tax Slab","خطأ في الصيغة أو الشرط: {0} في شريحة ضريبة الدخل"
+"Error in some rows","خطأ في بعض الصفوف"
+"Error updating {0}","خطأ في تحديث {0}"
+"Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> <b>Error:</b> {error} <br><br> <b>Hint:</b> {description}","خطأ أثناء تقييم {doctype} {doclink} في الصف {row_id}. <br><br> <b>خطأ:</b> {error} <br><br> <b>تلميح:</b> {description}"
+"Estimated Cost Per Position","التكلفة التقديرية لكل موضع"
+"Evaluation","تقييم"
+"Evaluation Date","تاريخ التقييم"
+"Evaluation Method cannot be changed as there are existing appraisals created for this cycle","لا يمكن تغيير طريقة التقييم نظرًا لوجود تقييمات حالية تم إنشاؤها لهذه الدورة"
+"Event Details","تفاصيل الحدث"
+"Event Link","رابط الحدث"
+"Event Location","موقع الحدث"
+"Event Name","إسم الحدث"
+"Event Status","حالة الحدث"
+"Every 2 Weeks","كل أسبوعين"
+"Every 3 Weeks","كل 3 أسابيع"
+"Every 4 Weeks","كل 4 أسابيع"
+"Every Valid Check-in and Check-out","كل صالح في الاختيار والمغادرة"
+"Every Week","كل أسبوع"
+"Everyone, let’s congratulate them on their work anniversary!",""
+"Everyone, let’s congratulate {0} on their birthday.",""
+"Exam","امتحان"
+"Exchange Rate","سعر الصرف"
+"Exchange Rate cannot be zero.","لا يمكن أن يكون سعر الصرف صفرًا."
+"Exclude Holidays","استبعاد العطلات"
+"Excluded {0} Non-Encashable Leaves for {1}","تم استبعاد {0} إجازات غير قابلة للصرف لـ {1}"
+"Exempted from Income Tax","معفى من ضريبة الدخل"
+"Exemption","إعفاء"
+"Exemption Category","فئة الإعفاء"
+"Exemption Proofs","إثباتات الإعفاء"
+"Exemption Sub Category","الإعفاء الفئة الفرعية"
+"Existing Record","سجل موجود"
+"Exit Confirmed","تم تأكيد الخروج"
+"Exit Details","تفاصيل الخروج"
+"Exit Interview","مقابلة الخروج"
+"Exit Interview Pending","مقابلة الخروج معلقة"
+"Exit Interview Summary","الخروج من ملخص المقابلة"
+"Exit Interview {0} already exists for Employee: {1}","مقابلة الخروج {0} موجودة بالفعل للموظف: {1}"
+"Exit Questionnaire","استبيان الخروج"
+"Exit Questionnaire Notification","إشعار استبيان الخروج"
+"Exit Questionnaire Notification Template","قالب إشعار استبيان الخروج"
+"Exit Questionnaire Pending","استبيان الخروج معلق"
+"Exit Questionnaire Web Form","نموذج ويب لاستبيان الخروج"
+"Expand All","توسيع الكل"
+"Expected Average Rating","متوسط التقييم المتوقع"
+"Expected By","متوقع بحلول"
+"Expected Compensation","التعويض المتوقع"
+"Expected Skill Set","مجموعة المهارات المتوقعة"
+"Expected Skillset","مجموعة المهارات المتوقعة"
+"Expense","نفقة"
+"Expense Account","حساب النفقات"
+"Expense Approver","معتمد المصروفات"
+"Expense Approver Mandatory In Expense Claim","الموافقة على المصروفات إلزامية في مطالبة النفقات"
+"Expense Claim","طلب النفقات"
+"Expense Claim Account","حساب المطالبة بالنفقات"
+"Expense Claim Advance","النفقات المطالبة مقدما"
+"Expense Claim Detail","تفاصيل  المطالبة بالنفقات"
+"Expense Claim Summary","ملخص طلب المصروفات"
+"Expense Claim Type","نوع  المطالبة  بالنفقات"
+"Expense Claim for Vehicle Log {0}","مطالبه المصروفات لسجل المركبات {0}"
+"Expense Claim {0} already exists for the Vehicle Log","المطالبة بالنفقات {0} بالفعل موجوده في سجل المركبة"
+"Expense Claims","طلبات المصروفات"
+"Expense Date","تاريخ النفقات"
+"Expense Item","بند المصروف"
+"Expense Proof","إثبات المصاريف"
+"Expense Tax","ضريبة المصروف"
+"Expense Taxes and Charges","مصاريف الضرائب والرسوم"
+"Expense Type","نوع المصاريف"
+"Expenses","النفقات"
+"Expenses & Advances","المصروفات والسلف"
+"Expire Allocation","انتهاء الصلاحية التخصيص"
+"Expire Carry Forwarded Leaves (Days)","تنتهي صلاحية حمل الأوراق المرسلة (بالأيام)"
+"Expire Leaves","إنتهاء صلاحية الإجازات"
+"Expired","انتهى"
+"Expired Leave(s)","إجازة (إجازات) منتهية الصلاحية"
+"Expired Leaves","الإجازات منتهية الصلاحية"
+"Explanation","تفسير"
+"Export","تصدير"
+"Exporting...","جاري التصدير..."
+"Failed","باءت بالفشل"
+"Failed to create/submit {0} for employees:","فشل في إنشاء/تقديم {0} للموظفين:"
+"Failed to delete defaults for country {0}.","فشل في حذف الإعدادات الافتراضية للبلد {0}."
+"Failed to download Salary Slip PDF","فشل في تنزيل ملف PDF الخاص بقسيمة الراتب"
+"Failed to send the Interview Reschedule notification. Please configure your email account.","فشل في إرسال إشعار إعادة جدولة المقابلة. يرجى تكوين حساب البريد الإلكتروني الخاص بك."
+"Failed to setup defaults for country {0}.","فشل في إعداد الإعدادات الافتراضية للبلد {0}."
+"Failed to submit some leave policy assignments:","فشل في تقديم بعض تعيينات سياسة الإجازات:"
+"Failed to update the Job Applicant status","فشل في تحديث حالة المتقدم للوظيفة"
+"Failed to {0} {1} for employees:","فشل في {0} {1} للموظفين:"
+"Failure","بالفشل"
+"Failure Details","تفاصيل الفشل"
+"Feb","فبراير"
+"Feedback","ملاحظات"
+"Feedback Count","عدد الملاحظات"
+"Feedback HTML","HTML الملاحظات"
+"Feedback Ratings","تقييمات الملاحظات"
+"Feedback Reminder Notification Template","قالب إشعار تذكير الملاحظات"
+"Feedback Score","درجة الملاحظات"
+"Feedback Submitted","تم تسليم التعليقات"
+"Feedback Summary","ملخص الملاحظات"
+"Feedback already submitted for the Interview {0}. Please cancel the previous Interview Feedback {1} to continue.","تم تقديم الملاحظات بالفعل للمقابلة {0}. يرجى إلغاء ملاحظات المقابلة السابقة {1} للمتابعة."
+"Feedback cannot be recorded for an absent Employee.","لا يمكن تسجيل الملاحظات لموظف غائب."
+"Feedback {0} added successfully","تمت إضافة الملاحظات {0} بنجاح"
+"Fetch Geolocation","جلب الموقع الجغرافي"
+"Fetch Shift","جلب الوردية"
+"Fetch Shifts","جلب الورديات"
+"Fetching Employees","جاري جلب الموظفين"
+"Fetching Shift","جاري جلب الوردية"
+"Fetching your geolocation","جاري جلب موقعك الجغرافي"
+"Field Name","اسم الحقل"
+"File Preview","معاينة الملف"
+"Fill the form and save it","قم بتعبئة النموذج وحفظه"
+"Filled","تم الملء"
+"Filter Based On","عامل التصفية على أساس"
+"Filter Employees","تصفية الموظفين"
+"Filter List","قائمة تصفية"
+"Filters","فلاتر"
+"Final Decision","القرار النهائي"
+"Final Score","الدرجة النهائية"
+"Final Score Formula","صيغة الدرجة النهائية"
+"First Check-in and Last Check-out","تسجيل الوصول الأول وتسجيل المغادرة الأخير"
+"First Day","اليوم الأول"
+"First Name ","الاسم الأول "
+"Fiscal Year","السنة المالية"
+"Fiscal Year {0} not found","السنة المالية {0} غير موجودة\
+<br>\
+Fiscal Year {0} not found"
+"Fleet Management","إدارة الأسطول"
+"Fleet Manager","مدير قافلة المركبات"
+"Flexible Benefits","فوائد مرنة"
+"Flight","طيران"
+"FnF Pending","التسوية النهائية معلقة"
+"Follow via Email","متابعة عبر البريد الإلكتروني"
+"Food","طعام"
+"For Designation ","للمسمى الوظيفي"
+"For Employee","للموظف"
+"For a day of leave taken, if you still pay (say) 50% of the daily salary, then enter 0.50 in this field.","ليوم إجازة مأخوذ، إذا كنت لا تزال تدفع (على سبيل المثال) 50٪ من الراتب اليومي، فأدخل 0.50 في هذا الحقل."
+"Formula","صيغة"
+"Fortnightly","مرة كل اسبوعين"
+"Fraction of Applicable Earnings ","جزء من الأرباح المطبقة"
+"Fraction of Daily Salary for Half Day","جزء من الراتب اليومي لنصف يوم"
+"Fraction of Daily Salary per Leave","جزء من الراتب اليومي لكل إجازة"
+"Fractional Cost","تكلفة جزئية"
+"Frappe HR","فراپي للموارد البشرية"
+"Frequency","تكرر"
+"Friday","الجمعة"
+"From","من"
+"From Amount","من الكمية"
+"From Date","من تاريخ"
+"From Date cannot be greater than To Date","(من تاريخ) لا يمكن أن يكون أكبر (الي التاريخ)"
+"From Date must come before To Date","تاريخ البدء يجب أن يكون قبل تاريخ الانتهاء"
+"From Date {0} cannot be after employee's relieving Date {1}","من تاريخ {0} لا يمكن أن يكون بعد تاريخ التخفيف من الموظف {1}"
+"From Date {0} cannot be before employee's joining Date {1}","من تاريخ {0} لا يمكن أن يكون قبل تاريخ الانضمام للموظف {1}"
+"From Employee","من الموظف"
+"From Time","من وقت"
+"From User","من المستخدم"
+"From date can not be less than employee's joining date","من تاريخ لا يمكن أن يكون أقل من تاريخ انضمام الموظف"
+"From date can not be less than employee's joining date.","من التاريخ لا يمكن أن يكون أقل من تاريخ انضمام الموظف."
+"From here, you can enable encashment for the balance leaves.","من هنا، يمكنك تمكين صرف الرصيد للإجازات المتبقية."
+"From {0} to {1}","من {0} إلى {1}"
+"From(Year)","من (سنة)"
+"Fuchsia","فوشيا"
+"Fuel Expense","حساب الوقود"
+"Fuel Expenses","مصاريف الوقود"
+"Fuel Price","سعر الوقود"
+"Fuel Qty","كمية الوقود"
+"Full Name","الاسم الكامل"
+"Full and Final Asset","أصل التسوية النهائية"
+"Full and Final Outstanding Statement","كشف حساب التسوية النهائية المستحقة"
+"Full and Final Statement","كشف التسوية النهائية"
+"Full-time","دوام كامل"
+"Fully Sponsored","برعاية كاملة"
+"Funded Amount","مبلغ التمويل"
+"Future Income Tax","ضريبة الدخل المستقبلية"
+"Future dates not allowed","التواريخ المستقبلية غير مسموح بها"
+"Gender","جنس"
+"General Ledger","دفتر الأستاذ العام"
+"Geolocation","تحديد الموقع الجغرافي"
+"Geolocation Error","خطأ في تحديد الموقع الجغرافي"
+"Geolocation is not supported by your current browser","تحديد الموقع الجغرافي غير مدعوم من قبل متصفحك الحالي"
+"Get Details From Declaration","الحصول على تفاصيل من الإعلان"
+"Get Employees","الحصول على الموظفين"
+"Get Job Requisitions","الحصول على طلبات التوظيف"
+"Get Template","الحصول على نموذج"
+"Get the app on your device for easy access & a better experience!","احصل على التطبيق على جهازك لسهولة الوصول وتجربة أفضل!"
+"Get the app on your iPhone for easy access & a better experience","احصل على التطبيق على جهاز iPhone الخاص بك لسهولة الوصول وتجربة أفضل"
+"Gluten Free","خالي من الغلوتين"
+"Go to Login","اذهب إلى تسجيل الدخول"
+"Go to Reset Password page","اذهب إلى صفحة إعادة تعيين كلمة المرور"
+"Goal","الهدف"
+"Goal Completion (%)","إنجاز الهدف (٪)"
+"Goal Score","درجة الهدف"
+"Goal Score (%)","درجة الهدف (٪)"
+"Goal Score (weighted)","نقاط الهدف (مرجحة)"
+"Goal progress percentage cannot be more than 100.","لا يمكن أن تتجاوز نسبة تقدم الهدف 100."
+"Goal should be aligned with the same KRA as its parent goal.","يجب أن يتوافق الهدف مع نفس منطقة النتائج الرئيسية (KRA) لهدفه الرئيسي."
+"Goal should be owned by the same employee as its parent goal.","يجب أن يكون الهدف مملوكًا لنفس الموظف الذي يملك هدفه الرئيسي."
+"Goal should belong to the same Appraisal Cycle as its parent goal.","يجب أن ينتمي الهدف إلى نفس دورة التقييم الخاصة بهدفه الرئيسي."
+"Goal updated successfully","تم تحديث الهدف بنجاح"
+"Goals","الأهداف"
+"Goals updated successfully","تم تحديث الأهداف بنجاح"
+"Grade","الدرجة"
+"Grand Total","المجموع الإجمالي"
+"Gratuity","مكافأة نهاية الخدمة"
+"Gratuity Applicable Component","المكون المطبق لمكافأة نهاية الخدمة"
+"Gratuity Rule","قاعدة مكافأة نهاية الخدمة"
+"Gratuity Rule Slab","شريحة قاعدة مكافأة نهاية الخدمة"
+"Green","أخضر"
+"Grievance","شكوى"
+"Grievance Against","الشكوى ضد"
+"Grievance Against Party","الطرف المشكو ضده"
+"Grievance Details","تفاصيل الشكوى"
+"Grievance Type","نوع الشكوى"
+"Gross Earnings","إجمالي الإيرادات"
+"Gross Pay","إجمالي الأجور"
+"Gross Pay (Company Currency)","الأجر الإجمالي (بعملة الشركة)"
+"Gross Year To Date","الإجمالي السنوي حتى تاريخه"
+"Gross Year To Date(Company Currency)","الإجمالي السنوي حتى تاريخه (بعملة الشركة)"
+"Group","مجموعة"
+"Group By","مجموعة من"
+"Group goal's progress is auto-calculated based on the child goals.","يتم احتساب تقدم هدف المجموعة تلقائيًا بناءً على الأهداف الفرعية."
+"HR","الموارد البشرية"
+"HR & Payroll","الموارد البشرية والرواتب"
+"HR & Payroll Settings","إعدادات الموارد البشرية والرواتب"
+"HR Dashboard","لوحة تحكم الموارد البشرية"
+"HR Manager","مدير الموارد البشرية"
+"HR Settings","إعدادات الموارد البشرية"
+"HR User","مستخدم الموارد البشرية"
+"HRMS","نظام إدارة الموارد البشرية"
+"Half Day","نصف يوم"
+"Half Day Date","تاريخ نصف اليوم"
+"Half Day Date is mandatory","تاريخ نصف اليوم إلزامي"
+"Half Day Date should be between From Date and To Date","تاريخ نصف اليوم ينبغي أن يكون بين 'من تاريخ' و 'الى تاريخ'\
+<br>\
+Half Day Date should be between From Date and To Date"
+"Half Day Date should be in between Work From Date and Work End Date","يجب أن يكون تاريخ نصف يوم بين العمل من التاريخ وتاريخ انتهاء العمل"
+"Half Day Records","سجلات نصف يوم"
+"Half Yearly","نصف سنوي"
+"Half day date should be in between from date and to date","يجب أن يكون تاريخ نصف يوم ما بين التاريخ والتاريخ"
+"Half-Yearly","نصف سنوية"
+"Has Certificate","لديه شهادة"
+"Health Insurance","التأمين الصحي"
+"Health Insurance Name","اسم التامين الصحي"
+"Health Insurance No","رقم التأمين الصحي"
+"Health Insurance Provider","مزود التأمين الصحي"
+"Hello","مرحباً"
+"Help","مساعدة"
+"Hey {}! This email is to remind you about the upcoming holidays.","مرحباً {}! هذا البريد الإلكتروني لتذكيرك بالعطلات القادمة."
+"Hey, {0} 👋","مرحباً، {0} 👋"
+"Hiring Count","عدد التعيينات"
+"Hiring Settings","إعدادات التوظيف"
+"Hold","معلق"
+"Holiday","عطلة"
+"Holiday List","قائمة العطلات"
+"Holiday List for Optional Leave","قائمة العطلة للإجازة الاختيارية"
+"Holidays","العطلات"
+"Holidays this Month.","عطلات هذا الشهر."
+"Holidays this Week.","عطلات هذا الأسبوع."
+"Home","الصفحة الرئيسية"
+"Hour Rate","سعرالساعة"
+"Hour Rate (Company Currency)","أجر الساعة (بعملة الشركة)"
+"Hours","ساعات"
+"House rent paid days overlapping with {0}","أيام إيجار المنازل المدفوعة تتداخل مع {0}"
+"House rented dates required for exemption calculation","التواريخ المستأجرة البيت المطلوبة لحساب الإعفاء"
+"House rented dates should be atleast 15 days apart","يجب أن تكون تواريخ التأجير المنزل على الأقل 15 يوما بعيدا"
+"IFSC","IFSC"
+"IFSC Code","رمز IFSC"
+"IN","في"
+"Identification Document Number","رقم وثيقة التعريف"
+"Identification Document Type","نوع وثيقة التعريف"
+"If checked, Payroll Payable will be booked against each employee","إذا تم تحديده، سيتم تسجيل الرواتب المستحقة الدفع مقابل كل موظف"
+"If checked, hides and disables Rounded Total field in Salary Slips","إذا تم تحديده ، يقوم بإخفاء وتعطيل حقل Rounded Total في قسائم الرواتب"
+"If checked, the full amount will be deducted from taxable income before calculating income tax without any declaration or proof submission.","إذا تم تحديده ، فسيتم خصم المبلغ بالكامل من الدخل الخاضع للضريبة قبل حساب ضريبة الدخل دون تقديم أي إعلان أو إثبات."
+"If enabled, Tax Exemption Declaration will be considered for income tax calculation.","في حالة التمكين ، سيتم النظر في إقرار الإعفاء الضريبي لحساب ضريبة الدخل."
+"If enabled, auto attendance will be marked on holidays if Employee Checkins exist","إذا تم تمكينه، سيتم تسجيل الحضور التلقائي في أيام العطلات إذا كانت هناك تسجيلات دخول للموظفين"
+"If enabled, deducts payment days for absent attendance on holidays. By default, holidays are considered as paid","إذا تم تمكينه، يتم خصم أيام الدفع للحضور الغائب في أيام العطلات. بشكل افتراضي، تعتبر العطلات مدفوعة الأجر"
+"If enabled, the component will be considered as a tax component and the amount will be auto-calculated as per the configured income tax slabs","إذا تم تمكينه، سيعتبر المكون مكونًا ضريبيًا وسيتم احتساب المبلغ تلقائيًا وفقًا لشرائح ضريبة الدخل المكونة"
+"If enabled, the component will be considered in the Income Tax Deductions report","إذا تم تمكينه، فسيتم أخذ المكون في الاعتبار في تقرير استقطاعات ضريبة الدخل"
+"If enabled, the component will not be displayed in the salary slip if the amount is zero","إذا تم تمكينه، لن يتم عرض المكون في قسيمة الراتب إذا كان المبلغ صفرًا"
+"If enabled, the total no. of applications received for this opening will be displayed on the website","إذا تم تمكينه، سيتم عرض إجمالي عدد الطلبات المستلمة لهذه الوظيفة الشاغرة على الموقع الإلكتروني"
+"If enabled, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted. ","إذا تم تمكينه، فإن القيمة المحددة أو المحسوبة في هذا المكون لن تساهم في الإيرادات أو الاستقطاعات. ومع ذلك، يمكن الرجوع إلى قيمتها من خلال مكونات أخرى يمكن إضافتها أو خصمها."
+"If enabled, total no. of working days will include holidays, and this will reduce the value of Salary Per Day","إذا تم تمكينه، سيشمل إجمالي عدد أيام العمل أيام العطلات، وهذا سيقلل من قيمة الراتب اليومي"
+"If not checked, the list will have to be added to each Department where it has to be applied.","إذا لم يتم الاختيار، فان القائمة ستضاف إلى كل قسم حيث لابد من تطبيقها."
+"If selected, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted. ","إذا تم تحديده، فإن القيمة المحددة أو المحسوبة في هذا المكون لن تساهم في الأرباح أو الاستقطاعات. ومع ذلك، فإنه يمكن الإشارة إلى القيمة من قبل المكونات الأخرى التي يمكن أن تضاف أو خصمها."
+"If set, the job opening will be closed automatically after this date","إذا تم تعيينه، سيتم إغلاق الوظيفة الشاغرة تلقائيًا بعد هذا التاريخ"
+"If you are using loans in salary slips, please install the {0} app from Frappe Cloud Marketplace or GitHub to continue using loan integration with payroll.","إذا كنت تستخدم القروض في كشوف المرتبات، يرجى تثبيت تطبيق {0} من سوق Frappe Cloud أو GitHub لمواصلة استخدام تكامل القروض مع الرواتب."
+"Import Attendance","سجل الحضور"
+"Import Log","سجل الاستيراد"
+"Import Successful","استيراد ناجح"
+"Importing {0} of {1}","استيراد {0} من {1}"
+"In Process","في عملية"
+"In Progress","في تَقَدم"
+"In Time","في الوقت المناسب"
+"In case of any error during this background process, the system will add a comment about the error on this Payroll Entry and revert to the Submitted status","في حالة حدوث أي خطأ أثناء هذه العملية في الخلفية، سيضيف النظام تعليقًا حول الخطأ في إدخال الرواتب هذا ويعود إلى حالة الإرسال"
+"Inactive","غير نشط"
+"Incentive","حافز"
+"Incentive Amount","مبلغ الحافز"
+"Incentives","الحوافز"
+"Include Company Descendants","تضمين فروع الشركة"
+"Include Holidays","تضمين العطلات"
+"Include holidays in Total no. of Working Days","العطلات تحسب من ضمن أيام العمل"
+"Include holidays within leaves as leaves","ايام العطل التي ضمن الإجازات تحسب إجازة"
+"Income Source","مصدر الدخل"
+"Income Tax Amount","مبلغ ضريبة الدخل"
+"Income Tax Breakup","تفاصيل ضريبة الدخل"
+"Income Tax Component","مكون ضريبة الدخل"
+"Income Tax Computation","حساب ضريبة الدخل"
+"Income Tax Deducted Till Date","ضريبة الدخل المخصومة حتى تاريخه"
+"Income Tax Deductions","استقطاعات ضريبة الدخل"
+"Income Tax Slab","لوح ضريبة الدخل"
+"Income Tax Slab Other Charges","لوحة ضريبة الدخل رسوم أخرى"
+"Income Tax Slab is mandatory since the Salary Structure {0} has a tax component {1}","شريحة ضريبة الدخل إلزامية لأن هيكل الرواتب {0} يحتوي على مكون ضريبي {1}"
+"Income Tax Slab must be effective on or before Payroll Period Start Date: {0}","يجب أن يكون لوح ضريبة الدخل ساريًا في أو قبل تاريخ بدء فترة الرواتب: {0}"
+"Income Tax Slab not set in Salary Structure Assignment: {0}","لم يتم تعيين لوح ضريبة الدخل في تعيين هيكل الرواتب: {0}"
+"Income Tax Slab: {0} is disabled","شريحة ضريبة الدخل: {0} معطل"
+"Income from Other Sources","دخل من مصادر أخرى"
+"Incorrect Weightage Allocation","تخصيص ترجيح غير صحيح"
+"Indicates the number of leaves that cannot be encashed from the leave balance. E.g. with a leave balance of 10 and 4 Non-Encashable Leaves, you can encash 6, while the remaining 4 can be carried forward or expired","يشير إلى عدد الإجازات التي لا يمكن صرفها من رصيد الإجازات. على سبيل المثال، مع رصيد إجازات يبلغ 10 و 4 إجازات غير قابلة للصرف، يمكنك صرف 6، بينما يمكن ترحيل الـ 4 المتبقية أو انتهاء صلاحيتها"
+"Inspection","فحص"
+"Install","تثبيت"
+"Install Frappe HR","تثبيت Frappe HR"
+"Insufficient Balance","رصيد غير كافٍ"
+"Insufficient leave balance for Leave Type {0}","رصيد إجازات غير كافٍ لنوع الإجازة {0}"
+"Interest","فائدة"
+"Interest Amount","مبلغ الفائدة"
+"Interest Income Account","حساب إيرادات الفوائد"
+"Intermediate","متوسط"
+"Intern","المتدرب"
+"International","دولي"
+"Internet","الإنترنت"
+"Interview","مقابلة"
+"Interview Detail","تفاصيل المقابلة"
+"Interview Details","تفاصيل المقابلة"
+"Interview Feedback","تقييم المقابلة"
+"Interview Feedback Reminder","تذكير بتقييم المقابلة"
+"Interview Feedback {0} submitted successfully","تم تقديم تقييم المقابلة {0} بنجاح"
+"Interview Not Rescheduled","لم تتم إعادة جدولة المقابلة"
+"Interview Reminder","تذكير المقابلة"
+"Interview Reminder Notification Template","قالب إشعار تذكير المقابلة"
+"Interview Rescheduled successfully","تمت إعادة جدولة المقابلة بنجاح"
+"Interview Round","جولة المقابلة"
+"Interview Round {0} is only applicable for the Designation {1}","جولة المقابلة {0} تنطبق فقط على المسمى الوظيفي {1}"
+"Interview Round {0} is only for Designation {1}. Job Applicant has applied for the role {2}","جولة المقابلة {0} مخصصة فقط للمسمى الوظيفي {1}. تقدم المتقدم للوظيفة لدور {2}"
+"Interview Scheduled Date","تاريخ المقابلة المجدول"
+"Interview Status","حالة المقابلة"
+"Interview Summary","ملخص المقابلة"
+"Interview Type","نوع المقابلة"
+"Interview: {0} Rescheduled","المقابلة: تمت إعادة جدولة {0}"
+"Interviewer","المحاور"
+"Interviewers","المحاورون"
+"Interviews","المقابلات"
+"Introduction","مقدمة"
+"Invalid","غير صالحة"
+"Invalid Action","إجراء غير صالح"
+"Invalid Additional Salary","راتب إضافي غير صالح"
+"Invalid Cost Center","مركز تكلفة غير صالح"
+"Invalid Dates","تواريخ غير صالحة"
+"Invalid Leave Ledger Entry","إدخال دفتر أستاذ الإجازات غير صالح"
+"Invalid Payroll Payable Account. The account currency must be {0} or {1}","حساب الرواتب المستحقة الدفع غير صالح. يجب أن تكون عملة الحساب {0} أو {1}"
+"Invalid Shift Times","أوقات وردية غير صالحة"
+"Invalid parameters provided. Please pass the required arguments.","المعلمات المقدمة غير صالحة. يرجى تمرير الوسائط المطلوبة."
+"Investigated","قيد التحقيق"
+"Investigation Details","تفاصيل التحقيق"
+"Invited","دعوة"
+"Invoice Ref","مرجع الفاتورة"
+"Is Active","نشط"
+"Is Applicable for Referral Bonus","ينطبق عليه مكافأة الإحالة"
+"Is Carry Forward","هل تضاف في العام التالي"
+"Is Compensatory","هو تعويض"
+"Is Compensatory Leave","هل هي إجازة تعويضية"
+"Is Default","افتراضي"
+"Is Earned Leave","هو إجازة مكتسبة"
+"Is Expired","منتهي الصلاحية"
+"Is Flexible Benefit","هو فائدة مرنة"
+"Is Group","هل مجموعة"
+"Is Income Tax Component","هو مكون ضريبة الدخل"
+"Is Leave Without Pay","إجازة بدون راتب"
+"Is Mandatory","إلزامي"
+"Is Optional Leave","هو اجازة اختيارية"
+"Is Paid","مدفوع"
+"Is Partially Paid Leave","هل هي إجازة مدفوعة جزئياً"
+"Is Recurring","متكرر"
+"Is Recurring Additional Salary","هل هو راتب إضافي متكرر"
+"Is Salary Released","هل تم صرف الراتب"
+"Is Salary Withheld","هل الراتب محجوز"
+"Is Tax Applicable","هي ضريبة قابلة للتطبيق"
+"Jan","يناير"
+"Job Applicant","متقدم للوظيفة"
+"Job Applicant Source","مصدر طالب الوظيفة"
+"Job Applicant {0} created successfully.","تم إنشاء المتقدم للوظيفة {0} بنجاح."
+"Job Applicants are not allowed to appear twice for the same Interview round. Interview {0} already scheduled for Job Applicant {1}","لا يُسمح للمتقدمين للوظائف بالظهور مرتين لنفس جولة المقابلة. المقابلة {0} مجدولة بالفعل للمتقدم للوظيفة {1}"
+"Job Application Route","مسار طلب التوظيف"
+"Job Description","الوصف الوظيفي"
+"Job Offer","عرض عمل"
+"Job Offer Term","شرط عرض العمل"
+"Job Offer Term Template","قالب شروط عرض العمل"
+"Job Offer Terms","شروط عرض الوظيفة"
+"Job Offer status","حالة عرض العمل"
+"Job Offer: {0} is already for Job Applicant: {1}","عرض الوظيفة: {0} مقدم بالفعل لمقدم طلب وظيفة: {1}"
+"Job Opening","وظيفة شاغرة"
+"Job Opening Associated","وظيفة شاغرة مرتبطة"
+"Job Openings","الوظائف الشاغرة"
+"Job Openings for the designation {0} are already open or the hiring is complete as per the Staffing Plan {1}","الوظائف الشاغرة للمسمى الوظيفي {0} مفتوحة بالفعل أو تم اكتمال التوظيف وفقًا لخطة التوظيف {1}"
+"Job Requisition","طلب توظيف"
+"Job Requisition {0} has been associated with Job Opening {1}","تم ربط طلب التوظيف {0} بالوظيفة الشاغرة {1}"
+"Job Title","المسمى الوظيفي"
+"Job profile, qualifications required etc.","الملف الوظيفي ، المؤهلات المطلوبة الخ"
+"Jobs","وظائف"
+"Joining Date","تاريخ الانضمام"
+"Journal Entry","القيود اليومية"
+"July","يوليو"
+"June","يونيو"
+"KRA","منطقة النتائج الرئيسية"
+"KRA Evaluation Method","طريقة تقييم مناطق النتائج الرئيسية"
+"KRA updated for all child goals.","تم تحديث منطقة النتائج الرئيسية لجميع الأهداف الفرعية."
+"KRA vs Goals","مناطق النتائج الرئيسية مقابل الأهداف"
+"KRAs","مناطق النتائج الرئيسية"
+"Key Performance Area","وصف معيار التقييم"
+"Key Reports","التقارير الرئيسية"
+"Key Responsibility Area","وصف معيار التقييم"
+"Key Result Area","منطقة النتائج الرئيسية"
+"Last Day","اليوم الأخير"
+"Last Known Successful Sync of Employee Checkin. Reset this only if you are sure that all Logs are synced from all the locations. Please don't modify this if you are unsure.","آخر مزامنة ناجحة معروفة لفحص الموظف. أعد ضبط هذا فقط إذا كنت متأكدًا من مزامنة جميع السجلات من جميع المواقع. يرجى عدم تعديل هذا إذا كنت غير متأكد."
+"Last Name","اسم العائلة"
+"Last Odometer Value ","قراءة عداد المسافات الأخيرة "
+"Last Sync of Checkin","آخر مزامنة للفحص"
+"Last {0} was at {1}","آخر {0} كان في {1}"
+"Late Entries","إدخالات متأخرة"
+"Late Entry","تأخر الدخول"
+"Late Entry & Early Exit Settings for Auto Attendance","إعدادات الدخول المتأخر والخروج المبكر للحضور التلقائي"
+"Late Entry By","تأخر الدخول بواسطة"
+"Late Entry Grace Period","فترة سماح الدخول المتأخرة"
+"Latitude","خط العرض"
+"Latitude and longitude values are required for checking in.","قيم خط العرض وخط الطول مطلوبة لتسجيل الحضور."
+"Latitude: {0}°","خط العرض: {0}°"
+"Leave","غادر"
+"Leave Allocation","تخصيص إجازة"
+"Leave Allocations","اترك المخصصات"
+"Leave Application","طلب اجازة"
+"Leave Application period cannot be across two non-consecutive leave allocations {0} and {1}.","لا يمكن أن تكون فترة طلب الإجازة عبر تخصيصين غير متتاليين للإجازات {0} و {1}."
+"Leave Approval Notification","اترك إشعار الموافقة"
+"Leave Approval Notification Template","اترك قالب إعلام الموافقة"
+"Leave Approver","معتمد الإجازة"
+"Leave Approver Mandatory In Leave Application","إجازة الموافقة إلزامية في طلب الإجازة"
+"Leave Approver Name","أسم الموافق علي الاجازة"
+"Leave Balance","رصيد الاجازات"
+"Leave Balance Before Application","رصيد الاجازات قبل الطلب"
+"Leave Block List","قائمة حظر الإجازات"
+"Leave Block List Allow","تفعيل قائمة الإجازات المحظورة"
+"Leave Block List Allowed","قائمة اجازات محظورة مفعلة"
+"Leave Block List Date","تواريخ الإجازات المحظورة"
+"Leave Block List Dates","التواريخ الممنوع اخذ اجازة فيها"
+"Leave Block List Name","اسم قائمة الإجازات المحظورة"
+"Leave Blocked","إجازة محظورة"
+"Leave Control Panel","لوحة تحكم الأجازات"
+"Leave Details","تفاصيل الإجازة"
+"Leave Encashment","الإجازات مدفوعة"
+"Leave Encashment Amount Per Day","ترك Encshment المبلغ لكل يوم"
+"Leave History","سجل الإجازات"
+"Leave Ledger","دفتر أستاذ الإجازات"
+"Leave Ledger Entry","ترك دخول دفتر الأستاذ"
+"Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0} and To Date is {1}","يجب أن يكون تاريخ 'إلى' في إدخال دفتر أستاذ الإجازات بعد تاريخ 'من'. حاليًا، تاريخ 'من' هو {0} وتاريخ 'إلى' هو {1}"
+"Leave Period","اترك فترة"
+"Leave Policy","سياسة الإجازة"
+"Leave Policy Assignment","تعيين سياسة الإجازات"
+"Leave Policy Assignment Overlap","تداخل في تعيين سياسة الإجازات"
+"Leave Policy Detail","ترك سياسة التفاصيل"
+"Leave Policy Details","اترك تفاصيل السياسة"
+"Leave Policy: {0} already assigned for Employee {1} for period {2} to {3}","سياسة الإجازات: {0} تم تعيينها بالفعل للموظف {1} للفترة من {2} إلى {3}"
+"Leave Status Notification","ترك إخطار الحالة"
+"Leave Status Notification Template","ترك قالب إعلام الحالة"
+"Leave Type","نوع الاجازة"
+"Leave Type Name","اسم نوع الاجازة"
+"Leave Type can either be compensatory or earned leave.","يمكن أن يكون نوع الإجازة إما تعويضية أو مكتسبة."
+"Leave Type can either be without pay or partial pay","يمكن أن يكون نوع الإجازة إما بدون أجر أو بأجر جزئي"
+"Leave Type is mandatory","نوع الإجازة إلزامي"
+"Leave Type {0} cannot be allocated since it is leave without pay","لا يمكن تخصيص نوع الاجازه {0}, لأنها إجازة بدون راتب\
+<br>\
+Leave Type {0} cannot be allocated since it is leave without pay"
+"Leave Type {0} cannot be carry-forwarded","لا يمكن ترحيل نوع اﻹجازة {0}\
+<br>\
+لا يمكن ترحيل النوع {0} الخاص بالاجازه"
+"Leave Type {0} is not encashable","نوع الإجازة {0} غير قابل للضبط"
+"Leave Without Pay","اجازة من دون راتب"
+"Leave Without Pay does not match with approved {} records","لا تتطابق الإجازة بدون أجر مع سجلات {} المعتمدة"
+"Leave allocation {0} is linked with the Leave Application {1}","تخصيص الإجازة {0} مرتبط بطلب الإجازة {1}"
+"Leave already have been assigned for this Leave Policy Assignment","تم بالفعل تخصيص إجازة لهذا التعيين لسياسة الإجازات"
+"Leave and Expense Claim Settings","إعدادات الإجازات ومطالبات النفقات"
+"Leave application is linked with leave allocations {0}. Leave application cannot be set as leave without pay","إجازة التطبيق مرتبطة بمخصصات الإجازة {0}. لا يمكن تعيين طلب الإجازة كإجازة بدون أجر"
+"Leave cannot be allocated before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}","لا يمكن تخصيص اجازة قبل {0}، لان رصيد الإجازات قد تم تحوبله الي سجل تخصيص اجازات مستقبلي {1}"
+"Leave cannot be applied/cancelled before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}","الاجازة لا يمكن تطبيقها او إلغائها قبل {0}، لان رصيد الإجازات قد تم تحويله الي سجل تخصيص إجازات مستقبلي {1}"
+"Leave of type {0} cannot be longer than {1}.","لا يمكن أن تكون الإجازة من النوع {0} أطول من {1}."
+"Leave(s) Expired","إجازة (إجازات) منتهية الصلاحية"
+"Leave(s) Pending Approval","إجازة (إجازات) معلقة للموافقة"
+"Leave(s) Taken","إجازة (إجازات) مأخوذة"
+"Leaves","الاجازات"
+"Leaves & Holidays","الإجازات والعطلات"
+"Leaves Allocated","الأوراق المخصصة"
+"Leaves Expired","إجازات منتهية الصلاحية"
+"Leaves Pending Approval","إجازات معلقة للموافقة"
+"Leaves for the Leave Type {0} won't be carry-forwarded since carry-forwarding is disabled.","لن يتم ترحيل الإجازات لنوع الإجازة {0} نظرًا لتعطيل الترحيل."
+"Leaves per Year","الأجزات في السنة"
+"Leaves you can avail against a holiday you worked on. You can claim Compensatory Off Leave using Compensatory Leave Request. Click {0} to know more","الإجازات التي يمكنك الاستفادة منها مقابل عطلة عملت فيها. يمكنك المطالبة بإجازة تعويضية باستخدام طلب إجازة تعويضية. انقر فوق {0} لمعرفة المزيد"
+"Left","ترك"
+"Left","ترك"
+"Letter Head","ترئيس الرسالة"
+"Level","المستوى"
+"License Plate","لوحة الترخيص"
+"Lifecycle","دورة الحياة"
+"Lime","ليموني"
+"Link the cycle and tag KRA to your goal to update the appraisal's goal score based on the goal progress","اربط الدورة وعلامة منطقة النتائج الرئيسية بهدفك لتحديث درجة هدف التقييم بناءً على تقدم الهدف"
+"Linked Project {} and Tasks deleted.","تم حذف المشروع {} والمهام المرتبطة به."
+"Loan","قرض"
+"Loan Account","حساب القرض"
+"Loan Product","منتج القرض"
+"Loan Repayment","سداد القرض"
+"Loan Repayment Entry","إدخال سداد القرض"
+"Loan cannot be repayed from salary for Employee {0} because salary is processed in currency {1}","لا يمكن سداد القرض من راتب الموظف {0} لأن الراتب تتم معالجته بالعملة {1}"
+"Locating...","جارٍ تحديد الموقع..."
+"Location","الموقع"
+"Location / Device ID","الموقع / معرف الجهاز"
+"Location Name","اسم الموقع"
+"Lodging Required","الإقامة المطلوبة"
+"Log Out","تسجيل الخروج"
+"Log Type","نوع السجل"
+"Log Type is required for check-ins falling in the shift: {0}.","نوع السجل مطلوب لتسجيلات الوقوع في التحول: {0}."
+"Login","دخول"
+"Login Failed","فشل تسجيل الدخول"
+"Login to Frappe HR","تسجيل الدخول إلى Frappe HR"
+"Longitude","خط الطول"
+"Longitude: {0}°","خط الطول: {0}°"
+"Lower Range","النطاق الأدنى"
+"MICR","MICR"
+"Make","سنة الصنع"
+"Make Bank Entry","إنشاء قيد بنكي"
+"Mandatory","إلزامي"
+"Mandatory fields required for this action:","الحقول الإلزامية المطلوبة لهذا الإجراء:"
+"Mandatory fields required in {0}","الحقول الإلزامية المطلوبة في {0}"
+"Manual","يدوي"
+"Manual Rating","تقييم يدوي"
+"Mar","مارس"
+"Mark Attendance","تسجيل الحضور"
+"Mark Auto Attendance on Holidays","تسجيل الحضور التلقائي في العطلات"
+"Mark all as read","تحديد الكل كمقروء"
+"Mark as Completed","تحديد كمكتمل"
+"Mark as In Progress","تحديد كقيد التقدم"
+"Mark as {0}","تحديد كـ {0}"
+"Mark attendance as {0} for {1} on selected dates?","هل تريد تسجيل الحضور كـ {0} لـ {1} في التواريخ المحددة؟"
+"Mark attendance based on 'Employee Checkin' for Employees assigned to this shift.","حدد الحضور استنادًا إلى &quot;فحص الموظف&quot; للموظفين المعينين لهذا التحول."
+"Mark attendance for existing check-in/out logs before changing shift settings","سجل الحضور لسجلات الدخول/الخروج الحالية قبل تغيير إعدادات الوردية"
+"Mark {0} as Completed?","هل تريد تحديد {0} كمكتمل؟"
+"Mark {0} {1} as {2}?","هل تريد تحديد {0} {1} كـ {2}؟"
+"Marked Attendance","حضور مسجل"
+"Marked Attendance HTML","حضور مسجل HTML"
+"Marking Attendance","تسجيل الحضور"
+"Masters","الرئيسية"
+"Max Amount Eligible","أقصى مبلغ مؤهل"
+"Max Benefit Amount","أقصى فائدة المبلغ"
+"Max Benefit Amount (Yearly)","أقصى فائدة المبلغ (سنويا)"
+"Max Benefits (Amount)","أقصى الفوائد (المبلغ)"
+"Max Benefits (Yearly)","أقصى الفوائد (سنويا)"
+"Max Exemption Amount","أقصى مبلغ الإعفاء"
+"Max Exemption Amount cannot be greater than maximum exemption amount {0} of Tax Exemption Category {1}","لا يمكن أن يكون أقصى مبلغ للإعفاء أكبر من الحد الأقصى لمبلغ الإعفاء {0} من فئة الإعفاء الضريبي {1}"
+"Max Taxable Income","الحد الأقصى للدخل الخاضع للضريبة"
+"Max benefits should be greater than zero to dispense benefits","يجب أن تكون الفوائد القصوى أكبر من الصفر لتوزيع الاستحقاقات"
+"Max working hours against Timesheet","اقصى عدد ساعات عمل بسجل التوقيت"
+"Maximum Carry Forwarded Leaves","الحد الأقصى لحمل الأوراق المعاد توجيهها"
+"Maximum Consecutive Leaves Allowed","الحد الأقصى للإجازات المتتالية المسموح بها"
+"Maximum Consecutive Leaves Exceeded","تم تجاوز الحد الأقصى للإجازات المتتالية"
+"Maximum Encashable Leaves","الحد الأقصى للإجازات القابلة للصرف"
+"Maximum Exempted Amount","الحد الأقصى للمبلغ المعفى"
+"Maximum Exemption Amount","الحد الأقصى للإعفاء المبلغ"
+"Maximum Leave Allocation Allowed per Leave Period","الحد الأقصى لتخصيص الإجازات المسموح به لكل فترة إجازة"
+"Maximum amount eligible for the component {0} exceeds {1}","أقصى مبلغ مؤهل للعنصر {0} يتجاوز {1}"
+"Maximum benefit amount of component {0} exceeds {1}","يتجاوز الحد الأقصى لمقدار المكون {0} {1}"
+"Maximum benefit amount of employee {0} exceeds {1}","أقصى مبلغ لمبلغ الموظف {0} يتجاوز {1}"
+"Maximum benefit of employee {0} exceeds {1} by the sum {2} of benefit application pro-rata component amount and previous claimed amount","يتجاوز الحد الأقصى لمزايا الموظف {0} {1} بمجموع {2} من مبلغ مكون تطبيق المزايا النسبي والمبلغ المطالب به سابقًا"
+"Maximum benefit of employee {0} exceeds {1} by the sum {2} of previous claimed amount","يتجاوز الحد الأقصى لمزايا الموظف {0} {1} بمجموع {2} من المبلغ المطالب به سابقًا"
+"Maximum encashable leaves for {0} are {1}","الحد الأقصى للإجازات القابلة للصرف لـ {0} هو {1}"
+"Maximum leave allowed in the leave type {0} is {1}","الحد الأقصى للإجازة المسموح بها في نوع الإجازة {0} هو {1}"
+"May","مايو"
+"Meal Preference","تفضيل الوجبة"
+"Medical","طبي"
+"Menu","الخيارات"
+"Message","رسالة"
+"Mileage","المسافة المقطوعة"
+"Min Taxable Income","الحد الأدنى من الدخل الخاضع للضريبة"
+"Minimum Year for Gratuity","الحد الأدنى للسنوات لمكافأة نهاية الخدمة"
+"Minimum working days required since Date of Joining to apply for this leave","الحد الأدنى من أيام العمل المطلوبة منذ تاريخ الانضمام لتقديم طلب لهذه الإجازة"
+"Missing Field","حقل مفقود"
+"Missing Fields","حقول مفقودة"
+"Missing Mandatory Field","حقل إلزامي مفقود"
+"Missing Opening Entries","إدخالات افتتاحية مفقودة"
+"Missing Relieving Date","تاريخ إخلاء الطرف مفقود"
+"Missing Tax Slab","شريحة ضريبية مفقودة"
+"Mode Of Payment","طريقة الدفع"
+"Mode of Payment","طريقة الدفع"
+"Mode of Travel","طريقة السفر"
+"Mode of payment is required to make a payment","طريقه الدفع مطلوبه لإجراء الدفع\
+<br>\
+Mode of payment is required to make a payment"
+"Model","الموديل"
+"Monday","يوم الاثنين"
+"Month","شهر"
+"Month To Date","الشهر حتى تاريخه"
+"Month To Date(Company Currency)","الشهر حتى تاريخه (بعملة الشركة)"
+"Monthly","شهريا"
+"Monthly Attendance Sheet","ورقة الحضور الشهرية"
+"More","أكثر"
+"More Info","المزيد من المعلومات"
+"More than one selection for {0} not allowed","أكثر من اختيار واحد لـ {0} غير مسموح به"
+"Multiple Additional Salaries with overwrite property exist for Salary Component {0} between {1} and {2}.","توجد رواتب إضافية متعددة مع خاصية الكتابة فوق لمكون الراتب {0} بين {1} و {2}."
+"Multiple Shift Assignments","تعيينات ورديات متعددة"
+"My Account","حسابي"
+"My Advances","سلفي"
+"My Claims","مطالباتي"
+"My Leaves","إجازاتي"
+"My Requests","طلباتي"
+"Name","اسم"
+"Name error","خطأ في الاسم"
+"Name of Organizer","اسم المنظم"
+"Naming Series","سلسلة التسمية"
+"Net Pay","صافي الراتب"
+"Net Pay (Company Currency)","صافي الأجر (بعملة الشركة)"
+"Net Pay Info","معلومات صافي الأجر"
+"Net Pay cannot be less than 0","صافي الأجر لا يمكن أن يكون أقل من 0"
+"Net Salary Amount","صافي الراتب المبلغ"
+"Net pay cannot be negative","صافي الأجر لا يمكن أن يكون بالسالب\
+<br>\
+Net pay cannot be negative"
+"New","جديد"
+"New Company","شركة جديدة"
+"New Employee ID","معرف الموظف الجديد"
+"New Expense Item","بند مصروفات جديد"
+"New Expense Tax","ضريبة مصروفات جديدة"
+"New Feedback","تقييم جديد"
+"New Leave(s) Allocated","تم تخصيص إجازة (إجازات) جديدة"
+"New Leaves Allocated","إنشاء تخصيص إجازة جديدة"
+"New Leaves Allocated (In Days)","الإجازات الجديدة المخصصة (بالأيام)"
+"New shift assignments will be created after this date.","سيتم إنشاء تعيينات ورديات جديدة بعد هذا التاريخ."
+"New {0}","{0} جديد"
+"No","لا"
+"No Data","لا توجد بيانات"
+"No Employee Found","لم يتم العثور على أي موظف\
+<br>\
+No employee found"
+"No Employee found for the given employee field value. '{}': {}","لم يتم العثور على موظف لقيمة حقل الموظف المحدد. &#39;{}&#39;: {}"
+"No Employees Selected","لم يتم تحديد موظفين"
+"No Interview has been scheduled.","لم يتم تحديد موعد لأي مقابلة."
+"No Leave Period Found","لم يتم العثور على فترة إجازة"
+"No Leaves Allocated to Employee: {0} for Leave Type: {1}","لا أوراق مخصصة للموظف: {0} لنوع الإجازة: {1}"
+"No Salary Slip found for Employee: {0}","لم يتم العثور على قسيمة راتب للموظف: {0}"
+"No Salary Structure Assignment found for employee {0} on or before {1}","لم يتم العثور على تعيين لهيكل الرواتب للموظف {0} في أو قبل {1}"
+"No Salary Structure assigned to Employee {0} on the given date {1}","لا يوجد هيكل رواتب معين للموظف {0} في التاريخ المحدد {1}"
+"No Salary Structures","لا توجد هياكل رواتب"
+"No Shift Requests Selected","لم يتم تحديد طلبات ورديات"
+"No Staffing Plans found for this Designation","لم يتم العثور على خطط التوظيف لهذا التصنيف"
+"No active employee found associated with the email ID {0}. Try logging in with your employee email ID or contact your HR manager for access.","لم يتم العثور على موظف نشط مرتبط بعنوان البريد الإلكتروني {0}. حاول تسجيل الدخول باستخدام معرف البريد الإلكتروني الخاص بالموظف أو اتصل بمدير الموارد البشرية للوصول."
+"No active or default Salary Structure found for employee {0} for the given dates","لم يتم العثور على أي نشاط أو هيكل راتب إفتراضي للموظف {0} للتواريخ المدخلة\
+<br>\
+No active or default Salary Structure found for employee {0} for the given dates"
+"No additional expenses has been added","لم يتم إضافة مصاريف إضافية"
+"No advances found","لم يتم العثور على أي سلف"
+"No applicable Earning component found in last salary slip for Gratuity Rule: {0}","لم يتم العثور على مكون استحقاق مطبق في آخر قسيمة راتب لقاعدة مكافأة نهاية الخدمة: {0}"
+"No applicable Earning components found for Gratuity Rule: {0}","لم يتم العثور على مكونات استحقاق مطبقة لقاعدة مكافأة نهاية الخدمة: {0}"
+"No applicable slab found for the calculation of gratuity amount as per the Gratuity Rule: {0}","لم يتم العثور على شريحة مطبقة لحساب مبلغ مكافأة نهاية الخدمة وفقًا لقاعدة مكافأة نهاية الخدمة: {0}"
+"No attendance records found for this criteria.","لم يتم العثور على سجلات حضور لهذه المعايير."
+"No attendance records found.","لم يتم العثور على سجلات حضور."
+"No attendance records to create","لا توجد سجلات حضور لإنشائها"
+"No changes found in timings.","لم يتم العثور على تغييرات في التوقيتات."
+"No employees found","لم يتم العثور على موظفين"
+"No employees found for the mentioned criteria:<br>Company: {0}<br> Currency: {1}<br>Payroll Payable Account: {2}","لم يتم العثور على موظفين للمعايير المذكورة:<br>الشركة: {0}<br> العملة: {1}<br>حساب الرواتب المستحقة للدفع: {2}"
+"No employees found for the selected criteria","لم يتم العثور على موظفين للمعايير المحددة"
+"No employees found with selected filters and active salary structure","لم يتم العثور على موظفين مع المرشحات المحددة وهيكل الرواتب النشط"
+"No expenses added","لم تتم إضافة أي مصروفات"
+"No feedback has been received yet","لم يتم استلام أي تقييم بعد"
+"No items selected","لم يتم تحديد أي عناصر"
+"No leave record found for employee {0} on {1}","لم يتم العثور على سجل إجازة للموظف {0} في {1}"
+"No leaves have been allocated.","لم يتم تخصيص أي إجازات."
+"No more updates","لا مزيد من التحديثات"
+"No of. Positions","عدد الوظائف"
+"No record found","لم يتم العثور على أي سجل"
+"No replies from","لا توجد ردود من"
+"No salary slip found to submit for the above selected criteria OR salary slip already submitted","لم يتم العثور على أي زلة الراتب لتقديم المعايير المذكورة أعلاه أو زلة الراتب قدمت بالفعل"
+"No salary slips found","لم يتم العثور على أي كشوف رواتب"
+"No taxes added","لم تتم إضافة أي ضرائب"
+"No valid shift found for log time","لم يتم العثور على وردية صالحة لوقت التسجيل"
+"No {0} Selected","لم يتم تحديد {0}"
+"No {0} added","لم تتم إضافة {0}"
+"No {0} found","لم يتم العثور على {0}"
+"Non Diary","غير يوميات"
+"Non Taxable Earnings","الإيرادات غير الخاضعة للضريبة"
+"Non-Billed Hours","ساعات غير مفوترة"
+"Non-Billed Hours (NB)","ساعات غير مفوترة (NB)"
+"Non-Encashable Leaves","إجازات غير قابلة للصرف"
+"Non-Vegetarian","غير نباتي"
+"Not Allowed","غير مسموح"
+"Not Permitted","لا يسمح"
+"Not Started","لم تبدأ"
+"Note","ملاحظات"
+"Note: Shift will not be overwritten in existing attendance records","ملاحظة: لن يتم استبدال الوردية في سجلات الحضور الحالية"
+"Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period","ملاحظة: يجب ألا يقل إجمالي الإجازات المخصصة {0} عن الإجازات المعتمدة بالفعل {1} للفترة"
+"Note: Your salary slip is password protected, the password to unlock the PDF is of the format {0}.","ملاحظة: كشف راتبك محمي بكلمة مرور، وكلمة المرور لفتح ملف PDF هي بالتنسيق {0}."
+"Notes","ملاحظات"
+"Nothing to change","لا شيء للتغيير"
+"Notice Period","مدة الاشعار"
+"Notification Template","قالب الإشعار"
+"Notifications","إخطارات"
+"Notify users by email","أبلغ المستخدمين عن طريق البريد الإلكتروني"
+"Nov","نوفمبر"
+"Number Of Employees","عدد الموظفين"
+"Number Of Positions","عدد المناصب"
+"Number of Withholding Cycles","عدد دورات الحجز"
+"Number of leaves eligible for encashment based on leave type settings","عدد الإجازات المؤهلة للصرف بناءً على إعدادات نوع الإجازة"
+"OTP Code","رمز OTP"
+"OTP Verification","التحقق من OTP"
+"OUT","خارج"
+"Obtained Average Rating","متوسط التقييم المحصل عليه"
+"Oct","أكتوبر"
+"Odometer Reading","قراءة عداد المسافات"
+"Odometer Value","قيمة عداد المسافات"
+"Off-Shift","خارج الوردية"
+"Off-shift","خارج الوردية"
+"Offer Date","تاريخ العرض"
+"Offer Term","شروط العرض"
+"Offer Terms","شروط العرض"
+"Old Parent","الحساب الأب السابق"
+"On Date","في تاريخ"
+"On Duty","في الخدمة"
+"On Hold","قيد الانتظار"
+"On Leave","في إجازة"
+"Onboarding","الإعداد والتأهيل"
+"Onboarding Activities","أنشطة الإعداد والتأهيل"
+"Onboarding Begins On","يبدأ الإعداد والتأهيل في"
+"Only Approvers can Approve this Request.","الموافقون فقط هم من يمكنهم الموافقة على هذا الطلب."
+"Only Completed documents can be submitted","لا يمكن تقديم سوى المستندات المكتملة"
+"Only Employee Grievance with status {0} or {1} can be submitted","لا يمكن تقديم سوى شكوى الموظف التي حالتها {0} أو {1}"
+"Only Interviewer Are allowed to submit Interview Feedback","يُسمح فقط للمحاور بتقديم تقييم المقابلة"
+"Only Interviews with Cleared or Rejected status can be submitted.","لا يمكن تقديم سوى المقابلات ذات الحالة 'مقبولة' أو 'مرفوضة'."
+"Only Leave Applications with status 'Approved' and 'Rejected' can be submitted","يمكن إعتماد الطلبات التي حالتها 'معتمدة' و 'مرفوضة' فقط\
+<br>\
+Only Leave Applications with status 'Approved' and 'Rejected' can be submitted"
+"Only Shift Request with status 'Approved' and 'Rejected' can be submitted","يمكن فقط تقديم طلب التحول بالحالة &quot;موافق عليه&quot; و &quot;مرفوض&quot;"
+"Only Tax Impact (Cannot Claim But Part of Taxable Income)","التأثير الضريبي فقط (لا يمكن المطالبة إلا جزء من الدخل الخاضع للضريبة)"
+"Only expired allocation can be cancelled","يمكن فقط إلغاء التخصيص المنتهي"
+"Only interviewers can submit feedback","يمكن للمحاورين فقط تقديم التقييم"
+"Only users with the {0} role can create backdated leave applications","يمكن فقط للمستخدمين الذين لديهم دور {0} إنشاء تطبيقات إجازة متأخرة"
+"Only {0} Goals can be {1}","يمكن أن تكون {1} فقط لأهداف {0}"
+"Open","فتح"
+"Open & Approved","مفتوح وموافق عليه"
+"Open Feedback","تقييم مفتوح"
+"Open Now","افتح الآن"
+"Opening Balance","الرصيد الافتتاحي"
+"Opening Balances","أرصدة افتتاحية"
+"Opening closed.","الافتتاح مغلق."
+"Optional Holiday List not set for leave period {0}","لم يتم تعيين قائمة العطلات الاختيارية لفترة الإجازة {0}"
+"Optional Leaves are holidays that Employees can choose to avail from a list of holidays published by the company.","الإجازات الاختيارية هي عطلات يمكن للموظفين اختيار الاستفادة منها من قائمة العطلات التي تنشرها الشركة."
+"Orange","برتقالي"
+"Organizational Chart","الهيكل التنظيمي"
+"Other Details","تفاصيل أخرى"
+"Other Reports","تقارير أخرى"
+"Other Settings","اعدادات اخرى"
+"Other Taxes and Charges","ضرائب ورسوم أخرى"
+"Others","بدلات أخرى"
+"Out Time","وقت خروج"
+"Out of 5","من 5"
+"Outgoing Salary","الراتب الصادر"
+"Outstanding Amount","المبلغ المستحق"
+"Over Allocation","تخصيص زائد"
+"Overall Average Rating","متوسط التقييم العام"
+"Overlapping Attendance Request","طلب حضور متداخل"
+"Overlapping Shift Attendance","حضور وردية متداخل"
+"Overlapping Shift Requests","طلبات ورديات متداخلة"
+"Overlapping Shifts","ورديات متداخلة"
+"Overview","نظرة عامة"
+"Overwrite Salary Structure Amount","الكتابة فوق هيكل الهيكل المرتب"
+"Owned","مملوك"
+"PAN Number","رقم PAN"
+"PF Account","حساب PF"
+"PF Amount","مبلغ PF"
+"PF Loan","قرض PF"
+"PWA Notification","إشعار PWA"
+"Paid","مدفوع"
+"Paid Amount","المبلغ المدفوع"
+"Paid via Salary Slip","مدفوع عبر قسيمة الراتب"
+"Parameter","المعلمة"
+"Parent Goal","الهدف الرئيسي"
+"Part-time","دوام جزئى"
+"Partial Success","نجاح جزئي"
+"Partially Sponsored, Require Partial Funding","برعاية جزئية ، يتطلب التمويل الجزئي"
+"Partly Claimed and Returned","تمت المطالبة به جزئيًا وإعادته"
+"Passport Number","رقم جواز السفر"
+"Password","كلمة السر"
+"Password Policy","سياسة كلمة المرور"
+"Password policy cannot contain spaces or simultaneous hyphens. The format will be restructured automatically","لا يمكن أن تحتوي سياسة كلمة المرور على مسافات أو واصلات متزامنة. سيتم إعادة هيكلة التنسيق تلقائيًا"
+"Password policy for Salary Slips is not set","لم يتم تعيين سياسة كلمة المرور لمرتبات الراتب"
+"Pay Against Benefit Claim","ادفع ضد مطالبات الاستحقاق"
+"Pay Via Payment Entry","الدفع عن طريق إدخال الدفعة"
+"Pay via Salary Slip","الدفع عن طريق قسيمة الراتب"
+"Payable Account","حساب الدائنين"
+"Payable Account is mandatory to submit an Expense Claim","حساب الدائن إلزامي لتقديم مطالبة المصروفات"
+"Payables","الواجب دفعها (دائنة)"
+"Payment","دفع"
+"Payment Account","حساب الدفع"
+"Payment Account is mandatory","حساب الدفع إلزامي"
+"Payment Date","تاريخ الدفع"
+"Payment Days","أيام الدفع"
+"Payment Days Calculation Help","مساعدة في حساب أيام الدفع"
+"Payment Days Dependency","اعتمادية أيام الدفع"
+"Payment Days calculations are based on these Payroll Settings","تعتمد حسابات أيام الدفع على إعدادات الرواتب هذه"
+"Payment Entry","تدوينات المدفوعات"
+"Payment and Accounting","الدفع والمحاسبة"
+"Payment of {0} from {1} to {2}","دفع {0} من {1} إلى {2}"
+"Payroll","دفع الرواتب"
+"Payroll Based On","الرواتب بناءً على"
+"Payroll Cost Center","مركز تكلفة الرواتب"
+"Payroll Cost Centers","مراكز تكلفة الرواتب"
+"Payroll Dashboard","لوحة معلومات الرواتب"
+"Payroll Date","جدول الرواتب"
+"Payroll Employee Detail","الرواتب الموظف التفاصيل"
+"Payroll Entry","دخول الرواتب"
+"Payroll Entry cancellation is queued. It may take a few minutes","تم وضع إلغاء إدخال الرواتب في قائمة الانتظار. قد يستغرق الأمر بضع دقائق"
+"Payroll Frequency","الدورة الزمنية لدفع الرواتب"
+"Payroll Info","معلومات الرواتب"
+"Payroll Number","رقم الراتب"
+"Payroll Payable","رواتب واجبة الدفع"
+"Payroll Payable Account","حساب مستحقات الرواتب"
+"Payroll Period","فترة المرتبات"
+"Payroll Period Date","جدول الرواتب الفترة التاريخ"
+"Payroll Periods","فترات الرواتب"
+"Payroll Reports","تقارير الرواتب"
+"Payroll Settings","إعدادات دفع الرواتب"
+"Payroll date can not be greater than employee's relieving date.","لا يمكن أن يكون تاريخ كشوف المرتبات أكبر من تاريخ إعفاء الموظف."
+"Payroll date can not be less than employee's joining date.","لا يمكن أن يكون تاريخ كشوف المرتبات أقل من تاريخ انضمام الموظف."
+"Pending","معلق"
+"Pending (unpaid) amount from previous advances","المبلغ المعلق (غير المدفوع) من السلف السابقة"
+"Pending Amount","في انتظار المبلغ"
+"Pending Asset Returns","عوائد الأصول المعلقة"
+"Pending FnF","معلق FnF"
+"Pending Interviews","المقابلات المعلقة"
+"Pending Questionnaires","الاستبيانات المعلقة"
+"Percent","في المئة"
+"Percent Deduction","خصم في المئة"
+"Percentage (%)","النسبة المئوية (٪)"
+"Performance","الأداء"
+"Permanently cancel {0}","إلغاء {0} بشكل دائم"
+"Permanently submit {0}","إرسال {0} بشكل دائم"
+"Phone Number","رقم الهاتف"
+"Piecework","الأجرة المدفوعة لكمية العمل المنجز"
+"Pink","وردي"
+"Planned number of Positions","العدد المخطط للمناصب"
+"Please Enable Auto Attendance and complete the setup first.","يرجى تمكين الحضور التلقائي وإكمال الإعداد أولاً."
+"Please Select Company First","يرجى تحديد الشركة أولاً"
+"Please add the remaining benefits {0} to any of the existing component","الرجاء إضافة الفوائد المتبقية {0} إلى أي مكون موجود"
+"Please add the remaining benefits {0} to the application as pro-rata component","يرجى إضافة المزايا المتبقية {0} إلى التطبيق كمكون تناسبي"
+"Please assign a Salary Structure for Employee {0} applicable from or before {1} first","يرجى تعيين هيكل رواتب للموظف {0} ساري المفعول من أو قبل {1} أولاً"
+"Please check if employee is on leave or attendance with the same status exists for selected day(s).","يرجى التحقق مما إذا كان الموظف في إجازة أو يوجد حضور بنفس الحالة للأيام المحددة."
+"Please confirm once you have completed your training","يرجى تأكيد بمجرد الانتهاء من التدريب الخاص بك"
+"Please create a new {0} for the date {1} first.","يرجى إنشاء {0} جديد للتاريخ {1} أولاً."
+"Please delete the Employee {0} to cancel this document","يرجى حذف الموظف {0} لإلغاء هذا المستند"
+"Please enable default incoming account before creating Daily Work Summary Group","الرجاء تمكين الحساب الوارد الافتراضي قبل إنشاء مجموعة ملخص العمل اليومي"
+"Please enter the designation","الرجاء إدخال التسمية"
+"Please reduce {0} to avoid shift time overlapping with itself","يرجى تقليل {0} لتجنب تداخل وقت الوردية مع نفسه"
+"Please see attachment","يرجى الاطلاع على المرفق"
+"Please select Company and Designation","يرجى تحديد الشركة والتسمية"
+"Please select Employee","يرجى تحديد موظف"
+"Please select Employee first.","الرجاء تحديد الموظف أولاً."
+"Please select From Date and Payroll Frequency first","يرجى تحديد تاريخ البدء وتكرار الرواتب أولاً"
+"Please select From Date.","يرجى تحديد تاريخ البدء."
+"Please select Shift Schedule and assignment date(s).","يرجى تحديد جدول الورديات وتاريخ (تواريخ) التعيين."
+"Please select Shift Type and assignment date(s).","يرجى تحديد نوع الوردية وتاريخ (تواريخ) التعيين."
+"Please select a Company","الرجاء اختيار الشركة"
+"Please select a company first","يرجى تحديد شركة أولاً"
+"Please select a company first.","يرجى تحديد شركة أولاً."
+"Please select a csv file","يرجى اختيار ملف CSV"
+"Please select a date.","يرجى تحديد تاريخ."
+"Please select an Applicant","يرجى تحديد متقدم"
+"Please select at least one Shift Request to perform this action.","يرجى تحديد طلب وردية واحد على الأقل لتنفيذ هذا الإجراء."
+"Please select at least one employee to perform this action.","يرجى تحديد موظف واحد على الأقل لتنفيذ هذا الإجراء."
+"Please select at least one row to perform this action.","يرجى تحديد صف واحد على الأقل لتنفيذ هذا الإجراء."
+"Please select company.","يرجى تحديد الشركة."
+"Please select employee first","يرجى تحديد الموظف أولاً"
+"Please select employees to create appraisals for","يرجى تحديد الموظفين لإنشاء تقييمات لهم"
+"Please select month and year.","يرجى تحديد الشهر والسنة."
+"Please select the Appraisal Cycle first.","يرجى تحديد دورة التقييم أولاً."
+"Please select the attendance status.","يرجى تحديد حالة الحضور."
+"Please select the employees you want to mark attendance for.","يرجى تحديد الموظفين الذين تريد تسجيل حضورهم."
+"Please select the salary slips to email","يرجى تحديد قسائم الرواتب لإرسالها بالبريد الإلكتروني"
+"Please select {0}","الرجاء اختيار {0}"
+"Please set ""Default Payroll Payable Account"" in Company Defaults","يرجى تعيين ""حساب مستحقات الرواتب الافتراضي"" في إعدادات الشركة الافتراضية"
+"Please set Basic and HRA component in Company {0}","يرجى تعيين مكون الراتب الأساسي وبدل السكن في الشركة {0}"
+"Please set Earning Component for Leave type: {0}.","يرجى تعيين مكون الكسب لنوع الإجازة: {0}."
+"Please set Payroll based on in Payroll settings","يرجى تعيين كشوف المرتبات على أساس إعدادات الرواتب"
+"Please set Relieving Date for employee: {0}","يرجى تحديد تاريخ إخلاء الطرف للموظف: {0}"
+"Please set a Default Cash Account in Company defaults","يرجى تعيين حساب نقدي افتراضي في إعدادات الشركة الافتراضية"
+"Please set account in Salary Component {0}","يرجى تعيين الحساب في مكون الراتب {0}"
+"Please set default template for Leave Approval Notification in HR Settings.","يرجى تعيين القالب الافتراضي لإشعار إجازة الموافقة في إعدادات الموارد البشرية."
+"Please set default template for Leave Status Notification in HR Settings.","يرجى تعيين القالب الافتراضي لإشعار حالة الإجازات في إعدادات الموارد البشرية."
+"Please set the Appraisal Template for all the {0} or select the template in the Employees table below.","يرجى تعيين قالب التقييم لجميع {0} أو تحديد القالب في جدول الموظفين أدناه."
+"Please set the Company","يرجى تعيين الشركة"
+"Please set the Date Of Joining for employee {0}","يرجى تحديد تاريخ الالتحاق بالموظف {0}"
+"Please set the Holiday List.","يرجى تعيين قائمة العطلات."
+"Please set the relieving date for employee {0}","يرجى تحديد تاريخ إخلاء الطرف للموظف {0}"
+"Please set {0} and {1} in {2}.","يرجى تعيين {0} و {1} في {2}."
+"Please set {0} for Employee {1}","يرجى تعيين {0} للموظف {1}"
+"Please set {0} for the Employee: {1}","يرجى تعيين {0} للموظف: {1}"
+"Please set {0}.","يرجى تعيين {0}."
+"Please setup Employee Naming System in Human Resource > HR Settings","يرجى إعداد نظام تسمية الموظفين في الموارد البشرية&gt; إعدادات الموارد البشرية"
+"Please setup numbering series for Attendance via Setup > Numbering Series","يرجى إعداد سلسلة الترقيم للحضور عبر الإعداد&gt; سلسلة الترقيم"
+"Please share your feedback to the training by clicking on 'Training Feedback' and then 'New'","يرجى حصة ملاحظاتك للتدريب من خلال النقر على &quot;التدريب ردود الفعل&quot; ثم &quot;جديد&quot;"
+"Please specify the job applicant to be updated.","يرجى تحديد المتقدم للوظيفة الذي سيتم تحديثه."
+"Please specify {0} and {1} (if any), for the correct tax calculation in future salary slips.","يرجى تحديد {0} و {1} (إن وجد) ، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية."
+"Please submit the {0} before marking the cycle as Completed","يرجى إرسال {0} قبل تحديد الدورة على أنها مكتملة"
+"Please update your status for this training event","يرجى تحديث حالتك لهذا الحدث التدريبي"
+"Posted On","تاريخ النشر"
+"Posting Date","تاريخ الترحيل"
+"Posting date","تاريخ الترحيل"
+"Preferred Area for Lodging","المنطقة المفضلة للسكن"
+"Present","حاضر"
+"Present Records","السجلات الحالية"
+"Prevent self approval for leaves even if user has permissions","منع الموافقة الذاتية على الإجازات حتى لو كان لدى المستخدم صلاحيات"
+"Preview Salary Slip","معاينة كشف الراتب"
+"Principal Amount","المبلغ الأساسي"
+"Print Heading","عنوان الطباعة"
+"Printed On {0}","طُبع في {0}"
+"Printing Details","تفاصيل الطباعة"
+"Privilege Leave","إجازة الامتياز"
+"Probation","فترة التجربة"
+"Probationary Period","فترة الاختبار"
+"Process Attendance After","عملية الحضور بعد"
+"Process Payroll Accounting Entry based on Employee","معالجة قيد محاسبة الرواتب بناءً على الموظف"
+"Process Requests","معالجة الطلبات"
+"Process Shift Requests","معالجة طلبات المناوبات"
+"Process leave encashment via a separate Payment Entry instead of Salary Slip","معالجة تسييل الإجازات عبر قيد دفع منفصل بدلاً من قسيمة الراتب"
+"Process {0} Shift Request(s) as <b>{1}</b>?","هل تريد معالجة {0} طلب(ات) مناوبة كـ <b>{1}</b>؟"
+"Processing Requests","جاري معالجة الطلبات"
+"Processing Requests...","جاري معالجة الطلبات..."
+"Processing of Shift Requests has been queued. It may take a few minutes.","تم وضع معالجة طلبات المناوبات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
+"Professional Tax Deductions","الخصومات الضريبية المهنية"
+"Proficiency","مهارة"
+"Profile","الملف الشخصي"
+"Profit","الربح"
+"Progress","تقدم"
+"Project","مشروع"
+"Project Profitability","ربحية المشروع"
+"Promotion","الترقية"
+"Promotion Date","تاريخ العرض"
+"Property","ممتلكات"
+"Property already added","الخاصية المضافة بالفعل"
+"Provident Fund Deductions","خصومات صندوق الادخار"
+"Publish Applications Received","نشر الطلبات المستلمة"
+"Publish Salary Range","نشر نطاق الراتب"
+"Publish on website","نشر على الموقع الإلكتروني"
+"Purpose","غرض"
+"Purpose & Amount","الغرض والمبلغ"
+"Purpose of Travel","الغرض من السفر"
+"Push Notification permission denied","تم رفض إذن الإشعارات"
+"Push notifications disabled","الإشعارات معطلة"
+"Push notifications have been disabled on your site","تم تعطيل الإشعارات على موقعك"
+"Quarterly","فصلي"
+"Questionnaire Email Sent","تم إرسال بريد الاستبيان الإلكتروني"
+"Queued","قائمة الانتظار"
+"Quick Filters","عوامل تصفية سريعة"
+"Quick Links","روابط سريعة"
+"Radius within which check-in is allowed (in meters)","نصف القطر المسموح به لتسجيل الحضور (بالأمتار)"
+"Raised By","التي أثارها"
+"Rate","سعر السلعة المفردة"
+"Rate Goals Manually","تقييم الأهداف يدويًا"
+"Rating","تقييم"
+"Rating Criteria","معايير التقييم"
+"Ratings","التقييمات"
+"Re-allocate Leaves","إعادة تخصيص الأوراق"
+"Read","قرأ"
+"Reason","سبب"
+"Reason for Requesting","سبب الطلب"
+"Reason for Withholding Salary","سبب حجز الراتب"
+"Reason for skipping auto attendance:","سبب تخطي الحضور التلقائي:"
+"Receivables","المستحقات للغير (مدينة)"
+"Recent Attendance Requests","طلبات الحضور الأخيرة"
+"Recent Expenses","النفقات الأخيرة"
+"Recent Leaves","الإجازات الأخيرة"
+"Recent Shift Requests","طلبات المناوبات الأخيرة"
+"Recommended for a single biometric device / checkins via mobile app","موصى به لجهاز بصمة واحد / تسجيل الحضور عبر تطبيق الجوال"
+"Recover Cost","استرداد التكلفة"
+"Recruitment","التوظيف"
+"Recruitment Analytics","تحليلات التوظيف"
+"Red","أحمر"
+"Reference","مرجع"
+"Reference Document","وثيقة مرجعية"
+"Reference Document Name","اسم المستند المرجعي"
+"Reference Document Type","مرجع نوع الوثيقة"
+"Reference: {0}","مرجع: {0}"
+"References","المراجع"
+"Referral Bonus Payment Status","حالة دفع مكافأة الإحالة"
+"Referral Details","تفاصيل الإحالة"
+"Referrer","المرجع"
+"Referrer Details","تفاصيل المُحيل"
+"Referrer Name","اسم المُحيل"
+"Reflections","تأملات"
+"Refuelling Details","تفاصيل إعادة التزود بالوقود"
+"Reject","رفض"
+"Reject Employee Referral","رفض إحالة الموظف"
+"Rejected","مرفوض"
+"Rejection","الرفض"
+"Release Withheld Salaries","صرف الرواتب المحجوزة"
+"Released","تم الصرف"
+"Relieving Date","تاريخ المغادرة"
+"Relieving Date ","تاريخ المغادرة "
+"Relieving Date Missing","تاريخ إخلاء الطرف مفقود"
+"Reload","تحديث"
+"Remaining Benefits (Yearly)","الفوائد المتبقية (سنوية)"
+"Remark","كلام"
+"Remarks","ملاحظات"
+"Remind Before","تذكير من قبل"
+"Reminded","ذكر"
+"Reminder","تذكير"
+"Reminders","رسائل التذكير"
+"Remove if Zero Valued","إزالة إذا كانت القيمة صفر"
+"Rented Car","سيارة مستأجرة"
+"Reopen","إعادة فتح"
+"Repay From Salary","السداد من الراتب"
+"Repay From Salary can be selected only for term loans","يمكن اختيار السداد من الراتب للقروض لأجل فقط"
+"Repay Unclaimed Amount from Salary","سداد المبلغ غير المطالب به من الراتب"
+"Repeat On Days","تكرار في أيام"
+"Replied","رد"
+"Replies","الردود"
+"Reports","تقارير"
+"Reports To","يرفع تقاريره إلى"
+"Request Attendance","طلب حضور"
+"Request Leave","طلب إجازة"
+"Request a Leave","طلب إجازة"
+"Request a Shift","طلب مناوبة"
+"Request an Advance","طلب سلفة"
+"Requested By","مطلوب بواسطة"
+"Requested By (Name)","مطلوب بواسطة (الاسم)"
+"Require Full Funding","يتطلب التمويل الكامل"
+"Required Skills","المهارات المطلوبة"
+"Required for Employee Creation","مطلوب لإنشاء موظف"
+"Reschedule Interview","إعادة جدولة المقابلة"
+"Reset Password","إعادة تعيين كلمة المرور"
+"Resignation Letter Date","تاريخ رسالة الإستقالة"
+"Resolution Date","تاريخ القرار"
+"Resolution Details","قرار تفاصيل"
+"Resolved","تم الحل"
+"Resolved By","حلها عن طريق"
+"Responsibilities","المسؤوليات"
+"Restrict Backdated Leave Application","تقييد طلبات الإجازة بأثر رجعي"
+"Result","النتيجة"
+"Resume","استئنف"
+"Resume Attachment","السيرة الذاتية"
+"Resume Link","رابط السيرة الذاتية"
+"Resume link","رابط السيرة الذاتية"
+"Retained","محتفظ به"
+"Retention Bonus","مكافأة الاحتفاظ"
+"Retirement Age (In Years)","سن التقاعد (بالسنوات)"
+"Return","عودة"
+"Return amount cannot be greater than unclaimed amount","مبلغ الإرجاع لا يمكن أن يكون أكبر من المبلغ غير المطالب به"
+"Returned","تم إرجاعه"
+"Returned Amount","المبلغ المرتجع"
+"Review various other settings related to Employee Leaves and Expense Claim","مراجعة الإعدادات الأخرى المختلفة المتعلقة بإجازات الموظفين وطلبات المصروفات"
+"Reviewer","المراجع"
+"Reviewer Name","اسم المراجع"
+"Revised CTC","إجمالي الراتب المنقح"
+"Right","حق"
+"Role","صلاحية"
+"Role Allowed to Create Backdated Leave Application","الدور المسموح به لإنشاء تطبيق إجازة Backdated"
+"Roster","قائمة المناوبات"
+"Roster Color","لون قائمة المناوبات"
+"Round Name","اسم الجولة"
+"Round off Work Experience","تقريب الخبرة العملية"
+"Round to the Nearest Integer","جولة إلى أقرب عدد صحيح"
+"Rounded Total","تقريب إجمالي"
+"Rounded Total (Company Currency)","المشاركات تقريب (العملة الشركة)"
+"Rounding","التقريب"
+"Route","مسار"
+"Route to the custom Job Application Webform","المسار إلى نموذج طلب الوظيفة المخصص على الويب"
+"Row #{0}: Cannot set amount or formula for Salary Component {1} with Variable Based On Taxable Salary","الصف # {0}: لا يمكن تعيين المبلغ أو الصيغة لمكون الراتب {1} بمتغير قائم على الراتب الخاضع للضريبة"
+"Row #{0}: The {1} Component has the options {2} and {3} enabled.","الصف #{0}: مكون {1} لديه الخياران {2} و {3} مفعلان."
+"Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}","الصف #{0}: سيقوم مبلغ الجدول الزمني بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
+"Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}","رقم الصف {0}: لا يمكن أن يكون المبلغ أكبر من المبلغ المستحق مقابل طلب المصروفات {1}. المبلغ المستحق هو {2}"
+"Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}","الصف {0} # المبلغ المخصص {1} لا يمكن أن يكون أكبر من المبلغ غير المطالب به {2}"
+"Row {0}# Paid Amount cannot be greater than Encashment amount","الصف {0}#: المبلغ المدفوع لا يمكن أن يكون أكبر من مبلغ التسييل"
+"Row {0}# Paid Amount cannot be greater than Total amount","الصف {0}#: المبلغ المدفوع لا يمكن أن يكون أكبر من المبلغ الإجمالي"
+"Row {0}# Paid Amount cannot be greater than requested advance amount","الصف {0} # المبلغ المدفوع لا يمكن أن يكون أكبر من المبلغ المطلوب مسبقا"
+"Row {0}: Cost Center {1} does not belong to Company {2}","الصف {0}: مركز التكلفة {1} لا ينتمي إلى الشركة {2}"
+"Row {0}: From (Year) can not be greater than To (Year)","الصف {0}: ""من (سنة)"" لا يمكن أن تكون أكبر من ""إلى (سنة)"""
+"Row {0}: Goal Score cannot be greater than 5","الصف {0}: درجة الهدف لا يمكن أن تكون أكبر من 5"
+"Row {0}: Paid amount {1} is greater than pending accrued amount {2} against loan {3}","الصف {0}: المبلغ المدفوع {1} أكبر من المبلغ المستحق المعلق {2} مقابل القرض {3}"
+"Row {0}: {1}","الصف {0}: {1}"
+"Row {0}: {1} is required in the expenses table to book an expense claim.","الصف {0}: {1} مطلوب في جدول النفقات لحجز مطالبة بالنفقات."
+"Rules","القواعد"
+"Salary","الراتب"
+"Salary Component","مكون الراتب"
+"Salary Component ","مكون الراتب "
+"Salary Component Account","حساب مكون الراتب"
+"Salary Component Type","نوع مكون الراتب"
+"Salary Component for timesheet based payroll.","مكون الراتب لكشف المرتبات المبنية على أساس سجلات التوقيت"
+"Salary Component {0} is currently not used in any Salary Structure.","مكون الراتب {0} غير مستخدم حاليًا في أي هيكل رواتب."
+"Salary Currency","عملة الراتب"
+"Salary Detail","تفاصيل الراتب"
+"Salary Details","تفاصيل الراتب"
+"Salary Expectation","الراتب المتوقع"
+"Salary Information","معلومات الراتب"
+"Salary Paid Per","الراتب مدفوع لكل"
+"Salary Payments Based On Payment Mode","دفع الرواتب على أساس طريقة الدفع"
+"Salary Payments via ECS","دفع الرواتب عبر ECS"
+"Salary Payout","صرف الرواتب"
+"Salary Range","نطاق الراتب"
+"Salary Register","راتب التسجيل"
+"Salary Slip","قسيمة الراتب"
+"Salary Slip Based on Timesheet","كشف الرواتب بناء على سجل التوقيت"
+"Salary Slip ID","هوية كشف الراتب"
+"Salary Slip Leave","إجازة قسيمة الراتب"
+"Salary Slip Loan","قرض كشف الراتب"
+"Salary Slip Timesheet","كشف راتب معتمد علي سجل التوقيت"
+"Salary Slip already exists for {0} for the given dates","قسيمة الراتب موجودة بالفعل للموظف {0} للتواريخ المحددة"
+"Salary Slip creation is queued. It may take a few minutes","تم وضع إنشاء قسيمة الراتب في قائمة الانتظار. قد يستغرق الأمر بضع دقائق"
+"Salary Slip of employee {0} already created for this period","كشف الراتب للموظف {0} تم إنشاؤه لهذه الفترة"
+"Salary Slip of employee {0} already created for time sheet {1}","كشف الراتب للموظف {0} تم إنشاؤه لسجل التوقيت {1}"
+"Salary Slip submission is queued. It may take a few minutes","تم وضع تقديم قسيمة الراتب في قائمة الانتظار. قد يستغرق الأمر بضع دقائق"
+"Salary Slip {0} failed for Payroll Entry {1}","فشلت قسيمة الراتب {0} لإدخال الرواتب {1}"
+"Salary Slip {0} failed. You can resolve the {1} and retry {0}.","فشلت قسيمة الراتب {0}. يمكنك حل {1} وإعادة محاولة {0}."
+"Salary Slips","قسائم الرواتب"
+"Salary Slips Created","تم استحداث كشوف الرواتب"
+"Salary Slips Submitted","قسائم الرواتب المقدمة"
+"Salary Slips already exist for employees {}, and will not be processed by this payroll.","قسائم الرواتب موجودة بالفعل للموظفين {}، ولن تتم معالجتها بواسطة كشف الرواتب هذا."
+"Salary Slips submitted for period from {0} to {1}","تم تقديم قسائم الرواتب للفترة من {0} إلى {1}"
+"Salary Structure","هيكل الراتب"
+"Salary Structure Assignment","تعيين هيكل الراتب"
+"Salary Structure Assignment field","حقل تعيين هيكل الراتب"
+"Salary Structure Assignment for Employee already exists","تعيين هيكل الراتب للموظف موجود بالفعل"
+"Salary Structure Missing","هيكلية الراتب مفقودة"
+"Salary Structure must be submitted before submission of {0}","يجب تقديم هيكل الراتب قبل تقديم {0}"
+"Salary Structure not found for employee {0} and date {1}","لم يتم العثور على هيكل الراتب للموظف {0} والتاريخ {1}"
+"Salary Structure should have flexible benefit component(s) to dispense benefit amount","يجب أن يحتوي هيكل الرواتب على مكون (مكونات) منافع مرنة لصرف مبلغ المنافع"
+"Salary Structure {0} does not belong to company {1}","هيكل الراتب {0} لا ينتمي إلى الشركة {1}"
+"Salary Structures updated successfully","تم تحديث هياكل الرواتب بنجاح"
+"Salary Withholding","حجز الراتب"
+"Salary Withholding Cycle","دورة حجز الراتب"
+"Salary Withholding {0} already exists for employee {1} for the selected period","حجز الراتب {0} موجود بالفعل للموظف {1} للفترة المحددة"
+"Salary already processed for period between {0} and {1}, Leave application period cannot be between this date range.","تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب اﻹجازة بين نطاق هذا التاريخ.\
+<br>\
+Salary already processed for period between {0} and {1}, Leave application period cannot be between this date range."
+"Salary breakup based on Earning and Deduction.","تقسيم الراتب بناءَ على الكسب والاستقطاع."
+"Salary components should be part of the Salary Structure.","يجب أن تكون مكونات الراتب جزءًا من هيكل الراتب."
+"Salary slip emails have been enqueued for sending. Check {0} for status.","تم وضع رسائل البريد الإلكتروني لقسائم الرواتب في قائمة الانتظار للإرسال. تحقق من {0} للحالة."
+"Sales Invoice","فاتورة مبيعات"
+"Same Company is entered more than once","تم إدخال نفس الشركة أكثر من مره\
+<br>\
+Same Company is entered more than once"
+"Sanctioned","مقرر"
+"Sanctioned Amount","المبلغ المعتمد"
+"Sanctioned Amount cannot be greater than Claim Amount in Row {0}.","لا يمكن أن يكون المبلغ الموافق عليه أكبر من مبلغ المطالبة في الصف {0}."
+"Saturday","السبت"
+"Scheduled","من المقرر"
+"Scheduled On","مجدول في"
+"Score (0-5)","نقاط (0-5)"
+"Score Earned","نقاط المكتسبة"
+"Score must be less than or equal to 5","يجب أن تكون النقاط أقل من أو تساوي 5\
+<br>\
+Score must be less than or equal to 5"
+"Scores","الدرجات"
+"Search for Jobs","البحث عن وظائف"
+"Select Company","حدد الشركة"
+"Select Employees","حدد الموظفين"
+"Select Interview Round First","حدد جولة المقابلة أولاً"
+"Select Interview first","حدد المقابلة أولاً"
+"Select Payment Account to make Bank Entry","اختار الحساب الذي سوف تدفع منه"
+"Select Payroll Frequency.","حدد تكرار الرواتب."
+"Select Payroll Period","حدد فترة الرواتب"
+"Select Property","اختر الملكية"
+"Select Shift Requests","حدد طلبات المناوبات"
+"Select Terms and Conditions","اختر الشروط والأحكام"
+"Select Users","حدد المستخدمون"
+"Select an employee to get the employee advance.","حدد الموظف للحصول على تقدم الموظف."
+"Select the Employee for which you want to allocate leaves.","حدد الموظف الذي تريد تخصيص إجازات له."
+"Select the Employee.","حدد الموظف."
+"Select the Leave Type like Sick leave, Privilege Leave, Casual Leave, etc.","حدد نوع الإجازة مثل الإجازة المرضية، الإجازة السنوية، الإجازة العارضة، إلخ."
+"Select the date after which this Leave Allocation will expire.","حدد التاريخ الذي سينتهي بعده تخصيص الإجازة هذا."
+"Select the date from which this Leave Allocation will be valid.","حدد التاريخ الذي سيكون تخصيص الإجازة هذا صالحًا منه."
+"Select the end date for your Leave Application.","حدد تاريخ انتهاء طلب الإجازة الخاص بك."
+"Select the start date for your Leave Application.","حدد تاريخ بدء طلب الإجازة الخاص بك."
+"Select this if you want shift assignments to be automatically created indefinitely.","حدد هذا الخيار إذا كنت تريد إنشاء تعيينات المناوبات تلقائيًا إلى أجل غير مسمى."
+"Select type of leave the employee wants to apply for, like Sick Leave, Privilege Leave, Casual Leave, etc.","حدد نوع الإجازة التي يرغب الموظف في التقدم لها، مثل الإجازة المرضية، الإجازة السنوية، الإجازة العارضة، إلخ."
+"Select your Leave Approver i.e. the person who approves or rejects your leaves.","حدد موافق الإجازات الخاص بك، أي الشخص الذي يوافق على إجازاتك أو يرفضها."
+"Select {0}","حدد {0}"
+"Self Appraisal","التقييم الذاتي"
+"Self Appraisal Pending: {0}","التقييم الذاتي معلق: {0}"
+"Self Appraisal Score","درجة التقييم الذاتي"
+"Self Score","الدرجة الذاتية"
+"Self-Study","دراسة ذاتية"
+"Self-approval for leaves is not allowed","الموافقة الذاتية على الإجازات غير مسموح بها"
+"Seminar","ندوة"
+"Send Emails At","إرسال رسائل البريد الإلكتروني في"
+"Send Exit Questionnaire","إرسال استبيان إنهاء الخدمة"
+"Send Exit Questionnaires","إرسال استبيانات إنهاء الخدمة"
+"Send Interview Feedback Reminder","إرسال تذكير بملاحظات المقابلة"
+"Send Interview Reminder","إرسال تذكير بالمقابلة"
+"Send Leave Notification","إرسال إشعار الإجازة"
+"Sender","مرسل"
+"Sender Email","البريد الإلكتروني المرسل"
+"Sending Failed due to missing email information for employee(s): {1}","فشل الإرسال بسبب معلومات البريد الإلكتروني المفقودة للموظف (الموظفين): {1}"
+"Sent","أرسلت"
+"Sent Successfully: {0}","تم الإرسال بنجاح: {0}"
+"Sep","سبتمبر"
+"Separation Activities","أنشطة إنهاء الخدمة"
+"Separation Begins On","يبدأ إنهاء الخدمة في"
+"Series","سلسلة التسمية"
+"Service","خدمة"
+"Service Details","تفاصيل الخدمة"
+"Service Expense","نفقات الصيانة"
+"Service Expenses","مصاريف الخدمة"
+"Service Item","بند الخدمة"
+"Set ""From(Year)"" and ""To(Year)"" to 0 for no upper and lower limit.","عيّن ""من (سنة)"" و ""إلى (سنة)"" إلى 0 لعدم وجود حد أعلى وأدنى."
+"Set Assignment Details","تعيين تفاصيل التعيين"
+"Set Attendance Details","تعيين تفاصيل الحضور"
+"Set Leave Details","تعيين تفاصيل الإجازة"
+"Set Relieving Date for Employee: {0}","تعيين تاريخ إخلاء الطرف للموظف: {0}"
+"Set attendance details for the employees select above","تعيين تفاصيل الحضور للموظفين المحددين أعلاه"
+"Set filters to fetch employees","تعيين عوامل التصفية لجلب الموظفين"
+"Set opening balances for earnings and taxes from the previous employer","تعيين الأرصدة الافتتاحية للاستحقاقات والضرائب من صاحب العمل السابق"
+"Set optional filters to fetch employees in the appraisee list","تعيين عوامل تصفية اختيارية لجلب الموظفين في قائمة المقيمين"
+"Set the default account for the {0} {1}","تعيين الحساب الافتراضي لـ {0} {1}"
+"Set the frequency for holiday reminders","تعيين تكرار تذكيرات العطلات"
+"Set the properties that should be updated in the Employee master on promotion submission","تعيين الخصائص التي يجب تحديثها في ملف الموظف الرئيسي عند تقديم الترقية"
+"Set the status to {0} if required.","عيّن الحالة إلى {0} إذا لزم الأمر."
+"Set {0} for selected employees","تعيين {0} للموظفين المحددين"
+"Settings","إعدادات"
+"Settings Missing","الإعدادات مفقودة"
+"Settle against Advances","تسوية مقابل السلف"
+"Settle all Payables and Receivables before submission","تسوية جميع المستحقات والمدفوعات قبل التقديم"
+"Settled","تسوية"
+"Setup","الإعدادات"
+"Shared with the user {0} with 'submit' permisions","تمت مشاركته مع المستخدم {0} مع صلاحيات 'التقديم'"
+"Shift","مناوبة"
+"Shift & Attendance","المناوبات والحضور"
+"Shift Actual End","التحول نهاية الفعلية"
+"Shift Actual End Time","وقت الانتهاء الفعلي للمناوبة"
+"Shift Actual Start","التحول الفعلي البداية"
+"Shift Actual Start Time","وقت البدء الفعلي للمناوبة"
+"Shift Assignment","مهمة التحول"
+"Shift Assignment Details","تفاصيل تعيين المناوبة"
+"Shift Assignment History","سجل تعيين المناوبات"
+"Shift Assignment Tool","أداة تعيين المناوبات"
+"Shift Assignment: {0} created for Employee: {1}","واجب التحول: {0} تم إنشاؤه للموظف: {1}"
+"Shift Attendance","حضور المناوبة"
+"Shift Details","تفاصيل المناوبة"
+"Shift End","التحول نهاية"
+"Shift End Time","وقت انتهاء المناوبة"
+"Shift Location","موقع المناوبة"
+"Shift Request","طلب التغيير"
+"Shift Request Approver","موافق طلب المناوبة"
+"Shift Request Filters","عوامل تصفية طلبات المناوبات"
+"Shift Requests ending before this date will be excluded.","سيتم استبعاد طلبات المناوبات التي تنتهي قبل هذا التاريخ."
+"Shift Requests starting after this date will be excluded.","سيتم استبعاد طلبات المناوبات التي تبدأ بعد هذا التاريخ."
+"Shift Schedule","جدول المناوبات"
+"Shift Schedule Assignment","تعيين جدول المناوبات"
+"Shift Settings","إعدادات المناوبة"
+"Shift Start","تحول البداية"
+"Shift Start Time","وقت بدء المناوبة"
+"Shift Status","حالة المناوبة"
+"Shift Timings","توقيتات المناوبة"
+"Shift Tools","أدوات المناوبة"
+"Shift Type","نوع التحول"
+"Shift has been successfully updated to {0}.","تم تحديث المناوبة بنجاح إلى {0}."
+"Shifts","المناوبات"
+"Show Employee","إظهار الموظف"
+"Show Leave Balances in Salary Slip","إظهار أرصدة الإجازات في قسيمة الراتب"
+"Show Leaves Of All Department Members In Calendar","إظهار أوراق جميع أعضاء القسم في التقويم"
+"Show Salary Slip","عرض كشف الراتب"
+"Showing","عرض"
+"Sick Leave","الإجازات المرضية"
+"Single Assignment","تعيين فردي"
+"Skill","مهارة"
+"Skill Assessment","تقييم المهارات"
+"Skill Name","اسم المهارة"
+"Skills","المهارات"
+"Skip Auto Attendance","تخطي الحضور التلقائي"
+"Skipping Salary Structure Assignment for the following employees, as Salary Structure Assignment records already exists against them. {0}","تخطي تعيين هيكل الرواتب للموظفين التاليين ، لأن سجلات تعيين هيكل الرواتب موجودة بالفعل ضدهم. {0}"
+"Source","المصدر"
+"Source Name","اسم المصدر"
+"Source and Rating","المصدر والتقييم"
+"Source and target shifts cannot be the same","لا يمكن أن تكون المناوبة المصدر والهدف متماثلتين"
+"Sponsored Amount","المبلغ المساند"
+"Staffing Details","تفاصيل التوظيف"
+"Staffing Plan","خطة التوظيف"
+"Staffing Plan Detail","تفاصيل خطة التوظيف"
+"Staffing Plan {0} already exist for designation {1}","خطة التوظيف {0} موجودة بالفعل للتسمية {1}"
+"Standard Tax Exemption Amount","معيار الإعفاء الضريبي"
+"Standard Working Hours","ساعات العمل القياسية"
+"Start","بداية"
+"Start Date","تاريخ البدء"
+"Start Time","بداية الوقت"
+"Start and end dates not in a valid Payroll Period, cannot calculate {0}","تواريخ البدء والانتهاء ليست في فترة كشوف رواتب صالحة ، لا يمكن حساب {0}"
+"Start and end dates not in a valid Payroll Period, cannot calculate {0}.","تواريخ البدء والانتهاء ليست في فترة كشوف المرتبات الصالحة ، ولا يمكن حساب {0}."
+"Start date: {0}","تاريخ البدء: {0}"
+"Start time and end time cannot be same.","لا يمكن أن يكون وقت البدء ووقت الانتهاء متماثلين."
+"Statistical Component","العنصر الإحصائي"
+"Status","الحالة"
+"Status for Other Half","حالة النصف الآخر"
+"Stock Options","خيارات المخزون"
+"Stop users from making Leave Applications on following days.","وقف المستخدمين من طلب إجازة في الأيام التالية."
+"Strictly based on Log Type in Employee Checkin","يعتمد بشكل صارم على نوع السجل في فحص الموظف"
+"Structures have been assigned successfully","تم تخصيص الهياكل بنجاح"
+"Subject","موضوع"
+"Submission Date","تاريخ التقديم"
+"Submission Failed","فشل التقديم"
+"Submission of {0} before {1} is not allowed","لا يُسمح بتقديم {0} قبل {1}"
+"Submit","تسجيل"
+"Submit Feedback","تقديم الملاحظات"
+"Submit Now","قدم الآن"
+"Submit Proof","تقديم دليل"
+"Submit Salary Slip","الموافقة كشف الرواتب"
+"Submit this Leave Application to confirm.","قدم طلب الإجازة هذا للتأكيد."
+"Submit this to create the Employee record","إرسال هذا لإنشاء سجل الموظف"
+"Submitted","مسجلة"
+"Submitting Salary Slips and creating Journal Entry...","تقديم قسائم الرواتب وإنشاء قيد دفتر اليومية ..."
+"Submitting Salary Slips...","تقديم قسائم الرواتب ..."
+"Subsidiary companies have already planned for {1} vacancies at a budget of {2}. Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned for its subsidiary companies","خططت الشركات التابعة بالفعل لـ {1} وظيفة شاغرة بميزانية {2}. يجب أن تخصص خطة التوظيف لـ {0} وظائف شاغرة وميزانية لـ {3} أكثر مما هو مخطط له لشركاتها التابعة"
+"Success","نجاح"
+"Successfully created {0} for employees:","تم الإنشاء بنجاح {0} للموظفين:"
+"Successfully {0} {1} for the following employees:","تم بنجاح {0} {1} للموظفين التاليين:"
+"Sum of all previous slabs","مجموع كل الشرائح السابقة"
+"Summarized View","عرض موجز"
+"Sunday","الأحد"
+"Supplier","المورد"
+"Suspended","معلق"
+"Sync {0}","مزامنة {0}"
+"Syntax error","خطأ في الصياغة"
+"Syntax error in condition: {0} in Income Tax Slab","خطأ في صياغة الشرط: {0} في شريحة ضريبة الدخل"
+"System Manager","مدير النظام"
+"Take Exact Completed Years","أخذ السنوات المكتملة بالضبط"
+"Task","مهمة"
+"Task Weight","وزن المهمة"
+"Tax & Benefits","الضرائب والمزايا"
+"Tax Deducted Till Date","الضريبة المخصومة حتى تاريخه"
+"Tax Exemption Category","فئة الإعفاء الضريبي"
+"Tax Exemption Declaration","إقرار الإعفاء الضريبي"
+"Tax Exemption Proofs","الإعفاء من الضرائب"
+"Tax Setup","إعداد الضرائب"
+"Tax on additional salary","الضريبة على الراتب الإضافي"
+"Tax on flexible benefit","الضريبة على الفائدة المرنة"
+"Taxable Earnings Till Date","الأرباح الخاضعة للضريبة حتى تاريخه"
+"Taxable Salary Slab","بلاطة الراتب الخاضع للضريبة"
+"Taxable Salary Slabs","بلاطات الراتب الخاضعة للضريبة"
+"Taxes & Charges","الضرائب والرسوم"
+"Taxes and Charges on Income Tax","الضرائب والرسوم على ضريبة الدخل"
+"Taxi","سيارة اجره"
+"Team Advances","سلف الفريق"
+"Team Claims","مطالبات الفريق"
+"Team Leaves","إجازات الفريق"
+"Team Requests","طلبات الفريق"
+"Team Updates","تحديثات الفريق"
+"Template Name","اسم القالب"
+"Terms","الشروط"
+"Terms and Conditions","الشروط والأحكام"
+"Thank you","شكرا"
+"The currency of {0} should be same as the company's default currency. Please select another account.","يجب أن تكون عملة {0} هي نفس العملة الافتراضية للشركة. يرجى تحديد حساب آخر."
+"The date on which Salary Component with Amount will contribute for Earnings/Deduction in Salary Slip. ","التاريخ الذي سيساهم فيه مكون الراتب مع المبلغ في الاستحقاقات/الخصومات في قسيمة الراتب."
+"The day of the month when leaves should be allocated","يوم الشهر الذي يجب فيه تخصيص الإجازات"
+"The day(s) on which you are applying for leave are holidays. You need not apply for leave.","فترة طلب اﻹجازة تقع في فترة عطلة رسمية، يجب إختيار فترة أخرى.\
+<br>\
+The day(s) on which you are applying for leave are holidays. You need not apply for leave."
+"The days between {0} to {1} are not valid holidays.","الأيام بين {0} و {1} ليست عطلات صالحة."
+"The first Approver in the list will be set as the default Approver.","سيتم تعيين أول موافق في القائمة كموافق افتراضي."
+"The fraction of Daily Salary per Leave should be between 0 and 1","يجب أن يكون جزء الراتب اليومي لكل إجازة بين 0 و 1"
+"The fraction of daily wages to be paid for half-day attendance","جزء من الأجر اليومي الواجب دفعه مقابل حضور نصف يوم"
+"The metrics for this report are calculated based on the {0}. Please set {0} in {1}.","يتم حساب مقاييس هذا التقرير بناءً على {0}. يرجى تعيين {0} في {1}."
+"The metrics for this report are calculated based on {0}. Please set {0} in {1}.","يتم حساب مقاييس هذا التقرير بناءً على {0}. يرجى تعيين {0} في {1}."
+"The salary slip emailed to the employee will be password protected, the password will be generated based on the password policy.","سيتم حماية كلمة مرور المرسل بالبريد الإلكتروني للموظف ، وسيتم إنشاء كلمة المرور بناءً على سياسة كلمة المرور."
+"The time after the shift start time when check-in is considered as late (in minutes).","الوقت بعد وقت بدء التحول عندما يُعتبر تسجيل الوصول متأخرًا (بالدقائق)."
+"The time before the shift end time when check-out is considered as early (in minutes).","الوقت الذي يسبق وقت نهاية التحول عندما يتم تسجيل المغادرة في وقت مبكر (بالدقائق)."
+"The time before the shift start time during which Employee Check-in is considered for attendance.","الوقت الذي يسبق وقت بدء التحول الذي يتم خلاله فحص تسجيل الموظف للحضور."
+"Theory","نظرية"
+"There are more holidays than working days this month.","أيام العطل لهذا الشهر أكثر من أيام العمل.\
+<br>\
+There are more holidays than working days this month."
+"There are no vacancies under staffing plan {0}","لا توجد وظائف شاغرة في إطار خطة التوظيف {0}"
+"There is no Salary Structure assigned to {0}. First assign a Salary Stucture.","لا يوجد هيكل رواتب معين لـ {0}. قم أولاً بتعيين هيكل رواتب."
+"There's no Employee with Salary Structure: {0}. Assign {1} to an Employee to preview Salary Slip","لا يوجد موظف بهيكل رواتب: {0}. قم بتعيين {1} لموظف لمعاينة قسيمة الراتب"
+"These leaves are holidays permitted by the company however, availing it is optional for an Employee.","هذه الإجازات هي عطلات تسمح بها الشركة، ومع ذلك، فإن الاستفادة منها اختيارية للموظف."
+"This action will prevent making changes to the linked appraisal feedback/goals.","سيمنع هذا الإجراء إجراء تغييرات على ملاحظات/أهداف التقييم المرتبطة."
+"This check-in is outside assigned shift hours and will not be considered for attendance. If a shift is assigned, adjust its time window and Fetch Shift again.","تسجيل الحضور هذا خارج ساعات المناوبة المخصصة ولن يتم اعتباره للحضور. إذا تم تعيين مناوبة، فاضبط نافذتها الزمنية واجلب المناوبة مرة أخرى."
+"This compensatory leave will be applicable from {0}.","ستكون هذه الإجازة التعويضية سارية من {0}."
+"This employee already has a log with the same timestamp.{0}","هذا الموظف لديه بالفعل سجل بنفس الطابع الزمني. {0}"
+"This error can be due to invalid formula or condition.","قد يكون هذا الخطأ بسبب صيغة أو شرط غير صالح."
+"This error can be due to invalid syntax.","قد يكون هذا الخطأ بسبب صياغة غير صالحة."
+"This error can be due to missing or deleted field.","قد يكون هذا الخطأ بسبب حقل مفقود أو محذوف."
+"This field allows you to set the maximum number of consecutive leaves an Employee can apply for.","يسمح لك هذا الحقل بتعيين الحد الأقصى لعدد الإجازات المتتالية التي يمكن للموظف التقدم لها."
+"This field allows you to set the maximum number of leaves that can be allocated annually for this Leave Type while creating the Leave Policy","يسمح لك هذا الحقل بتعيين الحد الأقصى لعدد الإجازات التي يمكن تخصيصها سنويًا لنوع الإجازة هذا أثناء إنشاء سياسة الإجازات"
+"This is based on the attendance of this Employee","هذا يستند على حضور الموظف"
+"This method is only meant for developer mode","هذه الطريقة مخصصة لوضع المطور فقط"
+"This will overwrite the tax component {0} in the salary slip and tax won't be calculated based on the Income Tax Slabs","سيؤدي هذا إلى الكتابة فوق مكون الضريبة {0} في قسيمة الراتب ولن يتم احتساب الضريبة بناءً على شرائح ضريبة الدخل"
+"This will submit Salary Slips and create accrual Journal Entry. Do you want to proceed?","سيؤدي هذا إلى تقديم قسائم الراتب وإنشاء الدخول إلى دفتر الأستحقاق. هل تريد المتابعة؟"
+"Thursday","الخميس"
+"Time","زمن"
+"Time Interval","الفاصل الزمني"
+"Time Sheet","ورقة الوقت"
+"Time after the end of shift during which check-out is considered for attendance.","الوقت بعد نهاية النوبة التي يتم خلالها تسجيل المغادرة للحضور."
+"Time taken to fill the open positions","الوقت المستغرق لملء الوظائف الشاغرة"
+"Time to Fill","الوقت اللازم للتوظيف"
+"Timelines","الجداول الزمنية"
+"Timesheet","ساعات العمل"
+"Timesheet Details","تفاصيل الجداول الزمنية"
+"Timing","توقيت"
+"Title","اللقب"
+"To","إلى"
+"To Amount","لكمية"
+"To Date","إلى تاريخ"
+"To Date cannot be before From Date","(الى تاريخ) لا يمكن ان يكون قبل (من تاريخ)"
+"To Date should be greater than From Date","يجب أن يكون إلى تاريخ أكبر من من تاريخ"
+"To Time","إلى وقت"
+"To User","إلى المستخدم"
+"To allow this, enable {0} under {1}.","للسماح بذلك، قم بتمكين {0} ضمن {1}."
+"To apply for a Half Day check 'Half Day' and select the Half Day Date","للتقدم بطلب للحصول على نصف يوم، حدد 'نصف يوم' وحدد تاريخ نصف اليوم"
+"To date can not be equal or less than from date","حتى الآن لا يمكن أن يكون مساويا أو أقل من التاريخ"
+"To date can not be greater than employee's relieving date.","حتى الآن لا يمكن أن يكون أكبر من تاريخ إعفاء الموظف."
+"To date can not be less than from date","حتى الآن لا يمكن أن يكون أقل من من تاريخ"
+"To date can not greater than employee's relieving date","حتى الآن لا يمكن أن يكون أكبر من تاريخ تخفيف الموظف"
+"To date cannot be before from date","لا يمكن أن يكون تاريخ الانتهاء قبل تاريخ البدء"
+"To overwrite the salary component amount for a tax component, please enable {0}","للكتابة فوق مبلغ مكون الراتب لمكون ضريبي، يرجى تمكين {0}"
+"To(Year)","إلى (سنة)"
+"To(Year) year can not be less than From(year)","لا يمكن أن تكون سنة ""إلى (سنة)"" أقل من ""من (سنة)"""
+"Today is {0}'s birthday 🎉",""
+"Today {0} at our Company! 🎉",""
+"Today {0} completed {1} year(s) at our Company! 🎉",""
+"Total","الاجمالي غير شامل الضريبة"
+"Total Absent","إجمالي الغياب"
+"Total Actual Amount","إجمالي المبلغ الفعلي"
+"Total Advance Amount","إجمالي المبلغ المدفوع مقدما"
+"Total Allocated Leave(s)","إجمالي الإجازات المخصصة"
+"Total Allocated Leaves","إجمالي الإجازات المخصصة"
+"Total Amount","الاعتماد الأساسي"
+"Total Amount Reimbursed","مجموع المبلغ المسدد"
+"Total Amount cannot be zero","لا يمكن أن يكون المبلغ الإجمالي صفرًا"
+"Total Asset Recovery Cost","إجمالي تكلفة استرداد الأصول"
+"Total Billed Hours","مجموع الساعات وصفت"
+"Total Claimed Amount","إجمالي المبلغ المطالب به"
+"Total Declared Amount","إجمالي المبلغ المعلن"
+"Total Deduction","مجموع الخصم"
+"Total Deduction (Company Currency)","إجمالي الخصومات (بعملة الشركة)"
+"Total Early Exits","إجمالي المخارج المبكرة"
+"Total Earning","إجمالي الدخل"
+"Total Earnings","إجمالي الاستحقاقات"
+"Total Estimated Budget","مجموع الميزانية التقديرية"
+"Total Estimated Cost","مجموع التكلفة التقديرية"
+"Total Exemption Amount","مجموع مبلغ الإعفاء"
+"Total Expense Amount","إجمالي مبلغ المصروفات"
+"Total Expense Claim (via Expense Claim)","إجمالي المطالبة بالمصروفات (عبر مطالبة المصروفات)"
+"Total Expense Claim (via Expense Claims)","إجمالي المطالبة بالمصروفات (عبر مطالبات المصروفات)"
+"Total Goal Score","إجمالي درجة الهدف"
+"Total Gross Pay","إجمالي الأجر الإجمالي"
+"Total Holidays","مجموع العطلات"
+"Total Hours (T)","إجمالي الساعات (T)"
+"Total Income Tax","إجمالي ضريبة الدخل"
+"Total Interest Amount","إجمالي مبلغ الفائدة"
+"Total Late Entries","مجموع الإدخالات المتأخرة"
+"Total Leave Days","مجموع أيام الإجازة"
+"Total Leaves","مجموع الإجازات"
+"Total Leaves ({0})","إجمالي الإجازات ({0})"
+"Total Leaves Allocated","إجمالي الاجازات المخصصة"
+"Total Leaves Encashed","اجمالي الاوراق مقطوعه"
+"Total Loan Repayment","إجمالي سداد القرض"
+"Total Net Pay","إجمالي صافي الأجر"
+"Total Non-Billed Hours","إجمالي الساعات غير المفوترة"
+"Total Payable Amount","إجمالي المبلغ المستحق الدفع"
+"Total Payment","إجمالي الدفعة"
+"Total Present","إجمالي الحضور"
+"Total Principal Amount","إجمالي المبلغ الأساسي"
+"Total Receivable Amount","إجمالي المبلغ المستحق القبض"
+"Total Resignations","إجمالي الاستقالات"
+"Total Sanctioned Amount","الإجمالي الكمية الموافق عليه"
+"Total Score","مجموع النقاط"
+"Total Self Score","إجمالي الدرجة الذاتية"
+"Total Taxes and Charges","مجموع الضرائب والرسوم"
+"Total Working Hours","مجموع ساعات العمل"
+"Total advance amount cannot be greater than total sanctioned amount","لا يمكن أن يكون إجمالي المبلغ المدفوع أكبر من المبلغ الإجمالي المعتمد"
+"Total allocated leaves are more than maximum allocation allowed for {0} leave type for employee {1} in the period","إجمالي الإجازات المخصصة أكثر من الحد الأقصى المسموح به لنوع الإجازة {0} للموظف {1} في الفترة"
+"Total allocated leaves {0} cannot be less than already approved leaves {1} for the period","لا يمكن أن يكون إجمالي الإجازات المخصصة {0} أقل من الإجازات المعتمدة بالفعل {1} للفترة"
+"Total flexible benefit component amount {0} should not be less than max benefits {1}","يجب ألا يقل إجمالي مبلغ الفائدة المرنة {0} عن الحد الأقصى للمنافع {1}"
+"Total in words","إجمالي بالحروف"
+"Total in words (Company Currency)","الإجمالي بالكلمات (بعملة الشركة)"
+"Total leaves allocated cannot exceed annual allocation of {0}.","لا يمكن أن يتجاوز إجمالي الإجازات المخصصة التخصيص السنوي البالغ {0}."
+"Total leaves allocated is mandatory for Leave Type {0}","إجمالي الإجازات المخصصة إلزامي لنوع الإجازة {0}"
+"Total percentage against cost centers should be 100","يجب أن يكون إجمالي النسبة المئوية مقابل مراكز التكلفة 100"
+"Total salary booked against this component for this employee from the beginning of the year (payroll period or fiscal year) up to the current salary slip's end date.","إجمالي الراتب المحجوز مقابل هذا المكون لهذا الموظف من بداية العام (فترة الرواتب أو السنة المالية) حتى تاريخ انتهاء قسيمة الراتب الحالية."
+"Total salary booked for this employee from the beginning of the month up to the current salary slip's end date.","إجمالي الراتب المحجوز لهذا الموظف من بداية الشهر حتى تاريخ انتهاء قسيمة الراتب الحالية."
+"Total salary booked for this employee from the beginning of the year (payroll period or fiscal year) up to the current salary slip's end date.","إجمالي الراتب المحجوز لهذا الموظف من بداية العام (فترة الرواتب أو السنة المالية) حتى تاريخ انتهاء قسيمة الراتب الحالية."
+"Total weightage for all {0} must add up to 100. Currently, it is {1}%","يجب أن يكون إجمالي الترجيح لجميع {0} 100. حاليًا، هو {1}%"
+"Total working Days Per Year","إجمالي أيام العمل في السنة"
+"Total working hours should not be greater than max working hours {0}","عدد ساعات العمل الكلي يجب ألا يكون أكثر من العدد الأقصى لساعات العمل {0}"
+"Totals","المجاميع"
+"Train","قطار"
+"Trainer Email","بريد المدرب الإلكتروني"
+"Trainer Name","اسم المدرب"
+"Training","التدريب"
+"Training Date","تاريخ التدريب"
+"Training Event","حدث تدريب"
+"Training Event Employee","تدريب الموظف للحدث"
+"Training Event:","حدث التدريب:"
+"Training Events","أحداث التدريب"
+"Training Feedback","ردود الفعل على التدريب"
+"Training Program","برنامج تدريب"
+"Training Result","نتيجة التدريب"
+"Training Result Employee","نتيجة تدريب الموظفين"
+"Trainings","دورات تدريبية"
+"Transaction Date","تاريخ المعاملة"
+"Transaction Name","اسم المعاملة"
+"Transaction Type","نوع المعاملة"
+"Transactions","المعاملات"
+"Transactions cannot be created for an Inactive Employee {0}.","لا يمكن إنشاء معاملات لموظف غير نشط {0}."
+"Transfer Date","تاريخ التحويل"
+"Travel","السفر"
+"Travel Advance Required","سلف السفر المطلوبة"
+"Travel From","السفر من"
+"Travel Funding","تمويل السفر"
+"Travel Itinerary","خط سير الرحلة"
+"Travel Request","طلب السفر"
+"Travel Request Costing","تكاليف طلب السفر"
+"Travel To","يسافر إلى"
+"Travel Type","نوع السفر"
+"Tuesday","الثلاثاء"
+"Type","النوع"
+"Type of Proof","نوع من الإثبات"
+"Unable to find Salary Component {0}","يتعذر العثور على مكون الراتب {0}"
+"Unable to retrieve your location","تعذر استرداد موقعك"
+"Unarchive","إلغاء الأرشفة"
+"Unclaimed Amount","المبلغ الذي لم تتم المطالبة به"
+"Under Review","قيد المراجعة"
+"Unlink Payment","إلغاء ربط الدفع"
+"Unlinked Attendance record from Employee Checkins: {}","تم إلغاء ربط سجل الحضور من تسجيلات وصول الموظفين: {}"
+"Unlinked logs","سجلات غير مرتبطة"
+"Unmarked Attendance","تم تسجيله غير حاضر"
+"Unmarked Attendance for days","الحضور بدون علامات لعدة أيام"
+"Unmarked Check-in Logs Found","تم العثور على سجلات تسجيل وصول غير محددة"
+"Unmarked Days","أيام غير محددة"
+"Unmarked days","أيام غير محددة"
+"Unpaid","غير مدفوع"
+"Unpaid Expense Claim","غير المسددة المطالبة النفقات"
+"Unsettled","غير مسدد"
+"Unsettled Transactions","معاملات غير مسددة"
+"Unsubmitted Appraisals","تقييمات لم تقدم"
+"Untracked Hours","ساعات غير متتبعة"
+"Untracked Hours (U)","ساعات غير متتبعة (U)"
+"Unused leaves","إجازات غير مستخدمة"
+"Upcoming Holidays","العطلات القادمة"
+"Upcoming Holidays Reminder","تذكير بالعطلات القادمة"
+"Upcoming Shifts","المناوبات القادمة"
+"Update","تحديث"
+"Update Expense","تحديث المصروف"
+"Update Job Applicant","تحديث المتقدم للوظيفة"
+"Update Progress","تحديث التقدم"
+"Update Response","تحديث الرد"
+"Update Salary Structures","تحديث هياكل الرواتب"
+"Update Status","تحديث الحالة"
+"Update Tax","تحديث الضريبة"
+"Updated status from {0} to {1} for date {2} in the attendance record {3}","تم تحديث الحالة من {0} إلى {1} للتاريخ {2} في سجل الحضور {3}"
+"Updated the Job Applicant status to {0}","تم تحديث حالة المتقدم للوظيفة إلى {0}"
+"Updated the status of Job Offer {0} for the linked Job Applicant {1} to {2}","تم تحديث حالة عرض العمل {0} للمتقدم للوظيفة المرتبط {1} إلى {2}"
+"Updated the status of linked Job Applicant {0} to {1}","تم تحديث حالة المتقدم للوظيفة المرتبط {0} إلى {1}"
+"Upload Attendance","رفع الحضور"
+"Upload HTML","رفع HTML"
+"Upload images or documents","تحميل الصور أو المستندات"
+"Uploading...","جاري التحميل..."
+"Upper Range","النطاق الأعلى"
+"Used Leave(s)","الإجازات المستخدمة"
+"Used Leaves","الإجازات المستخدمة"
+"User","المستعمل"
+"Users","المستخدمين"
+"Utilization","الاستغلال"
+"Vacancies","الشواغر"
+"Vacancies cannot be lower than the current openings","لا يمكن أن تكون الوظائف الشاغرة أقل من الفتحات الحالية"
+"Vacancies fulfilled","تم ملء الشواغر"
+"Validate Attendance","التحقق من صحة الحضور"
+"Validating Employee Attendance...","التحقق من صحة حضور الموظف ..."
+"Value / Description","القيمة / الوصف"
+"Value missing","القيمة مفقودة"
+"Variable","متغير"
+"Variable Based On Taxable Salary","متغير على أساس الخاضع للضريبة"
+"Vegetarian","نباتي"
+"Vehicle","مركبة"
+"Vehicle Expenses","مصاريف المركبة"
+"Vehicle Log","دخول السيارة"
+"Vehicle Service","خدمة المركبة"
+"Vehicle Service Item","بند خدمة المركبة"
+"Verify","تأكد من"
+"View","عرض"
+"View All","عرض الكل"
+"View Goals","عرض الأهداف"
+"View Leave History","عرض سجل الإجازات"
+"View Ledger","عرض القيود"
+"View List","عرض القائمة"
+"View Salary Slips","عرض كشوف المرتبات"
+"Violet","بنفسجي"
+"WARNING: Loan Management module has been separated from ERPNext.","تحذير: تم فصل وحدة إدارة القروض عن ERPNext."
+"Walk In","عميل غير مسجل"
+"Warning","تحذير"
+"Warning: Insufficient leave balance for Leave Type {0} in this allocation.","تحذير: رصيد الإجازات غير كافٍ لنوع الإجازة {0} في هذا التخصيص."
+"Warning: Insufficient leave balance for Leave Type {0}.","تحذير: رصيد الإجازات غير كافٍ لنوع الإجازة {0}."
+"Warning: Leave application contains following block dates","تحذير: طلب اﻹجازة يحتوي على الايام التالية الّتي يمنع فيها اﻹجازة\
+<br>\
+Warning: Leave application contains following block dates"
+"Warning: {0} already has an active Shift Assignment {1} for some/all of these dates.","تحذير: {0} لديه بالفعل تعيين مناوبة نشط {1} لبعض/كل هذه التواريخ."
+"Website Listing","إدراج موقع الويب"
+"Wednesday","الأربعاء"
+"Weekly","الأسبوعية"
+"Weightage (%)","الوزن النسبي (٪)"
+"When set to 'Inactive', employees with conflicting active shifts will not be excluded.","عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم مناوبات نشطة متعارضة."
+"Whereas allocation for Compensatory Leaves is automatically created or updated on submission of Compensatory Leave Request.","في حين يتم إنشاء أو تحديث تخصيص الإجازات التعويضية تلقائيًا عند تقديم طلب إجازة تعويضية."
+"Why is this Candidate Qualified for this Position?","لماذا هذا المرشح مؤهل لهذا المنصب؟"
+"Withheld","محجوز"
+"Work Anniversaries ","ذكريات سنوية للعمل "
+"Work Anniversary Reminder","تذكير بالذكرى السنوية للعمل"
+"Work End Date","تاريخ انتهاء العمل"
+"Work Experience Calculation Method","طريقة حساب خبرة العمل"
+"Work From Date","العمل من التاريخ"
+"Work From Home","العمل من المنزل"
+"Work References","مراجع العمل"
+"Work Summary for {0}","ملخص العمل ل {0}"
+"Worked On Holiday","عملت في عطلة"
+"Working Days","أيام العمل"
+"Working Days and Hours","أيام وساعات العمل"
+"Working Hours","ساعات العمل"
+"Working Hours Calculation Based On","ساعات العمل حساب على أساس"
+"Working Hours Threshold for Absent","ساعات العمل عتبة الغياب"
+"Working Hours Threshold for Half Day","ساعات العمل عتبة لمدة نصف يوم"
+"Working hours below which Absent is marked. (Zero to disable)","ساعات العمل أدناه التي يتم وضع علامة الغائب. (صفر لتعطيل)"
+"Working hours below which Half Day is marked. (Zero to disable)","ساعات العمل أدناه التي يتم وضع علامة نصف يوم. (صفر لتعطيل)"
+"Workshop","ورشة عمل"
+"Year","عام"
+"Year To Date","من بداية العام حتى تاريخه"
+"Year To Date(Company Currency)","من بداية العام حتى تاريخه (بعملة الشركة)"
+"Yearly","سنويا"
+"Yellow","أصفر"
+"Yes","نعم"
+"Yes, Proceed","نعم، تابع"
+"You are not authorized to approve leaves on Block Dates","غير مصرح لك الموافقة على المغادرات التي في التواريخ المحظورة"
+"You are not present all day(s) between compensatory leave request days","أنت لست موجودًا طوال اليوم (الأيام) بين أيام طلب الإجازة التعويضية"
+"You can claim only an amount of {0}, the rest amount {1} should be in the application as pro-rata component","يمكنك المطالبة بمبلغ {0} فقط، ويجب أن يكون المبلغ المتبقي {1} في الطلب كمكون تناسبي"
+"You can not define multiple slabs if you have a slab with no lower and upper limits.","لا يمكنك تحديد شرائح متعددة إذا كان لديك شريحة بدون حدود دنيا وعليا."
+"You can not request for your Default Shift: {0}","لا يمكنك طلب التحول الافتراضي الخاص بك: {0}"
+"You can only plan for upto {0} vacancies and budget {1} for {2} as per staffing plan {3} for parent company {4}.","يمكنك التخطيط فقط لما يصل إلى {0} وظيفة شاغرة وميزانية {1} لـ {2} وفقًا لخطة التوظيف {3} للشركة الأم {4}."
+"You can only submit Leave Encashment for a valid encashment amount","يمكنك فقط إرسال ترك الإلغاء لمبلغ سداد صالح"
+"You can only upload JPG, PNG, PDF, TXT or Microsoft documents.","يمكنك فقط تحميل مستندات JPG أو PNG أو PDF أو TXT أو Microsoft."
+"You do not have permission to complete this action","ليس لديك إذن لإكمال هذا الإجراء"
+"You have no advances","ليس لديك أي سلف"
+"You have no leaves allocated","ليس لديك إجازات مخصصة"
+"You have no notifications","ليس لديك أي إشعارات"
+"You have no requests","ليس لديك أي طلبات"
+"You have no upcoming holidays","ليس لديك عطلات قادمة"
+"You have no upcoming shifts","ليس لديك مناوبات قادمة"
+"You may add additional details, if any, and submit the offer.","يمكنك إضافة تفاصيل إضافية، إن وجدت، وتقديم العرض."
+"You must be within {0} meters of your shift location to check in.","يجب أن تكون على بعد {0} متر من موقع مناوبتك لتسجيل الحضور."
+"You were only present for Half Day on {}. Cannot apply for a full day compensatory leave","لقد كنت حاضراً فقط لنصف يوم في {}. لا يمكن تقديم طلب إجازة تعويضية ليوم كامل"
+"Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}","تمت إعادة جدولة جلسة المقابلة الخاصة بك من {0} {1} - {2} إلى {3} {4} - {5}"
+"Your password has expired. Please reset your password to continue","انتهت صلاحية كلمة المرور الخاصة بك. يرجى إعادة تعيين كلمة المرور للمتابعة"
+"active","نشط"
+"based on","بناء على"
+"cancellation","إلغاء"
+"cancelled","ألغيت"
+"changed the status from {0} to {1} via Attendance Request","تم تغيير الحالة من {0} إلى {1} عبر طلب الحضور"
+"create/submit","إنشاء/إرسال"
+"created","أنشأ"
+"email","البريد الإلكتروني"
+"johndoe@mail.com","johndoe@mail.com"
+"or for the Employee's Department: {0}","أو لقسم الموظف: {0}"
+"process","معالجة"
+"processed","تمت المعالجة"
+"result","نتيجة"
+"results","نتائج"
+"review","إعادة النظر"
+"reviews","التعليقات"
+"submitted","مسجلة"
+"via Salary Component sync","عبر مزامنة مكون الراتب"
+"{0} & {1}","{0} و {1}"
+"{0} & {1} more","{0} و {1} إضافي"
+"{0} <br> This error can be due to missing or deleted field.","{0} <br> قد يكون هذا الخطأ بسبب حقل مفقود أو محذوف."
+"{0} Appraisal(s) are not submitted yet","{0} تقييم (تقييمات) لم يتم تقديمه بعد"
+"{0} Field","حقل {0}"
+"{0} Missing","{0} مفقود"
+"{0} Row #{1}: Formula is set but {2} is disabled for the Salary Component {3}.","الصف {0} #{1}: تم تعيين الصيغة ولكن {2} معطل لمكون الراتب {3}."
+"{0} Row #{1}: {2} needs to be enabled for the formula to be considered.","الصف {0} #{1}: يجب تمكين {2} حتى يتم أخذ الصيغة في الاعتبار."
+"{0} Unread","{0} غير مقروء"
+"{0} already allocated for Employee {1} for period {2} to {3}","{0} تم تخصيصه بالفعل للموظف {1} للفترة {2} إلى {3}"
+"{0} already exists for employee {1} and period {2}","{0} موجود بالفعل للموظف {1} والمدة {2}"
+"{0} already has an active Shift Assignment {1} for some/all of these dates.","{0} لديه بالفعل تعيين مناوبة نشط {1} لبعض/كل هذه التواريخ."
+"{0} applicable after {1} working days","{0} صالح بعد {1} أيام عمل"
+"{0} balance","رصيد {0}"
+"{0} completed {1} year(s)","أكمل {0} {1} سنة (سنوات)"
+"{0} created successfully!","تم إنشاء {0} بنجاح!"
+"{0} deleted successfully!","تم حذف {0} بنجاح!"
+"{0} failed!","فشل {0}!"
+"{0} has {1} enabled","{0} لديه {1} ممكّن"
+"{0} is mandatory","{0} إلزامي"
+"{0} is not a holiday.","{0} ليس يوم عطلة."
+"{0} is not allowed to submit Interview Feedback for the Interview: {1}","غير مسموح لـ {0} بتقديم ملاحظات المقابلة للمقابلة: {1}"
+"{0} is not in Optional Holiday List","{0} ليس في قائمة عطلات اختيارية"
+"{0} is not in a valid Payroll Period","{0} ليس في فترة رواتب صالحة"
+"{0} is required","{0} مطلوب"
+"{0} leaves allocated successfully","تم تخصيص {0} إجازات بنجاح"
+"{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments.","انتهت صلاحية {0} إجازات من التخصيص لنوع الإجازة {1} وسيتم معالجتها خلال المهمة المجدولة التالية. يوصى بإنهاء صلاحيتها الآن قبل إنشاء تعيينات سياسة إجازة جديدة."
+"{0} leaves were manually allocated by {1} on {2}","تم تخصيص {0} إجازات يدويًا بواسطة {1} في {2}"
+"{0} must be submitted","{0} يجب تسليمها"
+"{0} of {1} Completed","اكتمل {0} من {1}"
+"{0} successful!","نجح {0}!"
+"{0} successfully!","تم {0} بنجاح!"
+"{0} to {1} employee(s)?","{0} إلى {1} موظف (موظفين)؟"
+"{0} updated successfully!","تم تحديث {0} بنجاح!"
+"{0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}.","تم التخطيط بالفعل لـ {0} وظيفة شاغرة وميزانية {1} لـ {2} للشركات التابعة لـ {3}. يمكنك التخطيط فقط لما يصل إلى {4} وظيفة شاغرة وميزانية {5} وفقًا لخطة التوظيف {6} للشركة الأم {3}."
+"{0} will be updated for the following Salary Structures: {1}.","سيتم تحديث {0} لهياكل الرواتب التالية: {1}."
+"{0} {1} {2}?","{0} {1} {2}؟"
+"{0}: Employee email not found, hence email not sent","{0}: البريد الإلكتروني للموظف غير موجود، وبالتالي لن يتم إرسال البريد الإلكتروني"
+"{0}: From {0} of type {1}","{0}: من {0} من نوع {1}"
+"{0}: {1}","{0}: {1}"
+"{0}d","{0} يوم"
+"{} ","{} "
+"{} Accepted","{} مقبول"
+"{} Active","{} نشط"
+"{} Draft","{} مسودة"
+"{} Open","{} مفتوح"
+"{} Pending","{} معلق"
+"{} Unclaimed","{} لم تتم المطالبة به"
+"{} is an invalid Attendance Status.","{} هي حالة حضور غير صالحة."
+"{} {} open for this position.","{} {} مفتوح لهذا المنصب."
