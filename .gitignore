@@ -53,3 +53,11 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+# Build artifacts (arabic_translations tooling)
+*.mo
+to_translate.po
+translated.po
+*.merge.tmp
+.ruff_cache/
+coverage.json

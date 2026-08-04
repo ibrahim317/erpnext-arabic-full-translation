@@ -1,0 +1,11 @@
+[
+ {"id": "App name is required.", "ctx": null, "old": null},
+ {"id": "Cloud settings", "ctx": null, "old": null},
+ {"id": "Could not reach your server: {0}", "ctx": null, "old": null},
+ {"id": "Couldn't open Cloud settings. Please try again.", "ctx": null, "old": null},
+ {"id": "Domain is required.", "ctx": null, "old": null},
+ {"id": "Request to your server failed.", "ctx": null, "old": null},
+ {"id": "Task id is required.", "ctx": null, "old": null},
+ {"id": "You do not have access to Cloud Settings for this site.", "ctx": null, "old": null},
+ {"id": "{0} is not a valid field of {1}", "ctx": null, "old": null}
+]

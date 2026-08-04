@@ -15,6 +15,14 @@ dependencies = [
 requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
 
+# Frappe versions this app supports. bench and Frappe Cloud read this to decide
+# whether the app can be installed on a given bench; without it, installation
+# fails with "Could not find compatible Frappe version in pyproject.toml".
+# The app ships both v15 and v16 bundles and picks the newest bundle <= the
+# running major version, so it supports 15.x and 16.x.
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0-dev,<17.0.0"
+
 # These dependencies are only installed when developer mode is enabled
 [tool.bench.dev-dependencies]
 # package_name = "~=1.1.0"
@@ -34,6 +42,10 @@ select = [
     "RUF",
 ]
 ignore = [
+    "RUF001", # Arabic text is not "ambiguous unicode"
+    "RUF002",
+    "RUF003",
+    "RUF005", # list concat style nit in build tooling
     "B017", # assertRaises(Exception) - should be more specific
     "B018", # useless expression, not assigned to anything
     "B023", # function doesn't bind loop variable - will have last iteration's value

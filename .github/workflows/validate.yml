@@ -1,0 +1,26 @@
+name: Validate catalogs
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install tooling
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y gettext
+          pip install babel
+      - name: Validate all translation catalogs
+        run: python scripts/check_catalogs.py
+      - name: Lint python
+        run: |
+          pip install ruff
+          ruff check arabic_translations scripts

@@ -1,53 +1,45 @@
-# Working with locale files (gettext CLI)
+# Translation workflow
 
-Use the official **GNU gettext** tools.
+Canonical catalogs live in `arabic_translations/locale/source/<app>/ar.po`.
+Everything else (v15/v16 bundles, the merged overlay) is generated.
 
 ## Prerequisites
 
 ```bash
-# Ubuntu/Debian
-sudo apt install gettext
-
-# Verify
-msgmerge --version
-msgattrib --version
-msgcat --version
+sudo apt install gettext          # msgmerge, msgattrib, msgcat, msgfmt
+pip install babel
 ```
 
-## 1. Extract entries to translate (untranslated only)
-
-From a `.po` file that is already in sync with the template:
+## Find what needs translating
 
 ```bash
-cd arabic_translations/locale/other-apps/v16/frappe/frappe/locale
+APP=erpnext   # or frappe / hrms
+SRC=arabic_translations/locale/source/$APP/ar.po
 
-# Optional: update ar.po with any new strings from main.pot (run from repo root)
-msgmerge -U ar.po main.pot
+# Sync against the current upstream POT first (download from
+# https://raw.githubusercontent.com/frappe/$APP/version-16/$APP/locale/main.pot)
+msgmerge -U --no-fuzzy-matching "$SRC" main.pot
 
-# Extract only untranslated entries → to_translate.po
-msgattrib --no-obsolete --untranslated ar.po -o to_translate.po
+# Extract untranslated entries
+msgattrib --no-obsolete --untranslated "$SRC" -o to_translate.po
 ```
 
-Translate the `msgstr` fields in `to_translate.po` (e.g. save as `translated.po`).
+Translate the `msgstr` fields in `to_translate.po`, save as `translated.po`.
 
-## 2. Merge your translations back into ar.po
-
-After filling in `translated.po`, merge it into `ar.po` (first file wins for duplicate msgids):
+## Merge back and regenerate
 
 ```bash
-msgcat --use-first translated.po ar.po -o ar_new.po
-mv ar_new.po ar.po
+msgcat --use-first translated.po "$SRC" -o "$SRC.new" && mv "$SRC.new" "$SRC"
+
+python scripts/build.py . /path/to/pots
+python scripts/build_overlay.py arabic_translations/locale/source arabic_translations/locale/ar.po
+python scripts/check_catalogs.py   # must pass
 ```
 
-## One-liner (frappe v16 locale dir)
+## Rules (CI-enforced)
 
-```bash
-LOCALE="arabic_translations/locale/other-apps/v16/frappe/frappe/locale"
-msgmerge -U "$LOCALE/ar.po" "$LOCALE/main.pot"
-msgattrib --no-obsolete --untranslated "$LOCALE/ar.po" -o "$LOCALE/to_translate.po"
-# ... translate to_translate.po → translated.po ...
-msgcat --use-first "$LOCALE/translated.po" "$LOCALE/ar.po" -o "$LOCALE/ar_new.po"
-mv "$LOCALE/ar_new.po" "$LOCALE/ar.po"
-```
-
-Same idea works for `erpnext` or `hrms` by changing the path (e.g. `.../v16/erpnext/erpnext/locale`).
+1. `msgfmt --check` clean on every catalog.
+2. Never introduce a `{placeholder}` in `msgstr` that isn't in `msgid` —
+   Frappe runs `str.format()` on translated strings; extras raise `IndexError`.
+3. No HTML entities (`&#39;`…) unless present in the `msgid`.
+4. Keep leading/trailing whitespace identical to the `msgid` (gettext requires it).
