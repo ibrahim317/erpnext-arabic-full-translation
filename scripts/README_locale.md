@@ -36,6 +36,36 @@ python scripts/build_overlay.py arabic_translations/locale/source arabic_transla
 python scripts/check_catalogs.py   # must pass
 ```
 
+## Batch translation workflow
+
+For a large pass it is easier to work from a JSON manifest than to edit PO files
+by hand:
+
+```bash
+APP=erpnext
+# 1. regenerate the list of open entries (untranslated + fuzzy)
+python scripts/extract_todo.py $APP /tmp/pots/$APP-version-16.pot > todo.json
+
+# 2. write batch.py containing  T = {index: "الترجمة", ...}
+#    index = position in todo.json (0-based); partial dicts are fine
+
+# 3. apply, then regenerate everything
+python scripts/apply_trans.py $APP todo.json batch.py \
+    arabic_translations/locale/source/$APP/ar.po
+python scripts/build.py . /tmp/pots
+python scripts/build_overlay.py arabic_translations/locale/source arabic_translations/locale/ar.po
+python scripts/check_catalogs.py   # must pass
+```
+
+`apply_trans.py` refuses the whole batch and exits non-zero if any translation's
+`{placeholder}` set differs from its `msgid` — Frappe passes `_()` output through
+`str.format()`, so an invented placeholder is an `IndexError` in production. Fix
+the batch file rather than weakening the check.
+
+`todo.json` and the `batch.py` dicts are local working files, not part of the
+app — regenerate the manifest whenever you need it and keep both out of commits.
+Putting them under `translations_workbench/` keeps them gitignored for you.
+
 ## Rules (CI-enforced)
 
 1. `msgfmt --check` clean on every catalog.

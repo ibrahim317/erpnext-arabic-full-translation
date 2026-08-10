@@ -8,8 +8,11 @@ Pipeline
 3. Write the canonical catalog to ``locale/source/<app>/ar.po``.
 4. Emit per-version bundles:
      * v16 -> ``<app>/locale/ar.po``     (frappe, erpnext, hrms)
-     * v15 -> ``frappe/locale/ar.po``    (frappe v15 is already PO-based)
-     * v15 -> ``<app>/translations/ar.csv`` (erpnext & hrms v15 are CSV-based)
+     * v15 -> ``frappe/locale/ar.po`` *and* ``frappe/translations/ar.csv``
+       (frappe backported gettext in v15.33.0: benches below that read only the
+       CSV, benches at or above it compile their own MO which overrides the CSV
+       key by key, so the PO is the only thing that wins there - ship both)
+     * v15 -> ``<app>/translations/ar.csv`` (erpnext & hrms v15 are CSV-only)
 """
 
 import csv
@@ -170,12 +173,14 @@ def main():
 		)
 
 	print("Building v15 bundles...")
-	# frappe v15 is PO-based
+	# frappe v15 ships both: the PO for >=15.33 (where frappe's own compiled MO
+	# would otherwise override a CSV), the CSV for <15.33 (no PO machinery yet).
 	msgmerge(
 		src_root / "frappe/ar.po",
 		pots / "frappe-version-15.pot",
 		out_root / "v15/frappe/frappe/locale/ar.po",
 	)
+	po_to_csv(src_root / "frappe/ar.po", out_root / "v15/frappe/frappe/translations/ar.csv")
 	# erpnext + hrms v15 are still CSV-based
 	for app in ("erpnext", "hrms"):
 		po_to_csv(src_root / app / "ar.po", out_root / f"v15/{app}/{app}/translations/ar.csv")
