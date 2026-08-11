@@ -1,53 +1,75 @@
-# Working with locale files (gettext CLI)
+# Translation workflow
 
-Use the official **GNU gettext** tools.
+Canonical catalogs live in `arabic_translations/locale/source/<app>/ar.po`.
+Everything else (v15/v16 bundles, the merged overlay) is generated.
 
 ## Prerequisites
 
 ```bash
-# Ubuntu/Debian
-sudo apt install gettext
-
-# Verify
-msgmerge --version
-msgattrib --version
-msgcat --version
+sudo apt install gettext          # msgmerge, msgattrib, msgcat, msgfmt
+pip install babel
 ```
 
-## 1. Extract entries to translate (untranslated only)
-
-From a `.po` file that is already in sync with the template:
+## Find what needs translating
 
 ```bash
-cd arabic_translations/locale/other-apps/v16/frappe/frappe/locale
+APP=erpnext   # or frappe / hrms
+SRC=arabic_translations/locale/source/$APP/ar.po
 
-# Optional: update ar.po with any new strings from main.pot (run from repo root)
-msgmerge -U ar.po main.pot
+# Sync against the current upstream POT first (download from
+# https://raw.githubusercontent.com/frappe/$APP/version-16/$APP/locale/main.pot)
+msgmerge -U --no-fuzzy-matching "$SRC" main.pot
 
-# Extract only untranslated entries → to_translate.po
-msgattrib --no-obsolete --untranslated ar.po -o to_translate.po
+# Extract untranslated entries
+msgattrib --no-obsolete --untranslated "$SRC" -o to_translate.po
 ```
 
-Translate the `msgstr` fields in `to_translate.po` (e.g. save as `translated.po`).
+Translate the `msgstr` fields in `to_translate.po`, save as `translated.po`.
 
-## 2. Merge your translations back into ar.po
-
-After filling in `translated.po`, merge it into `ar.po` (first file wins for duplicate msgids):
+## Merge back and regenerate
 
 ```bash
-msgcat --use-first translated.po ar.po -o ar_new.po
-mv ar_new.po ar.po
+msgcat --use-first translated.po "$SRC" -o "$SRC.new" && mv "$SRC.new" "$SRC"
+
+python scripts/build.py . /path/to/pots
+python scripts/build_overlay.py arabic_translations/locale/source arabic_translations/locale/ar.po
+python scripts/check_catalogs.py   # must pass
 ```
 
-## One-liner (frappe v16 locale dir)
+## Batch translation workflow
+
+For a large pass it is easier to work from a JSON manifest than to edit PO files
+by hand:
 
 ```bash
-LOCALE="arabic_translations/locale/other-apps/v16/frappe/frappe/locale"
-msgmerge -U "$LOCALE/ar.po" "$LOCALE/main.pot"
-msgattrib --no-obsolete --untranslated "$LOCALE/ar.po" -o "$LOCALE/to_translate.po"
-# ... translate to_translate.po → translated.po ...
-msgcat --use-first "$LOCALE/translated.po" "$LOCALE/ar.po" -o "$LOCALE/ar_new.po"
-mv "$LOCALE/ar_new.po" "$LOCALE/ar.po"
+APP=erpnext
+# 1. regenerate the list of open entries (untranslated + fuzzy)
+python scripts/extract_todo.py $APP /tmp/pots/$APP-version-16.pot > todo.json
+
+# 2. write batch.py containing  T = {index: "الترجمة", ...}
+#    index = position in todo.json (0-based); partial dicts are fine
+
+# 3. apply, then regenerate everything
+python scripts/apply_trans.py $APP todo.json batch.py \
+    arabic_translations/locale/source/$APP/ar.po
+python scripts/build.py . /tmp/pots
+python scripts/build_overlay.py arabic_translations/locale/source arabic_translations/locale/ar.po
+python scripts/check_catalogs.py   # must pass
 ```
 
-Same idea works for `erpnext` or `hrms` by changing the path (e.g. `.../v16/erpnext/erpnext/locale`).
+`apply_trans.py` refuses the whole batch and exits non-zero if any translation's
+`{placeholder}` set differs from its `msgid` — Frappe passes `_()` output through
+`str.format()`, so an invented placeholder is an `IndexError` in production. Fix
+the batch file rather than weakening the check.
+
+`todo.json` and the `batch.py` dicts are local working files, not part of the
+app — regenerate the manifest whenever you need it and keep both out of commits.
+Putting them under `translations_workbench/` keeps them gitignored for you.
+
+## Rules (CI-enforced)
+
+1. `msgfmt --check` clean on every catalog.
+2. Never introduce a `{placeholder}` in `msgstr` that isn't in `msgid` —
+   Frappe runs `str.format()` on translated strings; extras raise `IndexError`.
+3. No HTML entities (`&#39;`…) unless present in the `msgid`.
+4. Keep leading/trailing whitespace identical to the `msgid` (gettext requires it).
