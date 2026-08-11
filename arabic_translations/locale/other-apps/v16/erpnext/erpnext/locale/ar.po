@@ -1337,7 +1337,7 @@ msgstr "لا يمكن اختيار حزمة منتجات معطّلة في ال�
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:636
 msgid "A draft reverse journal for {0} has been created: {1}"
-msgstr ""
+msgstr "تم إنشاء قيد يومية عكسي مسودة لـ {0}: {1}"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:59
 msgid "A driver must be set to submit."
@@ -1390,7 +1390,7 @@ msgstr "يجب إكمال فحص الجودة قبل إنشاء إيصال شر�
 
 #: erpnext/stock/doctype/material_request/material_request.js:476
 msgid "A separate Purchase Order is created for each Supplier."
-msgstr ""
+msgstr "يتم إنشاء أمر شراء منفصل لكل مورد."
 
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:96
 msgid ""
@@ -1868,6 +1868,8 @@ msgid ""
 "Account to track value added to stock via Stock Entry, Stock Reconciliation or Landed"
 " Cost Voucher"
 msgstr ""
+"حساب لتتبع القيمة المضافة إلى المخزون عبر قيد المخزون أو جرد المخزون أو سند تكاليف "
+"الشحن"
 
 #. Description of the 'Default COGS Account' (Link) field in DocType 'Item
 #. Default'
@@ -3110,7 +3112,7 @@ msgstr "أضف جميع الحسابات التي تريد تقسيم المعا
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:92
 msgid "Add atleast one voucher to repost."
-msgstr ""
+msgstr "أضف سندًا واحدًا على الأقل لإعادة الترحيل."
 
 #: erpnext/www/book_appointment/index.html:42
 msgid "Add details"
@@ -3942,7 +3944,7 @@ msgstr "العمر ({0})"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:102
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:28
 msgid "Age as on"
-msgstr ""
+msgstr "العمر كما في"
 
 #. Label of the ageing_based_on (Select) field in DocType 'Process Statement Of
 #. Accounts'
@@ -9153,7 +9155,7 @@ msgstr "تسجيل القيود المؤجلة بناءً على"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Stock Expense GL Entries"
-msgstr ""
+msgstr "تسجيل قيود مصروف المخزون في دفتر الأستاذ العام"
 
 #: erpnext/www/book_appointment/index.html:15
 msgid "Book an appointment"
@@ -9191,6 +9193,9 @@ msgid ""
 "Purchase Receipt, Purchase Invoice, Stock Entry, Stock Reconciliation and Landed Cost"
 " Voucher"
 msgstr ""
+"يسجّل حسابَي مصروف الشراء والمصروفات المضافة إلى المخزون مقابل قيمة المخزون. عند "
+"تفعيل هذا الخيار يصبح الحسابان إلزاميين في إعدادات الشركة أو الإعدادات الافتراضية "
+"للصنف في إيصال الشراء وفاتورة الشراء وقيد المخزون وجرد المخزون وسند تكاليف الشحن"
 
 #: erpnext/accounts/general_ledger.py:849
 msgid "Books have been closed till the period ending on {0}"
@@ -10223,7 +10228,7 @@ msgstr "لا يمكن تعطيل أو إلغاء قائمة المواد لان�
 
 #: erpnext/crm/doctype/opportunity/opportunity.py:282
 msgid "Cannot declare as Lost because an active Quotation exists."
-msgstr ""
+msgstr "لا يمكن الإعلان عنه كمفقود لوجود عرض أسعار نشط."
 
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:16
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:26
@@ -10363,7 +10368,7 @@ msgstr "لا يمكن أن يشير رقم الصف أكبر من أو يساو�
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:96
 msgid "Cannot repost more than {0} vouchers at once. Split them into multiple documents."
-msgstr ""
+msgstr "لا يمكن إعادة ترحيل أكثر من {0} سند دفعة واحدة. قسّمها إلى عدة مستندات."
 
 #: erpnext/accounts/doctype/bank/bank.js:63
 msgid "Cannot retrieve link token for update. Check Error Log for more information"
@@ -18860,7 +18865,7 @@ msgstr "صف مكرر {0} مع نفس {1}"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:110
 msgid "Duplicate vouchers found. Remove the duplicate vouchers to continue to repost."
-msgstr ""
+msgstr "تم العثور على سندات مكررة. أزل السندات المكررة لمتابعة إعادة الترحيل."
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:157
 msgid "Duplicate {0} found in the table"
@@ -19186,7 +19191,7 @@ msgstr "تم التحقق من البريد الإلكتروني"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.js:57
 msgid "Email couldn't be sent."
-msgstr ""
+msgstr "تعذّر إرسال البريد الإلكتروني."
 
 #: erpnext/setup/doctype/employee/employee.py:440
 msgid "Email is required to create a user"
@@ -20700,7 +20705,7 @@ msgstr "النفقات"
 #: erpnext/setup/doctype/company/company.json
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Expenses Added To Stock Account"
-msgstr ""
+msgstr "حساب المصروفات المضافة إلى المخزون"
 
 #. Label of the expenses_added_to_stock_contra_account (Link) field in DocType
 #. 'Company'
@@ -20708,11 +20713,11 @@ msgstr ""
 #: erpnext/setup/doctype/company/company.json
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Expenses Added To Stock Contra Account"
-msgstr ""
+msgstr "الحساب المقابل للمصروفات المضافة إلى المخزون"
 
 #: erpnext/controllers/stock_controller.py:920
 msgid "Expenses Added To Stock for Item {0}"
-msgstr ""
+msgstr "المصروفات المضافة إلى المخزون للصنف {0}"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -28875,7 +28880,7 @@ msgstr "لا يمكن إضافة الصنف {0} كتجميع فرعي لنفسه
 
 #: erpnext/stock/doctype/material_request/material_request.py:694
 msgid "Item {0} cannot be ordered more than once"
-msgstr ""
+msgstr "لا يمكن طلب الصنف {0} أكثر من مرة"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:197
 msgid "Item {0} cannot be ordered more than {1} against Blanket Order {2}."
@@ -36744,7 +36749,7 @@ msgstr "تمت التسوية جزئيًا"
 #. Option for the 'Status' (Select) field in DocType 'Repost Accounting Ledger'
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.json
 msgid "Partially Reposted"
-msgstr ""
+msgstr "أُعيد ترحيله جزئيًا"
 
 #. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -37509,7 +37514,7 @@ msgstr "حد الدفع"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:434
 msgid "Payment Link couldn't be sent."
-msgstr ""
+msgstr "تعذّر إرسال رابط الدفع."
 
 #: erpnext/accounts/report/pos_register/pos_register.js:50
 #: erpnext/accounts/report/pos_register/pos_register.py:126
@@ -39594,7 +39599,7 @@ msgstr "يرجى تحديد أمر شراء صالح تم تكوينه للتع�
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1355
 msgid "Please select a valid {0}"
-msgstr ""
+msgstr "يرجى اختيار {0} صالح"
 
 #: erpnext/selling/doctype/quotation/quotation.js:245
 msgid "Please select a value for {0} quotation_to {1}"
@@ -39996,7 +40001,7 @@ msgstr "يرجى تعيين {0} في منشئ قائمة المواد {1}"
 
 #: erpnext/controllers/buying_controller.py:345 erpnext/controllers/stock_controller.py:912
 msgid "Please set {0} in Company {1} or in the Item Defaults of Item {2}"
-msgstr ""
+msgstr "يرجى ضبط {0} في الشركة {1} أو في الإعدادات الافتراضية للصنف {2}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1160
 msgid "Please set {0} in Company {1} to account for Exchange Gain / Loss"
@@ -43517,12 +43522,12 @@ msgstr "لا يمكن أن تكون الكمية أكبر من {0} للصنف {1
 
 #: erpnext/stock/doctype/material_request/material_request.py:704
 msgid "Quantity for Item {0} must be greater than zero and cannot exceed {1}"
-msgstr ""
+msgstr "يجب أن تكون كمية الصنف {0} أكبر من صفر وألا تتجاوز {1}"
 
 #: erpnext/stock/doctype/material_request/material_request.js:564
 msgctxt "<b>${pending_qty}</b>"
 msgid "Quantity for Item {0} must be greater than zero and cannot exceed {1}"
-msgstr ""
+msgstr "يجب أن تكون كمية الصنف {0} أكبر من صفر وألا تتجاوز {1}"
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:564
 msgid "Quantity is mandatory for the selected items."
@@ -45561,7 +45566,7 @@ msgstr "بدأت إعادة المعالجة في الخلفية"
 #. Items'
 #: erpnext/accounts/doctype/repost_accounting_ledger_items/repost_accounting_ledger_items.json
 msgid "Reposted"
-msgstr ""
+msgstr "أُعيد ترحيله"
 
 #. Label of the reposting_data_file (Attach) field in DocType 'Repost Item
 #. Valuation'
@@ -45589,7 +45594,7 @@ msgstr "مرجع إعادة النشر"
 #. 'Repost Accounting Ledger Items'
 #: erpnext/accounts/doctype/repost_accounting_ledger_items/repost_accounting_ledger_items.json
 msgid "Reposting Status"
-msgstr ""
+msgstr "حالة إعادة الترحيل"
 
 #. Label of the vouchers_based_on_item_and_warehouse_section (Section Break)
 #. field in DocType 'Repost Item Valuation'
@@ -45603,11 +45608,11 @@ msgstr "تقدّم إعادة ترحيل السندات"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:216
 msgid "Reposting can be started only for submitted document."
-msgstr ""
+msgstr "لا يمكن بدء إعادة الترحيل إلا للمستند المُرحّل."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:221
 msgid "Reposting cannot be started when status is {0}."
-msgstr ""
+msgstr "لا يمكن بدء إعادة الترحيل عندما تكون الحالة {0}."
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:227
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:338
@@ -45632,11 +45637,11 @@ msgstr "تتم إعادة المعالجة في الخلفية."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:211
 msgid "Reposting is still in progress in background."
-msgstr ""
+msgstr "إعادة الترحيل ما زالت قيد التنفيذ في الخلفية."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:315
 msgid "Reposting {0} {1}"
-msgstr ""
+msgstr "جارٍ إعادة ترحيل {0} {1}"
 
 #. Label of the represents_company (Link) field in DocType 'Purchase Invoice'
 #. Label of the represents_company (Link) field in DocType 'Sales Invoice'
@@ -46628,7 +46633,7 @@ msgstr "عكس الإشارة"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:628
 msgid "Reverse {0} already available in draft status: {1}"
-msgstr ""
+msgstr "يوجد بالفعل {0} عكسي بحالة مسودة: {1}"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:118
 msgid "Reversing Journals..."
@@ -49684,7 +49689,7 @@ msgstr "الجدولة غير نشطة. لا يمكن دمج الحسابات."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:232
 msgid "Scheduler is inactive. Reposting will only run once background jobs are processed."
-msgstr ""
+msgstr "المجدول غير نشط. لن تُنفَّذ إعادة الترحيل إلا بعد معالجة المهام في الخلفية."
 
 #. Label of the schedules (Table) field in DocType 'Maintenance Schedule'
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
@@ -50124,7 +50129,7 @@ msgstr "حدد مزود العناوين"
 
 #: erpnext/stock/doctype/material_request/material_request.js:448
 msgid "Select Supplier for Items"
-msgstr ""
+msgstr "اختر المورد للأصناف"
 
 #: erpnext/stock/doctype/batch/batch.js:150
 msgid "Select Target Warehouse"
@@ -50178,7 +50183,7 @@ msgstr "حدد المورد"
 #: erpnext/stock/doctype/material_request/material_request.js:552
 #: erpnext/stock/doctype/material_request/material_request.py:699
 msgid "Select a Supplier for Item {0}"
-msgstr ""
+msgstr "اختر موردًا للصنف {0}"
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:49
 msgid "Select a bank account to reconcile"
@@ -50219,7 +50224,7 @@ msgstr "حدد صنفًا من كل مجموعة ليتم استخدامه في 
 #: erpnext/stock/doctype/material_request/material_request.js:539
 #: erpnext/stock/doctype/material_request/material_request.py:680
 msgid "Select at least one Item"
-msgstr ""
+msgstr "اختر صنفًا واحدًا على الأقل"
 
 #: erpnext/stock/doctype/item/item.js:944
 msgid "Select at least one attribute value."
@@ -50547,7 +50552,7 @@ msgstr "إرسال مع المرفقات"
 #: erpnext/accounts/doctype/payment_request/payment_request.js:51
 #: erpnext/accounts/doctype/payment_request/payment_request.js:55
 msgid "Sending Email"
-msgstr ""
+msgstr "جارٍ إرسال البريد الإلكتروني"
 
 #. Option for the 'Detected Amount Format' (Select) field in DocType 'Bank
 #. Statement Import Log'
@@ -51390,7 +51395,7 @@ msgstr "مورد المجموعة"
 
 #: erpnext/stock/doctype/material_request/material_request.js:455
 msgid "Set Supplier for All Items"
-msgstr ""
+msgstr "تعيين المورد لجميع الأصناف"
 
 #. Label of the set_target_warehouse (Link) field in DocType 'Sales Invoice'
 #. Label of the set_warehouse (Link) field in DocType 'Purchase Order'
@@ -53225,13 +53230,13 @@ msgstr "الحركة المخزنية {0} غير مسجلة"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Stock Expense"
-msgstr ""
+msgstr "مصروف المخزون"
 
 #. Label of the stock_expense_section (Section Break) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Stock Expense Accounting"
-msgstr ""
+msgstr "محاسبة مصروف المخزون"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:83
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:142
@@ -53854,7 +53859,7 @@ msgstr "المخزون غير متوفر للصنف {0} في المستودع {1
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1240
 msgid "Stock not available to reserve for the Item {0} in Warehouse {1}."
-msgstr ""
+msgstr "لا يتوفر مخزون للحجز للصنف {0} في المستودع {1}."
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:826
 msgid ""
@@ -56754,7 +56759,7 @@ msgstr "الصفوف التالية مكررة:"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:130
 msgid "The following vouchers are not submitted: {0}"
-msgstr ""
+msgstr "السندات التالية غير مُرحّلة: {0}"
 
 #: erpnext/stock/doctype/material_request/material_request.py:1062
 msgid "The following {0} were created: {1}"
@@ -60238,7 +60243,7 @@ msgstr "إلغاء تسوية التخصيصات"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:375
 msgid "Unable to Repost Accounting Ledger"
-msgstr ""
+msgstr "تعذّرت إعادة ترحيل دفتر الأستاذ المحاسبي"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:477
 msgid "Unable to fetch DocType details. Please contact system administrator."
@@ -61081,7 +61086,7 @@ msgstr "يُستخدم للمعاملات بين الشركات"
 #. DocType 'Item Default'
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Used to balance the books when recording expenses added to stock"
-msgstr ""
+msgstr "يُستخدم لموازنة الدفاتر عند تسجيل المصروفات المضافة إلى المخزون"
 
 #. Description of the 'Purchase Expense Contra Account' (Link) field in DocType
 #. 'Item Default'
@@ -64739,7 +64744,7 @@ msgstr "عرض {0} غير مدعوم حالياً في التقرير المال
 
 #: erpnext/stock/doctype/material_request/material_request.py:732
 msgid "{0} was set to today for items whose requested date has passed"
-msgstr ""
+msgstr "تم ضبط {0} على تاريخ اليوم للأصناف التي تجاوز تاريخها المطلوب"
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:19
 msgid "{0} will be given as discount."
