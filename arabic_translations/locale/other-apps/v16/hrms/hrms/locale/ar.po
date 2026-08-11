@@ -9,11 +9,11 @@ msgstr ""
 "Language: ar_SA\n"
 "Language-Team: Arabic\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && "
-"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #. Description of the 'Arrear Start Date' (Date) field in DocType 'Arrear'
 #: hrms/payroll/doctype/arrear/arrear.json
@@ -45,7 +45,6 @@ msgid "'employee_field_value' and 'timestamp' are required."
 msgstr "مطلوب \"employee_field_value\" و \"الطابع الزمني\"."
 
 #: hrms/hr/utils.py:254 hrms/payroll/doctype/payroll_period/payroll_period.py:53
-#, python-brace-format
 msgid ") for {0}"
 msgstr ") لـ {0}"
 
@@ -213,14 +212,12 @@ msgid "23:00"
 msgstr "23:00"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:272
-#, python-brace-format
 msgid "<b>Base</b> amount has not been set for the following employee(s): {0}"
 msgstr "لم يتم تعيين المبلغ <b> base </b> للموظف (S) التالي: {0}"
 
 #. Description of the 'Password Policy' (Data) field in DocType 'Payroll
 #. Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
-#, python-brace-format
 msgid ""
 "<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will generate a "
 "password like SAL-Jane-1972"
@@ -347,12 +344,10 @@ msgstr ""
 "</span>"
 
 #: hrms/public/js/utils/index.js:166
-#, python-brace-format
 msgid "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 msgstr "<table class = 'table table-border'> <tr> <th> {0} </h> <th> {1} </h> </tr>"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.js:101
-#, python-brace-format
 msgid ""
 "A Job Requisition already exists for {0} requested by {1} for the same "
 "department.<br> Do you want to continue?"
@@ -363,7 +358,6 @@ msgid "A friendly reminder of an important date for our team."
 msgstr "تذكير ودود بتاريخ مهم لفريقنا."
 
 #: hrms/hr/utils.py:250 hrms/payroll/doctype/payroll_period/payroll_period.py:49
-#, python-brace-format
 msgid "A {0} exists between {1} and {2} ("
 msgstr "{0} موجود بين {1} و {2} ("
 
@@ -401,14 +395,12 @@ msgid "Account No"
 msgstr "رقم الحساب"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:116
-#, python-brace-format
 msgid ""
 "Account type should be set {0} for payroll payable account {1}, please set and try "
 "again"
 msgstr "يجب تعيين نوع الحساب {0} لحساب الرواتب المستحقة {1}، يرجى التعيين والمحاولة مرة أخرى"
 
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.py:29
-#, python-brace-format
 msgid "Account {0} does not match with Company {1}"
 msgstr "الحساب {0} لا يتطابق مع الشركة {1}"
 
@@ -425,7 +417,6 @@ msgid "Accounting Reports"
 msgstr "تقارير المحاسبة"
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:59
-#, python-brace-format
 msgid "Accounts not set for Salary Component {0}"
 msgstr "لم يتم تعيين حسابات مكون الراتب {0}"
 
@@ -470,7 +461,6 @@ msgstr ""
 "بالاستحقاق."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:634
-#, python-brace-format
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
 msgstr "مدخل يومية تراكمية للرواتب من {0} إلى {1}"
 
@@ -497,7 +487,6 @@ msgid "Accrued Earnings Report"
 msgstr "تقرير الاستحقاقات المتراكمة"
 
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.py:99
-#, python-brace-format
 msgid "Accrued amount {0} is less than paid amount {1} for Benefit {2} in payroll period {3}"
 msgstr "المبلغ المستحق {0} أقل من المبلغ المدفوع {1} للميزة {2} في فترة الرواتب {3}"
 
@@ -622,21 +611,18 @@ msgid "Additional Salary "
 msgstr "الراتب الإضافي"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:150
-#, python-brace-format
 msgid ""
 "Additional Salary for referral bonus can only be created against Employee Referral "
 "with status {0}"
 msgstr "لا يمكن إنشاء راتب إضافي لمكافأة الإحالة إلا مقابل إحالة الموظف مع الحالة {0}"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:185
-#, python-brace-format
 msgid ""
 "Additional Salary for this salary component with {0} enabled already exists for this "
 "date"
 msgstr "راتب إضافي لهذا مكون الرواتب مع {0} ممكّن موجود بالفعل لهذا التاريخ"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:97
-#, python-brace-format
 msgid "Additional Salary: {0} already exist for Salary Component: {1} for period {2} and {3}"
 msgstr "الراتب الإضافي: {0} موجود بالفعل لمكون الراتب: {1} للفترة {2} و {3}"
 
@@ -668,14 +654,12 @@ msgid "Advance Account Required"
 msgstr "حساب السلفة مطلوب"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:51
-#, python-brace-format
 msgid ""
 "Advance Account is mandatory. Please set the {0} in the Company {1} and submit this "
 "document."
 msgstr "حساب السلفة إلزامي. يرجى تعيين {0} في الشركة {1} ثم ترحيل هذا المستند."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:94
-#, python-brace-format
 msgid ""
 "Advance Account {} currency should be same as Salary Currency of Employee {}. Please "
 "select same currency Advance Account"
@@ -695,7 +679,6 @@ msgid "Advanced Filters"
 msgstr "المرشحات المتقدمة"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:414
-#, python-brace-format
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
 msgstr "تم تسجيل كامل مبلغ ربح/خسارة الصرف {0} من خلال {1}"
 
@@ -726,7 +709,6 @@ msgid "Allocate Leave"
 msgstr "تخصيص إجازة"
 
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.js:192
-#, python-brace-format
 msgid "Allocate leaves to {0} employee(s)?"
 msgstr "تخصيص الأوراق إلى {0} الموظف (s)؟"
 
@@ -772,7 +754,6 @@ msgid "Allocation Expired!"
 msgstr "تخصيص انتهت!"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:62
-#, python-brace-format
 msgid "Allocation is greater than the maximum allowed {0} for leave type {1}"
 msgstr "التخصيص أكبر من الحد الأقصى المسموح به {0} لنوع الإجازة {1}"
 
@@ -926,7 +907,6 @@ msgid "Amount that has been paid against this advance"
 msgstr "المبلغ الذي تم دفعه مقابل هذا التقدم"
 
 #: hrms/payroll/doctype/arrear/arrear.py:92
-#, python-brace-format
 msgid ""
 "An Arrear document already exists for employee {0} with salary structure {1} in "
 "payroll period {2}"
@@ -1190,14 +1170,12 @@ msgid "Appraisal creation is queued. It may take a few minutes."
 msgstr "إنشاء التقييم في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
 
 #: hrms/hr/doctype/appraisal/appraisal.py:58
-#, python-brace-format
 msgid ""
 "Appraisal {0} already exists for Employee {1} for this Appraisal Cycle or overlapping"
 " period"
 msgstr "التقييم {0} موجود بالفعل للموظف {1} لدورة التقييم هذه أو فترة التداخل"
 
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.py:45
-#, python-brace-format
 msgid "Appraisal {0} does not belong to Employee {1}"
 msgstr "التقييم {0} لا ينتمي إلى الموظف {1}"
 
@@ -1207,7 +1185,6 @@ msgid "Appraisee"
 msgstr "التقييم"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:159
-#, python-brace-format
 msgid "Appraisees: {0}"
 msgstr "تقييمات: {0}"
 
@@ -1269,7 +1246,6 @@ msgid "Are you sure you want to delete the attachment"
 msgstr "هل أنت متأكد من أنك تريد حذف المرفق"
 
 #: frontend/src/components/FormView.vue:228
-#, python-brace-format
 msgid "Are you sure you want to delete the {0}"
 msgstr "هل أنت متأكد أنك تريد حذف {0}"
 
@@ -1315,7 +1291,6 @@ msgid "As per your assigned Salary Structure you cannot apply for benefits"
 msgstr "حسب هيكل الرواتب المعيّن الخاص بك ، لا يمكنك التقدم بطلب للحصول على مخصصات"
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.py:101
-#, python-brace-format
 msgid "Asset Recovery Cost for {0}: {1}"
 msgstr "تكلفة استرداد الأصول لـ {0}: {1}"
 
@@ -1326,7 +1301,6 @@ msgid "Assets Allocated"
 msgstr "الأصول المخصصة"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:283
-#, python-brace-format
 msgid "Assign Salary Structure to {0} employee(s)?"
 msgstr "تعيين هيكل الراتب إلى {0} الموظف (s)؟"
 
@@ -1501,7 +1475,6 @@ msgid "Attendance Warnings"
 msgstr "تحذيرات الحضور"
 
 #: hrms/hr/doctype/attendance/attendance.py:65
-#, python-brace-format
 msgid "Attendance date {0} can not be less than employee {1}'s joining date: {2}"
 msgstr "لا يمكن أن يكون تاريخ الحضور {0} أقل من تاريخ التحاق الموظف {1}: {2}"
 
@@ -1510,17 +1483,14 @@ msgid "Attendance for all the employees under this criteria has been marked alre
 msgstr "لقد تم بالفعل تحديد الحضور لجميع الموظفين بموجب هذه المعايير."
 
 #: hrms/hr/doctype/attendance/attendance.py:123
-#, python-brace-format
 msgid "Attendance for employee {0} is already marked for an overlapping shift {1}: {2}"
 msgstr "تم وضع علامة على الحضور للموظف {0} للتحول المتداخل {1}: {2}"
 
 #: hrms/hr/doctype/attendance/attendance.py:77
-#, python-brace-format
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
 msgstr "تم وضع علامة على الحضور للموظف {0} للتاريخ {1}: {2}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:610
-#, python-brace-format
 msgid "Attendance for employee {0} is already marked for the following dates: {1}"
 msgstr "تم وضع علامة على الحضور للموظف {0} للتواريخ التالية: {1}"
 
@@ -1529,7 +1499,6 @@ msgid "Attendance for the following dates will be skipped/overwritten on submiss
 msgstr "سيتم تخطي/كتابة الحضور للتواريخ التالية عند التقديم"
 
 #: hrms/hr/doctype/attendance/attendance_list.js:101
-#, python-brace-format
 msgid "Attendance from {0} to {1} has already been marked for the Employee {2}"
 msgstr "لقد تم بالفعل وضع علامة على الحضور من {0} إلى {1} للموظف {2}"
 
@@ -1538,7 +1507,6 @@ msgid "Attendance has been marked for all the employees between the selected pay
 msgstr "تم وضع علامة على الحضور لجميع الموظفين بين تواريخ كشوف المرتبات المحددة."
 
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:6
-#, python-brace-format
 msgid ""
 "Attendance is pending for these employees between the selected payroll dates. Mark "
 "attendance to proceed. Refer {0} for details."
@@ -1555,12 +1523,10 @@ msgid "Attendance marked successfully."
 msgstr "تم تسجيل الحضور بنجاح."
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:204
-#, python-brace-format
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr "لم يتم إرسال الحضور إلى {0} لأنه عطلة."
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:213
-#, python-brace-format
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr "لم يتم تقديم الحضور لـ {0} لأن {1} في إجازة."
 
@@ -1607,7 +1573,6 @@ msgid "Automated Based on Goal Progress"
 msgstr "آلي بناء على تقدم الهدف"
 
 #: hrms/hr/utils.py:498
-#, python-brace-format
 msgid ""
 "Automatic Leave Allocation has failed for the following Earned Leaves: {0}. Please "
 "check {1} for more details."
@@ -1674,7 +1639,6 @@ msgid "Awaiting Response"
 msgstr "انتظار الرد"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:177
-#, python-brace-format
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
 msgstr "تطبيق الإجازة الخلفية مقيد. يرجى تعيين {} في {}"
 
@@ -1737,17 +1701,14 @@ msgid "Benefit Details"
 msgstr "تفاصيل الميزة"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:36
-#, python-brace-format
 msgid "Benefit amount of component {0} exceeds {1}"
 msgstr "مبلغ الميزة للمكوّن {0} يتجاوز {1}"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:30
-#, python-brace-format
 msgid "Benefit amount of component {0} should be greater than 0"
 msgstr "يجب أن يكون مبلغ الميزة للمكوّن {0} أكبر من 0"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:452
-#, python-brace-format
 msgid ""
 "Benefit amount {0} for Salary Component {1} should not be greater than maximum "
 "benefit amount {2} set in {3}"
@@ -1850,7 +1811,6 @@ msgid "Bonus Payment Date cannot be a past date"
 msgstr "لا يمكن أن يكون تاريخ الدفع المكافأ تاريخًا سابقًا"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:240
-#, python-brace-format
 msgid "Branch: {0}"
 msgstr "الفرع: {0}"
 
@@ -1871,14 +1831,12 @@ msgid "Bulk Salary Structure Assignment"
 msgstr "تعيين هيكل الرواتب بالجملة"
 
 #: hrms/hr/doctype/attendance/attendance.py:366
-#, python-brace-format
 msgid ""
 "Bulk attendance marking is already in progress for employee {0}. You can monitor the "
 "job status {1}"
 msgstr "تسجيل الحضور الجماعي قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
 
 #: hrms/hr/doctype/attendance/attendance.py:362
-#, python-brace-format
 msgid ""
 "Bulk attendance marking is queued with a background job. It may take a while. You can"
 " monitor the job status {0}"
@@ -1941,19 +1899,16 @@ msgid "Cannot Modify Time"
 msgstr "لا يمكن تعديل الوقت"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:323
-#, python-brace-format
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr "لا يمكن تخصيص الأوراق خارج فترة التخصيص {0} - {1}"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:452
-#, python-brace-format
 msgid ""
 "Cannot allocate more leaves due to maximum leave allocation limit of {0} in leave "
 "policy assignment"
 msgstr "لا يمكن تخصيص المزيد من الإجازات بسبب حد التخصيص الأقصى {0} في إسناد سياسة الإجازات"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:444
-#, python-brace-format
 msgid ""
 "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave "
 "type."
@@ -1968,12 +1923,10 @@ msgid "Cannot break shift before start date"
 msgstr "لا يمكن كسر الوردية قبل تاريخ البدء"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:70
-#, python-brace-format
 msgid "Cannot cancel Shift Assignment: {0} as it is linked to Attendance: {1}"
 msgstr "لا يمكن إلغاء تعيين الوردية: {0} لأنه مرتبط بالحضور: {1}"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:53
-#, python-brace-format
 msgid "Cannot cancel Shift Assignment: {0} as it is linked to Employee Checkin: {1}"
 msgstr "لا يمكن إلغاء تعيين الوردية: {0} لأنه مرتبط بتسجيل حضور الموظف: {1}"
 
@@ -1990,7 +1943,6 @@ msgid "Cannot create a Job Applicant against a closed Job Opening"
 msgstr "لا يمكن إنشاء متقدم لوظيفة لشاغر وظيفي مغلق"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:201
-#, python-brace-format
 msgid "Cannot create or change transactions against an Appraisal Cycle with status {0}."
 msgstr "لا يمكن إنشاء أو تغيير المعاملات في دورة تقييم حالتها {0}."
 
@@ -1999,7 +1951,6 @@ msgid "Cannot find active Leave Period"
 msgstr "لا يمكن ايجاد فترة الاجازة النشطة"
 
 #: hrms/hr/doctype/attendance/attendance.py:157
-#, python-brace-format
 msgid "Cannot mark attendance for an Inactive employee {0}"
 msgstr "لا يمكن تسجيل الحضور لموظف غير نشط {0}"
 
@@ -2008,7 +1959,6 @@ msgid "Cannot submit. Attendance is not marked for some employees."
 msgstr "لا يمكن التقديم. لم يتم تسجيل الحضور لبعض الموظفين."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:140
-#, python-brace-format
 msgid "Cannot update allocation for {0} after submission"
 msgstr "لا يمكن تحديث التخصيص لـ {0} بعد التقديم"
 
@@ -2040,26 +1990,22 @@ msgid "Cause of Grievance"
 msgstr "سبب التظلم"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:171
-#, python-brace-format
 msgid ""
 "Changed the Status for Other Half from {0} to {1} via Attendance Request as the "
 "status is Half Day"
 msgstr "تم تغيير حالة النصف الآخر من {0} إلى {1} عبر طلب الحضور لأن الحالة نصف يوم"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:150
-#, python-brace-format
 msgid ""
 "Changed the status from {0} to {1} and Status for Other Half to {2} via Attendance "
 "Request"
 msgstr "تم تغيير الحالة من {0} إلى {1} وحالة النصف الآخر إلى {2} عبر طلب الحضور"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:154
-#, python-brace-format
 msgid "Changed the status from {0} to {1} via Attendance Request"
 msgstr "تم تغيير الحالة من {0} إلى {1} عبر طلب الحضور"
 
 #: hrms/hr/doctype/leave_application/leave_application.js:187
-#, python-brace-format
 msgid "Changing '{0}' to {1}."
 msgstr "جاري تغيير '{0}' إلى {1}."
 
@@ -2072,12 +2018,10 @@ msgstr ""
 "الفرعية مع نفس مؤشرات الأداء الرئيسية، إن وجدت."
 
 #: hrms/public/js/utils/index.js:147
-#, python-brace-format
 msgid "Check <a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> for more details"
 msgstr "تحقق من <a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> لمزيد من التفاصيل"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1549
-#, python-brace-format
 msgid "Check Error Log {0} for more details."
 msgstr "تحقق من سجل الأخطاء {0} لمزيد من التفاصيل."
 
@@ -2096,7 +2040,6 @@ msgstr "التحقق من الوظائف الشاغرة عند إنشاء عرض
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:491
 #: hrms/hr/utils.py:969
-#, python-brace-format
 msgid "Check {0} for more details"
 msgstr "تحقق من {0} لمزيد من التفاصيل"
 
@@ -2179,12 +2122,10 @@ msgid "Claimed Amount"
 msgstr "المبلغ المطالب به"
 
 #: hrms/payroll/doctype/employee_benefit_claim/employee_benefit_claim.py:34
-#, python-brace-format
 msgid "Claimed amount of employee {0} exceeds maximum amount eligible for claim {1}"
 msgstr "المبلغ المطالَب به للموظف {0} يتجاوز الحد الأقصى المؤهل للمطالبة {1}"
 
 #: hrms/payroll/doctype/employee_benefit_claim/employee_benefit_claim.py:30
-#, python-brace-format
 msgid "Claimed amount of employee {0} should be greater than 0"
 msgstr "يجب أن يكون المبلغ المطالَب به للموظف {0} أكبر من 0"
 
@@ -2194,7 +2135,6 @@ msgid "Claims"
 msgstr "المطالبات"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.js:300
-#, python-brace-format
 msgid "Click {0} to change the configuration and then resave salary slip"
 msgstr "انقر فوق {0} لتغيير الإعدادات ثم أعد حفظ قسيمة الراتب"
 
@@ -2279,7 +2219,6 @@ msgid "Conference"
 msgstr "مؤتمر"
 
 #: frontend/src/components/CheckInPanel.vue:73
-#, python-brace-format
 msgid "Confirm {0}"
 msgstr "تأكيد {0}"
 
@@ -2324,7 +2263,6 @@ msgid "Copy of Invitation/Announcement"
 msgstr "نسخة من الدعوة / الإعلان"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1614
-#, python-brace-format
 msgid "Could not submit some Salary Slips: {}"
 msgstr "تعذر تقديم بعض قسائم الرواتب: {}"
 
@@ -2436,7 +2374,6 @@ msgid "Creating Salary Slips..."
 msgstr "إنشاء قسائم الرواتب ..."
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.py:246
-#, python-brace-format
 msgid "Creating {0}..."
 msgstr "إنشاء {0}..."
 
@@ -2453,7 +2390,6 @@ msgid "Creation of Salary Structure Assignments has been queued. It may take a f
 msgstr "تم وضع إنشاء تعيينات هياكل الرواتب في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.py:200
-#, python-brace-format
 msgid "Creation of {0} has been queued. It may take a few minutes."
 msgstr "تم وضع إنشاء {0} في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
 
@@ -2472,7 +2408,6 @@ msgid "Currency "
 msgstr "العملة "
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:128
-#, python-brace-format
 msgid "Currency of selected Income Tax Slab should be {0} instead of {1}"
 msgstr "يجب أن تكون عملة شريحة ضريبة الدخل المحددة {0} بدلاً من {1}"
 
@@ -2503,7 +2438,6 @@ msgid "Current Month Income Tax"
 msgstr "ضريبة الدخل للشهر الحالي"
 
 #: hrms/hr/doctype/vehicle_log/vehicle_log.py:15
-#, python-brace-format
 msgid "Current Odometer Value should be greater than Last Odometer Value {0}"
 msgstr "يجب أن تكون قيمة عداد المسافات الحالية أكبر من قيمة آخر عداد المسافات {0}"
 
@@ -2540,7 +2474,6 @@ msgid "Current Work Experience"
 msgstr "الخبرة العملية الحالية"
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:98
-#, python-brace-format
 msgid ""
 "Currently, there is no {0} leave period for this date to create/update leave "
 "allocation."
@@ -2605,7 +2538,6 @@ msgid "Date is repeated"
 msgstr "تاريخ متكرر\\n<br>\\nDate is repeated"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:59
-#, python-brace-format
 msgid "Date {0} is repeated in Overtime Details"
 msgstr "التاريخ {0} مكرر في تفاصيل العمل الإضافي"
 
@@ -2759,7 +2691,6 @@ msgid "Delete Attachment"
 msgstr "حذف المرفق"
 
 #: frontend/src/components/FormView.vue:224
-#, python-brace-format
 msgid "Delete {0}"
 msgstr "حذف {0}"
 
@@ -2774,12 +2705,10 @@ msgid "Department Wise Openings"
 msgstr "الوظائف الشاغرة حسب الإدارة"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:107
-#, python-brace-format
 msgid "Department {0} does not belong to company: {1}"
 msgstr "الإدارة {0} لا تنتمي إلى الشركة: {1}"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:242
-#, python-brace-format
 msgid "Department: {0}"
 msgstr "الإدارة: {0}"
 
@@ -2812,7 +2741,6 @@ msgid "Designation Skill"
 msgstr "مهارة التعيين"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:244
-#, python-brace-format
 msgid "Designation: {0}"
 msgstr "المنصب: {0}"
 
@@ -2828,7 +2756,6 @@ msgid "Determine Check-in and Check-out"
 msgstr "تحديد الوصول والمغادرة"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:112
-#, python-brace-format
 msgid ""
 "Disable {0} for the {1} component, to prevent the amount from being deducted twice, "
 "as its formula already uses a payment-days-based component."
@@ -2837,7 +2764,6 @@ msgstr ""
 "أيام الدفع."
 
 #: hrms/hr/doctype/leave_type/leave_type.py:40
-#, python-brace-format
 msgid "Disable {0} or {1} to proceed."
 msgstr "عطّل {0} أو {1} للمتابعة."
 
@@ -2866,12 +2792,10 @@ msgid "Do not include in total"
 msgstr "لا تدرج في المجموع"
 
 #: hrms/hr/doctype/interview/interview.py:95
-#, python-brace-format
 msgid "Do you want to update the Job Applicant {0} as {1} based on this interview result?"
 msgstr "هل تريد تحديث المتقدم للوظيفة {0} إلى {1} بناءً على نتيجة هذه المقابلة؟"
 
 #: frontend/src/components/RequestActionSheet.vue:300
-#, python-brace-format
 msgid "Document {0} failed!"
 msgstr "فشل المستند {0}!"
 
@@ -2905,7 +2829,6 @@ msgid "Duplicate Salary Withholding"
 msgstr "حجز راتب مكرر"
 
 #: hrms/public/js/utils/index.js:210
-#, python-brace-format
 msgid "ERROR({0}): {1}"
 msgstr "خطأ({0}): {1}"
 
@@ -2957,7 +2880,6 @@ msgid "Earned Leaves are allocated as per the configured frequency via scheduler
 msgstr "يتم تخصيص الإجازات المكتسبة حسب التكرار المحدد عبر المجدول."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:144
-#, python-brace-format
 msgid ""
 "Earned Leaves are auto-allocated via scheduler based on the annual allocation set in "
 "the Leave Policy: {0}"
@@ -3383,7 +3305,6 @@ msgid "Employee Onboarding Template"
 msgstr "قالب Onboarding الموظف"
 
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:33
-#, python-brace-format
 msgid "Employee Onboarding: {0} already exists for Job Applicant: {1}"
 msgstr "إلحاق الموظف: {0} موجود بالفعل للمتقدم للوظيفة: {1}"
 
@@ -3434,12 +3355,10 @@ msgid "Employee Referral"
 msgstr "إحالة موظف"
 
 #: hrms/hr/doctype/employee_referral/employee_referral.py:26
-#, python-brace-format
 msgid "Employee Referral {0} already exists for email: {1}"
 msgstr "إحالة الموظف {0} موجودة بالفعل للبريد الإلكتروني: {1}"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:142
-#, python-brace-format
 msgid "Employee Referral {0} is not applicable for referral bonus."
 msgstr "إحالة الموظف {0} غير مؤهلة لمكافأة الإحالة."
 
@@ -3570,7 +3489,6 @@ msgstr "لا يمكن تقديم نقل الموظف قبل تاريخ النق�
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:84
 #: hrms/hr/doctype/employee_advance/employee_advance.py:155
-#, python-brace-format
 msgid "Employee advance account {0} should be of type {1}."
 msgstr "يجب أن يكون حساب سلف الموظفين {0} من النوع {1}."
 
@@ -3610,37 +3528,30 @@ msgid "Employee was marked Absent for other half due to missing Employee Checkin
 msgstr "تم تسجيل الموظف غائبًا للنصف الآخر بسبب عدم وجود تسجيلات دخول للموظف."
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:454
-#, python-brace-format
 msgid "Employee {0} : {1}"
 msgstr "الموظف {0} : {1}"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:112
-#, python-brace-format
 msgid "Employee {0} already has an Attendance Request {1} that overlaps with this period"
 msgstr "لدى الموظف {0} بالفعل طلب حضور {1} يتداخل مع هذه الفترة"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:140
-#, python-brace-format
 msgid "Employee {0} already has an active Shift {1}: {2} that overlaps within this period."
 msgstr "لدى الموظف {0} بالفعل وردية نشطة {1}: {2} تتداخل مع هذه الفترة."
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:56
-#, python-brace-format
 msgid "Employee {0} already submitted an application {1} for the payroll period {2}"
 msgstr "قدم الموظف {0} بالفعل طلبًا {1} لفترة كشوف المرتبات {2}"
 
 #: hrms/hr/doctype/shift_request/shift_request.py:128
-#, python-brace-format
 msgid "Employee {0} has already applied for Shift {1}: {2} that overlaps within this period"
 msgstr "لقد تقدم الموظف {0} بالفعل بطلب وردية {1}: {2} تتداخل مع هذه الفترة"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:499
-#, python-brace-format
 msgid "Employee {0} has already applied for {1} between {2} and {3} : {4}"
 msgstr "لقد تقدم الموظف {0} بالفعل بطلب {1} بين {2} و {3}: {4}"
 
 #: hrms/payroll/doctype/employee_benefit_claim/employee_benefit_claim.py:48
-#, python-brace-format
 msgid ""
 "Employee {0} has already claimed the benefit '{1}' for {2} ({3}).<br>To prevent "
 "overpayments, only one claim per benefit type is allowed in each payroll cycle."
@@ -3649,32 +3560,26 @@ msgstr ""
 "بمطالبة واحدة فقط لكل نوع ميزة في كل دورة رواتب."
 
 #: hrms/hr/doctype/attendance/attendance.py:216
-#, python-brace-format
 msgid "Employee {0} is not active or does not exist"
 msgstr "الموظف {0} غير نشط أو غير موجود\\n<br>\\nEmployee {0} is not active or does not exist"
 
 #: hrms/hr/doctype/attendance/attendance.py:192
-#, python-brace-format
 msgid "Employee {0} is on Leave on {1}"
 msgstr "الموظف {0} في وضع الإجازة على {1}"
 
 #: hrms/hr/doctype/training_feedback/training_feedback.py:25
-#, python-brace-format
 msgid "Employee {0} not found in Training Event Participants."
 msgstr "الموظف {0} غير موجود في المشاركين في حدث التدريب."
 
 #: hrms/hr/doctype/attendance/attendance.py:185
-#, python-brace-format
 msgid "Employee {0} on Half day on {1}"
 msgstr "الموظف {0} لديه اجازة نصف يوم في {1}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:649
-#, python-brace-format
 msgid "Employee {0} relieved on {1} must be set as 'Left'"
 msgstr "الموظف {0} الذي انتهت خدمته في {1} يجب تعيينه كـ 'غادر'"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:161
-#, python-brace-format
 msgid "Employee: {0} have to complete minimum {1} years for gratuity"
 msgstr "الموظف: {0} يجب أن يكمل {1} سنوات كحد أدنى للحصول على مكافأة نهاية الخدمة"
 
@@ -3695,7 +3600,6 @@ msgid "Employees Working on a Holiday"
 msgstr "الموظفون العاملون في عطلة"
 
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.py:32
-#, python-brace-format
 msgid "Employees cannot give feedback to themselves. Use {0} instead: {1}"
 msgstr "لا يمكن للموظفين تقديم ملاحظات لأنفسهم. استخدم {0} بدلاً من ذلك: {1}"
 
@@ -3716,19 +3620,16 @@ msgid "Employees on leave today"
 msgstr "الموظفون في إجازة اليوم"
 
 #: hrms/hr/doctype/hr_settings/hr_settings.py:81
-#, python-brace-format
 msgid ""
 "Employees will miss holiday reminders from {} until {}. <br> Do you want to proceed "
 "with this change?"
 msgstr "سيفوت الموظفون تذكيرات العطلات من {} حتى {}. <br> هل تريد المتابعة مع هذا التغيير؟"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:167
-#, python-brace-format
 msgid "Employees without Feedback: {0}"
 msgstr "موظفون بدون تقييم: {0}"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:171
-#, python-brace-format
 msgid "Employees without Goals: {0}"
 msgstr "موظفون بدون أهداف: {0}"
 
@@ -3828,7 +3729,6 @@ msgid "Encashment Days"
 msgstr "أيام صرف الرصيد"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:130
-#, python-brace-format
 msgid "Encashment Days cannot exceed {0} {1} as per Leave Type settings"
 msgstr "أيام صرف الرصيد لا يمكن أن تتجاوز {0} {1} حسب إعدادات نوع الإجازة"
 
@@ -3847,7 +3747,6 @@ msgid "End Date cannot be before Start Date"
 msgstr "لا يمكن أن يكون تاريخ الانتهاء قبل تاريخ البدء"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:248
-#, python-brace-format
 msgid "End date: {0}"
 msgstr "تاريخ الانتهاء: {0}"
 
@@ -3897,17 +3796,14 @@ msgid "Enter your email address and we'll send you a link to reset your password
 msgstr "أدخل عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور."
 
 #: frontend/src/components/FormField.vue:40 frontend/src/components/FormField.vue:52
-#, python-brace-format
 msgid "Enter {0}"
 msgstr "أدخل {0}"
 
 #: frontend/src/components/FormView.vue:543
-#, python-brace-format
 msgid "Error creating {0}"
 msgstr "خطأ في إنشاء {0}"
 
 #: frontend/src/components/FormView.vue:591
-#, python-brace-format
 msgid "Error deleting {0}"
 msgstr "خطأ في حذف {0}"
 
@@ -3920,7 +3816,6 @@ msgid "Error in formula or condition"
 msgstr "خطأ في الصيغة أو الشرط"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2551
-#, python-brace-format
 msgid "Error in formula or condition: {0} in Income Tax Slab"
 msgstr "خطأ في الصيغة أو الشرط: {0} في شريحة ضريبة الدخل"
 
@@ -3929,12 +3824,10 @@ msgid "Error in some rows"
 msgstr "خطأ في بعض الصفوف"
 
 #: frontend/src/components/FormView.vue:569
-#, python-brace-format
 msgid "Error updating {0}"
 msgstr "خطأ في تحديث {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2630
-#, python-brace-format
 msgid ""
 "Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> "
 "<b>Error:</b> {error} <br><br> <b>Hint:</b> {description}"
@@ -4021,7 +3914,6 @@ msgid "Everyone, let’s congratulate them on their work anniversary!"
 msgstr "فلنهنّئهم جميعًا بمناسبة ذكرى التحاقهم بالعمل!"
 
 #: hrms/controllers/employee_reminders.py:125
-#, python-brace-format
 msgid "Everyone, let’s congratulate {0} on their birthday."
 msgstr "فلنهنّئ {0} جميعًا بعيد ميلاده."
 
@@ -4041,7 +3933,6 @@ msgid "Exclude Holidays"
 msgstr "استبعاد العطلات"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:106
-#, python-brace-format
 msgid "Excluded {0} Non-Encashable Leaves for {1}"
 msgstr "تم استبعاد {0} إجازات غير قابلة للصرف لـ {1}"
 
@@ -4130,7 +4021,6 @@ msgid "Exit Interview Summary"
 msgstr "الخروج من ملخص المقابلة"
 
 #: hrms/hr/doctype/exit_interview/exit_interview.py:33
-#, python-brace-format
 msgid "Exit Interview {0} already exists for Employee: {1}"
 msgstr "مقابلة الخروج {0} موجودة بالفعل للموظف: {1}"
 
@@ -4251,12 +4141,10 @@ msgid "Expense Claim Type"
 msgstr "نوع  المطالبة  بالنفقات"
 
 #: hrms/hr/doctype/vehicle_log/vehicle_log.py:48
-#, python-brace-format
 msgid "Expense Claim for Vehicle Log {0}"
 msgstr "مطالبه المصروفات لسجل المركبات {0}"
 
 #: hrms/hr/doctype/vehicle_log/vehicle_log.py:36
-#, python-brace-format
 msgid "Expense Claim {0} already exists for the Vehicle Log"
 msgstr "المطالبة بالنفقات {0} بالفعل موجوده في سجل المركبة"
 
@@ -4342,17 +4230,14 @@ msgid "Exporting..."
 msgstr "جاري التصدير..."
 
 #: hrms/hr/utils.py:966
-#, python-brace-format
 msgid "Failed to create/submit {0} for employees:"
 msgstr "فشل في إنشاء/تقديم {0} للموظفين:"
 
 #: hrms/overrides/company.py:36
-#, python-brace-format
 msgid "Failed to delete defaults for country {0}."
 msgstr "فشل في حذف الإعدادات الافتراضية للبلد {0}."
 
 #: hrms/api/__init__.py:796
-#, python-brace-format
 msgid "Failed to download PDF: {0}"
 msgstr "فشل تنزيل ملف PDF: {0}"
 
@@ -4367,7 +4252,6 @@ msgid ""
 msgstr "فشل في إرسال إشعار إعادة جدولة المقابلة. يرجى تكوين حساب البريد الإلكتروني الخاص بك."
 
 #: hrms/overrides/company.py:49
-#, python-brace-format
 msgid "Failed to setup defaults for country {0}."
 msgstr "فشل في إعداد الإعدادات الافتراضية للبلد {0}."
 
@@ -4384,7 +4268,6 @@ msgid "Failed to update the Job Applicant status"
 msgstr "فشل في تحديث حالة المتقدم للوظيفة"
 
 #: hrms/public/js/utils/index.js:143
-#, python-brace-format
 msgid "Failed to {0} {1} for employees:"
 msgstr "فشل في {0} {1} للموظفين:"
 
@@ -4445,7 +4328,6 @@ msgid "Feedback Summary"
 msgstr "ملخص الملاحظات"
 
 #: hrms/hr/doctype/interview_feedback/interview_feedback.py:73
-#, python-brace-format
 msgid ""
 "Feedback already submitted for the Interview {0}. Please cancel the previous "
 "Interview Feedback {1} to continue."
@@ -4458,7 +4340,6 @@ msgid "Feedback cannot be recorded for an absent Employee."
 msgstr "لا يمكن تسجيل الملاحظات لموظف غائب."
 
 #: hrms/public/js/performance/performance_feedback.js:120
-#, python-brace-format
 msgid "Feedback {0} added successfully"
 msgstr "تمت إضافة الملاحظات {0} بنجاح"
 
@@ -4556,7 +4437,6 @@ msgid "First Name "
 msgstr "الاسم الأول "
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1532
-#, python-brace-format
 msgid "Fiscal Year {0} not found"
 msgstr "السنة المالية {0} غير موجودة\\n<br>\\nFiscal Year {0} not found"
 
@@ -4685,22 +4565,18 @@ msgid "From Date must come before To Date"
 msgstr "تاريخ البدء يجب أن يكون قبل تاريخ الانتهاء"
 
 #: hrms/payroll/doctype/arrear/arrear.py:47
-#, python-brace-format
 msgid "From Date {0} cannot be after Payroll Period end date {1}"
 msgstr "لا يمكن أن يكون تاريخ البداية {0} بعد تاريخ نهاية فترة الرواتب {1}"
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:93
-#, python-brace-format
 msgid "From Date {0} cannot be after employee's relieving Date {1}"
 msgstr "من تاريخ {0} لا يمكن أن يكون بعد تاريخ التخفيف من الموظف {1}"
 
 #: hrms/payroll/doctype/arrear/arrear.py:41
-#, python-brace-format
 msgid "From Date {0} cannot be before Payroll Period start date {1}"
 msgstr "لا يمكن أن يكون تاريخ البداية {0} قبل تاريخ بداية فترة الرواتب {1}"
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:85
-#, python-brace-format
 msgid "From Date {0} cannot be before employee's joining Date {1}"
 msgstr "من تاريخ {0} لا يمكن أن يكون قبل تاريخ الانضمام للموظف {1}"
 
@@ -4721,7 +4597,6 @@ msgid "From here, you can enable encashment for the balance leaves."
 msgstr "من هنا، يمكنك تمكين صرف الرصيد للإجازات المتبقية."
 
 #: hrms/payroll/report/salary_register/salary_register.html:8
-#, python-brace-format
 msgid "From {0} to {1}"
 msgstr "من {0} إلى {1}"
 
@@ -5106,12 +4981,10 @@ msgid "Health Insurance Provider"
 msgstr "مزود التأمين الصحي"
 
 #: hrms/controllers/employee_reminders.py:72
-#, python-brace-format
 msgid "Hey {}! This email is to remind you about the upcoming holidays."
 msgstr "مرحباً {}! هذا البريد الإلكتروني لتذكيرك بالعطلات القادمة."
 
 #: frontend/src/components/CheckInPanel.vue:4
-#, python-brace-format
 msgid "Hey, {0} 👋"
 msgstr "مرحباً، {0} 👋"
 
@@ -5133,7 +5006,6 @@ msgid "Holiday List Assignment"
 msgstr "إسناد قائمة العطلات"
 
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.py:33
-#, python-brace-format
 msgid "Holiday List Assignment for {0} already exists for date {1}: {2}"
 msgstr "إسناد قائمة العطلات لـ {0} موجود بالفعل للتاريخ {1}: {2}"
 
@@ -5184,7 +5056,6 @@ msgid "Hourly Rate"
 msgstr "معدل الساعة"
 
 #: hrms/regional/india/utils.py:183
-#, python-brace-format
 msgid "House rent paid days overlapping with {0}"
 msgstr "أيام إيجار المنازل المدفوعة تتداخل مع {0}"
 
@@ -5398,7 +5269,6 @@ msgid "If set, the job opening will be closed automatically after this date"
 msgstr "إذا تم تعيينه، سيتم إغلاق الوظيفة الشاغرة تلقائيًا بعد هذا التاريخ"
 
 #: hrms/patches/v15_0/notify_about_loan_app_separation.py:17
-#, python-brace-format
 msgid ""
 "If you are using loans in salary slips, please install the {0} app from Frappe Cloud "
 "Marketplace or GitHub to continue using loan integration with payroll."
@@ -5534,17 +5404,14 @@ msgid "Income Tax Slab Other Charges"
 msgstr "لوحة ضريبة الدخل رسوم أخرى"
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:113
-#, python-brace-format
 msgid "Income Tax Slab is mandatory since the Salary Structure {0} has a tax component {1}"
 msgstr "شريحة ضريبة الدخل إلزامية لأن هيكل الرواتب {0} يحتوي على مكون ضريبي {1}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1882
-#, python-brace-format
 msgid "Income Tax Slab must be effective on or before Payroll Period Start Date: {0}"
 msgstr "يجب أن يكون لوح ضريبة الدخل ساريًا في أو قبل تاريخ بدء فترة الرواتب: {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1870
-#, python-brace-format
 msgid "Income Tax Slab not set in Salary Structure Assignment: {0}"
 msgstr "لم يتم تعيين لوح ضريبة الدخل في تعيين هيكل الرواتب: {0}"
 
@@ -5553,7 +5420,6 @@ msgid "Income Tax Slab: "
 msgstr "شريحة ضريبة الدخل: "
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1878
-#, python-brace-format
 msgid "Income Tax Slab: {0} is disabled"
 msgstr "شريحة ضريبة الدخل: {0} معطل"
 
@@ -5597,7 +5463,6 @@ msgid "Insufficient Balance"
 msgstr "رصيد غير كافٍ"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:456
-#, python-brace-format
 msgid "Insufficient leave balance for Leave Type {0}"
 msgstr "رصيد إجازات غير كافٍ لنوع الإجازة {0}"
 
@@ -5665,7 +5530,6 @@ msgid "Interview Feedback Reminder"
 msgstr "تذكير بتقييم المقابلة"
 
 #: hrms/hr/doctype/interview/interview.py:374
-#, python-brace-format
 msgid "Interview Feedback {0} submitted successfully"
 msgstr "تم تقديم تقييم المقابلة {0} بنجاح"
 
@@ -5728,19 +5592,16 @@ msgid "Interview Type Name"
 msgstr "اسم نوع المقابلة"
 
 #: hrms/hr/doctype/job_applicant/job_applicant.py:96
-#, python-brace-format
 msgid "Interview Type {0} is only applicable for the Designation {1}"
 msgstr "نوع المقابلة {0} ينطبق فقط على المسمى الوظيفي {1}"
 
 #: hrms/hr/doctype/interview/interview.py:79
-#, python-brace-format
 msgid ""
 "Interview Type {0} is only for Designation {1}. Job Applicant has applied for the "
 "role {2}"
 msgstr "نوع المقابلة {0} مخصص فقط للمسمى الوظيفي {1}. المتقدم للوظيفة قدّم على الدور {2}"
 
 #: hrms/hr/doctype/interview/interview.py:132
-#, python-brace-format
 msgid "Interview: {0} Rescheduled"
 msgstr "المقابلة: تمت إعادة جدولة {0}"
 
@@ -5808,7 +5669,6 @@ msgid "Invalid Leave Ledger Entry"
 msgstr "إدخال دفتر أستاذ الإجازات غير صالح"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:295
-#, python-brace-format
 msgid "Invalid Payroll Payable Account. The account currency must be {0} or {1}"
 msgstr "حساب الرواتب المستحقة الدفع غير صالح. يجب أن تكون عملة الحساب {0} أو {1}"
 
@@ -5817,7 +5677,6 @@ msgid "Invalid Shift Times"
 msgstr "أوقات وردية غير صالحة"
 
 #: hrms/api/roster.py:31
-#, python-brace-format
 msgid "Invalid employee filter: {0}"
 msgstr "عامل تصفية موظفين غير صالح: {0}"
 
@@ -5826,7 +5685,6 @@ msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "المعلمات المقدمة غير صالحة. يرجى تمرير الوسائط المطلوبة."
 
 #: hrms/api/roster.py:40
-#, python-brace-format
 msgid "Invalid shift filter: {0}"
 msgstr "عامل تصفية مناوبات غير صالح: {0}"
 
@@ -5982,12 +5840,10 @@ msgid "Job Applicant Source"
 msgstr "مصدر طالب الوظيفة"
 
 #: hrms/hr/doctype/employee_referral/employee_referral.py:70
-#, python-brace-format
 msgid "Job Applicant {0} created successfully."
 msgstr "تم إنشاء المتقدم للوظيفة {0} بنجاح."
 
 #: hrms/hr/doctype/interview/interview.py:66
-#, python-brace-format
 msgid ""
 "Job Applicants are not allowed to appear twice for the same Interview Type. Interview"
 " {0} already scheduled for Job Applicant {1}"
@@ -6042,7 +5898,6 @@ msgid "Job Offer status"
 msgstr "حالة عرض العمل"
 
 #: hrms/hr/doctype/job_offer/job_offer.py:24
-#, python-brace-format
 msgid "Job Offer: {0} is already for Job Applicant: {1}"
 msgstr "عرض الوظيفة: {0} مقدم بالفعل لمقدم طلب وظيفة: {1}"
 
@@ -6080,7 +5935,6 @@ msgid "Job Openings"
 msgstr "الوظائف الشاغرة"
 
 #: hrms/hr/doctype/job_opening/job_opening.py:83
-#, python-brace-format
 msgid ""
 "Job Openings for the designation {0} are already open or the hiring is complete as "
 "per the Staffing Plan {1}"
@@ -6104,7 +5958,6 @@ msgid "Job Requisition"
 msgstr "طلب توظيف"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.py:38
-#, python-brace-format
 msgid "Job Requisition {0} has been associated with Job Opening {1}"
 msgstr "تم ربط طلب التوظيف {0} بالوظيفة الشاغرة {1}"
 
@@ -6189,7 +6042,6 @@ msgid "Key Result Area"
 msgstr "منطقة النتائج الرئيسية"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2659
-#, python-brace-format
 msgid ""
 "LWP Days Reversed ({0}) does not match actual Payroll Corrections total ({1}) for "
 "employee {2} from {3} to {4}"
@@ -6224,7 +6076,6 @@ msgid "Last Sync of Checkin"
 msgstr "آخر مزامنة للفحص"
 
 #: frontend/src/components/CheckInPanel.vue:9
-#, python-brace-format
 msgid "Last {0} was at {1}"
 msgstr "آخر {0} كان في {1}"
 
@@ -6260,7 +6111,6 @@ msgid "Latitude and longitude values are required for checking in."
 msgstr "قيم خط العرض وخط الطول مطلوبة لتسجيل الحضور."
 
 #: frontend/src/components/CheckInPanel.vue:128
-#, python-brace-format
 msgid "Latitude: {0}°"
 msgstr "خط العرض: {0}°"
 
@@ -6278,7 +6128,6 @@ msgid "Leave Adjustment"
 msgstr "تعديل الإجازة"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:43
-#, python-brace-format
 msgid ""
 "Leave Adjustment for this allocation already exists: {0}. Please amend existing "
 "adjustment."
@@ -6320,7 +6169,6 @@ msgid "Leave Application"
 msgstr "طلب اجازة"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:780
-#, python-brace-format
 msgid ""
 "Leave Application period cannot be across two non-consecutive leave allocations {0} "
 "and {1}."
@@ -6460,7 +6308,6 @@ msgid "Leave Ledger Entry"
 msgstr "ترك دخول دفتر الأستاذ"
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:19
-#, python-brace-format
 msgid ""
 "Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0}"
 " and To Date is {1}"
@@ -6531,7 +6378,6 @@ msgid "Leave Policy Details"
 msgstr "اترك تفاصيل السياسة"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:64
-#, python-brace-format
 msgid "Leave Policy: {0} already assigned for Employee {1} for period {2} to {3}"
 msgstr "سياسة الإجازات: {0} تم تعيينها بالفعل للموظف {1} للفترة من {2} إلى {3}"
 
@@ -6604,19 +6450,16 @@ msgid "Leave Type is mandatory"
 msgstr "نوع الإجازة إلزامي"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:185
-#, python-brace-format
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr ""
 "لا يمكن تخصيص نوع الاجازه {0}, لأنها إجازة بدون راتب\\n<br>\\nLeave Type {0} cannot "
 "be allocated since it is leave without pay"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
-#, python-brace-format
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr "لا يمكن ترحيل نوع اﻹجازة {0}\\n<br>\\nلا يمكن ترحيل النوع {0} الخاص بالاجازه"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:96
-#, python-brace-format
 msgid "Leave Type {0} is not encashable"
 msgstr "نوع الإجازة {0} غير قابل للضبط"
 
@@ -6628,17 +6471,14 @@ msgid "Leave Without Pay"
 msgstr "اجازة من دون راتب"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:514
-#, python-brace-format
 msgid "Leave Without Pay does not match with approved {} records"
 msgstr "لا تتطابق الإجازة بدون أجر مع سجلات {} المعتمدة"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:130
-#, python-brace-format
 msgid "Leave allocation is skipped for {0}, because number of leaves to be allocated is 0."
 msgstr "تم تخطي تخصيص الإجازة لـ {0} لأن عدد الإجازات المراد تخصيصها هو 0."
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:55
-#, python-brace-format
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
 msgstr "تخصيص الإجازة {0} مرتبط بطلب الإجازة {1}"
 
@@ -6647,14 +6487,12 @@ msgid "Leave already have been assigned for this Leave Policy Assignment"
 msgstr "تم بالفعل تخصيص إجازة لهذا التعيين لسياسة الإجازات"
 
 #: hrms/hr/doctype/leave_type/leave_type.py:27
-#, python-brace-format
 msgid ""
 "Leave application is linked with leave allocations {0}. Leave application cannot be "
 "set as leave without pay"
 msgstr "إجازة التطبيق مرتبطة بمخصصات الإجازة {0}. لا يمكن تعيين طلب الإجازة كإجازة بدون أجر"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:225
-#, python-brace-format
 msgid ""
 "Leave cannot be allocated before {0}, as leave balance has already been carry-"
 "forwarded in the future leave allocation record {1}"
@@ -6663,7 +6501,6 @@ msgstr ""
 "مستقبلي {1}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:255
-#, python-brace-format
 msgid ""
 "Leave cannot be applied/cancelled before {0}, as leave balance has already been "
 "carry-forwarded in the future leave allocation record {1}"
@@ -6672,7 +6509,6 @@ msgstr ""
 "تخصيص إجازات مستقبلي {1}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:526
-#, python-brace-format
 msgid "Leave of type {0} cannot be longer than {1}."
 msgstr "لا يمكن أن تكون الإجازة من النوع {0} أطول من {1}."
 
@@ -6733,7 +6569,6 @@ msgid "Leaves Pending Approval"
 msgstr "إجازات معلقة للموافقة"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:83
-#, python-brace-format
 msgid ""
 "Leaves for the Leave Type {0} won't be carry-forwarded since carry-forwarding is "
 "disabled."
@@ -6749,7 +6584,6 @@ msgid "Leaves to Adjust"
 msgstr "الإجازات المراد تعديلها"
 
 #: hrms/hr/doctype/leave_type/leave_type.js:42
-#, python-brace-format
 msgid ""
 "Leaves you can avail against a holiday you worked on. You can claim Compensatory Off "
 "Leave using Compensatory Leave Request. Click {0} to know more"
@@ -6784,7 +6618,6 @@ msgstr ""
 "تقدم الهدف"
 
 #: hrms/controllers/employee_boarding_controller.py:154
-#, python-brace-format
 msgid "Linked Project {} and Tasks deleted."
 msgstr "تم حذف المشروع {} والمهام المرتبطة به."
 
@@ -6808,7 +6641,6 @@ msgid "Loan Repayment Entry"
 msgstr "إدخال سداد القرض"
 
 #: hrms/hr/utils.py:853
-#, python-brace-format
 msgid ""
 "Loan cannot be repayed from salary for Employee {0} because salary is processed in "
 "currency {1}"
@@ -6839,7 +6671,6 @@ msgid "Log Type"
 msgstr "نوع السجل"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:83
-#, python-brace-format
 msgid "Log Type is required for check-ins falling in the shift: {0}."
 msgstr "نوع السجل مطلوب لتسجيلات الوقوع في التحول: {0}."
 
@@ -6852,7 +6683,6 @@ msgid "Login to Frappe HR"
 msgstr "تسجيل الدخول إلى Frappe HR"
 
 #: frontend/src/components/CheckInPanel.vue:129
-#, python-brace-format
 msgid "Longitude: {0}°"
 msgstr "خط الطول: {0}°"
 
@@ -6886,7 +6716,6 @@ msgid "Mandatory fields required for this action:"
 msgstr "الحقول الإلزامية المطلوبة لهذا الإجراء:"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:213
-#, python-brace-format
 msgid "Mandatory fields required in {0}"
 msgstr "الحقول الإلزامية المطلوبة في {0}"
 
@@ -6933,12 +6762,10 @@ msgid "Mark as In Progress"
 msgstr "تحديد كقيد التقدم"
 
 #: hrms/hr/doctype/interview/interview.py:100
-#, python-brace-format
 msgid "Mark as {0}"
 msgstr "تحديد كـ {0}"
 
 #: hrms/hr/doctype/attendance/attendance_list.js:108
-#, python-brace-format
 msgid "Mark attendance as {0} for {1} on selected dates?"
 msgstr "هل تريد تسجيل الحضور كـ {0} لـ {1} في التواريخ المحددة؟"
 
@@ -6953,12 +6780,10 @@ msgid "Mark attendance for existing check-in/out logs before changing shift sett
 msgstr "سجل الحضور لسجلات الدخول/الخروج الحالية قبل تغيير إعدادات الوردية"
 
 #: hrms/hr/doctype/goal/goal_tree.js:262
-#, python-brace-format
 msgid "Mark {0} as Completed?"
 msgstr "هل تريد تحديد {0} كمكتمل؟"
 
 #: hrms/hr/doctype/goal/goal_list.js:81
-#, python-brace-format
 msgid "Mark {0} {1} as {2}?"
 msgstr "هل تريد تحديد {0} {1} كـ {2}؟"
 
@@ -7016,7 +6841,6 @@ msgid "Max Exemption Amount"
 msgstr "أقصى مبلغ الإعفاء"
 
 #: hrms/payroll/doctype/employee_tax_exemption_sub_category/employee_tax_exemption_sub_category.py:18
-#, python-brace-format
 msgid ""
 "Max Exemption Amount cannot be greater than maximum exemption amount {0} of Tax "
 "Exemption Category {1}"
@@ -7102,12 +6926,10 @@ msgstr ""
 "ضريبة إذا لم يتجاوز الدخل هذا الحد"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:117
-#, python-brace-format
 msgid "Maximum encashable leaves for {0} are {1}"
 msgstr "الحد الأقصى للإجازات القابلة للصرف لـ {0} هو {1}"
 
 #: hrms/hr/doctype/leave_policy/leave_policy.py:19
-#, python-brace-format
 msgid "Maximum leave allowed in the leave type {0} is {1}"
 msgstr "الحد الأقصى للإجازة المسموح بها في نوع الإجازة {0} هو {1}"
 
@@ -7207,12 +7029,10 @@ msgid "Monthly Attendance Sheet"
 msgstr "ورقة الحضور الشهرية"
 
 #: hrms/hr/utils.py:280
-#, python-brace-format
 msgid "More than one selection for {0} not allowed"
 msgstr "أكثر من اختيار واحد لـ {0} غير مسموح به"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:319
-#, python-brace-format
 msgid ""
 "Multiple Additional Salaries with overwrite property exist for Salary Component {0} "
 "between {1} and {2}."
@@ -7337,7 +7157,6 @@ msgid "New shift assignments will be created after this date."
 msgstr "سيتم إنشاء تعيينات ورديات جديدة بعد هذا التاريخ."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:356
-#, python-brace-format
 msgid "No Bank/Cash Account found for currency {0}. Please create one under company {1}."
 msgstr "لم يتم العثور على حساب بنك/نقد للعملة {0}. يرجى إنشاء واحد ضمن الشركة {1}."
 
@@ -7346,7 +7165,6 @@ msgid "No Employee Found"
 msgstr "لم يتم العثور على أي موظف\\n<br>\\nNo employee found"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:169
-#, python-brace-format
 msgid "No Employee found for the given employee field value. '{}': {}"
 msgstr "لم يتم العثور على موظف لقيمة حقل الموظف المحدد. '{}': {}"
 
@@ -7355,7 +7173,6 @@ msgid "No Employees Selected"
 msgstr "لم يتم تحديد موظفين"
 
 #: hrms/utils/holiday_list.py:107
-#, python-brace-format
 msgid ""
 "No Holiday List was found for Employee {0} or their company {1} for date {2}. Please "
 "assign through {3}"
@@ -7372,32 +7189,26 @@ msgid "No Leave Period Found"
 msgstr "لم يتم العثور على فترة إجازة"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:140
-#, python-brace-format
 msgid "No Leaves Allocated to Employee: {0} for Leave Type: {1}"
 msgstr "لا أوراق مخصصة للموظف: {0} لنوع الإجازة: {1}"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:265
-#, python-brace-format
 msgid "No Salary Slip found for Employee: {0}"
 msgstr "لم يتم العثور على قسيمة راتب للموظف: {0}"
 
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.py:81
-#, python-brace-format
 msgid "No Salary Slips with {0} found for employee {1} for payroll period {2}."
 msgstr "لم يتم العثور على قسائم رواتب تتضمن {0} للموظف {1} في فترة الرواتب {2}."
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:69
-#, python-brace-format
 msgid "No Salary Structure Assignment found for employee {0} on date {1}"
 msgstr "لم يتم العثور على إسناد هيكل راتب للموظف {0} في التاريخ {1}"
 
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.py:119
-#, python-brace-format
 msgid "No Salary Structure Assignment found for employee {0} on or before {1}"
 msgstr "لم يتم العثور على تعيين لهيكل الرواتب للموظف {0} في أو قبل {1}"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:36
-#, python-brace-format
 msgid "No Salary Structure assigned to Employee {0} on the given date {1}"
 msgstr "لا يوجد هيكل رواتب معين للموظف {0} في التاريخ المحدد {1}"
 
@@ -7414,7 +7225,6 @@ msgid "No Staffing Plans found for this Designation"
 msgstr "لم يتم العثور على خطط التوظيف لهذا التصنيف"
 
 #: hrms/payroll/doctype/arrear/arrear.py:71
-#, python-brace-format
 msgid ""
 "No active Salary Structure Assignment found for employee {0} with salary structure "
 "{1} on or after arrear start date {2}"
@@ -7423,7 +7233,6 @@ msgstr ""
 "المتأخرات {2} أو بعده"
 
 #: frontend/src/views/InvalidEmployee.vue:8
-#, python-brace-format
 msgid ""
 "No active employee found associated with the email ID {0}. Try logging in with your "
 "employee email ID or contact your HR manager for access."
@@ -7432,7 +7241,6 @@ msgstr ""
 "باستخدام معرف البريد الإلكتروني الخاص بالموظف أو اتصل بمدير الموارد البشرية للوصول."
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:440
-#, python-brace-format
 msgid "No active or default Salary Structure found for employee {0} for the given dates"
 msgstr ""
 "لم يتم العثور على أي نشاط أو هيكل راتب إفتراضي للموظف {0} للتواريخ "
@@ -7448,17 +7256,14 @@ msgid "No advances found"
 msgstr "لم يتم العثور على أي سلف"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:276
-#, python-brace-format
 msgid "No applicable Earning component found in last salary slip for Gratuity Rule: {0}"
 msgstr "لم يتم العثور على مكون استحقاق مطبق في آخر قسيمة راتب لقاعدة مكافأة نهاية الخدمة: {0}"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:289
-#, python-brace-format
 msgid "No applicable Earning components found for Gratuity Rule: {0}"
 msgstr "لم يتم العثور على مكونات استحقاق مطبقة لقاعدة مكافأة نهاية الخدمة: {0}"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:254
-#, python-brace-format
 msgid ""
 "No applicable slab found for the calculation of gratuity amount as per the Gratuity "
 "Rule: {0}"
@@ -7484,7 +7289,6 @@ msgid "No arrear details found"
 msgstr "لم يتم العثور على تفاصيل متأخرات"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:164
-#, python-brace-format
 msgid "No attendance records found for employee {0} between {1} and {2}"
 msgstr "لم يتم العثور على سجلات حضور للموظف {0} بين {1} و {2}"
 
@@ -7509,7 +7313,6 @@ msgid "No employees found"
 msgstr "لم يتم العثور على موظفين"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:232
-#, python-brace-format
 msgid ""
 "No employees found for the mentioned criteria:<br>Company: {0}<br> Currency: "
 "{1}<br>Payroll Payable Account: {2}"
@@ -7538,12 +7341,10 @@ msgid "No items selected"
 msgstr "لم يتم تحديد أي عناصر"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.js:46
-#, python-brace-format
 msgid "No leave allocation found for {0} for {1} on given date."
 msgstr "لم يتم العثور على تخصيص إجازة لـ {0} لنوع الإجازة {1} في التاريخ المحدد."
 
 #: hrms/hr/doctype/attendance/attendance.py:202
-#, python-brace-format
 msgid "No leave record found for employee {0} on {1}"
 msgstr "لم يتم العثور على سجل إجازة للموظف {0} في {1}"
 
@@ -7581,7 +7382,6 @@ msgid "No salary slips found"
 msgstr "لم يتم العثور على أي كشوف رواتب"
 
 #: hrms/payroll/doctype/arrear/arrear.py:136
-#, python-brace-format
 msgid "No salary slips found for the selected employee from {0}"
 msgstr "لم يتم العثور على قسائم رواتب للموظف المحدد اعتبارًا من {0}"
 
@@ -7594,12 +7394,10 @@ msgid "No valid shift found for log time"
 msgstr "لم يتم العثور على وردية صالحة لوقت التسجيل"
 
 #: hrms/public/js/utils/index.js:48
-#, python-brace-format
 msgid "No {0} Selected"
 msgstr "لم يتم تحديد {0}"
 
 #: frontend/src/components/SalaryDetailTable.vue:32
-#, python-brace-format
 msgid "No {0} added"
 msgstr "لم تتم إضافة {0}"
 
@@ -7639,14 +7437,12 @@ msgid "Note: Shift will not be overwritten in existing attendance records"
 msgstr "ملاحظة: لن يتم استبدال الوردية في سجلات الحضور الحالية"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:156
-#, python-brace-format
 msgid ""
 "Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} "
 "for the period"
 msgstr "ملاحظة: يجب ألا يقل إجمالي الإجازات المخصصة {0} عن الإجازات المعتمدة بالفعل {1} للفترة"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2182
-#, python-brace-format
 msgid ""
 "Note: Your salary slip is password protected, the password to unlock the PDF is of "
 "the format {0}."
@@ -7801,7 +7597,6 @@ msgid "Only Completed documents can be submitted"
 msgstr "لا يمكن تقديم سوى المستندات المكتملة"
 
 #: hrms/hr/doctype/employee_grievance/employee_grievance.py:13
-#, python-brace-format
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr "لا يمكن تقديم سوى شكوى الموظف التي حالتها {0} أو {1}"
 
@@ -7832,12 +7627,10 @@ msgid "Only interviewers can submit feedback"
 msgstr "يمكن للمحاورين فقط تقديم التقييم"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:185
-#, python-brace-format
 msgid "Only users with the {0} role can create backdated leave applications"
 msgstr "يمكن فقط للمستخدمين الذين لديهم دور {0} إنشاء تطبيقات إجازة متأخرة"
 
 #: hrms/hr/doctype/goal/goal_list.js:110
-#, python-brace-format
 msgid "Only {0} Goals can be {1}"
 msgstr "يمكن أن تكون {1} فقط لأهداف {0}"
 
@@ -7865,7 +7658,6 @@ msgid "Opening closed."
 msgstr "الافتتاح مغلق."
 
 #: hrms/hr/doctype/leave_application/leave_application.py:633
-#, python-brace-format
 msgid "Optional Holiday List not set for leave period {0}"
 msgstr "لم يتم تعيين قائمة العطلات الاختيارية لفترة الإجازة {0}"
 
@@ -7953,7 +7745,6 @@ msgid "Overtime Duration"
 msgstr "مدة العمل الإضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:73
-#, python-brace-format
 msgid "Overtime Duration for {0} is greater than Maximum Overtime Hours Allowed"
 msgstr "مدة العمل الإضافي لـ {0} أكبر من الحد الأقصى المسموح به لساعات العمل الإضافي"
 
@@ -7975,7 +7766,6 @@ msgid "Overtime Slip"
 msgstr "قسيمة العمل الإضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:455
-#, python-brace-format
 msgid "Overtime Slip Creation Error for {0}"
 msgstr "خطأ في إنشاء قسيمة العمل الإضافي لـ {0}"
 
@@ -7989,7 +7779,6 @@ msgid "Overtime Slip Step"
 msgstr "خطوة قسيمة العمل الإضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:489
-#, python-brace-format
 msgid "Overtime Slip Submission Error for {0}"
 msgstr "خطأ في ترحيل قسيمة العمل الإضافي لـ {0}"
 
@@ -8002,7 +7791,6 @@ msgid "Overtime Slip Submitted"
 msgstr "تم ترحيل قسيمة العمل الإضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:459
-#, python-brace-format
 msgid "Overtime Slip created for {0} employee(s)"
 msgstr "تم إنشاء قسيمة العمل الإضافي لعدد {0} من الموظفين"
 
@@ -8015,7 +7803,6 @@ msgid "Overtime Slip submission is queued. It may take a few minutes"
 msgstr "تم وضع ترحيل قسيمة العمل الإضافي في قائمة الانتظار. قد يستغرق بضع دقائق"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:48
-#, python-brace-format
 msgid "Overtime Slip:{0} has been created between {1} and {2}"
 msgstr "تم إنشاء قسيمة العمل الإضافي: {0} بين {1} و {2}"
 
@@ -8024,7 +7811,6 @@ msgid "Overtime Slips Created"
 msgstr "تم إنشاء قسائم العمل الإضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:493
-#, python-brace-format
 msgid "Overtime Slips submitted for {0} employee(s)"
 msgstr "تم ترحيل قسائم العمل الإضافي لعدد {0} من الموظفين"
 
@@ -8062,7 +7848,6 @@ msgid "Overwrite Salary Structure Amount"
 msgstr "الكتابة فوق هيكل الهيكل المرتب"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:71
-#, python-brace-format
 msgid ""
 "Overwrite Salary Structure Amount is disabled as the Salary Component: {0} not part "
 "of the Salary Structure: {1}"
@@ -8202,7 +7987,6 @@ msgid "Payment and Accounting"
 msgstr "الدفع والمحاسبة"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1107
-#, python-brace-format
 msgid "Payment of {0} from {1} to {2}"
 msgstr "دفع {0} من {1} إلى {2}"
 
@@ -8425,12 +8209,10 @@ msgid "Performance"
 msgstr "الأداء"
 
 #: frontend/src/components/FormView.vue:291
-#, python-brace-format
 msgid "Permanently cancel {0}"
 msgstr "إلغاء {0} بشكل دائم"
 
 #: frontend/src/components/FormView.vue:260
-#, python-brace-format
 msgid "Permanently submit {0}"
 msgstr "إرسال {0} بشكل دائم"
 
@@ -8452,7 +8234,6 @@ msgid "Please Select Company First"
 msgstr "يرجى تحديد الشركة أولاً"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:837
-#, python-brace-format
 msgid "Please assign a Salary Structure for Employee {0} applicable from or before {1} first"
 msgstr "يرجى تعيين هيكل رواتب للموظف {0} ساري المفعول من أو قبل {1} أولاً"
 
@@ -8461,12 +8242,10 @@ msgid "Please confirm once you have completed your training"
 msgstr "يرجى تأكيد بمجرد الانتهاء من التدريب الخاص بك"
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:101
-#, python-brace-format
 msgid "Please create a new {0} for the date {1} first."
 msgstr "يرجى إنشاء {0} جديد للتاريخ {1} أولاً."
 
 #: hrms/hr/doctype/employee_transfer/employee_transfer.py:55
-#, python-brace-format
 msgid "Please delete the Employee {0} to cancel this document"
 msgstr "يرجى حذف الموظف {0} لإلغاء هذا المستند"
 
@@ -8495,7 +8274,6 @@ msgid "Please fill in Employee, Posting Date, and Company before fetching overti
 msgstr "يرجى تعبئة حقول الموظف وتاريخ الترحيل والشركة قبل جلب تفاصيل العمل الإضافي."
 
 #: hrms/hr/doctype/shift_type/shift_type.py:59
-#, python-brace-format
 msgid "Please reduce {0} to avoid shift time overlapping with itself"
 msgstr "يرجى تقليل {0} لتجنب تداخل وقت الوردية مع نفسه"
 
@@ -8611,12 +8389,10 @@ msgid "Please set \"Default Payroll Payable Account\" in Company Defaults"
 msgstr "يرجى تعيين \"حساب مستحقات الرواتب الافتراضي\" في إعدادات الشركة الافتراضية"
 
 #: hrms/regional/india/utils.py:18
-#, python-brace-format
 msgid "Please set Basic and HRA component in Company {0}"
 msgstr "يرجى تعيين مكون الراتب الأساسي وبدل السكن في الشركة {0}"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:162
-#, python-brace-format
 msgid "Please set Earning Component for Leave type: {0}."
 msgstr "يرجى تعيين مكون الكسب لنوع الإجازة: {0}."
 
@@ -8625,7 +8401,6 @@ msgid "Please set Payroll based on in Payroll settings"
 msgstr "يرجى تعيين كشوف المرتبات على أساس إعدادات الرواتب"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:173
-#, python-brace-format
 msgid "Please set Relieving Date for employee: {0}"
 msgstr "يرجى تحديد تاريخ إخلاء الطرف للموظف: {0}"
 
@@ -8635,12 +8410,10 @@ msgid "Please set a date range less than 90 days."
 msgstr "يرجى تحديد نطاق تاريخ أقل من 90 يومًا."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:364
-#, python-brace-format
 msgid "Please set account in Salary Component {0}"
 msgstr "يرجى تعيين الحساب في مكون الراتب {0}"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:53
-#, python-brace-format
 msgid "Please set cost to company(CTC) for employee {0} in the {1}"
 msgstr "يرجى تعيين التكلفة الإجمالية على الشركة للموظف {0} في {1}"
 
@@ -8657,12 +8430,10 @@ msgid "Please set employee's total cost to company to see CTC breakup."
 msgstr "يرجى تعيين التكلفة الإجمالية للموظف على الشركة لعرض تفصيلها."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:43
-#, python-brace-format
 msgid "Please set the Advance Account {0} or in {1}"
 msgstr "يرجى تعيين حساب السلفة {0} أو في {1}"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:137
-#, python-brace-format
 msgid ""
 "Please set the Appraisal Template for all the {0} or select the template in the "
 "Employees table below."
@@ -8673,7 +8444,6 @@ msgid "Please set the Company"
 msgstr "يرجى تعيين الشركة"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:303
-#, python-brace-format
 msgid "Please set the Date Of Joining for employee {0}"
 msgstr "يرجى تحديد تاريخ الالتحاق بالموظف {0}"
 
@@ -8687,32 +8457,26 @@ msgstr "يرجى تحديد نطاق التاريخ."
 
 #: hrms/hr/doctype/exit_interview/exit_interview.js:21
 #: hrms/hr/doctype/exit_interview/exit_interview.py:21
-#, python-brace-format
 msgid "Please set the relieving date for employee {0}"
 msgstr "يرجى تحديد تاريخ إخلاء الطرف للموظف {0}"
 
 #: hrms/hr/doctype/exit_interview/exit_interview.py:123
-#, python-brace-format
 msgid "Please set {0} and {1} in {2}."
 msgstr "يرجى تعيين {0} و {1} في {2}."
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.py:44
-#, python-brace-format
 msgid "Please set {0} for Employee {1}"
 msgstr "يرجى تعيين {0} للموظف {1}"
 
 #: hrms/hr/doctype/department_approver/department_approver.py:84
-#, python-brace-format
 msgid "Please set {0} for the Employee: {1}"
 msgstr "يرجى تعيين {0} للموظف: {1}"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:311
-#, python-brace-format
 msgid "Please set {0} to get CTC report"
 msgstr "يرجى تعيين {0} للحصول على تقرير التكلفة الإجمالية على الشركة"
 
 #: hrms/hr/doctype/shift_type/shift_type.js:21 hrms/hr/doctype/shift_type/shift_type.js:26
-#, python-brace-format
 msgid "Please set {0}."
 msgstr "يرجى تعيين {0}."
 
@@ -8735,14 +8499,12 @@ msgid "Please specify the job applicant to be updated."
 msgstr "يرجى تحديد المتقدم للوظيفة الذي سيتم تحديثه."
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:192
-#, python-brace-format
 msgid ""
 "Please specify {0} and {1} (if any), for the correct tax calculation in future salary"
 " slips."
 msgstr "يرجى تحديد {0} و {1} (إن وجد) ، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية."
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:157
-#, python-brace-format
 msgid "Please submit the {0} before marking the cycle as Completed"
 msgstr "يرجى إرسال {0} قبل تحديد الدورة على أنها مكتملة"
 
@@ -8808,7 +8570,6 @@ msgid "Principal Amount"
 msgstr "المبلغ الأساسي"
 
 #: hrms/payroll/report/salary_register/salary_register.html:40
-#, python-brace-format
 msgid "Printed On {0}"
 msgstr "طُبع في {0}"
 
@@ -8853,7 +8614,6 @@ msgid "Process leave encashment via a separate Payment Entry instead of Salary S
 msgstr "معالجة تسييل الإجازات عبر قيد دفع منفصل بدلاً من قسيمة الراتب"
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:289
-#, python-brace-format
 msgid "Process {0} Shift Request(s) as <b>{1}</b>?"
 msgstr "هل تريد معالجة {0} طلب(ات) مناوبة كـ <b>{1}</b>؟"
 
@@ -9095,7 +8855,6 @@ msgstr ""
 "صحيح من الإجازات المكتسبة. يرجى المتابعة بحذر."
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:77
-#, python-brace-format
 msgid "Reduction is more than {0}'s available leave balance {1} for leave type {2}"
 msgstr "التخفيض أكبر من رصيد الإجازات المتاح {1} لدى {0} لنوع الإجازة {2}"
 
@@ -9103,7 +8862,6 @@ msgstr "التخفيض أكبر من رصيد الإجازات المتاح {1} 
 #: hrms/hr/doctype/leave_application/leave_application.py:530
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:189
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:102
-#, python-brace-format
 msgid "Reference: {0}"
 msgstr "مرجع: {0}"
 
@@ -9421,7 +9179,6 @@ msgid "Route to the custom Job Application Webform"
 msgstr "المسار إلى نموذج طلب الوظيفة المخصص على الويب"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:87
-#, python-brace-format
 msgid ""
 "Row #{0}: Cannot set amount or formula for Salary Component {1} with Variable Based "
 "On Taxable Salary"
@@ -9430,19 +9187,16 @@ msgstr ""
 "الخاضع للضريبة"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:106
-#, python-brace-format
 msgid "Row #{0}: The {1} Component has the options {2} and {3} enabled."
 msgstr "الصف #{0}: مكون {1} لديه الخياران {2} و {3} مفعلان."
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:130
-#, python-brace-format
 msgid ""
 "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary"
 " Component {1}"
 msgstr "الصف #{0}: سيقوم مبلغ الجدول الزمني بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:798
-#, python-brace-format
 msgid ""
 "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense "
 "Claim {1}. Outstanding Amount is {2}"
@@ -9451,47 +9205,38 @@ msgstr ""
 "المبلغ المستحق هو {2}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:499
-#, python-brace-format
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr "الصف {0} # المبلغ المخصص {1} لا يمكن أن يكون أكبر من المبلغ غير المطالب به {2}"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:288
-#, python-brace-format
 msgid "Row {0}# Paid Amount cannot be greater than Encashment amount"
 msgstr "الصف {0}#: المبلغ المدفوع لا يمكن أن يكون أكبر من مبلغ التسييل"
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:133
-#, python-brace-format
 msgid "Row {0}# Paid Amount cannot be greater than Total amount"
 msgstr "الصف {0}#: المبلغ المدفوع لا يمكن أن يكون أكبر من المبلغ الإجمالي"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:193
-#, python-brace-format
 msgid "Row {0}# Paid Amount cannot be greater than requested advance amount"
 msgstr "الصف {0} # المبلغ المدفوع لا يمكن أن يكون أكبر من المبلغ المطلوب مسبقا"
 
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.py:15
-#, python-brace-format
 msgid "Row {0}: From (Year) can not be greater than To (Year)"
 msgstr "الصف {0}: \"من (سنة)\" لا يمكن أن تكون أكبر من \"إلى (سنة)\""
 
 #: hrms/hr/doctype/appraisal/appraisal.py:137
-#, python-brace-format
 msgid "Row {0}: Goal Score cannot be greater than {1}"
 msgstr "الصف {0}: لا يمكن أن تكون درجة الهدف أكبر من {1}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip_loan_utils.py:59
-#, python-brace-format
 msgid "Row {0}: Paid amount {1} is greater than pending accrued amount {2} against loan {3}"
 msgstr "الصف {0}: المبلغ المدفوع {1} أكبر من المبلغ المستحق المعلق {2} مقابل القرض {3}"
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.py:65
-#, python-brace-format
 msgid "Row {0}: {1}"
 msgstr "الصف {0}: {1}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:424
-#, python-brace-format
 msgid "Row {0}: {1} is required in the expenses table to book an expense claim."
 msgstr "الصف {0}: {1} مطلوب في جدول النفقات لحجز مطالبة بالنفقات."
 
@@ -9554,17 +9299,14 @@ msgid "Salary Component for timesheet based payroll."
 msgstr "مكون الراتب لكشف المرتبات المبنية على أساس سجلات التوقيت"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:441
-#, python-brace-format
 msgid "Salary Component {0} cannot be selected more than once in Employee Benefits"
 msgstr "لا يمكن اختيار مكوّن الراتب {0} أكثر من مرة في مزايا الموظف"
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:113
-#, python-brace-format
 msgid "Salary Component {0} is currently not used in any Salary Structure."
 msgstr "مكون الراتب {0} غير مستخدم حاليًا في أي هيكل رواتب."
 
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.py:15
-#, python-brace-format
 msgid "Salary Component {0} must be of type 'Earning' to be used in Employee Benefit Ledger"
 msgstr "يجب أن يكون مكوّن الراتب {0} من نوع 'استحقاق' لاستخدامه في دفتر مزايا الموظف"
 
@@ -9679,7 +9421,6 @@ msgid "Salary Slip Timesheet"
 msgstr "كشف راتب معتمد علي سجل التوقيت"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:98
-#, python-brace-format
 msgid "Salary Slip already exists for {0} for the given dates"
 msgstr "قسيمة الراتب موجودة بالفعل للموظف {0} للتواريخ المحددة"
 
@@ -9692,12 +9433,10 @@ msgid "Salary Slip not found."
 msgstr "لم يتم العثور على قسيمة الراتب."
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:337
-#, python-brace-format
 msgid "Salary Slip of employee {0} already created for this period"
 msgstr "كشف الراتب للموظف {0} تم إنشاؤه لهذه الفترة"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:343
-#, python-brace-format
 msgid "Salary Slip of employee {0} already created for time sheet {1}"
 msgstr "كشف الراتب للموظف {0} تم إنشاؤه لسجل التوقيت {1}"
 
@@ -9706,12 +9445,10 @@ msgid "Salary Slip submission is queued. It may take a few minutes"
 msgstr "تم وضع تقديم قسيمة الراتب في قائمة الانتظار. قد يستغرق الأمر بضع دقائق"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1537
-#, python-brace-format
 msgid "Salary Slip {0} failed for Payroll Entry {1}"
 msgstr "فشلت قسيمة الراتب {0} لإدخال الرواتب {1}"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:117
-#, python-brace-format
 msgid "Salary Slip {0} failed. You can resolve the {1} and retry {0}."
 msgstr "فشلت قسيمة الراتب {0}. يمكنك حل {1} وإعادة محاولة {0}."
 
@@ -9730,14 +9467,12 @@ msgid "Salary Slips Submitted"
 msgstr "قسائم الرواتب المقدمة"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1579
-#, python-brace-format
 msgid ""
 "Salary Slips already exist for employees {}, and will not be processed by this "
 "payroll."
 msgstr "قسائم الرواتب موجودة بالفعل للموظفين {}، ولن تتم معالجتها بواسطة كشف الرواتب هذا."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1606
-#, python-brace-format
 msgid "Salary Slips submitted for period from {0} to {1}"
 msgstr "تم تقديم قسائم الرواتب للفترة من {0} إلى {1}"
 
@@ -9778,7 +9513,6 @@ msgid "Salary Structure Assignment for Employee already exists"
 msgstr "تعيين هيكل الراتب للموظف موجود بالفعل"
 
 #: hrms/payroll/doctype/employee_benefit_claim/employee_benefit_claim.py:225
-#, python-brace-format
 msgid "Salary Structure Assignment not found for employee {0} on date {1}"
 msgstr "لم يتم العثور على إسناد هيكل راتب للموظف {0} في التاريخ {1}"
 
@@ -9787,17 +9521,14 @@ msgid "Salary Structure Missing"
 msgstr "هيكلية الراتب مفقودة"
 
 #: hrms/regional/india/utils.py:29
-#, python-brace-format
 msgid "Salary Structure must be submitted before submission of {0}"
 msgstr "يجب تقديم هيكل الراتب قبل تقديم {0}"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:92
-#, python-brace-format
 msgid "Salary Structure not assigned for employee {0} for date {1}"
 msgstr "لم يُسند هيكل راتب للموظف {0} للتاريخ {1}"
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:104
-#, python-brace-format
 msgid "Salary Structure {0} does not belong to company {1}"
 msgstr "هيكل الراتب {0} لا ينتمي إلى الشركة {1}"
 
@@ -9827,12 +9558,10 @@ msgid "Salary Withholding Cycle"
 msgstr "دورة حجز الراتب"
 
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.py:39
-#, python-brace-format
 msgid "Salary Withholding {0} already exists for employee {1} for the selected period"
 msgstr "حجز الراتب {0} موجود بالفعل للموظف {1} للفترة المحددة"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:371
-#, python-brace-format
 msgid ""
 "Salary already processed for period between {0} and {1}, Leave application period "
 "cannot be between this date range."
@@ -9862,7 +9591,6 @@ msgid "Salary components should be part of the Salary Structure."
 msgstr "يجب أن تكون مكونات الراتب جزءًا من هيكل الراتب."
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2726
-#, python-brace-format
 msgid "Salary slip emails have been enqueued for sending. Check {0} for status."
 msgstr ""
 "تم وضع رسائل البريد الإلكتروني لقسائم الرواتب في قائمة الانتظار للإرسال. تحقق من {0} "
@@ -9882,7 +9610,6 @@ msgid "Sanctioned Amount (Company Currency)"
 msgstr "المبلغ المعتمد (بعملة الشركة)"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:523
-#, python-brace-format
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr "لا يمكن أن يكون المبلغ الموافق عليه أكبر من مبلغ المطالبة في الصف {0}."
 
@@ -10029,12 +9756,10 @@ msgid "Select your Leave Approver i.e. the person who approves or rejects your l
 msgstr "حدد موافق الإجازات الخاص بك، أي الشخص الذي يوافق على إجازاتك أو يرفضها."
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:595
-#, python-brace-format
 msgid "Selected employee advance is not of employee {0}"
 msgstr "سلفة الموظف المحددة ليست للموظف {0}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:492
-#, python-brace-format
 msgid "Selected employee advance is not of employee {}"
 msgstr "سلفة الموظف المحددة ليست للموظف {}"
 
@@ -10045,7 +9770,6 @@ msgid "Self Appraisal"
 msgstr "التقييم الذاتي"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:163
-#, python-brace-format
 msgid "Self Appraisal Pending: {0}"
 msgstr "التقييم الذاتي معلق: {0}"
 
@@ -10116,12 +9840,10 @@ msgid "Sender Copy"
 msgstr "نسخة المرسِل"
 
 #: hrms/hr/doctype/exit_interview/exit_interview.py:139
-#, python-brace-format
 msgid "Sending Failed due to missing email information for employee(s): {1}"
 msgstr "فشل الإرسال بسبب معلومات البريد الإلكتروني المفقودة للموظف (الموظفين): {1}"
 
 #: hrms/hr/doctype/exit_interview/exit_interview.py:135
-#, python-brace-format
 msgid "Sent Successfully: {0}"
 msgstr "تم الإرسال بنجاح: {0}"
 
@@ -10170,7 +9892,6 @@ msgid "Set Leave Details"
 msgstr "تعيين تفاصيل الإجازة"
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.py:79
-#, python-brace-format
 msgid "Set Relieving Date for Employee: {0}"
 msgstr "تعيين تاريخ إخلاء الطرف للموظف: {0}"
 
@@ -10193,7 +9914,6 @@ msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr "تعيين عوامل تصفية اختيارية لجلب الموظفين في قائمة المقيمين"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:611
-#, python-brace-format
 msgid "Set the default account for the {0} {1}"
 msgstr "تعيين الحساب الافتراضي لـ {0} {1}"
 
@@ -10211,12 +9931,10 @@ msgid ""
 msgstr "تعيين الخصائص التي يجب تحديثها في ملف الموظف الرئيسي عند تقديم الترقية"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:205
-#, python-brace-format
 msgid "Set the status to {0} if required."
 msgstr "عيّن الحالة إلى {0} إذا لزم الأمر."
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:200
-#, python-brace-format
 msgid "Set {0} for selected employees"
 msgstr "تعيين {0} للموظفين المحددين"
 
@@ -10233,7 +9951,6 @@ msgid "Settle all Payables and Receivables before submission"
 msgstr "تسوية جميع المستحقات والمدفوعات قبل التقديم"
 
 #: hrms/hr/utils.py:807
-#, python-brace-format
 msgid "Shared document with the user {0} with 'Submit' permission"
 msgstr "تمت مشاركة المستند مع المستخدم {0} بصلاحية 'ترحيل'"
 
@@ -10291,12 +10008,10 @@ msgid "Shift Assignment Tool"
 msgstr "أداة تعيين المناوبات"
 
 #: hrms/hr/doctype/shift_request/shift_request.py:61
-#, python-brace-format
 msgid "Shift Assignment: {0} created for Employee: {1}"
 msgstr "واجب التحول: {0} تم إنشاؤه للموظف: {1}"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:135
-#, python-brace-format
 msgid "Shift Assignments created for the schedule between {0} and {1} via background job"
 msgstr "تم إنشاء إسنادات المناوبات للجدول بين {0} و {1} عبر مهمة خلفية"
 
@@ -10463,7 +10178,6 @@ msgid "Shift and Attendance"
 msgstr "المناوبات والحضور"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:21
-#, python-brace-format
 msgid ""
 "Shift assignments for {0} after {1} are already created. Please change {2} date to a "
 "date later than {3} {4}"
@@ -10472,7 +10186,6 @@ msgstr ""
 "لـ {3} {4}"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.js:42
-#, python-brace-format
 msgid "Shift has been successfully updated to {0}."
 msgstr "تم تحديث المناوبة بنجاح إلى {0}."
 
@@ -10561,7 +10274,6 @@ msgid "Skip Auto Attendance"
 msgstr "تخطي الحضور التلقائي"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:327
-#, python-brace-format
 msgid ""
 "Skipping Salary Structure Assignment for the following employees, as Salary Structure"
 " Assignment records already exists against them. {0}"
@@ -10601,7 +10313,6 @@ msgid "Staffing Plan Detail"
 msgstr "تفاصيل خطة التوظيف"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:72
-#, python-brace-format
 msgid "Staffing Plan {0} already exist for designation {1}"
 msgstr "خطة التوظيف {0} موجودة بالفعل للتسمية {1}"
 
@@ -10630,7 +10341,6 @@ msgid "Standard Working Hours"
 msgstr "ساعات العمل القياسية"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1807
-#, python-brace-format
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}."
 msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف المرتبات الصالحة ، ولا يمكن حساب {0}."
 
@@ -10643,7 +10353,6 @@ msgid "Start date cannot be greater than end date."
 msgstr "لا يمكن أن يكون تاريخ البداية أكبر من تاريخ النهاية."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:246
-#, python-brace-format
 msgid "Start date: {0}"
 msgstr "تاريخ البدء: {0}"
 
@@ -10698,7 +10407,6 @@ msgid "Submission Failed"
 msgstr "فشل التقديم"
 
 #: hrms/hr/doctype/interview_feedback/interview_feedback.py:60
-#, python-brace-format
 msgid "Submission of {0} before {1} is not allowed"
 msgstr "لا يُسمح بتقديم {0} قبل {1}"
 
@@ -10746,7 +10454,6 @@ msgid "Submitting Salary Slips..."
 msgstr "تقديم قسائم الرواتب ..."
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:162
-#, python-brace-format
 msgid ""
 "Subsidiary companies have already planned for {1} vacancies at a budget of {2}. "
 "Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned "
@@ -10756,12 +10463,10 @@ msgstr ""
 "لـ {0} وظائف شاغرة وميزانية لـ {3} أكثر مما هو مخطط له لشركاتها التابعة"
 
 #: hrms/hr/utils.py:983
-#, python-brace-format
 msgid "Successfully created {0} for employees:"
 msgstr "تم الإنشاء بنجاح {0} للموظفين:"
 
 #: hrms/public/js/utils/index.js:160
-#, python-brace-format
 msgid "Successfully {0} {1} for the following employees:"
 msgstr "تم بنجاح {0} {1} للموظفين التاليين:"
 
@@ -10772,7 +10477,6 @@ msgid "Sum of all previous slabs"
 msgstr "مجموع كل الشرائح السابقة"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:44
-#, python-brace-format
 msgid "Sum of benefit amounts {0} exceeds maximum limit of {1}"
 msgstr "مجموع مبالغ المزايا {0} يتجاوز الحد الأقصى {1}"
 
@@ -10781,7 +10485,6 @@ msgid "Summarized View"
 msgstr "عرض موجز"
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:99
-#, python-brace-format
 msgid "Sync {0}"
 msgstr "مزامنة {0}"
 
@@ -10790,7 +10493,6 @@ msgid "Syntax error"
 msgstr "خطأ في الصياغة"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2549
-#, python-brace-format
 msgid "Syntax error in condition: {0} in Income Tax Slab"
 msgstr "خطأ في صياغة الشرط: {0} في شريحة ضريبة الدخل"
 
@@ -10937,7 +10639,6 @@ msgid "Thank you for applying."
 msgstr "شكرًا لتقديمك."
 
 #: hrms/overrides/company.py:131
-#, python-brace-format
 msgid ""
 "The currency of {0} should be same as the company's default currency. Please select "
 "another account."
@@ -10965,7 +10666,6 @@ msgstr ""
 "which you are applying for leave are holidays. You need not apply for leave."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:64
-#, python-brace-format
 msgid "The days between {0} to {1} are not valid holidays."
 msgstr "الأيام بين {0} و {1} ليست عطلات صالحة."
 
@@ -10984,12 +10684,10 @@ msgid "The fraction of daily wages to be paid for half-day attendance"
 msgstr "جزء من الأجر اليومي الواجب دفعه مقابل حضور نصف يوم"
 
 #: hrms/hr/report/project_profitability/project_profitability.py:101
-#, python-brace-format
 msgid "The metrics for this report are calculated based on the {0}. Please set {0} in {1}."
 msgstr "يتم حساب مقاييس هذا التقرير بناءً على {0}. يرجى تعيين {0} في {1}."
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:35
-#, python-brace-format
 msgid "The metrics for this report are calculated based on {0}. Please set {0} in {1}."
 msgstr "يتم حساب مقاييس هذا التقرير بناءً على {0}. يرجى تعيين {0} في {1}."
 
@@ -11045,19 +10743,16 @@ msgid "There are no arrear differences between existing and new salary structure
 msgstr "لا توجد فروق متأخرات بين مكوّنات هيكل الراتب الحالي والجديد."
 
 #: hrms/hr/doctype/job_offer/job_offer.py:39
-#, python-brace-format
 msgid "There are no vacancies under staffing plan {0}"
 msgstr "لا توجد وظائف شاغرة في إطار خطة التوظيف {0}"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:53
 #: hrms/payroll/doctype/employee_incentive/employee_incentive.py:20
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:241
-#, python-brace-format
 msgid "There is no Salary Structure assigned to {0}. First assign a Salary Structure."
 msgstr "لا يوجد هيكل راتب مسند لـ {0}. قم بإسناد هيكل راتب أولًا."
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:391
-#, python-brace-format
 msgid ""
 "There's no Employee with Salary Structure: {0}. Assign {1} to an Employee to preview "
 "Salary Slip"
@@ -11083,12 +10778,10 @@ msgstr ""
 "مناوبة، فاضبط نافذتها الزمنية واجلب المناوبة مرة أخرى."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:97
-#, python-brace-format
 msgid "This compensatory leave will be applicable from {0}."
 msgstr "ستكون هذه الإجازة التعويضية سارية من {0}."
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:49
-#, python-brace-format
 msgid "This employee already has a log with the same timestamp.{0}"
 msgstr "هذا الموظف لديه بالفعل سجل بنفس الطابع الزمني. {0}"
 
@@ -11125,7 +10818,6 @@ msgid "This is based on the attendance of this Employee"
 msgstr "هذا يستند على حضور الموظف"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:202
-#, python-brace-format
 msgid ""
 "This will overwrite the tax component {0} in the salary slip and tax won't be "
 "calculated based on the Income Tax Slabs"
@@ -11187,7 +10879,6 @@ msgid "To User"
 msgstr "إلى المستخدم"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:104
-#, python-brace-format
 msgid "To allow this, enable {0} under {1}."
 msgstr "للسماح بذلك، قم بتمكين {0} ضمن {1}."
 
@@ -11217,7 +10908,6 @@ msgid "To date cannot be before from date"
 msgstr "لا يمكن أن يكون تاريخ الانتهاء قبل تاريخ البدء"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:213
-#, python-brace-format
 msgid "To overwrite the salary component amount for a tax component, please enable {0}"
 msgstr "للكتابة فوق مبلغ مكون الراتب لمكون ضريبي، يرجى تمكين {0}"
 
@@ -11231,17 +10921,14 @@ msgid "To(Year) year can not be less than From(year)"
 msgstr "لا يمكن أن تكون سنة \"إلى (سنة)\" أقل من \"من (سنة)\""
 
 #: hrms/controllers/employee_reminders.py:122
-#, python-brace-format
 msgid "Today is {0}'s birthday 🎉"
 msgstr "اليوم عيد ميلاد {0} 🎉"
 
 #: hrms/controllers/employee_reminders.py:261
-#, python-brace-format
 msgid "Today {0} at our Company! 🎉"
 msgstr "اليوم {0} في شركتنا! 🎉"
 
 #: hrms/controllers/employee_reminders.py:241
-#, python-brace-format
 msgid "Today {0} completed {1} {2} at our Company! 🎉"
 msgstr "اليوم أكمل {0} {1} {2} في شركتنا! 🎉"
 
@@ -11426,7 +11113,6 @@ msgid "Total Leaves"
 msgstr "مجموع الإجازات"
 
 #: hrms/hr/report/leave_ledger/leave_ledger.py:192
-#, python-brace-format
 msgid "Total Leaves ({0})"
 msgstr "إجمالي الإجازات ({0})"
 
@@ -11521,7 +11207,6 @@ msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "لا يمكن أن يكون إجمالي المبلغ المدفوع أكبر من المبلغ الإجمالي المعتمد"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:73
-#, python-brace-format
 msgid ""
 "Total allocated leaves are more than maximum allocation allowed for {0} leave type "
 "for employee {1} in the period"
@@ -11530,7 +11215,6 @@ msgstr ""
 " الفترة"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:162
-#, python-brace-format
 msgid ""
 "Total allocated leaves {0} cannot be less than already approved leaves {1} for the "
 "period"
@@ -11547,17 +11231,14 @@ msgid "Total in words (Company Currency)"
 msgstr "الإجمالي بالكلمات (بعملة الشركة)"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:367
-#, python-brace-format
 msgid "Total leaves allocated cannot exceed annual allocation of {0}."
 msgstr "لا يمكن أن يتجاوز إجمالي الإجازات المخصصة التخصيص السنوي البالغ {0}."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:253
-#, python-brace-format
 msgid "Total leaves allocated is mandatory for Leave Type {0}"
 msgstr "إجمالي الإجازات المخصصة إلزامي لنوع الإجازة {0}"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:465
-#, python-brace-format
 msgid "Total of all employee benefits cannot be greater that Max Benefits Amount {0}"
 msgstr "لا يمكن أن يكون إجمالي جميع مزايا الموظف أكبر من الحد الأقصى لمبلغ المزايا {0}"
 
@@ -11590,7 +11271,6 @@ msgstr ""
 "تاريخ انتهاء قسيمة الراتب الحالية."
 
 #: hrms/hr/doctype/appraisal/appraisal.py:156 hrms/mixins/appraisal.py:17
-#, python-brace-format
 msgid "Total weightage for all {0} must add up to 100. Currently, it is {1}%"
 msgstr "يجب أن يكون إجمالي الترجيح لجميع {0} 100. حاليًا، هو {1}%"
 
@@ -11601,7 +11281,6 @@ msgid "Total working Days Per Year"
 msgstr "إجمالي أيام العمل في السنة"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:180
-#, python-brace-format
 msgid "Total working hours should not be greater than max working hours {0}"
 msgstr "عدد ساعات العمل الكلي يجب ألا يكون أكثر من العدد الأقصى لساعات العمل {0}"
 
@@ -11713,7 +11392,6 @@ msgid "Trainings (This Week)"
 msgstr "التدريبات (هذا الأسبوع)"
 
 #: hrms/hr/utils.py:830
-#, python-brace-format
 msgid "Transactions cannot be created for an Inactive Employee {0}."
 msgstr "لا يمكن إنشاء معاملات لموظف غير نشط {0}."
 
@@ -11811,7 +11489,6 @@ msgid "Under Review"
 msgstr "قيد المراجعة"
 
 #: hrms/hr/doctype/attendance/attendance.py:236
-#, python-brace-format
 msgid "Unlinked Attendance record from Employee Checkins: {}"
 msgstr "تم إلغاء ربط سجل الحضور من تسجيلات وصول الموظفين: {}"
 
@@ -11929,29 +11606,24 @@ msgid "Update Tax"
 msgstr "تحديث الضريبة"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:177
-#, python-brace-format
 msgid ""
 "Updated Status for Other Half from {0} to {1} for date {2} in the attendance record "
 "{3}"
 msgstr "تم تحديث حالة النصف الآخر من {0} إلى {1} للتاريخ {2} في سجل الحضور {3}"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:160
-#, python-brace-format
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr "تم تحديث الحالة من {0} إلى {1} للتاريخ {2} في سجل الحضور {3}"
 
 #: hrms/hr/doctype/interview/interview.py:232
-#, python-brace-format
 msgid "Updated the Job Applicant status to {0}"
 msgstr "تم تحديث حالة المتقدم للوظيفة إلى {0}"
 
 #: hrms/overrides/employee_master.py:77
-#, python-brace-format
 msgid "Updated the status of Job Offer {0} for the linked Job Applicant {1} to {2}"
 msgstr "تم تحديث حالة عرض العمل {0} للمتقدم للوظيفة المرتبط {1} إلى {2}"
 
 #: hrms/overrides/employee_master.py:63
-#, python-brace-format
 msgid "Updated the status of linked Job Applicant {0} to {1}"
 msgstr "تم تحديث حالة المتقدم للوظيفة المرتبط {0} إلى {1}"
 
@@ -12098,12 +11770,10 @@ msgid "WARNING: Loan Management module has been separated from ERPNext."
 msgstr "تحذير: تم فصل وحدة إدارة القروض عن ERPNext."
 
 #: hrms/hr/doctype/leave_application/leave_application.py:441
-#, python-brace-format
 msgid "Warning: Insufficient leave balance for Leave Type {0} in this allocation."
 msgstr "تحذير: رصيد الإجازات غير كافٍ لنوع الإجازة {0} في هذا التخصيص."
 
 #: hrms/hr/doctype/leave_application/leave_application.py:449
-#, python-brace-format
 msgid "Warning: Insufficient leave balance for Leave Type {0}."
 msgstr "تحذير: رصيد الإجازات غير كافٍ لنوع الإجازة {0}."
 
@@ -12114,7 +11784,6 @@ msgstr ""
 "Leave application contains following block dates"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:91
-#, python-brace-format
 msgid "Warning: {0} already has an active Shift Assignment {1} for some/all of these dates."
 msgstr "تحذير: {0} لديه بالفعل تعيين مناوبة نشط {1} لبعض/كل هذه التواريخ."
 
@@ -12212,7 +11881,6 @@ msgid "Work References"
 msgstr "مراجع العمل"
 
 #: hrms/hr/doctype/daily_work_summary/daily_work_summary.py:100
-#, python-brace-format
 msgid "Work Summary for {0}"
 msgstr "ملخص العمل ل {0}"
 
@@ -12313,12 +11981,10 @@ msgid "You can not define multiple slabs if you have a slab with no lower and up
 msgstr "لا يمكنك تحديد شرائح متعددة إذا كان لديك شريحة بدون حدود دنيا وعليا."
 
 #: hrms/hr/doctype/shift_request/shift_request.py:82
-#, python-brace-format
 msgid "You can not request for your Default Shift: {0}"
 msgstr "لا يمكنك طلب التحول الافتراضي الخاص بك: {0}"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:95
-#, python-brace-format
 msgid ""
 "You can only plan for upto {0} vacancies and budget {1} for {2} as per staffing plan "
 "{3} for parent company {4}."
@@ -12335,7 +12001,6 @@ msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr "يمكنك فقط تحميل مستندات JPG أو PNG أو PDF أو TXT أو Microsoft."
 
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.py:48
-#, python-brace-format
 msgid ""
 "You cannot reverse more than the total LWP days {0}. You have already reversed {1} "
 "days for this employee."
@@ -12377,19 +12042,16 @@ msgid "You may add additional details, if any, and submit the offer."
 msgstr "يمكنك إضافة تفاصيل إضافية، إن وجدت، وتقديم العرض."
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:128
-#, python-brace-format
 msgid "You must be within {0} meters of your shift location to check in."
 msgstr "يجب أن تكون على بعد {0} متر من موقع مناوبتك لتسجيل الحضور."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:52
-#, python-brace-format
 msgid ""
 "You were only present for Half Day on {}. Cannot apply for a full day compensatory "
 "leave"
 msgstr "لقد كنت حاضراً فقط لنصف يوم في {}. لا يمكن تقديم طلب إجازة تعويضية ليوم كامل"
 
 #: hrms/hr/doctype/interview/interview.py:133
-#, python-brace-format
 msgid "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr "تمت إعادة جدولة جلسة المقابلة الخاصة بك من {0} {1} - {2} إلى {3} {4} - {5}"
 
@@ -12443,7 +12105,6 @@ msgid "modify_half_day_status"
 msgstr "modify_half_day_status"
 
 #: hrms/hr/doctype/department_approver/department_approver.py:89
-#, python-brace-format
 msgid "or for the Employee's Department: {0}"
 msgstr "أو لقسم الموظف: {0}"
 
@@ -12485,141 +12146,114 @@ msgstr "سنوات"
 
 #: hrms/controllers/employee_reminders.py:120 hrms/controllers/employee_reminders.py:254
 #: hrms/controllers/employee_reminders.py:260
-#, python-brace-format
 msgid "{0} & {1}"
 msgstr "{0} و {1}"
 
 #: frontend/src/components/ExpenseClaimItem.vue:83
-#, python-brace-format
 msgid "{0} & {1} more"
 msgstr "{0} و {1} إضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:487
-#, python-brace-format
 msgid "{0} : {1}"
 msgstr "{0} : {1}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2545
-#, python-brace-format
 msgid "{0} <br> This error can be due to missing or deleted field."
 msgstr "{0} <br> قد يكون هذا الخطأ بسبب حقل مفقود أو محذوف."
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:155
-#, python-brace-format
 msgid "{0} Appraisal(s) are not submitted yet"
 msgstr "{0} تقييم (تقييمات) لم يتم تقديمه بعد"
 
 #: hrms/public/js/utils/index.js:231
-#, python-brace-format
 msgid "{0} Field"
 msgstr "حقل {0}"
 
 #: hrms/hr/doctype/department_approver/department_approver.py:92
-#, python-brace-format
 msgid "{0} Missing"
 msgstr "{0} مفقود"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:45
-#, python-brace-format
 msgid "{0} Row #{1}: Formula is set but {2} is disabled for the Salary Component {3}."
 msgstr "الصف {0} #{1}: تم تعيين الصيغة ولكن {2} معطل لمكون الراتب {3}."
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:319
-#, python-brace-format
 msgid "{0} Row #{1}: {2} needs to be enabled for the formula to be considered."
 msgstr "الصف {0} #{1}: يجب تمكين {2} حتى يتم أخذ الصيغة في الاعتبار."
 
 #: frontend/src/views/Notifications.vue:27
-#, python-brace-format
 msgid "{0} Unread"
 msgstr "{0} غير مقروء"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:203
-#, python-brace-format
 msgid "{0} already allocated for Employee {1} for period {2} to {3}"
 msgstr "{0} تم تخصيصه بالفعل للموظف {1} للفترة {2} إلى {3}"
 
 #: hrms/hr/utils.py:271
-#, python-brace-format
 msgid "{0} already exists for employee {1} and period {2}"
 msgstr "{0} موجود بالفعل للموظف {1} والمدة {2}"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:99
-#, python-brace-format
 msgid "{0} already has an active Shift Assignment {1} for some/all of these dates."
 msgstr "{0} لديه بالفعل تعيين مناوبة نشط {1} لبعض/كل هذه التواريخ."
 
 #: hrms/hr/doctype/leave_application/leave_application.py:162
-#, python-brace-format
 msgid "{0} applicable after {1} calendar days"
 msgstr "{0} ينطبق بعد {1} يومًا تقويميًا"
 
 #: frontend/src/components/LeaveBalance.vue:37
-#, python-brace-format
 msgctxt "Leave Type"
 msgid "{0} balance"
 msgstr "رصيد {0}"
 
 #: hrms/controllers/employee_reminders.py:253
-#, python-brace-format
 msgid "{0} completed {1} {2}"
 msgstr "أكمل {0} {1} {2}"
 
 #: frontend/src/components/FormView.vue:528
-#, python-brace-format
 msgid "{0} created successfully!"
 msgstr "تم إنشاء {0} بنجاح!"
 
 #: frontend/src/components/FormView.vue:582
-#, python-brace-format
 msgid "{0} deleted successfully!"
 msgstr "تم حذف {0} بنجاح!"
 
 #: frontend/src/components/CheckInPanel.vue:183
 #: frontend/src/components/RequestActionSheet.vue:298
-#, python-brace-format
 msgid "{0} failed!"
 msgstr "فشل {0}!"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:209
-#, python-brace-format
 msgid "{0} has {1} enabled"
 msgstr "{0} لديه {1} ممكّن"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:221
-#, python-brace-format
 msgid ""
 "{0} is an Accrual Component and this will be recorded as a payout in Employee "
 "Benefits Ledger"
 msgstr "{0} هو مكوّن استحقاق وسيُسجَّل كصرف في دفتر مزايا الموظف"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:228
-#, python-brace-format
 msgid "{0} is an invalid Attendance Status."
 msgstr "{0} حالة حضور غير صالحة."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:69
-#, python-brace-format
 msgid "{0} is not a holiday."
 msgstr "{0} ليس يوم عطلة."
 
 #: hrms/hr/doctype/interview_feedback/interview_feedback.py:50
-#, python-brace-format
 msgid "{0} is not allowed to submit Interview Feedback for the Interview: {1}"
 msgstr "غير مسموح لـ {0} بتقديم ملاحظات المقابلة للمقابلة: {1}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:641
-#, python-brace-format
 msgid "{0} is not in Optional Holiday List"
 msgstr "{0} ليس في قائمة عطلات اختيارية"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:361
-#, python-brace-format
 msgid "{0} leaves allocated successfully"
 msgstr "تم تخصيص {0} إجازات بنجاح"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:569
-#, python-brace-format
 msgid ""
 "{0} leaves from allocation for {1} leave type have expired and will be processed "
 "during the next scheduled job. It is recommended to expire them now before creating "
@@ -12629,43 +12263,35 @@ msgstr ""
 "المجدولة التالية. يوصى بإنهاء صلاحيتها الآن قبل إنشاء تعيينات سياسة إجازة جديدة."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:356
-#, python-brace-format
 msgid "{0} leaves were manually allocated by {1} on {2}"
 msgstr "تم تخصيص {0} إجازات يدويًا بواسطة {1} في {2}"
 
 #: hrms/hr/doctype/training_feedback/training_feedback.py:14
 #: hrms/hr/doctype/training_result/training_result.py:16
-#, python-brace-format
 msgid "{0} must be submitted"
 msgstr "{0} يجب تسليمها"
 
 #: hrms/hr/doctype/goal/goal.py:196
-#, python-brace-format
 msgid "{0} of {1} Completed"
 msgstr "اكتمل {0} من {1}"
 
 #: frontend/src/components/CheckInPanel.vue:171
-#, python-brace-format
 msgid "{0} successful!"
 msgstr "نجح {0}!"
 
 #: frontend/src/components/RequestActionSheet.vue:288
-#, python-brace-format
 msgid "{0} successfully!"
 msgstr "تم {0} بنجاح!"
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:261
-#, python-brace-format
 msgid "{0} to {1} employee(s)?"
 msgstr "{0} إلى {1} موظف (موظفين)؟"
 
 #: frontend/src/components/FormView.vue:560
-#, python-brace-format
 msgid "{0} updated successfully!"
 msgstr "تم تحديث {0} بنجاح!"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:129
-#, python-brace-format
 msgid ""
 "{0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}."
 " You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6}"
@@ -12676,27 +12302,22 @@ msgstr ""
 "للشركة الأم {3}."
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:130
-#, python-brace-format
 msgid "{0} will be updated for the following Salary Structures: {1}."
 msgstr "سيتم تحديث {0} لهياكل الرواتب التالية: {1}."
 
 #: hrms/hr/doctype/goal/goal_list.js:70
-#, python-brace-format
 msgid "{0} {1} {2}?"
 msgstr "{0} {1} {2}؟"
 
 #: hrms/hr/utils.py:470
-#, python-brace-format
 msgid "{0}. Check error log for more details."
 msgstr "{0}. راجع سجل الأخطاء لمزيد من التفاصيل."
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2205
-#, python-brace-format
 msgid "{0}: Employee email not found, hence email not sent"
 msgstr "{0}: البريد الإلكتروني للموظف غير موجود، وبالتالي لن يتم إرسال البريد الإلكتروني"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:71
-#, python-brace-format
 msgid "{0}: From {0} of type {1}"
 msgstr "{0}: من {0} من نوع {1}"
 
@@ -12704,12 +12325,10 @@ msgstr "{0}: من {0} من نوع {1}"
 #: frontend/src/components/LeaveRequestItem.vue:16
 #: frontend/src/components/ShiftAssignmentItem.vue:12
 #: frontend/src/components/ShiftRequestItem.vue:17
-#, python-brace-format
 msgid "{0}d"
 msgstr "{0} يوم"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.js:22
-#, python-brace-format
 msgid "{} {} open for this position."
 msgstr "{} {} مفتوح لهذا المنصب."
 

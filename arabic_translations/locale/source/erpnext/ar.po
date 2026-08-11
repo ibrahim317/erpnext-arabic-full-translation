@@ -9,11 +9,11 @@ msgstr ""
 "Language: ar_SA\n"
 "Language-Team: Arabic\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && "
-"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -8888,7 +8888,7 @@ msgstr "Backflush المواد الخام من العقد من الباطن"
 #: erpnext/accounts/report/sales_register/sales_register.py:277
 #: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.py:71
 msgid "Balance"
-msgstr "الموازنة"
+msgstr "الرصيد"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:40
 msgid "Balance (Dr - Cr)"
@@ -8903,13 +8903,13 @@ msgstr "الرصيد ({0})"
 #. 'Exchange Rate Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "Balance In Account Currency"
-msgstr "التوازن في حساب العملة"
+msgstr "الرصيد بعملة الحساب"
 
 #. Label of the balance_in_base_currency (Currency) field in DocType 'Exchange
 #. Rate Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "Balance In Base Currency"
-msgstr "التوازن في العملة الأساسية"
+msgstr "الرصيد بالعملة الأساسية"
 
 #: erpnext/stock/report/available_batch_report/available_batch_report.py:62
 #: erpnext/stock/report/available_serial_no/available_serial_no.py:126
@@ -14670,7 +14670,7 @@ msgstr "دائن (معاملة)"
 #: erpnext/accounts/report/general_ledger/general_ledger.py:697
 #, python-brace-format
 msgid "Credit ({0})"
-msgstr "الائتمان ({0})"
+msgstr "دائن ({0})"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:641
 msgid "Credit Account"
@@ -14709,7 +14709,7 @@ msgstr "المبلغ الدائن بعملة المعاملة"
 
 #: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:67
 msgid "Credit Balance"
-msgstr "رصيد الإئتمان"
+msgstr "رصيد دائن"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:258
 msgid "Credit Card"
@@ -14731,7 +14731,7 @@ msgstr "إدخال بطاقة إئتمان"
 #: erpnext/accounts/doctype/payment_term/payment_term.json
 #: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
 msgid "Credit Days"
-msgstr "الائتمان أيام"
+msgstr "أيام الائتمان"
 
 #. Label of the credit_limits (Table) field in DocType 'Customer'
 #. Label of the credit_limit (Currency) field in DocType 'Customer Credit
@@ -14808,7 +14808,7 @@ msgstr "إشعار دائن"
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:203
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:162
 msgid "Credit Note Amount"
-msgstr "ملاحظة الائتمان المبلغ"
+msgstr "مبلغ إشعار دائن"
 
 #. Option for the 'Status' (Select) field in DocType 'POS Invoice'
 #. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
@@ -14816,7 +14816,7 @@ msgstr "ملاحظة الائتمان المبلغ"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:275
 msgid "Credit Note Issued"
-msgstr "الائتمان مذكرة صادرة"
+msgstr "تم إصدار إشعار دائن"
 
 #. Description of the 'Update Outstanding for Self' (Check) field in DocType
 #. 'Sales Invoice'
@@ -14842,7 +14842,7 @@ msgstr "دائن الى"
 #. Label of the credit (Currency) field in DocType 'Journal Entry Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Credit in Company Currency"
-msgstr "المدين في عملة الشركة"
+msgstr "الدائن بعملة الشركة"
 
 #: erpnext/selling/doctype/customer/customer.py:596
 #: erpnext/selling/doctype/customer/customer.py:651
@@ -16259,7 +16259,7 @@ msgstr "مبلغ إشعار المدين"
 #. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Debit Note Issued"
-msgstr "تم اصدار إشعار الخصم"
+msgstr "تم إصدار إشعار مدين"
 
 #. Description of the 'Update Outstanding for Self' (Check) field in DocType
 #. 'Purchase Invoice'
@@ -16277,11 +16277,11 @@ msgstr "سيقوم إشعار المدين بتحديث مبلغه المستح�
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1024
 #: erpnext/controllers/accounts_controller.py:2360
 msgid "Debit To"
-msgstr "الخصم ل"
+msgstr "مدين إلى"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1009
 msgid "Debit To is required"
-msgstr "مدين الى مطلوب"
+msgstr "حقل مدين إلى مطلوب"
 
 #: erpnext/accounts/general_ledger.py:534
 #, python-brace-format
@@ -16291,12 +16291,12 @@ msgstr "المدين و الدائن غير متساوي ل {0} # {1}. الفر�
 #. Label of the debit (Currency) field in DocType 'Journal Entry Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Debit in Company Currency"
-msgstr "الخصم في الشركة العملات"
+msgstr "المدين بعملة الشركة"
 
 #. Label of the debit_to (Link) field in DocType 'Discounted Invoice'
 #: erpnext/accounts/doctype/discounted_invoice/discounted_invoice.json
 msgid "Debit to"
-msgstr "الخصم إلى"
+msgstr "مدين إلى"
 
 #. Label of the debit_credit_mismatch (Check) field in DocType 'Ledger Health
 #. Monitor'
@@ -33076,13 +33076,13 @@ msgstr "الافتتاح والإغلاق"
 #: erpnext/accounts/report/trial_balance/trial_balance.py:508
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:198
 msgid "Opening (Cr)"
-msgstr "افتتاحي (Cr)"
+msgstr "افتتاحي (دائن)"
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:430
 #: erpnext/accounts/report/trial_balance/trial_balance.py:501
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:191
 msgid "Opening (Dr)"
-msgstr "افتتاحي  (Dr)"
+msgstr "افتتاحي (مدين)"
 
 #. Label of the opening_accumulated_depreciation (Currency) field in DocType
 #. 'Asset'
@@ -54835,12 +54835,12 @@ msgstr "تور"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Total (Company Currency)"
-msgstr "مجموع (شركة العملات)"
+msgstr "الإجمالي (بعملة الشركة)"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:126
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:127
 msgid "Total (Credit)"
-msgstr "الإجمالي (الائتمان)"
+msgstr "الإجمالي (دائن)"
 
 #: erpnext/templates/print_formats/includes/total.html:4
 msgid "Total (Without Tax)"
@@ -54909,7 +54909,7 @@ msgstr "إجمالي التخصيصات"
 #: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:66
 #: erpnext/templates/includes/order/order_taxes.html:54
 msgid "Total Amount"
-msgstr "الاعتماد الأساسي"
+msgstr "إجمالي المبلغ"
 
 #. Label of the total_amount_currency (Link) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
@@ -55058,7 +55058,7 @@ msgstr "إجمالي مبلغ التكلفة (عبر الجداول الزمني
 #. Label of the total_credit (Currency) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Total Credit"
-msgstr "إجمالي الائتمان"
+msgstr "إجمالي الدائن"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:336
 msgid "Total Credit/ Debit Amount should be same as linked Journal Entry"
@@ -55067,7 +55067,7 @@ msgstr "يجب أن يكون إجمالي مبلغ الائتمان / المدي
 #. Label of the total_debit (Currency) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Total Debit"
-msgstr "مجموع الخصم"
+msgstr "إجمالي المدين"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:927
 #, python-brace-format
@@ -55497,7 +55497,7 @@ msgstr "إجمالي الوقت بالدقائق"
 #: erpnext/public/js/utils.js:102
 #, python-brace-format
 msgid "Total Unpaid: {0}"
-msgstr "عدد غير مدفوع: {0}"
+msgstr "إجمالي غير المدفوع: {0}"
 
 #. Label of the total_value (Currency) field in DocType 'Asset Capitalization'
 #. Label of the total_value (Currency) field in DocType 'Asset Repair Consumed
@@ -55642,7 +55642,7 @@ msgstr "إجمالي (الكمية)"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Totals (Company Currency)"
-msgstr "الإجماليات (عملة الشركة)"
+msgstr "المجاميع (بعملة الشركة)"
 
 #: erpnext/stock/doctype/item/item_dashboard.py:33
 msgid "Traceability"

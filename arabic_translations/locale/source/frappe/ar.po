@@ -9,11 +9,11 @@ msgstr ""
 "Language: ar_SA\n"
 "Language-Team: Arabic\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && "
-"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: frappe/public/js/frappe/ui/page.html:49
 msgid " You are impersonating as another user."
@@ -21054,7 +21054,7 @@ msgstr "لا شيء للتحديث"
 #: frappe/email/doctype/notification/notification.json
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
 msgid "Notification"
-msgstr "إعلام"
+msgstr "الإشعار"
 
 #. Name of a DocType
 #: frappe/desk/doctype/notification_log/notification_log.json
@@ -21103,7 +21103,7 @@ msgstr "إشعار: المستخدم {0} ليس لديه رقم هاتف محم�
 #: frappe/public/js/frappe/ui/notifications/notifications.js:50
 #: frappe/public/js/frappe/ui/notifications/notifications.js:187
 msgid "Notifications"
-msgstr "إخطارات"
+msgstr "الإشعارات"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:299
 msgid "Notifications Disabled"
@@ -31071,7 +31071,7 @@ msgstr "موضوع"
 #: frappe/public/js/frappe/views/reports/query_report.js:1320
 #: frappe/public/js/frappe/views/reports/report_view.js:1545
 msgid "Total"
-msgstr "الاجمالي غير شامل الضريبة"
+msgstr "الإجمالي"
 
 #. Label of the total_background_workers (Int) field in DocType 'System Health
 #. Report'
@@ -31130,7 +31130,7 @@ msgstr "إجمالي عدد الرسائل الإلكترونية المراد �
 
 #: frappe/public/js/print_format_builder/ConfigureColumns.vue:12
 msgid "Total:"
-msgstr "الاجمالي غير شامل الضريبة:"
+msgstr "الإجمالي:"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1250
 msgid "Totals"
