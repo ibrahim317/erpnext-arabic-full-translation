@@ -89,6 +89,18 @@ GLOSSARY = [
 	(r"\bVoucher\b",         r"القسيمة",               "السند"),
 	(r"\bVoucher\b",         r"قسيمة",                 "سند"),
 
+	# -- Bulk (a batched operation) unified on مجمع --------------------------
+	# was split four ways: مجمع, بالجملة (wholesale), السائبة (stray/loose), جماعي
+	(r"\bbulk\b",            r"السائبة",               "المجمعة"),
+	(r"\bbulk\b",            r"بالجملة",               "مجمع"),
+	(r"\bbulk\b",            r"الجماعية",              "المجمعة"),
+	(r"\bbulk\b",            r"الجماعي",               "المجمع"),
+	(r"\bbulk\b",            r"جماعي",                 "مجمع"),
+
+	# -- Billed hours are المفوترة, not "hours of the invoices" --------------
+	(r"\bBilled Hours\b",    r"ساعات الفواتير",        "الساعات المفوترة"),
+	(r"\bBilled Hours\b",    r"ساعات فواتير",          "الساعات المفوترة"),
+
 	# -- Driver is the person, not a device driver ---------------------------
 	(r"\bDriver\b",          r"برنامج التشغيل",        "السائق"),
 
@@ -165,6 +177,9 @@ EXACT = {
 		"To and CC": "إلى ونسخة",
 		# miscellaneous
 		"Alert": "تنبيه",
+		"Allow Bulk Edit": "السماح بالتعديل المجمع",
+		"Notifications and bulk mails will be sent from this outgoing server.":
+			"سيتم إرسال الإشعارات والرسائل المجمعة من هذا الخادم الصادر.",
 		"Accounts User": "مستخدم الحسابات",       # role name; was reversed genitive
 		"Allowed In Mentions": "مسموح به في الإشارات",   # @-mentions, not memos
 		"Both DocType and Name required": "نوع المستند والاسم كلاهما مطلوبان",
@@ -406,6 +421,17 @@ EXACT = {
 
 		# banking / accounting terms of art
 		# Term here is a contract condition (شرط), not a vocabulary term
+		"Appointment Booking Slots": "فترات حجز المواعيد",   # Slots, not شقوق (crevices)
+		"BOM Explosion Item": "صنف تفكيك قائمة المواد",      # was 'المفصص'
+		"Import in Bulk": "استيراد مجمع",
+		"Total Billed Hours": "إجمالي الساعات المفوترة",     # was 'مجموع الساعات وصفت'
+		"Academics User": "المستخدمون الأكاديميون",
+		"Account {0} does not belong to company: {1}": "الحساب {0} لا ينتمي للشركة {1}",
+		"Account {0}: Parent account {1} does not exist": "الحساب {0}: الحساب الأب {1} غير موجود",
+		"Enable Cut-Off Date on Bulk Delivery Note Creation":
+			"تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة",
+		"Enable cut-off date on creating bulk Delivery Notes":
+			"تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة",
 		"Call Missed": "مكالمة فائتة",            # a phone call, not an invitation
 		"Amount In Figure": "المبلغ بالأرقام",
 		"Asset Owner Company": "الشركة المالكة للأصل",   # was transliterated 'أسيت أونر'
@@ -567,6 +593,16 @@ EXACT = {
 		"Action": "إجراء",
 		"Action on Submission": "الإجراء عند الترحيل",
 		"Add Day-wise Dates": "إضافة تواريخ حسب اليوم",   # day-wise, not "daytime"
+		"Bulk Assignments": "التعيينات المجمعة",
+		"Bulk Leave Policy Assignment": "التعيين المجمع لسياسة الإجازات",
+		"Bulk Salary Structure Assignment": "التعيين المجمع لهيكل الرواتب",
+		"Billed Hours": "الساعات المفوترة",
+		# B / NB / T are the codes used in the "% Utilization (B + NB) / T" formula,
+		# so they stay Latin here rather than being half-transliterated to (ب)
+		"Billed Hours (B)": "الساعات المفوترة (B)",
+		"Total Billed Hours": "إجمالي الساعات المفوترة",
+		"Amount based on formula": "المبلغ بناءً على الصيغة",
+		"Account {0} does not belong to company: {1}": "الحساب {0} لا ينتمي للشركة {1}",
 		"Allow Over Allocation": "السماح بالتخصيص الزائد",
 		"Allow User": "السماح للمستخدم",
 		"AttendanceRequestListView": "قائمة عرض طلبات الحضور",
@@ -791,6 +827,8 @@ SPELLING = {
 	"الفلتره": "الفلترة",
 	"ان": "أن", "الا": "إلا", "اي": "أي", "امر": "أمر", "اصل": "أصل",
 	"ارباح": "أرباح", "اخر": "آخر", "األسهم": "الأسهم", "العمرعلى": "العمر على",
+	"يتنمى": "ينتمي", "الحسابه": "الحساب", "بناءا": "بناءً",
+	"بناءاً": "بناءً", "بالجمله": "بالجملة", "بالجمله،": "بالجملة،",
 	"لايمكن": "لا يمكن",
 	"أسم": "اسم",
 	"الي": "إلى",

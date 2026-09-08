@@ -461,7 +461,7 @@ msgstr ""
 #: hrms/overrides/company.py:124
 #, python-brace-format
 msgid "Account {0} does not belong to company: {1}"
-msgstr "الحساب {0} لا يتنمى للشركة {1}"
+msgstr "الحساب {0} لا ينتمي للشركة {1}"
 
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.py:29
 #, python-brace-format
@@ -1123,7 +1123,7 @@ msgstr "المبلغ على أساس الصيغة"
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:108
 msgid "Amount based on formula"
-msgstr "القيمة بناءا على الصيغة"
+msgstr "المبلغ بناءً على الصيغة"
 
 #. Description of the 'Claimed Amount' (Currency) field in DocType 'Employee
 #. Advance'
@@ -1975,11 +1975,11 @@ msgstr "مبلغ فاتورة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:249
 msgid "Billed Hours"
-msgstr "ساعات فواتير"
+msgstr "الساعات المفوترة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:68
 msgid "Billed Hours (B)"
-msgstr "ساعات الفواتير (ب)"
+msgstr "الساعات المفوترة (B)"
 
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Payroll
 #. Entry'
@@ -2089,11 +2089,11 @@ msgstr "الفرع: {0}"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:131
 msgid "Bulk Assignments"
-msgstr "المهام السائبة"
+msgstr "التعيينات المجمعة"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment_list.js:3
 msgid "Bulk Leave Policy Assignment"
-msgstr "تعيين سياسة الإجازة السائبة"
+msgstr "التعيين المجمع لسياسة الإجازات"
 
 #. Name of a DocType
 #. Label of a Link in the Salary Payout Workspace
@@ -2101,7 +2101,7 @@ msgstr "تعيين سياسة الإجازة السائبة"
 #: hrms/payroll/doctype/salary_structure/salary_structure_list.js:3
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Bulk Salary Structure Assignment"
-msgstr "تعيين هيكل الرواتب بالجملة"
+msgstr "التعيين المجمع لهيكل الرواتب"
 
 #. Description of the 'Calculate Final Score based on Formula' (Check) field
 #. in
@@ -13828,7 +13828,7 @@ msgstr "إجمالي تكلفة استرداد الأصول"
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:227
 #: hrms/hr/report/project_profitability/project_profitability.py:197
 msgid "Total Billed Hours"
-msgstr "مجموع الساعات وصفت"
+msgstr "إجمالي الساعات المفوترة"
 
 #. Label of the total_claimed_amount (Currency) field in DocType 'Expense
 #. Claim'
@@ -15681,15 +15681,15 @@ msgstr "حالة الالتحاق"
 msgid ""
 "Bulk attendance marking is already in progress for employee {0}. You can monitor the "
 "job status {1}"
-msgstr "تسجيل الحضور الجماعي قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
+msgstr "تسجيل الحضور المجمع قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
 
 #, python-brace-format
 msgid ""
 "Bulk attendance marking is queued with a background job. It may take a while. You can"
 " monitor the job status {0}"
 msgstr ""
-"تم وضع تسجيل الحضور الجماعي في قائمة الانتظار كمهمة خلفية. قد يستغرق بعض الوقت. يمكنك"
-" متابعة حالة المهمة {0}"
+"تم وضع تسجيل الحضور المجمع في قائمة الانتظار كمهمة خلفية. قد يستغرق بعض الوقت. يمكنك "
+"متابعة حالة المهمة {0}"
 
 msgid "CTC Missing for Employee"
 msgstr "التكلفة الإجمالية على الشركة غير محددة للموظف"

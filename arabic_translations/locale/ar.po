@@ -3107,7 +3107,7 @@ msgstr "الحساب {0} لا ينتمي إلى الشركة {1}"
 
 #. source: erpnext
 msgid "Account {0} does not belong to company: {1}"
-msgstr "الحساب {0} لا يتنمى للشركة {1}"
+msgstr "الحساب {0} لا ينتمي للشركة {1}"
 
 #. source: erpnext
 msgid "Account {0} does not exist"
@@ -3167,7 +3167,7 @@ msgstr "الحساب {0}: الحساب الرئيسي {1} لا ينتمي إلى
 
 #. source: erpnext
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "الحساب {0}: الحسابه الأب {1} غير موجود"
+msgstr "الحساب {0}: الحساب الأب {1} غير موجود"
 
 #. source: erpnext
 msgid "Account {0}: You can not assign itself as parent account"
@@ -5556,7 +5556,7 @@ msgstr "السماح للتكرار التلقائي"
 
 #. source: frappe
 msgid "Allow Bulk Edit"
-msgstr "السماح بتحرير الكل"
+msgstr "السماح بالتعديل المجمع"
 
 #. source: frappe
 msgid "Allow Bulk Editing"
@@ -6544,7 +6544,7 @@ msgstr "المبلغ بالأرقام"
 
 #. source: hrms
 msgid "Amount based on formula"
-msgstr "القيمة بناءا على الصيغة"
+msgstr "المبلغ بناءً على الصيغة"
 
 #. source: hrms
 msgid "Amount claimed via Expense Claim"
@@ -7354,7 +7354,7 @@ msgstr "إعدادات حجز المواعيد"
 
 #. source: erpnext
 msgid "Appointment Booking Slots"
-msgstr "حجز موعد الشقوق"
+msgstr "فترات حجز المواعيد"
 
 #. source: erpnext
 msgid "Appointment Confirmation"
@@ -9810,7 +9810,7 @@ msgstr "مستكشف قائمة المواد"
 
 #. source: erpnext
 msgid "BOM Explosion Item"
-msgstr "قائمة المواد للصنف المفصص"
+msgstr "صنف تفكيك قائمة المواد"
 
 #. source: erpnext
 msgid "BOM ID"
@@ -11021,11 +11021,11 @@ msgstr "المبلغ المفوتر"
 
 #. source: hrms
 msgid "Billed Hours"
-msgstr "ساعات فواتير"
+msgstr "الساعات المفوترة"
 
 #. source: hrms
 msgid "Billed Hours (B)"
-msgstr "ساعات الفواتير (ب)"
+msgstr "الساعات المفوترة (B)"
 
 #. source: erpnext
 msgid "Billed Items To Be Received"
@@ -11805,15 +11805,15 @@ msgstr "إجراءات مجمعة"
 
 #. source: hrms
 msgid "Bulk Assignments"
-msgstr "المهام السائبة"
+msgstr "التعيينات المجمعة"
 
 #. source: erpnext
 msgid "Bulk Bank Entry"
-msgstr "قيد بنكي جماعي"
+msgstr "قيد بنكي مجمع"
 
 #. source: frappe
 msgid "Bulk Delete"
-msgstr "حذف بالجملة"
+msgstr "حذف مجمع"
 
 #. source: frappe
 msgid "Bulk Edit"
@@ -11821,11 +11821,11 @@ msgstr "تعديل مجمع"
 
 #. source: frappe
 msgid "Bulk Edit {0}"
-msgstr "تعديل بالجمله {0}"
+msgstr "تعديل مجمع {0}"
 
 #. source: hrms
 msgid "Bulk Leave Policy Assignment"
-msgstr "تعيين سياسة الإجازة السائبة"
+msgstr "التعيين المجمع لسياسة الإجازات"
 
 #. source: frappe
 msgid "Bulk Operation Failed"
@@ -11841,7 +11841,7 @@ msgstr "تصدير PDF مجمع"
 
 #. source: erpnext
 msgid "Bulk Payment"
-msgstr "دفع جماعي"
+msgstr "دفع مجمع"
 
 #. source: erpnext
 msgid "Bulk Rename Jobs"
@@ -11849,7 +11849,7 @@ msgstr "مهام إعادة التسمية المجمعة"
 
 #. source: hrms
 msgid "Bulk Salary Structure Assignment"
-msgstr "تعيين هيكل الرواتب بالجملة"
+msgstr "التعيين المجمع لهيكل الرواتب"
 
 #. source: erpnext
 msgid "Bulk Transaction Log"
@@ -11861,11 +11861,11 @@ msgstr "تفاصيل سجل المعاملات المجمعة"
 
 #. source: erpnext
 msgid "Bulk Transfer"
-msgstr "تحويل جماعي"
+msgstr "تحويل مجمع"
 
 #. source: frappe
 msgid "Bulk Update"
-msgstr "تحديث بالجمله"
+msgstr "تحديث مجمع"
 
 #. source: frappe
 msgid "Bulk approval only support up to 500 documents."
@@ -11875,15 +11875,15 @@ msgstr "الموافقة المجمعة تدعم فقط ما يصل إلى 500 �
 msgid ""
 "Bulk attendance marking is already in progress for employee {0}. You can monitor the "
 "job status {1}"
-msgstr "تسجيل الحضور الجماعي قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
+msgstr "تسجيل الحضور المجمع قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
 
 #. source: hrms
 msgid ""
 "Bulk attendance marking is queued with a background job. It may take a while. You can"
 " monitor the job status {0}"
 msgstr ""
-"تم وضع تسجيل الحضور الجماعي في قائمة الانتظار كمهمة خلفية. قد يستغرق بعض الوقت. يمكنك"
-" متابعة حالة المهمة {0}"
+"تم وضع تسجيل الحضور المجمع في قائمة الانتظار كمهمة خلفية. قد يستغرق بعض الوقت. يمكنك "
+"متابعة حالة المهمة {0}"
 
 #. source: frappe
 msgid "Bulk operation is enqueued in background."
@@ -24136,7 +24136,7 @@ msgstr "تمكين المحاسبة المشتركة للطرف"
 
 #. source: erpnext
 msgid "Enable Cut-Off Date on Bulk Delivery Note Creation"
-msgstr "تمكين تاريخ القطع عند إنشاء إذن تسليم مجمع"
+msgstr "تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة"
 
 #. source: erpnext
 msgid "Enable Deferred Expense"
@@ -24360,11 +24360,11 @@ msgstr "تفعيل المطابقة التلقائية للأطراف"
 
 #. source: frappe
 msgid "Enable bulk edit for child table fields in Form view."
-msgstr "تفعيل التعديل الجماعي لحقول الجداول الفرعية في عرض النموذج."
+msgstr "تفعيل التعديل المجمع لحقول الجداول الفرعية في عرض النموذج."
 
 #. source: frappe
 msgid "Enable bulk update of this field across child table rows."
-msgstr "تفعيل التحديث الجماعي لهذا الحقل عبر صفوف الجدول الفرعي."
+msgstr "تفعيل التحديث المجمع لهذا الحقل عبر صفوف الجدول الفرعي."
 
 #. source: erpnext
 msgid "Enable cost center, projects and other custom accounting dimensions"
@@ -24372,7 +24372,7 @@ msgstr "تفعيل مراكز التكلفة والمشاريع والأبعاد
 
 #. source: erpnext
 msgid "Enable cut-off date on creating bulk Delivery Notes"
-msgstr "تفعيل تاريخ القطع عند إنشاء إشعارات تسليم بالجملة"
+msgstr "تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة"
 
 #. source: frappe
 msgid "Enable developer mode to create a standard Print Template"
@@ -33082,7 +33082,7 @@ msgstr "استيراد من جداول بيانات Google"
 
 #. source: erpnext
 msgid "Import in Bulk"
-msgstr "استيراد بكميات كبيرة"
+msgstr "استيراد مجمع"
 
 #. source: frappe
 msgid "Import template should be of type .csv, .xlsx or .xls"
@@ -43839,7 +43839,7 @@ msgstr "لم يتم العثور على مستندات ذات علامة {0}"
 
 #. source: frappe
 msgid "No editable fields available for bulk edit."
-msgstr "لا توجد حقول قابلة للتعديل متاحة للتعديل الجماعي."
+msgstr "لا توجد حقول قابلة للتعديل متاحة للتعديل المجمع."
 
 #. source: frappe
 msgid ""
@@ -44944,7 +44944,7 @@ msgstr "الإشعارات معطلة"
 
 #. source: frappe
 msgid "Notifications and bulk mails will be sent from this outgoing server."
-msgstr "سيتم إرسال إخطارات ورسائل السائبة من هذا الخادم المنتهية ولايته."
+msgstr "سيتم إرسال الإشعارات والرسائل المجمعة من هذا الخادم الصادر."
 
 #. source: erpnext
 msgid "Notify Customers via Email"
@@ -69567,7 +69567,7 @@ msgstr ""
 
 #. source: frappe
 msgid "The Bulk Update could not happen due to <b>{0}</b>"
-msgstr "تعذّر التحديث الجماعي بسبب <b>{0}</b>"
+msgstr "تعذّر التحديث المجمع بسبب <b>{0}</b>"
 
 #. source: frappe
 msgid "The CSV format is case sensitive"
@@ -73035,7 +73035,7 @@ msgstr "إجمالي مبلغ الفاتورة (عبر فواتير المبيع
 
 #. source: erpnext
 msgid "Total Billed Hours"
-msgstr "مجموع الساعات وصفت"
+msgstr "إجمالي الساعات المفوترة"
 
 #. source: erpnext
 msgid "Total Billing Amount"
@@ -78481,9 +78481,9 @@ msgid ""
 "the specified cutoff date, which is useful for period-end processing and batch "
 "fulfillment."
 msgstr ""
-"عند التفعيل، يضيف عامل تصفية بتاريخ القطع إلى إشعارات التسليم المُنشأة بالجملة من "
-"أوامر البيع. يتيح لك ذلك معالجة الأوامر التي لا يتجاوز تاريخ معاملتها تاريخ القطع "
-"المحدد فقط، وهو مفيد لمعالجة نهاية الفترة والتنفيذ على دفعات."
+"عند التفعيل، يضيف عامل تصفية بتاريخ القطع إلى إشعارات التسليم المُنشأة مجمع من أوامر "
+"البيع. يتيح لك ذلك معالجة الأوامر التي لا يتجاوز تاريخ معاملتها تاريخ القطع المحدد "
+"فقط، وهو مفيد لمعالجة نهاية الفترة والتنفيذ على دفعات."
 
 #. source: erpnext
 msgid ""

@@ -866,7 +866,7 @@ msgstr "المبلغ على أساس الصيغة"
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:109
 msgid "Amount based on formula"
-msgstr "القيمة بناءا على الصيغة"
+msgstr "المبلغ بناءً على الصيغة"
 
 #. Description of the 'Claimed Amount' (Currency) field in DocType 'Employee
 #. Advance'
@@ -1727,11 +1727,11 @@ msgstr "مبلغ فاتورة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:251
 msgid "Billed Hours"
-msgstr "ساعات فواتير"
+msgstr "الساعات المفوترة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:68
 msgid "Billed Hours (B)"
-msgstr "ساعات الفواتير (ب)"
+msgstr "الساعات المفوترة (B)"
 
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Payroll Entry'
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Salary Slip'
@@ -1810,11 +1810,11 @@ msgstr "الفرع: {0}"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:131
 msgid "Bulk Assignments"
-msgstr "المهام السائبة"
+msgstr "التعيينات المجمعة"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment_list.js:3
 msgid "Bulk Leave Policy Assignment"
-msgstr "تعيين سياسة الإجازة السائبة"
+msgstr "التعيين المجمع لسياسة الإجازات"
 
 #. Name of a DocType
 #. Label of a Link in the Payroll Workspace
@@ -1822,21 +1822,21 @@ msgstr "تعيين سياسة الإجازة السائبة"
 #: hrms/payroll/doctype/salary_structure/salary_structure_list.js:3
 #: hrms/payroll/workspace/payroll/payroll.json
 msgid "Bulk Salary Structure Assignment"
-msgstr "تعيين هيكل الرواتب بالجملة"
+msgstr "التعيين المجمع لهيكل الرواتب"
 
 #: hrms/hr/doctype/attendance/attendance.py:366
 msgid ""
 "Bulk attendance marking is already in progress for employee {0}. You can monitor the "
 "job status {1}"
-msgstr "تسجيل الحضور الجماعي قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
+msgstr "تسجيل الحضور المجمع قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة حالة المهمة {1}"
 
 #: hrms/hr/doctype/attendance/attendance.py:362
 msgid ""
 "Bulk attendance marking is queued with a background job. It may take a while. You can"
 " monitor the job status {0}"
 msgstr ""
-"تم وضع تسجيل الحضور الجماعي في قائمة الانتظار كمهمة خلفية. قد يستغرق بعض الوقت. يمكنك"
-" متابعة حالة المهمة {0}"
+"تم وضع تسجيل الحضور المجمع في قائمة الانتظار كمهمة خلفية. قد يستغرق بعض الوقت. يمكنك "
+"متابعة حالة المهمة {0}"
 
 #. Description of the 'Calculate Final Score based on Formula' (Check) field in
 #. DocType 'Appraisal Cycle'

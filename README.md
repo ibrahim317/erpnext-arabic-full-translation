@@ -257,7 +257,22 @@ A third reviewer pass, and the classes behind it:
   like `اﻹجازة`. They render acceptably but are not letters — they break search,
   sorting, and string comparison.
 
-**1,290 entries corrected and 225 newly translated** in total. Every rule lives in
+A fourth pass:
+
+- **`Slots` was `الشقوق`** — crevices in a wall — in `Appointment Booking Slots`.
+- **`Bulk` was split four ways**: `مجمع`, `بالجملة` (wholesale), `السائبة`
+  (stray/loose, as in stray animals) and `جماعي`. `Bulk Assignments` read
+  `المهام السائبة`. All 30 entries now use `مجمع`, except "purchased in bulk"
+  where `بكميات كبيرة` is genuinely correct.
+- **`Billed Hours` was `ساعات الفواتير`** — the hours belonging to the invoices,
+  rather than the hours billed. `Total Billed Hours` was the word salad
+  `مجموع الساعات وصفت`.
+- **`BOM Explosion Item` was `الصنف المفصص`**, not an industrial term. Now
+  `صنف تفكيك قائمة المواد`.
+- Typos: `لا يتنمى` → `لا ينتمي` (transposed letters), `الحسابه الأب` →
+  `الحساب الأب`, `بناءا` → `بناءً` (tanwin belongs on the hamza).
+
+**1,319 entries corrected and 225 newly translated** in total. Every rule lives in
 `scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
 so the pass is reviewable as a rule table rather than as a raw PO diff, and
 reproduces byte-identically in a single run from a clean checkout — the overlay's

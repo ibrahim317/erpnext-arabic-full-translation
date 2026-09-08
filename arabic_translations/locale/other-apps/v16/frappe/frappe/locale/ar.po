@@ -2120,7 +2120,7 @@ msgstr "السماح للتكرار التلقائي"
 #: frappe/custom/doctype/customize_form/customize_form.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Allow Bulk Edit"
-msgstr "السماح بتحرير الكل"
+msgstr "السماح بالتعديل المجمع"
 
 #. Label of the allow_edit (Check) field in DocType 'List View Settings'
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
@@ -4301,7 +4301,7 @@ msgstr "إجراءات مجمعة"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:142
 msgid "Bulk Delete"
-msgstr "حذف بالجملة"
+msgstr "حذف مجمع"
 
 #: frappe/public/js/frappe/form/grid.js:1182
 #: frappe/public/js/frappe/list/bulk_operations.js:339
@@ -4310,7 +4310,7 @@ msgstr "تعديل مجمع"
 
 #: frappe/public/js/frappe/form/grid.js:1546
 msgid "Bulk Edit {0}"
-msgstr "تعديل بالجمله {0}"
+msgstr "تعديل مجمع {0}"
 
 #: frappe/desk/reportview.py:747
 msgid "Bulk Operation Failed"
@@ -4328,7 +4328,7 @@ msgstr "تصدير PDF مجمع"
 #. Label of a Workspace Sidebar Item
 #: frappe/desk/doctype/bulk_update/bulk_update.json frappe/workspace_sidebar/data.json
 msgid "Bulk Update"
-msgstr "تحديث بالجمله"
+msgstr "تحديث مجمع"
 
 #: frappe/model/workflow.py:331
 msgid "Bulk approval only support up to 500 documents."
@@ -10070,12 +10070,12 @@ msgstr "تمكين اثنين من عامل المصادقة"
 #. Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Enable bulk edit for child table fields in Form view."
-msgstr "تفعيل التعديل الجماعي لحقول الجداول الفرعية في عرض النموذج."
+msgstr "تفعيل التعديل المجمع لحقول الجداول الفرعية في عرض النموذج."
 
 #. Description of the 'Allow Bulk Edit' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Enable bulk update of this field across child table rows."
-msgstr "تفعيل التحديث الجماعي لهذا الحقل عبر صفوف الجدول الفرعي."
+msgstr "تفعيل التحديث المجمع لهذا الحقل عبر صفوف الجدول الفرعي."
 
 #: frappe/printing/doctype/print_format_field_template/print_format_field_template.py:28
 msgid "Enable developer mode to create a standard Print Template"
@@ -19042,7 +19042,7 @@ msgstr "لم يتم العثور على مستندات ذات علامة {0}"
 
 #: frappe/public/js/frappe/form/grid.js:1153
 msgid "No editable fields available for bulk edit."
-msgstr "لا توجد حقول قابلة للتعديل متاحة للتعديل الجماعي."
+msgstr "لا توجد حقول قابلة للتعديل متاحة للتعديل المجمع."
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:21
 msgid ""
@@ -19610,7 +19610,7 @@ msgstr "الإشعارات معطلة"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Notifications and bulk mails will be sent from this outgoing server."
-msgstr "سيتم إرسال إخطارات ورسائل السائبة من هذا الخادم المنتهية ولايته."
+msgstr "سيتم إرسال الإشعارات والرسائل المجمعة من هذا الخادم الصادر."
 
 #. Label of the notify_on_every_login (Check) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
@@ -28863,7 +28863,7 @@ msgstr "تم تعطيل التكرار التلقائي لهذا المستند.
 
 #: frappe/desk/doctype/bulk_update/bulk_update.py:43
 msgid "The Bulk Update could not happen due to <b>{0}</b>"
-msgstr "تعذّر التحديث الجماعي بسبب <b>{0}</b>"
+msgstr "تعذّر التحديث المجمع بسبب <b>{0}</b>"
 
 #: frappe/public/js/frappe/form/grid.js:1550
 msgid "The CSV format is case sensitive"

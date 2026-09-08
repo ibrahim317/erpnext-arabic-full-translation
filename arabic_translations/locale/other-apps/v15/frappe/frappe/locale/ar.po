@@ -2010,7 +2010,7 @@ msgstr "السماح للتكرار التلقائي"
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Allow Bulk Edit"
-msgstr "السماح بتحرير الكل"
+msgstr "السماح بالتعديل المجمع"
 
 #. Label of a Check field in DocType 'List View Settings'
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
@@ -4209,7 +4209,7 @@ msgstr "إجراءات مجمعة"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:142
 msgid "Bulk Delete"
-msgstr "حذف بالجملة"
+msgstr "حذف مجمع"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:333
 msgid "Bulk Edit"
@@ -4217,7 +4217,7 @@ msgstr "تعديل مجمع"
 
 #: frappe/public/js/frappe/form/grid.js:1216
 msgid "Bulk Edit {0}"
-msgstr "تعديل بالجمله {0}"
+msgstr "تعديل مجمع {0}"
 
 #: frappe/desk/reportview.py:618
 msgid "Bulk Operation Failed"
@@ -4236,7 +4236,7 @@ msgstr "تصدير PDF مجمع"
 #: frappe/automation/workspace/tools/tools.json
 #: frappe/desk/doctype/bulk_update/bulk_update.json
 msgid "Bulk Update"
-msgstr "تحديث بالجمله"
+msgstr "تحديث مجمع"
 
 #: frappe/model/workflow.py:253
 msgid "Bulk approval only support up to 500 documents."
@@ -18755,7 +18755,7 @@ msgstr "الإشعارات معطلة"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Notifications and bulk mails will be sent from this outgoing server."
-msgstr "سيتم إرسال إخطارات ورسائل السائبة من هذا الخادم المنتهية ولايته."
+msgstr "سيتم إرسال الإشعارات والرسائل المجمعة من هذا الخادم الصادر."
 
 #. Label of a Check field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
@@ -27630,7 +27630,7 @@ msgstr "تم تعطيل التكرار التلقائي لهذا المستند.
 
 #: frappe/desk/doctype/bulk_update/bulk_update.py:45
 msgid "The Bulk Update could not happen due to <b>{0}</b>"
-msgstr "تعذّر التحديث الجماعي بسبب <b>{0}</b>"
+msgstr "تعذّر التحديث المجمع بسبب <b>{0}</b>"
 
 #: frappe/public/js/frappe/form/grid.js:1220
 msgid "The CSV format is case sensitive"

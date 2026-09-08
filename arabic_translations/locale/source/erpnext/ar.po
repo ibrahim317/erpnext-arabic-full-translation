@@ -3484,7 +3484,7 @@ msgstr "الحساب {0} لا ينتمي إلى الشركة {1}"
 #: erpnext/setup/doctype/company/company.py:284
 #, python-brace-format
 msgid "Account {0} does not belong to company: {1}"
-msgstr "الحساب {0} لا يتنمى للشركة {1}"
+msgstr "الحساب {0} لا ينتمي للشركة {1}"
 
 #: erpnext/accounts/doctype/account/account.py:587
 #, python-brace-format
@@ -3554,7 +3554,7 @@ msgstr "الحساب {0}: الحساب الرئيسي {1} لا ينتمي إلى
 #: erpnext/accounts/doctype/account/account.py:146
 #, python-brace-format
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "الحساب {0}: الحسابه الأب {1} غير موجود"
+msgstr "الحساب {0}: الحساب الأب {1} غير موجود"
 
 #: erpnext/accounts/doctype/account/account.py:149
 #, python-brace-format
@@ -7029,7 +7029,7 @@ msgstr "إعدادات حجز المواعيد"
 #. Name of a DocType
 #: erpnext/crm/doctype/appointment_booking_slots/appointment_booking_slots.json
 msgid "Appointment Booking Slots"
-msgstr "حجز موعد الشقوق"
+msgstr "فترات حجز المواعيد"
 
 #: erpnext/crm/doctype/appointment/appointment.py:95
 msgid "Appointment Confirmation"
@@ -8579,7 +8579,7 @@ msgstr "مستكشف قائمة المواد"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 msgid "BOM Explosion Item"
-msgstr "قائمة المواد للصنف المفصص"
+msgstr "صنف تفكيك قائمة المواد"
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.js:20
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:101
@@ -19320,7 +19320,7 @@ msgstr "تمكين المحاسبة المشتركة للطرف"
 #. in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Enable Cut-Off Date on Bulk Delivery Note Creation"
-msgstr "تمكين تاريخ القطع عند إنشاء إذن تسليم مجمع"
+msgstr "تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة"
 
 #. Label of the enable_deferred_expense (Check) field in DocType 'Purchase
 #. Invoice Item'
@@ -24174,7 +24174,7 @@ msgstr "اكتمل الاستيراد. تم إنشاء {0} رمزًا مشترك
 
 #: erpnext/stock/doctype/item_price/item_price.js:29
 msgid "Import in Bulk"
-msgstr "استيراد بكميات كبيرة"
+msgstr "استيراد مجمع"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:192
 #, python-brace-format
@@ -54834,7 +54834,7 @@ msgstr "إجمالي مبلغ الفاتورة (عبر فواتير المبيع
 #. Label of the total_billed_hours (Float) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
 msgid "Total Billed Hours"
-msgstr "مجموع الساعات وصفت"
+msgstr "إجمالي الساعات المفوترة"
 
 #. Label of the total_billing_amount (Currency) field in DocType 'POS Invoice'
 #. Label of the total_billing_amount (Currency) field in DocType 'Sales
@@ -61155,13 +61155,13 @@ msgid "Budget cannot be assigned against {0}, as its Root Type is not of Income 
 msgstr "لا يمكن إسناد موازنة مقابل {0} لأن نوعه الجذري ليس إيرادًا أو مصروفًا"
 
 msgid "Bulk Bank Entry"
-msgstr "قيد بنكي جماعي"
+msgstr "قيد بنكي مجمع"
 
 msgid "Bulk Payment"
-msgstr "دفع جماعي"
+msgstr "دفع مجمع"
 
 msgid "Bulk Transfer"
-msgstr "تحويل جماعي"
+msgstr "تحويل مجمع"
 
 msgid "Buy & Sell"
 msgstr "شراء وبيع"
@@ -61837,7 +61837,7 @@ msgid "Enable automatic party matching"
 msgstr "تفعيل المطابقة التلقائية للأطراف"
 
 msgid "Enable cut-off date on creating bulk Delivery Notes"
-msgstr "تفعيل تاريخ القطع عند إنشاء إشعارات تسليم بالجملة"
+msgstr "تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة"
 
 msgid "Enable discount accounting for selling"
 msgstr "تفعيل محاسبة الخصم للبيع"
@@ -64701,9 +64701,9 @@ msgid ""
 "the specified cutoff date, which is useful for period-end processing and batch "
 "fulfillment."
 msgstr ""
-"عند التفعيل، يضيف عامل تصفية بتاريخ القطع إلى إشعارات التسليم المُنشأة بالجملة من "
-"أوامر البيع. يتيح لك ذلك معالجة الأوامر التي لا يتجاوز تاريخ معاملتها تاريخ القطع "
-"المحدد فقط، وهو مفيد لمعالجة نهاية الفترة والتنفيذ على دفعات."
+"عند التفعيل، يضيف عامل تصفية بتاريخ القطع إلى إشعارات التسليم المُنشأة مجمع من أوامر "
+"البيع. يتيح لك ذلك معالجة الأوامر التي لا يتجاوز تاريخ معاملتها تاريخ القطع المحدد "
+"فقط، وهو مفيد لمعالجة نهاية الفترة والتنفيذ على دفعات."
 
 msgid ""
 "When enabled, transactions with this supplier will be blocked based on the Hold Type "

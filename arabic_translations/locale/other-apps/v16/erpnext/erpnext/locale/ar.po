@@ -1952,7 +1952,7 @@ msgstr "الحساب {0} لا ينتمي إلى الشركة {1}"
 
 #: erpnext/setup/doctype/company/company.py:289
 msgid "Account {0} does not belong to company: {1}"
-msgstr "الحساب {0} لا يتنمى للشركة {1}"
+msgstr "الحساب {0} لا ينتمي للشركة {1}"
 
 #: erpnext/accounts/doctype/account/account.py:621
 msgid "Account {0} does not exist"
@@ -2008,7 +2008,7 @@ msgstr "الحساب {0}: الحساب الرئيسي {1} لا ينتمي إلى
 
 #: erpnext/accounts/doctype/account/account.py:147
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "الحساب {0}: الحسابه الأب {1} غير موجود"
+msgstr "الحساب {0}: الحساب الأب {1} غير موجود"
 
 #: erpnext/accounts/doctype/account/account.py:150
 msgid "Account {0}: You can not assign itself as parent account"
@@ -5770,7 +5770,7 @@ msgstr "إعدادات حجز المواعيد"
 #. Name of a DocType
 #: erpnext/crm/doctype/appointment_booking_slots/appointment_booking_slots.json
 msgid "Appointment Booking Slots"
-msgstr "حجز موعد الشقوق"
+msgstr "فترات حجز المواعيد"
 
 #: erpnext/crm/doctype/appointment/appointment.py:182
 msgid "Appointment Confirmation"
@@ -7426,7 +7426,7 @@ msgstr "مستكشف قائمة المواد"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 msgid "BOM Explosion Item"
-msgstr "قائمة المواد للصنف المفصص"
+msgstr "صنف تفكيك قائمة المواد"
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.js:20
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:101
@@ -9472,11 +9472,11 @@ msgstr "المباني"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:88
 msgid "Bulk Bank Entry"
-msgstr "قيد بنكي جماعي"
+msgstr "قيد بنكي مجمع"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:76
 msgid "Bulk Payment"
-msgstr "دفع جماعي"
+msgstr "دفع مجمع"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:71
 msgid "Bulk Rename Jobs"
@@ -9494,7 +9494,7 @@ msgstr "تفاصيل سجل المعاملات المجمعة"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:82
 msgid "Bulk Transfer"
-msgstr "تحويل جماعي"
+msgstr "تحويل مجمع"
 
 #. Label of the packed_items (Table) field in DocType 'Quotation'
 #. Label of the bundle_items_section (Section Break) field in DocType
@@ -19691,7 +19691,7 @@ msgstr "تفعيل مراكز التكلفة والمشاريع والأبعاد
 #. in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Enable cut-off date on creating bulk Delivery Notes"
-msgstr "تفعيل تاريخ القطع عند إنشاء إشعارات تسليم بالجملة"
+msgstr "تفعيل التاريخ الفاصل عند إنشاء إشعارات تسليم مجمعة"
 
 #. Label of the enable_discount_accounting (Check) field in DocType 'Selling
 #. Settings'
@@ -25314,7 +25314,7 @@ msgstr "اكتمل الاستيراد. تم إنشاء {0} رمزًا مشترك
 
 #: erpnext/stock/doctype/item_price/item_price.js:38
 msgid "Import in Bulk"
-msgstr "استيراد بكميات كبيرة"
+msgstr "استيراد مجمع"
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:206
 msgid "Import template should be of type .csv, .xlsx, .xls or .pdf"
@@ -58956,7 +58956,7 @@ msgstr "إجمالي مبلغ الفاتورة (عبر فواتير المبيع
 #. Label of the total_billed_hours (Float) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
 msgid "Total Billed Hours"
-msgstr "مجموع الساعات وصفت"
+msgstr "إجمالي الساعات المفوترة"
 
 #. Label of the total_billing_amount (Currency) field in DocType 'POS Invoice'
 #. Label of the total_billing_amount (Currency) field in DocType 'Sales
@@ -63250,9 +63250,9 @@ msgid ""
 "the specified cutoff date, which is useful for period-end processing and batch "
 "fulfillment."
 msgstr ""
-"عند التفعيل، يضيف عامل تصفية بتاريخ القطع إلى إشعارات التسليم المُنشأة بالجملة من "
-"أوامر البيع. يتيح لك ذلك معالجة الأوامر التي لا يتجاوز تاريخ معاملتها تاريخ القطع "
-"المحدد فقط، وهو مفيد لمعالجة نهاية الفترة والتنفيذ على دفعات."
+"عند التفعيل، يضيف عامل تصفية بتاريخ القطع إلى إشعارات التسليم المُنشأة مجمع من أوامر "
+"البيع. يتيح لك ذلك معالجة الأوامر التي لا يتجاوز تاريخ معاملتها تاريخ القطع المحدد "
+"فقط، وهو مفيد لمعالجة نهاية الفترة والتنفيذ على دفعات."
 
 #. Description of the 'Block Supplier' (Check) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
