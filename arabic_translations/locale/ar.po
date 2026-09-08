@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arabic_translations VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-08 19:54+0300\n"
+"POT-Creation-Date: 2025-05-18 09:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arabic Translations contributors\n"
 "Language: ar\n"
@@ -2365,15 +2365,15 @@ msgstr "يوجد بالفعل طلب توظيف لـ {0} مقدَّم من {1} �
 
 #. source: hrms
 msgid "A Job Requisition for {0} requested by {1} already exists: {2}"
-msgstr "طلب مهمة لـ {0} طلبه {1} موجود بالفعل: {2}"
+msgstr "يوجد بالفعل طلب توظيف لـ {0} مقدَّم من {1}: {2}"
 
 #. source: erpnext
 msgid "A Lead requires either a person's name or an organization's name"
-msgstr "يتطلب العميل المتوقع اسم شخص أو اسم مؤسسة"
+msgstr "يتطلب العميل المحتمل اسم شخص أو اسم مؤسسة"
 
 #. source: erpnext
 msgid "A Packing Slip can only be created for Draft Delivery Note."
-msgstr "لا يمكن إنشاء قسيمة تعبئة إلا لمسودة إذن التسليم."
+msgstr "لا يمكن إنشاء قسيمة تعبئة إلا لمسودة إشعار التسليم."
 
 #. source: erpnext
 msgid ""
@@ -2425,7 +2425,7 @@ msgstr "يجب تعيين سائق للإرسال."
 
 #. source: frappe
 msgid "A featured post must have a cover image"
-msgstr "يجب أن تحتوي الوظيفة المميزة على صورة غلاف"
+msgstr "يجب أن يحتوي المنشور المميز على صورة غلاف"
 
 #. source: erpnext
 msgid "A few quick questions so we can set things up the way you work."
@@ -2448,8 +2448,8 @@ msgid ""
 "A list of resources which the Client App will have access to after the user allows "
 "it.<br> e.g. project"
 msgstr ""
-"قائمة الموارد التي سيكون لها التطبيق العميل الوصول إلى بعد قيام المستخدم يسمح بذلك. "
-"<br> على سبيل المثال مشروع"
+"قائمة الموارد التي سيتمكن التطبيق العميل من الوصول إليها بعد سماح المستخدم بذلك.<br> "
+"مثال: مشروع"
 
 #. source: erpnext
 msgid "A little about you"
@@ -2611,7 +2611,7 @@ msgstr "ACC-PINV-.YYYY.-"
 
 #. source: frappe
 msgid "ALL"
-msgstr "جميع"
+msgstr "الكل"
 
 #. source: erpnext
 msgid "ALL records will be deleted (entire DocType cleared)"
@@ -2623,7 +2623,7 @@ msgstr "انتهاء عقد الصيانة السنوي (الرقم التسلس
 
 #. source: erpnext
 msgid "AMC Expiry Date"
-msgstr "AMC تاريخ انتهاء الاشتراك"
+msgstr "تاريخ انتهاء عقد الصيانة السنوي"
 
 #. source: erpnext
 msgid "AP Summary"
@@ -2643,11 +2643,11 @@ msgstr "تفاصيل واجهة برمجة التطبيقات (API)"
 
 #. source: frappe
 msgid "API Endpoint"
-msgstr "نقطة وصولAPI"
+msgstr "نقطة نهاية API"
 
 #. source: frappe
 msgid "API Endpoint Args"
-msgstr "نقطة وصول API Args"
+msgstr "وسائط نقطة نهاية API"
 
 #. source: frappe
 msgid "API Endpoint Args should be valid JSON"
@@ -2691,7 +2691,7 @@ msgstr "سجل طلبات API"
 
 #. source: frappe
 msgid "API Secret"
-msgstr "كلمة مرور API"
+msgstr "المفتاح السري لـ API"
 
 #. source: erpnext
 msgid "AR Summary"
@@ -2735,7 +2735,7 @@ msgstr "حول"
 
 #. source: frappe
 msgid "About Us"
-msgstr "عنا"
+msgstr "من نحن"
 
 #. source: frappe
 msgid "About Us Settings"
@@ -2777,7 +2777,7 @@ msgstr "أيام الغياب"
 msgid "Absent Records"
 msgstr "السجلات الغائبة"
 
-#. source: erpnext
+#. source: hrms
 msgid "Academics User"
 msgstr "المستخدمين الأكادميين"
 
@@ -2811,7 +2811,7 @@ msgstr "تم القبول في"
 
 #. source: erpnext
 msgid "Accepted Qty"
-msgstr "الكمية المطلوبة"
+msgstr "الكمية المقبولة"
 
 #. source: erpnext
 msgid "Accepted Qty in Stock UOM"
@@ -2819,11 +2819,11 @@ msgstr "الكمية المقبولة بوحدة قياس المخزون"
 
 #. source: erpnext
 msgid "Accepted Quantity"
-msgstr "كمية مقبولة"
+msgstr "الكمية المقبولة"
 
 #. source: erpnext
 msgid "Accepted Warehouse"
-msgstr "مستودع مقبول"
+msgstr "مستودع القبول"
 
 #. source: erpnext
 msgid "Accepting the suggestion will reconcile both transactions."
@@ -2843,7 +2843,7 @@ msgstr "معرف مفتاح الوصول"
 
 #. source: frappe
 msgid "Access Key Secret"
-msgstr "الوصول إلى Key Secret"
+msgstr "المفتاح السري للوصول"
 
 #. source: erpnext
 msgid "Access Key is required for Service Provider: {0}"
@@ -2931,13 +2931,13 @@ msgstr "تفاصيل الحساب"
 msgid "Account Filter"
 msgstr "مرشح الحساب"
 
-#. source: erpnext
+#. source: hrms
 msgid "Account Head"
 msgstr "رئيس حساب"
 
 #. source: erpnext
 msgid "Account Manager"
-msgstr "إدارة حساب المستخدم"
+msgstr "مدير الحساب"
 
 #. source: erpnext
 msgid "Account Missing"
@@ -3273,7 +3273,7 @@ msgstr "قيد محاسبي لـ {0}"
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
 msgstr "القيد المحاسبي لـ {0}: {1} لا يمكن إجراؤه إلا بالعملة: {2}"
 
-#. source: erpnext
+#. source: hrms
 msgid "Accounting Ledger"
 msgstr "موازنة دفتر الأستاذ"
 
@@ -3339,7 +3339,7 @@ msgstr "الحسابات الدائنة"
 
 #. source: erpnext
 msgid "Accounts Payable Summary"
-msgstr "ملخص الحسابات المستحقة للدفع"
+msgstr "ملخص الحسابات الدائنة"
 
 #. source: erpnext
 msgid "Accounts Receivable"
@@ -3517,7 +3517,7 @@ msgstr "حقق ({})"
 
 #. source: erpnext
 msgid "Acquisition Date"
-msgstr "تاريخ شراء المركبة"
+msgstr "تاريخ الاقتناء"
 
 #. source: erpnext
 msgid "Acre"
@@ -3529,11 +3529,11 @@ msgstr "فدان (أمريكي)"
 
 #. source: frappe
 msgid "Action"
-msgstr "حدث"
+msgstr "إجراء"
 
 #. source: frappe
 msgid "Action / Route"
-msgstr "العمل / الطريق"
+msgstr "الإجراء / المسار"
 
 #. source: frappe
 msgid "Action Complete"
@@ -3541,7 +3541,7 @@ msgstr "اكتمل الإجراء"
 
 #. source: frappe
 msgid "Action Failed"
-msgstr "فشل العمل"
+msgstr "فشل الإجراء"
 
 #. source: erpnext
 msgid "Action If Quality Inspection Is Not Submitted"
@@ -3557,7 +3557,7 @@ msgstr "الإجراء إذا لم يتم الحفاظ على نفس السعر"
 
 #. source: erpnext
 msgid "Action Initialised"
-msgstr "العمل مهيأ"
+msgstr "تم بدء الإجراء"
 
 #. source: frappe
 msgid "Action Label"
@@ -3569,7 +3569,7 @@ msgstr "مهلة الإجراء (ثانية)"
 
 #. source: frappe
 msgid "Action Type"
-msgstr "نوع العمل"
+msgstr "نوع الإجراء"
 
 #. source: erpnext
 msgid "Action for Expired Unverified Appointments"
@@ -3637,7 +3637,7 @@ msgstr "الإجراء عند إنشاء فاتورة جديدة"
 
 #. source: hrms
 msgid "Action on Submission"
-msgstr "العمل على التقديم"
+msgstr "الإجراء عند الترحيل"
 
 #. source: frappe
 msgid "Action {0} completed successfully on {1} {2}. View it {3}"
@@ -3677,7 +3677,7 @@ msgstr "المجالات النشطة"
 
 #. source: erpnext
 msgid "Active Leads"
-msgstr "العروض النشطة"
+msgstr "العملاء المحتملون النشطون"
 
 #. source: frappe
 msgid "Active Sessions"
@@ -3729,7 +3729,7 @@ msgstr "الفعلية"
 
 #. source: hrms
 msgid "Actual Amount"
-msgstr "الكمية الفعلية"
+msgstr "المبلغ الفعلي"
 
 #. source: erpnext
 msgid "Actual Balance Qty"
@@ -3765,7 +3765,7 @@ msgstr "تاريخ الانتهاء الفعلي"
 
 #. source: erpnext
 msgid "Actual End Date (via Timesheet)"
-msgstr "تاريخ الانتهاء الفعلي (عبر ورقة الوقت)"
+msgstr "تاريخ الانتهاء الفعلي (عبر سجل الدوام)"
 
 #. source: erpnext
 msgid "Actual End Date cannot be before Actual Start Date"
@@ -3833,7 +3833,7 @@ msgstr "تاريخ البدء الفعلي"
 
 #. source: erpnext
 msgid "Actual Start Date (via Timesheet)"
-msgstr "تاريخ البدء الفعلي (عبر ورقة الوقت)"
+msgstr "تاريخ البدء الفعلي (عبر سجل الدوام)"
 
 #. source: erpnext
 msgid "Actual Start Time"
@@ -3922,11 +3922,11 @@ msgstr "إضافة بطاقة إلى لوحة المعلومات"
 
 #. source: frappe
 msgid "Add Chart to Dashboard"
-msgstr "إضافة مخطط إلى لوحة القيادة"
+msgstr "إضافة مخطط إلى لوحة المعلومات"
 
 #. source: frappe
 msgid "Add Child"
-msgstr "إضافة الطفل"
+msgstr "إضافة سجل فرعي"
 
 #. source: frappe
 msgid "Add Column"
@@ -4006,11 +4006,11 @@ msgstr "إضافة فهارس"
 
 #. source: erpnext
 msgid "Add Item"
-msgstr "إضافة بند"
+msgstr "إضافة صنف"
 
 #. source: erpnext
 msgid "Add Items"
-msgstr "إضافة بنود"
+msgstr "إضافة أصناف"
 
 #. source: erpnext
 msgid "Add Items in the Purpose Table"
@@ -4167,7 +4167,7 @@ msgstr "إضافة قالب"
 
 #. source: erpnext
 msgid "Add Timesheets"
-msgstr "إضافة جداول زمنية"
+msgstr "إضافة سجلات الدوام"
 
 #. source: frappe
 msgid "Add Total Row"
@@ -4279,7 +4279,7 @@ msgstr "إضافة حقل"
 
 #. source: erpnext
 msgid "Add items in the Item Locations table"
-msgstr "أضف عناصر في جدول \"مواقع العناصر\""
+msgstr "أضف أصنافًا في جدول مواقع الأصناف"
 
 #. source: frappe
 msgid "Add multiple"
@@ -4331,7 +4331,7 @@ msgstr ""
 
 #. source: frappe
 msgid "Add to Dashboard"
-msgstr "إضافة إلى لوحة القيادة"
+msgstr "إضافة إلى لوحة المعلومات"
 
 #. source: frappe
 msgid "Add to Desktop"
@@ -4355,7 +4355,7 @@ msgstr "أضف إلى ToDo"
 
 #. source: erpnext
 msgid "Add to Transit"
-msgstr "أضف إلى Transit"
+msgstr "إضافة إلى العبور"
 
 #. source: frappe
 msgid "Add to table"
@@ -4756,7 +4756,7 @@ msgstr "لا يمكن للمسؤول المتابعة"
 
 #. source: hrms
 msgid "Advance"
-msgstr "مقدما"
+msgstr "سلفة"
 
 #. source: erpnext
 msgid "Advance Account"
@@ -4790,7 +4790,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Advance Amount"
-msgstr "المبلغ مقدما"
+msgstr "مبلغ السلفة"
 
 #. source: erpnext
 msgid "Advance Booking Days is mandatory for Appointment Scheduling."
@@ -4798,7 +4798,7 @@ msgstr "أيام الحجز المسبق إلزامية لجدولة الموا�
 
 #. source: erpnext
 msgid "Advance Paid"
-msgstr "مسبقا المدفوعة"
+msgstr "المبلغ المدفوع مقدمًا"
 
 #. source: erpnext
 msgid "Advance Paid (Company Currency)"
@@ -4838,7 +4838,7 @@ msgstr "نوع سند السلفة"
 
 #. source: erpnext
 msgid "Advance amount"
-msgstr "المبلغ مقدما"
+msgstr "مبلغ السلفة"
 
 #. source: erpnext
 msgid "Advance amount cannot be greater than {0} {1}"
@@ -4970,7 +4970,7 @@ msgstr "مقابل المستند"
 
 #. source: erpnext
 msgid "Against Doctype"
-msgstr "DOCTYPE ضد"
+msgstr "مقابل نوع المستند"
 
 #. source: erpnext
 msgid "Against Document Detail No"
@@ -5014,11 +5014,11 @@ msgstr "مقابل بند فاتورة المبيعات"
 
 #. source: erpnext
 msgid "Against Sales Order"
-msgstr "مقابل طلب مبيعات"
+msgstr "مقابل أمر بيع"
 
 #. source: erpnext
 msgid "Against Sales Order Item"
-msgstr "مقابل بند طلب مبيعات"
+msgstr "مقابل بند أمر بيع"
 
 #. source: erpnext
 msgid "Against Stock Entry"
@@ -5058,7 +5058,7 @@ msgstr "العمر كما في"
 
 #. source: erpnext
 msgid "Ageing Based On"
-msgstr "العمرعلى أساس"
+msgstr "التقادم بناءً على"
 
 #. source: erpnext
 msgid "Ageing Range"
@@ -5102,11 +5102,11 @@ msgstr "الحقل التجميعي مطلوب لإنشاء بطاقة رقمي�
 
 #. source: frappe
 msgid "Aggregate Function Based On"
-msgstr "مجموع وظيفة بناء على"
+msgstr "دالة التجميع بناءً على"
 
 #. source: frappe
 msgid "Aggregate Function field is required to create a dashboard chart"
-msgstr "حقل تجميع الوظائف مطلوب لإنشاء مخطط لوحة القيادة"
+msgstr "حقل تجميع الوظائف مطلوب لإنشاء مخطط لوحة المعلومات"
 
 #. source: erpnext
 msgid ""
@@ -5126,7 +5126,7 @@ msgstr "خطوط جوية"
 
 #. source: frappe
 msgid "Alert"
-msgstr "إنذار"
+msgstr "تنبيه"
 
 #. source: frappe
 msgid "Alerts and Notifications"
@@ -5198,7 +5198,7 @@ msgstr "جميع مجموعات العملاء"
 
 #. source: frappe
 msgid "All Day"
-msgstr "كل يوم"
+msgstr "طوال اليوم"
 
 #. source: erpnext
 msgid "All Departments"
@@ -5828,7 +5828,7 @@ msgstr "السماح بإنشاء فاتورة المبيعات بدون إشع�
 
 #. source: erpnext
 msgid "Allow Sales Invoice Creation Without Sales Order"
-msgstr "السماح بإنشاء فاتورة المبيعات بدون طلب مبيعات"
+msgstr "السماح بإنشاء فاتورة المبيعات بدون أمر بيع"
 
 #. source: erpnext
 msgid "Allow Sales Order Creation For Expired Quotation"
@@ -12342,7 +12342,7 @@ msgstr "دعوة للعمل"
 
 #. source: frappe
 msgid "Call To Action URL"
-msgstr "عنوان URL للدعوة إلى العمل"
+msgstr "رابط الدعوة إلى الإجراء"
 
 #. source: erpnext
 msgid "Call Type"
@@ -16302,7 +16302,7 @@ msgstr "المساهمة في صافي إجمالي"
 
 #. source: erpnext
 msgid "Control Action"
-msgstr "التحكم في العمل"
+msgstr "إجراء التحكم"
 
 #. source: erpnext
 msgid "Control Action for Cumulative Expense"
@@ -17296,7 +17296,7 @@ msgstr "إنشاء قالب الضريبة"
 
 #. source: erpnext
 msgid "Create Timesheet"
-msgstr "إنشاء الجدول الزمني"
+msgstr "إنشاء سجل الدوام"
 
 #. source: erpnext
 msgid "Create Transfer Entry"
@@ -18155,7 +18155,7 @@ msgstr "الكتل المخصصة"
 
 #. source: frappe
 msgid "Custom CSS"
-msgstr "مخصصةCSS"
+msgstr "CSS مخصص"
 
 #. source: frappe
 msgid "Custom Configuration"
@@ -18225,7 +18225,7 @@ msgstr ""
 
 #. source: frappe
 msgid "Custom HTML"
-msgstr "مخصصةHTML"
+msgstr "HTML مخصص"
 
 #. source: frappe
 msgid "Custom HTML Block"
@@ -18233,7 +18233,7 @@ msgstr "كتلة HTML مخصصة"
 
 #. source: frappe
 msgid "Custom HTML Help"
-msgstr "مخصصةHTML مساعدة"
+msgstr "مساعدة HTML المخصص"
 
 #. source: frappe
 msgid ""
@@ -18565,7 +18565,7 @@ msgstr "سعر الصنف حسب العميل"
 
 #. source: erpnext
 msgid "Customer/Lead Name"
-msgstr "اسم العميل / العميل المتوقع"
+msgstr "اسم العميل / العميل المحتمل"
 
 #. source: erpnext
 msgid "Customer: "
@@ -18771,15 +18771,15 @@ msgstr "المظهر الداكن"
 
 #. source: frappe
 msgid "Dashboard"
-msgstr "لوحة القيادة"
+msgstr "لوحة المعلومات"
 
 #. source: frappe
 msgid "Dashboard Chart"
-msgstr "مخطط لوحة القيادة"
+msgstr "مخطط لوحة المعلومات"
 
 #. source: frappe
 msgid "Dashboard Chart Field"
-msgstr "حقل مخطط لوحة القيادة"
+msgstr "حقل مخطط لوحة المعلومات"
 
 #. source: frappe
 msgid "Dashboard Chart Link"
@@ -18787,15 +18787,15 @@ msgstr "لوحة الرسم البياني رابط"
 
 #. source: frappe
 msgid "Dashboard Chart Source"
-msgstr "مصدر مخطط لوحة القيادة"
+msgstr "مصدر مخطط لوحة المعلومات"
 
 #. source: frappe
 msgid "Dashboard Manager"
-msgstr "مدير لوحة القيادة"
+msgstr "مدير لوحة المعلومات"
 
 #. source: frappe
 msgid "Dashboard Name"
-msgstr "اسم لوحة القيادة"
+msgstr "اسم لوحة المعلومات"
 
 #. source: frappe
 msgid "Dashboard Settings"
@@ -20975,7 +20975,7 @@ msgstr "إيراد مباشر"
 
 #. source: erpnext
 msgid "Direct return is not allowed for Timesheet."
-msgstr "المرتجع المباشر غير مسموح به لورقة الوقت."
+msgstr "المرتجع المباشر غير مسموح به لسجل الدوام."
 
 #. source: frappe
 msgid "Directory Server"
@@ -21688,7 +21688,7 @@ msgstr "يجب أن يحتوي DocType <b>{0}</b> المتوفر للحقل <b>{
 
 #. source: frappe
 msgid "DocType Action"
-msgstr "عمل DocType"
+msgstr "إجراء نوع المستند"
 
 #. source: frappe
 msgid "DocType Event"
@@ -23663,7 +23663,7 @@ msgstr "معدل استغلال ساعات الموظفين"
 
 #. source: hrms
 msgid "Employee Hours Utilization Based On Timesheet"
-msgstr "استغلال ساعات الموظف بناءً على الجدول الزمني"
+msgstr "استخدام ساعات الموظف بناءً على سجل الدوام"
 
 #. source: erpnext
 msgid "Employee ID"
@@ -25994,7 +25994,7 @@ msgstr "حساب المطالبة بالنفقات"
 
 #. source: hrms
 msgid "Expense Claim Advance"
-msgstr "النفقات المطالبة مقدما"
+msgstr "سلفة مطالبة المصاريف"
 
 #. source: hrms
 msgid "Expense Claim Detail"
@@ -30472,7 +30472,7 @@ msgstr "مجموعة حسب النوع"
 
 #. source: frappe
 msgid "Group By field is required to create a dashboard chart"
-msgstr "حقل تجميع حسب مطلوب لإنشاء مخطط لوحة القيادة"
+msgstr "حقل تجميع حسب مطلوب لإنشاء مخطط لوحة المعلومات"
 
 #. source: frappe
 msgid "Group By must be a string"
@@ -34301,7 +34301,7 @@ msgstr "بين شركة مرجع"
 
 #. source: erpnext
 msgid "Inter Company Sales Order"
-msgstr "طلب مبيعات بين الشركات"
+msgstr "أمر بيع بين الشركات"
 
 #. source: erpnext
 msgid "Inter Transfer Reference"
@@ -43152,7 +43152,7 @@ msgstr "الـ 7 أيام القادمة"
 
 #. source: frappe
 msgid "Next Action Email Template"
-msgstr "التالي عمل قالب البريد الإلكتروني"
+msgstr "قالب البريد الإلكتروني للإجراء التالي"
 
 #. source: frappe
 msgid "Next Actions"
@@ -45141,7 +45141,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Number of days appointments can be booked in advance"
-msgstr "عدد أيام يمكن حجز المواعيد مقدما"
+msgstr "عدد الأيام التي يمكن حجز المواعيد خلالها مسبقًا"
 
 #. source: erpnext
 msgid "Number of days that the subscriber has to pay invoices generated by this subscription"
@@ -45245,7 +45245,7 @@ msgstr "مزوّد OAuth"
 
 #. source: frappe
 msgid "OAuth Provider Settings"
-msgstr "إعدادات موفرOAuth"
+msgstr "إعدادات موفر OAuth"
 
 #. source: frappe
 msgid "OAuth Scope"
@@ -54355,11 +54355,11 @@ msgstr "جودة"
 
 #. source: erpnext
 msgid "Quality Action"
-msgstr "جودة العمل"
+msgstr "إجراء الجودة"
 
 #. source: erpnext
 msgid "Quality Action Resolution"
-msgstr "قرار جودة العمل"
+msgstr "حل إجراء الجودة"
 
 #. source: erpnext
 msgid "Quality Feedback"
@@ -54796,7 +54796,7 @@ msgstr "عدد النقاط"
 
 #. source: erpnext
 msgid "Quot/Lead %"
-msgstr "نسبة عرض السعر/العميل المتوقع %"
+msgstr "نسبة عرض السعر / العميل المحتمل %"
 
 #. source: erpnext
 msgid "Quotation"
@@ -59415,7 +59415,7 @@ msgstr "الصف #{0}: مكون {1} لديه الخياران {2} و {3} مفع�
 msgid ""
 "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary"
 " Component {1}"
-msgstr "الصف #{0}: سيقوم مبلغ الجدول الزمني بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
+msgstr "الصف #{0}: سيقوم مبلغ سجل الدوام بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
 
 #. source: erpnext
 msgid "Row #{0}: Timings conflicts with row {1}"
@@ -59970,7 +59970,7 @@ msgstr "الصف {0}: يرجى ضبط الكود الصحيح على طريقة 
 
 #. source: erpnext
 msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
-msgstr "الصف {0}: يجب أن يكون المشروع هو نفسه المحدد في الجدول الزمني: {1}."
+msgstr "الصف {0}: يجب أن يكون المشروع هو نفسه المحدد في سجل الدوام: {1}."
 
 #. source: erpnext
 msgid "Row {0}: Purchase Invoice {1} has no stock impact."
@@ -62070,7 +62070,7 @@ msgstr "حدد العملاء حسب"
 
 #. source: frappe
 msgid "Select Dashboard"
-msgstr "اختر لوحة القيادة"
+msgstr "اختر لوحة المعلومات"
 
 #. source: frappe
 msgid "Select Date Range"
@@ -63547,7 +63547,7 @@ msgstr "الترقيم المتسلسل {0} مستخدم بالفعل في {1}"
 
 #. source: frappe
 msgid "Server Action"
-msgstr "عمل الخادم"
+msgstr "إجراء الخادم"
 
 #. source: frappe
 msgid "Server Error"
@@ -63774,7 +63774,7 @@ msgstr "عيّن \"من (سنة)\" و \"إلى (سنة)\" إلى 0 لعدم وج
 
 #. source: erpnext
 msgid "Set Accepted Warehouse"
-msgstr "حدد المخزن المعتمد"
+msgstr "تعيين مستودع القبول"
 
 #. source: erpnext
 msgid "Set Advances and Allocate (FIFO)"
@@ -64888,7 +64888,7 @@ msgstr "إظهار رمز العملة على الجانب الأيمن"
 
 #. source: frappe
 msgid "Show Dashboard"
-msgstr "عرض لوحة القيادة"
+msgstr "عرض لوحة المعلومات"
 
 #. source: frappe
 msgid "Show Description on Click"
@@ -67815,7 +67815,7 @@ msgstr "نجاح"
 
 #. source: frappe
 msgid "Success Action"
-msgstr "نجاح العمل"
+msgstr "إجراء النجاح"
 
 #. source: frappe
 msgid "Success Message"
@@ -72150,7 +72150,7 @@ msgstr "ملخص فواتير الجداول الزمنية"
 
 #. source: erpnext
 msgid "Timesheet Detail"
-msgstr "تفاصيل الجدول الزمني"
+msgstr "تفاصيل سجل الدوام"
 
 #. source: hrms
 msgid "Timesheet Details"
@@ -72158,7 +72158,7 @@ msgstr "تفاصيل الجداول الزمنية"
 
 #. source: erpnext
 msgid "Timesheet for tasks."
-msgstr "الجدول الزمني للمهام."
+msgstr "سجل الدوام للمهام."
 
 #. source: erpnext
 msgid "Timesheet {0} cannot be invoiced in its current state"
@@ -72471,7 +72471,7 @@ msgstr "للسماح بذلك، قم بتمكين {0} ضمن {1}."
 
 #. source: frappe
 msgid "To and CC"
-msgstr "لوCC"
+msgstr "إلى ونسخة"
 
 #. source: erpnext
 msgid ""
@@ -72918,7 +72918,7 @@ msgstr "إجمالي المقدمة"
 
 #. source: hrms
 msgid "Total Advance Amount"
-msgstr "إجمالي المبلغ المدفوع مقدما"
+msgstr "إجمالي مبلغ السلفة"
 
 #. source: hrms
 msgid "Total Advance Amount (Company Currency)"
@@ -74450,7 +74450,7 @@ msgstr "الطريقة الزناد"
 
 #. source: frappe
 msgid "Trigger Primary Action"
-msgstr "الزناد العمل الأساسي"
+msgstr "تشغيل الإجراء الأساسي"
 
 #. source: frappe
 msgid "Trigger caching"
@@ -78889,11 +78889,11 @@ msgstr "إجراء سير العمل"
 
 #. source: frappe
 msgid "Workflow Action Master"
-msgstr "سير العمل الإجراء الأساسي"
+msgstr "سجل إجراء سير العمل الرئيسي"
 
 #. source: frappe
 msgid "Workflow Action Name"
-msgstr "سير العمل اسم العمل"
+msgstr "اسم إجراء سير العمل"
 
 #. source: frappe
 msgid "Workflow Action Permitted Role"
@@ -80813,7 +80813,7 @@ msgstr "الرمادي الداكن"
 
 #. source: frappe
 msgid "dashboard"
-msgstr "لوحة القيادة"
+msgstr "لوحة المعلومات"
 
 #. source: erpnext
 msgid "dated {0}"
@@ -81945,7 +81945,7 @@ msgstr "{0} مقابل فاتورة المبيعات {1}"
 
 #. source: erpnext
 msgid "{0} against Sales Order {1}"
-msgstr "{0} مقابل طلب مبيعات {1}"
+msgstr "{0} مقابل أمر بيع {1}"
 
 #. source: hrms
 msgid "{0} already allocated for Employee {1} for period {2} to {3}"

@@ -217,10 +217,31 @@ Reviewer-reported errors, and the classes behind them:
   number agreement (`5 السجلات` → `5 سجلات`), untranslated abbreviations
   (`فوترة AMT` → `المبلغ المفوتر`), and a transposed alef/lam (`األسهم`).
 
-**1,148 entries corrected and 225 newly translated** in total. Every rule lives in
+A second reviewer pass over the merged catalog surfaced more of the same kinds:
+
+- **`Action` was `حدث`** (an *event*) or `العمل` (*work*) across 22 strings. Now
+  `إجراء`.
+- **`Advance` was the adverb `مقدمًا`/`مسبقًا`** rather than the noun `سلفة`, so
+  `Advance Amount` read "the amount in advance" and `Advance Paid` was the word
+  salad `مسبقا المدفوعة`.
+- **`Accepted Qty` was `الكمية المطلوبة`** — the *requested* quantity, the exact
+  opposite field.
+- **`Account Manager` was `إدارة حساب المستخدم`**, `Account Head` was `رئيس حساب`
+  (a person), `Accounting Ledger` was `موازنة دفتر الأستاذ`, `Active Leads` was
+  `العروض النشطة` (offers), and `Acquisition Date` was `تاريخ شراء المركبة`
+  (vehicle purchase date) on a generic field.
+- **`Dashboard` split** between `لوحة القيادة` and `لوحة المعلومات`; **`Timesheet`**
+  still read `ورقة الوقت` in 10 strings; **`Sales Order`** read `طلب مبيعات`
+  against `أمر البيع` everywhere else. All unified.
+- Missing spaces where Arabic met a Latin token (`نقطة وصولAPI`, `مخصصةCSS`),
+  and `A featured post` read `الوظيفة` (a job) instead of `المنشور`.
+
+**1,242 entries corrected and 225 newly translated** in total. Every rule lives in
 `scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
 so the pass is reviewable as a rule table rather than as a raw PO diff, and
-reproduces byte-identically in a single run from a clean checkout.
+reproduces byte-identically in a single run from a clean checkout — the overlay's
+`POT-Creation-Date` is carried from the source catalog rather than stamped with
+`now()`, so a rebuild produces a diff only when the translations actually changed.
 
 Two words are excluded from the spelling rules by name, because they are correct
 and the frequency test would otherwise "fix" them: `بعدة` ("with several") and

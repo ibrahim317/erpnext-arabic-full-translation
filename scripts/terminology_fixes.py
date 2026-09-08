@@ -89,6 +89,17 @@ GLOSSARY = [
 	(r"\bVoucher\b",         r"القسيمة",               "السند"),
 	(r"\bVoucher\b",         r"قسيمة",                 "سند"),
 
+	# -- Dashboard unified on لوحة المعلومات ---------------------------------
+	(r"\bDashboard\b",       r"لوحة القيادة",          "لوحة المعلومات"),
+
+	# -- Timesheet is سجل الدوام, not "a sheet of time" ----------------------
+	(r"\bTimesheet",          r"ورقة الوقت",            "سجل الدوام"),
+	(r"\bTimesheet",          r"جداول زمنية",           "سجلات الدوام"),
+	(r"\bTimesheet",          r"الجدول الزمني",         "سجل الدوام"),
+
+	# -- Sales Order is أمر البيع (matches the rest of the register) ---------
+	(r"\bSales Order\b",     r"طلب مبيعات",            "أمر بيع"),
+
 	# -- Sales Person is مندوب المبيعات, not "a sales human" -----------------
 	(r"\bSales\s*Person\b",  r"شخص المبيعات",          "مندوب المبيعات"),
 	(r"\bSales\s*Person\b",  r"رجل المبيعات",          "مندوب المبيعات"),
@@ -121,6 +132,40 @@ EXACT = {
 		"Fieldname is limited to 64 characters ({0})": "اسم الحقل محدود بـ 64 حرفًا ({0})",
 		"Jump to field": "الانتقال إلى الحقل",
 		"5 Records": "5 سجلات",
+		# Action is إجراء; حدث is an *event* and العمل is *work*
+		"Action": "إجراء",
+		"Action / Route": "الإجراء / المسار",
+		"Action Failed": "فشل الإجراء",
+		"Action Type": "نوع الإجراء",
+		"DocType Action": "إجراء نوع المستند",
+		"Server Action": "إجراء الخادم",
+		"Success Action": "إجراء النجاح",
+		"Trigger Primary Action": "تشغيل الإجراء الأساسي",
+		"Next Action Email Template": "قالب البريد الإلكتروني للإجراء التالي",
+		"Workflow Action Master": "سجل إجراء سير العمل الرئيسي",
+		"Workflow Action Name": "اسم إجراء سير العمل",
+		"Call To Action URL": "رابط الدعوة إلى الإجراء",
+		# missing space between Arabic and a Latin token
+		"API Endpoint": "نقطة نهاية API",
+		"API Endpoint Args": "وسائط نقطة نهاية API",
+		"API Secret": "المفتاح السري لـ API",
+		"Access Key Secret": "المفتاح السري للوصول",
+		"Custom CSS": "CSS مخصص",
+		"Custom HTML": "HTML مخصص",
+		"Custom HTML Help": "مساعدة HTML المخصص",
+		"OAuth Provider Settings": "إعدادات موفر OAuth",
+		"To and CC": "إلى ونسخة",
+		# miscellaneous
+		"Alert": "تنبيه",
+		"About Us": "من نحن",
+		"ALL": "الكل",
+		"All Day": "طوال اليوم",
+		"Add Child": "إضافة سجل فرعي",          # a child row, not a human child
+		"Account Balance": "رصيد الحساب",
+		"Aggregate Function Based On": "دالة التجميع بناءً على",
+		"A featured post must have a cover image": "يجب أن يحتوي المنشور المميز على صورة غلاف",
+		"A list of resources which the Client App will have access to after the user allows it.<br> e.g. project":
+			"قائمة الموارد التي سيتمكن التطبيق العميل من الوصول إليها بعد سماح المستخدم بذلك.<br> مثال: مشروع",
 		"Round Robin": "التوزيع بالتناوب",        # assignment rule, not "Robin's round"
 		"New Kanban Board": "لوح كانبان جديد",     # Board was read as مجلس (council)
 		"This Kanban Board will be private": "سيكون لوح كانبان هذا خاصًا",
@@ -334,6 +379,41 @@ EXACT = {
 
 		# banking / accounting terms of art
 		# Term here is a contract condition (شرط), not a vocabulary term
+		"Accepted Qty": "الكمية المقبولة",       # was 'المطلوبة' (requested)
+		"Accepted Quantity": "الكمية المقبولة",
+		"Accepted Warehouse": "مستودع القبول",
+		"Set Accepted Warehouse": "تعيين مستودع القبول",
+		"Account Manager": "مدير الحساب",        # was 'إدارة حساب المستخدم'
+		"Account Head": "الحساب الرئيسي",         # Head of account, not a person
+		"Accounting Ledger": "دفتر الأستاذ",      # was 'موازنة دفتر الأستاذ'
+		"Accounts Payable Summary": "ملخص الحسابات الدائنة",
+		"Active Leads": "العملاء المحتملون النشطون",   # Leads, not 'offers'
+		"Acquisition Date": "تاريخ الاقتناء",      # was over-specific 'تاريخ شراء المركبة'
+		"AMC Expiry Date": "تاريخ انتهاء عقد الصيانة السنوي",
+		"Academics User": "المستخدم الأكاديمي",
+		"Ageing Based On": "التقادم بناءً على",
+		"Against Doctype": "مقابل نوع المستند",
+		"Add to Transit": "إضافة إلى العبور",
+		"Add Item": "إضافة صنف",
+		"Add Items": "إضافة أصناف",
+		"Add items in the Item Locations table": "أضف أصنافًا في جدول مواقع الأصناف",
+		"Action Initialised": "تم بدء الإجراء",
+		"Control Action": "إجراء التحكم",
+		"Quality Action": "إجراء الجودة",
+		"Quality Action Resolution": "حل إجراء الجودة",
+		# Advance here is the noun (a cash advance), not the adverb "in advance"
+		"Advance Amount": "مبلغ السلفة",
+		"Advance amount": "مبلغ السلفة",
+		"Advance Paid": "المبلغ المدفوع مقدمًا",
+		"Number of days appointments can be booked in advance":
+			"عدد الأيام التي يمكن حجز المواعيد خلالها مسبقًا",
+		"A Lead requires either a person's name or an organization's name":
+			"يتطلب العميل المحتمل اسم شخص أو اسم مؤسسة",
+		"Customer/Lead Name": "اسم العميل / العميل المحتمل",
+		"Quot/Lead %": "نسبة عرض السعر / العميل المحتمل %",
+		"A Packing Slip can only be created for Draft Delivery Note.":
+			"لا يمكن إنشاء قسيمة تعبئة إلا لمسودة إشعار التسليم.",
+
 		"Payment Term": "شرط الدفع",
 		"Payment Term Name": "اسم شرط الدفع",
 		"Payment Terms Template Detail": "تفاصيل قالب شروط الدفع",
@@ -428,6 +508,18 @@ EXACT = {
 		"Added tax components from the Salary Component master as the salary structure didn't have any tax component.":
 			"تمت إضافة المكونات الضريبية من سجل مكوّن الراتب الرئيسي لأن هيكل الرواتب لم يكن يحتوي على أي مكوّن ضريبي.",
 		"User": "المستخدم",
+		"Action": "إجراء",
+		"Action on Submission": "الإجراء عند الترحيل",
+		"Advance": "سلفة",
+		"Advance Amount": "مبلغ السلفة",
+		"Advance Paid": "المبلغ المدفوع مقدمًا",
+		"Total Advance Amount": "إجمالي مبلغ السلفة",
+		"Expense Claim Advance": "سلفة مطالبة المصاريف",
+		"Actual Amount": "المبلغ الفعلي",        # Amount = مبلغ, not كمية
+		"Employee Hours Utilization Based On Timesheet":
+			"استخدام ساعات الموظف بناءً على سجل الدوام",
+		"A Job Requisition for {0} requested by {1} already exists: {2}":
+			"يوجد بالفعل طلب توظيف لـ {0} مقدَّم من {1}: {2}",
 		"Service Item": "صنف الخدمة",       # Item = صنف; was 'بند الخدمة'
 		"Added On": "تاريخ الإضافة",         # was 'تمت إضافة على' (broken grammar)
 		"Apply": "تقديم طلب",                # job-application button; was 'يتقدم'
@@ -630,7 +722,7 @@ SPELLING = {
 	"الأيصال": "الإيصال",
 	"الفلتره": "الفلترة",
 	"ان": "أن", "الا": "إلا", "اي": "أي", "امر": "أمر", "اصل": "أصل",
-	"ارباح": "أرباح", "اخر": "آخر", "األسهم": "الأسهم",
+	"ارباح": "أرباح", "اخر": "آخر", "األسهم": "الأسهم", "العمرعلى": "العمر على",
 	"لايمكن": "لا يمكن",
 	"أسم": "اسم",
 	"الي": "إلى",

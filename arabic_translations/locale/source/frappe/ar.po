@@ -3770,7 +3770,7 @@ msgstr ""
 
 #: frappe/website/doctype/blog_post/blog_post.py:92
 msgid "A featured post must have a cover image"
-msgstr "يجب أن تحتوي الوظيفة المميزة على صورة غلاف"
+msgstr "يجب أن يحتوي المنشور المميز على صورة غلاف"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:175
 #, python-brace-format
@@ -3788,8 +3788,8 @@ msgid ""
 "A list of resources which the Client App will have access to after the user allows "
 "it.<br> e.g. project"
 msgstr ""
-"قائمة الموارد التي سيكون لها التطبيق العميل الوصول إلى بعد قيام المستخدم يسمح بذلك. "
-"<br> على سبيل المثال مشروع"
+"قائمة الموارد التي سيتمكن التطبيق العميل من الوصول إليها بعد سماح المستخدم بذلك.<br> "
+"مثال: مشروع"
 
 #: frappe/templates/emails/new_user.html:5
 #, python-brace-format
@@ -3869,7 +3869,7 @@ msgstr "A9"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "ALL"
-msgstr "جميع"
+msgstr "الكل"
 
 #. Option for the 'Script Type' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -3887,12 +3887,12 @@ msgstr "الوصول إلى API"
 #. Label of the api_endpoint (Data) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "API Endpoint"
-msgstr "نقطة وصولAPI"
+msgstr "نقطة نهاية API"
 
 #. Label of the api_endpoint_args (Code) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "API Endpoint Args"
-msgstr "نقطة وصول API Args"
+msgstr "وسائط نقطة نهاية API"
 
 #. Label of the api_key (Data) field in DocType 'User'
 #. Label of the api_key (Data) field in DocType 'Email Account'
@@ -3934,7 +3934,7 @@ msgstr "طريقة API"
 #: frappe/core/doctype/user/user.json frappe/email/doctype/email_account/email_account.json
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "API Secret"
-msgstr "كلمة مرور API"
+msgstr "المفتاح السري لـ API"
 
 #. Option for the 'Default Sort Order' (Select) field in DocType 'DocType'
 #. Option for the 'Sort Order' (Select) field in DocType 'Customize Form'
@@ -3951,7 +3951,7 @@ msgstr "حول"
 
 #: frappe/www/about.html:11 frappe/www/about.html:18
 msgid "About Us"
-msgstr "عنا"
+msgstr "من نحن"
 
 #. Name of a DocType
 #. Label of a Link in the Website Workspace
@@ -3995,7 +3995,7 @@ msgstr "معرف مفتاح الوصول"
 #. Settings'
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
 msgid "Access Key Secret"
-msgstr "الوصول إلى Key Secret"
+msgstr "المفتاح السري للوصول"
 
 #. Name of a DocType
 #. Label of a Link in the Users Workspace
@@ -4062,12 +4062,12 @@ msgstr "حسابات المستخدمين"
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:37
 msgid "Action"
-msgstr "حدث"
+msgstr "إجراء"
 
 #. Label of the action (Small Text) field in DocType 'DocType Action'
 #: frappe/core/doctype/doctype_action/doctype_action.json
 msgid "Action / Route"
-msgstr "العمل / الطريق"
+msgstr "الإجراء / المسار"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:305
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:376
@@ -4076,7 +4076,7 @@ msgstr "اكتمل الإجراء"
 
 #: frappe/model/document.py:1866
 msgid "Action Failed"
-msgstr "فشل العمل"
+msgstr "فشل الإجراء"
 
 #. Label of the action_label (Data) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
@@ -4091,7 +4091,7 @@ msgstr "مهلة الإجراء (ثانية)"
 #. Label of the action_type (Select) field in DocType 'DocType Action'
 #: frappe/core/doctype/doctype_action/doctype_action.json
 msgid "Action Type"
-msgstr "نوع العمل"
+msgstr "نوع الإجراء"
 
 #: frappe/core/doctype/submission_queue/submission_queue.py:120
 #, python-brace-format
@@ -4231,11 +4231,11 @@ msgstr "إضافة بطاقة إلى لوحة المعلومات"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:211
 msgid "Add Chart to Dashboard"
-msgstr "إضافة مخطط إلى لوحة القيادة"
+msgstr "إضافة مخطط إلى لوحة المعلومات"
 
 #: frappe/public/js/frappe/views/treeview.js:301
 msgid "Add Child"
-msgstr "إضافة الطفل"
+msgstr "إضافة سجل فرعي"
 
 #: frappe/public/js/frappe/views/kanban/kanban_board.html:4
 #: frappe/public/js/frappe/views/reports/query_report.js:1769
@@ -4448,7 +4448,7 @@ msgstr "إضافة علامة تبويب"
 #: frappe/public/js/frappe/utils/dashboard_utils.js:263
 #: frappe/public/js/frappe/views/reports/query_report.js:253
 msgid "Add to Dashboard"
-msgstr "إضافة إلى لوحة القيادة"
+msgstr "إضافة إلى لوحة المعلومات"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:99
 msgid "Add to ToDo"
@@ -4703,16 +4703,16 @@ msgstr "الحقل التجميعي مطلوب لإنشاء بطاقة رقمي�
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Aggregate Function Based On"
-msgstr "مجموع وظيفة بناء على"
+msgstr "دالة التجميع بناءً على"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:410
 msgid "Aggregate Function field is required to create a dashboard chart"
-msgstr "حقل تجميع الوظائف مطلوب لإنشاء مخطط لوحة القيادة"
+msgstr "حقل تجميع الوظائف مطلوب لإنشاء مخطط لوحة المعلومات"
 
 #. Option for the 'Type' (Select) field in DocType 'Notification Log'
 #: frappe/desk/doctype/notification_log/notification_log.json
 msgid "Alert"
-msgstr "إنذار"
+msgstr "تنبيه"
 
 #. Label of a Card Break in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
@@ -4769,7 +4769,7 @@ msgstr "الكل"
 #: frappe/desk/doctype/event/event.json
 #: frappe/public/js/frappe/ui/notifications/notifications.js:408
 msgid "All Day"
-msgstr "كل يوم"
+msgstr "طوال اليوم"
 
 #: frappe/website/doctype/website_slideshow/website_slideshow.py:43
 msgid "All Images attached to Website Slideshow should be public"
@@ -7165,7 +7165,7 @@ msgstr "دعوة للعمل"
 #. Label of the call_to_action_url (Data) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Call To Action URL"
-msgstr "عنوان URL للدعوة إلى العمل"
+msgstr "رابط الدعوة إلى الإجراء"
 
 #. Label of the cta_section (Section Break) field in DocType 'Blog Settings'
 #: frappe/website/doctype/blog_settings/blog_settings.json
@@ -9332,7 +9332,7 @@ msgstr "الكتل المخصصة"
 #: frappe/printing/doctype/print_format/print_format.json
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Custom CSS"
-msgstr "مخصصةCSS"
+msgstr "CSS مخصص"
 
 #. Label of the custom_configuration_section (Section Break) field in DocType
 #. 'Number Card'
@@ -9416,7 +9416,7 @@ msgstr ""
 #: frappe/printing/page/print_format_builder/print_format_builder.js:728
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:162
 msgid "Custom HTML"
-msgstr "مخصصةHTML"
+msgstr "HTML مخصص"
 
 #. Name of a DocType
 #: frappe/desk/doctype/custom_html_block/custom_html_block.json
@@ -9426,7 +9426,7 @@ msgstr "كتلة HTML مخصصة"
 #. Label of the custom_html_help (HTML) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Custom HTML Help"
-msgstr "مخصصةHTML مساعدة"
+msgstr "مساعدة HTML المخصص"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:114
 msgid ""
@@ -9681,7 +9681,7 @@ msgstr "المظهر الداكن"
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:562
 #: frappe/public/js/frappe/utils/utils.js:932
 msgid "Dashboard"
-msgstr "لوحة القيادة"
+msgstr "لوحة المعلومات"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -9689,12 +9689,12 @@ msgstr "لوحة القيادة"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.js:8
 msgid "Dashboard Chart"
-msgstr "مخطط لوحة القيادة"
+msgstr "مخطط لوحة المعلومات"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_field/dashboard_chart_field.json
 msgid "Dashboard Chart Field"
-msgstr "حقل مخطط لوحة القيادة"
+msgstr "حقل مخطط لوحة المعلومات"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_link/dashboard_chart_link.json
@@ -9704,19 +9704,19 @@ msgstr "لوحة الرسم البياني رابط"
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
 msgid "Dashboard Chart Source"
-msgstr "مصدر مخطط لوحة القيادة"
+msgstr "مصدر مخطط لوحة المعلومات"
 
 #. Name of a role
 #: frappe/desk/doctype/dashboard/dashboard.json
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Dashboard Manager"
-msgstr "مدير لوحة القيادة"
+msgstr "مدير لوحة المعلومات"
 
 #. Label of the dashboard_name (Data) field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json
 msgid "Dashboard Name"
-msgstr "اسم لوحة القيادة"
+msgstr "اسم لوحة المعلومات"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
@@ -10906,7 +10906,7 @@ msgstr "يجب أن يحتوي DocType <b>{0}</b> المتوفر للحقل <b>{
 #: frappe/core/doctype/doctype_action/doctype_action.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "DocType Action"
-msgstr "عمل DocType"
+msgstr "إجراء نوع المستند"
 
 #. Option for the 'Script Type' (Select) field in DocType 'Server Script'
 #. Label of the doctype_event (Select) field in DocType 'Server Script'
@@ -15062,7 +15062,7 @@ msgstr "مجموعة حسب النوع"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:408
 msgid "Group By field is required to create a dashboard chart"
-msgstr "حقل تجميع حسب مطلوب لإنشاء مخطط لوحة القيادة"
+msgstr "حقل تجميع حسب مطلوب لإنشاء مخطط لوحة المعلومات"
 
 #: frappe/public/js/frappe/views/treeview.js:418
 msgid "Group Node"
@@ -20273,7 +20273,7 @@ msgstr "الـ 7 أيام القادمة"
 #. Document State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Next Action Email Template"
-msgstr "التالي عمل قالب البريد الإلكتروني"
+msgstr "قالب البريد الإلكتروني للإجراء التالي"
 
 #. Label of the next_actions_html (HTML) field in DocType 'Success Action'
 #: frappe/core/doctype/success_action/success_action.json
@@ -21294,7 +21294,7 @@ msgstr "خطأ OAuth"
 #: frappe/integrations/doctype/oauth_provider_settings/oauth_provider_settings.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "OAuth Provider Settings"
-msgstr "إعدادات موفرOAuth"
+msgstr "إعدادات موفر OAuth"
 
 #. Name of a DocType
 #: frappe/integrations/doctype/oauth_scope/oauth_scope.json
@@ -26649,7 +26649,7 @@ msgstr "اختر العملة"
 #: frappe/desk/doctype/form_tour/form_tour.json
 #: frappe/public/js/frappe/utils/dashboard_utils.js:240
 msgid "Select Dashboard"
-msgstr "اختر لوحة القيادة"
+msgstr "اختر لوحة المعلومات"
 
 #. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
@@ -27258,7 +27258,7 @@ msgstr "الترقيم المتسلسل {0} مستخدم بالفعل في {1}"
 #. Option for the 'Action Type' (Select) field in DocType 'DocType Action'
 #: frappe/core/doctype/doctype_action/doctype_action.json
 msgid "Server Action"
-msgstr "عمل الخادم"
+msgstr "إجراء الخادم"
 
 #: frappe/app.py:383 frappe/public/js/frappe/request.js:611 frappe/www/error.html:36
 #: frappe/www/error.py:15
@@ -27767,7 +27767,7 @@ msgstr "إظهار رمز العملة على الجانب الأيمن"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/desk/doctype/dashboard/dashboard.js:6
 msgid "Show Dashboard"
-msgstr "عرض لوحة القيادة"
+msgstr "عرض لوحة المعلومات"
 
 #. Label of the show_document (Button) field in DocType 'Access Log'
 #: frappe/core/doctype/access_log/access_log.json
@@ -29060,7 +29060,7 @@ msgstr "نجاح"
 #. Name of a DocType
 #: frappe/core/doctype/success_action/success_action.json
 msgid "Success Action"
-msgstr "نجاح العمل"
+msgstr "إجراء النجاح"
 
 #. Label of the success_message (Data) field in DocType 'Module Onboarding'
 #: frappe/desk/doctype/module_onboarding/module_onboarding.json
@@ -30811,7 +30811,7 @@ msgstr "للسماح بمزيد من التقارير، قم بتحديث الح
 #. 'Communication'
 #: frappe/core/doctype/communication/communication.json
 msgid "To and CC"
-msgstr "لوCC"
+msgstr "إلى ونسخة"
 
 #. Description of the 'Use First Day of Period' (Check) field in DocType 'Auto
 #. Email Report'
@@ -31317,7 +31317,7 @@ msgstr "الطريقة الزناد"
 
 #: frappe/public/js/frappe/ui/keyboard.js:195
 msgid "Trigger Primary Action"
-msgstr "الزناد العمل الأساسي"
+msgstr "تشغيل الإجراء الأساسي"
 
 #: frappe/tests/test_translate.py:55
 msgid "Trigger caching"
@@ -33437,13 +33437,13 @@ msgstr "إجراء سير العمل"
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Master"
-msgstr "سير العمل الإجراء الأساسي"
+msgstr "سجل إجراء سير العمل الرئيسي"
 
 #. Label of the workflow_action_name (Data) field in DocType 'Workflow Action
 #. Master'
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Name"
-msgstr "سير العمل اسم العمل"
+msgstr "اسم إجراء سير العمل"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
@@ -34483,7 +34483,7 @@ msgstr "الرمادي الداكن"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:65
 msgid "dashboard"
-msgstr "لوحة القيادة"
+msgstr "لوحة المعلومات"
 
 #. Option for the 'Date Format' (Select) field in DocType 'Language'
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'

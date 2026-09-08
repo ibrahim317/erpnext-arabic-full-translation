@@ -365,7 +365,7 @@ msgstr "<table class = 'table table-border'> <tr> <th> {0} </h> <th> {1} </h> </
 #: hrms/hr/doctype/job_requisition/job_requisition.py:30
 #, python-brace-format
 msgid "A Job Requisition for {0} requested by {1} already exists: {2}"
-msgstr "طلب مهمة لـ {0} طلبه {1} موجود بالفعل: {2}"
+msgstr "يوجد بالفعل طلب توظيف لـ {0} مقدَّم من {1}: {2}"
 
 #: hrms/controllers/employee_reminders.py:123 hrms/controllers/employee_reminders.py:216
 msgid "A friendly reminder of an important date for our team."
@@ -570,11 +570,11 @@ msgstr "قيد يومية تراكمية للرواتب من {0} إلى {1}"
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Action"
-msgstr "حدث"
+msgstr "إجراء"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:8
 msgid "Action on Submission"
-msgstr "العمل على التقديم"
+msgstr "الإجراء عند الترحيل"
 
 #: frontend/src/components/WorkflowActionSheet.vue:19
 #: hrms/hr/doctype/interview/interview.js:36
@@ -631,7 +631,7 @@ msgstr "نوع النشاط"
 #. Proof Submission Detail'
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Actual Amount"
-msgstr "الكمية الفعلية"
+msgstr "المبلغ الفعلي"
 
 #. Label of the actual_cost (Currency) field in DocType 'Full and Final Asset'
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
@@ -773,7 +773,7 @@ msgstr "عنوان المنظم"
 #. Option for the 'Level' (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
 msgid "Advance"
-msgstr "مقدما"
+msgstr "سلفة"
 
 #. Label of the advance_account (Link) field in DocType 'Employee Advance'
 #. Label of the advance_account (Link) field in DocType 'Expense Claim
@@ -790,13 +790,13 @@ msgstr "حساب مقدم"
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
 #: hrms/hr/report/employee_advance_summary/employee_advance_summary.py:62
 msgid "Advance Amount"
-msgstr "المبلغ مقدما"
+msgstr "مبلغ السلفة"
 
 #. Label of the advance_paid (Currency) field in DocType 'Expense Claim
 #. Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgid "Advance Paid"
-msgstr "مسبقا المدفوعة"
+msgstr "المبلغ المدفوع مقدمًا"
 
 #. Label of the advance_payments_sb (Section Break) field in DocType 'Expense
 #. Claim'
@@ -3250,7 +3250,7 @@ msgstr "ملخص العمل اليومي الردود"
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Dashboard"
-msgstr "لوحة القيادة"
+msgstr "لوحة المعلومات"
 
 #. Label of the date (Date) field in DocType 'Employee Attendance Tool'
 #. Label of the date (Date) field in DocType 'Employee Referral'
@@ -4537,7 +4537,7 @@ msgstr "التأمين الصحي للموظف"
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Employee Hours Utilization Based On Timesheet"
-msgstr "استغلال ساعات الموظف بناءً على الجدول الزمني"
+msgstr "استخدام ساعات الموظف بناءً على سجل الدوام"
 
 #. Label of the employee_image (Attach Image) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
@@ -5605,7 +5605,7 @@ msgstr "حساب المطالبة بالنفقات"
 #. Name of a DocType
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgid "Expense Claim Advance"
-msgstr "النفقات المطالبة مقدما"
+msgstr "سلفة مطالبة المصاريف"
 
 #. Name of a DocType
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
@@ -11601,7 +11601,7 @@ msgstr "الصف #{0}: مكون {1} لديه الخياران {2} و {3} مفع�
 msgid ""
 "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary"
 " Component {1}"
-msgstr "الصف #{0}: سيقوم مبلغ الجدول الزمني بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
+msgstr "الصف #{0}: سيقوم مبلغ سجل الدوام بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:601
 #, python-brace-format
@@ -13785,7 +13785,7 @@ msgstr "إجمالي المبلغ الفعلي"
 #. Claim'
 #: hrms/hr/doctype/expense_claim/expense_claim.json
 msgid "Total Advance Amount"
-msgstr "إجمالي المبلغ المدفوع مقدما"
+msgstr "إجمالي مبلغ السلفة"
 
 #. Label of the total_allocated_leaves (Float) field in DocType 'Salary Slip
 #. Leave'

@@ -1308,11 +1308,11 @@ msgstr "يمكن إضافة قائمة عطلات لاستبعاد حساب هذ
 
 #: erpnext/crm/doctype/lead/lead.py:142
 msgid "A Lead requires either a person's name or an organization's name"
-msgstr "يتطلب العميل المتوقع اسم شخص أو اسم مؤسسة"
+msgstr "يتطلب العميل المحتمل اسم شخص أو اسم مؤسسة"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:84
 msgid "A Packing Slip can only be created for Draft Delivery Note."
-msgstr "لا يمكن إنشاء قسيمة تعبئة إلا لمسودة إذن التسليم."
+msgstr "لا يمكن إنشاء قسيمة تعبئة إلا لمسودة إشعار التسليم."
 
 #: erpnext/accounts/general_ledger.py:829
 msgid ""
@@ -1469,7 +1469,7 @@ msgstr "انتهاء عقد الصيانة السنوي (الرقم التسلس
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "AMC Expiry Date"
-msgstr "AMC تاريخ انتهاء الاشتراك"
+msgstr "تاريخ انتهاء عقد الصيانة السنوي"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/financial_reports.json
@@ -1536,7 +1536,7 @@ msgstr "أكثر من 120 يومًا"
 #. Name of a role
 #: erpnext/setup/doctype/department/department.json
 msgid "Academics User"
-msgstr "المستخدمين الأكادميين"
+msgstr "المستخدم الأكاديمي"
 
 #: banking/src/components/features/Settings/KeyboardShortcuts.tsx:38
 msgid "Accept Matching Rule"
@@ -1568,7 +1568,7 @@ msgstr "قيمة معايير القبول"
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Accepted Qty"
-msgstr "الكمية المطلوبة"
+msgstr "الكمية المقبولة"
 
 #. Label of the stock_qty (Float) field in DocType 'Purchase Invoice Item'
 #. Label of the stock_qty (Float) field in DocType 'Purchase Receipt Item'
@@ -1581,7 +1581,7 @@ msgstr "الكمية المقبولة بوحدة قياس المخزون"
 #: erpnext/public/js/controllers/transaction.js:2882
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Accepted Quantity"
-msgstr "كمية مقبولة"
+msgstr "الكمية المقبولة"
 
 #. Label of the warehouse (Link) field in DocType 'Purchase Invoice Item'
 #. Label of the set_warehouse (Link) field in DocType 'Purchase Receipt'
@@ -1594,7 +1594,7 @@ msgstr "كمية مقبولة"
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Accepted Warehouse"
-msgstr "مستودع مقبول"
+msgstr "مستودع القبول"
 
 #: banking/src/components/features/BankReconciliation/TransferModalContent.tsx:485
 msgid "Accepting the suggestion will reconcile both transactions."
@@ -1734,12 +1734,12 @@ msgstr "مرشح الحساب"
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Account Head"
-msgstr "رئيس حساب"
+msgstr "الحساب الرئيسي"
 
 #. Label of the account_manager (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Account Manager"
-msgstr "إدارة حساب المستخدم"
+msgstr "مدير الحساب"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1063
 #: erpnext/controllers/accounts_controller.py:2484
@@ -2308,7 +2308,7 @@ msgstr "القيد المحاسبي لـ {0}: {1} لا يمكن إجراؤه إ�
 #: erpnext/selling/doctype/customer/customer.js:173
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:51
 msgid "Accounting Ledger"
-msgstr "موازنة دفتر الأستاذ"
+msgstr "دفتر الأستاذ"
 
 #. Label of a Card Break in the Invoicing Workspace
 #: erpnext/accounts/workspace/invoicing/invoicing.json
@@ -2417,7 +2417,7 @@ msgstr "الحسابات الدائنة"
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:183
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.json
 msgid "Accounts Payable Summary"
-msgstr "ملخص الحسابات المستحقة للدفع"
+msgstr "ملخص الحسابات الدائنة"
 
 #. Option for the 'Write Off Based On' (Select) field in DocType 'Journal
 #. Entry'
@@ -2574,7 +2574,7 @@ msgstr "حقق ({})"
 #. Label of the acquisition_date (Date) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
 msgid "Acquisition Date"
-msgstr "تاريخ شراء المركبة"
+msgstr "تاريخ الاقتناء"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -2588,7 +2588,7 @@ msgstr "فدان (أمريكي)"
 
 #: erpnext/quality_management/doctype/quality_review/quality_review_list.js:7
 msgid "Action Initialised"
-msgstr "العمل مهيأ"
+msgstr "تم بدء الإجراء"
 
 #. Label of the action_for_expired_unverified_appointments (Select) field in
 #. DocType 'Appointment Booking Settings'
@@ -2696,7 +2696,7 @@ msgstr "تفعيل الرقم التسلسلي / رقم الدفعة للصنف"
 
 #: erpnext/selling/page/sales_funnel/sales_funnel.py:55
 msgid "Active Leads"
-msgstr "العروض النشطة"
+msgstr "العملاء المحتملون النشطون"
 
 #. Label of the on_status_image (Attach Image) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
@@ -2807,7 +2807,7 @@ msgstr "تاريخ الانتهاء الفعلي"
 #. Label of the act_end_date (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/project/project.json erpnext/projects/doctype/task/task.json
 msgid "Actual End Date (via Timesheet)"
-msgstr "تاريخ الانتهاء الفعلي (عبر ورقة الوقت)"
+msgstr "تاريخ الانتهاء الفعلي (عبر سجل الدوام)"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:305
 msgid "Actual End Date cannot be before Actual Start Date"
@@ -2901,7 +2901,7 @@ msgstr "تاريخ البدء الفعلي"
 #. Label of the act_start_date (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/project/project.json erpnext/projects/doctype/task/task.json
 msgid "Actual Start Date (via Timesheet)"
-msgstr "تاريخ البدء الفعلي (عبر ورقة الوقت)"
+msgstr "تاريخ البدء الفعلي (عبر سجل الدوام)"
 
 #. Label of the actual_start_time (Datetime) field in DocType 'Work Order
 #. Operation'
@@ -2970,11 +2970,11 @@ msgstr "إضافة موظفين"
 #: erpnext/selling/doctype/sales_order/sales_order.js:285
 #: erpnext/stock/dashboard/item_dashboard.js:216
 msgid "Add Item"
-msgstr "إضافة بند"
+msgstr "إضافة صنف"
 
 #: erpnext/public/js/utils/item_selector.js:20 erpnext/public/js/utils/item_selector.js:35
 msgid "Add Items"
-msgstr "إضافة بنود"
+msgstr "إضافة أصناف"
 
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:56
 msgid "Add Items in the Purpose Table"
@@ -3104,7 +3104,7 @@ msgstr "إضافة الموردين"
 
 #: erpnext/utilities/activation.py:124
 msgid "Add Timesheets"
-msgstr "إضافة جداول زمنية"
+msgstr "إضافة سجلات الدوام"
 
 #. Label of the add_weekly_holidays (Section Break) field in DocType 'Holiday
 #. List'
@@ -3143,7 +3143,7 @@ msgstr "إضافة تفاصيل"
 #: erpnext/stock/doctype/pick_list/pick_list.js:89
 #: erpnext/stock/doctype/pick_list/pick_list.py:967
 msgid "Add items in the Item Locations table"
-msgstr "أضف عناصر في جدول \"مواقع العناصر\""
+msgstr "أضف أصنافًا في جدول مواقع الأصناف"
 
 #. Label of the add_deduct_tax (Select) field in DocType 'Purchase Taxes and
 #. Charges'
@@ -3174,7 +3174,7 @@ msgstr "إضافة إلى عميل متوقع"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Add to Transit"
-msgstr "أضف إلى Transit"
+msgstr "إضافة إلى العبور"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:178
 msgid "Add vouchers to generate preview."
@@ -3639,7 +3639,7 @@ msgstr ""
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:163
 msgid "Advance Amount"
-msgstr "المبلغ مقدما"
+msgstr "مبلغ السلفة"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:93
 msgid "Advance Booking Days is mandatory for Appointment Scheduling."
@@ -3648,7 +3648,7 @@ msgstr "أيام الحجز المسبق إلزامية لجدولة الموا�
 #. Label of the advance_paid (Currency) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Advance Paid"
-msgstr "مسبقا المدفوعة"
+msgstr "المبلغ المدفوع مقدمًا"
 
 #. Label of the advance_paid (Currency) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -3722,7 +3722,7 @@ msgstr "نوع سند السلفة"
 #. Advance'
 #: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
 msgid "Advance amount"
-msgstr "المبلغ مقدما"
+msgstr "مبلغ السلفة"
 
 #: erpnext/controllers/taxes_and_totals.py:1031
 msgid "Advance amount cannot be greater than {0} {1}"
@@ -3824,7 +3824,7 @@ msgstr "مقابل المستند"
 #. Label of the prevdoc_doctype (Link) field in DocType 'Quotation Item'
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 msgid "Against Doctype"
-msgstr "DOCTYPE ضد"
+msgstr "مقابل نوع المستند"
 
 #. Label of the prevdoc_detail_docname (Data) field in DocType 'Installation
 #. Note Item'
@@ -3891,12 +3891,12 @@ msgstr "مقابل بند فاتورة المبيعات"
 #. Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Against Sales Order"
-msgstr "مقابل طلب مبيعات"
+msgstr "مقابل أمر بيع"
 
 #. Label of the so_detail (Data) field in DocType 'Delivery Note Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Against Sales Order Item"
-msgstr "مقابل بند طلب مبيعات"
+msgstr "مقابل بند أمر بيع"
 
 #. Label of the against_stock_entry (Link) field in DocType 'Stock Entry
 #. Detail'
@@ -3974,7 +3974,7 @@ msgstr "العمر كما في"
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.html:119
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:21
 msgid "Ageing Based On"
-msgstr "العمرعلى أساس"
+msgstr "التقادم بناءً على"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:80
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:35
@@ -13159,7 +13159,7 @@ msgstr "المساهمة في صافي إجمالي"
 #. Label of the section_break_6 (Section Break) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Control Action"
-msgstr "التحكم في العمل"
+msgstr "إجراء التحكم"
 
 #. Label of the control_action_for_cumulative_expense_section (Section Break)
 #. field in DocType 'Budget'
@@ -14256,7 +14256,7 @@ msgstr "إنشاء قالب الضريبة"
 #: erpnext/projects/onboarding_step/create_timesheet/create_timesheet.json
 #: erpnext/utilities/activation.py:128
 msgid "Create Timesheet"
-msgstr "إنشاء الجدول الزمني"
+msgstr "إنشاء سجل الدوام"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Transfer Entry'
@@ -15765,7 +15765,7 @@ msgstr "سعر الصنف حسب العميل"
 
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.py:44
 msgid "Customer/Lead Name"
-msgstr "اسم العميل / العميل المتوقع"
+msgstr "اسم العميل / العميل المحتمل"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:19
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:21
@@ -17836,7 +17836,7 @@ msgstr "إيراد مباشر"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:365
 msgid "Direct return is not allowed for Timesheet."
-msgstr "المرتجع المباشر غير مسموح به لورقة الوقت."
+msgstr "المرتجع المباشر غير مسموح به لسجل الدوام."
 
 #. Label of the disable_include_dimensions (Check) field in DocType 'Accounts
 #. Settings'
@@ -26340,7 +26340,7 @@ msgstr "بين شركة مرجع"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:453
 msgid "Inter Company Sales Order"
-msgstr "طلب مبيعات بين الشركات"
+msgstr "أمر بيع بين الشركات"
 
 #. Label of the inter_transfer_reference_section (Section Break) field in
 #. DocType 'Sales Order Item'
@@ -34347,7 +34347,7 @@ msgstr ""
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Number of days appointments can be booked in advance"
-msgstr "عدد أيام يمكن حجز المواعيد مقدما"
+msgstr "عدد الأيام التي يمكن حجز المواعيد خلالها مسبقًا"
 
 #. Description of the 'Days Until Due' (Int) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -43227,12 +43227,12 @@ msgstr "جودة"
 #: erpnext/quality_management/workspace/quality/quality.json
 #: erpnext/workspace_sidebar/quality.json
 msgid "Quality Action"
-msgstr "جودة العمل"
+msgstr "إجراء الجودة"
 
 #. Name of a DocType
 #: erpnext/quality_management/doctype/quality_action_resolution/quality_action_resolution.json
 msgid "Quality Action Resolution"
-msgstr "قرار جودة العمل"
+msgstr "حل إجراء الجودة"
 
 #. Name of a DocType
 #. Option for the 'Document Type' (Select) field in DocType 'Quality Meeting
@@ -43773,7 +43773,7 @@ msgstr "عدد النقاط"
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:26
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:32
 msgid "Quot/Lead %"
-msgstr "نسبة عرض السعر/العميل المتوقع %"
+msgstr "نسبة عرض السعر / العميل المحتمل %"
 
 #. Option for the 'Document Type' (Select) field in DocType 'Contract'
 #. Label of the quotation_section (Section Break) field in DocType 'CRM
@@ -48460,7 +48460,7 @@ msgstr "الصف {0}: يرجى ضبط الكود الصحيح على طريقة 
 
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.py:114
 msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
-msgstr "الصف {0}: يجب أن يكون المشروع هو نفسه المحدد في الجدول الزمني: {1}."
+msgstr "الصف {0}: يجب أن يكون المشروع هو نفسه المحدد في سجل الدوام: {1}."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:152
 msgid "Row {0}: Purchase Invoice {1} has no stock impact."
@@ -51439,7 +51439,7 @@ msgstr "الخدمات"
 #. Label of the set_warehouse (Link) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Set Accepted Warehouse"
-msgstr "حدد المخزن المعتمد"
+msgstr "تعيين مستودع القبول"
 
 #. Label of the allocate_advances_automatically (Check) field in DocType
 #. 'Purchase Invoice'
@@ -58315,11 +58315,11 @@ msgstr "ملخص فواتير الجداول الزمنية"
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 msgid "Timesheet Detail"
-msgstr "تفاصيل الجدول الزمني"
+msgstr "تفاصيل سجل الدوام"
 
 #: erpnext/config/projects.py:55
 msgid "Timesheet for tasks."
-msgstr "الجدول الزمني للمهام."
+msgstr "سجل الدوام للمهام."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:948
 msgid "Timesheet {0} cannot be invoiced in its current state"
@@ -64717,7 +64717,7 @@ msgstr "{0} مقابل فاتورة المبيعات {1}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1064
 msgid "{0} against Sales Order {1}"
-msgstr "{0} مقابل طلب مبيعات {1}"
+msgstr "{0} مقابل أمر بيع {1}"
 
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure.py:69
 msgid "{0} already has a Parent Procedure {1}."

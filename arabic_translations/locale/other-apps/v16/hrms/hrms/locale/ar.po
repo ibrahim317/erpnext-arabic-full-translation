@@ -490,7 +490,7 @@ msgstr "المبلغ المستحق {0} أقل من المبلغ المدفوع 
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:8
 msgid "Action on Submission"
-msgstr "العمل على التقديم"
+msgstr "الإجراء عند الترحيل"
 
 #. Label of the activity_name (Data) field in DocType 'Employee Boarding
 #. Activity'
@@ -502,7 +502,7 @@ msgstr "اسم النشاط"
 #. Proof Submission Detail'
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Actual Amount"
-msgstr "الكمية الفعلية"
+msgstr "المبلغ الفعلي"
 
 #. Label of the actual_encashable_days (Float) field in DocType 'Leave
 #. Encashment'
@@ -645,7 +645,7 @@ msgstr "نوع التعديل"
 #. Option for the 'Level' (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
 msgid "Advance"
-msgstr "مقدما"
+msgstr "سلفة"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:47
 msgid "Advance Account Required"
@@ -3226,7 +3226,7 @@ msgstr "معدل استغلال ساعات الموظفين"
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Employee Hours Utilization Based On Timesheet"
-msgstr "استغلال ساعات الموظف بناءً على الجدول الزمني"
+msgstr "استخدام ساعات الموظف بناءً على سجل الدوام"
 
 #. Label of the employee_image (Attach Image) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
@@ -4111,7 +4111,7 @@ msgstr "حساب المطالبة بالنفقات"
 #. Name of a DocType
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgid "Expense Claim Advance"
-msgstr "النفقات المطالبة مقدما"
+msgstr "سلفة مطالبة المصاريف"
 
 #. Name of a DocType
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
@@ -9179,7 +9179,7 @@ msgstr "الصف #{0}: مكون {1} لديه الخياران {2} و {3} مفع�
 msgid ""
 "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary"
 " Component {1}"
-msgstr "الصف #{0}: سيقوم مبلغ الجدول الزمني بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
+msgstr "الصف #{0}: سيقوم مبلغ سجل الدوام بالكتابة فوق مبلغ مكون الاستحقاق لمكون الراتب {1}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:798
 msgid ""
@@ -10932,7 +10932,7 @@ msgstr "إجمالي المبلغ الفعلي"
 #. Claim'
 #: hrms/hr/doctype/expense_claim/expense_claim.json
 msgid "Total Advance Amount"
-msgstr "إجمالي المبلغ المدفوع مقدما"
+msgstr "إجمالي مبلغ السلفة"
 
 #. Label of the base_total_advance_amount (Currency) field in DocType 'Expense
 #. Claim'
