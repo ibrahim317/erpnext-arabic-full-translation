@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arabic_translations VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-08 18:01+0300\n"
+"POT-Creation-Date: 2026-09-08 18:22+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arabic Translations contributors\n"
 "Language: ar\n"
@@ -2157,7 +2157,7 @@ msgstr "<span class = \"h4\"> <b> التقارير وإدارة البيانات
 
 #. source: hrms
 msgid "<span class=\"h4\"><b>Masters &amp; Transactions</b></span>"
-msgstr "<span class = \"h4\"> <b> ادارة البيانات الرئيسية والمعاملات </b> </span>"
+msgstr "<span class = \"h4\"> <b> إدارة البيانات الرئيسية والمعاملات </b> </span>"
 
 #. source: erpnext
 msgid "<span class=\"h4\"><b>Quick Access</b></span>"
@@ -2193,9 +2193,9 @@ msgstr ""
 "\t\t\t\n"
 "\t\t</b></span>"
 
-#. source: hrms
+#. source: erpnext
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
-msgstr "<span class = \"h4\"> <b> اختصاراتك </b> </span>"
+msgstr "<span class=\"h4\"><b>اختصاراتك</b></span>"
 
 #. source: hrms
 msgid "<span style=\"font-size: 18px;\"><b>Masters &amp; Reports</b></span>"
@@ -2335,7 +2335,7 @@ msgstr "أ - ج"
 msgid ""
 "A Customer Group exists with same name please change the Customer name or rename the "
 "Customer Group"
-msgstr "مجموعة الزبائن موجودة بنفس الاسم أرجو تغير اسم العميل أو اعادة تسمية مجموعة الزبائن"
+msgstr "مجموعة الزبائن موجودة بنفس الاسم أرجو تغير اسم العميل أو إعادة تسمية مجموعة الزبائن"
 
 #. source: frappe
 msgid ""
@@ -4006,7 +4006,7 @@ msgstr "إضافة فهارس"
 
 #. source: erpnext
 msgid "Add Item"
-msgstr "اضافة بند"
+msgstr "إضافة بند"
 
 #. source: erpnext
 msgid "Add Items"
@@ -4367,7 +4367,7 @@ msgstr "أضف إلى هذا النشاط عن طريق إرسال بريد إل
 
 #. source: hrms
 msgid "Add unused leaves from previous allocations"
-msgstr "إضافة الاجازات غير المستخدمة من المخصصات السابقة"
+msgstr "إضافة الإجازات غير المستخدمة من المخصصات السابقة"
 
 #. source: hrms
 msgid "Add unused leaves from previous leave period's allocation to this allocation"
@@ -4412,7 +4412,7 @@ msgstr ""
 
 #. source: hrms
 msgid "Added On"
-msgstr "تمت إضافة على"
+msgstr "تاريخ الإضافة"
 
 #. source: erpnext
 msgid "Added Supplier Role to User {0}."
@@ -4432,7 +4432,7 @@ msgstr ""
 
 #. source: hrms
 msgid "Added to details"
-msgstr "تم اضافته الى التفاصيل"
+msgstr "تم اضافته إلى التفاصيل"
 
 #. source: frappe
 msgid "Added {0} ({1})"
@@ -4480,7 +4480,7 @@ msgstr "بيانات إضافية"
 
 #. source: erpnext
 msgid "Additional Details"
-msgstr "تفاصيل اضافية"
+msgstr "تفاصيل إضافية"
 
 #. source: erpnext
 msgid "Additional Discount"
@@ -4492,7 +4492,7 @@ msgstr "مبلغ الخصم الإضافي"
 
 #. source: erpnext
 msgid "Additional Discount Amount (Company Currency)"
-msgstr "مقدار الخصم الاضافي (بعملة الشركة)"
+msgstr "مقدار الخصم الإضافي (بعملة الشركة)"
 
 #. source: erpnext
 msgid ""
@@ -4516,7 +4516,7 @@ msgstr "معلومات إضافية"
 
 #. source: erpnext
 msgid "Additional Information"
-msgstr "معلومة اضافية"
+msgstr "معلومة إضافية"
 
 #. source: hrms
 msgid "Additional Information "
@@ -4536,7 +4536,7 @@ msgstr "ملاحظات إضافية"
 
 #. source: erpnext
 msgid "Additional Operating Cost"
-msgstr "تكاليف تشغيل اضافية"
+msgstr "تكاليف تشغيل إضافية"
 
 #. source: hrms
 msgid "Additional PF"
@@ -4724,7 +4724,7 @@ msgstr "تسوية بناءً على سعر فاتورة الشراء"
 
 #. source: frappe
 msgid "Administration"
-msgstr "الادارة"
+msgstr "الإدارة"
 
 #. source: erpnext
 msgid "Administrative Assistant"
@@ -4748,7 +4748,7 @@ msgstr "تسجيل دخول مسؤول النظام"
 
 #. source: frappe
 msgid "Administrator accessed {0} on {1} via IP Address {2}."
-msgstr ".{2} المسؤول ولج  {0} بتاريخ {1} عبر العنوان"
+msgstr "المسؤول ولج {0} بتاريخ {1} عبر العنوان {2}."
 
 #. source: frappe
 msgid "Administrator can't follow"
@@ -4906,7 +4906,7 @@ msgstr "بعد"
 
 #. source: frappe
 msgid "After Cancel"
-msgstr "بعد الغاء"
+msgstr "بعد إلغاء"
 
 #. source: frappe
 msgid "After Delete"
@@ -5202,7 +5202,7 @@ msgstr "كل يوم"
 
 #. source: erpnext
 msgid "All Departments"
-msgstr "جميع الاقسام"
+msgstr "جميع الأقسام"
 
 #. source: erpnext
 msgid "All Employee (Active)"
@@ -5324,7 +5324,7 @@ msgstr "تم استلام جميع الأصناف بالفعل"
 
 #. source: erpnext
 msgid "All items have already been transferred for this Work Order."
-msgstr "جميع الإصناف تم نقلها لأمر العمل"
+msgstr "جميع الأصناف تم نقلها لأمر العمل"
 
 #. source: erpnext
 msgid "All items in this document already have a linked Quality Inspection."
@@ -7144,7 +7144,7 @@ msgstr "فترة الطلب لا يمكن ان تكون خلال سجلين مخ
 
 #. source: hrms
 msgid "Application period cannot be outside leave allocation period"
-msgstr "فترة الاجازة لا يمكن أن تكون خارج فترة الاجازة المسموحة للموظف."
+msgstr "فترة الإجازة لا يمكن أن تكون خارج فترة الإجازة المسموحة للموظف."
 
 #. source: hrms
 msgid "Applications Received"
@@ -7196,7 +7196,7 @@ msgstr "ينطبق على السحوبات والإيداعات"
 
 #. source: hrms
 msgid "Apply"
-msgstr "يتقدم"
+msgstr "تقديم طلب"
 
 #. source: hrms
 msgid "Apply / Approve Leaves"
@@ -7529,7 +7529,7 @@ msgstr "حالة الموافقة"
 
 #. source: hrms
 msgid "Approval Status must be 'Approved' or 'Rejected'"
-msgstr "حالة الموافقة يجب ان تكون (موافق عليه) او (مرفوض)"
+msgstr "حالة الموافقة يجب ان تكون (موافق عليه) أو (مرفوض)"
 
 #. source: hrms
 msgid "Approve"
@@ -7549,7 +7549,7 @@ msgstr "الموافقات"
 
 #. source: erpnext
 msgid "Approving Role (above authorized value)"
-msgstr "الدور الوظيفي الذي لديه صلاحية الموافقة على قيمة اعلى من القيمة المرخص بها"
+msgstr "الدور الوظيفي الذي لديه صلاحية الموافقة على قيمة أعلى من القيمة المرخص بها"
 
 #. source: erpnext
 msgid "Approving Role cannot be same as role the rule is Applicable To"
@@ -7561,7 +7561,9 @@ msgstr "المستخدم الذي لديه صلاحية الموافقة على 
 
 #. source: erpnext
 msgid "Approving User cannot be same as user the rule is Applicable To"
-msgstr "المستخدم الذي لدية صلاحية الموافقة لايمكن أن يكون نفس المستخدم الذي تنطبق عليه القاعدة"
+msgstr ""
+"المستخدم الذي لديه صلاحية الموافقة لا يمكن أن يكون نفس المستخدم الذي تنطبق عليه "
+"القاعدة"
 
 #. source: erpnext
 msgid "Approximately match the description/party name against parties"
@@ -7584,9 +7586,9 @@ msgctxt "Number system"
 msgid "Ar"
 msgstr "ع"
 
-#. source: hrms
+#. source: frappe
 msgid "Archive"
-msgstr "أرشيف"
+msgstr "أرشفة"
 
 #. source: frappe
 msgid "Archived"
@@ -7998,7 +8000,7 @@ msgstr "التخلص من الأصول"
 
 #. source: erpnext
 msgid "Asset Finance Book"
-msgstr "كتاب الأصول المالية"
+msgstr "الدفتر المالي للأصل"
 
 #. source: erpnext
 msgid "Asset ID"
@@ -8122,7 +8124,7 @@ msgstr "تم إلغاء الأصل"
 
 #. source: erpnext
 msgid "Asset cannot be cancelled, as it is already {0}"
-msgstr "لا يمكن إلغاء الأصل، لانه بالفعل {0}"
+msgstr "لا يمكن إلغاء الأصل، لأنه بالفعل {0}"
 
 #. source: erpnext
 msgid "Asset cannot be scrapped before the last depreciation entry."
@@ -8238,7 +8240,7 @@ msgstr "الأصل {0} غير معتمد. يرجى اعتماد الأصل قب�
 
 #. source: erpnext
 msgid "Asset {0} must be submitted"
-msgstr "الاصل {0} يجب تقديمه"
+msgstr "الأصل {0} يجب تقديمه"
 
 #. source: erpnext
 msgid "Asset {assets_link} created for {item_code}"
@@ -8381,9 +8383,9 @@ msgstr "تعيين هيكل..."
 msgid "Assigning Structures..."
 msgstr "هيكلية التخصيص..."
 
-#. source: hrms
+#. source: frappe
 msgid "Assigning..."
-msgstr "تعيين..."
+msgstr "جارٍ التعيين..."
 
 #. source: frappe
 msgid "Assignment"
@@ -8669,7 +8671,7 @@ msgstr "مرفق إلى الحقل"
 
 #. source: frappe
 msgid "Attached To Name"
-msgstr "أرفقت للأسم"
+msgstr "أرفقت للاسم"
 
 #. source: frappe
 msgid "Attached To Name must be a string or an integer"
@@ -9101,7 +9103,7 @@ msgstr "إنشاء تلقائي لجهة الاتصال"
 
 #. source: frappe
 msgid "Auto Email Report"
-msgstr "ارسال التقارير عبر البريد الالكتروني الياً"
+msgstr "إرسال التقارير عبر البريد الإلكتروني الياً"
 
 #. source: erpnext
 msgid "Auto Fetch"
@@ -9855,7 +9857,7 @@ msgstr "BOM الكمية"
 
 #. source: erpnext
 msgid "BOM Rate"
-msgstr "سعر او معدل قائمة مكونات المواد"
+msgstr "سعر أو معدل قائمة مكونات المواد"
 
 #. source: erpnext
 msgid "BOM Scrap Item"
@@ -9923,11 +9925,11 @@ msgstr "تقرير الفرق BOM"
 
 #. source: erpnext
 msgid "BOM Website Item"
-msgstr "صنف الموقع الالكتروني بقائمة المواد"
+msgstr "صنف الموقع الإلكتروني بقائمة المواد"
 
 #. source: erpnext
 msgid "BOM Website Operation"
-msgstr "عملية الموقع الالكتروني بقائمة المواد"
+msgstr "عملية الموقع الإلكتروني بقائمة المواد"
 
 #. source: erpnext
 msgid "BOM and Finished Good Quantity is mandatory for Disassembly"
@@ -9991,7 +9993,7 @@ msgstr "رجوع"
 
 #. source: frappe
 msgid "Back to Desk"
-msgstr "العودة الى المكتب"
+msgstr "العودة إلى المكتب"
 
 #. source: frappe
 msgid "Back to Home"
@@ -10071,7 +10073,7 @@ msgstr "قائمة العمليات"
 
 #. source: frappe
 msgid "Backing up Data."
-msgstr "جاري نسخ البيانات احتياطيًا."
+msgstr "جارٍ نسخ البيانات احتياطيًا."
 
 #. source: frappe
 msgid "Backing up to Google Drive."
@@ -10538,7 +10540,7 @@ msgstr "برميل (بيرة)"
 
 #. source: hrms
 msgid "Base"
-msgstr "الاساسي"
+msgstr "الأساسي"
 
 #. source: hrms
 msgid "Base & Variable"
@@ -10630,7 +10632,7 @@ msgstr "بناءً على القيمة"
 
 #. source: frappe
 msgid "Based on Field"
-msgstr "على أساس الميدان"
+msgstr "بناءً على الحقل"
 
 #. source: frappe
 msgid "Based on Permissions For User"
@@ -10674,7 +10676,7 @@ msgstr "سعر أساسي (عملة الشركة)"
 
 #. source: erpnext
 msgid "Basic Rate (as per Stock UOM)"
-msgstr "التسعير الاساسي استنادأ لوحدة القياس"
+msgstr "التسعير الأساسي استنادأ لوحدة القياس"
 
 #. source: erpnext
 msgid "Batch"
@@ -11090,7 +11092,7 @@ msgstr "تفاصيل الفاتورة"
 
 #. source: erpnext
 msgid "Billing Email"
-msgstr "البريد الالكتروني لقوائم الدفع"
+msgstr "البريد الإلكتروني لقوائم الدفع"
 
 #. source: erpnext
 msgid "Billing Hours"
@@ -11326,7 +11328,7 @@ msgstr "تصنيف المدونة"
 
 #. source: frappe
 msgid "Blog Intro"
-msgstr "بدايه المدونه"
+msgstr "بداية المدونه"
 
 #. source: frappe
 msgid "Blog Introduction"
@@ -11418,7 +11420,7 @@ msgstr "تسجيل الدفعات المقدمة في حساب طرف منفصل
 
 #. source: erpnext
 msgid "Book Appointment"
-msgstr "موعد الكتاب"
+msgstr "حجز موعد"
 
 #. source: erpnext
 msgid "Book Asset Depreciation Entry Automatically"
@@ -11734,7 +11736,7 @@ msgstr "تقرير إنحرافات الموازنة"
 
 #. source: erpnext
 msgid "Budget cannot be assigned against Group Account {0}"
-msgstr "لايمكن أسناد الميزانية للمجموعة Account {0}"
+msgstr "لا يمكن أسناد الميزانية للمجموعة Account {0}"
 
 #. source: erpnext
 msgid "Budget cannot be assigned against {0}, as it's not an Income or Expense account"
@@ -12188,7 +12190,7 @@ msgstr "إحسب الربح بناء على"
 
 #. source: erpnext
 msgid "Calculate Depreciation"
-msgstr "حساب الاهلاك"
+msgstr "حساب الإهلاك"
 
 #. source: erpnext
 msgid "Calculate Estimated Arrival Times"
@@ -12276,7 +12278,7 @@ msgstr "عيار"
 
 #. source: frappe
 msgid "Call"
-msgstr "أتصال"
+msgstr "اتصال"
 
 #. source: erpnext
 msgid "Call Again"
@@ -12474,7 +12476,7 @@ msgstr "لا يمكن التصفية بناءً على طريقة الدفع، �
 
 #. source: erpnext
 msgid "Can not filter based on Voucher No, if grouped by Voucher"
-msgstr "لا يمكن الفلتره علي اساس (رقم الأيصال)، إذا تم وضعه في مجموعة على اساس (ايصال)"
+msgstr "لا يمكن الفلترة على أساس (رقم السند)، إذا تم وضعه في مجموعة على أساس (سند)"
 
 #. source: frappe
 msgid "Can not rename as column {0} is already present on DocType."
@@ -12538,11 +12540,11 @@ msgstr "إلغاء الكل"
 
 #. source: frappe
 msgid "Cancel All Documents"
-msgstr "الغاء جميع الوثائق"
+msgstr "إلغاء جميع الوثائق"
 
 #. source: erpnext
 msgid "Cancel At End Of Period"
-msgstr "الغاء في نهاية الفترة"
+msgstr "إلغاء في نهاية الفترة"
 
 #. source: frappe
 msgid "Cancel Import"
@@ -12608,7 +12610,7 @@ msgstr "إلغاء الوثائق"
 
 #. source: frappe
 msgid "Cancelling {0}"
-msgstr "الغاء {0}"
+msgstr "إلغاء {0}"
 
 #. source: erpnext
 msgid "Cannot Assign Cashier"
@@ -12752,7 +12754,7 @@ msgstr "لا يمكن الإلغاء حيث أن معالجة المستندات
 
 #. source: erpnext
 msgid "Cannot cancel because submitted Stock Entry {0} exists"
-msgstr "لا يمكن الإلغاء لان هناك قيود مخزون مقدمة {0} موجودة"
+msgstr "لا يمكن الإلغاء لأن هناك قيود مخزون مقدمة {0} موجودة"
 
 #. source: frappe
 msgid ""
@@ -12813,7 +12815,7 @@ msgid ""
 "Cannot change Fiscal Year Start Date and Fiscal Year End Date once the Fiscal Year is"
 " saved."
 msgstr ""
-"لا يمكن تغيير تاريخ بدء السنه المالية وتاريخ انتهاء السنه المالية بمجرد حفظ السنه "
+"لا يمكن تغيير تاريخ بدء السنة المالية وتاريخ انتهاء السنة المالية بمجرد حفظ السنة "
 "المالية."
 
 #. source: erpnext
@@ -12882,7 +12884,7 @@ msgstr "لا يمكن تكوين أنواع المستندات الأساسية 
 
 #. source: erpnext
 msgid "Cannot convert Cost Center to ledger as it has child nodes"
-msgstr "لا يمكن تحويل مركز التكلفة إلى حساب دفتر الأستاذ لانه مرتبط بعقدة فرعية"
+msgstr "لا يمكن تحويل مركز التكلفة إلى حساب دفتر الأستاذ لأنه مرتبط بعقدة فرعية"
 
 #. source: erpnext
 msgid "Cannot convert Task to non-group because the following child Tasks exist: {0}."
@@ -12950,7 +12952,7 @@ msgstr "لا يمكن إنشاء إرجاع للفاتورة الموحدة {0}.
 
 #. source: erpnext
 msgid "Cannot deactivate or cancel BOM as it is linked with other BOMs"
-msgstr "لا يمكن تعطيل أو إلغاء قائمة المواد لانها مترابطة مع قوائم مواد اخرى"
+msgstr "لا يمكن تعطيل أو إلغاء قائمة المواد لأنها مترابطة مع قوائم مواد أخرى"
 
 #. source: erpnext
 msgid "Cannot declare as Lost because an active Quotation exists."
@@ -12978,7 +12980,7 @@ msgstr "لا يمكن حذف المجلدات الرئيسية والمرفقا�
 
 #. source: erpnext
 msgid "Cannot delete Serial No {0}, as it is used in stock transactions"
-msgstr "لا يمكن حذف الرقم التسلسلي {0}، لانه يتم استخدامها في قيود المخزون"
+msgstr "لا يمكن حذف الرقم التسلسلي {0}، لأنه يتم استخدامها في قيود المخزون"
 
 #. source: erpnext
 msgid "Cannot delete an item which has been ordered"
@@ -13073,8 +13075,8 @@ msgstr "لا يمكن تعديل المخططات القياسية"
 #. source: frappe
 msgid "Cannot edit a standard report. Please duplicate and create a new report"
 msgstr ""
-"لا يمكنك التعديل على التقارير القياسية. يرجى نسخ التقريرالقياسي و التعديل على النسخة "
-"الجديدة"
+"لا يمكنك التعديل على التقارير القياسية. يرجى نسخ التقرير القياسي و التعديل على النسخة"
+" الجديدة"
 
 #. source: frappe
 msgid "Cannot edit cancelled document"
@@ -13149,7 +13151,7 @@ msgstr ""
 
 #. source: hrms
 msgid "Cannot find active Leave Period"
-msgstr "لا يمكن ايجاد فترة الاجازة النشطة"
+msgstr "لا يمكن ايجاد فترة الإجازة النشطة"
 
 #. source: frappe
 msgid "Cannot find file {} on disk"
@@ -13267,9 +13269,7 @@ msgstr "لا يمكن تعيين إشعار بالحدث {0} على نوع ال�
 
 #. source: erpnext
 msgid "Cannot set as Lost as Sales Order is made."
-msgstr ""
-"لا يمكن أن تعين كخسارة لأنه تم تقديم أمر البيع. <br>Cannot set as Lost as Sales Order"
-" is made."
+msgstr "لا يمكن أن تعين كخسارة لأنه تم تقديم أمر البيع."
 
 #. source: erpnext
 msgid "Cannot set authorization on basis of Discount for {0}"
@@ -13521,9 +13521,7 @@ msgstr "النقدية الحاضرة"
 
 #. source: erpnext
 msgid "Cash or Bank Account is mandatory for making payment entry"
-msgstr ""
-"الحساب النقدي أو البنكي مطلوب لعمل مدخل بيع <br>Cash or Bank Account is mandatory for"
-" making payment entry"
+msgstr "الحساب النقدي أو البنكي مطلوب لعمل مدخل بيع"
 
 #. source: erpnext
 msgid "Cash/Bank Account"
@@ -13547,7 +13545,7 @@ msgstr "أمين الصندوق معين حالياً لنقطة بيع أخرى
 
 #. source: hrms
 msgid "Casual Leave"
-msgstr "أجازة عادية"
+msgstr "إجازة عادية"
 
 #. source: erpnext
 msgid "Catch All"
@@ -13810,7 +13808,7 @@ msgstr "التغييرات في {0}"
 
 #. source: hrms
 msgid "Changing '{0}' to {1}."
-msgstr "جاري تغيير '{0}' إلى {1}."
+msgstr "جارٍ تغيير '{0}' إلى {1}."
 
 #. source: erpnext
 msgid "Changing Customer Group for the selected Customer is not allowed."
@@ -14050,7 +14048,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Check this to disallow fractions. (for Nos)"
-msgstr "حدد هذا الخيار لعدم السماح بالكسور مع الارقام (for Nos)"
+msgstr "حدد هذا الخيار لعدم السماح بالكسور مع الأرقام (for Nos)"
 
 #. source: frappe
 msgid "Check to display the full numeric value (e.g., 1,234,567 instead of 1.2M)."
@@ -14186,7 +14184,7 @@ msgstr "الشيكات والإيداعات التي تم تسويتها بشك�
 
 #. source: erpnext
 msgid "Cheques and Deposits incorrectly cleared"
-msgstr "الشيكات والودائع موضحة او المقاصة تمت بشكل غير صحيح"
+msgstr "الشيكات والودائع موضحة أو المقاصة تمت بشكل غير صحيح"
 
 #. source: erpnext
 msgid "Chief Executive Officer"
@@ -14423,7 +14421,7 @@ msgstr "مسح بيانات العرض التوضيحي"
 
 #. source: frappe
 msgid "Clear Error Logs"
-msgstr "مسح سجلات سجلات الاخطاء"
+msgstr "مسح سجلات سجلات الأخطاء"
 
 #. source: frappe
 msgid "Clear Filters"
@@ -14712,7 +14710,7 @@ msgstr "أغلق الشرط"
 
 #. source: erpnext
 msgid "Close Issue After Days"
-msgstr "اغلاق المشكلة بعد ايام"
+msgstr "إغلاق المشكلة بعد أيام"
 
 #. source: erpnext
 msgid "Close Loan"
@@ -14756,7 +14754,7 @@ msgstr "لا يمكن إيقاف أو إعادة فتح أمر العمل الم
 
 #. source: erpnext
 msgid "Closed order cannot be cancelled. Unclose to cancel."
-msgstr "الطلب المغلق لايمكن إلغاؤه. ازالة الاغلاق لكي تتمكن من الالغاء"
+msgstr "الطلب المغلق لا يمكن إلغاؤه. إزالة الإغلاق لكي تتمكن من الإلغاء"
 
 #. source: hrms
 msgid "Closes On"
@@ -14784,7 +14782,7 @@ msgstr "الإغلاق (الافتتاحي + الإجمالي)"
 
 #. source: erpnext
 msgid "Closing Account Head"
-msgstr "اقفال حساب المركز الرئيسي"
+msgstr "إقفال حساب المركز الرئيسي"
 
 #. source: erpnext
 msgid "Closing Account {0} must be of type Liability / Equity"
@@ -14821,7 +14819,7 @@ msgstr "الرصيد الختامي وفقاً للنظام"
 
 #. source: erpnext
 msgid "Closing Date"
-msgstr "تاريخ الاغلاق"
+msgstr "تاريخ الإغلاق"
 
 #. source: hrms
 msgid "Closing Notes"
@@ -15355,7 +15353,7 @@ msgstr "البريد الإلكتروني للشركة أو الشخصي إلز�
 
 #. source: erpnext
 msgid "Company registration numbers for your reference. Tax numbers etc."
-msgstr "ارقام تسجيل الشركة و ارقام ملفات الضرائب..... الخ"
+msgstr "أرقام تسجيل الشركة و أرقام ملفات الضرائب..... الخ"
 
 #. source: erpnext
 msgid "Company which internal customer represents"
@@ -15464,7 +15462,7 @@ msgstr "أكمل تسجيلك"
 
 #. source: frappe
 msgid "Completed"
-msgstr "أكتمل"
+msgstr "اكتمل"
 
 #. source: erpnext
 msgid "Completed By"
@@ -15762,9 +15760,9 @@ msgid ""
 "counter."
 msgstr "تهيئة جوانب مختلفة لكيفية عمل تسمية المستندات مثل سلسلة التسمية، العداد الحالي."
 
-#. source: frappe
+#. source: hrms
 msgid "Confirm"
-msgstr "أكد"
+msgstr "تأكيد"
 
 #. source: frappe
 msgctxt "Confirm gravatar deletion prompt"
@@ -16128,7 +16126,7 @@ msgstr "رقم جهة الاتصال"
 
 #. source: frappe
 msgid "Contact Numbers"
-msgstr "ارقام التواصل"
+msgstr "أرقام التواصل"
 
 #. source: erpnext
 msgid "Contact Person"
@@ -16392,7 +16390,7 @@ msgstr "تحويل إلى دفتر الأستاذ"
 
 #. source: erpnext
 msgid "Convert to Non-Group"
-msgstr "تحويل الي تصنيف (غير المجموعه)"
+msgstr "تحويل إلى تصنيف (غير المجموعة)"
 
 #. source: erpnext
 msgid "Converted"
@@ -16476,7 +16474,7 @@ msgstr "تصحيحي"
 
 #. source: erpnext
 msgid "Corrective Action"
-msgstr "اجراء تصحيحي"
+msgstr "إجراء تصحيحي"
 
 #. source: erpnext
 msgid "Corrective Job Card"
@@ -16905,7 +16903,7 @@ msgstr "كرور"
 
 #. source: frappe
 msgid "Create"
-msgstr "انشاء"
+msgstr "إنشاء"
 
 #. source: frappe
 msgid "Create & Continue"
@@ -17093,12 +17091,12 @@ msgstr "إنشاء قائمة مواد متعددة المستويات"
 
 #. source: frappe
 msgid "Create New"
-msgstr "انشاء جديد"
+msgstr "إنشاء جديد"
 
 #. source: frappe
 msgctxt "Create a new document from list view"
 msgid "Create New"
-msgstr "انشاء جديد"
+msgstr "إنشاء جديد"
 
 #. source: erpnext
 msgid "Create New Contact"
@@ -17314,7 +17312,7 @@ msgstr "إنشاء المستخدم تلقائياً"
 
 #. source: frappe
 msgid "Create User Email"
-msgstr "انشاء بريد إلكتروني"
+msgstr "إنشاء بريد إلكتروني"
 
 #. source: erpnext
 msgid "Create User Permission"
@@ -17385,7 +17383,7 @@ msgstr "إنشاء قاعدة جديدة لتصنيف المعاملات تلق�
 
 #. source: frappe
 msgid "Create a new {0}"
-msgstr "انشاء جديد {0}"
+msgstr "إنشاء جديد {0}"
 
 #. source: erpnext
 msgid "Create a variant with the template image."
@@ -17457,7 +17455,7 @@ msgstr "أنشئ في"
 
 #. source: frappe
 msgid "Created By"
-msgstr "منشئه بواسطه"
+msgstr "منشئه بواسطة"
 
 #. source: erpnext
 msgid "Created By Migration"
@@ -17507,7 +17505,7 @@ msgstr "إنشاء حسابات..."
 
 #. source: hrms
 msgid "Creating Appraisals"
-msgstr "جاري إنشاء التقييمات"
+msgstr "جارٍ إنشاء التقييمات"
 
 #. source: erpnext
 msgid "Creating Delivery Note ..."
@@ -17741,7 +17739,7 @@ msgstr "تم إنشاء الإشعار الدائن {0} تلقائيًا"
 
 #. source: erpnext
 msgid "Credit To"
-msgstr "دائن الى"
+msgstr "دائن إلى"
 
 #. source: erpnext
 msgid "Credit in Company Currency"
@@ -17979,7 +17977,7 @@ msgstr "قائمة المواد الحالية"
 
 #. source: erpnext
 msgid "Current BOM and New BOM can not be same"
-msgstr "فاتورة المواد الحالية وفاتورة المواد الجديدة لايمكن أن يكونوا نفس الفاتورة"
+msgstr "فاتورة المواد الحالية وفاتورة المواد الجديدة لا يمكن أن يكونوا نفس الفاتورة"
 
 #. source: hrms
 msgid "Current CTC"
@@ -18359,7 +18357,7 @@ msgstr "معلومات اتصال العميل"
 
 #. source: erpnext
 msgid "Customer Contact Email"
-msgstr "البريد الالكتروني للعميل"
+msgstr "البريد الإلكتروني للعميل"
 
 #. source: erpnext
 msgid "Customer Credit Balance"
@@ -18395,7 +18393,7 @@ msgstr "صنف مجموعة العملاء"
 
 #. source: erpnext
 msgid "Customer Group Name"
-msgstr "أسم فئة العميل"
+msgstr "اسم فئة العميل"
 
 #. source: erpnext
 msgid "Customer Group: {0} does not exist"
@@ -18539,7 +18537,7 @@ msgstr "الزبون مطلوب للخصم المعني بالزبائن"
 
 #. source: erpnext
 msgid "Customer {0} does not belong to project {1}"
-msgstr "العميل {0} لا ينتمي الى المشروع {1}"
+msgstr "العميل {0} لا ينتمي إلى المشروع {1}"
 
 #. source: erpnext
 msgid "Customer's Item Code"
@@ -18801,7 +18799,7 @@ msgstr "اسم لوحة القيادة"
 
 #. source: frappe
 msgid "Dashboard Settings"
-msgstr "اعدادات اللوحة الرئيسية"
+msgstr "إعدادات اللوحة الرئيسية"
 
 #. source: frappe
 msgid "Dashboard View"
@@ -18845,7 +18843,7 @@ msgstr "سجل استيراد البيانات"
 
 #. source: frappe
 msgid "Data Import Template"
-msgstr "قالب ادخال البيانات"
+msgstr "قالب إدخال البيانات"
 
 #. source: erpnext
 msgid "Data Import and Settings"
@@ -19450,7 +19448,7 @@ msgstr "مركز التكلفة المشتري الافتراضي"
 
 #. source: erpnext
 msgid "Default Buying Price List"
-msgstr "قائمة اسعار الشراء الافتراضية"
+msgstr "قائمة أسعار الشراء الافتراضية"
 
 #. source: erpnext
 msgid "Default Buying Terms"
@@ -19534,7 +19532,7 @@ msgstr "حساب مطالبات المصروفات المستحقة الدفع �
 
 #. source: erpnext
 msgid "Default Finance Book"
-msgstr "دفتر المالية الافتراضي"
+msgstr "الدفتر المالي الافتراضي"
 
 #. source: erpnext
 msgid "Default Finished Goods Warehouse"
@@ -19558,7 +19556,7 @@ msgstr "حساب الدخل الافتراضي"
 
 #. source: frappe
 msgid "Default Incoming"
-msgstr "الايرادات الافتراضية"
+msgstr "الإيرادات الافتراضية"
 
 #. source: erpnext
 msgid "Default Inventory Account"
@@ -19574,7 +19572,7 @@ msgstr "الشركة المصنعة الافتراضية للعنصر"
 
 #. source: frappe
 msgid "Default Letter Head"
-msgstr "رأس الرسالة الأفتراضي"
+msgstr "رأس الرسالة الافتراضي"
 
 #. source: erpnext
 msgid "Default Manufacturer Part No"
@@ -19606,7 +19604,7 @@ msgstr "حساب خصم الدفع الافتراضي"
 
 #. source: erpnext
 msgid "Default Payment Request Message"
-msgstr "رسالة 'طلب الدفع' الافتراضيه"
+msgstr "رسالة 'طلب الدفع' الافتراضية"
 
 #. source: erpnext
 msgid "Default Payment Terms Template"
@@ -19658,7 +19656,7 @@ msgstr "حساب المدينون الافتراضي"
 
 #. source: frappe
 msgid "Default Redirect URI"
-msgstr "رابط اعادة التوجيه الافتراضي"
+msgstr "رابط إعادة التوجيه الافتراضي"
 
 #. source: frappe
 msgid "Default Role at Time of Signup"
@@ -20308,7 +20306,7 @@ msgstr "التسليم والرسوم مدفوعة"
 
 #. source: erpnext
 msgid "Delivered Items To Be Billed"
-msgstr "مواد سلمت و لم يتم اصدار فواتيرها"
+msgstr "مواد سلمت و لم يتم إصدار فواتيرها"
 
 #. source: erpnext
 msgid "Delivered Qty"
@@ -20624,7 +20622,7 @@ msgstr "قيد إهلاك مقابل {0} بقيمة {1}"
 
 #. source: erpnext
 msgid "Depreciation Expense Account"
-msgstr "حساب نفقات الاهلاك"
+msgstr "حساب نفقات الإهلاك"
 
 #. source: erpnext
 msgid "Depreciation Expense Account should be an Income or Expense Account."
@@ -20660,7 +20658,7 @@ msgstr "صف الإهلاك {0}: يجب أن تكون القيمة المتوق�
 
 #. source: erpnext
 msgid "Depreciation Schedule"
-msgstr "جدول الاهلاك الزمني"
+msgstr "جدول الإهلاك الزمني"
 
 #. source: erpnext
 msgid "Depreciation Schedule View"
@@ -21061,7 +21059,7 @@ msgstr "تعطيل تقرير"
 
 #. source: erpnext
 msgid "Disable Rounded Total"
-msgstr "تعطيل الاجمالي المقرب"
+msgstr "تعطيل الإجمالي المقرب"
 
 #. source: frappe
 msgid "Disable SMTP server authentication"
@@ -21177,7 +21175,7 @@ msgstr "تعطيل الجلب التلقائي للكمية الموجودة"
 
 #. source: hrms
 msgid "Disabling Push Notifications..."
-msgstr "جاري تعطيل الإشعارات الفورية..."
+msgstr "جارٍ تعطيل الإشعارات الفورية..."
 
 #. source: erpnext
 msgid "Disassemble"
@@ -21380,7 +21378,7 @@ msgstr "رفض"
 
 #. source: erpnext
 msgid "Dispatch"
-msgstr "ارسال"
+msgstr "إرسال"
 
 #. source: erpnext
 msgid "Dispatch Address"
@@ -22591,7 +22589,7 @@ msgstr "تكرار الحقل"
 
 #. source: erpnext
 msgid "Duplicate item group found in the item group table"
-msgstr "تم العثور علي مجموعه عناصر مكرره في جدول مجموعه الأصناف"
+msgstr "تم العثور على مجموعة عناصر مكررة في جدول مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Duplicate languages found on Dunning Letter Text. Keep only one of them."
@@ -23183,7 +23181,7 @@ msgstr "حساب البريد الإلكتروني {0} معطل"
 
 #. source: frappe
 msgid "Email Address"
-msgstr "البريد الالكتروني"
+msgstr "البريد الإلكتروني"
 
 #. source: erpnext
 msgid "Email Address (required)"
@@ -23223,7 +23221,7 @@ msgstr "تفاصيل البريد الإلكتروني"
 
 #. source: erpnext
 msgid "Email Digest"
-msgstr "ملخص مرسل عن طريق الايميل"
+msgstr "ملخص مرسل عن طريق الإيميل"
 
 #. source: erpnext
 msgid "Email Digest Recipient"
@@ -23231,7 +23229,7 @@ msgstr "مستلم ملخص البريد الإلكتروني"
 
 #. source: erpnext
 msgid "Email Digest Settings"
-msgstr "إعدادات الملخصات المرسله عبر الايميل"
+msgstr "إعدادات الملخصات المرسلة عبر الإيميل"
 
 #. source: erpnext
 msgid "Email Digest: {0}"
@@ -23263,7 +23261,7 @@ msgstr "ترويسة البريد الإلكتروني"
 
 #. source: frappe
 msgid "Email ID"
-msgstr "عنوان الايميل"
+msgstr "عنوان الإيميل"
 
 #. source: frappe
 msgid "Email IDs"
@@ -23299,7 +23297,7 @@ msgstr "إيصال البريد الإلكتروني"
 
 #. source: frappe
 msgid "Email Reply Help"
-msgstr "البريد الالكتروني رد مساعدة"
+msgstr "البريد الإلكتروني رد مساعدة"
 
 #. source: frappe
 msgid "Email Retry Limit"
@@ -23311,7 +23309,7 @@ msgstr "البريد الإلكتروني القاعدة"
 
 #. source: hrms
 msgid "Email Salary Slip to Employee"
-msgstr "إرسال كشف الراتب للموظفين بالبريد الالكتروني"
+msgstr "إرسال كشف الراتب للموظفين بالبريد الإلكتروني"
 
 #. source: hrms
 msgid "Email Salary Slips"
@@ -23359,7 +23357,7 @@ msgstr "سلاسل البريد الإلكتروني على المستند ال�
 
 #. source: frappe
 msgid "Email To"
-msgstr "البريد الإلكتروني الى"
+msgstr "البريد الإلكتروني إلى"
 
 #. source: frappe
 msgid "Email Unsubscribe"
@@ -23437,7 +23435,7 @@ msgstr "تم إرسال البريد الإلكتروني بنجاح."
 
 #. source: erpnext
 msgid "Email sent to"
-msgstr "تم ارسال الايميل الي"
+msgstr "تم إرسال الإيميل إلى"
 
 #. source: erpnext
 msgid "Email sent to {0}"
@@ -23481,7 +23479,7 @@ msgstr "رسائل البريد الإلكتروني هي صامتة"
 
 #. source: hrms
 msgid "Emails salary slip to employee based on preferred email selected in Employee"
-msgstr "ارسال كشف الراتب إلي البريد الاكتروني المفضل من قبل الموظف"
+msgstr "إرسال كشف الراتب إلي البريد الاكتروني المفضل من قبل الموظف"
 
 #. source: frappe
 msgid "Emails will be sent with next possible workflow actions"
@@ -23725,7 +23723,7 @@ msgstr "رقم الموظف"
 
 #. source: hrms
 msgid "Employee Onboarding"
-msgstr "اعداد الموظف"
+msgstr "إعداد الموظف"
 
 #. source: hrms
 msgid "Employee Onboarding Template"
@@ -23975,7 +23973,7 @@ msgstr "الموظف {0} غير موجود في المشاركين في حدث �
 
 #. source: hrms
 msgid "Employee {0} on Half day on {1}"
-msgstr "الموظف {0} لديه اجازة نصف يوم في {1}"
+msgstr "الموظف {0} لديه إجازة نصف يوم في {1}"
 
 #. source: hrms
 msgid "Employee {0} relieved on {1} must be set as 'Left'"
@@ -24543,7 +24541,7 @@ msgstr "يمكّن عروض التقويم وجانت."
 
 #. source: hrms
 msgid "Enabling Push Notifications..."
-msgstr "جاري تمكين الإشعارات الفورية..."
+msgstr "جارٍ تمكين الإشعارات الفورية..."
 
 #. source: frappe
 msgid ""
@@ -25059,11 +25057,11 @@ msgstr "أدخل الكمية المطلوب تصنيعها. سيتم جلب أ�
 
 #. source: frappe
 msgid "Enter url parameter for message"
-msgstr "ادخل معمل العنوان للرسالة"
+msgstr "أدخل معمل العنوان للرسالة"
 
 #. source: frappe
 msgid "Enter url parameter for receiver nos"
-msgstr "ادخل معامل العنوان لمشغل شبكة المستقبل"
+msgstr "أدخل معامل العنوان لمشغل شبكة المستقبل"
 
 #. source: hrms
 msgid "Enter yearly benefit amounts"
@@ -25075,7 +25073,7 @@ msgstr "أدخل عنوان بريدك الإلكتروني وسنرسل لك ر
 
 #. source: frappe
 msgid "Enter your password"
-msgstr "ادخل رقمك السري"
+msgstr "أدخل رقمك السري"
 
 #. source: hrms
 msgid "Enter {0}"
@@ -26012,7 +26010,7 @@ msgstr "نوع المطالبة بالنفقات"
 
 #. source: hrms
 msgid "Expense Claim for Vehicle Log {0}"
-msgstr "مطالبه المصروفات لسجل المركبات {0}"
+msgstr "مطالبة المصروفات لسجل المركبات {0}"
 
 #. source: hrms
 msgid "Expense Claim {0} already exists for the Vehicle Log"
@@ -26305,7 +26303,7 @@ msgstr "سيتم مزامنة الأذونات المصدرة بالقوة عن�
 
 #. source: hrms
 msgid "Exporting..."
-msgstr "جاري التصدير..."
+msgstr "جارٍ التصدير..."
 
 #. source: frappe
 msgid "Expose Recipients"
@@ -26895,7 +26893,7 @@ msgstr "تم جلب {0} أرقام تسلسلية متاحة فقط."
 
 #. source: hrms
 msgid "Fetching Employees"
-msgstr "جاري جلب الموظفين"
+msgstr "جارٍ جلب الموظفين"
 
 #. source: erpnext
 msgid "Fetching Error"
@@ -26903,7 +26901,7 @@ msgstr "خطأ في الجلب"
 
 #. source: erpnext
 msgid "Fetching Material Requests..."
-msgstr "جاري جلب طلبات المواد..."
+msgstr "جارٍ جلب طلبات المواد..."
 
 #. source: erpnext
 msgid "Fetching Sales Orders..."
@@ -26911,7 +26909,7 @@ msgstr "جلب طلبات المبيعات..."
 
 #. source: hrms
 msgid "Fetching Shift"
-msgstr "جاري جلب الوردية"
+msgstr "جارٍ جلب الوردية"
 
 #. source: frappe
 msgid "Fetching default Global Search documents."
@@ -26927,7 +26925,7 @@ msgstr "جلب الحقول من {0}..."
 
 #. source: hrms
 msgid "Fetching your geolocation"
-msgstr "جاري جلب موقعك الجغرافي"
+msgstr "جارٍ جلب موقعك الجغرافي"
 
 #. source: erpnext
 msgid "Fetching..."
@@ -26967,7 +26965,7 @@ msgstr "وصف الحقل"
 
 #. source: erpnext
 msgid "Field Mapping"
-msgstr "رسم الخرائط الميدانية"
+msgstr "ربط الحقول"
 
 #. source: frappe
 msgid "Field Missing"
@@ -27059,15 +27057,15 @@ msgstr "يجب أن يكون اسم الحقل المسمى {0} موجودًا �
 
 #. source: frappe
 msgid "Fieldname is limited to 64 characters ({0})"
-msgstr "اسم الحقل محدد ب 64 حرف<br>Fieldname is limited to 64 characters ({0})"
+msgstr "اسم الحقل محدود بـ 64 حرفًا ({0})"
 
 #. source: frappe
 msgid "Fieldname not set for Custom Field"
-msgstr "أسم الحقل لم يتم تعيينه لحقل مخصص"
+msgstr "اسم الحقل لم يتم تعيينه لحقل مخصص"
 
 #. source: frappe
 msgid "Fieldname which will be the DocType for this link field."
-msgstr "أسم الحقل الذي سيكون DOCTYPE لهذا الحقل الارتباط."
+msgstr "اسم الحقل الذي سيكون DOCTYPE لهذا الحقل الارتباط."
 
 #. source: erpnext
 msgid ""
@@ -27089,7 +27087,7 @@ msgstr "FIELDNAME {0} لا يمكن أن يكون أحرف خاصة مثل {1}"
 
 #. source: frappe
 msgid "Fieldname {0} conflicting with meta object"
-msgstr "أسم الحقل {0} متعارض مع الكلمات الدلائلية"
+msgstr "اسم الحقل {0} متعارض مع الكلمات الدلائلية"
 
 #. source: frappe
 msgid "Fieldname {0} is restricted"
@@ -27457,15 +27455,15 @@ msgstr "صيغة الدرجة النهائية"
 
 #. source: erpnext
 msgid "Finance Book"
-msgstr "كتاب المالية"
+msgstr "الدفتر المالي"
 
 #. source: erpnext
 msgid "Finance Book Detail"
-msgstr "كتاب المالية التفاصيل"
+msgstr "تفاصيل الدفتر المالي"
 
 #. source: erpnext
 msgid "Finance Book Id"
-msgstr "رقم دفتر تمويل"
+msgstr "معرّف الدفتر المالي"
 
 #. source: erpnext
 msgid "Finance Books"
@@ -27814,9 +27812,7 @@ msgstr "إعدادات الأصول الثابتة الافتراضية"
 
 #. source: erpnext
 msgid "Fixed Asset Item must be a non-stock item."
-msgstr ""
-"يجب أن يكون بند الأصول الثابتة عنصرا غير مخزون.<br>\\nFixed Asset Item must be a non-"
-"stock item."
+msgstr "يجب أن يكون بند الأصول الثابتة عنصرا غير مخزون."
 
 #. source: erpnext
 msgid "Fixed Asset Register"
@@ -27832,7 +27828,7 @@ msgstr "لا يمكن استخدام عنصر الأصول الثابتة {0} ف
 
 #. source: erpnext
 msgid "Fixed Assets"
-msgstr "الاصول الثابتة"
+msgstr "الأصول الثابتة"
 
 #. source: erpnext
 msgid "Fixed Deposit Number"
@@ -27974,7 +27970,7 @@ msgstr "متبوع بـ"
 msgid ""
 "Following Material Requests have been raised automatically based on Item's re-order "
 "level"
-msgstr "تم رفع طلبات المواد التالية تلقائيا بناء على مستوى اعادة الطلب للبنود"
+msgstr "تم رفع طلبات المواد التالية تلقائيا بناء على مستوى إعادة الطلب للبنود"
 
 #. source: frappe
 msgid "Following Report Filters have missing values:"
@@ -28124,8 +28120,8 @@ msgid ""
 "values will be copied to 'Packing List' table."
 msgstr ""
 "لبنود حزمة المنتج والمستودع والرقم المتسلسل ورقم الدفعة ستأخذ بعين الاعتبار من جدول "
-"قائمة التغليف. اذا كان للمستودع ورقم الدفعة نفس البند من بنود التغليف لأي بند من حزمة"
-" المنتج. هذه القيم يمكن ادخالها في جدول البند الرئيسي. والقيم سيتم نسخها الى جدول "
+"قائمة التغليف. إذا كان للمستودع ورقم الدفعة نفس البند من بنود التغليف لأي بند من حزمة"
+" المنتج. هذه القيم يمكن ادخالها في جدول البند الرئيسي. والقيم سيتم نسخها إلى جدول "
 "قائمة التغليف."
 
 #. source: erpnext
@@ -28627,7 +28623,7 @@ msgstr "الصيغة/المبلغ"
 
 #. source: hrms
 msgid "Fortnightly"
-msgstr "مرة كل اسبوعين"
+msgstr "مرة كل أسبوعين"
 
 #. source: frappe
 msgid "Forum"
@@ -28815,7 +28811,7 @@ msgstr "تردد لتجميع التقدم"
 
 #. source: erpnext
 msgid "Frequency of Depreciation (Months)"
-msgstr "تواتر او تكرار الاهلاك (أشهر)"
+msgstr "تواتر أو تكرار الإهلاك (أشهر)"
 
 #. source: erpnext
 msgid "Frequently Read Articles"
@@ -28948,7 +28944,7 @@ msgstr "من تاريخ التسليم"
 
 #. source: erpnext
 msgid "From Delivery Note"
-msgstr "من اشعار التسليم"
+msgstr "من إشعار التسليم"
 
 #. source: erpnext
 msgid "From Doctype"
@@ -29583,7 +29579,7 @@ msgstr "تم إنشاؤه"
 
 #. source: erpnext
 msgid "Generating Master Production Schedule..."
-msgstr "جاري إنشاء جدول الإنتاج الرئيسي..."
+msgstr "جارٍ إنشاء جدول الإنتاج الرئيسي..."
 
 #. source: erpnext
 msgid "Generating Preview"
@@ -29711,7 +29707,7 @@ msgstr "الحصول على أصناف للشراء فقط"
 
 #. source: erpnext
 msgid "Get Items from BOM"
-msgstr "تنزيل الاصناف من BOM"
+msgstr "تنزيل الأصناف من BOM"
 
 #. source: erpnext
 msgid "Get Items from Material Requests against this Supplier"
@@ -30664,7 +30660,7 @@ msgstr "تاريخ نصف اليوم إلزامي"
 
 #. source: hrms
 msgid "Half Day Date should be between From Date and To Date"
-msgstr "تاريخ نصف اليوم ينبغي أن يكون بين 'من تاريخ' و 'الى تاريخ'"
+msgstr "تاريخ نصف اليوم ينبغي أن يكون بين 'من تاريخ' و 'إلى تاريخ'"
 
 #. source: hrms
 msgid "Half Day Date should be in between Work From Date and Work End Date"
@@ -31048,7 +31044,7 @@ msgstr "هنا يمكنك إدراج تفاصيل عائلية مثل اسم ا�
 
 #. source: erpnext
 msgid "Here you can maintain height, weight, allergies, medical concerns etc"
-msgstr "هنا يمكنك ادراج تفاصيل عن الحالة الصحية مثل الطول والوزن، الحساسية، المخاوف الطبية"
+msgstr "هنا يمكنك إدراج تفاصيل عن الحالة الصحية مثل الطول والوزن، الحساسية، المخاوف الطبية"
 
 #. source: frappe
 msgid "Here's your tracking URL"
@@ -31282,7 +31278,7 @@ msgstr "إعدادات التوظيف"
 
 #. source: erpnext
 msgid "History In Company"
-msgstr "الحركة التاريخيه في الشركة"
+msgstr "الحركة التاريخية في الشركة"
 
 #. source: erpnext
 msgid "Hold"
@@ -32866,7 +32862,7 @@ msgstr ""
 
 #. source: frappe
 msgid "Illegal Access Token. Please try again"
-msgstr "وصول رمز غير قانوني. حاول مرة اخرى"
+msgstr "وصول رمز غير قانوني. حاول مرة أخرى"
 
 #. source: frappe
 msgid "Illegal Document Status for {0}"
@@ -32886,7 +32882,7 @@ msgstr "صورة"
 
 #. source: frappe
 msgid "Image Field"
-msgstr "صورة الميدان"
+msgstr "حقل الصورة"
 
 #. source: frappe
 msgid "Image Height"
@@ -33153,7 +33149,7 @@ msgstr "في"
 
 #. source: frappe
 msgid "In Days"
-msgstr "في الايام"
+msgstr "في الأيام"
 
 #. source: frappe
 msgid "In Filter"
@@ -33213,7 +33209,7 @@ msgstr "في عملية"
 
 #. source: erpnext
 msgid "In Production"
-msgstr "في الانتاج"
+msgstr "في الإنتاج"
 
 #. source: frappe
 msgid "In Progress"
@@ -33273,7 +33269,7 @@ msgstr "في الأحرف ( عملة الشركة )"
 
 #. source: erpnext
 msgid "In Words (Export) will be visible once you save the Delivery Note."
-msgstr "بالحروف (تصدير) سوف تكون مرئية بمجرد حفظ اشعار التسليم."
+msgstr "بالحروف (تصدير) سوف تكون مرئية بمجرد حفظ إشعار التسليم."
 
 #. source: erpnext
 msgid "In Words will be visible once you save the Delivery Note."
@@ -33477,11 +33473,11 @@ msgstr "تضمين حقل الاسم"
 
 #. source: erpnext
 msgid "Include Non Stock Items"
-msgstr "تشمل الاصناف الغير مخزنية"
+msgstr "تشمل الأصناف الغير مخزنية"
 
 #. source: erpnext
 msgid "Include POS Transactions"
-msgstr "تشمل معاملات نقطه البيع"
+msgstr "تشمل معاملات نقطة البيع"
 
 #. source: erpnext
 msgid "Include Payment"
@@ -33505,7 +33501,7 @@ msgstr "تضمين مخزون الأمان في حساب الكمية المطل
 
 #. source: frappe
 msgid "Include Search in Top Bar"
-msgstr "اضافة البحث في الشريط العلوي"
+msgstr "إضافة البحث في الشريط العلوي"
 
 #. source: hrms
 msgid "Include Shift Attendance Without Checkins"
@@ -33553,7 +33549,7 @@ msgstr "العطلات تحسب من ضمن أيام العمل"
 
 #. source: hrms
 msgid "Include holidays within leaves as leaves"
-msgstr "ايام العطل التي ضمن الإجازات تحسب إجازة"
+msgstr "أيام العطل التي ضمن الإجازات تحسب إجازة"
 
 #. source: erpnext
 msgid "Include in Charts"
@@ -34349,7 +34345,7 @@ msgstr "مهتم"
 
 #. source: frappe
 msgid "Interests"
-msgstr "الإهتمامات او الفوائد"
+msgstr "الاهتمامات"
 
 #. source: frappe
 msgid "Intermediate"
@@ -34581,7 +34577,7 @@ msgstr "رابط فيديو المقدمة"
 
 #. source: frappe
 msgid "Introduce your company to the website visitor."
-msgstr "اعرض شركتك لزائرن الموقع الألكتروني"
+msgstr "اعرض شركتك لزائرن الموقع الإلكتروني"
 
 #. source: frappe
 msgid "Introduction"
@@ -34873,7 +34869,7 @@ msgstr "صالح رمز الدخول"
 
 #. source: frappe
 msgid "Invalid Login. Try again."
-msgstr "تسجيل دخول غير صالح. حاول مرة اخرى."
+msgstr "تسجيل دخول غير صالح. حاول مرة أخرى."
 
 #. source: frappe
 msgid "Invalid Mail Server. Please rectify and try again."
@@ -35193,7 +35189,7 @@ msgstr "نوع حقل غير صالح: {0}"
 
 #. source: frappe
 msgid "Invalid fieldname '{0}' in autoname"
-msgstr "اسم الحقل غير صالح '{0}' في الااسم تلقائي"
+msgstr "اسم الحقل غير صالح '{0}' في الاسم تلقائي"
 
 #. source: erpnext
 msgid "Invalid file URL"
@@ -35924,7 +35920,7 @@ msgstr "قيد افتتاحي؟"
 
 #. source: hrms
 msgid "Is Optional Leave"
-msgstr "هو اجازة اختيارية"
+msgstr "هو إجازة اختيارية"
 
 #. source: frappe
 msgid "Is Optional State"
@@ -35992,7 +35988,7 @@ msgstr "عام"
 
 #. source: frappe
 msgid "Is Published Field"
-msgstr "ونشرت الميدان"
+msgstr "حقل حالة النشر"
 
 #. source: frappe
 msgid "Is Published Field must be a valid fieldname"
@@ -36184,7 +36180,7 @@ msgstr "قياسي"
 
 #. source: erpnext
 msgid "Is this Tax included in Basic Rate?"
-msgstr "هل هذه الضريبة متضمنة في الاسعار الأساسية؟"
+msgstr "هل هذه الضريبة متضمنة في الأسعار الأساسية؟"
 
 #. source: erpnext
 msgid "Issue"
@@ -36640,7 +36636,7 @@ msgstr "البند والضمان تفاصيل"
 
 #. source: frappe
 msgid "Item cannot be added to its own descendants"
-msgstr "البند لا يمكن أن تضاف الى أحفادها<br>Item cannot be added to its own descendants"
+msgstr "البند لا يمكن أن تضاف إلى أحفادها"
 
 #. source: erpnext
 msgid "Item for row {0} does not match Material Request"
@@ -36660,7 +36656,7 @@ msgstr "تمت إزالة الصنف لأنه لم يتم تحديد رقم تس
 
 #. source: erpnext
 msgid "Item must be added using 'Get Items from Purchase Receipts' button"
-msgstr "الصنف يجب اضافته مستخدما مفتاح \"احصل علي الأصناف من المشتريات المستلمة \""
+msgstr "الصنف يجب اضافته مستخدما مفتاح \"احصل على الأصناف من المشتريات المستلمة \""
 
 #. source: erpnext
 msgid "Item name"
@@ -36822,7 +36818,7 @@ msgstr "البند {0} يجب أن يكون عنصر التعاقد الفرعي
 
 #. source: erpnext
 msgid "Item {0} must be a non-stock item"
-msgstr "الصنف {0} يجب ألا يكون صنف مخزن <br>Item {0} must be a non-stock item"
+msgstr "الصنف {0} يجب ألا يكون صنف مخزن"
 
 #. source: erpnext
 msgid "Item {0} not found in 'Raw Materials Supplied' table in {1} {2}"
@@ -36892,7 +36888,7 @@ msgstr "كتالوج الأصناف"
 
 #. source: erpnext
 msgid "Items Filter"
-msgstr "تصفية الاصناف"
+msgstr "تصفية الأصناف"
 
 #. source: erpnext
 msgid "Items Required"
@@ -36904,7 +36900,7 @@ msgstr "الأصناف المطلوب استلامها"
 
 #. source: erpnext
 msgid "Items To Be Requested"
-msgstr "اصناف يمكن طلبه"
+msgstr "أصناف يمكن طلبه"
 
 #. source: erpnext
 msgid "Items and Pricing"
@@ -37364,7 +37360,7 @@ msgstr "يوليو"
 
 #. source: frappe
 msgid "Jump to field"
-msgstr "القفز الى الميدان"
+msgstr "الانتقال إلى الحقل"
 
 #. source: hrms
 msgid "June"
@@ -37600,11 +37596,11 @@ msgstr "إعدادات LDAP المخصصة"
 
 #. source: frappe
 msgid "LDAP Email Field"
-msgstr "LDAP البريد الإلكتروني الميدان"
+msgstr "حقل البريد الإلكتروني في LDAP"
 
 #. source: frappe
 msgid "LDAP First Name Field"
-msgstr "LDAP الاسم الميدان"
+msgstr "حقل الاسم الأول في LDAP"
 
 #. source: frappe
 msgid "LDAP Group"
@@ -37684,7 +37680,7 @@ msgstr "إنشاء مستخدم LDAP ورسم الخرائط"
 
 #. source: frappe
 msgid "LDAP Username Field"
-msgstr "LDAP اسم المستخدم الميدان"
+msgstr "حقل اسم المستخدم في LDAP"
 
 #. source: frappe
 msgid "LDAP is not enabled."
@@ -38021,7 +38017,7 @@ msgstr "آخر مستخدم"
 
 #. source: frappe
 msgid "Last Week"
-msgstr "الاسبوع الماضي"
+msgstr "الأسبوع الماضي"
 
 #. source: frappe
 msgid "Last Year"
@@ -38141,7 +38137,7 @@ msgstr "المهلة"
 
 #. source: erpnext
 msgid "Lead Time (Days)"
-msgstr "ايام القيادة)"
+msgstr "أيام القيادة)"
 
 #. source: erpnext
 msgid "Lead Time (in mins)"
@@ -38157,7 +38153,7 @@ msgstr "المدة الزمنية بين بدء وإنهاء عملية الإن
 
 #. source: erpnext
 msgid "Lead Time in days"
-msgstr "المهلة بالايام"
+msgstr "المهلة بالأيام"
 
 #. source: erpnext
 msgid "Lead Type"
@@ -38227,7 +38223,7 @@ msgstr "اترك المخصصات"
 
 #. source: hrms
 msgid "Leave Application"
-msgstr "طلب اجازة"
+msgstr "طلب إجازة"
 
 #. source: hrms
 msgid ""
@@ -38253,15 +38249,15 @@ msgstr "إجازة الموافقة إلزامية في طلب الإجازة"
 
 #. source: hrms
 msgid "Leave Approver Name"
-msgstr "أسم الموافق علي الاجازة"
+msgstr "اسم الموافق على الإجازة"
 
 #. source: hrms
 msgid "Leave Balance"
-msgstr "رصيد الاجازات"
+msgstr "رصيد الإجازات"
 
 #. source: hrms
 msgid "Leave Balance Before Application"
-msgstr "رصيد الاجازات قبل الطلب"
+msgstr "رصيد الإجازات قبل الطلب"
 
 #. source: hrms
 msgid "Leave Balance Summary"
@@ -38277,7 +38273,7 @@ msgstr "تفعيل قائمة الإجازات المحظورة"
 
 #. source: hrms
 msgid "Leave Block List Allowed"
-msgstr "قائمة اجازات محظورة مفعلة"
+msgstr "قائمة إجازات محظورة مفعلة"
 
 #. source: hrms
 msgid "Leave Block List Date"
@@ -38285,7 +38281,7 @@ msgstr "تواريخ الإجازات المحظورة"
 
 #. source: hrms
 msgid "Leave Block List Dates"
-msgstr "التواريخ الممنوع اخذ اجازة فيها"
+msgstr "التواريخ الممنوع اخذ إجازة فيها"
 
 #. source: hrms
 msgid "Leave Block List Name"
@@ -38297,7 +38293,7 @@ msgstr "إجازة محظورة"
 
 #. source: hrms
 msgid "Leave Control Panel"
-msgstr "لوحة تحكم الأجازات"
+msgstr "لوحة تحكم الإجازات"
 
 #. source: hrms
 msgid "Leave Details"
@@ -38377,11 +38373,11 @@ msgstr "ترك قالب إعلام الحالة"
 
 #. source: hrms
 msgid "Leave Type"
-msgstr "نوع الاجازة"
+msgstr "نوع الإجازة"
 
 #. source: hrms
 msgid "Leave Type Name"
-msgstr "اسم نوع الاجازة"
+msgstr "اسم نوع الإجازة"
 
 #. source: hrms
 msgid "Leave Type can either be compensatory or earned leave."
@@ -38397,7 +38393,7 @@ msgstr "نوع الإجازة إلزامي"
 
 #. source: hrms
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
-msgstr "لا يمكن تخصيص نوع الاجازه {0}, لأنها إجازة بدون راتب"
+msgstr "لا يمكن تخصيص نوع الإجازة {0}, لأنها إجازة بدون راتب"
 
 #. source: hrms
 msgid "Leave Type {0} cannot be carry-forwarded"
@@ -38409,7 +38405,7 @@ msgstr "نوع الإجازة {0} غير قابل للضبط"
 
 #. source: hrms
 msgid "Leave Without Pay"
-msgstr "اجازة من دون راتب"
+msgstr "إجازة من دون راتب"
 
 #. source: hrms
 msgid "Leave Without Pay does not match with approved {} records"
@@ -38472,7 +38468,7 @@ msgid ""
 "Leave cannot be allocated before {0}, as leave balance has already been carry-"
 "forwarded in the future leave allocation record {1}"
 msgstr ""
-"لا يمكن تخصيص اجازة قبل {0}، لان رصيد الإجازات قد تم تحوبله الي سجل تخصيص اجازات "
+"لا يمكن تخصيص إجازة قبل {0}، لأن رصيد الإجازات قد تم تحويله إلى سجل تخصيص إجازات "
 "مستقبلي {1}"
 
 #. source: hrms
@@ -38480,7 +38476,7 @@ msgid ""
 "Leave cannot be applied/cancelled before {0}, as leave balance has already been "
 "carry-forwarded in the future leave allocation record {1}"
 msgstr ""
-"الاجازة لا يمكن تطبيقها او إلغائها قبل {0}، لان رصيد الإجازات قد تم تحويله الي سجل "
+"الإجازة لا يمكن تطبيقها أو إلغائها قبل {0}، لأن رصيد الإجازات قد تم تحويله إلى سجل "
 "تخصيص إجازات مستقبلي {1}"
 
 #. source: hrms
@@ -38505,7 +38501,7 @@ msgstr "إجازة (إجازات) مأخوذة"
 
 #. source: hrms
 msgid "Leaves"
-msgstr "الاجازات"
+msgstr "الإجازات"
 
 #. source: hrms
 msgid "Leaves & Holidays"
@@ -39106,7 +39102,7 @@ msgstr "أدخل القائمة بالشكل [{\"label\": _(\"Jobs\"), \"route\"
 
 #. source: erpnext
 msgid "List items that form the package."
-msgstr "قائمة اصناف التي تتشكل حزمة."
+msgstr "قائمة أصناف التي تتشكل حزمة."
 
 #. source: frappe
 msgid "List of email addresses, separated by comma or new line."
@@ -39159,7 +39155,7 @@ msgstr "تحميل"
 
 #. source: frappe
 msgid "Loading Filters..."
-msgstr "جاري تحميل عوامل التصفية..."
+msgstr "جارٍ تحميل عوامل التصفية..."
 
 #. source: erpnext
 msgid "Loading Invoices! Please Wait..."
@@ -39175,7 +39171,7 @@ msgstr "جارٍ تحميل ملف الاستيراد..."
 
 #. source: frappe
 msgid "Loading versions..."
-msgstr "جاري تحميل الإصدارات..."
+msgstr "جارٍ تحميل الإصدارات..."
 
 #. source: frappe
 msgid "Loading..."
@@ -39826,7 +39822,7 @@ msgstr "جدول صيانة صنف"
 msgid ""
 "Maintenance Schedule is not generated for all the items. Please click on 'Generate "
 "Schedule'"
-msgstr "لم يتم إنشاء جدول الصيانة لجميع الاصناف. يرجى النقر على \"إنشاء الجدول الزمني\""
+msgstr "لم يتم إنشاء جدول الصيانة لجميع الأصناف. يرجى النقر على \"إنشاء الجدول الزمني\""
 
 #. source: erpnext
 msgid "Maintenance Schedule {0} exists against {1}"
@@ -39926,7 +39922,7 @@ msgstr "إنشاء قيد بنكي"
 
 #. source: erpnext
 msgid "Make Depreciation Entry"
-msgstr "انشئ قيد اهلاك"
+msgstr "أنشئ قيد اهلاك"
 
 #. source: erpnext
 msgid "Make Difference Entry"
@@ -39954,7 +39950,7 @@ msgstr "إنشاء قيد إرجاع"
 
 #. source: erpnext
 msgid "Make Sales Invoice"
-msgstr "انشاء فاتورة المبيعات"
+msgstr "إنشاء فاتورة المبيعات"
 
 #. source: erpnext
 msgid "Make Serial No / Batch from Work Order"
@@ -40130,7 +40126,7 @@ msgstr "الحقول الإلزامية المطلوبة لهذا الإجراء
 
 #. source: frappe
 msgid "Mandatory fields required in table {0}, Row {1}"
-msgstr "الحقول الالزامية في جدول {0} صف رقم {1} مطلوبة"
+msgstr "الحقول الإلزامية في جدول {0} صف رقم {1} مطلوبة"
 
 #. source: frappe
 msgid "Mandatory fields required in {0}"
@@ -40247,7 +40243,7 @@ msgstr "مستخدم التصنيع"
 
 #. source: frappe
 msgid "Map"
-msgstr "خريطه"
+msgstr "خريطة"
 
 #. source: frappe
 msgid "Map Columns"
@@ -40533,7 +40529,7 @@ msgstr "تخطيط المواد"
 
 #. source: erpnext
 msgid "Material Receipt"
-msgstr "أستلام مواد"
+msgstr "استلام مواد"
 
 #. source: erpnext
 msgid "Material Request"
@@ -40577,7 +40573,7 @@ msgstr "المادة يمكن طلب الحد الأقصى {0} للبند {1} م
 
 #. source: erpnext
 msgid "Material Request used to make this Stock Entry"
-msgstr "طلب المواد المستخدمة لانشاء الحركة المخزنية"
+msgstr "طلب المواد المستخدمة لإنشاء الحركة المخزنية"
 
 #. source: erpnext
 msgid "Material Request {0} is cancelled or stopped"
@@ -40735,7 +40731,7 @@ msgstr "أقصى ارتفاع"
 
 #. source: frappe
 msgid "Max Length"
-msgstr "الحد الاقصى للطول"
+msgstr "الحد الأقصى للطول"
 
 #. source: erpnext
 msgid "Max Producible Qty"
@@ -40799,7 +40795,7 @@ msgstr "عرض ماكس لنوع العملة هو 100px في الصف {0}"
 
 #. source: hrms
 msgid "Max working hours against Timesheet"
-msgstr "اقصى عدد ساعات عمل بسجل التوقيت"
+msgstr "أقصى عدد ساعات عمل بسجل التوقيت"
 
 #. source: erpnext
 msgid "Max: {0}"
@@ -41109,9 +41105,7 @@ msgstr "مدمج"
 
 #. source: frappe
 msgid "Merging is only possible between Group-to-Group or Leaf Node-to-Leaf Node"
-msgstr ""
-"الدمج مسموح فقط بين مجموعة ومجموعة أو فرع وفرع<br>Merging is only possible between "
-"Group-to-Group or Leaf Node-to-Leaf Node"
+msgstr "الدمج مسموح فقط بين مجموعة ومجموعة أو فرع وفرع"
 
 #. source: erpnext
 msgid ""
@@ -41156,7 +41150,7 @@ msgstr "معامل الرسالة"
 
 #. source: frappe
 msgid "Message Sent"
-msgstr "تم ارسال الرسالة"
+msgstr "تم إرسال الرسالة"
 
 #. source: frappe
 msgid "Message Type"
@@ -41440,7 +41434,7 @@ msgstr "أقل كمية (حسب وحدة قياس المخزون)"
 
 #. source: erpnext
 msgid "Min Qty can not be greater than Max Qty"
-msgstr "الكمية الادنى لايمكن ان تكون اكبر من الكمية الاعلى"
+msgstr "الكمية الأدنى لا يمكن ان تكون أكبر من الكمية الأعلى"
 
 #. source: erpnext
 msgid "Min Qty should be greater than Recurse Over Qty"
@@ -41766,7 +41760,7 @@ msgstr "طريقة السفر"
 
 #. source: hrms
 msgid "Mode of payment is required to make a payment"
-msgstr "طريقه الدفع مطلوبه لإجراء الدفع"
+msgstr "طريقة الدفع مطلوبة لإجراء الدفع"
 
 #. source: erpnext
 msgid "Model"
@@ -42006,7 +42000,7 @@ msgstr "الانتقال إلى"
 
 #. source: frappe
 msgid "Move To Trash"
-msgstr "ارسال الى سلة المحذوفات"
+msgstr "إرسال إلى سلة المحذوفات"
 
 #. source: frappe
 msgid "Move current and all subsequent sections to a new tab"
@@ -42240,7 +42234,7 @@ msgstr "MYISAM"
 
 #. source: erpnext
 msgid "N/A"
-msgstr "N / A"
+msgstr "غير متوفر"
 
 #. source: frappe
 msgctxt "Number not available"
@@ -42627,7 +42621,7 @@ msgstr "صافي المجموع"
 
 #. source: erpnext
 msgid "Net Total (Company Currency)"
-msgstr "صافي الأجمالي ( بعملة الشركة )"
+msgstr "صافي الإجمالي ( بعملة الشركة )"
 
 #. source: erpnext
 msgid "Net Weight"
@@ -42727,7 +42721,7 @@ msgstr "تنسيق طباعة مخصص جديد"
 
 #. source: erpnext
 msgid "New Customer Revenue"
-msgstr "ايرادات الزبائن الجدد"
+msgstr "إيرادات الزبائن الجدد"
 
 #. source: erpnext
 msgid "New Customers"
@@ -42779,7 +42773,7 @@ msgstr "ضريبة مصروفات جديدة"
 
 #. source: erpnext
 msgid "New Expenses"
-msgstr "مصاريف او نفقات جديدة"
+msgstr "مصاريف أو نفقات جديدة"
 
 #. source: hrms
 msgid "New Feedback"
@@ -42940,7 +42934,7 @@ msgid ""
 "New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase"
 " Receipt"
 msgstr ""
-"المسلسل الجديد غير ممكن للمستودع. يجب ان يكون المستودع مجهز من حركة المخزون او "
+"المسلسل الجديد غير ممكن للمستودع. يجب ان يكون المستودع مجهز من حركة المخزون أو "
 "المشتريات المستلمة"
 
 #. source: frappe
@@ -43170,7 +43164,7 @@ msgstr "العمليات القادمة HTML"
 
 #. source: erpnext
 msgid "Next Depreciation Date"
-msgstr "تاريخ االاستهالك التالي"
+msgstr "تاريخ الاستهلاك التالي"
 
 #. source: frappe
 msgid "Next Document"
@@ -44140,7 +44134,7 @@ msgstr "لم يتم العثور على طلبات المواد المعلقة �
 
 #. source: frappe
 msgid "No permission for {0}"
-msgstr "لا يوجد صلاحية لـ {0}<br>No permission for {0}"
+msgstr "لا يوجد صلاحية لـ {0}"
 
 #. source: frappe
 msgctxt "{0} = verb, {1} = object"
@@ -44361,7 +44355,7 @@ msgstr "لا {0} الإلكتروني"
 
 #. source: erpnext
 msgid "No."
-msgstr "لا."
+msgstr "الرقم"
 
 #. source: frappe
 msgctxt "Title of the 'row number' column"
@@ -44749,7 +44743,7 @@ msgstr "ملاحظة: تاريخ الاستحقاق يتجاوز أيام الا
 
 #. source: erpnext
 msgid "Note: Email will not be sent to disabled users"
-msgstr "ملاحظة: لن يتم إرسال الايميل إلى المستخدم الغير نشط"
+msgstr "ملاحظة: لن يتم إرسال الإيميل إلى المستخدم الغير نشط"
 
 #. source: frappe
 msgid "Note: Etc timezones have their signs reversed."
@@ -44781,7 +44775,7 @@ msgstr "ملاحظة: سيتم السماح جلسات متعددة في حال�
 
 #. source: erpnext
 msgid "Note: Payment Entry will not be created since 'Cash or Bank Account' was not specified"
-msgstr "ملاحظة: لن يتم إنشاء قيد الدفع نظرا لأن \" حساب النقد او المصرف\" لم يتم تحديده"
+msgstr "ملاحظة: لن يتم إنشاء قيد الدفع نظرا لأن \" حساب النقد أو المصرف\" لم يتم تحديده"
 
 #. source: hrms
 msgid "Note: Shift will not be overwritten in existing attendance records"
@@ -44881,7 +44875,7 @@ msgstr "إشعار (أيام)"
 
 #. source: hrms
 msgid "Notice Period"
-msgstr "مدة الاشعار"
+msgstr "مدة الإشعار"
 
 #. source: frappe
 msgid "Notification"
@@ -45481,7 +45475,7 @@ msgstr "في إجازة"
 
 #. source: erpnext
 msgid "On Net Total"
-msgstr "على صافي الاجمالي"
+msgstr "على صافي الإجمالي"
 
 #. source: erpnext
 msgid "On Paid Amount"
@@ -46065,7 +46059,7 @@ msgstr "أوامر البيع المفتوحة"
 
 #. source: frappe
 msgid "Open Settings"
-msgstr "أفتح الإعدادات"
+msgstr "افتح الإعدادات"
 
 #. source: frappe
 msgid "Open Source Applications for the Web"
@@ -46194,7 +46188,7 @@ msgstr "افتتاحي (مدين)"
 
 #. source: erpnext
 msgid "Opening Accumulated Depreciation"
-msgstr "الاهلاك التراكمي الافتتاحي"
+msgstr "الإهلاك التراكمي الافتتاحي"
 
 #. source: erpnext
 msgid "Opening Amount"
@@ -46238,7 +46232,7 @@ msgstr "لا يمكن إنشاء قيد افتتاحي بعد إنشاء سند 
 
 #. source: erpnext
 msgid "Opening Invoice Creation In Progress"
-msgstr "جاري إنشاء الفاتورة الافتتاحية"
+msgstr "جارٍ إنشاء الفاتورة الافتتاحية"
 
 #. source: erpnext
 msgid "Opening Invoice Creation Tool"
@@ -46628,8 +46622,8 @@ msgid ""
 "Options 'Dynamic Link' type of field must point to another Link Field with options as"
 " 'DocType'"
 msgstr ""
-"'الارتباط الحيوي \"نوع من الخيارات الميدانية يجب أن يشير إلى رابط حقل آخر مع خيارات "
-"باسم' DOCTYPE '"
+"خيارات الحقل من نوع \"ارتباط ديناميكي\" يجب أن تشير إلى حقل ارتباط آخر خياراته "
+"\"DocType\""
 
 #. source: frappe
 msgid "Options Help"
@@ -46809,7 +46803,7 @@ msgstr "تقارير أخرى"
 
 #. source: erpnext
 msgid "Other Settings"
-msgstr "اعدادات اخرى"
+msgstr "إعدادات أخرى"
 
 #. source: hrms
 msgid "Other Taxes and Charges"
@@ -46869,7 +46863,7 @@ msgstr "خارج عن السيطرة"
 
 #. source: erpnext
 msgid "Out of Stock"
-msgstr "إنتهى من المخزن"
+msgstr "انتهى من المخزن"
 
 #. source: erpnext
 msgid "Out of Warranty"
@@ -46921,7 +46915,7 @@ msgstr "إعدادات الصادر"
 
 #. source: frappe
 msgid "Outgoing email account not correct"
-msgstr "البريد الالكتروني الصادر غير صحيح<br>Outgoing email account not correct"
+msgstr "البريد الإلكتروني الصادر غير صحيح"
 
 #. source: frappe
 msgid "Outlook.com"
@@ -46953,7 +46947,7 @@ msgstr "الشيكات والإيداعات المستحقة للتسوية"
 
 #. source: erpnext
 msgid "Outstanding Cheques and Deposits to clear"
-msgstr "الشيكات و الإيداعات المعلقة لتوضيح او للمقاصة"
+msgstr "الشيكات و الإيداعات المعلقة لتوضيح أو للمقاصة"
 
 #. source: erpnext
 msgid "Outstanding for {0} cannot be less than zero ({1})"
@@ -47089,7 +47083,7 @@ msgstr "ورديات متداخلة"
 
 #. source: erpnext
 msgid "Overlapping conditions found between:"
-msgstr "الشروط المتداخله التي تم العثور عليها بين:"
+msgstr "الشروط المتداخلة التي تم العثور عليها بين:"
 
 #. source: erpnext
 msgid "Overproduction Percentage For Sales Order"
@@ -47259,7 +47253,7 @@ msgstr "PDF"
 
 #. source: frappe
 msgid "PDF Generation in Progress"
-msgstr "جاري إنشاء PDF"
+msgstr "جارٍ إنشاء PDF"
 
 #. source: frappe
 msgid "PDF Generator"
@@ -47387,7 +47381,7 @@ msgstr "مجموعة عملاء نقطة البيع"
 
 #. source: erpnext
 msgid "POS Field"
-msgstr "نقاط البيع الميدانية"
+msgstr "حقل نقطة البيع"
 
 #. source: erpnext
 msgid "POS Invoice"
@@ -47949,7 +47943,7 @@ msgstr "الأيقونة الأب"
 
 #. source: erpnext
 msgid "Parent Item"
-msgstr "البند الاصلي"
+msgstr "البند الأصلي"
 
 #. source: erpnext
 msgid "Parent Item Group"
@@ -48687,7 +48681,7 @@ msgstr "تم تعديل قيد الدفع بعد سحبه. يرجى سحبه م�
 
 #. source: erpnext
 msgid "Payment Entry is already created"
-msgstr "قيد الدفع تم انشاؤه بالفعل"
+msgstr "قيد الدفع تم إنشاؤه بالفعل"
 
 #. source: erpnext
 msgid ""
@@ -48741,7 +48735,7 @@ msgstr "تعذّر إرسال رابط الدفع."
 
 #. source: erpnext
 msgid "Payment Method"
-msgstr "طريقة الدفع او السداد"
+msgstr "طريقة الدفع أو السداد"
 
 #. source: erpnext
 msgid "Payment Methods"
@@ -49197,7 +49191,7 @@ msgstr "في انتظار المراجعة"
 
 #. source: erpnext
 msgid "Pending SO Items For Purchase Request"
-msgstr "اصناف كتيرة معلقة لطلب الشراء"
+msgstr "أصناف كثيرة معلقة لطلب الشراء"
 
 #. source: frappe
 msgid "Pending Verification"
@@ -49257,7 +49251,7 @@ msgstr "لكل وحدة زمنية بالدقائق"
 
 #. source: erpnext
 msgid "Per Week"
-msgstr "في الاسبوع"
+msgstr "في الأسبوع"
 
 #. source: erpnext
 msgid "Per Year"
@@ -49468,7 +49462,7 @@ msgstr "العنوان الدائم هو"
 
 #. source: frappe
 msgid "Permanently Cancel {0}?"
-msgstr "الغاء دائم {0} ؟"
+msgstr "إلغاء دائم {0} ؟"
 
 #. source: frappe
 msgid "Permanently Discard {0}?"
@@ -49615,7 +49609,7 @@ msgstr "التفاصيل الشخصية"
 
 #. source: erpnext
 msgid "Personal Email"
-msgstr "البريد الالكتروني الشخصية"
+msgstr "البريد الإلكتروني الشخصية"
 
 #. source: erpnext
 msgid "Personalizing your setup"
@@ -50189,7 +50183,7 @@ msgstr "يرجى التحقق من معرّف عميل Plaid والقيم الس
 
 #. source: frappe
 msgid "Please check your email for verification"
-msgstr "يرجى التحقق من بريدك الالكتروني للتحقق"
+msgstr "يرجى التحقق من بريدك الإلكتروني للتحقق"
 
 #. source: frappe
 msgid "Please check your email login credentials."
@@ -50233,7 +50227,7 @@ msgstr "الرجاء النقر على \"إنشاء جدول\" لجلب الرق
 
 #. source: erpnext
 msgid "Please click on 'Generate Schedule' to get schedule"
-msgstr "الرجاء الضغط علي ' إنشاء الجدول ' للحصول علي جدول"
+msgstr "الرجاء الضغط على ' إنشاء الجدول ' للحصول على جدول"
 
 #. source: frappe
 msgid "Please click on the following link and follow the instructions on the page. {0}"
@@ -50435,7 +50429,7 @@ msgstr "الرجاء إدخال عنوان ورل لرمز الدخول المم
 
 #. source: erpnext
 msgid "Please enter Account for Change Amount"
-msgstr "الرجاء إدخال الحساب لمبلغ التغيير\\n<br> \\nPlease enter Account for Change Amount"
+msgstr "الرجاء إدخال الحساب لمبلغ التغيير"
 
 #. source: erpnext
 msgid "Please enter Approving Role or Approving User"
@@ -50503,7 +50497,7 @@ msgstr "الرجاء إدخال الكمية المخططة للبند {0} في 
 
 #. source: erpnext
 msgid "Please enter Preferred Contact Email"
-msgstr "الرجاء إدخال البريد الكتروني المفضل للاتصال"
+msgstr "الرجاء إدخال البريد إلكتروني المفضل للاتصال"
 
 #. source: erpnext
 msgid "Please enter Production Item first"
@@ -50587,7 +50581,7 @@ msgstr "يرجى إدخال كل من بريدك الإلكتروني ورسال
 
 #. source: erpnext
 msgid "Please enter company name first"
-msgstr "الرجاء إدخال اسم الشركة اولاً"
+msgstr "الرجاء إدخال اسم الشركة أولاً"
 
 #. source: erpnext
 msgid "Please enter default currency in Company Master"
@@ -50611,7 +50605,7 @@ msgstr "يرجى إدخال الكمية للصنف {0}"
 
 #. source: erpnext
 msgid "Please enter relieving date."
-msgstr "من فضلك ادخل تاريخ ترك العمل."
+msgstr "من فضلك أدخل تاريخ ترك العمل."
 
 #. source: erpnext
 msgid "Please enter serial nos"
@@ -51252,7 +51246,7 @@ msgstr "يرجى تحديد الشركة."
 
 #. source: erpnext
 msgid "Please select correct account"
-msgstr "يرجى اختيارالحساب الصحيح"
+msgstr "يرجى اختيار الحساب الصحيح"
 
 #. source: erpnext
 msgid "Please select date"
@@ -51306,7 +51300,7 @@ msgstr "يرجى تحديد صف واحد فقط لإنشاء قيد إعادة 
 
 #. source: frappe
 msgid "Please select prefix first"
-msgstr "الرجاء اختيار البادئة اولا"
+msgstr "الرجاء اختيار البادئة أولا"
 
 #. source: erpnext
 msgid "Please select rows to create Reposting Entries"
@@ -51898,7 +51892,7 @@ msgstr "يرجى إرسال {0} قبل تحديد الدورة على أنها �
 
 #. source: frappe
 msgid "Please try again"
-msgstr "حاول مرة اخرى"
+msgstr "حاول مرة أخرى"
 
 #. source: erpnext
 msgid "Please try again in an hour."
@@ -52122,7 +52116,7 @@ msgstr "تاريخ الترحيل"
 
 #. source: erpnext
 msgid "Posting date and posting time is mandatory"
-msgstr "تاريخ النشر و وقت النشر الزامي"
+msgstr "تاريخ النشر و وقت النشر إلزامي"
 
 #. source: erpnext
 msgid "Posting date does not match the selected transaction"
@@ -52505,7 +52499,7 @@ msgstr "قائمة الأسعار معدل (عملة الشركة)"
 
 #. source: erpnext
 msgid "Price List must be applicable for Buying or Selling"
-msgstr "يجب ان تكون قائمة الأسعار منطبقه للشراء او البيع"
+msgstr "يجب ان تكون قائمة الأسعار منطبقه للشراء أو البيع"
 
 #. source: erpnext
 msgid "Price List {0} is disabled or does not exist"
@@ -52740,7 +52734,7 @@ msgstr "عنوان الطباعة"
 
 #. source: frappe
 msgid "Print Hide"
-msgstr "اخفاء الطباعة"
+msgstr "إخفاء الطباعة"
 
 #. source: frappe
 msgid "Print Hide If No Value"
@@ -52760,7 +52754,7 @@ msgstr "تفضيلات الطباعة"
 
 #. source: erpnext
 msgid "Print Receipt"
-msgstr "اطبع الايصال"
+msgstr "اطبع الإيصال"
 
 #. source: erpnext
 msgid "Print Receipt on Order Complete"
@@ -53092,11 +53086,11 @@ msgstr "تاريخ المعالجة"
 
 #. source: hrms
 msgid "Processing Requests"
-msgstr "جاري معالجة الطلبات"
+msgstr "جارٍ معالجة الطلبات"
 
 #. source: hrms
 msgid "Processing Requests..."
-msgstr "جاري معالجة الطلبات..."
+msgstr "جارٍ معالجة الطلبات..."
 
 #. source: erpnext
 msgid "Processing XML Files"
@@ -53204,7 +53198,7 @@ msgstr "السعة الإنتاجية"
 
 #. source: erpnext
 msgid "Production Item"
-msgstr "بند انتاج"
+msgstr "بند إنتاج"
 
 #. source: erpnext
 msgid "Production Item Info"
@@ -53416,7 +53410,7 @@ msgstr "قيمة المشروع"
 
 #. source: erpnext
 msgid "Project activity / task."
-msgstr "نشاط او مهمة لمشروع."
+msgstr "نشاط أو مهمة لمشروع."
 
 #. source: erpnext
 msgid "Project master."
@@ -53804,7 +53798,7 @@ msgstr "عربون فاتورة الشراء"
 
 #. source: erpnext
 msgid "Purchase Invoice Item"
-msgstr "اصناف فاتورة المشتريات"
+msgstr "أصناف فاتورة المشتريات"
 
 #. source: erpnext
 msgid "Purchase Invoice Settings"
@@ -53868,7 +53862,7 @@ msgstr "صنف امر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order Item Supplied"
-msgstr "الأصناف المزوده بامر الشراء"
+msgstr "الأصناف المزوده بأمر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order Item reference is missing in Subcontracting Receipt {0}"
@@ -53956,7 +53950,7 @@ msgstr "شراء إيصال التفاصيل"
 
 #. source: erpnext
 msgid "Purchase Receipt Item"
-msgstr "اصناف استلام الشراء"
+msgstr "أصناف استلام الشراء"
 
 #. source: erpnext
 msgid "Purchase Receipt Item Supplied"
@@ -54942,7 +54936,7 @@ msgstr "حدود المعدل"
 
 #. source: erpnext
 msgid "Rate Of Materials Based On"
-msgstr "سعرالمواد استنادا على"
+msgstr "سعر المواد استنادا على"
 
 #. source: erpnext
 msgid "Rate Of TDS As Per Certificate"
@@ -55062,7 +55056,7 @@ msgid ""
 "with plain text email."
 msgstr ""
 "يمكن استخدام HTML الخام فقط مع قوالب البريد الإلكتروني التي تم تفعيل 'استخدام HTML' "
-"فيها. جاري المتابعة ببريد نصي عادي."
+"فيها. جارٍ المتابعة ببريد نصي عادي."
 
 #. source: frappe
 msgid ""
@@ -55201,7 +55195,7 @@ msgstr "جارٍ إعادة الاستخراج"
 
 #. source: erpnext
 msgid "Re-open"
-msgstr "اعادة فتح"
+msgstr "إعادة فتح"
 
 #. source: erpnext
 msgid "Re-order Level"
@@ -56023,7 +56017,7 @@ msgstr "رقم المرجع و تاريخ المرجع إلزامي للمعام
 
 #. source: erpnext
 msgid "Reference No is mandatory if you entered Reference Date"
-msgstr "رقم المرجع إلزامي اذا أدخلت تاريخ المرجع"
+msgstr "رقم المرجع إلزامي إذا أدخلت تاريخ المرجع"
 
 #. source: erpnext
 msgid "Reference No."
@@ -56444,7 +56438,7 @@ msgstr "إزالة المهام الفاشلة"
 
 #. source: frappe
 msgid "Remove Field"
-msgstr "إزالة الميدان"
+msgstr "إزالة الحقل"
 
 #. source: frappe
 msgid "Remove Filter"
@@ -56588,11 +56582,11 @@ msgstr "إعادة فتح"
 
 #. source: erpnext
 msgid "Reorder Level"
-msgstr "مستوى اعادة الطلب"
+msgstr "مستوى إعادة الطلب"
 
 #. source: erpnext
 msgid "Reorder Qty"
-msgstr "الكمية المحددة عند اعادة الطلب"
+msgstr "الكمية المحددة عند إعادة الطلب"
 
 #. source: erpnext
 msgid "Reorder level based on Warehouse"
@@ -56636,7 +56630,7 @@ msgstr "كرر"
 
 #. source: erpnext
 msgid "Repeat Customer Revenue"
-msgstr "ايرادات الزبائن المكررين"
+msgstr "إيرادات الزبائن المكررين"
 
 #. source: erpnext
 msgid "Repeat Customers"
@@ -57401,7 +57395,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Reserved Qty for Production"
-msgstr "الكمية المحجوزة للانتاج"
+msgstr "الكمية المحجوزة للإنتاج"
 
 #. source: erpnext
 msgid "Reserved Qty for Production Plan"
@@ -57491,7 +57485,7 @@ msgstr "محجوزة للتعاقد من الباطن"
 
 #. source: erpnext
 msgid "Reserving Stock..."
-msgstr "جاري حجز المخزون..."
+msgstr "جارٍ حجز المخزون..."
 
 #. source: frappe
 msgid "Reset"
@@ -57591,7 +57585,7 @@ msgstr "إعادة تعيين إلى الإعدادات الافتراضية"
 
 #. source: frappe
 msgid "Reset your password"
-msgstr "اعد ضبط كلمه السر"
+msgstr "اعد ضبط كلمة السر"
 
 #. source: erpnext
 msgid "Resetting Service Level Agreement."
@@ -57663,11 +57657,11 @@ msgstr "معرف شروط خدمة المورد"
 
 #. source: frappe
 msgid "Response"
-msgstr "الإستجابة"
+msgstr "الاستجابة"
 
 #. source: frappe
 msgid "Response "
-msgstr "الإستجابة "
+msgstr "الاستجابة "
 
 #. source: erpnext
 msgid "Response By"
@@ -57920,11 +57914,11 @@ msgstr "مرتجع"
 
 #. source: erpnext
 msgid "Return / Credit Note"
-msgstr "ارجاع / اشعار دائن"
+msgstr "إرجاع / إشعار دائن"
 
 #. source: erpnext
 msgid "Return / Debit Note"
-msgstr "ارجاع / اشعار مدين"
+msgstr "إرجاع / إشعار مدين"
 
 #. source: erpnext
 msgid "Return Against"
@@ -57932,7 +57926,7 @@ msgstr "مرتجع مقابل"
 
 #. source: erpnext
 msgid "Return Against Delivery Note"
-msgstr "البضاعة المعادة مقابل اشعار تسليم"
+msgstr "البضاعة المعادة مقابل إشعار تسليم"
 
 #. source: erpnext
 msgid "Return Against Purchase Invoice"
@@ -58287,7 +58281,7 @@ msgstr "إذن الدور للصفحة والتقرير"
 
 #. source: frappe
 msgid "Role Permissions"
-msgstr "اذونات الصلاحيات"
+msgstr "أذونات الصلاحيات"
 
 #. source: frappe
 msgid "Role Permissions Manager"
@@ -59582,7 +59576,7 @@ msgstr "الصف رقم #{}: يرجى تعيين المهمة لعضو."
 
 #. source: erpnext
 msgid "Row #{}: Please use a different Finance Book."
-msgstr "الصف رقم #{}: يرجى استخدام دفتر تمويل مختلف."
+msgstr "الصف رقم #{}: يرجى استخدام دفتر مالي مختلف."
 
 #. source: erpnext
 msgid ""
@@ -59734,7 +59728,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Row {0}: Bill of Materials not found for the Item {1}"
-msgstr "صف {0}: من مواد مشروع القانون لم يتم العثور على هذا البند {1}"
+msgstr "الصف {0}: لم يتم العثور على قائمة المواد للصنف {1}"
 
 #. source: erpnext
 msgid "Row {0}: Both Debit and Credit values cannot be zero"
@@ -59772,9 +59766,7 @@ msgstr "صف {0}: لا يمكن ربط قيد دائن مع {1}"
 
 #. source: erpnext
 msgid "Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2}"
-msgstr ""
-"الصف {0}: العملة للـ BOM #{1} يجب أن يساوي العملة المختارة {2}<br>Row {0}: Currency "
-"of the BOM #{1} should be equal to the selected currency {2}"
+msgstr "الصف {0}: العملة للـ BOM #{1} يجب أن يساوي العملة المختارة {2}"
 
 #. source: erpnext
 msgid "Row {0}: Debit entry can not be linked with a {1}"
@@ -59946,7 +59938,7 @@ msgstr "الصف {0}: الدفع لطلب الشراء/البيع يجب أن ي
 
 #. source: erpnext
 msgid "Row {0}: Please check 'Is Advance' against Account {1} if this is an advance entry."
-msgstr "الصف {0}: يرجى اختيار \"دفعة مقدمة\" مقابل الحساب {1} إذا كان هذا الادخال دفعة مقدمة."
+msgstr "الصف {0}: يرجى اختيار \"دفعة مقدمة\" مقابل الحساب {1} إذا كان هذا الإدخال دفعة مقدمة."
 
 #. source: erpnext
 msgid "Row {0}: Please provide a valid Delivery Note Item or Packed Item reference."
@@ -60597,7 +60589,7 @@ msgstr "مرجع قسيمة الراتب"
 
 #. source: hrms
 msgid "Salary Slip Timesheet"
-msgstr "كشف راتب معتمد علي سجل التوقيت"
+msgstr "كشف راتب معتمد على سجل التوقيت"
 
 #. source: hrms
 msgid "Salary Slip already exists for {0} for the given dates"
@@ -61033,7 +61025,7 @@ msgstr "شخص المبيعات التباين المستهدف بناء على 
 
 #. source: erpnext
 msgid "Sales Person Targets"
-msgstr "اهداف رجل المبيعات"
+msgstr "أهداف رجل المبيعات"
 
 #. source: erpnext
 msgid "Sales Person-wise Transaction Summary"
@@ -61278,7 +61270,7 @@ msgstr "حفظ"
 
 #. source: frappe
 msgid "Saving Changes..."
-msgstr "جاري حفظ التغييرات..."
+msgstr "جارٍ حفظ التغييرات..."
 
 #. source: frappe
 msgid "Saving Customization..."
@@ -61286,7 +61278,7 @@ msgstr "جارٍ حفظ التخصيص..."
 
 #. source: frappe
 msgid "Saving Sidebar"
-msgstr "جاري حفظ الشريط الجانبي"
+msgstr "جارٍ حفظ الشريط الجانبي"
 
 #. source: frappe
 msgid "Saving this will export this document as well as the steps linked here as json."
@@ -61506,7 +61498,7 @@ msgstr "الجدولة"
 
 #. source: erpnext
 msgid "Scheduling..."
-msgstr "جاري الجدولة..."
+msgstr "جارٍ الجدولة..."
 
 #. source: erpnext
 msgid "School/University"
@@ -61788,7 +61780,7 @@ msgstr "بحث..."
 
 #. source: frappe
 msgid "Searching ..."
-msgstr "جاري البحث..."
+msgstr "جارٍ البحث..."
 
 #. source: erpnext
 msgid "Second"
@@ -62018,7 +62010,7 @@ msgstr "حدد مكتب الإدارة"
 
 #. source: erpnext
 msgid "Select BOM and Qty for Production"
-msgstr "اختر فاتورة المواد و الكمية للانتاج"
+msgstr "اختر فاتورة المواد و الكمية للإنتاج"
 
 #. source: erpnext
 msgid "Select BOM, Qty and For Warehouse"
@@ -62400,7 +62392,7 @@ msgstr "حدد أولوية افتراضية."
 
 #. source: frappe
 msgid "Select a DocType to make a new format"
-msgstr "أختر DocType لتنشئ تنسيق جديد"
+msgstr "اختر DocType لتنشئ تنسيق جديد"
 
 #. source: erpnext
 msgid "Select a Payment Method."
@@ -62484,7 +62476,7 @@ msgstr "اختر تنسيقًا موجودًا لتحريره أو بدء تنس
 
 #. source: frappe
 msgid "Select an image of approx width 150px with a transparent background for best results."
-msgstr "اختر صورة بعرض 150px تقريبا مع خلفية شفافة لنتيجة افضل"
+msgstr "اختر صورة بعرض 150px تقريبا مع خلفية شفافة لنتيجة أفضل"
 
 #. source: erpnext
 msgid "Select an invoice to load summary data"
@@ -63351,7 +63343,7 @@ msgstr "الرقم التسلسلي {0} تم مسحه ضوئيًا بالفعل"
 
 #. source: erpnext
 msgid "Serial No {0} does not belong to Delivery Note {1}"
-msgstr "الرقم المتسلسل {0} لا ينتمي الى إشعار تسليم {1}"
+msgstr "الرقم المتسلسل {0} لا ينتمي إلى إشعار تسليم {1}"
 
 #. source: erpnext
 msgid "Serial No {0} does not belong to Item {1}"
@@ -63403,7 +63395,7 @@ msgstr "الرقم التسلسلي {0} تحت الضمان حتى {1}"
 
 #. source: erpnext
 msgid "Serial No {0} not found"
-msgstr "لم يتم العثور علي الرقم التسلسلي {0}"
+msgstr "لم يتم العثور على الرقم التسلسلي {0}"
 
 #. source: erpnext
 msgid "Serial No: {0} has already been transacted into another POS Invoice."
@@ -63635,9 +63627,9 @@ msgstr "إجمالي مبلغ مصروفات الخدمة"
 msgid "Service Expenses"
 msgstr "مصاريف الخدمة"
 
-#. source: hrms
+#. source: erpnext
 msgid "Service Item"
-msgstr "بند الخدمة"
+msgstr "صنف الخدمة"
 
 #. source: erpnext
 msgid "Service Item Qty"
@@ -64288,7 +64280,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Setting Item Locations..."
-msgstr "جاري تعيين مواقع الأصناف..."
+msgstr "جارٍ تعيين مواقع الأصناف..."
 
 #. source: erpnext
 msgid "Setting defaults"
@@ -65152,7 +65144,7 @@ msgstr "عرض الضرائب كجدول في الطباعة"
 
 #. source: frappe
 msgid "Show Title"
-msgstr "اظهار العنوان"
+msgstr "إظهار العنوان"
 
 #. source: frappe
 msgid "Show Title in Link Fields"
@@ -65180,7 +65172,7 @@ msgstr "عرض سمات متغير"
 
 #. source: erpnext
 msgid "Show Variants"
-msgstr "اظهار المتغيرات"
+msgstr "إظهار المتغيرات"
 
 #. source: erpnext
 msgid "Show Warehouse-wise Stock"
@@ -65192,7 +65184,7 @@ msgstr "إظهار التحذيرات"
 
 #. source: frappe
 msgid "Show Weekends"
-msgstr "عرض عطلة نهاية الاسبوع"
+msgstr "عرض عطلة نهاية الأسبوع"
 
 #. source: frappe
 msgid "Show account deletion link in My Account page"
@@ -65328,7 +65320,7 @@ msgstr "إظهار الضرائب كجدول في الطباعة"
 
 #. source: frappe
 msgid "Show title in browser window as \"Prefix - title\""
-msgstr "اظهار العنوان في نافذة المتصفح كما \"بادئة - عنوان\""
+msgstr "إظهار العنوان في نافذة المتصفح كما \"بادئة - عنوان\""
 
 #. source: erpnext
 msgid "Show unclosed fiscal year's P&L balances"
@@ -65770,7 +65762,7 @@ msgstr "نص صغير"
 
 #. source: frappe
 msgid "Smallest Currency Fraction Value"
-msgstr "أصغر قيمه كسر العملة"
+msgstr "أصغر قيمة كسر العملة"
 
 #. source: frappe
 msgid ""
@@ -65904,7 +65896,7 @@ msgstr "حدث خطأ ما."
 
 #. source: frappe
 msgid "Sorry! I could not find what you were looking for."
-msgstr "عذراَ! , لا يمكن العثورعلى ما تبحث عنه."
+msgstr "عذراَ! , لا يمكن العثور على ما تبحث عنه."
 
 #. source: frappe
 msgid "Sorry! You are not permitted to view this page."
@@ -66194,7 +66186,7 @@ msgstr "تقسيم رصيد العمولة على عدة مندوبي مبيعا
 
 #. source: erpnext
 msgid "Splitting {0} {1} into {2} rows as per Payment Terms"
-msgstr "جاري تقسيم {0} {1} إلى {2} صفوف حسب شروط الدفع"
+msgstr "جارٍ تقسيم {0} {1} إلى {2} صفوف حسب شروط الدفع"
 
 #. source: hrms
 msgid "Sponsored Amount"
@@ -66278,7 +66270,7 @@ msgstr "يجب أن تبدأ الأيام القديمة من 1."
 
 #. source: frappe
 msgid "Standard"
-msgstr "اساسي"
+msgstr "أساسي"
 
 #. source: erpnext
 msgid "Standard Buying"
@@ -66726,7 +66718,7 @@ msgstr "حساب أصول المخزون"
 
 #. source: erpnext
 msgid "Stock Assets"
-msgstr "اصول المخزون"
+msgstr "أصول المخزون"
 
 #. source: erpnext
 msgid "Stock Available"
@@ -68123,9 +68115,7 @@ msgstr "المورد فاتورة التسجيل"
 
 #. source: erpnext
 msgid "Supplier Invoice Date cannot be greater than Posting Date"
-msgstr ""
-"تاريخ فاتورة المورد لا يمكن أن تكون أكبر من تاريخ الإنشاء<br> Supplier Invoice Date "
-"cannot be greater than Posting Date"
+msgstr "تاريخ فاتورة المورد لا يمكن أن تكون أكبر من تاريخ الإنشاء"
 
 #. source: erpnext
 msgid "Supplier Invoice No"
@@ -69528,7 +69518,7 @@ msgstr "شكرًا لك على قضاء وقتك الثمين لملء هذا ا
 
 #. source: frappe
 msgid "Thank you for your email"
-msgstr "شكرا لك على بريدك الالكتروني"
+msgstr "شكرا لك على بريدك الإلكتروني"
 
 #. source: frappe
 msgid "Thank you for your feedback!"
@@ -70425,7 +70415,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "The selected BOMs are not for the same item"
-msgstr "قواائم المواد المحددة ليست لنفس البند"
+msgstr "قوائم المواد المحددة ليست لنفس البند"
 
 #. source: erpnext
 msgid "The selected change account {} doesn't belongs to Company {}."
@@ -70899,7 +70889,7 @@ msgstr "يمكن أن يكون هناك سوى 1 في حساب الشركة في
 
 #. source: erpnext
 msgid "There can only be one Shipping Rule Condition with 0 or blank value for \"To Value\""
-msgstr "يمكن ان يكون هناك شرط قاعده شحن واحد فقط مع 0 أو قيمه فارغه ل \"قيمه\""
+msgstr "يمكن ان يكون هناك شرط قاعدة شحن واحد فقط مع 0 أو قيمة فارغة ل \"قيمة\""
 
 #. source: erpnext
 msgid ""
@@ -71003,7 +70993,7 @@ msgstr "كانت هناك أخطاء"
 
 #. source: frappe
 msgid "There were errors while creating the document. Please try again."
-msgstr "كانت هناك أخطاء أثناء إنشاء المستند. حاول مرة اخرى."
+msgstr "كانت هناك أخطاء أثناء إنشاء المستند. حاول مرة أخرى."
 
 #. source: frappe
 msgid "There were errors while sending email. Please try again."
@@ -71451,7 +71441,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "This is a root account and cannot be edited."
-msgstr ".هذا حساب جذري و لايمكن تعديله"
+msgstr "هذا حساب جذري ولا يمكن تعديله."
 
 #. source: erpnext
 msgid "This is a root customer group and cannot be edited."
@@ -72102,7 +72092,7 @@ msgstr "DOCTYPE الزمني"
 
 #. source: frappe
 msgid "Timeline Field"
-msgstr "الجدول الزمني الميدان"
+msgstr "حقل الجدول الزمني"
 
 #. source: frappe
 msgid "Timeline Links"
@@ -72998,7 +72988,9 @@ msgstr "إجمالي المبلغ بالنص"
 msgid ""
 "Total Applicable Charges in Purchase Receipt Items table must be same as Total Taxes "
 "and Charges"
-msgstr "مجموع الرسوم المطبقة في شراء طاولة إيصال عناصر يجب أن يكون نفس مجموع الضرائب والرسوم"
+msgstr ""
+"يجب أن يساوي إجمالي الرسوم المطبقة في جدول أصناف إشعار استلام المشتريات إجمالي "
+"الضرائب والرسوم"
 
 #. source: erpnext
 msgid "Total Asset"
@@ -73346,11 +73338,11 @@ msgstr "إجمالي الإجازات ({0})"
 
 #. source: hrms
 msgid "Total Leaves Allocated"
-msgstr "إجمالي الاجازات المخصصة"
+msgstr "إجمالي الإجازات المخصصة"
 
 #. source: hrms
 msgid "Total Leaves Encashed"
-msgstr "اجمالي الاوراق مقطوعه"
+msgstr "إجمالي الأوراق مقطوعه"
 
 #. source: erpnext
 msgid "Total Ledgers"
@@ -73406,7 +73398,7 @@ msgstr "إجمالي وقت التشغيل"
 
 #. source: erpnext
 msgid "Total Order Considered"
-msgstr "اجمالي أمر البيع التقديري"
+msgstr "إجمالي أمر البيع التقديري"
 
 #. source: erpnext
 msgid "Total Order Value"
@@ -74710,7 +74702,7 @@ msgstr ""
 
 #. source: frappe
 msgid "URL"
-msgstr "رابط الانترنت"
+msgstr "رابط الإنترنت"
 
 #. source: erpnext
 msgid "URL can only be a string"
@@ -75007,7 +74999,7 @@ msgstr "نمط تسلسل تسمية غير متوقع"
 
 #. source: frappe
 msgid "Unfollow"
-msgstr "الغاء المتابعة"
+msgstr "إلغاء المتابعة"
 
 #. source: erpnext
 msgid "Unfulfilled"
@@ -75271,7 +75263,7 @@ msgstr "إلغاء حجز التجميع الفرعي"
 
 #. source: erpnext
 msgid "Unreserving Stock..."
-msgstr "جاري إلغاء حجز المخزون..."
+msgstr "جارٍ إلغاء حجز المخزون..."
 
 #. source: erpnext
 msgid "Unresolved"
@@ -75719,7 +75711,7 @@ msgstr "تحديث حقول التكاليف والفواتير لهذا الم�
 #. source: frappe
 msgid "Updating Email Queue Statuses. The emails will be picked up in the next scheduled run."
 msgstr ""
-"جاري تحديث حالات قائمة انتظار البريد الإلكتروني. سيتم التقاط رسائل البريد الإلكتروني "
+"جارٍ تحديث حالات قائمة انتظار البريد الإلكتروني. سيتم التقاط رسائل البريد الإلكتروني "
 "في التشغيل المجدول التالي."
 
 #. source: erpnext
@@ -75728,7 +75720,7 @@ msgstr "جارٍ تحديث المتغيرات..."
 
 #. source: erpnext
 msgid "Updating Work Order status"
-msgstr "جاري تحديث حالة أمر العمل"
+msgstr "جارٍ تحديث حالة أمر العمل"
 
 #. source: frappe
 msgid "Updating counter may lead to document name conflicts if not done properly"
@@ -75740,15 +75732,15 @@ msgstr "جارٍ تحديث التفاصيل."
 
 #. source: frappe
 msgid "Updating global settings"
-msgstr "جاري تحديث الإعدادات العامة"
+msgstr "جارٍ تحديث الإعدادات العامة"
 
 #. source: frappe
 msgid "Updating naming series options"
-msgstr "جاري تحديث خيارات سلسلة التسمية"
+msgstr "جارٍ تحديث خيارات سلسلة التسمية"
 
 #. source: frappe
 msgid "Updating related fields..."
-msgstr "جاري تحديث الحقول ذات الصلة..."
+msgstr "جارٍ تحديث الحقول ذات الصلة..."
 
 #. source: frappe
 msgid "Updating search index"
@@ -75826,7 +75818,7 @@ msgstr "تم الرفع إلى Google Drive"
 
 #. source: frappe
 msgid "Uploading backup to Google Drive."
-msgstr "جاري رفع النسخة الاحتياطية إلى Google Drive."
+msgstr "جارٍ رفع النسخة الاحتياطية إلى Google Drive."
 
 #. source: frappe
 msgid "Uploading successful."
@@ -75834,11 +75826,11 @@ msgstr "تم الرفع بنجاح."
 
 #. source: frappe
 msgid "Uploading to Google Drive"
-msgstr "جاري الرفع إلى Google Drive"
+msgstr "جارٍ الرفع إلى Google Drive"
 
-#. source: hrms
+#. source: erpnext
 msgid "Uploading..."
-msgstr "جاري التحميل..."
+msgstr "جارٍ الرفع..."
 
 #. source: erpnext
 msgid "Upon enabling this, the JV will be submitted for a different exchange rate."
@@ -75998,7 +75990,7 @@ msgstr "استخدم بعض الكلمات غير الشائعة معاً."
 
 #. source: frappe
 msgid "Use a few words, avoid common phrases."
-msgstr ".استخدم كلمات قليلة، وتجنب العبارات الشائعة"
+msgstr "استخدم كلمات قليلة، وتجنب العبارات الشائعة."
 
 #. source: erpnext
 msgid "Use a name that is different from previous project name"
@@ -76118,15 +76110,15 @@ msgstr "يُستخدم مع نموذج التقرير المالي"
 
 #. source: frappe
 msgid "User"
-msgstr "المستعمل"
+msgstr "المستخدم"
 
 #. source: frappe
 msgid "User "
-msgstr "المستعمل "
+msgstr "المستخدم "
 
 #. source: frappe
 msgid "User '{0}' already has the role '{1}'"
-msgstr "المستخدم{0} يملك بالفعل الدور {1}<br>User '{0}' already has the role '{1}'"
+msgstr "المستخدم{0} يملك بالفعل الدور {1}"
 
 #. source: frappe
 msgid "User Activity Report"
@@ -76447,7 +76439,7 @@ msgstr "URI معلومات المستخدم"
 
 #. source: frappe
 msgid "Username"
-msgstr "اسم االمستخدم"
+msgstr "اسم المستخدم"
 
 #. source: frappe
 msgid "Username {0} already exists"
@@ -76537,9 +76529,9 @@ msgstr ""
 msgid "Utility Expenses"
 msgstr "نفقات المرافق"
 
-#. source: hrms
+#. source: frappe
 msgid "Utilization"
-msgstr "الاستغلال"
+msgstr "الاستخدام"
 
 #. source: frappe
 msgid "Utilization %"
@@ -76793,7 +76785,7 @@ msgstr "لا يمكن تحديد رسوم نوع التقييم على أنها 
 
 #. source: erpnext
 msgid "Valuation type charges can not marked as Inclusive"
-msgstr "لا يمكن وضع علامة على رسوم التقييم على انها شاملة"
+msgstr "لا يمكن وضع علامة على رسوم التقييم على أنها شاملة"
 
 #. source: frappe
 msgid "Value"
@@ -77207,7 +77199,7 @@ msgstr "فيديو"
 
 #. source: erpnext
 msgid "Video Settings"
-msgstr "اعدادات الفيديو"
+msgstr "إعدادات الفيديو"
 
 #. source: frappe
 msgid "Video URL"
@@ -77658,7 +77650,7 @@ msgstr "يجب أن تكون سعة المستودع للصنف '{0}' أكبر �
 
 #. source: erpnext
 msgid "Warehouse Contact Info"
-msgstr "معلومات الأتصال بالمستودع"
+msgstr "معلومات الاتصال بالمستودع"
 
 #. source: erpnext
 msgid "Warehouse Defaults"
@@ -77766,7 +77758,7 @@ msgstr "المستودعات"
 
 #. source: erpnext
 msgid "Warehouses with child nodes cannot be converted to ledger"
-msgstr "المستودعات مع العقد التابعة لا يمكن أن يتم تحويلها إلى دفتر الاستاذ"
+msgstr "المستودعات مع العقد التابعة لا يمكن أن يتم تحويلها إلى دفتر الأستاذ"
 
 #. source: erpnext
 msgid "Warehouses with existing transaction can not be converted to group."
@@ -77858,7 +77850,7 @@ msgstr "تحذير: رصيد الإجازات غير كافٍ لنوع الإج�
 
 #. source: hrms
 msgid "Warning: Leave application contains following block dates"
-msgstr "تحذير: طلب اﻹجازة يحتوي على الايام التالية الّتي يمنع فيها اﻹجازة"
+msgstr "تحذير: طلب اﻹجازة يحتوي على الأيام التالية الّتي يمنع فيها اﻹجازة"
 
 #. source: erpnext
 msgid "Warning: Material Requested Qty is less than Minimum Order Qty"
@@ -78106,7 +78098,7 @@ msgstr "عرض صفحة الويب"
 
 #. source: frappe
 msgid "Web Site"
-msgstr "موقع الكتروني"
+msgstr "موقع إلكتروني"
 
 #. source: frappe
 msgid "Web Template"
@@ -78406,7 +78398,7 @@ msgstr "مرحبًا! يرجى تسجيل الدخول للمتابعة."
 
 #. source: erpnext
 msgid "What do you need help with?"
-msgstr "ما الذى تحتاج المساعدة به؟"
+msgstr "ما الذي تحتاج المساعدة به؟"
 
 #. source: erpnext
 msgid "What do you use today?"
@@ -78629,7 +78621,7 @@ msgstr "سوف تطبق أيضا على المتغيرات"
 
 #. source: erpnext
 msgid "Will also apply for variants unless overridden"
-msgstr "سوف تطبق أيضا على المتغيرات الا اذا تم التغير فوقها"
+msgstr "سوف تطبق أيضا على المتغيرات الا إذا تم التغير فوقها"
 
 #. source: erpnext
 msgid "Will be auto-populated"
@@ -78897,7 +78889,7 @@ msgstr "إجراء سير العمل"
 
 #. source: frappe
 msgid "Workflow Action Master"
-msgstr "سير العمل الاجراء الاساسي"
+msgstr "سير العمل الإجراء الأساسي"
 
 #. source: frappe
 msgid "Workflow Action Name"
@@ -79251,7 +79243,7 @@ msgstr "X محور الحقل"
 
 #. source: frappe
 msgid "X Field"
-msgstr "X الميدان"
+msgstr "حقل X"
 
 #. source: frappe
 msgid "XLSX"
@@ -79275,7 +79267,7 @@ msgstr "حقول محور Y"
 
 #. source: frappe
 msgid "Y Field"
-msgstr "Y الميدان"
+msgstr "حقل Y"
 
 #. source: frappe
 msgid "Yahoo Mail"
@@ -79418,7 +79410,7 @@ msgstr "غير مسموح لك بالوصول إلى هذا السجل {0} لأ�
 
 #. source: frappe
 msgid "You are not allowed to create columns"
-msgstr "لا يسمح لك بأنشاء اعمدة"
+msgstr "لا يسمح لك بأنشاء أعمدة"
 
 #. source: frappe
 msgid "You are not allowed to delete Standard Report"
@@ -79484,7 +79476,7 @@ msgstr "أنت غير مصرح لك بإجراء/تعديل معاملات ال�
 
 #. source: erpnext
 msgid "You are not authorized to set Frozen value"
-msgstr ".أنت غير مخول لتغيير القيم المجمدة"
+msgstr "أنت غير مخول لتعيين القيمة المجمدة"
 
 #. source: frappe
 msgid "You are not authorized to undo this email"
@@ -79939,7 +79931,7 @@ msgid ""
 "You do not have enough permissions to access this resource. Please contact your "
 "manager to get access."
 msgstr ""
-"ليس لديك الأذونات الكافية للوصول إلى هذا المورد. الرجاء الاتصال بالمدير للحصول علي "
+"ليس لديك الأذونات الكافية للوصول إلى هذا المورد. الرجاء الاتصال بالمدير للحصول على "
 "الوصول."
 
 #. source: frappe
@@ -80012,7 +80004,7 @@ msgstr "ليس لديك إذن للوصول إلى نوع المستند {0}."
 
 #. source: frappe
 msgid "You don't have permission to access this file"
-msgstr "لا تتوفر لديك الصلاحية للوصول الى هذا الملف"
+msgstr "لا تتوفر لديك الصلاحية للوصول إلى هذا الملف"
 
 #. source: frappe
 msgid "You don't have permission to create Report records."
@@ -80244,7 +80236,7 @@ msgstr "عليك أن تكون في وضع المطور لتعديل نموذج 
 
 #. source: frappe
 msgid "You need to be logged in and have System Manager Role to be able to access backups."
-msgstr "يتوجب عليك تسجيل الدخول بصلاحية مدير النظام حتي تتمكن من الوصول الى النسخ الأحتياطية."
+msgstr "يتوجب عليك تسجيل الدخول بصلاحية مدير النظام حتي تتمكن من الوصول إلى النسخ الاحتياطية."
 
 #. source: frappe
 msgid "You need to be logged in to access this page"
@@ -80402,7 +80394,7 @@ msgid ""
 "Your CSV file is being generated and will appear in the Attachments section once "
 "ready. Additionally, you will get notified when the file is available for download."
 msgstr ""
-"جاري إنشاء ملف CSV الخاص بك وسيظهر في قسم المرفقات بمجرد جاهزيته. بالإضافة إلى ذلك، "
+"جارٍ إنشاء ملف CSV الخاص بك وسيظهر في قسم المرفقات بمجرد جاهزيته. بالإضافة إلى ذلك، "
 "ستتلقى إشعاراً عندما يكون الملف متاحاً للتحميل."
 
 #. source: frappe
@@ -80550,7 +80542,7 @@ msgid ""
 "Your report is being generated in the background. You will receive an email on {0} "
 "with a download link once it is ready."
 msgstr ""
-"جاري إنشاء تقريرك في الخلفية. ستتلقى بريداً إلكترونياً على {0} يحتوي على رابط تحميل "
+"جارٍ إنشاء تقريرك في الخلفية. ستتلقى بريداً إلكترونياً على {0} يحتوي على رابط تحميل "
 "بمجرد جاهزيته."
 
 #. source: frappe
@@ -82129,7 +82121,7 @@ msgstr "{0} يحتوي على {1}"
 
 #. source: erpnext
 msgid "{0} created"
-msgstr "{0} تم انشاؤه"
+msgstr "{0} تم إنشاؤه"
 
 #. source: frappe
 msgid "{0} created successfully"
@@ -82224,7 +82216,7 @@ msgstr "{0} لا ينتمي إلى الشركة {1}. يرجى اختيار حس�
 
 #. source: erpnext
 msgid "{0} entered twice in Item Tax"
-msgstr "{0} ادخل مرتين في ضريبة البند"
+msgstr "{0} أدخل مرتين في ضريبة البند"
 
 #. source: erpnext
 msgid "{0} entered twice {1} in Item Taxes"
@@ -82526,7 +82518,7 @@ msgstr "{0} ليس نوع DocType صالحًا للارتباط الدينامي
 
 #. source: frappe
 msgid "{0} is not a valid Email Address"
-msgstr "{0} بريد الكتروني غير صالح<br>{0} is not a valid Email Address"
+msgstr "{0} بريد إلكتروني غير صالح"
 
 #. source: frappe
 msgid "{0} is not a valid ISO 3166 ALPHA-2 code."
@@ -82698,7 +82690,7 @@ msgstr "تم تفكيك {0} صنفاً"
 
 #. source: erpnext
 msgid "{0} items in progress"
-msgstr "{0} العنصر قيد الأستخدام"
+msgstr "{0} العنصر قيد الاستخدام"
 
 #. source: erpnext
 msgid "{0} items lost during process."
@@ -83411,9 +83403,7 @@ msgstr "{0} {1}: لا يمكن حذف السجل المقدم. يجب عليك {
 
 #. source: erpnext
 msgid "{0} {1}: Supplier is required against Payable account {2}"
-msgstr ""
-"{0} {1}: المورد مطلوب لحساب الدفع {2}\\n<br> \\n{0} {1}: Supplier is required against"
-" Payable account {2}"
+msgstr "{0} {1}: المورد مطلوب لحساب الدفع {2}"
 
 #. source: erpnext
 msgid "{0}%"
@@ -83494,7 +83484,7 @@ msgstr "{0} : لا يمكن تحديد استيراد دون إنشاء"
 
 #. source: frappe
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0} : لا يمكن تحديد تأكيد ، الغاء ، تعديل دون كتابة"
+msgstr "{0} : لا يمكن تحديد تأكيد ، إلغاء ، تعديل دون كتابة"
 
 #. source: frappe
 msgid "{0}: Cannot set import as {1} is not importable"

@@ -172,10 +172,35 @@ terminology clusters, not the underlying literalism.
 - **225 new upstream strings translated** (101 Frappe, 124 ERPNext) so the v16
   bundles stay at 0 untranslated against the current templates.
 
-645 entries corrected in total. Every rule lives in `scripts/terminology_fixes.py`
-and is applied by `scripts/apply_terminology.py`, so the pass is reviewable as a
-rule table rather than as a raw PO diff, and reproduces byte-identically from a
-clean checkout.
+Spelling and word-choice, corrected against the catalogs' own usage:
+
+- **`Field` was rendered `الميدان`** — the *battlefield/arena* sense — across the
+  DocType and LDAP settings screens. Now `الحقل` (14 entries).
+- **`Finance Book` was `كتاب المالية`**, a book you read, rather than the parallel
+  set of accounting books it names. Now `الدفتر المالي`. `Book Appointment` read
+  `موعد الكتاب` ("the book's appointment"); now `حجز موعد`.
+- **`User` was `المستعمل`** in three places against `المستخدم` in ~200 others.
+- **149 spelling forms normalised**, each backed by corpus evidence rather than
+  judgement — the corrected form already outnumbered the defective one at least
+  3:1 in these same catalogs. Both directions are checked: hamza missing from a
+  form IV word (`انشاء` → `إنشاء`), and hamza wrongly added to a form VIII/X word
+  (`الأفتراضي` → `الافتراضي`). Chains resolve, so `الألكتروني` lands on
+  `الإلكتروني` rather than stopping at the equally-wrong `الالكتروني`.
+- Doubled letters (`االمستخدم` → `المستخدم`), missing spaces (`لايمكن` →
+  `لا يمكن`), prepositions (`الى`/`الي` → `إلى`, `علي` → `على`), and the
+  progressive participle (`جاري` → `جارٍ`, 36 entries).
+- **15 more bilingual artifacts** using a bare `<br>` rather than `\n<br>\n`,
+  which the first sweep's pattern missed.
+- Four msgstrs that **began with the sentence's full stop**, an RTL artifact.
+
+**963 entries corrected and 225 newly translated** in total. Every rule lives in
+`scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
+so the pass is reviewable as a rule table rather than as a raw PO diff, and
+reproduces byte-identically in a single run from a clean checkout.
+
+Two words are excluded from the spelling rules by name, because they are correct
+and the frequency test would otherwise "fix" them: `بعدة` ("with several") and
+`دفعه` ("paying it").
 
 ### 0.3.2
 

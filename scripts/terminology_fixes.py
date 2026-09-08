@@ -107,6 +107,31 @@ EXACT = {
 		"Warehouse": "المستودع",
 		"Post": "نشر",
 		"Create Entry": "إنشاء قيد",
+		# "Field" was rendered الميدان — the battlefield/arena sense — across the
+		# DocType and LDAP settings screens. The UI sense is الحقل.
+		# the English tail carried the {0}; stripping it exposed the omission
+		"Fieldname is limited to 64 characters ({0})": "اسم الحقل محدود بـ 64 حرفًا ({0})",
+		"Jump to field": "الانتقال إلى الحقل",
+		"Interests": "الاهتمامات",               # hedged both senses: 'الإهتمامات او الفوائد'
+		"Based on Field": "بناءً على الحقل",
+		"Image Field": "حقل الصورة",
+		"Is Published Field": "حقل حالة النشر",
+		"LDAP Email Field": "حقل البريد الإلكتروني في LDAP",
+		"LDAP First Name Field": "حقل الاسم الأول في LDAP",
+		"LDAP Username Field": "حقل اسم المستخدم في LDAP",
+		"Remove Field": "إزالة الحقل",
+		"Timeline Field": "حقل الجدول الزمني",
+		"X Field": "حقل X",
+		"Y Field": "حقل Y",
+		"Options 'Dynamic Link' type of field must point to another Link Field with options as 'DocType'":
+			"خيارات الحقل من نوع \"ارتباط ديناميكي\" يجب أن تشير إلى حقل ارتباط آخر خياراته \"DocType\"",
+		# "User" was rendered المستعمل here but المستخدم in ~70 other entries
+		"User": "المستخدم",
+		"User ": "المستخدم ",
+		# msgstr began with the full stop - an RTL artifact that renders wrong
+		"Administrator accessed {0} on {1} via IP Address {2}.":
+			"المسؤول ولج {0} بتاريخ {1} عبر العنوان {2}.",
+		"Use a few words, avoid common phrases.": "استخدم كلمات قليلة، وتجنب العبارات الشائعة.",
 	},
 	"erpnext": {
 		# Stock read as equity, beyond what substitution repairs
@@ -248,6 +273,31 @@ EXACT = {
 		"Is Return (Credit Note)": "مرتجع (إشعار دائن)؟",
 		"Is Return (Debit Note)": "مرتجع (إشعار مدين)؟",
 		"Consolidated Credit Note": "إشعار دائن موحد",
+
+		# cross-app disagreements, resolved toward the correct sense
+		"No.": "الرقم",                        # was 'لا.' - the negation, not the number
+		"N/A": "غير متوفر",                     # was left untranslated as 'N / A'
+		"Employee Exit": "إنهاء خدمة الموظف",    # was just 'موظف'
+		"Field Mapping": "ربط الحقول",           # was 'رسم الخرائط الميدانية' (field cartography)
+
+		# "Finance Book" is a parallel set of books (tax vs accounting), not a
+		# book you read; and "Book" as a verb is حجز/تسجيل, never الكتاب.
+		"Finance Book": "الدفتر المالي",
+		"Finance Book Detail": "تفاصيل الدفتر المالي",
+		"Finance Book Id": "معرّف الدفتر المالي",
+		"Default Finance Book": "الدفتر المالي الافتراضي",
+		"Asset Finance Book": "الدفتر المالي للأصل",
+		"Row #{}: Please use a different Finance Book.": "الصف رقم #{}: يرجى استخدام دفتر مالي مختلف.",
+		"Book Appointment": "حجز موعد",          # was 'موعد الكتاب' (the book's appointment)
+
+		# word-salad rewrites
+		"Row {0}: Bill of Materials not found for the Item {1}":
+			"الصف {0}: لم يتم العثور على قائمة المواد للصنف {1}",
+		"Total Applicable Charges in Purchase Receipt Items table must be same as Total Taxes and Charges":
+			"يجب أن يساوي إجمالي الرسوم المطبقة في جدول أصناف إشعار استلام المشتريات إجمالي الضرائب والرسوم",
+		"POS Field": "حقل نقطة البيع",
+		"This is a root account and cannot be edited.": "هذا حساب جذري ولا يمكن تعديله.",
+		"You are not authorized to set Frozen value": "أنت غير مخول لتعيين القيمة المجمدة",
 		"Credit Note {0} has been created automatically": "تم إنشاء الإشعار الدائن {0} تلقائيًا",
 	},
 	"hrms": {
@@ -267,6 +317,17 @@ EXACT = {
 		"Invalid Leave Ledger Entry": "قيد دفتر أستاذ الإجازات غير صالح",
 		"Auto Leave Encashment": "استبدال الإجازة نقدًا تلقائيًا",
 		"Shift": "وردية",
+		"User": "المستخدم",
+		"Service Item": "صنف الخدمة",       # Item = صنف; was 'بند الخدمة'
+		"Added On": "تاريخ الإضافة",         # was 'تمت إضافة على' (broken grammar)
+		"Apply": "تقديم طلب",                # job-application button; was 'يتقدم'
+		"Utilization": "الاستخدام",          # was 'الاستغلال' (exploitation)
+		"Assigning...": "جارٍ التعيين...",
+		"Uploading...": "جارٍ الرفع...",
+		"Archive": "أرشفة",
+		"Confirm": "تأكيد",
+		'<span class="h4"><b>Your Shortcuts</b></span>':
+			'<span class="h4"><b>اختصاراتك</b></span>',
 		"From Date cannot be greater than To Date": 'لا يمكن أن يكون "من تاريخ" أكبر من "إلى تاريخ"',
 		"To Date cannot be before From Date": 'لا يمكن أن يكون "إلى تاريخ" قبل "من تاريخ"',
 		"Leave Type {0} cannot be carry-forwarded": "لا يمكن ترحيل نوع الإجازة {0}",
@@ -303,4 +364,176 @@ ORTHOGRAPHY = {
 	# "الي" as the preposition إلى (distinct from the relative pronoun الذي)
 	"(الي تاريخ)": "(إلى تاريخ)", "(الي التاريخ)": "(إلى التاريخ)",
 	"(الي القيمة)": "(إلى القيمة)",
+}
+
+# --------------------------------------------------------------------------
+# 4. Spelling, applied to whole Arabic words only.
+#
+# Almost every entry is backed by corpus evidence rather than judgement: the
+# corrected form already outnumbers the defective one by at least 3:1 in these
+# same catalogs, so these are typos against the catalogs' own established
+# spelling. Both directions are tested — hamza missing from a form IV word
+# (انشاء -> إنشاء) and hamza wrongly added to a form VIII/X word
+# (الأفتراضي -> الافتراضي) — and chains are resolved, so الألكتروني lands on
+# الإلكتروني rather than stopping at the equally-wrong الالكتروني.
+#
+# `بعدة` ("with several") and `دفعه` ("paying it") are excluded explicitly:
+# both are correct words that the ta-marbuta test would otherwise flag.
+# --------------------------------------------------------------------------
+SPELLING = {
+	# -- hamza restored on bare alif — the hamzated spelling dominates the corpus (89 forms) --
+	"الالكتروني": "الإلكتروني",
+	"اخرى": "أخرى",
+	"الاجازة": "الإجازة",
+	"الغاء": "إلغاء",
+	"انشاء": "إنشاء",
+	"اجازة": "إجازة",
+	"ارسال": "إرسال",
+	"اعادة": "إعادة",
+	"ادخل": "أدخل",
+	"اشعار": "إشعار",
+	"اصناف": "أصناف",
+	"الاجازات": "الإجازات",
+	"الاهلاك": "الإهلاك",
+	"اعدادات": "إعدادات",
+	"الاصناف": "الأصناف",
+	"ارقام": "أرقام",
+	"اضافية": "إضافية",
+	"اظهار": "إظهار",
+	"الاجمالي": "الإجمالي",
+	"الاساسي": "الأساسي",
+	"الاسبوع": "الأسبوع",
+	"الكتروني": "إلكتروني",
+	"ايام": "أيام",
+	"لانه": "لأنه",
+	"اجازات": "إجازات",
+	"اجمالي": "إجمالي",
+	"ارجاع": "إرجاع",
+	"اساس": "أساس",
+	"اضافة": "إضافة",
+	"الاغلاق": "الإغلاق",
+	"الايام": "الأيام",
+	"انشاؤه": "إنشاؤه",
+	"ايرادات": "إيرادات",
+	"للانتاج": "للإنتاج",
+	"اجراء": "إجراء",
+	"اخفاء": "إخفاء",
+	"ادارة": "إدارة",
+	"ادخال": "إدخال",
+	"ادراج": "إدراج",
+	"اذونات": "أذونات",
+	"ازالة": "إزالة",
+	"اساسي": "أساسي",
+	"اسبوعين": "أسبوعين",
+	"اسعار": "أسعار",
+	"اصدار": "إصدار",
+	"اصول": "أصول",
+	"اعداد": "إعداد",
+	"اعلى": "أعلى",
+	"اعمدة": "أعمدة",
+	"اغلاق": "إغلاق",
+	"افضل": "أفضل",
+	"اقصى": "أقصى",
+	"اقفال": "إقفال",
+	"اكبر": "أكبر",
+	"الاجراء": "الإجراء",
+	"الاخطاء": "الأخطاء",
+	"الادارة": "الإدارة",
+	"الادخال": "الإدخال",
+	"الادنى": "الأدنى",
+	"الارقام": "الأرقام",
+	"الاستاذ": "الأستاذ",
+	"الاسعار": "الأسعار",
+	"الاشعار": "الإشعار",
+	"الاصل": "الأصل",
+	"الاصلي": "الأصلي",
+	"الاصول": "الأصول",
+	"الاضافي": "الإضافي",
+	"الاعلى": "الأعلى",
+	"الاقسام": "الأقسام",
+	"الاقصى": "الأقصى",
+	"الالزامية": "الإلزامية",
+	"الالغاء": "الإلغاء",
+	"الانتاج": "الإنتاج",
+	"الانترنت": "الإنترنت",
+	"الاوراق": "الأوراق",
+	"الايرادات": "الإيرادات",
+	"الايصال": "الإيصال",
+	"الزامي": "إلزامي",
+	"انتاج": "إنتاج",
+	"انشئ": "أنشئ",
+	"انها": "أنها",
+	"اهداف": "أهداف",
+	"اولا": "أولا",
+	"اولاً": "أولاً",
+	"ايصال": "إيصال",
+	"بالايام": "بالأيام",
+	"بامر": "بأمر",
+	"لانشاء": "لإنشاء",
+	"لانها": "لأنها",
+	# -- hamzat wasl: hamza wrongly added to a form VIII/X word (17 forms) --
+	"أكتمل": "اكتمل",
+	"الإستجابة": "الاستجابة",
+	"أتصال": "اتصال",
+	"أجازة": "إجازة",
+	"أختر": "اختر",
+	"أستلام": "استلام",
+	"أفتح": "افتح",
+	"إنتهى": "انتهى",
+	"الأتصال": "الاتصال",
+	"الأجازات": "الإجازات",
+	"الأجمالي": "الإجمالي",
+	"الأحتياطية": "الاحتياطية",
+	"الأستخدام": "الاستخدام",
+	"الأفتراضي": "الافتراضي",
+	"الألكتروني": "الإلكتروني",
+	"الإصناف": "الأصناف",
+	"للأسم": "للاسم",
+	# -- ta marbuta / ha confusion (21 forms) --
+	"السنه": "السنة",
+	"قيمه": "قيمة",
+	"مجموعه": "مجموعة",
+	"الاجازه": "الإجازة",
+	"الافتراضيه": "الافتراضية",
+	"التاريخيه": "التاريخية",
+	"المتداخله": "المتداخلة",
+	"المجموعه": "المجموعة",
+	"المرسله": "المرسلة",
+	"بدايه": "بداية",
+	"بواسطه": "بواسطة",
+	"خريطه": "خريطة",
+	"طريقه": "طريقة",
+	"فارغه": "فارغة",
+	"قاعده": "قاعدة",
+	"كلمه": "كلمة",
+	"لدية": "لديه",
+	"مطالبه": "مطالبة",
+	"مطلوبه": "مطلوبة",
+	"مكرره": "مكررة",
+	"نقطه": "نقطة",
+	# -- doubled letters, missing spaces, prepositions, participle, typos (22 forms) --
+	"جاري": "جارٍ",
+	"الى": "إلى",
+	"او": "أو",
+	"علي": "على",
+	"الايميل": "الإيميل",
+	"الأيصال": "الإيصال",
+	"الفلتره": "الفلترة",
+	"لايمكن": "لا يمكن",
+	"أسم": "اسم",
+	"الي": "إلى",
+	"اذا": "إذا",
+	"لان": "لأن",
+	"االاستهالك": "الاستهلاك",
+	"االمستخدم": "المستخدم",
+	"اختيارالحساب": "اختيار الحساب",
+	"الإهتمامات": "الاهتمامات",
+	"الااسم": "الاسم",
+	"التقريرالقياسي": "التقرير القياسي",
+	"الذى": "الذي",
+	"العثورعلى": "العثور على",
+	"تحوبله": "تحويله",
+	"سعرالمواد": "سعر المواد",
+	"قواائم": "قوائم",
+	"كتيرة": "كثيرة",
 }

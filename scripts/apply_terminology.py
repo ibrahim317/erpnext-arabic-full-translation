@@ -22,7 +22,7 @@ from pathlib import Path
 from babel.messages.pofile import read_po, write_po
 
 sys.path.insert(0, str(Path(__file__).parent))
-from terminology_fixes import EXACT, GLOSSARY, ORTHOGRAPHY
+from terminology_fixes import EXACT, GLOSSARY, ORTHOGRAPHY, SPELLING
 
 ROOT = Path(__file__).resolve().parent.parent / "arabic_translations" / "locale" / "source"
 APPS = ("frappe", "erpnext", "hrms")
@@ -30,22 +30,29 @@ APPS = ("frappe", "erpnext", "hrms")
 BRACE = re.compile(r"\{[^{}]*\}")
 ARABIC = re.compile(r"[؀-ۿ]")
 LATIN = re.compile(r"[A-Za-z]")
-# the pipeline emitted a literal backslash-n, not a newline
-BILINGUAL = re.compile(r"\\n<br>\\n")
+# the pipeline appended the English original after a <br>; the separator shows up
+# as a real tag, sometimes wrapped in literal backslash-n rather than newlines
+BILINGUAL = re.compile(r"(?:\\n)?\s*<br\s*/?>\s*(?:\\n)?")
 
 # guards are case-insensitive: msgids mix "Stock Entry" and "stock transactions"
 GUARDS = [(re.compile(g, re.I), re.compile(p), r) for g, p, r in GLOSSARY]
+# whole-word only: "علي" is the preposition to fix, but it must not be touched
+# inside a longer word, and Arabic has no \b that respects its script.
+AR = "؀-ۿ"
+SPELL = [(re.compile(f"(?<![{AR}]){re.escape(w)}(?![{AR}])"), c) for w, c in SPELLING.items()]
 
 
 def strip_bilingual(sid: str, st: str) -> str:
-	"""Drop a trailing '\\n<br>\\n<english original>' tail left by the pipeline."""
-	if not BILINGUAL.search(st):
+	"""Drop the "<br> + untranslated English" tail the pipeline appended.
+
+	Verified across all three catalogs: whenever the msgid carries no <br> but
+	the msgstr does, the tail is always a leftover - the English original, or a
+	duplicate Arabic rendering - and never content the translation added. So the
+	presence of an unmatched <br> is itself the signal.
+	"""
+	if "<br" not in st or "<br" in sid:
 		return st
-	if BILINGUAL.search(sid):
-		return st  # the msgid genuinely carries the separator
-	head, _tail = BILINGUAL.split(st, 1)
-	# the tail is always a leftover: either the untranslated English or a
-	# duplicate Arabic rendering. The msgid has no <br>, so neither belongs.
+	head = BILINGUAL.split(st, 1)[0]
 	return head.rstrip() if head.strip() else st
 
 
@@ -73,17 +80,25 @@ def align_ws(sid: str, st: str) -> str:
 def fix(app: str, sid: str, st: str) -> str:
 	new = strip_bilingual(sid, st)
 
+	# Spelling first. A glossary pattern like "إيصال" cannot match text that
+	# still reads "ايصال", so normalising the spelling before the terminology
+	# pass is what makes a single run a fixpoint rather than needing a second.
+	for wrong, right in ORTHOGRAPHY.items():
+		if wrong in new:
+			new = new.replace(wrong, right)
+
+	for pat, right in SPELL:
+		new = pat.sub(right, new)
+
 	for guard, pat, repl in GUARDS:
 		if guard.search(sid):
 			new = pat.sub(repl, new)
 
+	# EXACT has the last word: these are hand-written, already correct, and must
+	# not be re-mangled by a later rule.
 	exact = EXACT.get(app, {}).get(sid)
 	if exact is not None:
 		new = exact
-
-	for wrong, right in ORTHOGRAPHY.items():
-		if wrong in new:
-			new = new.replace(wrong, right)
 
 	new = normalise_ws(sid, new)
 	return align_ws(sid, new)
