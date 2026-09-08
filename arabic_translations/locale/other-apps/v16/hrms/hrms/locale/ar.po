@@ -213,7 +213,7 @@ msgstr "23:00"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:272
 msgid "<b>Base</b> amount has not been set for the following employee(s): {0}"
-msgstr "لم يتم تعيين المبلغ <b> base </b> للموظف (S) التالي: {0}"
+msgstr "لم يتم تعيين المبلغ <b>الأساسي</b> للموظفين التاليين: {0}"
 
 #. Description of the 'Password Policy' (Data) field in DocType 'Payroll
 #. Settings'
@@ -1298,7 +1298,7 @@ msgstr "الأصول المخصصة"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:283
 msgid "Assign Salary Structure to {0} employee(s)?"
-msgstr "تعيين هيكل الراتب إلى {0} الموظف (s)؟"
+msgstr "تعيين هيكل الراتب لـ {0} موظف؟"
 
 #. Option for the 'Action' (Select) field in DocType 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:110
@@ -1731,7 +1731,7 @@ msgstr "الساعات المفوترة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:68
 msgid "Billed Hours (B)"
-msgstr "الساعات المفوترة (B)"
+msgstr "الساعات المفوترة (ب)"
 
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Payroll Entry'
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Salary Slip'
@@ -11732,7 +11732,7 @@ msgstr "عرض الأهداف"
 
 #: hrms/hr/doctype/job_applicant/job_applicant.js:78
 msgid "View Job Offer"
-msgstr "عرض عرض العمل"
+msgstr "الاطلاع على عرض العمل"
 
 #: frontend/src/components/LeaveBalance.vue:14
 msgid "View Leave History"
@@ -12265,7 +12265,7 @@ msgstr "تم {0} بنجاح!"
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:261
 msgid "{0} to {1} employee(s)?"
-msgstr "{0} إلى {1} موظف (موظفين)؟"
+msgstr "{0} لـ {1} موظف؟"
 
 #: frontend/src/components/FormView.vue:560
 msgid "{0} updated successfully!"

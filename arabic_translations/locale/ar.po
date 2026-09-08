@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arabic_translations VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-18 09:33+0000\n"
+"POT-Creation-Date: 2026-09-09 00:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arabic Translations contributors\n"
 "Language: ar\n"
@@ -927,7 +927,7 @@ msgstr ""
 
 #. source: hrms
 msgid "<b>Base</b> amount has not been set for the following employee(s): {0}"
-msgstr "لم يتم تعيين المبلغ <b> base </b> للموظف (S) التالي: {0}"
+msgstr "لم يتم تعيين المبلغ <b>الأساسي</b> للموظفين التاليين: {0}"
 
 #. source: erpnext
 msgid ""
@@ -2777,9 +2777,9 @@ msgstr "أيام الغياب"
 msgid "Absent Records"
 msgstr "السجلات الغائبة"
 
-#. source: hrms
+#. source: erpnext
 msgid "Academics User"
-msgstr "المستخدمين الأكادميين"
+msgstr "المستخدمون الأكاديميون"
 
 #. source: frappe
 msgid "Accept Invitation"
@@ -2885,7 +2885,7 @@ msgstr "أرقام الحسابات / العملاء التي خصصها هذا 
 
 #. source: erpnext
 msgid "Account Balance"
-msgstr "رصيد حسابك"
+msgstr "رصيد الحساب"
 
 #. source: erpnext
 msgid "Account Category"
@@ -2931,9 +2931,9 @@ msgstr "تفاصيل الحساب"
 msgid "Account Filter"
 msgstr "مرشح الحساب"
 
-#. source: hrms
+#. source: erpnext
 msgid "Account Head"
-msgstr "رئيس حساب"
+msgstr "الحساب الرئيسي"
 
 #. source: erpnext
 msgid "Account Manager"
@@ -3273,9 +3273,9 @@ msgstr "قيد محاسبي لـ {0}"
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
 msgstr "القيد المحاسبي لـ {0}: {1} لا يمكن إجراؤه إلا بالعملة: {2}"
 
-#. source: hrms
+#. source: erpnext
 msgid "Accounting Ledger"
-msgstr "موازنة دفتر الأستاذ"
+msgstr "دفتر الأستاذ"
 
 #. source: erpnext
 msgid "Accounting Masters"
@@ -3577,15 +3577,15 @@ msgstr "الإجراء للمواعيد غير المتحقَّق منها ال�
 
 #. source: erpnext
 msgid "Action if Accumulated Monthly Budget Exceeded on Actual"
-msgstr "أجراء في حال تجاوزت الميزانية الشهرية المتراكمة للميزانية الفعلية"
+msgstr "الإجراء في حال تجاوز الميزانية الشهرية المتراكمة على الفعلي"
 
 #. source: erpnext
 msgid "Action if Accumulated Monthly Budget Exceeded on MR"
-msgstr "الإجراء في حالة تجاوز الميزانية الشهرية المتراكمة على MR"
+msgstr "الإجراء في حال تجاوز الميزانية الشهرية المتراكمة في طلب المواد"
 
 #. source: erpnext
 msgid "Action if Accumulated Monthly Budget Exceeded on PO"
-msgstr "أجراء في حال تجاوزت الميزانية الشهرية المتراكمة طلب الشراء"
+msgstr "الإجراء في حال تجاوز الميزانية الشهرية المتراكمة في أمر الشراء"
 
 #. source: erpnext
 msgid "Action if Accumulative Monthly Budget Exceeded on Cumulative Expense"
@@ -3593,15 +3593,15 @@ msgstr "الإجراء إذا تجاوزت الميزانية الشهرية ا�
 
 #. source: erpnext
 msgid "Action if Annual Budget Exceeded on Actual"
-msgstr "أجراء في حال تجاوزت الميزانية السنوية الميزانية المخصصة مسبقا"
+msgstr "الإجراء في حال تجاوز الميزانية السنوية على الفعلي"
 
 #. source: erpnext
 msgid "Action if Annual Budget Exceeded on MR"
-msgstr "الإجراء إذا تجاوزت الميزانية السنوية على الدخل الشهري"
+msgstr "الإجراء في حال تجاوز الميزانية السنوية في طلب المواد"
 
 #. source: erpnext
 msgid "Action if Annual Budget Exceeded on PO"
-msgstr "الإجراء إذا تجاوزت الميزانية السنوية على أمر الشراء"
+msgstr "الإجراء في حال تجاوز الميزانية السنوية في أمر الشراء"
 
 #. source: erpnext
 msgid "Action if Anual Budget Exceeded on Cumulative Expense"
@@ -5479,8 +5479,8 @@ msgid ""
 "Allocated {0} leave(s) via scheduler on {1} based on the 'Allocate on Day' option set"
 " to {2}"
 msgstr ""
-"تخصيص {0} إجازة (s) عبر Scheduler على {1} استنادًا إلى خيار \"تخصيص في اليوم\" المعين"
-" على {2}"
+"تم تخصيص {0} إجازة عبر المجدول في {1} بناءً على خيار \"تخصيص في اليوم\" المعيَّن على "
+"{2}"
 
 #. source: hrms
 msgid "Allocating Leave"
@@ -6214,7 +6214,7 @@ msgstr "مسموح بالتعامل مع"
 
 #. source: frappe
 msgid "Allowing DocType, DocType. Be careful!"
-msgstr "السماح DOCTYPE، DOCTYPE. كن حذرا!"
+msgstr "سيسمح هذا بنوع المستند. كن حذرًا!"
 
 #. source: hrms
 msgid "Allows allocating more leaves than the number of days in the allocation period."
@@ -8293,7 +8293,7 @@ msgstr "تعيين مهمة عمل للموظف"
 
 #. source: hrms
 msgid "Assign Salary Structure to {0} employee(s)?"
-msgstr "تعيين هيكل الراتب إلى {0} الموظف (s)؟"
+msgstr "تعيين هيكل الراتب لـ {0} موظف؟"
 
 #. source: hrms
 msgid "Assign Shift"
@@ -9810,7 +9810,7 @@ msgstr "مستكشف قائمة المواد"
 
 #. source: erpnext
 msgid "BOM Explosion Item"
-msgstr "صنف تفكيك قائمة المواد"
+msgstr "تفكيك أصناف قائمة المواد"
 
 #. source: erpnext
 msgid "BOM ID"
@@ -10297,7 +10297,7 @@ msgstr "ملخص المقاصة البنكية"
 
 #. source: erpnext
 msgid "Bank Credit Balance"
-msgstr "رصيد رصيد البنك"
+msgstr "الرصيد الدائن للبنك"
 
 #. source: erpnext
 msgid "Bank Details"
@@ -11025,7 +11025,7 @@ msgstr "الساعات المفوترة"
 
 #. source: hrms
 msgid "Billed Hours (B)"
-msgstr "الساعات المفوترة (B)"
+msgstr "الساعات المفوترة (ب)"
 
 #. source: erpnext
 msgid "Billed Items To Be Received"
@@ -12058,7 +12058,7 @@ msgstr "تجاوز فحص حد الائتمان عند أمر البيع"
 
 #. source: frappe
 msgid "Bypass restricted IP Address check If Two Factor Auth Enabled"
-msgstr "تجاوز عنوان IP المحظور التحقق في حالة تمكين عامل عامل"
+msgstr "تجاوز فحص تقييد عنوان IP إذا تم تفعيل المصادقة الثنائية"
 
 #. source: frappe
 msgid "C5E"
@@ -14422,7 +14422,7 @@ msgstr "مسح بيانات العرض التوضيحي"
 
 #. source: frappe
 msgid "Clear Error Logs"
-msgstr "مسح سجلات سجلات الأخطاء"
+msgstr "مسح سجلات الأخطاء"
 
 #. source: frappe
 msgid "Clear Filters"
@@ -17606,7 +17606,7 @@ msgstr "فشل الإنشاء"
 
 #. source: erpnext
 msgid "Creation of <b><a href='/app/{0}'>{1}(s)</a></b> successful"
-msgstr "تم إنشاء <b><a href='/app/{0}'>{1}(s)</a></b> بنجاح"
+msgstr "تم إنشاء <b><a href='/app/{0}'>{1}</a></b> بنجاح"
 
 #. source: hrms
 msgid "Creation of Salary Structure Assignments has been queued. It may take a few minutes."
@@ -18458,7 +18458,7 @@ msgstr "أرقام العملاء"
 
 #. source: erpnext
 msgid "Customer PO"
-msgstr "PO العملاء"
+msgstr "أمر شراء العميل"
 
 #. source: erpnext
 msgid "Customer PO Details"
@@ -21725,11 +21725,11 @@ msgstr "يمكن أن يكون نوع المستند أحد هذه {0}"
 
 #. source: frappe
 msgid "DocType can not be merged"
-msgstr "لا يمكن دمج DOCTYPE"
+msgstr "لا يمكن دمج نوع المستند"
 
 #. source: frappe
 msgid "DocType can only be renamed by Administrator"
-msgstr "DOCTYPE لا يمكن تسميتها من قبل المسؤول"
+msgstr "لا يمكن إعادة تسمية نوع المستند إلا بواسطة المسؤول"
 
 #. source: frappe
 msgid "DocType is a Table / Form in the application."
@@ -21753,7 +21753,7 @@ msgstr "نوع المستند غير مدعوم بواسطة إعدادات ال
 
 #. source: frappe
 msgid "DocType on which this Workflow is applicable."
-msgstr "DOCTYPE على سير العمل هذا الذي ينطبق."
+msgstr "نوع المستند الذي ينطبق عليه سير العمل هذا."
 
 #. source: frappe
 msgid "DocType required"
@@ -27066,7 +27066,7 @@ msgstr "اسم الحقل لم يتم تعيينه لحقل مخصص"
 
 #. source: frappe
 msgid "Fieldname which will be the DocType for this link field."
-msgstr "اسم الحقل الذي سيكون DOCTYPE لهذا الحقل الارتباط."
+msgstr "اسم الحقل الذي سيحدد نوع المستند لحقل الارتباط هذا."
 
 #. source: erpnext
 msgid ""
@@ -27084,7 +27084,7 @@ msgstr "اسم الحقل {0} يظهر عدة مرات"
 
 #. source: frappe
 msgid "Fieldname {0} cannot have special characters like {1}"
-msgstr "FIELDNAME {0} لا يمكن أن يكون أحرف خاصة مثل {1}"
+msgstr "اسم الحقل {0} لا يمكن أن يحتوي على أحرف خاصة مثل {1}"
 
 #. source: frappe
 msgid "Fieldname {0} conflicting with meta object"
@@ -27548,7 +27548,7 @@ msgstr "انتهى في"
 
 #. source: erpnext
 msgid "Finished Good"
-msgstr "جيد جيد"
+msgstr "منتج نهائي"
 
 #. source: erpnext
 msgid "Finished Good BOM"
@@ -31939,8 +31939,8 @@ msgid ""
 "If enabled, all users can login from any IP Address using Two Factor Auth. This can "
 "also be set only for specific user(s) in User Page"
 msgstr ""
-"إذا تم تمكينه، يمكن لكافة المستخدمين تسجيل الدخول من أي عنوان IP باستخدام \"عامل "
-"عامل\". يمكن أيضًا تعيين ذلك لمستخدمين محددين في صفحة المستخدم"
+"إذا تم تفعيله، يمكن لجميع المستخدمين تسجيل الدخول من أي عنوان IP باستخدام المصادقة "
+"الثنائية. يمكن أيضًا تعيين ذلك لمستخدمين محددين في صفحة المستخدم"
 
 #. source: hrms
 msgid "If enabled, auto attendance will be marked on holidays if Employee Checkins exist"
@@ -35817,7 +35817,7 @@ msgstr "منتهي الصلاحية"
 
 #. source: erpnext
 msgid "Is Final Finished Good"
-msgstr "منتج نهائي نهائي"
+msgstr "المنتج النهائي الأخير"
 
 #. source: erpnext
 msgid "Is Finished Item"
@@ -42300,7 +42300,7 @@ msgstr "اسم الحساب الجديد. ملاحظة: الرجاء عدم إن
 
 #. source: frappe
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr "اسم نوع الوثيقة (DOCTYPE) تريد هذا الحقل لتكون مرتبطة. على سبيل المثال العملاء"
+msgstr "اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: العميل"
 
 #. source: erpnext
 msgid "Name of the Monthly Distribution"
@@ -44684,7 +44684,7 @@ msgstr "ليس في وضع مطور البرامج"
 
 #. source: frappe
 msgid "Not in Developer Mode! Set in site_config.json or make 'Custom' DocType."
-msgstr "ليس في وضع المطور! يقع في site_config.json أو جعل DOCTYPE \"مخصص\"."
+msgstr "ليس في وضع المطور! يقع في site_config.json أو جعل نوع المستند \"مخصص\"."
 
 #. source: erpnext
 msgid "Not in Stock"
@@ -47330,7 +47330,7 @@ msgstr "دبوس"
 
 #. source: erpnext
 msgid "PO Supplied Item"
-msgstr "PO الموردة البند"
+msgstr "الصنف المورَّد في أمر الشراء"
 
 #. source: frappe
 msgid "POP3 OAuth authentication failed for Email Account {0}"
@@ -50911,7 +50911,7 @@ msgstr "يرجى اختيار العميل أولا"
 
 #. source: frappe
 msgid "Please select DocType first"
-msgstr "يرجى تحديد DOCTYPE أولا"
+msgstr "يرجى تحديد نوع المستند أولا"
 
 #. source: frappe
 msgid "Please select Document Type first."
@@ -51529,7 +51529,7 @@ msgstr "يرجى تعيين بريد إلكتروني رئيسي لجهة الا
 
 #. source: frappe
 msgid "Please set a printer mapping for this print format in the Printer Settings"
-msgstr "يرجى تعيين تعيين طابعة لتنسيق الطباعة هذا في \"إعدادات الطابعة\""
+msgstr "يرجى تعيين ربط طابعة لتنسيق الطباعة هذا في \"إعدادات الطابعة\""
 
 #. source: hrms
 msgid "Please set account in Salary Component {0}"
@@ -52297,7 +52297,7 @@ msgstr "اضغط على إنتر للحفظ"
 
 #. source: erpnext
 msgid "Prevdoc DocType"
-msgstr "Prevdoc DOCTYPE"
+msgstr "نوع المستند السابق"
 
 #. source: erpnext
 msgid "Prevent POs"
@@ -52847,7 +52847,7 @@ msgstr "إعدادات الطابعة"
 
 #. source: frappe
 msgid "Printer mapping not set."
-msgstr "لم يتم تعيين تعيين الطابعة."
+msgstr "لم يتم تعيين ربط الطابعة."
 
 #. source: frappe
 msgid "Printing"
@@ -54969,11 +54969,11 @@ msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعا
 
 #. source: erpnext
 msgid "Rate at which Price list currency is converted to company's base currency"
-msgstr "المعدل الذي يتم تحويل سعر العملة العملة الأساسية القائمة لشركة"
+msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للشركة"
 
 #. source: erpnext
 msgid "Rate at which Price list currency is converted to customer's base currency"
-msgstr "المعدل الذي يتم تحويل سعر العملة العملة الأساسية القائمة لالعملاء"
+msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للعميل"
 
 #. source: erpnext
 msgid "Rate at which customer's currency is converted to company's base currency"
@@ -55910,7 +55910,7 @@ msgstr "تاريخ المرجع"
 
 #. source: frappe
 msgid "Ref DocType"
-msgstr "المرجع DOCTYPE"
+msgstr "نوع المستند المرجعي"
 
 #. source: erpnext
 msgid "Ref."
@@ -55962,7 +55962,7 @@ msgstr "مرجع DocName"
 
 #. source: frappe
 msgid "Reference DocType"
-msgstr "مرجع DOCTYPE"
+msgstr "نوع المستند المرجعي"
 
 #. source: frappe
 msgid "Reference DocType and Reference Name are required"
@@ -65225,7 +65225,7 @@ msgstr "إظهار حقل الباركود في معاملات المخزون"
 
 #. source: erpnext
 msgid "Show exploded view"
-msgstr "عرض عرض انفجرت"
+msgstr "عرض التفاصيل المفككة"
 
 #. source: frappe
 msgid "Show footer on login"
@@ -65937,7 +65937,7 @@ msgstr "ترتيب"
 
 #. source: frappe
 msgid "Sort field {0} must be a valid fieldname"
-msgstr "يجب أن يكون حقل نوع {0} لFIELDNAME صحيح"
+msgstr "يجب أن يكون حقل الفرز {0} اسم حقل صالحًا"
 
 #. source: frappe
 msgid "Source"
@@ -71981,9 +71981,9 @@ msgstr "السلاسل الزمنية"
 msgid "Time Series Based On"
 msgstr "سلسلة زمنية بناء على"
 
-#. source: hrms
+#. source: erpnext
 msgid "Time Sheet"
-msgstr "ورقة الوقت"
+msgstr "سجل الدوام"
 
 #. source: erpnext
 msgid "Time Sheet List"
@@ -72089,7 +72089,7 @@ msgstr "الخط الزمني"
 
 #. source: frappe
 msgid "Timeline DocType"
-msgstr "DOCTYPE الزمني"
+msgstr "نوع مستند الجدول الزمني"
 
 #. source: frappe
 msgid "Timeline Field"
@@ -76053,7 +76053,7 @@ msgstr "استخدم منشئ تنسيق الطباعة الجديد"
 
 #. source: frappe
 msgid "Use this fieldname to generate title"
-msgstr "استخدام هذا FIELDNAME لتوليد عنوان"
+msgstr "استخدم اسم الحقل هذا لتوليد العنوان"
 
 #. source: frappe
 msgid "Use this, for example, if all sent emails should also be send to an archive."
@@ -77284,7 +77284,7 @@ msgstr "عرض التعليمات"
 
 #. source: hrms
 msgid "View Job Offer"
-msgstr "عرض عرض العمل"
+msgstr "الاطلاع على عرض العمل"
 
 #. source: erpnext
 msgid "View Leads"
@@ -83028,7 +83028,7 @@ msgstr "{0} إلى {1}"
 
 #. source: hrms
 msgid "{0} to {1} employee(s)?"
-msgstr "{0} إلى {1} موظف (موظفين)؟"
+msgstr "{0} لـ {1} موظف؟"
 
 #. source: erpnext
 msgid ""

@@ -2287,7 +2287,7 @@ msgstr "نطاقات التضمين المسموح بها"
 
 #: frappe/public/js/frappe/form/form.js:1182
 msgid "Allowing DocType, DocType. Be careful!"
-msgstr "السماح DOCTYPE، DOCTYPE. كن حذرا!"
+msgstr "سيسمح هذا بنوع المستند. كن حذرًا!"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:52
 msgid "Allows printing or PDF download of documents."
@@ -4323,7 +4323,7 @@ msgstr "تجاوز المصادقة الثنائية للمستخدمين الذ
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Bypass restricted IP Address check If Two Factor Auth Enabled"
-msgstr "تجاوز عنوان IP المحظور التحقق في حالة تمكين عامل عامل"
+msgstr "تجاوز فحص تقييد عنوان IP إذا تم تفعيل المصادقة الثنائية"
 
 #. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -5201,7 +5201,7 @@ msgstr "مسح ذاكرة التخزين المؤقت وتحديث"
 
 #: frappe/core/doctype/error_log/error_log_list.js:12
 msgid "Clear Error Logs"
-msgstr "مسح سجلات سجلات الأخطاء"
+msgstr "مسح سجلات الأخطاء"
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:312
 msgid "Clear Filters"
@@ -8286,11 +8286,11 @@ msgstr "طريقة عرض DocType"
 
 #: frappe/core/doctype/doctype/doctype.py:660
 msgid "DocType can not be merged"
-msgstr "لا يمكن دمج DOCTYPE"
+msgstr "لا يمكن دمج نوع المستند"
 
 #: frappe/core/doctype/doctype/doctype.py:654
 msgid "DocType can only be renamed by Administrator"
-msgstr "DOCTYPE لا يمكن تسميتها من قبل المسؤول"
+msgstr "لا يمكن إعادة تسمية نوع المستند إلا بواسطة المسؤول"
 
 #. Description of a DocType
 #: frappe/core/doctype/doctype/doctype.json
@@ -8316,7 +8316,7 @@ msgstr "نوع المستند غير مدعوم بواسطة إعدادات ال
 #. Description of the 'Document Type' (Link) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "DocType on which this Workflow is applicable."
-msgstr "DOCTYPE على سير العمل هذا الذي ينطبق."
+msgstr "نوع المستند الذي ينطبق عليه سير العمل هذا."
 
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:4
 msgid "DocType required"
@@ -10915,7 +10915,7 @@ msgstr "اسم الحقل لم يتم تعيينه لحقل مخصص"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:107
 msgid "Fieldname which will be the DocType for this link field."
-msgstr "اسم الحقل الذي سيكون DOCTYPE لهذا الحقل الارتباط."
+msgstr "اسم الحقل الذي سيحدد نوع المستند لحقل الارتباط هذا."
 
 #: frappe/public/js/form_builder/store.js:175
 msgid "Fieldname {0} appears multiple times"
@@ -10923,7 +10923,7 @@ msgstr "اسم الحقل {0} يظهر عدة مرات"
 
 #: frappe/database/schema.py:315
 msgid "Fieldname {0} cannot have special characters like {1}"
-msgstr "FIELDNAME {0} لا يمكن أن يكون أحرف خاصة مثل {1}"
+msgstr "اسم الحقل {0} لا يمكن أن يحتوي على أحرف خاصة مثل {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:1927
 msgid "Fieldname {0} conflicting with meta object"
@@ -13227,8 +13227,8 @@ msgid ""
 "If enabled, all users can login from any IP Address using Two Factor Auth. This can "
 "also be set only for specific user(s) in User Page"
 msgstr ""
-"إذا تم تمكينه، يمكن لكافة المستخدمين تسجيل الدخول من أي عنوان IP باستخدام \"عامل "
-"عامل\". يمكن أيضًا تعيين ذلك لمستخدمين محددين في صفحة المستخدم"
+"إذا تم تفعيله، يمكن لجميع المستخدمين تسجيل الدخول من أي عنوان IP باستخدام المصادقة "
+"الثنائية. يمكن أيضًا تعيين ذلك لمستخدمين محددين في صفحة المستخدم"
 
 #. Description of the 'Track Changes' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -17478,7 +17478,7 @@ msgstr "الاسم لا يمكن أن يحتوي على أحرف خاصة مثل
 
 #: frappe/custom/doctype/custom_field/custom_field.js:91
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr "اسم نوع الوثيقة (DOCTYPE) تريد هذا الحقل لتكون مرتبطة. على سبيل المثال العملاء"
+msgstr "اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: العميل"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:119
 msgid "Name of the new Print Format"
@@ -18556,7 +18556,7 @@ msgstr "ليس في وضع مطور البرامج"
 
 #: frappe/core/doctype/doctype/doctype.py:337
 msgid "Not in Developer Mode! Set in site_config.json or make 'Custom' DocType."
-msgstr "ليس في وضع المطور! يقع في site_config.json أو جعل DOCTYPE \"مخصص\"."
+msgstr "ليس في وضع المطور! يقع في site_config.json أو جعل نوع المستند \"مخصص\"."
 
 #: frappe/api/v1.py:122 frappe/api/v1.py:127
 #: frappe/core/doctype/system_settings/system_settings.py:249 frappe/handler.py:114
@@ -20637,7 +20637,7 @@ msgstr ""
 
 #: frappe/printing/doctype/print_format/print_format.js:31
 msgid "Please select DocType first"
-msgstr "يرجى تحديد DOCTYPE أولا"
+msgstr "يرجى تحديد نوع المستند أولا"
 
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.js:27
 msgid "Please select Entity Type first"
@@ -20711,7 +20711,7 @@ msgstr "يرجى وضع عنوان البريد الإلكتروني"
 
 #: frappe/printing/page/print/print.js:552
 msgid "Please set a printer mapping for this print format in the Printer Settings"
-msgstr "يرجى تعيين تعيين طابعة لتنسيق الطباعة هذا في \"إعدادات الطابعة\""
+msgstr "يرجى تعيين ربط طابعة لتنسيق الطباعة هذا في \"إعدادات الطابعة\""
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1364
 msgid "Please set filters"
@@ -21335,7 +21335,7 @@ msgstr "إعدادات الطابعة"
 
 #: frappe/printing/page/print/print.js:551
 msgid "Printer mapping not set."
-msgstr "لم يتم تعيين تعيين الطابعة."
+msgstr "لم يتم تعيين ربط الطابعة."
 
 #. Label of a Card Break in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
@@ -22227,7 +22227,7 @@ msgstr "إعادة آخر إجراء"
 #. Label of a Link field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
 msgid "Ref DocType"
-msgstr "المرجع DOCTYPE"
+msgstr "نوع المستند المرجعي"
 
 #: frappe/desk/doctype/form_tour/form_tour.js:38
 msgid "Referance Doctype and Dashboard Name both can't be used at the same time."
@@ -22270,7 +22270,7 @@ msgstr "مرجع DocName"
 #: frappe/core/doctype/error_log/error_log.json
 #: frappe/core/doctype/submission_queue/submission_queue.json
 msgid "Reference DocType"
-msgstr "مرجع DOCTYPE"
+msgstr "نوع المستند المرجعي"
 
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.py:26
 msgid "Reference DocType and Reference Name are required"
@@ -26188,7 +26188,7 @@ msgstr "ترتيب"
 
 #: frappe/core/doctype/doctype/doctype.py:1528
 msgid "Sort field {0} must be a valid fieldname"
-msgstr "يجب أن يكون حقل نوع {0} لFIELDNAME صحيح"
+msgstr "يجب أن يكون حقل الفرز {0} اسم حقل صالحًا"
 
 #. Label of a Data field in DocType 'Web Page View'
 #. Label of a Small Text field in DocType 'Website Route Redirect'
@@ -28555,7 +28555,7 @@ msgstr "الخط الزمني"
 #. Label of a Link field in DocType 'Activity Log'
 #: frappe/core/doctype/activity_log/activity_log.json
 msgid "Timeline DocType"
-msgstr "DOCTYPE الزمني"
+msgstr "نوع مستند الجدول الزمني"
 
 #. Label of a Data field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -29952,7 +29952,7 @@ msgstr "استخدم منشئ تنسيق الطباعة الجديد"
 #. Description of the 'Title Field' (Data) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Use this fieldname to generate title"
-msgstr "استخدام هذا FIELDNAME لتوليد عنوان"
+msgstr "استخدم اسم الحقل هذا لتوليد العنوان"
 
 #. Description of the 'Always BCC Address' (Data) field in DocType 'Email
 #. Account'

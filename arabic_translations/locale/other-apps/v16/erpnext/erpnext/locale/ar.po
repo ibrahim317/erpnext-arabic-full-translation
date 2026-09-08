@@ -1536,7 +1536,7 @@ msgstr "أكثر من 120 يومًا"
 #. Name of a role
 #: erpnext/setup/doctype/department/department.json
 msgid "Academics User"
-msgstr "المستخدم الأكاديمي"
+msgstr "المستخدمون الأكاديميون"
 
 #: banking/src/components/features/Settings/KeyboardShortcuts.tsx:38
 msgid "Accept Matching Rule"
@@ -1628,7 +1628,7 @@ msgstr "أرقام الحسابات / العملاء التي خصصها هذا 
 #. Name of a report
 #: erpnext/accounts/report/account_balance/account_balance.json
 msgid "Account Balance"
-msgstr "رصيد حسابك"
+msgstr "رصيد الحساب"
 
 #. Label of the account_category (Link) field in DocType 'Account'
 #. Name of a DocType
@@ -2600,19 +2600,19 @@ msgstr "الإجراء للمواعيد غير المتحقَّق منها ال�
 #. DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Accumulated Monthly Budget Exceeded on Actual"
-msgstr "أجراء في حال تجاوزت الميزانية الشهرية المتراكمة للميزانية الفعلية"
+msgstr "الإجراء في حال تجاوز الميزانية الشهرية المتراكمة على الفعلي"
 
 #. Label of the action_if_accumulated_monthly_budget_exceeded_on_mr (Select)
 #. field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Accumulated Monthly Budget Exceeded on MR"
-msgstr "الإجراء في حالة تجاوز الميزانية الشهرية المتراكمة على MR"
+msgstr "الإجراء في حال تجاوز الميزانية الشهرية المتراكمة في طلب المواد"
 
 #. Label of the action_if_accumulated_monthly_budget_exceeded_on_po (Select)
 #. field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Accumulated Monthly Budget Exceeded on PO"
-msgstr "أجراء في حال تجاوزت الميزانية الشهرية المتراكمة طلب الشراء"
+msgstr "الإجراء في حال تجاوز الميزانية الشهرية المتراكمة في أمر الشراء"
 
 #. Label of the action_if_accumulated_monthly_exceeded_on_cumulative_expense
 #. (Select) field in DocType 'Budget'
@@ -2624,19 +2624,19 @@ msgstr "الإجراء إذا تجاوزت الميزانية الشهرية ا�
 #. 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Annual Budget Exceeded on Actual"
-msgstr "أجراء في حال تجاوزت الميزانية السنوية الميزانية المخصصة مسبقا"
+msgstr "الإجراء في حال تجاوز الميزانية السنوية على الفعلي"
 
 #. Label of the action_if_annual_budget_exceeded_on_mr (Select) field in
 #. DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Annual Budget Exceeded on MR"
-msgstr "الإجراء إذا تجاوزت الميزانية السنوية على الدخل الشهري"
+msgstr "الإجراء في حال تجاوز الميزانية السنوية في طلب المواد"
 
 #. Label of the action_if_annual_budget_exceeded_on_po (Select) field in
 #. DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Annual Budget Exceeded on PO"
-msgstr "الإجراء إذا تجاوزت الميزانية السنوية على أمر الشراء"
+msgstr "الإجراء في حال تجاوز الميزانية السنوية في أمر الشراء"
 
 #. Label of the action_if_annual_exceeded_on_cumulative_expense (Select) field
 #. in DocType 'Budget'
@@ -7426,7 +7426,7 @@ msgstr "مستكشف قائمة المواد"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 msgid "BOM Explosion Item"
-msgstr "صنف تفكيك قائمة المواد"
+msgstr "تفكيك أصناف قائمة المواد"
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.js:20
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:101
@@ -7984,7 +7984,7 @@ msgstr "ملخص المقاصة البنكية"
 #. Label of the credit_balance (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Bank Credit Balance"
-msgstr "رصيد رصيد البنك"
+msgstr "الرصيد الدائن للبنك"
 
 #. Label of the bank_details_section (Section Break) field in DocType 'Bank'
 #. Label of the bank_details_section (Section Break) field in DocType
@@ -14474,7 +14474,7 @@ msgstr "إنشاء"
 
 #: erpnext/utilities/bulk_transaction.py:211
 msgid "Creation of <b><a href='/app/{0}'>{1}(s)</a></b> successful"
-msgstr "تم إنشاء <b><a href='/app/{0}'>{1}(s)</a></b> بنجاح"
+msgstr "تم إنشاء <b><a href='/app/{0}'>{1}</a></b> بنجاح"
 
 #: erpnext/utilities/bulk_transaction.py:228
 msgid ""
@@ -15605,7 +15605,7 @@ msgstr "أرقام العملاء"
 #: erpnext/stock/report/delayed_item_report/delayed_item_report.py:165
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.py:80
 msgid "Customer PO"
-msgstr "PO العملاء"
+msgstr "أمر شراء العميل"
 
 #. Label of the customer_po_details (Section Break) field in DocType 'POS
 #. Invoice'
@@ -21477,7 +21477,7 @@ msgstr "إنهاء"
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
 msgid "Finished Good"
-msgstr "جيد جيد"
+msgstr "منتج نهائي"
 
 #. Label of the finished_good_bom (Link) field in DocType 'Subcontracting BOM'
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
@@ -27270,7 +27270,7 @@ msgstr "قابل للتوسيع"
 #. Label of the is_final_finished_good (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Is Final Finished Good"
-msgstr "منتج نهائي نهائي"
+msgstr "المنتج النهائي الأخير"
 
 #. Label of the is_finished_item (Check) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
@@ -36015,7 +36015,7 @@ msgstr "دبوس"
 #. Label of the po_detail (Data) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "PO Supplied Item"
-msgstr "PO الموردة البند"
+msgstr "الصنف المورَّد في أمر الشراء"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/selling.json
@@ -40549,7 +40549,7 @@ msgstr "رئيس"
 #. Label of the prevdoc_doctype (Data) field in DocType 'Packed Item'
 #: erpnext/stock/doctype/packed_item/packed_item.json
 msgid "Prevdoc DocType"
-msgstr "Prevdoc DOCTYPE"
+msgstr "نوع المستند السابق"
 
 #. Label of the prevent_pos (Check) field in DocType 'Supplier'
 #. Label of the prevent_pos (Check) field in DocType 'Supplier Scorecard'
@@ -44124,7 +44124,7 @@ msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعا
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Rate at which Price list currency is converted to company's base currency"
-msgstr "المعدل الذي يتم تحويل سعر العملة العملة الأساسية القائمة لشركة"
+msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للشركة"
 
 #. Description of the 'Price List Exchange Rate' (Float) field in DocType 'POS
 #. Invoice'
@@ -44133,7 +44133,7 @@ msgstr "المعدل الذي يتم تحويل سعر العملة العملة
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Rate at which Price list currency is converted to customer's base currency"
-msgstr "المعدل الذي يتم تحويل سعر العملة العملة الأساسية القائمة لالعملاء"
+msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للعميل"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Quotation'
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Sales Order'

@@ -89,6 +89,11 @@ GLOSSARY = [
 	(r"\bVoucher\b",         r"القسيمة",               "السند"),
 	(r"\bVoucher\b",         r"قسيمة",                 "سند"),
 
+	# -- DocType / Fieldname were uppercased into DOCTYPE / FIELDNAME --------
+	(r"\bDocType",            r"DOCTYPES",              "أنواع المستندات"),
+	(r"\bDocType",            r"DOCTYPE",               "نوع المستند"),
+	(r"\bFieldname",          r"FIELDNAME",             "اسم الحقل"),
+
 	# -- Bulk (a batched operation) unified on مجمع --------------------------
 	# was split four ways: مجمع, بالجملة (wholesale), السائبة (stray/loose), جماعي
 	(r"\bbulk\b",            r"السائبة",               "المجمعة"),
@@ -177,6 +182,31 @@ EXACT = {
 		"To and CC": "إلى ونسخة",
 		# miscellaneous
 		"Alert": "تنبيه",
+		# machine-translation stutter: the same word emitted twice
+		"Clear Error Logs": "مسح سجلات الأخطاء",
+		"Printer mapping not set.": "لم يتم تعيين ربط الطابعة.",
+		"Please set a printer mapping for this print format in the Printer Settings":
+			"يرجى تعيين ربط طابعة لتنسيق الطباعة هذا في \"إعدادات الطابعة\"",
+		"Bypass restricted IP Address check If Two Factor Auth Enabled":
+			"تجاوز فحص تقييد عنوان IP إذا تم تفعيل المصادقة الثنائية",
+		"If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page":
+			"إذا تم تفعيله، يمكن لجميع المستخدمين تسجيل الدخول من أي عنوان IP باستخدام "
+			"المصادقة الثنائية. يمكن أيضًا تعيين ذلك لمستخدمين محددين في صفحة المستخدم",
+		# DocType entries that also needed reordering, not just the casing
+		"Allowing DocType, DocType. Be careful!": "سيسمح هذا بنوع المستند. كن حذرًا!",
+		"DocType can only be renamed by Administrator": "لا يمكن إعادة تسمية نوع المستند إلا بواسطة المسؤول",
+		"DocType on which this Workflow is applicable.": "نوع المستند الذي ينطبق عليه سير العمل هذا.",
+		"Fieldname which will be the DocType for this link field.":
+			"اسم الحقل الذي سيحدد نوع المستند لحقل الارتباط هذا.",
+		"Fieldname {0} cannot have special characters like {1}":
+			"اسم الحقل {0} لا يمكن أن يحتوي على أحرف خاصة مثل {1}",
+		"Use this fieldname to generate title": "استخدم اسم الحقل هذا لتوليد العنوان",
+		"Sort field {0} must be a valid fieldname": "يجب أن يكون حقل الفرز {0} اسم حقل صالحًا",
+		"Ref DocType": "نوع المستند المرجعي",
+		"Reference DocType": "نوع المستند المرجعي",
+		"Timeline DocType": "نوع مستند الجدول الزمني",
+		"Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer":
+			"اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: العميل",
 		"Allow Bulk Edit": "السماح بالتعديل المجمع",
 		"Notifications and bulk mails will be sent from this outgoing server.":
 			"سيتم إرسال الإشعارات والرسائل المجمعة من هذا الخادم الصادر.",
@@ -422,7 +452,39 @@ EXACT = {
 		# banking / accounting terms of art
 		# Term here is a contract condition (شرط), not a vocabulary term
 		"Appointment Booking Slots": "فترات حجز المواعيد",   # Slots, not شقوق (crevices)
-		"BOM Explosion Item": "صنف تفكيك قائمة المواد",      # was 'المفصص'
+		# machine-translation stutter
+		"Bank Credit Balance": "الرصيد الدائن للبنك",
+		"Finished Good": "منتج نهائي",                   # was 'جيد جيد'
+		"Is Final Finished Good": "المنتج النهائي الأخير",
+		"Show exploded view": "عرض التفاصيل المفككة",
+		"Prevdoc DocType": "نوع المستند السابق",
+		"Rate at which Price list currency is converted to company\'s base currency":
+			"السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للشركة",
+		"Rate at which Price list currency is converted to customer\'s base currency":
+			"السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للعميل",
+		"BOM Explosion Item": "تفكيك أصناف قائمة المواد",   # was 'الصنف المفصص'
+		# MR = Material Request, PO = Purchase Order. MR had been read as
+		# "monthly revenue" (الدخل الشهري); PO was left untranslated.
+		"Action if Accumulated Monthly Budget Exceeded on MR":
+			"الإجراء في حال تجاوز الميزانية الشهرية المتراكمة في طلب المواد",
+		"Action if Accumulated Monthly Budget Exceeded on PO":
+			"الإجراء في حال تجاوز الميزانية الشهرية المتراكمة في أمر الشراء",
+		"Action if Accumulated Monthly Budget Exceeded on Actual":
+			"الإجراء في حال تجاوز الميزانية الشهرية المتراكمة على الفعلي",
+		"Action if Annual Budget Exceeded on MR":
+			"الإجراء في حال تجاوز الميزانية السنوية في طلب المواد",
+		"Action if Annual Budget Exceeded on PO":
+			"الإجراء في حال تجاوز الميزانية السنوية في أمر الشراء",
+		"Action if Annual Budget Exceeded on Actual":
+			"الإجراء في حال تجاوز الميزانية السنوية على الفعلي",
+		# msgid says internal transaction; the msgstr said "sales cycle"
+		"Action if Same Rate is Not Maintained Throughout  Internal Transaction":
+			"الإجراء في حال عدم الحفاظ على نفس السعر طوال المعاملة الداخلية",
+		"Customer PO": "أمر شراء العميل",
+		"PO Supplied Item": "الصنف المورَّد في أمر الشراء",
+		# the English "(s)" plural marker carries no meaning in Arabic
+		"Creation of <b><a href=\'/app/{0}\'>{1}(s)</a></b> successful":
+			"تم إنشاء <b><a href=\'/app/{0}\'>{1}</a></b> بنجاح",
 		"Import in Bulk": "استيراد مجمع",
 		"Total Billed Hours": "إجمالي الساعات المفوترة",     # was 'مجموع الساعات وصفت'
 		"Academics User": "المستخدمون الأكاديميون",
@@ -443,7 +505,6 @@ EXACT = {
 		"Campaign Naming By": "تسمية الحملة بواسطة",
 		"Actual Qty is mandatory": "الكمية الفعلية إلزامية",
 		"Allow Overtime": "السماح بالعمل الإضافي",
-		"Academics User": "مستخدم الأكاديميات",
 		"lft": "lft",
 		"rgt": "rgt",
 		"Cannot Calculate Arrival Time as Driver Address is Missing.":
@@ -461,6 +522,7 @@ EXACT = {
 			"يُوزَّع مبلغ الخصم على أساس الوارد أولًا يُصرف أولًا. تحصل المعاملات الأسبق على حصة أكبر من "
 			"الخصم. لتوزيع الخصم بالتناسب على أسعار الأصناف، استخدم \"نسبة الخصم الإضافي\" بدلًا من ذلك.",
 
+		"Account Balance": "رصيد الحساب",        # also in frappe; erpnext wins in the overlay
 		"Accepted Qty": "الكمية المقبولة",       # was 'المطلوبة' (requested)
 		"Accepted Quantity": "الكمية المقبولة",
 		"Accepted Warehouse": "مستودع القبول",
@@ -472,7 +534,6 @@ EXACT = {
 		"Active Leads": "العملاء المحتملون النشطون",   # Leads, not 'offers'
 		"Acquisition Date": "تاريخ الاقتناء",      # was over-specific 'تاريخ شراء المركبة'
 		"AMC Expiry Date": "تاريخ انتهاء عقد الصيانة السنوي",
-		"Academics User": "المستخدم الأكاديمي",
 		"Ageing Based On": "التقادم بناءً على",
 		"Against Doctype": "مقابل نوع المستند",
 		"Add to Transit": "إضافة إلى العبور",
@@ -597,9 +658,21 @@ EXACT = {
 		"Bulk Leave Policy Assignment": "التعيين المجمع لسياسة الإجازات",
 		"Bulk Salary Structure Assignment": "التعيين المجمع لهيكل الرواتب",
 		"Billed Hours": "الساعات المفوترة",
-		# B / NB / T are the codes used in the "% Utilization (B + NB) / T" formula,
-		# so they stay Latin here rather than being half-transliterated to (ب)
-		"Billed Hours (B)": "الساعات المفوترة (B)",
+		# these msgids exist in erpnext too. The overlay merges frappe -> erpnext ->
+		# hrms with the later app winning, so fixing only erpnext left the wrong
+		# hrms value as the one actually shipped.
+		"Academics User": "المستخدمون الأكاديميون",
+		"Account Head": "الحساب الرئيسي",
+		"Accounting Ledger": "دفتر الأستاذ",
+		"Time Sheet": "سجل الدوام",
+		"View Job Offer": "الاطلاع على عرض العمل",       # was the stutter 'عرض عرض العمل'
+		"<b>Base</b> amount has not been set for the following employee(s): {0}":
+			"لم يتم تعيين المبلغ <b>الأساسي</b> للموظفين التاليين: {0}",
+		"Assign Salary Structure to {0} employee(s)?": "تعيين هيكل الراتب لـ {0} موظف؟",
+		"{0} to {1} employee(s)?": "{0} لـ {1} موظف؟",
+		"Allocated {0} leave(s) via scheduler on {1} based on the 'Allocate on Day' option set to {2}":
+			"تم تخصيص {0} إجازة عبر المجدول في {1} بناءً على خيار \"تخصيص في اليوم\" المعيَّن على {2}",
+		"Billed Hours (B)": "الساعات المفوترة (ب)",
 		"Total Billed Hours": "إجمالي الساعات المفوترة",
 		"Amount based on formula": "المبلغ بناءً على الصيغة",
 		"Account {0} does not belong to company: {1}": "الحساب {0} لا ينتمي للشركة {1}",
@@ -827,7 +900,7 @@ SPELLING = {
 	"الفلتره": "الفلترة",
 	"ان": "أن", "الا": "إلا", "اي": "أي", "امر": "أمر", "اصل": "أصل",
 	"ارباح": "أرباح", "اخر": "آخر", "األسهم": "الأسهم", "العمرعلى": "العمر على",
-	"يتنمى": "ينتمي", "الحسابه": "الحساب", "بناءا": "بناءً",
+	"يتنمى": "ينتمي", "أجراء": "إجراء", "الحسابه": "الحساب", "بناءا": "بناءً",
 	"بناءاً": "بناءً", "بالجمله": "بالجملة", "بالجمله،": "بالجملة،",
 	"لايمكن": "لا يمكن",
 	"أسم": "اسم",

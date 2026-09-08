@@ -272,7 +272,34 @@ A fourth pass:
 - Typos: `لا يتنمى` → `لا ينتمي` (transposed letters), `الحسابه الأب` →
   `الحساب الأب`, `بناءا` → `بناءً` (tanwin belongs on the hamza).
 
-**1,319 entries corrected and 225 newly translated** in total. Every rule lives in
+A final pass closed the remaining reported entries and three classes found by
+sweeping rather than by review:
+
+- **`MR` was read as `الدخل الشهري`** (monthly revenue) in the budget-action
+  settings — it is *Material Request*. `PO` was left untranslated beside it.
+- **Machine-translation stutter**, the same word emitted twice: `Finished Good`
+  read `جيد جيد`, `Bank Credit Balance` read `رصيد رصيد البنك`, `Clear Error
+  Logs` read `مسح سجلات سجلات الأخطاء`, and `Two Factor Auth` read `عامل عامل`.
+- **`DocType` and `Fieldname` uppercased** to `DOCTYPE` / `FIELDNAME` in 14
+  strings. Now `نوع المستند` / `اسم الحقل`.
+- The English `(s)` plural marker left in Arabic text, where it carries no
+  meaning, and `<b>Base</b>` left untranslated inside its tags.
+
+**1,360 entries corrected and 225 newly translated** in total.
+
+### Two guards added after finding my own mistakes
+
+Both of these caught real defects the moment they were switched on:
+
+- **Duplicate keys in the rule tables.** Python keeps the last of a repeated
+  dict key silently, so an earlier rule simply never runs — and the terminology
+  check cannot see it, because the catalogs agree with whichever rule won. Three
+  copies of `Academics User` had accumulated this way, and the fix that appeared
+  in the diff was not the one being applied.
+- **Cross-app divergence.** The overlay merges frappe → erpnext → hrms with the
+  later app winning, so a msgid corrected in an earlier app is still overridden
+  by an uncorrected copy in a later one. Five fixes had never reached the
+  shipped file for this reason. Every rule lives in
 `scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
 so the pass is reviewable as a rule table rather than as a raw PO diff, and
 reproduces byte-identically in a single run from a clean checkout — the overlay's
