@@ -66,6 +66,29 @@ the batch file rather than weakening the check.
 app — regenerate the manifest whenever you need it and keep both out of commits.
 Putting them under `translations_workbench/` keeps them gitignored for you.
 
+## Terminology corrections
+
+Wrong-sense translations are fixed as a *rule table*, not by editing PO entries
+one at a time, so a reviewer can check the reasoning rather than 600 diff hunks:
+
+```bash
+python scripts/apply_terminology.py --dry-run   # report; sample diff to /tmp
+python scripts/apply_terminology.py             # rewrite the source catalogs
+```
+
+`scripts/terminology_fixes.py` holds three tables:
+
+* `GLOSSARY` — `(guard, pattern, replacement)`. The pattern is rewritten in the
+  msgstr only when `guard` matches the **msgid**. The guard is what makes this
+  safe: it stops `سهم` (arrow) in `Ctrl + Up` being rewritten as inventory.
+* `EXACT` — full msgstr replacements, keyed by app then msgid, for entries whose
+  machine translation is word-salad and cannot be repaired by substitution.
+* `ORTHOGRAPHY` — unguarded spelling fixes (hamzat wasl, ta marbuta).
+
+The script aborts before writing if any rewrite would give a msgstr a
+`{placeholder}` its msgid lacks. It is idempotent: running it on already-corrected
+catalogs reports zero changes.
+
 ## Rules (CI-enforced)
 
 1. `msgfmt --check` clean on every catalog.

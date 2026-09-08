@@ -8,11 +8,11 @@ Measured against the current upstream `version-16` POT templates (not a stale sn
 
 | App | Translated | Untranslated | Fuzzy (excluded at runtime) |
 |---|---|---|---|
-| Frappe | 6,239 (100%) | 0 | 1 |
-| ERPNext | 10,075 (100%) | 0 | 8 |
+| Frappe | 6,328 (100%) | 0 | 1 |
+| ERPNext | 10,181 (100%) | 0 | 11 |
 | HRMS | 2,228 (100%) | 0 | 1 |
 
-Every string in the current upstream `version-16` templates is translated. The overlay catalog additionally carries strings that upstream removed after v16 but that remain live on v15 — 19,300 unique messages in total. Untranslated strings fall back to English; nothing breaks.
+Every string in the current upstream `version-16` templates is translated. The overlay catalog additionally carries strings that upstream removed after v16 but that remain live on v15 — 19,523 unique messages in total. Untranslated strings fall back to English; nothing breaks.
 
 ## How it works
 
@@ -107,7 +107,9 @@ scripts/
 ├── extract_todo.py     # regenerate the open-entries manifest for a translation pass
 ├── apply_trans.py      # apply a batch dict onto a source catalog (placeholder-guarded)
 ├── fill_from_upstream.py  # harvest safe entries from the upstream Crowdin exports
-├── corrections.py      # hand-written fixes for defective entries
+├── corrections.py      # hand-written fixes for placeholder-defective entries
+├── terminology_fixes.py   # glossary + orthography rule table (reviewable)
+├── apply_terminology.py   # applies terminology_fixes.py to the source catalogs
 └── check_catalogs.py   # CI gate: msgfmt, placeholder & artifact checks
 ```
 
@@ -130,6 +132,50 @@ Hard rules enforced by CI:
 4. CSV bundles: no header row, no empty cells.
 
 ## Changelog
+
+### 0.3.3
+
+Corrects translations that were wrong rather than missing. The catalogs were
+seeded from machine translation, and while coverage reached 100% the *sense* was
+frequently wrong — the previous passes fixed crash risks and a handful of
+terminology clusters, not the underlying literalism.
+
+- **`Stock` was read as *equity* throughout the inventory module.** `Stock Entry`
+  rendered as `دخول الأسهم` ("entrance of the shares"), `Stock UOM` as
+  `وحدة قياس السهم`, `In Stock Qty` as `في سوق الأسهم الكمية` ("in the stock
+  market the quantity"), `Stock In Hand` as `الأسهم، إلى داخل، أعطى`. Now
+  `المخزون` throughout.
+- **Accounting records rendered as data entry.** `Journal Entry` → `قيد اليومية`
+  (was `إدخال دفتر اليومية`), `Payment Entry` → `قيد الدفع` (was
+  `تدوينات المدفوعات`), `Payroll Entry` → `قيد الرواتب` (was `دخول الرواتب`),
+  plus the `Cash`/`Contra`/`Excise`/`Opening`/`POS` entry cluster.
+- **Shipping and credit documents rendered as remarks.** `Delivery Note` →
+  `إشعار التسليم` (was `ملاحظة التسليم`/`مذكرة التسليم`), `Credit Note` →
+  `إشعار دائن`, `Debit Note` → `إشعار مدين`.
+- **Homographs corrected**: `Draft` → `مسودة` (was `مشروع`, "project"),
+  `Leave` → `إجازة` (was `غادر`, "he departed"), `Amount` → `مبلغ` (was `كمية`,
+  the word already used for *Qty*), `Ledger` → `دفتر الأستاذ` (was the
+  transliteration `ليدجر`), `Return` → `مرتجع`, `Bin` → `رصيد المخزون`,
+  `Get Balance` → `عرض الرصيد` (was `استعد توازنك`, "regain your composure").
+- **`Voucher` unified on `سند`** (was split across `قسيمة`/`إيصال`).
+- **174 bilingual artifacts removed** — msgstrs that carried the Arabic followed
+  by a literal `\n<br>\n` and the untranslated English, displaying both in the UI.
+- **13 entries with misplaced parentheses repaired**, which rendered as
+  `(العمر (أيام` instead of `العمر (أيام)`. One of them,
+  `Rates cannot be modified for quoted items`, carried the translation of an
+  entirely different string.
+- **4 latent placeholder bugs fixed** that the English tail had been masking —
+  msgstrs that dropped or duplicated a `{n}` index and failed `msgfmt --check`
+  once the tail was stripped.
+- **29 hamzat-wasl spellings corrected** (`إستلام` → `استلام`, `إختيار` →
+  `اختيار`, …) plus ta-marbuta and whitespace defects.
+- **225 new upstream strings translated** (101 Frappe, 124 ERPNext) so the v16
+  bundles stay at 0 untranslated against the current templates.
+
+645 entries corrected in total. Every rule lives in `scripts/terminology_fixes.py`
+and is applied by `scripts/apply_terminology.py`, so the pass is reviewable as a
+rule table rather than as a raw PO diff, and reproduces byte-identically from a
+clean checkout.
 
 ### 0.3.2
 
