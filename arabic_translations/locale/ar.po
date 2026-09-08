@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arabic_translations VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-08 18:22+0300\n"
+"POT-Creation-Date: 2026-09-08 19:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arabic Translations contributors\n"
 "Language: ar\n"
@@ -67,11 +67,11 @@ msgstr " المستودع الافتراضي للأعمال قيد التنفي�
 
 #. source: erpnext
 msgid " Is Child Table"
-msgstr " هل هو جدول فرعي"
+msgstr " جدول فرعي"
 
 #. source: erpnext
 msgid " Is Subcontracted"
-msgstr " هل هو تعاقد من الباطن"
+msgstr " تعاقد من الباطن"
 
 #. source: erpnext
 msgid " Item"
@@ -113,7 +113,7 @@ msgstr " ملخص"
 
 #. source: hrms
 msgid " Unlink Payment on Cancellation of Employee Advance"
-msgstr " إلغاء ربط الدفع عند إلغاء تقدم الموظفين"
+msgstr " إلغاء ربط الدفعة عند إلغاء سلفة الموظف"
 
 #. source: frappe
 msgid " You are impersonating as another user."
@@ -137,7 +137,7 @@ msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن شر
 
 #. source: erpnext
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن ان تحتوي على تكلفة"
+msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن أن تحتوي على تكلفة"
 
 #. source: hrms
 msgid "\"From Date\" can not be greater than or equal to \"To Date\""
@@ -145,7 +145,7 @@ msgstr "لا يمكن أن يكون \"من التاريخ\" أكبر من أو �
 
 #. source: erpnext
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
-msgstr "\"اصل ثابت\" لا يمكن أن يكون غير محدد، حيث يوجد سجل أصول مقابل البند"
+msgstr "\"أصل ثابت\" لا يمكن أن يكون غير محدد، حيث يوجد سجل أصول مقابل البند"
 
 #. source: frappe
 msgid "\"Parent\" signifies the parent table in which this row must be added"
@@ -197,7 +197,7 @@ msgstr "٪ مفوتر"
 
 #. source: erpnext
 msgid "% Complete Method"
-msgstr "٪ طريقة الإكمال"
+msgstr "طريقة نسبة الإنجاز"
 
 #. source: erpnext
 msgid "% Complete must be between 0 and 100"
@@ -337,7 +337,7 @@ msgstr "\"من تاريخ \" يجب أن يكون بعد \" إلى تاريخ \"
 
 #. source: erpnext
 msgid "'Has Serial No' can not be 'Yes' for non-stock item"
-msgstr "\"لهُ رقم تسلسل\" لا يمكن ان يكون \"نعم\" لبند غير قابل للتخزين"
+msgstr "\"لهُ رقم تسلسل\" لا يمكن أن يكون \"نعم\" لبند غير قابل للتخزين"
 
 #. source: frappe
 msgid "'In Global Search' is not allowed for field {0} of type {1}"
@@ -385,7 +385,7 @@ msgstr "'رقم الطرد إلى' لا يمكن أن يكون أقل من 'رق
 
 #. source: erpnext
 msgid "'Update Stock' can not be checked because items are not delivered via {0}"
-msgstr "\"الأوراق المالية التحديث\" لا يمكن التحقق من أنه لم يتم تسليم المواد عن طريق {0}"
+msgstr "لا يمكن تحديد خيار \"تحديث المخزون\" لأن الأصناف لا تُسلَّم عبر {0}"
 
 #. source: erpnext
 msgid "'Update Stock' cannot be checked for fixed asset sale"
@@ -631,7 +631,7 @@ msgid ""
 "1 Currency = [?] Fraction\n"
 "For e.g. 1 USD = 100 Cent"
 msgstr ""
-"1 عملة = [؟] كسر\n"
+"1 عملة = [؟] وحدة فرعية\n"
 "على سبيل المثال 1 دولار أمريكي = 100 سنت"
 
 #. source: frappe
@@ -846,7 +846,7 @@ msgstr "4 ساعات"
 
 #. source: frappe
 msgid "5 Records"
-msgstr "5 السجلات"
+msgstr "5 سجلات"
 
 #. source: frappe
 msgid "5 days ago"
@@ -962,7 +962,7 @@ msgstr ""
 msgid ""
 "<b>Total Leaves Allocated</b> are more than the number of days in the allocation "
 "period"
-msgstr "<b> إجمالي الأوراق المخصصة </b> أكثر من عدد الأيام في فترة التخصيص"
+msgstr "<b> إجمالي الإجازات المخصصة </b> أكثر من عدد الأيام في فترة التخصيص"
 
 #. source: frappe
 msgid "<b>{0}</b> is not a valid URL"
@@ -2335,7 +2335,7 @@ msgstr "أ - ج"
 msgid ""
 "A Customer Group exists with same name please change the Customer name or rename the "
 "Customer Group"
-msgstr "مجموعة الزبائن موجودة بنفس الاسم أرجو تغير اسم العميل أو إعادة تسمية مجموعة الزبائن"
+msgstr "توجد مجموعة عملاء بنفس الاسم، يرجى تغيير اسم العميل أو إعادة تسمية مجموعة العملاء"
 
 #. source: frappe
 msgid ""
@@ -2969,7 +2969,7 @@ msgstr "رصيد افتتاح الحساب"
 
 #. source: erpnext
 msgid "Account Paid From"
-msgstr "حساب مدفوع من"
+msgstr "مدفوع من حساب"
 
 #. source: erpnext
 msgid "Account Paid To"
@@ -2995,7 +2995,7 @@ msgstr "قيمة الحساب"
 msgid ""
 "Account balance already in Credit, you are not allowed to set 'Balance Must Be' as "
 "'Debit'"
-msgstr "رصيد الحساب بالفعل دائن، لا يسمح لك لتعيين ' الرصيد يجب ان يكون ' ك ' مدين '"
+msgstr "رصيد الحساب بالفعل دائن، لا يسمح لك لتعيين ' الرصيد يجب أن يكون ' ك ' مدين '"
 
 #. source: erpnext
 msgid ""
@@ -3279,7 +3279,7 @@ msgstr "موازنة دفتر الأستاذ"
 
 #. source: erpnext
 msgid "Accounting Masters"
-msgstr "الماجستير المحاسبة"
+msgstr "البيانات المحاسبية الرئيسية"
 
 #. source: erpnext
 msgid "Accounting Onboarding"
@@ -3757,7 +3757,7 @@ msgstr "الطلب الفعلي"
 
 #. source: hrms
 msgid "Actual Encashable Days"
-msgstr "الأيام الفعلية القابلة للتنفيذ"
+msgstr "الأيام الفعلية القابلة للصرف"
 
 #. source: erpnext
 msgid "Actual End Date"
@@ -3785,11 +3785,11 @@ msgstr "المصروفات الفعلية"
 
 #. source: erpnext
 msgid "Actual Operating Cost"
-msgstr "الفعلية تكاليف التشغيل"
+msgstr "تكاليف التشغيل الفعلية"
 
 #. source: erpnext
 msgid "Actual Operation Time"
-msgstr "الفعلي وقت التشغيل"
+msgstr "وقت التشغيل الفعلي"
 
 #. source: hrms
 msgid "Actual Overtime Duration"
@@ -3858,7 +3858,7 @@ msgid ""
 "the next allocation."
 msgstr ""
 "الأرصدة الفعلية غير متوفرة لأن تطبيق الإجازة يمتد على مخصصات إجازة مختلفة. لا يزال "
-"بإمكانك التقدم بطلب للحصول على الأوراق التي سيتم تعويضها أثناء التخصيص التالي."
+"بإمكانك التقدم بطلب للحصول على الإجازات التي سيتم تعويضها أثناء التخصيص التالي."
 
 #. source: erpnext
 msgid "Actual qty in stock"
@@ -4371,7 +4371,7 @@ msgstr "إضافة الإجازات غير المستخدمة من المخصص�
 
 #. source: hrms
 msgid "Add unused leaves from previous leave period's allocation to this allocation"
-msgstr "أضف أوراق غير مستخدمة من تخصيص فترة الإجازة السابقة لهذا التخصيص"
+msgstr "أضف إجازات غير مستخدمة من تخصيص فترة الإجازة السابقة لهذا التخصيص"
 
 #. source: erpnext
 msgid "Add vouchers to generate preview."
@@ -4427,8 +4427,8 @@ msgid ""
 "Added tax components from the Salary Component master as the salary structure didn't "
 "have any tax component."
 msgstr ""
-"المكونات الضريبية المضافة من ماجستير مكون الراتب حيث أن هيكل الرواتب لم يكن لديه أي "
-"مكون ضريبي."
+"تمت إضافة المكونات الضريبية من سجل مكوّن الراتب الرئيسي لأن هيكل الرواتب لم يكن يحتوي"
+" على أي مكوّن ضريبي."
 
 #. source: hrms
 msgid "Added to details"
@@ -4614,7 +4614,7 @@ msgstr "العناوين وجهات الاتصال"
 
 #. source: erpnext
 msgid "Address Desc"
-msgstr "معالجة التفاصيل"
+msgstr "وصف العنوان"
 
 #. source: erpnext
 msgid "Address HTML"
@@ -4954,7 +4954,7 @@ msgstr "مقابل الحساب"
 
 #. source: erpnext
 msgid "Against Blanket Order"
-msgstr "ضد بطانية النظام"
+msgstr "مقابل الأمر الشامل"
 
 #. source: erpnext
 msgid "Against Customer Order {0}"
@@ -5408,7 +5408,7 @@ msgstr "تخصيص إجازة"
 
 #. source: hrms
 msgid "Allocate Leaves"
-msgstr "تخصيص الأوراق"
+msgstr "تخصيص الإجازات"
 
 #. source: erpnext
 msgid "Allocate Payment Amount"
@@ -5424,7 +5424,7 @@ msgstr "تخصيص طلب الدفع"
 
 #. source: hrms
 msgid "Allocate leaves to {0} employee(s)?"
-msgstr "تخصيص الأوراق إلى {0} الموظف (s)؟"
+msgstr "تخصيص إجازات لـ {0} موظف؟"
 
 #. source: hrms
 msgid "Allocate on Day"
@@ -6218,7 +6218,7 @@ msgstr "السماح DOCTYPE، DOCTYPE. كن حذرا!"
 
 #. source: hrms
 msgid "Allows allocating more leaves than the number of days in the allocation period."
-msgstr "يسمح بتخصيص أوراق أكثر من عدد الأيام في فترة التخصيص."
+msgstr "يسمح بتخصيص إجازات أكثر من عدد الأيام في فترة التخصيص."
 
 #. source: frappe
 msgid ""
@@ -7140,7 +7140,7 @@ msgstr "استخدام الاموال (الأصول)"
 
 #. source: hrms
 msgid "Application period cannot be across two allocation records"
-msgstr "فترة الطلب لا يمكن ان تكون خلال سجلين مخصصين"
+msgstr "فترة الطلب لا يمكن أن تكون خلال سجلين مخصصين"
 
 #. source: hrms
 msgid "Application period cannot be outside leave allocation period"
@@ -7200,7 +7200,7 @@ msgstr "تقديم طلب"
 
 #. source: hrms
 msgid "Apply / Approve Leaves"
-msgstr "تطبيق / الموافقة على الأوراق"
+msgstr "طلب / اعتماد الإجازات"
 
 #. source: erpnext
 msgid "Apply Additional Discount On"
@@ -7505,11 +7505,11 @@ msgstr "التقييم {0} لا ينتمي إلى الموظف {1}"
 
 #. source: hrms
 msgid "Appraisee"
-msgstr "التقييم"
+msgstr "المُقَيَّم"
 
 #. source: hrms
 msgid "Appraisees: {0}"
-msgstr "تقييمات: {0}"
+msgstr "المُقَيَّمون: {0}"
 
 #. source: hrms
 msgid "Apprentice"
@@ -7529,7 +7529,7 @@ msgstr "حالة الموافقة"
 
 #. source: hrms
 msgid "Approval Status must be 'Approved' or 'Rejected'"
-msgstr "حالة الموافقة يجب ان تكون (موافق عليه) أو (مرفوض)"
+msgstr "حالة الموافقة يجب أن تكون (موافق عليه) أو (مرفوض)"
 
 #. source: hrms
 msgid "Approve"
@@ -8433,7 +8433,7 @@ msgstr "يبدأ الإسناد من"
 
 #. source: frappe
 msgid "Assignment Update on {0}"
-msgstr "تحديث الواجب بتاريخ {0}"
+msgstr "تحديث التكليف بتاريخ {0}"
 
 #. source: hrms
 msgid "Assignment based on"
@@ -8637,7 +8637,7 @@ msgstr "إرفق طباعة"
 
 #. source: hrms
 msgid "Attach Proof"
-msgstr "نعلق دليل"
+msgstr "إرفاق إثبات"
 
 #. source: erpnext
 msgid ""
@@ -8839,7 +8839,7 @@ msgstr ""
 
 #. source: hrms
 msgid "Attendance marked successfully"
-msgstr "يحمل الحضور بنجاح"
+msgstr "تم تسجيل الحضور بنجاح"
 
 #. source: hrms
 msgid "Attendance marked successfully."
@@ -9475,7 +9475,7 @@ msgstr "الإجازة (الإجازة) المتاحة"
 
 #. source: hrms
 msgid "Available Leaves"
-msgstr "الأوراق المتاحة"
+msgstr "الإجازات المتاحة"
 
 #. source: erpnext
 msgid "Available Qty"
@@ -9801,7 +9801,7 @@ msgstr "صنف مُنشئ قائمة المواد بالاسم {0} غير موج
 
 #. source: erpnext
 msgid "BOM Detail No"
-msgstr "رقم تفاصيل فاتورة الموارد"
+msgstr "رقم تفاصيل قائمة المواد"
 
 #. source: erpnext
 msgid "BOM Explorer"
@@ -10207,7 +10207,7 @@ msgstr "قيمة الرصيد"
 
 #. source: erpnext
 msgid "Balance for Account {0} must always be {1}"
-msgstr "رصيد الحساب لـ {0} يجب ان يكون دائما {1}"
+msgstr "رصيد الحساب لـ {0} يجب أن يكون دائما {1}"
 
 #. source: erpnext
 msgid "Balance must be"
@@ -10224,7 +10224,7 @@ msgstr "مصرف"
 
 #. source: erpnext
 msgid "Bank / Cash Account"
-msgstr "البنك حساب / النقدية"
+msgstr "حساب البنك / النقدية"
 
 #. source: erpnext
 msgid "Bank A/C No."
@@ -10292,7 +10292,7 @@ msgstr "تفاصيل التخليص المصرفي"
 
 #. source: erpnext
 msgid "Bank Clearance Summary"
-msgstr "ملخص التخليص البنكى"
+msgstr "ملخص المقاصة البنكية"
 
 #. source: erpnext
 msgid "Bank Credit Balance"
@@ -10304,7 +10304,7 @@ msgstr "تفاصيل البنك"
 
 #. source: erpnext
 msgid "Bank Draft"
-msgstr "مسودة بنكية"
+msgstr "حوالة بنكية"
 
 #. source: hrms
 msgid "Bank Entries"
@@ -10348,7 +10348,7 @@ msgstr "اسم المصرف"
 
 #. source: erpnext
 msgid "Bank Overdraft Account"
-msgstr "حساب السحب من البنك بدون رصيد"
+msgstr "حساب السحب على المكشوف"
 
 #. source: erpnext
 msgid "Bank Reconciliation"
@@ -10822,7 +10822,7 @@ msgstr "تم تعطيل الدفعة {0} من الصنف {1}."
 
 #. source: erpnext
 msgid "Batch-Wise Balance History"
-msgstr "دفعة الحكيم التاريخ الرصيد"
+msgstr "سجل الرصيد حسب الدفعة"
 
 #. source: erpnext
 msgid "Batchwise Valuation"
@@ -11016,7 +11016,7 @@ msgstr "القيمة المقدم فاتورة بها"
 
 #. source: erpnext
 msgid "Billed Amt"
-msgstr "فوترة AMT"
+msgstr "المبلغ المفوتر"
 
 #. source: hrms
 msgid "Billed Hours"
@@ -11238,19 +11238,19 @@ msgstr "نموذج فارغ"
 
 #. source: erpnext
 msgid "Blanket Order"
-msgstr "أمر بطانية"
+msgstr "أمر شامل"
 
 #. source: erpnext
 msgid "Blanket Order Allowance (%)"
-msgstr "بدل الطلب الشامل (٪)"
+msgstr "نسبة السماح للأمر الشامل (٪)"
 
 #. source: erpnext
 msgid "Blanket Order Item"
-msgstr "صنف أمر بطانية"
+msgstr "صنف الأمر الشامل"
 
 #. source: erpnext
 msgid "Blanket Order Rate"
-msgstr "بطالة سعر النظام"
+msgstr "سعر الأمر الشامل"
 
 #. source: erpnext
 msgid "Blanket Orders"
@@ -11266,7 +11266,7 @@ msgstr "الأيام المحظورة"
 
 #. source: hrms
 msgid "Block Holidays on important days."
-msgstr "عطلات كتلة في أيام مهمة."
+msgstr "حظر الإجازات في الأيام المهمة."
 
 #. source: erpnext
 msgid "Block Invoice"
@@ -11274,15 +11274,15 @@ msgstr "حظر الفاتورة"
 
 #. source: frappe
 msgid "Block Module"
-msgstr "كتلة الوحدة"
+msgstr "حظر الوحدة"
 
 #. source: frappe
 msgid "Block Modules"
-msgstr "كتلة وحدات"
+msgstr "حظر الوحدات"
 
 #. source: erpnext
 msgid "Block Supplier"
-msgstr "كتلة المورد"
+msgstr "حظر المورد"
 
 #. source: erpnext
 msgid ""
@@ -11547,7 +11547,7 @@ msgstr "أسفل اليمين"
 
 #. source: frappe
 msgid "Bounced"
-msgstr "وثب"
+msgstr "مرتجع"
 
 #. source: erpnext
 msgid "Box"
@@ -12678,7 +12678,7 @@ msgstr ""
 
 #. source: hrms
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
-msgstr "لا يمكن تخصيص الأوراق خارج فترة التخصيص {0} - {1}"
+msgstr "لا يمكن تخصيص الإجازات خارج فترة التخصيص {0} - {1}"
 
 #. source: hrms
 msgid ""
@@ -12960,7 +12960,7 @@ msgstr "لا يمكن الإعلان عنه كمفقود لوجود عرض أس�
 
 #. source: erpnext
 msgid "Cannot declare as lost, because Quotation has been made."
-msgstr "لا يمكن ان تعلن بانها فقدت، لأنه تم تقديم عرض مسعر."
+msgstr "لا يمكن أن تعلن بانها فقدت، لأنه تم تقديم عرض مسعر."
 
 #. source: erpnext
 msgid "Cannot deduct when category is for 'Valuation' or 'Valuation and Total'"
@@ -13485,7 +13485,7 @@ msgstr "ترحيل الاتصالات والتعليقات"
 
 #. source: hrms
 msgid "Carry Forwarded Leaves"
-msgstr "تحمل أوراق واحال"
+msgstr "الإجازات المرحّلة"
 
 #. source: erpnext
 msgid "Cash"
@@ -14734,7 +14734,7 @@ msgstr "مغلق"
 
 #. source: erpnext
 msgid "Closed Document"
-msgstr "وثيقة مغلقة"
+msgstr "مستند مغلق"
 
 #. source: erpnext
 msgid "Closed Documents"
@@ -14786,7 +14786,7 @@ msgstr "إقفال حساب المركز الرئيسي"
 
 #. source: erpnext
 msgid "Closing Account {0} must be of type Liability / Equity"
-msgstr "يجب ان يكون الحساب الختامي {0} من النوع متطلبات/الأسهم"
+msgstr "يجب أن يكون الحساب الختامي {0} من النوع متطلبات/الأسهم"
 
 #. source: erpnext
 msgid "Closing Amount"
@@ -18549,7 +18549,7 @@ msgstr "طلب شراء الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order Date"
-msgstr "تاريخ امر الشراء العميل"
+msgstr "تاريخ أمر الشراء العميل"
 
 #. source: erpnext
 msgid "Customer's Purchase Order No"
@@ -18561,7 +18561,7 @@ msgstr "مورد العميل"
 
 #. source: erpnext
 msgid "Customer-wise Item Price"
-msgstr "سعر البند العملاء الحكيم"
+msgstr "سعر الصنف حسب العميل"
 
 #. source: erpnext
 msgid "Customer/Lead Name"
@@ -25966,7 +25966,7 @@ msgstr "نفقة"
 
 #. source: erpnext
 msgid "Expense / Difference account ({0}) must be a 'Profit or Loss' account"
-msgstr "حساب نفقات / قروق ({0}) يجب ان يكون حساب ارباح و خسائر"
+msgstr "حساب نفقات / قروق ({0}) يجب أن يكون حساب أرباح و خسائر"
 
 #. source: erpnext
 msgid "Expense Account"
@@ -26118,7 +26118,7 @@ msgstr "انتهاء الصلاحية التخصيص"
 
 #. source: hrms
 msgid "Expire Carry Forwarded Leaves (Days)"
-msgstr "تنتهي صلاحية حمل الأوراق المرسلة (بالأيام)"
+msgstr "انتهاء صلاحية الإجازات المرحّلة (بالأيام)"
 
 #. source: hrms
 msgid "Expire Leaves"
@@ -28815,7 +28815,7 @@ msgstr "تواتر أو تكرار الإهلاك (أشهر)"
 
 #. source: erpnext
 msgid "Frequently Read Articles"
-msgstr "اقرأ المقالات بشكل متكرر"
+msgstr "المقالات الأكثر قراءة"
 
 #. source: frappe
 msgid "Friday"
@@ -29289,7 +29289,7 @@ msgstr "الأثاث والتجهيزات"
 #. source: erpnext
 msgid "Further accounts can be made under Groups, but entries can be made against non-Groups"
 msgstr ""
-"يمكن إنشاء المزيد من الحسابات تحت المجموعة، لكن إدخالات القيود يمكن ان تكون فقط مقابل"
+"يمكن إنشاء المزيد من الحسابات تحت المجموعة، لكن إدخالات القيود يمكن أن تكون فقط مقابل"
 " حسابات فردية و ليست مجموعة"
 
 #. source: erpnext
@@ -31286,7 +31286,7 @@ msgstr "معلق"
 
 #. source: erpnext
 msgid "Hold Invoice"
-msgstr "عقد الفاتورة"
+msgstr "تعليق الفاتورة"
 
 #. source: erpnext
 msgid "Hold Type"
@@ -34665,7 +34665,7 @@ msgstr "مبالغ مزايا غير صالحة"
 
 #. source: erpnext
 msgid "Invalid Blanket Order for the selected Customer and Item"
-msgstr "طلب فارغ غير صالح للعميل والعنصر المحدد"
+msgstr "أمر شامل غير صالح للعميل والصنف المحدد"
 
 #. source: frappe
 msgid "Invalid CSV Format"
@@ -35640,7 +35640,7 @@ msgstr "هل"
 
 #. source: erpnext
 msgid "Is Account Payable"
-msgstr "هل هو حساب دائن"
+msgstr "حساب دائن"
 
 #. source: frappe
 msgid "Is Active"
@@ -35648,19 +35648,19 @@ msgstr "نشط"
 
 #. source: erpnext
 msgid "Is Additional Item"
-msgstr "هل هو صنف إضافي"
+msgstr "صنف إضافي"
 
 #. source: erpnext
 msgid "Is Additional Transfer Entry"
-msgstr "هل هو إدخال تحويل إضافي؟"
+msgstr "إدخال تحويل إضافي"
 
 #. source: erpnext
 msgid "Is Adjustment Entry"
-msgstr "هل هو قيد تسوية"
+msgstr "قيد تسوية"
 
 #. source: erpnext
 msgid "Is Advance"
-msgstr "هل مقدم"
+msgstr "مقدم"
 
 #. source: hrms
 msgid "Is Allocated"
@@ -35668,7 +35668,7 @@ msgstr "مخصَّص"
 
 #. source: erpnext
 msgid "Is Alternative"
-msgstr "هل هو بديل"
+msgstr "بديل"
 
 #. source: hrms
 msgid "Is Applicable for Referral Bonus"
@@ -35676,51 +35676,51 @@ msgstr "ينطبق عليه مكافأة الإحالة"
 
 #. source: frappe
 msgid "Is Attachments Folder"
-msgstr "هو مجلد المرفقات"
+msgstr "مجلد المرفقات"
 
 #. source: erpnext
 msgid "Is Billable"
-msgstr "هو قابل للفوترة"
+msgstr "قابل للفوترة"
 
 #. source: erpnext
 msgid "Is Billing Contact"
-msgstr "هل هو جهة اتصال فوترة"
+msgstr "جهة اتصال فوترة"
 
 #. source: frappe
 msgid "Is Calendar and Gantt"
-msgstr "هو تقويم وجانت"
+msgstr "تقويم وجانت"
 
 #. source: erpnext
 msgid "Is Cancelled"
-msgstr "هل ملغي"
+msgstr "ملغي"
 
 #. source: hrms
 msgid "Is Carry Forward"
-msgstr "هل تضاف في العام التالي"
+msgstr "تضاف في العام التالي"
 
 #. source: erpnext
 msgid "Is Cash or Non Trade Discount"
-msgstr "هل هو خصم نقدي أو غير تجاري"
+msgstr "خصم نقدي أو غير تجاري"
 
 #. source: frappe
 msgid "Is Child Table"
-msgstr "هو الجدول التابع"
+msgstr "جدول فرعي"
 
 #. source: erpnext
 msgid "Is Company"
-msgstr "هي الشركة"
+msgstr "الشركة"
 
 #. source: erpnext
 msgid "Is Company Account"
-msgstr "هو حساب الشركة"
+msgstr "حساب الشركة"
 
 #. source: hrms
 msgid "Is Compensatory"
-msgstr "هو تعويض"
+msgstr "تعويض"
 
 #. source: hrms
 msgid "Is Compensatory Leave"
-msgstr "هل هي إجازة تعويضية"
+msgstr "إجازة تعويضية"
 
 #. source: frappe
 msgid "Is Complete"
@@ -35740,11 +35740,11 @@ msgstr "حاوية"
 
 #. source: erpnext
 msgid "Is Corrective Job Card"
-msgstr "هل هي بطاقة عمل تصحيحية"
+msgstr "بطاقة عمل تصحيحية"
 
 #. source: erpnext
 msgid "Is Corrective Operation"
-msgstr "هل هي عملية تصحيحية"
+msgstr "عملية تصحيحية"
 
 #. source: erpnext
 msgid "Is Credit Card"
@@ -35752,11 +35752,11 @@ msgstr "بطاقة ائتمان"
 
 #. source: erpnext
 msgid "Is Cumulative"
-msgstr "هو التراكمي"
+msgstr "التراكمي"
 
 #. source: frappe
 msgid "Is Current"
-msgstr "هل الحالي؟"
+msgstr "الحالي"
 
 #. source: frappe
 msgid "Is Custom"
@@ -35764,11 +35764,11 @@ msgstr "مخصص"
 
 #. source: frappe
 msgid "Is Custom Field"
-msgstr "هو حقل مخصص"
+msgstr "حقل مخصص"
 
 #. source: erpnext
 msgid "Is Customer Provided Item"
-msgstr "هل العميل يقدم الصنف"
+msgstr "العميل يقدم الصنف"
 
 #. source: frappe
 msgid "Is Default"
@@ -35776,11 +35776,11 @@ msgstr "افتراضي"
 
 #. source: erpnext
 msgid "Is Default Account"
-msgstr "هو الحساب الافتراضي"
+msgstr "الحساب الافتراضي"
 
 #. source: erpnext
 msgid "Is Default Language"
-msgstr "هي اللغة الافتراضية"
+msgstr "اللغة الافتراضية"
 
 #. source: erpnext
 msgid "Is Delivery Note Required for Sales Invoice Creation?"
@@ -35792,7 +35792,7 @@ msgstr "هل إشعار التسليم مطلوب لإنشاء فاتورة ال
 
 #. source: erpnext
 msgid "Is Discounted"
-msgstr "هو مخفضة"
+msgstr "مخفضة"
 
 #. source: frappe
 msgid "Is Dynamic URL?"
@@ -35800,7 +35800,7 @@ msgstr "هل هو رابط URL ديناميكي؟"
 
 #. source: hrms
 msgid "Is Earned Leave"
-msgstr "هو إجازة مكتسبة"
+msgstr "إجازة مكتسبة"
 
 #. source: erpnext
 msgid "Is Exchange Gain / Loss?"
@@ -35808,7 +35808,7 @@ msgstr "هل هو مكسب / خسارة صرف؟"
 
 #. source: erpnext
 msgid "Is Expandable"
-msgstr "هل هو قابل للتوسيع"
+msgstr "قابل للتوسيع"
 
 #. source: hrms
 msgid "Is Expired"
@@ -35816,27 +35816,27 @@ msgstr "منتهي الصلاحية"
 
 #. source: erpnext
 msgid "Is Final Finished Good"
-msgstr "هل هو منتج نهائي نهائي"
+msgstr "منتج نهائي نهائي"
 
 #. source: erpnext
 msgid "Is Finished Item"
-msgstr "هل هو صنف نهائي"
+msgstr "صنف نهائي"
 
 #. source: erpnext
 msgid "Is Fixed Asset"
-msgstr "هو الأصول الثابتة"
+msgstr "الأصول الثابتة"
 
 #. source: hrms
 msgid "Is Flexible Benefit"
-msgstr "هو فائدة مرنة"
+msgstr "فائدة مرنة"
 
 #. source: frappe
 msgid "Is Folder"
-msgstr "هو مجلد"
+msgstr "مجلد"
 
 #. source: erpnext
 msgid "Is Free Item"
-msgstr "هو البند الحرة"
+msgstr "البند الحرة"
 
 #. source: erpnext
 msgid "Is Frozen"
@@ -35844,19 +35844,19 @@ msgstr "مجمدة"
 
 #. source: erpnext
 msgid "Is Fully Depreciated"
-msgstr "هل هو مهلك بالكامل"
+msgstr "مهلك بالكامل"
 
 #. source: frappe
 msgid "Is Global"
-msgstr "هو عالمي"
+msgstr "عالمي"
 
-#. source: hrms
+#. source: frappe
 msgid "Is Group"
-msgstr "هل مجموعة"
+msgstr "مجموعة"
 
 #. source: erpnext
 msgid "Is Group Warehouse"
-msgstr "هل هو مستودع مجموعة"
+msgstr "مستودع مجموعة"
 
 #. source: erpnext
 msgid "Is Half Day"
@@ -35868,19 +35868,19 @@ msgstr "مخفي"
 
 #. source: frappe
 msgid "Is Home Folder"
-msgstr "هو المجلد الرئيسي"
+msgstr "المجلد الرئيسي"
 
 #. source: hrms
 msgid "Is Income Tax Component"
-msgstr "هو مكون ضريبة الدخل"
+msgstr "مكون ضريبة الدخل"
 
 #. source: erpnext
 msgid "Is Internal Customer"
-msgstr "هو عميل داخلي"
+msgstr "عميل داخلي"
 
 #. source: erpnext
 msgid "Is Internal Supplier"
-msgstr "هو المورد الداخلي"
+msgstr "المورد الداخلي"
 
 #. source: hrms
 msgid "Is Leave Without Pay"
@@ -35900,19 +35900,19 @@ msgstr "إلزامي"
 
 #. source: frappe
 msgid "Is Mandatory Field"
-msgstr "هو حقل إلزامي"
+msgstr "حقل إلزامي"
 
 #. source: erpnext
 msgid "Is Milestone"
-msgstr "هو معلم"
+msgstr "معلم"
 
 #. source: erpnext
 msgid "Is Old Subcontracting Flow"
-msgstr "هل هو تدفق تعاقد من الباطن قديم"
+msgstr "تدفق تعاقد من الباطن قديم"
 
 #. source: erpnext
 msgid "Is Opening"
-msgstr "هل قيد افتتاحي"
+msgstr "قيد افتتاحي"
 
 #. source: erpnext
 msgid "Is Opening Entry"
@@ -35920,15 +35920,15 @@ msgstr "قيد افتتاحي؟"
 
 #. source: hrms
 msgid "Is Optional Leave"
-msgstr "هو إجازة اختيارية"
+msgstr "إجازة اختيارية"
 
 #. source: frappe
 msgid "Is Optional State"
-msgstr "هو الدولة اختياري"
+msgstr "حالة اختيارية"
 
 #. source: erpnext
 msgid "Is Outward"
-msgstr "هل هو صادر"
+msgstr "صادر"
 
 #. source: erpnext
 msgid "Is Packed"
@@ -35940,15 +35940,15 @@ msgstr "مدفوع"
 
 #. source: hrms
 msgid "Is Partially Paid Leave"
-msgstr "هل هي إجازة مدفوعة جزئياً"
+msgstr "إجازة مدفوعة جزئياً"
 
 #. source: erpnext
 msgid "Is Paused"
-msgstr "هل هو متوقف مؤقتًا"
+msgstr "متوقف مؤقتًا"
 
 #. source: erpnext
 msgid "Is Period Closing Voucher Entry"
-msgstr "هل هو إدخال سند إقفال الفترة"
+msgstr "إدخال سند إقفال الفترة"
 
 #. source: erpnext
 msgid "Is Phantom BOM"
@@ -35960,23 +35960,23 @@ msgstr "عنصر وهمي"
 
 #. source: frappe
 msgid "Is Primary"
-msgstr "هو الابتدائية"
+msgstr "أساسي"
 
 #. source: frappe
 msgid "Is Primary Address"
-msgstr "هل العنوان الأساسي؟"
+msgstr "العنوان الأساسي"
 
 #. source: frappe
 msgid "Is Primary Contact"
-msgstr "هو جهة الاتصال الرئيسية"
+msgstr "جهة الاتصال الرئيسية"
 
 #. source: frappe
 msgid "Is Primary Mobile"
-msgstr "هو المحمول الأساسي"
+msgstr "المحمول الأساسي"
 
 #. source: frappe
 msgid "Is Primary Phone"
-msgstr "هو الهاتف الأساسي"
+msgstr "الهاتف الأساسي"
 
 #. source: frappe
 msgid "Is Private"
@@ -36012,11 +36012,11 @@ msgstr "هل إيصال الشراء مطلوب لإنشاء فاتورة الش
 
 #. source: frappe
 msgid "Is Query Report"
-msgstr "هو تقرير استعلام"
+msgstr "تقرير استعلام"
 
 #. source: erpnext
 msgid "Is Rate Adjustment Entry (Debit Note)"
-msgstr "هل هو إدخال تعديل السعر (إشعار مدين)"
+msgstr "إدخال تعديل السعر (إشعار مدين)"
 
 #. source: hrms
 msgid "Is Recurring"
@@ -36024,19 +36024,19 @@ msgstr "متكرر"
 
 #. source: hrms
 msgid "Is Recurring Additional Salary"
-msgstr "هل هو راتب إضافي متكرر"
+msgstr "راتب إضافي متكرر"
 
 #. source: erpnext
 msgid "Is Recursive"
-msgstr "هل هو متكرر"
+msgstr "متكرر"
 
 #. source: erpnext
 msgid "Is Rejected"
-msgstr "هل هو مرفوض"
+msgstr "مرفوض"
 
 #. source: erpnext
 msgid "Is Rejected Warehouse"
-msgstr "هل هو مستودع مرفوض"
+msgstr "مستودع مرفوض"
 
 #. source: frappe
 msgid "Is Remote Request?"
@@ -36044,7 +36044,7 @@ msgstr "هل هو طلب عن بعد؟"
 
 #. source: erpnext
 msgid "Is Return"
-msgstr "مرتجع؟"
+msgstr "مرتجع"
 
 #. source: erpnext
 msgid "Is Return (Credit Note)"
@@ -36056,15 +36056,15 @@ msgstr "مرتجع (إشعار مدين)؟"
 
 #. source: erpnext
 msgid "Is Rule Evaluated"
-msgstr "هل تم تقييم القاعدة"
+msgstr "تم تقييم القاعدة"
 
 #. source: hrms
 msgid "Is Salary Released"
-msgstr "هل تم صرف الراتب"
+msgstr "تم صرف الراتب"
 
 #. source: hrms
 msgid "Is Salary Withheld"
-msgstr "هل الراتب محجوز"
+msgstr "الراتب محجوز"
 
 #. source: erpnext
 msgid "Is Sales Order Required for Sales Invoice & Delivery Note Creation?"
@@ -36076,7 +36076,7 @@ msgstr "هل أمر البيع مطلوب لإنشاء فاتورة المبيع
 
 #. source: erpnext
 msgid "Is Scrap Item"
-msgstr "هل هو صنف خردة"
+msgstr "صنف خردة"
 
 #. source: frappe
 msgid "Is Setup Complete?"
@@ -36084,7 +36084,7 @@ msgstr "هل اكتمل الإعداد؟"
 
 #. source: erpnext
 msgid "Is Short/Long Year"
-msgstr "هل هي سنة قصيرة/طويلة"
+msgstr "سنة قصيرة/طويلة"
 
 #. source: frappe
 msgid "Is Single"
@@ -36096,15 +36096,15 @@ msgstr "تم تخطي"
 
 #. source: frappe
 msgid "Is Spam"
-msgstr "هو المزعج"
+msgstr "المزعج"
 
 #. source: frappe
 msgid "Is Standard"
-msgstr "هو معيار"
+msgstr "معيار"
 
 #. source: erpnext
 msgid "Is Stock Item"
-msgstr "هل هو صنف مخزون"
+msgstr "صنف مخزون"
 
 #. source: erpnext
 msgid "Is Sub Assembly Item"
@@ -36128,31 +36128,31 @@ msgstr "تم إنشاؤه بواسطة النظام"
 
 #. source: frappe
 msgid "Is Table"
-msgstr "هو الجدول"
+msgstr "الجدول"
 
 #. source: frappe
 msgid "Is Table Field"
-msgstr "هو حقل جدول"
+msgstr "حقل جدول"
 
 #. source: hrms
 msgid "Is Tax Applicable"
-msgstr "هي ضريبة قابلة للتطبيق"
+msgstr "ضريبة قابلة للتطبيق"
 
 #. source: erpnext
 msgid "Is Tax Withholding Account"
-msgstr "هل هو حساب اقتطاع الضريبة"
+msgstr "حساب اقتطاع الضريبة"
 
 #. source: erpnext
 msgid "Is Template"
-msgstr "هل هو قالب"
+msgstr "قالب"
 
 #. source: erpnext
 msgid "Is Transporter"
-msgstr "هو الناقل"
+msgstr "الناقل"
 
 #. source: frappe
 msgid "Is Tree"
-msgstr "هي شجرة"
+msgstr "شجرة"
 
 #. source: frappe
 msgid "Is Unique"
@@ -36164,7 +36164,7 @@ msgstr "افتراضي"
 
 #. source: erpnext
 msgid "Is Your Company Address"
-msgstr "هل هو عنوان شركتك"
+msgstr "عنوان شركتك"
 
 #. source: erpnext
 msgid "Is a Subscription"
@@ -36718,7 +36718,7 @@ msgstr "لا يمكن طلب الصنف {0} أكثر من مرة"
 
 #. source: erpnext
 msgid "Item {0} cannot be ordered more than {1} against Blanket Order {2}."
-msgstr "لا يمكن طلب الصنف {0} بأكثر من {1} مقابل أمر الشراء الشامل {2}."
+msgstr "لا يمكن طلب الصنف {0} بأكثر من {1} مقابل الأمر الشامل {2}."
 
 #. source: erpnext
 msgid "Item {0} does not exist"
@@ -38513,7 +38513,7 @@ msgstr "الإجازات بعد التعديل"
 
 #. source: hrms
 msgid "Leaves Allocated"
-msgstr "الأوراق المخصصة"
+msgstr "الإجازات المخصصة"
 
 #. source: hrms
 msgid "Leaves Expired"
@@ -40819,7 +40819,7 @@ msgstr "الحد الأقصى لمبلغ الميزة"
 
 #. source: hrms
 msgid "Maximum Carry Forwarded Leaves"
-msgstr "الحد الأقصى لحمل الأوراق المعاد توجيهها"
+msgstr "الحد الأقصى للإجازات المرحّلة"
 
 #. source: hrms
 msgid "Maximum Consecutive Leaves Allowed"
@@ -41434,7 +41434,7 @@ msgstr "أقل كمية (حسب وحدة قياس المخزون)"
 
 #. source: erpnext
 msgid "Min Qty can not be greater than Max Qty"
-msgstr "الكمية الأدنى لا يمكن ان تكون أكبر من الكمية الأعلى"
+msgstr "الكمية الأدنى لا يمكن أن تكون أكبر من الكمية الأعلى"
 
 #. source: erpnext
 msgid "Min Qty should be greater than Recurse Over Qty"
@@ -42807,7 +42807,7 @@ msgstr "سيتم ترحيل قيد يومية جديد بمبلغ الفرق. ي
 
 #. source: frappe
 msgid "New Kanban Board"
-msgstr "مجلس كانبان جديدة"
+msgstr "لوح كانبان جديد"
 
 #. source: erpnext
 msgid "New Lead (Last 1 Month)"
@@ -42927,14 +42927,14 @@ msgstr "طلب مبيعات جديد"
 
 #. source: erpnext
 msgid "New Sales Person Name"
-msgstr "اسم شخص المبيعات الجديد"
+msgstr "اسم مندوب المبيعات الجديد"
 
 #. source: erpnext
 msgid ""
 "New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase"
 " Receipt"
 msgstr ""
-"المسلسل الجديد غير ممكن للمستودع. يجب ان يكون المستودع مجهز من حركة المخزون أو "
+"المسلسل الجديد غير ممكن للمستودع. يجب أن يكون المستودع مجهز من حركة المخزون أو "
 "المشتريات المستلمة"
 
 #. source: frappe
@@ -43270,7 +43270,7 @@ msgstr "لم يتم العثور على حساب بنك/نقد للعملة {0}.
 
 #. source: frappe
 msgid "No Copy"
-msgstr "اي نسخة"
+msgstr "أي نسخة"
 
 #. source: erpnext
 msgid "No Customer found for Inter Company Transactions which represents company {0}"
@@ -43398,7 +43398,7 @@ msgstr "لم يتم العثور على فترة إجازة"
 
 #. source: hrms
 msgid "No Leaves Allocated to Employee: {0} for Leave Type: {1}"
-msgstr "لا أوراق مخصصة للموظف: {0} لنوع الإجازة: {1}"
+msgstr "لا إجازات مخصصة للموظف: {0} لنوع الإجازة: {1}"
 
 #. source: frappe
 msgid "No Letterhead"
@@ -44070,7 +44070,7 @@ msgstr "عدد الرسائل النصية المرسلة"
 
 #. source: erpnext
 msgid "No of Shares"
-msgstr "عدد األسهم"
+msgstr "عدد الأسهم"
 
 #. source: erpnext
 msgid "No of Shift"
@@ -47807,7 +47807,7 @@ msgstr "نوع الحساب المدفوع إليه"
 
 #. source: erpnext
 msgid "Paid amount + Write Off Amount can not be greater than Grand Total"
-msgstr "المبلغ المدفوع + المبلغ المشطوب لا يمكن ان يكون أكبر من المجموع الكلي"
+msgstr "المبلغ المدفوع + المبلغ المشطوب لا يمكن أن يكون أكبر من المجموع الكلي"
 
 #. source: erpnext
 msgid "Paid to"
@@ -47987,7 +47987,7 @@ msgstr "لم يتم العثور على رقم الصف الرئيسي لـ {0}"
 
 #. source: erpnext
 msgid "Parent Sales Person"
-msgstr "رجل المبيعات الرئيسي"
+msgstr "مندوب المبيعات الرئيسي"
 
 #. source: erpnext
 msgid "Parent Supplier Group"
@@ -48875,11 +48875,11 @@ msgstr "حالة الدفع"
 
 #. source: erpnext
 msgid "Payment Term"
-msgstr "مصطلح الدفع"
+msgstr "شرط الدفع"
 
 #. source: erpnext
 msgid "Payment Term Name"
-msgstr "اسم مصطلح الدفع"
+msgstr "اسم شرط الدفع"
 
 #. source: erpnext
 msgid "Payment Term Outstanding"
@@ -48899,7 +48899,7 @@ msgstr "نموذج شروط الدفع"
 
 #. source: erpnext
 msgid "Payment Terms Template Detail"
-msgstr "شروط الدفع تفاصيل قالب"
+msgstr "تفاصيل قالب شروط الدفع"
 
 #. source: erpnext
 msgid "Payment Terms from orders will be fetched into the invoices as is"
@@ -49315,11 +49315,11 @@ msgstr ""
 
 #. source: erpnext
 msgid "Percentage you are allowed to order beyond the Blanket Order quantity."
-msgstr "النسبة المئوية المسموح لك بطلبها بما يتجاوز كمية الطلب الشامل."
+msgstr "النسبة المئوية المسموح لك بطلبها بما يتجاوز كمية الأمر الشامل."
 
 #. source: erpnext
 msgid "Percentage you are allowed to sell beyond the Blanket Order quantity."
-msgstr "النسبة المئوية المسموح لك ببيعها بما يتجاوز كمية الطلب الشامل."
+msgstr "النسبة المئوية المسموح لك ببيعها بما يتجاوز كمية الأمر الشامل."
 
 #. source: erpnext
 msgid ""
@@ -50465,7 +50465,7 @@ msgstr "الرجاء إدخال تاريخ التسليم"
 
 #. source: erpnext
 msgid "Please enter Employee Id of this sales person"
-msgstr "الرجاء إدخال معرف الموظف الخاص بشخص المبيعات هذا"
+msgstr "يرجى إدخال معرّف الموظف الخاص بمندوب المبيعات هذا"
 
 #. source: erpnext
 msgid "Please enter Expense Account"
@@ -52499,7 +52499,7 @@ msgstr "قائمة الأسعار معدل (عملة الشركة)"
 
 #. source: erpnext
 msgid "Price List must be applicable for Buying or Selling"
-msgstr "يجب ان تكون قائمة الأسعار منطبقه للشراء أو البيع"
+msgstr "يجب أن تكون قائمة الأسعار منطبقه للشراء أو البيع"
 
 #. source: erpnext
 msgid "Price List {0} is disabled or does not exist"
@@ -53422,7 +53422,7 @@ msgstr "والمشروع أن تكون متاحة على الموقع الإلك
 
 #. source: erpnext
 msgid "Project wise Stock Tracking"
-msgstr "تتبع المشروع الحكيم"
+msgstr "تتبع المخزون حسب المشروع"
 
 #. source: erpnext
 msgid "Project wise Stock Tracking "
@@ -53858,7 +53858,7 @@ msgstr "تاريخ أمر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order Item"
-msgstr "صنف امر الشراء"
+msgstr "صنف أمر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order Item Supplied"
@@ -53886,7 +53886,7 @@ msgstr "طلب الشراء مطلوب للعنصر {}"
 
 #. source: erpnext
 msgid "Purchase Order Trends"
-msgstr "اتجهات امر الشراء"
+msgstr "اتجهات أمر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order already created for all Sales Order items"
@@ -54062,7 +54062,7 @@ msgstr "الغرض والمبلغ"
 
 #. source: erpnext
 msgid "Purpose must be one of {0}"
-msgstr "الهدف يجب ان يكون واحد ل {0}"
+msgstr "الهدف يجب أن يكون واحد ل {0}"
 
 #. source: hrms
 msgid "Purpose of Travel"
@@ -55187,7 +55187,7 @@ msgstr "إعادة التشغيل في وحدة التحكم"
 
 #. source: hrms
 msgid "Re-allocate Leaves"
-msgstr "إعادة تخصيص الأوراق"
+msgstr "إعادة تخصيص الإجازات"
 
 #. source: erpnext
 msgid "Re-extracting"
@@ -56674,7 +56674,7 @@ msgstr "كما يكرر \"AAA\" من السهل تخمين"
 
 #. source: frappe
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr "يكرر مثل \"abcabcabc\" ليست سوى أصعب قليلا لتخمين من \"اي بي سي\""
+msgstr "يكرر مثل \"abcabcabc\" ليست سوى أصعب قليلا لتخمين من \"أي بي سي\""
 
 #. source: frappe
 msgid "Repeats {0}"
@@ -56913,7 +56913,7 @@ msgstr "تقارير"
 
 #. source: frappe
 msgid "Reports & Masters"
-msgstr "التقارير والماجستير"
+msgstr "التقارير والبيانات الرئيسية"
 
 #. source: hrms
 msgid "Reports To"
@@ -58424,7 +58424,7 @@ msgstr "تقريب"
 
 #. source: erpnext
 msgid "Round Off Account"
-msgstr "جولة قبالة حساب"
+msgstr "حساب التقريب"
 
 #. source: erpnext
 msgid "Round Off Cost Center"
@@ -58440,7 +58440,7 @@ msgstr "تقريب للرصيد الافتتاحي"
 
 #. source: frappe
 msgid "Round Robin"
-msgstr "جولة روبن"
+msgstr "التوزيع بالتناوب"
 
 #. source: erpnext
 msgid "Round Tax Amount Row-wise"
@@ -60289,7 +60289,7 @@ msgstr "تشغيل القواعد على المعاملات غير المسوّ�
 
 #. source: frappe
 msgid "Run scheduled jobs only if checked"
-msgstr "تشغيل المهام المجدولة الا إذا دققت"
+msgstr "تشغيل المهام المجدولة إلا إذا دققت"
 
 #. source: erpnext
 msgid "Running"
@@ -61017,19 +61017,19 @@ msgstr "ملخص مندوب مبيعات الشخص"
 
 #. source: erpnext
 msgid "Sales Person Name"
-msgstr "اسم رجل المبيعات"
+msgstr "اسم مندوب المبيعات"
 
 #. source: erpnext
 msgid "Sales Person Target Variance Based On Item Group"
-msgstr "شخص المبيعات التباين المستهدف بناء على مجموعة البند"
+msgstr "تباين مستهدف مندوب المبيعات بناءً على مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Sales Person Targets"
-msgstr "أهداف رجل المبيعات"
+msgstr "أهداف مندوب المبيعات"
 
 #. source: erpnext
 msgid "Sales Person-wise Transaction Summary"
-msgstr "ملخص المبيعات بناء على رجل المبيعات"
+msgstr "ملخص المبيعات بناء على مندوب المبيعات"
 
 #. source: erpnext
 msgid "Sales Pipeline"
@@ -61921,7 +61921,7 @@ msgstr "ستنتهي صلاحية Security.txt قريبًا!"
 
 #. source: erpnext
 msgid "See All Articles"
-msgstr "انظر جميع المقالات"
+msgstr "عرض جميع المقالات"
 
 #. source: hrms
 msgid "See CTC Break-up"
@@ -63853,8 +63853,8 @@ msgid ""
 "Set Item Group-wise budgets on this Territory. You can also include seasonality by "
 "setting the Distribution."
 msgstr ""
-"تعيين مجموعة من الحكمة الإغلاق الميزانيات على هذا الإقليم. يمكنك أيضا تضمين الموسمية "
-"عن طريق تعيين التوزيع."
+"تعيين الميزانيات حسب مجموعة الأصناف على هذا الإقليم. يمكنك أيضًا تضمين الموسمية عن "
+"طريق تعيين التوزيع."
 
 #. source: erpnext
 msgid "Set Landed Cost Based on Purchase Invoice Rate"
@@ -64090,7 +64090,7 @@ msgstr "تعيين الأرصدة الافتتاحية للاستحقاقات و
 
 #. source: hrms
 msgid "Set optional filters to fetch employees in the appraisee list"
-msgstr "تعيين عوامل تصفية اختيارية لجلب الموظفين في قائمة المقيمين"
+msgstr "تعيين عوامل تصفية اختيارية لجلب الموظفين في قائمة المُقَيَّمين"
 
 #. source: erpnext
 msgid "Set quantity of process loss item:"
@@ -64106,7 +64106,7 @@ msgstr "تعيين الحجم بالميجابايت"
 
 #. source: erpnext
 msgid "Set targets Item Group-wise for this Sales Person."
-msgstr "تحديد أهداف المجموعة السلعة الحكيم لهذا الشخص المبيعات."
+msgstr "تحديد الأهداف حسب مجموعة الأصناف لمندوب المبيعات هذا."
 
 #. source: erpnext
 msgid ""
@@ -65000,7 +65000,7 @@ msgstr "إظهار أرصدة الإجازات في قسيمة الراتب"
 
 #. source: hrms
 msgid "Show Leaves Of All Department Members In Calendar"
-msgstr "إظهار أوراق جميع أعضاء القسم في التقويم"
+msgstr "إظهار إجازات جميع أعضاء القسم في التقويم"
 
 #. source: erpnext
 msgid "Show Ledger View"
@@ -65108,7 +65108,7 @@ msgstr "عرض كشف الراتب"
 
 #. source: erpnext
 msgid "Show Sales Person"
-msgstr "عرض شخص المبيعات"
+msgstr "عرض مندوب المبيعات"
 
 #. source: frappe
 msgid "Show Saved"
@@ -65176,7 +65176,7 @@ msgstr "إظهار المتغيرات"
 
 #. source: erpnext
 msgid "Show Warehouse-wise Stock"
-msgstr "عرض المستودع الحكيمة"
+msgstr "عرض المخزون حسب المستودع"
 
 #. source: frappe
 msgid "Show Warnings"
@@ -65820,7 +65820,7 @@ msgstr "وضع نقل SocketIO"
 
 #. source: frappe
 msgid "Soft-Bounced"
-msgstr "لينة المرتجعة"
+msgstr "ارتداد مؤقت"
 
 #. source: erpnext
 msgid "Software"
@@ -68291,7 +68291,7 @@ msgstr "المورد (ق)"
 
 #. source: erpnext
 msgid "Supplier-Wise Sales Analytics"
-msgstr "المورد حكيم المبيعات تحليلات"
+msgstr "تحليلات المبيعات حسب المورد"
 
 #. source: erpnext
 msgid "Suppliers"
@@ -69432,7 +69432,7 @@ msgstr "الاقاليم المستهدفة"
 
 #. source: erpnext
 msgid "Territory-wise Sales"
-msgstr "المبيعات الحكيمة"
+msgstr "المبيعات حسب الإقليم"
 
 #. source: erpnext
 msgid "Tesla"
@@ -70889,7 +70889,7 @@ msgstr "يمكن أن يكون هناك سوى 1 في حساب الشركة في
 
 #. source: erpnext
 msgid "There can only be one Shipping Rule Condition with 0 or blank value for \"To Value\""
-msgstr "يمكن ان يكون هناك شرط قاعدة شحن واحد فقط مع 0 أو قيمة فارغة ل \"قيمة\""
+msgstr "يمكن أن يكون هناك شرط قاعدة شحن واحد فقط مع 0 أو قيمة فارغة ل \"قيمة\""
 
 #. source: erpnext
 msgid ""
@@ -71078,7 +71078,7 @@ msgstr "هذا العنصر هو متغير {0} (قالب)."
 
 #. source: frappe
 msgid "This Kanban Board will be private"
-msgstr "وهذا المجلس كانبان يكون القطاع الخاص"
+msgstr "سيكون لوح كانبان هذا خاصًا"
 
 #. source: frappe
 msgid "This Month"
@@ -71457,7 +71457,7 @@ msgstr "هذه هي مجموعة البند الجذرية والتي لا يم�
 
 #. source: erpnext
 msgid "This is a root sales person and cannot be edited."
-msgstr "هذا هو الشخص المبيعات الجذرية والتي لا يمكن تحريرها."
+msgstr "هذا هو المندوب المبيعات الجذرية والتي لا يمكن تحريرها."
 
 #. source: erpnext
 msgid "This is a root supplier group and cannot be edited."
@@ -71516,7 +71516,7 @@ msgid ""
 "This is based on transactions against this Sales Person. See timeline below for "
 "details"
 msgstr ""
-"هذا يعتمد على المعاملات ضد هذا الشخص المبيعات. انظر الجدول الزمني أدناه للحصول على "
+"هذا يعتمد على المعاملات ضد هذا المندوب المبيعات. انظر الجدول الزمني أدناه للحصول على "
 "التفاصيل"
 
 #. source: erpnext
@@ -71980,13 +71980,13 @@ msgstr "السلاسل الزمنية"
 msgid "Time Series Based On"
 msgstr "سلسلة زمنية بناء على"
 
-#. source: erpnext
+#. source: hrms
 msgid "Time Sheet"
 msgstr "ورقة الوقت"
 
 #. source: erpnext
 msgid "Time Sheet List"
-msgstr "الساعة قائمة ورقة"
+msgstr "قائمة سجلات الدوام"
 
 #. source: erpnext
 msgid "Time Sheets"
@@ -73342,7 +73342,7 @@ msgstr "إجمالي الإجازات المخصصة"
 
 #. source: hrms
 msgid "Total Leaves Encashed"
-msgstr "إجمالي الأوراق مقطوعه"
+msgstr "إجمالي الإجازات المستبدلة نقدًا"
 
 #. source: erpnext
 msgid "Total Ledgers"
@@ -73790,7 +73790,7 @@ msgstr "إجمالي {0} لجميع العناصر هو صفر، قد يكون �
 
 #. source: erpnext
 msgid "Total(Amt)"
-msgstr "إجمالي (AMT)"
+msgstr "الإجمالي (المبلغ)"
 
 #. source: erpnext
 msgid "Total(Qty)"
@@ -74434,7 +74434,7 @@ msgstr "لا يمكن أن يكون تاريخ انتهاء الفترة الت�
 
 #. source: erpnext
 msgid "Trial Period Start Date"
-msgstr "فترة بداية الفترة التجريبية"
+msgstr "تاريخ بدء الفترة التجريبية"
 
 #. source: erpnext
 msgid "Trial Period Start date cannot be after Subscription Start Date"
@@ -77694,7 +77694,7 @@ msgstr "لا يمكن حذف مستودع كما دخول دفتر الأستا�
 
 #. source: erpnext
 msgid "Warehouse cannot be changed for Serial No."
-msgstr "المستودع لا يمكن ان يكون متغير لرقم تسلسلى."
+msgstr "المستودع لا يمكن أن يكون متغير لرقم تسلسلى."
 
 #. source: erpnext
 msgid "Warehouse is mandatory"
@@ -77714,7 +77714,7 @@ msgstr "المستودع مطلوب للصنف المخزني {0}"
 
 #. source: erpnext
 msgid "Warehouse wise Item Balance Age and Value"
-msgstr "مستودع الحكيم البند الرصيد العمر والقيمة"
+msgstr "عمر وقيمة رصيد الصنف حسب المستودع"
 
 #. source: erpnext
 msgid "Warehouse {0} can not be deleted as quantity exists for Item {1}"
@@ -77930,7 +77930,7 @@ msgstr "فترة الضمان (بالأيام)"
 
 #. source: frappe
 msgid "Was this article helpful?"
-msgstr "هل كان المقال مساعدا؟!"
+msgstr "هل كان هذا المقال مفيدًا؟"
 
 #. source: frappe
 msgid "Watch Tutorial"
@@ -78621,7 +78621,7 @@ msgstr "سوف تطبق أيضا على المتغيرات"
 
 #. source: erpnext
 msgid "Will also apply for variants unless overridden"
-msgstr "سوف تطبق أيضا على المتغيرات الا إذا تم التغير فوقها"
+msgstr "سوف تطبق أيضا على المتغيرات إلا إذا تم التغير فوقها"
 
 #. source: erpnext
 msgid "Will be auto-populated"
@@ -81409,7 +81409,7 @@ msgstr "قصير"
 
 #. source: frappe
 msgid "since last month"
-msgstr "منذ اخر شهر"
+msgstr "منذ آخر شهر"
 
 #. source: frappe
 msgid "since last week"
@@ -83367,7 +83367,7 @@ msgstr "{0} {1}: الحساب {2} غير فعال"
 
 #. source: erpnext
 msgid "{0} {1}: Accounting Entry for {2} can only be made in currency: {3}"
-msgstr "{0} {1}: قيد محاسبي ل {2} يمكن ان يتم فقط بالعملة : {3}"
+msgstr "{0} {1}: قيد محاسبي ل {2} يمكن أن يتم فقط بالعملة : {3}"
 
 #. source: erpnext
 msgid "{0} {1}: Cost Center is mandatory for Item {2}"

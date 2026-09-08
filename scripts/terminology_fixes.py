@@ -89,6 +89,14 @@ GLOSSARY = [
 	(r"\bVoucher\b",         r"القسيمة",               "السند"),
 	(r"\bVoucher\b",         r"قسيمة",                 "سند"),
 
+	# -- Sales Person is مندوب المبيعات, not "a sales human" -----------------
+	(r"\bSales\s*Person\b",  r"شخص المبيعات",          "مندوب المبيعات"),
+	(r"\bSales\s*Person\b",  r"رجل المبيعات",          "مندوب المبيعات"),
+
+	# -- Leaves (HR) is إجازات, never أوراق (foliage / sheets of paper) -----
+	(r"\bLeaves\b",          r"الأوراق",               "الإجازات"),
+	(r"\bLeaves\b",          r"أوراق",                 "إجازات"),
+
 	# -- Leave (HR) is إجازة, never the verb "to depart" --------------------
 	(r"\bLeave Ledger",      r"ترك دخول دفتر الأستاذ", "قيد دفتر أستاذ الإجازات"),
 	(r"\bLeave Encashment",  r"إجازة مغادرة السيارات", "استبدال الإجازة نقدًا"),
@@ -112,6 +120,22 @@ EXACT = {
 		# the English tail carried the {0}; stripping it exposed the omission
 		"Fieldname is limited to 64 characters ({0})": "اسم الحقل محدود بـ 64 حرفًا ({0})",
 		"Jump to field": "الانتقال إلى الحقل",
+		"5 Records": "5 سجلات",
+		"Round Robin": "التوزيع بالتناوب",        # assignment rule, not "Robin's round"
+		"New Kanban Board": "لوح كانبان جديد",     # Board was read as مجلس (council)
+		"This Kanban Board will be private": "سيكون لوح كانبان هذا خاصًا",
+		"Was this article helpful?": "هل كان هذا المقال مفيدًا؟",                  # tamyiz: 3-10 takes an indefinite plural
+		"Assignment Update on {0}": "تحديث التكليف بتاريخ {0}",   # work task, not homework
+		"Bounced": "مرتجع",                      # of a cheque/email, not 'leapt'
+		"Soft-Bounced": "ارتداد مؤقت",
+		"Reports & Masters": "التقارير والبيانات الرئيسية",   # master data, not a degree
+		"Block Module": "حظر الوحدة",            # the verb, not the noun كتلة
+		"Block Modules": "حظر الوحدات",
+		"Is Child Table": "جدول فرعي",
+		"Is Primary": "أساسي",                   # was 'الابتدائية' (elementary school)
+		"Is Optional State": "حالة اختيارية",     # State was read as الدولة (country)
+		"1 Currency = [?] Fraction\nFor e.g. 1 USD = 100 Cent":
+			"1 عملة = [؟] وحدة فرعية\nعلى سبيل المثال 1 دولار أمريكي = 100 سنت",
 		"Interests": "الاهتمامات",               # hedged both senses: 'الإهتمامات او الفوائد'
 		"Based on Field": "بناءً على الحقل",
 		"Image Field": "حقل الصورة",
@@ -280,6 +304,74 @@ EXACT = {
 		"Employee Exit": "إنهاء خدمة الموظف",    # was just 'موظف'
 		"Field Mapping": "ربط الحقول",           # was 'رسم الخرائط الميدانية' (field cartography)
 
+		# -wise means "broken down by", not حكيم ("wise")
+		"Batch-Wise Balance History": "سجل الرصيد حسب الدفعة",
+		"Customer-wise Item Price": "سعر الصنف حسب العميل",
+		"Project wise Stock Tracking": "تتبع المخزون حسب المشروع",
+		"Show Warehouse-wise Stock": "عرض المخزون حسب المستودع",
+		"Supplier-Wise Sales Analytics": "تحليلات المبيعات حسب المورد",
+		"Territory-wise Sales": "المبيعات حسب الإقليم",
+		"Warehouse wise Item Balance Age and Value": "عمر وقيمة رصيد الصنف حسب المستودع",
+		"Set targets Item Group-wise for this Sales Person.":
+			"تحديد الأهداف حسب مجموعة الأصناف لمندوب المبيعات هذا.",
+		"Set Item Group-wise budgets on this Territory. You can also include seasonality by setting the Distribution.":
+			"تعيين الميزانيات حسب مجموعة الأصناف على هذا الإقليم. يمكنك أيضًا تضمين الموسمية عن طريق تعيين التوزيع.",
+
+		# Blanket Order is a standing/open order, not a بطانية (blanket)
+		"Blanket Order": "أمر شامل",
+		"Blanket Order Item": "صنف الأمر الشامل",
+		"Blanket Order Rate": "سعر الأمر الشامل",
+		"Blanket Order Allowance (%)": "نسبة السماح للأمر الشامل (٪)",
+		"Against Blanket Order": "مقابل الأمر الشامل",
+		"Invalid Blanket Order for the selected Customer and Item":
+			"أمر شامل غير صالح للعميل والصنف المحدد",
+		"Item {0} cannot be ordered more than {1} against Blanket Order {2}.":
+			"لا يمكن طلب الصنف {0} بأكثر من {1} مقابل الأمر الشامل {2}.",
+		"Percentage you are allowed to order beyond the Blanket Order quantity.":
+			"النسبة المئوية المسموح لك بطلبها بما يتجاوز كمية الأمر الشامل.",
+		"Percentage you are allowed to sell beyond the Blanket Order quantity.":
+			"النسبة المئوية المسموح لك ببيعها بما يتجاوز كمية الأمر الشامل.",
+
+		# banking / accounting terms of art
+		# Term here is a contract condition (شرط), not a vocabulary term
+		"Payment Term": "شرط الدفع",
+		"Payment Term Name": "اسم شرط الدفع",
+		"Payment Terms Template Detail": "تفاصيل قالب شروط الدفع",
+		"Round Off Account": "حساب التقريب",       # was 'جولة قبالة حساب'
+		"Time Sheet": "سجل الدوام",
+		"Time Sheet List": "قائمة سجلات الدوام",
+		"Hold Invoice": "تعليق الفاتورة",          # was 'عقد الفاتورة' (contract)
+		"Trial Period Start Date": "تاريخ بدء الفترة التجريبية",
+		"Frequently Read Articles": "المقالات الأكثر قراءة",
+		"See All Articles": "عرض جميع المقالات",
+		"Closed Document": "مستند مغلق",
+		"No of Shares": "عدد الأسهم",              # alef/lam were transposed
+		"New Sales Person Name": "اسم مندوب المبيعات الجديد",
+		"Sales Person Target Variance Based On Item Group":
+			"تباين مستهدف مندوب المبيعات بناءً على مجموعة الأصناف",
+		"Please enter Employee Id of this sales person":
+			"يرجى إدخال معرّف الموظف الخاص بمندوب المبيعات هذا",
+
+		"Bank Clearance Summary": "ملخص المقاصة البنكية",   # المقاصة, not التخليص (customs)
+		"Bank Draft": "حوالة بنكية",                        # an instrument, not a text draft
+		"Bank Overdraft Account": "حساب السحب على المكشوف",
+		"Bank / Cash Account": "حساب البنك / النقدية",
+		"Account Paid From": "مدفوع من حساب",
+		"Accounting Masters": "البيانات المحاسبية الرئيسية",  # master data, not a degree
+		"% Complete Method": "طريقة نسبة الإنجاز",
+		"Billed Amt": "المبلغ المفوتر",
+		"Total(Amt)": "الإجمالي (المبلغ)",
+		"Address Desc": "وصف العنوان",                       # Address as noun, not "to address"
+		"Actual Operating Cost": "تكاليف التشغيل الفعلية",    # adjective follows the noun
+		"Actual Operation Time": "وقت التشغيل الفعلي",
+		"BOM Detail No": "رقم تفاصيل قائمة المواد",
+		"Block Supplier": "حظر المورد",
+		" Is Child Table": " جدول فرعي",
+		"A Customer Group exists with same name please change the Customer name or rename the Customer Group":
+			"توجد مجموعة عملاء بنفس الاسم، يرجى تغيير اسم العميل أو إعادة تسمية مجموعة العملاء",
+		"'Update Stock' can not be checked because items are not delivered via {0}":
+			"لا يمكن تحديد خيار \"تحديث المخزون\" لأن الأصناف لا تُسلَّم عبر {0}",
+
 		# "Finance Book" is a parallel set of books (tax vs accounting), not a
 		# book you read; and "Book" as a verb is حجز/تسجيل, never الكتاب.
 		"Finance Book": "الدفتر المالي",
@@ -317,6 +409,24 @@ EXACT = {
 		"Invalid Leave Ledger Entry": "قيد دفتر أستاذ الإجازات غير صالح",
 		"Auto Leave Encashment": "استبدال الإجازة نقدًا تلقائيًا",
 		"Shift": "وردية",
+		" Unlink Payment on Cancellation of Employee Advance":
+			" إلغاء ربط الدفعة عند إلغاء سلفة الموظف",   # Advance = سلفة, not تقدم
+		"Actual Encashable Days": "الأيام الفعلية القابلة للصرف",
+		"Appraisee": "المُقَيَّم",                    # the person appraised, not the appraisal
+		"Appraisees: {0}": "المُقَيَّمون: {0}",
+		"Set optional filters to fetch employees in the appraisee list":
+			"تعيين عوامل تصفية اختيارية لجلب الموظفين في قائمة المُقَيَّمين",
+		"Attach Proof": "إرفاق إثبات",               # masdar, not the verb 'we hang'
+		"Attendance marked successfully": "تم تسجيل الحضور بنجاح",
+		"Carry Forwarded Leaves": "الإجازات المرحّلة",
+		"Expire Carry Forwarded Leaves (Days)": "انتهاء صلاحية الإجازات المرحّلة (بالأيام)",
+		"Maximum Carry Forwarded Leaves": "الحد الأقصى للإجازات المرحّلة",
+		"Total Leaves Encashed": "إجمالي الإجازات المستبدلة نقدًا",
+		"Allocate leaves to {0} employee(s)?": "تخصيص إجازات لـ {0} موظف؟",
+		"Apply / Approve Leaves": "طلب / اعتماد الإجازات",
+		"Block Holidays on important days.": "حظر الإجازات في الأيام المهمة.",
+		"Added tax components from the Salary Component master as the salary structure didn't have any tax component.":
+			"تمت إضافة المكونات الضريبية من سجل مكوّن الراتب الرئيسي لأن هيكل الرواتب لم يكن يحتوي على أي مكوّن ضريبي.",
 		"User": "المستخدم",
 		"Service Item": "صنف الخدمة",       # Item = صنف; was 'بند الخدمة'
 		"Added On": "تاريخ الإضافة",         # was 'تمت إضافة على' (broken grammar)
@@ -519,6 +629,8 @@ SPELLING = {
 	"الايميل": "الإيميل",
 	"الأيصال": "الإيصال",
 	"الفلتره": "الفلترة",
+	"ان": "أن", "الا": "إلا", "اي": "أي", "امر": "أمر", "اصل": "أصل",
+	"ارباح": "أرباح", "اخر": "آخر", "األسهم": "الأسهم",
 	"لايمكن": "لا يمكن",
 	"أسم": "اسم",
 	"الي": "إلى",

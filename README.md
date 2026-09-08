@@ -193,7 +193,31 @@ Spelling and word-choice, corrected against the catalogs' own usage:
   which the first sweep's pattern missed.
 - Four msgstrs that **began with the sentence's full stop**, an RTL artifact.
 
-**963 entries corrected and 225 newly translated** in total. Every rule lives in
+Reviewer-reported errors, and the classes behind them:
+
+- **`Leaves` was `أوراق`** — foliage — across 17 HR strings. `Allocate Leaves`
+  read `تخصيص الأوراق`. Now `الإجازات`.
+- **`-wise` was `حكيم`** ("wise") in 9 report titles: `Batch-Wise Balance History`
+  read `دفعة الحكيم التاريخ الرصيد`. Now `حسب الدفعة`.
+- **`Blanket Order` was `أمر بطانية`** (a blanket you sleep under). Now `أمر شامل`.
+- **`Masters` was `الماجستير`** (the academic degree) rather than master data.
+- **`Block` as a verb was `كتلة`** (a block of stone). `Block Supplier` now
+  `حظر المورد` — while UI blocks correctly keep `كتلة`.
+- **`Employee Advance` was `تقدم الموظفين`** ("employee progress") rather than
+  `سلفة الموظف`; **`Bank Draft`** was a text draft rather than an instrument;
+  **`Bank Clearance`** was `التخليص` (customs) rather than `المقاصة`;
+  **`Payment Term`** was `مصطلح` (a vocabulary term) rather than `شرط`;
+  **`Hold Invoice`** was `عقد الفاتورة` ("the invoice's contract");
+  **`Bounced`** was `وثب` ("leapt"); **`Appraisee`** was the appraisal rather
+  than the person appraised; **`Kanban Board`** was `مجلس` (a council).
+- **99 `Is X` checkbox labels** read as questions (`هل مجموعة؟`) or as a copula
+  (`هو مجلد`). Arabic field labels are noun phrases; the interrogative is now
+  stripped unless the msgid itself ends in `?`.
+- Adjective/noun order (`الفعلية تكاليف التشغيل` → `تكاليف التشغيل الفعلية`),
+  number agreement (`5 السجلات` → `5 سجلات`), untranslated abbreviations
+  (`فوترة AMT` → `المبلغ المفوتر`), and a transposed alef/lam (`األسهم`).
+
+**1,148 entries corrected and 225 newly translated** in total. Every rule lives in
 `scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
 so the pass is reviewable as a rule table rather than as a raw PO diff, and
 reproduces byte-identically in a single run from a clean checkout.

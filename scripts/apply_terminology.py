@@ -56,6 +56,19 @@ def strip_bilingual(sid: str, st: str) -> str:
 	return head.rstrip() if head.strip() else st
 
 
+# "Is X" field labels sit next to a checkbox. Arabic renders them as a noun
+# phrase, not as a question - unless the msgid itself is phrased as one.
+IS_LABEL = re.compile(r"^\s*Is [A-Z]")
+INTERROGATIVE = re.compile(r"^\s*(?:هل\s+هو|هل\s+هي|هل|هو|هي)\s+")
+
+
+def label_not_question(sid: str, st: str) -> str:
+	if not IS_LABEL.match(sid) or sid.rstrip().endswith("?"):
+		return st
+	new = INTERROGATIVE.sub("", st.strip())
+	return new.rstrip("؟").rstrip() if new else st
+
+
 def normalise_ws(sid: str, st: str) -> str:
 	"""Collapse defects the msgid does not itself contain."""
 	# leave preformatted / multi-line help text alone, and never touch spacing in
@@ -93,6 +106,8 @@ def fix(app: str, sid: str, st: str) -> str:
 	for guard, pat, repl in GUARDS:
 		if guard.search(sid):
 			new = pat.sub(repl, new)
+
+	new = label_not_question(sid, new)
 
 	# EXACT has the last word: these are hand-written, already correct, and must
 	# not be re-mangled by a later rule.

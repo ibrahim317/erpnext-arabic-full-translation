@@ -162,7 +162,7 @@ msgid ""
 "1 Currency = [?] Fraction\n"
 "For e.g. 1 USD = 100 Cent"
 msgstr ""
-"1 عملة = [؟] كسر\n"
+"1 عملة = [؟] وحدة فرعية\n"
 "على سبيل المثال 1 دولار أمريكي = 100 سنت"
 
 #: frappe/public/js/frappe/form/reminders.js:19
@@ -257,7 +257,7 @@ msgstr "4 ساعات"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:37
 msgid "5 Records"
-msgstr "5 السجلات"
+msgstr "5 سجلات"
 
 #: frappe/tests/test_utils.py:976
 msgid "5 days ago"
@@ -3226,7 +3226,7 @@ msgstr "قواعد الاحالة"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:237
 msgid "Assignment Update on {0}"
-msgstr "تحديث الواجب بتاريخ {0}"
+msgstr "تحديث التكليف بتاريخ {0}"
 
 #: frappe/desk/form/assign_to.py:83
 msgid "Assignment for {0} {1}"
@@ -4135,14 +4135,14 @@ msgstr "نموذج فارغ"
 #. Name of a DocType
 #: frappe/core/doctype/block_module/block_module.json
 msgid "Block Module"
-msgstr "كتلة الوحدة"
+msgstr "حظر الوحدة"
 
 #. Label of the block_modules (Table) field in DocType 'Module Profile'
 #. Label of the block_modules (Table) field in DocType 'User'
 #: frappe/core/doctype/module_profile/module_profile.json
 #: frappe/core/doctype/user/user.json
 msgid "Block Modules"
-msgstr "كتلة وحدات"
+msgstr "حظر الوحدات"
 
 #. Option for the 'Color' (Select) field in DocType 'DocType State'
 #. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
@@ -4204,7 +4204,7 @@ msgstr "أسفل اليمين"
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
 msgid "Bounced"
-msgstr "وثب"
+msgstr "مرتجع"
 
 #. Label of the brand (Section Break) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -15323,21 +15323,21 @@ msgstr "نشط"
 #. Label of the is_attachments_folder (Check) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "Is Attachments Folder"
-msgstr "هو مجلد المرفقات"
+msgstr "مجلد المرفقات"
 
 #. Label of the is_calendar_and_gantt (Check) field in DocType 'DocType'
 #. Label of the is_calendar_and_gantt (Check) field in DocType 'Customize Form'
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Is Calendar and Gantt"
-msgstr "هو تقويم وجانت"
+msgstr "تقويم وجانت"
 
 #. Label of the istable (Check) field in DocType 'DocType'
 #. Label of the is_child_table (Check) field in DocType 'DocType Link'
 #: frappe/core/doctype/doctype/doctype.json frappe/core/doctype/doctype/doctype_list.js:50
 #: frappe/core/doctype/doctype_link/doctype_link.json
 msgid "Is Child Table"
-msgstr "هو الجدول التابع"
+msgstr "جدول فرعي"
 
 #. Label of the is_complete (Check) field in DocType 'Module Onboarding'
 #. Label of the is_complete (Check) field in DocType 'Onboarding Step'
@@ -15354,7 +15354,7 @@ msgstr "قد اكتمل"
 #. Label of the is_current (Check) field in DocType 'User Session Display'
 #: frappe/core/doctype/user_session_display/user_session_display.json
 msgid "Is Current"
-msgstr "هل الحالي؟"
+msgstr "الحالي"
 
 #. Label of the is_custom (Check) field in DocType 'Role'
 #. Label of the is_custom (Check) field in DocType 'User Document Type'
@@ -15366,7 +15366,7 @@ msgstr "مخصص"
 #. Label of the is_custom_field (Check) field in DocType 'Customize Form Field'
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Is Custom Field"
-msgstr "هو حقل مخصص"
+msgstr "حقل مخصص"
 
 #. Label of the is_default (Check) field in DocType 'Address Template'
 #. Label of the is_default (Check) field in DocType 'User Permission'
@@ -15386,15 +15386,15 @@ msgstr "هل هو رابط URL ديناميكي؟"
 #. Label of the is_folder (Check) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "Is Folder"
-msgstr "هو مجلد"
+msgstr "مجلد"
 
 #: frappe/public/js/frappe/list/list_filter.js:113
 msgid "Is Global"
-msgstr "هو عالمي"
+msgstr "عالمي"
 
 #: frappe/public/js/frappe/views/treeview.js:436
 msgid "Is Group"
-msgstr "هل مجموعة؟"
+msgstr "مجموعة"
 
 #. Label of the is_hidden (Check) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -15404,43 +15404,43 @@ msgstr "مخفي"
 #. Label of the is_home_folder (Check) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "Is Home Folder"
-msgstr "هو المجلد الرئيسي"
+msgstr "المجلد الرئيسي"
 
 #. Label of the reqd (Check) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
 msgid "Is Mandatory Field"
-msgstr "هو حقل إلزامي"
+msgstr "حقل إلزامي"
 
 #. Label of the is_optional_state (Check) field in DocType 'Workflow Document
 #. State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Is Optional State"
-msgstr "هو الدولة اختياري"
+msgstr "حالة اختيارية"
 
 #. Label of the is_primary (Check) field in DocType 'Contact Email'
 #: frappe/contacts/doctype/contact_email/contact_email.json
 msgid "Is Primary"
-msgstr "هو الابتدائية"
+msgstr "أساسي"
 
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:43
 msgid "Is Primary Address"
-msgstr "هل العنوان الأساسي؟"
+msgstr "العنوان الأساسي"
 
 #. Label of the is_primary_contact (Check) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:49
 msgid "Is Primary Contact"
-msgstr "هو جهة الاتصال الرئيسية"
+msgstr "جهة الاتصال الرئيسية"
 
 #. Label of the is_primary_mobile_no (Check) field in DocType 'Contact Phone'
 #: frappe/contacts/doctype/contact_phone/contact_phone.json
 msgid "Is Primary Mobile"
-msgstr "هو المحمول الأساسي"
+msgstr "المحمول الأساسي"
 
 #. Label of the is_primary_phone (Check) field in DocType 'Contact Phone'
 #: frappe/contacts/doctype/contact_phone/contact_phone.json
 msgid "Is Primary Phone"
-msgstr "هو الهاتف الأساسي"
+msgstr "الهاتف الأساسي"
 
 #. Label of the is_private (Check) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
@@ -15467,7 +15467,7 @@ msgstr "\"تم نشر\" الحقل يجب أن يكون اسم حقل صالح"
 #: frappe/desk/doctype/workspace_link/workspace_link.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:341
 msgid "Is Query Report"
-msgstr "هو تقرير استعلام"
+msgstr "تقرير استعلام"
 
 #. Label of the is_remote_request (Check) field in DocType 'Integration
 #. Request'
@@ -15496,7 +15496,7 @@ msgstr "تم تخطي"
 #. Label of the is_spam (Check) field in DocType 'Email Rule'
 #: frappe/email/doctype/email_rule/email_rule.json
 msgid "Is Spam"
-msgstr "هو المزعج"
+msgstr "المزعج"
 
 #. Label of the is_standard (Check) field in DocType 'Navbar Item'
 #. Label of the is_standard (Select) field in DocType 'Report'
@@ -15514,7 +15514,7 @@ msgstr "هو المزعج"
 #: frappe/desk/doctype/number_card/number_card.json
 #: frappe/email/doctype/notification/notification.json
 msgid "Is Standard"
-msgstr "هو معيار"
+msgstr "معيار"
 
 #. Label of the is_submittable (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json frappe/core/doctype/doctype/doctype_list.js:40
@@ -15534,17 +15534,17 @@ msgstr "تم إنشاؤه بواسطة النظام"
 #. Label of the istable (Check) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Is Table"
-msgstr "هو الجدول"
+msgstr "الجدول"
 
 #. Label of the is_table_field (Check) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Is Table Field"
-msgstr "هو حقل جدول"
+msgstr "حقل جدول"
 
 #. Label of the is_tree (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Is Tree"
-msgstr "هي شجرة"
+msgstr "شجرة"
 
 #. Label of the is_unique (Data) field in DocType 'Web Page View'
 #: frappe/website/doctype/web_page_view/web_page_view.json
@@ -18500,7 +18500,7 @@ msgstr "ملف جديد"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:390
 msgid "New Kanban Board"
-msgstr "مجلس كانبان جديدة"
+msgstr "لوح كانبان جديد"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:62
 msgid "New Links"
@@ -18827,7 +18827,7 @@ msgstr "ليست هناك جلسات نشطة"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "No Copy"
-msgstr "اي نسخة"
+msgstr "أي نسخة"
 
 #: frappe/core/doctype/data_export/exporter.py:163
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:311
@@ -23766,7 +23766,7 @@ msgstr "كما يكرر \"AAA\" من السهل تخمين"
 
 #: frappe/utils/password_strength.py:105
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr "يكرر مثل \"abcabcabc\" ليست سوى أصعب قليلا لتخمين من \"اي بي سي\""
+msgstr "يكرر مثل \"abcabcabc\" ليست سوى أصعب قليلا لتخمين من \"أي بي سي\""
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:190
 msgid "Repeats {0}"
@@ -24046,7 +24046,7 @@ msgstr "تقارير"
 
 #: frappe/patches/v14_0/update_workspace2.py:50
 msgid "Reports & Masters"
-msgstr "التقارير والماجستير"
+msgstr "التقارير والبيانات الرئيسية"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:982
 msgid "Reports already in Queue"
@@ -24612,7 +24612,7 @@ msgstr "الجذر {0} لا يمكن حذف"
 #. Option for the 'Rule' (Select) field in DocType 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Round Robin"
-msgstr "جولة روبن"
+msgstr "التوزيع بالتناوب"
 
 #. Label of the rounding_method (Select) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -24797,7 +24797,7 @@ msgstr "شغِّل الوظائف فقط يوميًا إذا كان غير نش�
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Run scheduled jobs only if checked"
-msgstr "تشغيل المهام المجدولة الا إذا دققت"
+msgstr "تشغيل المهام المجدولة إلا إذا دققت"
 
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:57
 msgid "Runtime in Minutes"
@@ -27303,7 +27303,7 @@ msgstr "وضع نقل SocketIO"
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
 msgid "Soft-Bounced"
-msgstr "لينة المرتجعة"
+msgstr "ارتداد مؤقت"
 
 #. Label of the software_id (Data) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
@@ -29341,7 +29341,7 @@ msgstr "تم تعطيل هذه العملات. تمكين لاستخدامها �
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:437
 msgid "This Kanban Board will be private"
-msgstr "وهذا المجلس كانبان يكون القطاع الخاص"
+msgstr "سيكون لوح كانبان هذا خاصًا"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:679
 msgid "This Month"
@@ -32170,7 +32170,7 @@ msgstr "تحذير: لا ينصح باستخدام 'format:'."
 
 #: frappe/website/doctype/help_article/templates/help_article.html:24
 msgid "Was this article helpful?"
-msgstr "هل كان المقال مساعدا؟!"
+msgstr "هل كان هذا المقال مفيدًا؟"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:127
 msgid "Watch Tutorial"
@@ -34445,7 +34445,7 @@ msgstr "قصير"
 
 #: frappe/public/js/frappe/widgets/number_card_widget.js:316
 msgid "since last month"
-msgstr "منذ اخر شهر"
+msgstr "منذ آخر شهر"
 
 #: frappe/public/js/frappe/widgets/number_card_widget.js:315
 msgid "since last week"
