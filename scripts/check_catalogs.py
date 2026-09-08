@@ -7,6 +7,8 @@ Checks
    frappe._() output goes straight into str.format()).
 3. No HTML-entity artifacts (&#39; etc.) in msgstr that aren't in msgid.
 4. CSV bundles have no header row and no empty msgid/msgstr.
+5. Every catalog still matches scripts/terminology_fixes.py, so a hand-edit or a
+   fresh upstream import cannot quietly reintroduce a defect the rules cover.
 """
 
 import csv
@@ -80,6 +82,16 @@ def check_csv(path: Path):
 			fail(f"{path}:{i}: extra placeholder(s) {extra} for: {row[0][:80]!r}")
 
 
+def check_terminology():
+	"""Re-run the terminology rules in check mode; they must be a no-op."""
+	script = Path(__file__).parent / "apply_terminology.py"
+	r = subprocess.run(
+		[sys.executable, str(script), "--check"], capture_output=True, text=True
+	)
+	if r.returncode != 0:
+		fail(f"terminology rules not applied\n{r.stdout.strip()}")
+
+
 def main():
 	pos = sorted(ROOT.rglob("*.po"))
 	csvs = sorted(ROOT.rglob("*.csv"))
@@ -88,6 +100,7 @@ def main():
 		check_po(p)
 	for c in csvs:
 		check_csv(c)
+	check_terminology()
 	if failures:
 		print(f"\n{failures} failure(s).")
 		sys.exit(1)

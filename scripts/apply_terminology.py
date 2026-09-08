@@ -10,9 +10,16 @@ never gain a ``{placeholder}`` its msgid lacks, because Frappe feeds ``_()``
 output straight into ``str.format()`` and an invented placeholder is an
 ``IndexError`` in production.
 
+These rules are not a one-off migration. `fill_from_upstream.py` harvests from
+the live upstream Crowdin exports, which are the same machine-translation
+pipeline that produced the defects in the first place, so every new batch of
+upstream strings arrives carrying them again. Running this after any import --
+or after hand-editing a catalog -- is what keeps the glossary true.
+
 Usage:
-    python scripts/apply_terminology.py --dry-run     # report only
-    python scripts/apply_terminology.py               # write catalogs
+    python scripts/apply_terminology.py --dry-run   # report only
+    python scripts/apply_terminology.py --check     # exit 1 if anything would change (CI)
+    python scripts/apply_terminology.py             # write catalogs
 """
 
 import re
@@ -120,7 +127,8 @@ def fix(app: str, sid: str, st: str) -> str:
 
 
 def main() -> None:
-	dry = "--dry-run" in sys.argv
+	check = "--check" in sys.argv
+	dry = check or "--dry-run" in sys.argv
 	total = 0
 	errors = []
 	report = []
@@ -168,6 +176,17 @@ def main() -> None:
 		for e in errors[:20]:
 			print("  ", e)
 		sys.exit(1)
+
+	if check:
+		if total:
+			print(
+				f"\nFAIL: {total} entr{'y does' if total == 1 else 'ies do'} not match "
+				f"the terminology rules.\n"
+				f"Run `python scripts/apply_terminology.py` to correct them, then rebuild."
+			)
+			sys.exit(1)
+		print("\nterminology: all catalogs match the rules.")
+		return
 
 	print(f"\ntotal: {total} entries {'would change' if dry else 'changed'}")
 	if dry:
