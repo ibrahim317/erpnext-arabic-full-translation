@@ -2874,7 +2874,7 @@ msgstr "الكمية الفعلية في المستودع"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:290
 msgid "Actual Qty is mandatory"
-msgstr "الكمية الفعلية هي إلزامية"
+msgstr "الكمية الفعلية إلزامية"
 
 #: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:37
 #: erpnext/stock/dashboard/item_dashboard_list.html:28
@@ -4506,7 +4506,7 @@ msgstr "السماح أو تقييد البعد"
 #. Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow Overtime"
-msgstr "تسمح العمل الإضافي"
+msgstr "السماح بالعمل الإضافي"
 
 #. Label of the allow_partial_payment (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -5234,7 +5234,7 @@ msgstr "المبلغ المؤهل للعمولة"
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Amount In Figure"
-msgstr "المبلغ في الشكل"
+msgstr "المبلغ بالأرقام"
 
 #. Option for the 'Detected Amount Format' (Select) field in DocType 'Bank
 #. Statement Import Log'
@@ -5745,7 +5745,8 @@ msgid ""
 msgstr ""
 "هل تطبّق مبلغ خصم؟ عندما يُنفَّذ أمر البيع هذا جزئيًا عبر عدة إشعارات تسليم وفواتير "
 "مبيعات، يُوزَّع مبلغ الخصم على أساس الوارد أولًا يُصرف أولًا. تحصل المعاملات الأسبق "
-"على حصة أكبر من الخصم."
+"على حصة أكبر من الخصم. لتوزيع الخصم بالتناسب على أسعار الأصناف، استخدم \"نسبة الخصم "
+"الإضافي\" بدلًا من ذلك."
 
 #. Name of a DocType
 #. Label of a Workspace Sidebar Item
@@ -6295,7 +6296,7 @@ msgstr "مالك الأصول"
 #. Label of the asset_owner_company (Link) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Asset Owner Company"
-msgstr "شركة أسيت أونر"
+msgstr "الشركة المالكة للأصل"
 
 #. Label of the asset_quantity (Int) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -7088,14 +7089,14 @@ msgstr "المخزون المتاح / المستقبلي"
 #. Label of the actual_batch_qty (Float) field in DocType 'Delivery Note Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Available Batch Qty at From Warehouse"
-msgstr "متوفر (كمية باتش) عند (من المخزن)"
+msgstr "كمية الدفعة المتاحة في مستودع المصدر"
 
 #. Label of the actual_batch_qty (Float) field in DocType 'POS Invoice Item'
 #. Label of the actual_batch_qty (Float) field in DocType 'Sales Invoice Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 msgid "Available Batch Qty at Warehouse"
-msgstr "الكمية المتاحة من الباتش فى المخزن"
+msgstr "كمية الدفعة المتاحة في المستودع"
 
 #. Name of a report
 #: erpnext/stock/report/available_batch_report/available_batch_report.json
@@ -8767,7 +8768,7 @@ msgstr "الأصناف المفوترة التي سيتم استلامها"
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:276
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Billed Qty"
-msgstr "الفواتير الكمية"
+msgstr "الكمية المفوترة"
 
 #. Label of the section_break_56 (Section Break) field in DocType 'Purchase
 #. Order Item'
@@ -8890,7 +8891,7 @@ msgstr "فواتير الفوترة"
 #. Plan'
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
 msgid "Billing Interval Count"
-msgstr "عدد الفواتير الفوترة"
+msgstr "عدد فترات الفوترة"
 
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.py:41
 msgid "Billing Interval Count cannot be less than 1"
@@ -8912,7 +8913,7 @@ msgstr "سعر الفوترة"
 #. Label of the billing_state (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Billing State"
-msgstr "الدولة الفواتير"
+msgstr "ولاية الفوترة"
 
 #. Label of the billing_status (Select) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -9835,7 +9836,7 @@ msgstr "سجل المكالمات"
 
 #: erpnext/public/js/call_popup/call_popup.js:45
 msgid "Call Missed"
-msgstr "دعوة غاب"
+msgstr "مكالمة فائتة"
 
 #. Label of the call_received_by (Link) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
@@ -9931,7 +9932,7 @@ msgstr "اسم الحملة"
 #. Label of the campaign_naming_by (Select) field in DocType 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Campaign Naming By"
-msgstr "حملة التسمية بواسطة"
+msgstr "تسمية الحملة بواسطة"
 
 #. Label of the campaign_schedules_section (Section Break) field in DocType
 #. 'Campaign'
@@ -10041,7 +10042,7 @@ msgstr "تعذر تعيين أمين صندوق"
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:92
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:219
 msgid "Cannot Calculate Arrival Time as Driver Address is Missing."
-msgstr "لا يمكن حساب وقت الوصول حيث أن عنوان برنامج التشغيل مفقود."
+msgstr "لا يمكن حساب وقت الوصول لأن عنوان السائق مفقود."
 
 #: erpnext/setup/doctype/company/company.py:229
 msgid "Cannot Change Inventory Account Setting"
@@ -10058,7 +10059,7 @@ msgstr "لا يمكن الدمج"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:125
 msgid "Cannot Optimize Route as Driver Address is Missing."
-msgstr "لا يمكن تحسين المسار لأن عنوان برنامج التشغيل مفقود."
+msgstr "لا يمكن تحسين المسار لأن عنوان السائق مفقود."
 
 #: erpnext/setup/doctype/employee/employee.py:292
 msgid "Cannot Relieve Employee"
@@ -10325,8 +10326,8 @@ msgid ""
 "Cannot ensure delivery by Serial No as Item {0} is added with and without Ensure "
 "Delivery by Serial No."
 msgstr ""
-"لا يمكن ضمان التسليم بواسطة Serial No حيث أن العنصر {0} مضاف مع وبدون ضمان التسليم "
-"بواسطة Serial No."
+"لا يمكن ضمان التسليم بالرقم التسلسلي لأن الصنف {0} مضاف مع خيار ضمان التسليم بالرقم "
+"التسلسلي وبدونه."
 
 #: erpnext/accounts/doctype/payment_request/payment_request.js:114
 msgid "Cannot fetch selected rows for submitted Payment Request"
@@ -15708,7 +15709,7 @@ msgstr "عميل أو بند"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.py:95
 msgid "Customer required for 'Customerwise Discount'"
-msgstr "الزبون مطلوب للخصم المعني بالزبائن"
+msgstr "الزبون مطلوب للخصم حسب العميل"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1196
 #: erpnext/selling/doctype/sales_order/sales_order.py:438
@@ -15795,7 +15796,7 @@ msgstr "العملاء لم يتم اختيارهم."
 #. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Customerwise Discount"
-msgstr "التخفيض من ناحية الزبائن"
+msgstr "التخفيض حسب العميل"
 
 #. Name of a DocType
 #. Label of the customs_tariff_number (Link) field in DocType 'Item'
@@ -28805,7 +28806,7 @@ msgstr "الاستهلاك حسب الصنف"
 #. Name of a DocType
 #: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
 msgid "Item Wise Tax Detail"
-msgstr "تفصيل ضريبة وفقاً للصنف"
+msgstr "تفصيل ضريبة حسب الصنف"
 
 #. Label of the item_wise_tax_details (Table) field in DocType 'POS Invoice'
 #. Label of the item_wise_tax_details (Table) field in DocType 'Purchase
@@ -29059,7 +29060,7 @@ msgstr "الصنف {} غير موجود."
 #. Name of a report
 #: erpnext/stock/report/item_wise_price_list_rate/item_wise_price_list_rate.json
 msgid "Item-wise Price List Rate"
-msgstr "معدل قائمة الأسعار وفقاً للصنف"
+msgstr "معدل قائمة الأسعار حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Buying Workspace
@@ -29067,14 +29068,14 @@ msgstr "معدل قائمة الأسعار وفقاً للصنف"
 #: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.json
 #: erpnext/buying/workspace/buying/buying.json erpnext/workspace_sidebar/buying.json
 msgid "Item-wise Purchase History"
-msgstr "الحركة التاريخية للمشتريات وفقاً للصنف"
+msgstr "الحركة التاريخية للمشتريات حسب الصنف"
 
 #. Name of a report
 #. Label of a Workspace Sidebar Item
 #: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Item-wise Purchase Register"
-msgstr "سجل حركة المشتريات وفقاً للصنف"
+msgstr "سجل حركة المشتريات حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -29082,14 +29083,14 @@ msgstr "سجل حركة المشتريات وفقاً للصنف"
 #: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.json
 #: erpnext/selling/workspace/selling/selling.json erpnext/workspace_sidebar/selling.json
 msgid "Item-wise Sales History"
-msgstr "الحركة التاريخية للمبيعات وفقاً للصنف"
+msgstr "الحركة التاريخية للمبيعات حسب الصنف"
 
 #. Name of a report
 #. Label of a Workspace Sidebar Item
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.json
 #: erpnext/workspace_sidebar/selling.json
 msgid "Item-wise Sales Register"
-msgstr "سجل حركة مبيعات وفقاً للصنف"
+msgstr "سجل حركة مبيعات حسب الصنف"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/financial_reports.json
@@ -29204,7 +29205,7 @@ msgstr "الأصناف {0} غير موجودة في بيانات الصنف ال
 #. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Itemwise Discount"
-msgstr "التخفيض وفقاً للصنف"
+msgstr "التخفيض حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -29212,7 +29213,7 @@ msgstr "التخفيض وفقاً للصنف"
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.json
 #: erpnext/stock/workspace/stock/stock.json erpnext/workspace_sidebar/stock.json
 msgid "Itemwise Recommended Reorder Level"
-msgstr "مستوى إعادة ترتيب يوصى به وفقاً للصنف"
+msgstr "مستوى إعادة ترتيب يوصى به حسب الصنف"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -64421,7 +64422,7 @@ msgstr "ساعات"
 #: erpnext/setup/doctype/territory/territory.json
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "lft"
-msgstr "LFT"
+msgstr "lft"
 
 #. Label of the material_request_item (Data) field in DocType 'Production Plan
 #. Item'
@@ -64536,7 +64537,7 @@ msgstr "تم إرجاعه"
 #: erpnext/setup/doctype/territory/territory.json
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "rgt"
-msgstr "RGT"
+msgstr "rgt"
 
 #. Option for the 'Plaid Environment' (Select) field in DocType 'Plaid
 #. Settings'

@@ -297,7 +297,7 @@ msgstr "&copy; شركة Frappe Technologies المحدودة والمساهمو�
 
 #. source: frappe
 msgid "&lt;head&gt; HTML"
-msgstr "HTML"
+msgstr "HTML في &lt;head&gt;"
 
 #. source: frappe
 msgid "'*' is only allowed in {0} SQL function(s)"
@@ -3387,7 +3387,7 @@ msgstr "إعداد الحسابات"
 
 #. source: frappe
 msgid "Accounts User"
-msgstr "حسابات المستخدمين"
+msgstr "مستخدم الحسابات"
 
 #. source: erpnext
 msgid "Accounts cannot be removed, as user doesn't have access to all the accounts of {0}"
@@ -3813,7 +3813,7 @@ msgstr "الكمية الفعلية في المستودع"
 
 #. source: erpnext
 msgid "Actual Qty is mandatory"
-msgstr "الكمية الفعلية هي إلزامية"
+msgstr "الكمية الفعلية إلزامية"
 
 #. source: erpnext
 msgid "Actual Qty {0} / Waiting Qty {1}"
@@ -3966,7 +3966,7 @@ msgstr "إضافة العملاء"
 
 #. source: hrms
 msgid "Add Day-wise Dates"
-msgstr "أضف تواريخ نهارية"
+msgstr "إضافة تواريخ حسب اليوم"
 
 #. source: erpnext
 msgid "Add Discount"
@@ -5616,7 +5616,7 @@ msgstr "السماح بوصول جهات اتصال Google"
 
 #. source: frappe
 msgid "Allow Google Drive Access"
-msgstr "تسمح جوجل محرك الوصول"
+msgstr "السماح بالوصول إلى Google Drive"
 
 #. source: frappe
 msgid "Allow Guest"
@@ -5740,11 +5740,11 @@ msgstr "السماح أو تقييد البعد"
 
 #. source: hrms
 msgid "Allow Over Allocation"
-msgstr "السماح على التخصيص"
+msgstr "السماح بالتخصيص الزائد"
 
 #. source: erpnext
 msgid "Allow Overtime"
-msgstr "تسمح العمل الإضافي"
+msgstr "السماح بالعمل الإضافي"
 
 #. source: erpnext
 msgid "Allow Partial Payment"
@@ -5876,7 +5876,7 @@ msgstr "السماح بوحدة قياس بمعامل تحويل محدد في �
 
 #. source: hrms
 msgid "Allow User"
-msgstr "تسمح للمستخدم"
+msgstr "السماح للمستخدم"
 
 #. source: erpnext
 msgid "Allow User to Edit Discount"
@@ -6122,11 +6122,11 @@ msgstr "السماح بنقل المواد الخام حتى بعد استيفا
 
 #. source: frappe
 msgid "Allow user to login only after this hour (0-24)"
-msgstr "تسمح للمستخدم لتسجيل الدخول فقط بعد هذه الساعة (0-24)"
+msgstr "السماح للمستخدم بتسجيل الدخول بعد هذه الساعة فقط (0-24)"
 
 #. source: frappe
 msgid "Allow user to login only before this hour (0-24)"
-msgstr "تسمح للمستخدم لتسجيل الدخول فقط قبل هذه الساعة (0-24)"
+msgstr "السماح للمستخدم بتسجيل الدخول قبل هذه الساعة فقط (0-24)"
 
 #. source: frappe
 msgid "Allow users to log in without a password, using a login link sent to their email"
@@ -6160,7 +6160,7 @@ msgstr "امتدادات الملفات المسموح بها"
 
 #. source: frappe
 msgid "Allowed In Mentions"
-msgstr "سمح في المذكرات"
+msgstr "مسموح به في الإشارات"
 
 #. source: erpnext
 msgid "Allowed Items"
@@ -6540,7 +6540,7 @@ msgstr "المبلغ المؤهل للعمولة"
 
 #. source: erpnext
 msgid "Amount In Figure"
-msgstr "المبلغ في الشكل"
+msgstr "المبلغ بالأرقام"
 
 #. source: hrms
 msgid "Amount based on formula"
@@ -7333,7 +7333,8 @@ msgid ""
 msgstr ""
 "هل تطبّق مبلغ خصم؟ عندما يُنفَّذ أمر البيع هذا جزئيًا عبر عدة إشعارات تسليم وفواتير "
 "مبيعات، يُوزَّع مبلغ الخصم على أساس الوارد أولًا يُصرف أولًا. تحصل المعاملات الأسبق "
-"على حصة أكبر من الخصم."
+"على حصة أكبر من الخصم. لتوزيع الخصم بالتناسب على أسعار الأصناف، استخدم \"نسبة الخصم "
+"الإضافي\" بدلًا من ذلك."
 
 #. source: frappe
 msgid "Applying: {0}"
@@ -8052,7 +8053,7 @@ msgstr "مالك الأصول"
 
 #. source: erpnext
 msgid "Asset Owner Company"
-msgstr "شركة أسيت أونر"
+msgstr "الشركة المالكة للأصل"
 
 #. source: erpnext
 msgid "Asset Quantity"
@@ -8859,7 +8860,7 @@ msgstr "سيتم تمييز الحضور تلقائيًا بعد هذا التا
 
 #. source: hrms
 msgid "AttendanceRequestListView"
-msgstr "attencereQuestListView"
+msgstr "قائمة عرض طلبات الحضور"
 
 #. source: frappe
 msgid "Attendee not found in this event."
@@ -9455,11 +9456,11 @@ msgstr "المخزون المتاح / المستقبلي"
 
 #. source: erpnext
 msgid "Available Batch Qty at From Warehouse"
-msgstr "متوفر (كمية باتش) عند (من المخزن)"
+msgstr "كمية الدفعة المتاحة في مستودع المصدر"
 
 #. source: erpnext
 msgid "Available Batch Qty at Warehouse"
-msgstr "الكمية المتاحة من الباتش فى المخزن"
+msgstr "كمية الدفعة المتاحة في المستودع"
 
 #. source: erpnext
 msgid "Available Batch Report"
@@ -9615,7 +9616,7 @@ msgstr "متوسط الصادرات اليومية"
 
 #. source: hrms
 msgid "Avg Feedback Score"
-msgstr "درجة التغذية المرتدة AVG"
+msgstr "متوسط درجة التقييم"
 
 #. source: erpnext
 msgid "Avg Rate"
@@ -9627,11 +9628,11 @@ msgstr "متوسط السعر (رصيد المخزون)"
 
 #. source: hrms
 msgid "Avg Utilization"
-msgstr "استخدام AVG"
+msgstr "متوسط الاستخدام"
 
 #. source: hrms
 msgid "Avg Utilization (Billed Only)"
-msgstr "استخدام AVG (فواتير فقط)"
+msgstr "متوسط الاستخدام (المفوتر فقط)"
 
 #. source: erpnext
 msgid "Avg. Buying Price List Rate"
@@ -11032,7 +11033,7 @@ msgstr "الأصناف المفوترة التي سيتم استلامها"
 
 #. source: erpnext
 msgid "Billed Qty"
-msgstr "الفواتير الكمية"
+msgstr "الكمية المفوترة"
 
 #. source: erpnext
 msgid "Billed, Received & Returned"
@@ -11104,7 +11105,7 @@ msgstr "فواتير الفوترة"
 
 #. source: erpnext
 msgid "Billing Interval Count"
-msgstr "عدد الفواتير الفوترة"
+msgstr "عدد فترات الفوترة"
 
 #. source: erpnext
 msgid "Billing Interval Count cannot be less than 1"
@@ -11120,7 +11121,7 @@ msgstr "سعر الفوترة"
 
 #. source: erpnext
 msgid "Billing State"
-msgstr "الدولة الفواتير"
+msgstr "ولاية الفوترة"
 
 #. source: erpnext
 msgid "Billing Status"
@@ -11501,7 +11502,7 @@ msgstr "على حد سواء"
 
 #. source: frappe
 msgid "Both DocType and Name required"
-msgstr "كلا DOCTYPE واسم المطلوبة"
+msgstr "نوع المستند والاسم كلاهما مطلوبان"
 
 #. source: erpnext
 msgid ""
@@ -12041,11 +12042,11 @@ msgstr "تجاوز الحد الائتماني في طلب المبيعات"
 
 #. source: frappe
 msgid "Bypass Restricted IP Address Check If Two Factor Auth Enabled"
-msgstr "تحقق من تجاوز عنوان IP المقيد إذا تم تمكين مصادقة عاملين"
+msgstr "تجاوز فحص تقييد عنوان IP إذا تم تفعيل المصادقة الثنائية"
 
 #. source: frappe
 msgid "Bypass Two Factor Auth for users who login from restricted IP Address"
-msgstr "تجاوز اثنين عامل عامل للمستخدمين الذين تسجيل الدخول من عنوان إب مقيدة"
+msgstr "تجاوز المصادقة الثنائية للمستخدمين الذين يسجلون الدخول من عنوان IP مقيد"
 
 #. source: erpnext
 msgid "Bypass credit check at Sales Order"
@@ -12310,7 +12311,7 @@ msgstr "سجل المكالمات"
 
 #. source: erpnext
 msgid "Call Missed"
-msgstr "دعوة غاب"
+msgstr "مكالمة فائتة"
 
 #. source: erpnext
 msgid "Call Received By"
@@ -12418,7 +12419,7 @@ msgstr "اسم الحملة"
 
 #. source: erpnext
 msgid "Campaign Naming By"
-msgstr "حملة التسمية بواسطة"
+msgstr "تسمية الحملة بواسطة"
 
 #. source: erpnext
 msgid "Campaign Schedules"
@@ -12618,7 +12619,7 @@ msgstr "تعذر تعيين أمين صندوق"
 
 #. source: erpnext
 msgid "Cannot Calculate Arrival Time as Driver Address is Missing."
-msgstr "لا يمكن حساب وقت الوصول حيث أن عنوان برنامج التشغيل مفقود."
+msgstr "لا يمكن حساب وقت الوصول لأن عنوان السائق مفقود."
 
 #. source: erpnext
 msgid "Cannot Change Inventory Account Setting"
@@ -12646,7 +12647,7 @@ msgstr "لا يمكن تعديل الوقت"
 
 #. source: erpnext
 msgid "Cannot Optimize Route as Driver Address is Missing."
-msgstr "لا يمكن تحسين المسار لأن عنوان برنامج التشغيل مفقود."
+msgstr "لا يمكن تحسين المسار لأن عنوان السائق مفقود."
 
 #. source: erpnext
 msgid "Cannot Relieve Employee"
@@ -13118,8 +13119,8 @@ msgid ""
 "Cannot ensure delivery by Serial No as Item {0} is added with and without Ensure "
 "Delivery by Serial No."
 msgstr ""
-"لا يمكن ضمان التسليم بواسطة Serial No حيث أن العنصر {0} مضاف مع وبدون ضمان التسليم "
-"بواسطة Serial No."
+"لا يمكن ضمان التسليم بالرقم التسلسلي لأن الصنف {0} مضاف مع خيار ضمان التسليم بالرقم "
+"التسلسلي وبدونه."
 
 #. source: erpnext
 msgid "Cannot fetch selected rows for submitted Payment Request"
@@ -18533,7 +18534,7 @@ msgstr "عميل أو بند"
 
 #. source: erpnext
 msgid "Customer required for 'Customerwise Discount'"
-msgstr "الزبون مطلوب للخصم المعني بالزبائن"
+msgstr "الزبون مطلوب للخصم حسب العميل"
 
 #. source: erpnext
 msgid "Customer {0} does not belong to project {1}"
@@ -18585,7 +18586,7 @@ msgstr "العملاء لم يتم اختيارهم."
 
 #. source: erpnext
 msgid "Customerwise Discount"
-msgstr "التخفيض من ناحية الزبائن"
+msgstr "التخفيض حسب العميل"
 
 #. source: frappe
 msgid "Customization"
@@ -21804,7 +21805,7 @@ msgstr "بحث المستندات"
 
 #. source: frappe
 msgid "Doctype"
-msgstr "DOCTYPE"
+msgstr "نوع المستند"
 
 #. source: frappe
 msgid "Doctype To Sync"
@@ -31670,7 +31671,7 @@ msgstr "خامل"
 
 #. source: frappe
 msgid "Idx"
-msgstr "IDX"
+msgstr "الترتيب"
 
 #. source: erpnext
 msgid ""
@@ -36616,7 +36617,7 @@ msgstr "الاستهلاك حسب الصنف"
 
 #. source: erpnext
 msgid "Item Wise Tax Detail"
-msgstr "تفصيل ضريبة وفقاً للصنف"
+msgstr "تفصيل ضريبة حسب الصنف"
 
 #. source: erpnext
 msgid "Item Wise Tax Details"
@@ -36844,23 +36845,23 @@ msgstr "الصنف {} غير موجود."
 
 #. source: erpnext
 msgid "Item-wise Price List Rate"
-msgstr "معدل قائمة الأسعار وفقاً للصنف"
+msgstr "معدل قائمة الأسعار حسب الصنف"
 
 #. source: erpnext
 msgid "Item-wise Purchase History"
-msgstr "الحركة التاريخية للمشتريات وفقاً للصنف"
+msgstr "الحركة التاريخية للمشتريات حسب الصنف"
 
 #. source: erpnext
 msgid "Item-wise Purchase Register"
-msgstr "سجل حركة المشتريات وفقاً للصنف"
+msgstr "سجل حركة المشتريات حسب الصنف"
 
 #. source: erpnext
 msgid "Item-wise Sales History"
-msgstr "الحركة التاريخية للمبيعات وفقاً للصنف"
+msgstr "الحركة التاريخية للمبيعات حسب الصنف"
 
 #. source: erpnext
 msgid "Item-wise Sales Register"
-msgstr "سجل حركة مبيعات وفقاً للصنف"
+msgstr "سجل حركة مبيعات حسب الصنف"
 
 #. source: erpnext
 msgid "Item-wise sales Register"
@@ -36960,11 +36961,11 @@ msgstr "الأصناف {0} غير موجودة في بيانات الصنف ال
 
 #. source: erpnext
 msgid "Itemwise Discount"
-msgstr "التخفيض وفقاً للصنف"
+msgstr "التخفيض حسب الصنف"
 
 #. source: erpnext
 msgid "Itemwise Recommended Reorder Level"
-msgstr "مستوى إعادة ترتيب يوصى به وفقاً للصنف"
+msgstr "مستوى إعادة ترتيب يوصى به حسب الصنف"
 
 #. source: erpnext
 msgid "JAN"
@@ -42230,7 +42231,7 @@ msgstr "مساحات العمل الخاصة بي"
 
 #. source: frappe
 msgid "MyISAM"
-msgstr "MYISAM"
+msgstr "MyISAM"
 
 #. source: erpnext
 msgid "N/A"
@@ -60714,7 +60715,7 @@ msgid ""
 "Salary already processed for period between {0} and {1}, Leave application period "
 "cannot be between this date range."
 msgstr ""
-"تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب اﻹجازة بين "
+"تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب الإجازة بين "
 "نطاق هذا التاريخ."
 
 #. source: hrms
@@ -66526,7 +66527,7 @@ msgstr "لا يمكن أن يكون وقت البدء ووقت الانتهاء 
 
 #. source: frappe
 msgid "StartTLS"
-msgstr "STARTTLS"
+msgstr "StartTLS"
 
 #. source: frappe
 msgid "Started"
@@ -69910,7 +69911,7 @@ msgstr "يوم الشهر الذي يجب فيه تخصيص الإجازات"
 msgid ""
 "The day(s) on which you are applying for leave are holidays. You need not apply for "
 "leave."
-msgstr "فترة طلب اﻹجازة تقع في فترة عطلة رسمية، يجب اختيار فترة أخرى."
+msgstr "الأيام التي تطلب فيها إجازة هي أيام عطلة. لا حاجة لتقديم طلب إجازة."
 
 #. source: hrms
 msgid "The days between {0} to {1} are not valid holidays."
@@ -77850,7 +77851,7 @@ msgstr "تحذير: رصيد الإجازات غير كافٍ لنوع الإج�
 
 #. source: hrms
 msgid "Warning: Leave application contains following block dates"
-msgstr "تحذير: طلب اﻹجازة يحتوي على الأيام التالية الّتي يمنع فيها اﻹجازة"
+msgstr "تحذير: طلب الإجازة يحتوي على الأيام التالية الّتي يمنع فيها الإجازة"
 
 #. source: erpnext
 msgid "Warning: Material Requested Qty is less than Minimum Order Qty"
@@ -81059,7 +81060,7 @@ msgstr "تسمية"
 
 #. source: erpnext
 msgid "lft"
-msgstr "LFT"
+msgstr "lft"
 
 #. source: frappe
 msgid "light-blue"
@@ -81360,7 +81361,7 @@ msgstr "التعليقات"
 
 #. source: erpnext
 msgid "rgt"
-msgstr "RGT"
+msgstr "rgt"
 
 #. source: frappe
 msgid "row"

@@ -65,7 +65,7 @@ msgstr "&copy; شركة Frappe Technologies المحدودة والمساهمو�
 #. Label of a Code field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "&lt;head&gt; HTML"
-msgstr "HTML"
+msgstr "HTML في &lt;head&gt;"
 
 #: frappe/public/js/form_builder/store.js:206
 msgid "'In Global Search' is not allowed for field {0} of type {1}"
@@ -1214,7 +1214,7 @@ msgstr "مدير حسابات"
 #: frappe/contacts/doctype/address/address.json
 #: frappe/contacts/doctype/contact/contact.json frappe/geo/doctype/currency/currency.json
 msgid "Accounts User"
-msgstr "حسابات المستخدمين"
+msgstr "مستخدم الحسابات"
 
 #: frappe/public/js/frappe/form/dashboard.js:510
 msgid "Accurate count can not be fetched, click here to view all documents"
@@ -2052,7 +2052,7 @@ msgstr "السماح بوصول جهات اتصال Google"
 
 #: frappe/integrations/doctype/google_drive/google_drive.py:52
 msgid "Allow Google Drive Access"
-msgstr "تسمح جوجل محرك الوصول"
+msgstr "السماح بالوصول إلى Google Drive"
 
 #. Label of a Check field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -2235,12 +2235,12 @@ msgstr "السماح بإرسال بيانات الاستخدام لتحسين �
 #. Description of the 'Login After' (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Allow user to login only after this hour (0-24)"
-msgstr "تسمح للمستخدم لتسجيل الدخول فقط بعد هذه الساعة (0-24)"
+msgstr "السماح للمستخدم بتسجيل الدخول بعد هذه الساعة فقط (0-24)"
 
 #. Description of the 'Login Before' (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Allow user to login only before this hour (0-24)"
-msgstr "تسمح للمستخدم لتسجيل الدخول فقط قبل هذه الساعة (0-24)"
+msgstr "السماح للمستخدم بتسجيل الدخول قبل هذه الساعة فقط (0-24)"
 
 #. Description of the 'Login with email link' (Check) field in DocType 'System
 #. Settings'
@@ -2268,7 +2268,7 @@ msgstr "امتدادات الملفات المسموح بها"
 #. Label of a Check field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Allowed In Mentions"
-msgstr "سمح في المذكرات"
+msgstr "مسموح به في الإشارات"
 
 #. Label of a Section Break field in DocType 'User Type'
 #: frappe/core/doctype/user_type/user_type.json
@@ -4063,7 +4063,7 @@ msgstr "آلي"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:128
 msgid "Both DocType and Name required"
-msgstr "كلا DOCTYPE واسم المطلوبة"
+msgstr "نوع المستند والاسم كلاهما مطلوبان"
 
 #: frappe/templates/includes/login/login.js:25 frappe/templates/includes/login/login.js:97
 msgid "Both login and password required"
@@ -4313,12 +4313,12 @@ msgstr "حسب البرنامج النصي"
 #. Label of a Check field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Bypass Restricted IP Address Check If Two Factor Auth Enabled"
-msgstr "تحقق من تجاوز عنوان IP المقيد إذا تم تمكين مصادقة عاملين"
+msgstr "تجاوز فحص تقييد عنوان IP إذا تم تفعيل المصادقة الثنائية"
 
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Bypass Two Factor Auth for users who login from restricted IP Address"
-msgstr "تجاوز اثنين عامل عامل للمستخدمين الذين تسجيل الدخول من عنوان إب مقيدة"
+msgstr "تجاوز المصادقة الثنائية للمستخدمين الذين يسجلون الدخول من عنوان IP مقيد"
 
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -8344,7 +8344,7 @@ msgstr ""
 #: frappe/email/doctype/document_follow/document_follow.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:663
 msgid "Doctype"
-msgstr "DOCTYPE"
+msgstr "نوع المستند"
 
 #. Name of a DocType
 #. Label of a Table field in DocType 'Report'
@@ -13145,7 +13145,7 @@ msgstr "تفاصيل الهوية"
 #. Label of a Int field in DocType 'Desktop Icon'
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
 msgid "Idx"
-msgstr "IDX"
+msgstr "الترتيب"
 
 #. Description of the 'Apply Strict User Permissions' (Check) field in DocType
 #. 'System Settings'
@@ -17422,7 +17422,7 @@ msgstr ""
 #. Option for the 'Database Engine' (Select) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "MyISAM"
-msgstr "MYISAM"
+msgstr "MyISAM"
 
 #: frappe/public/js/frappe/widgets/number_card_widget.js:226
 msgctxt "Number not available"
@@ -26421,7 +26421,7 @@ msgstr "بدء تنسيق جديد"
 #. Option for the 'SSL/TLS Mode' (Select) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "StartTLS"
-msgstr "STARTTLS"
+msgstr "StartTLS"
 
 #. Option for the 'Status' (Select) field in DocType 'Prepared Report'
 #: frappe/core/doctype/prepared_report/prepared_report.json

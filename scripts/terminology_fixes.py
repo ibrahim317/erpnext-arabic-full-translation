@@ -89,6 +89,14 @@ GLOSSARY = [
 	(r"\bVoucher\b",         r"القسيمة",               "السند"),
 	(r"\bVoucher\b",         r"قسيمة",                 "سند"),
 
+	# -- Driver is the person, not a device driver ---------------------------
+	(r"\bDriver\b",          r"برنامج التشغيل",        "السائق"),
+
+	# -- "-wise" phrasings unified on حسب ------------------------------------
+	(r"wise",                 r"وفقاً للصنف",           "حسب الصنف"),
+	(r"wise",                 r"من ناحية الزبائن",      "حسب العميل"),
+	(r"wise",                 r"المعني بالزبائن",       "حسب العميل"),
+
 	# -- Dashboard unified on لوحة المعلومات ---------------------------------
 	(r"\bDashboard\b",       r"لوحة القيادة",          "لوحة المعلومات"),
 
@@ -157,6 +165,25 @@ EXACT = {
 		"To and CC": "إلى ونسخة",
 		# miscellaneous
 		"Alert": "تنبيه",
+		"Accounts User": "مستخدم الحسابات",       # role name; was reversed genitive
+		"Allowed In Mentions": "مسموح به في الإشارات",   # @-mentions, not memos
+		"Both DocType and Name required": "نوع المستند والاسم كلاهما مطلوبان",
+		"Doctype": "نوع المستند",
+		"Idx": "الترتيب",
+		"&lt;head&gt; HTML": "HTML في &lt;head&gt;",
+		# these are case-sensitive technical values - uppercasing them broke them
+		"MyISAM": "MyISAM",
+		"StartTLS": "StartTLS",
+		# "Allow X" labels take the masdar, not a conjugated verb
+		"Allow Google Drive Access": "السماح بالوصول إلى Google Drive",
+		"Allow user to login only after this hour (0-24)":
+			"السماح للمستخدم بتسجيل الدخول بعد هذه الساعة فقط (0-24)",
+		"Allow user to login only before this hour (0-24)":
+			"السماح للمستخدم بتسجيل الدخول قبل هذه الساعة فقط (0-24)",
+		"Bypass Two Factor Auth for users who login from restricted IP Address":
+			"تجاوز المصادقة الثنائية للمستخدمين الذين يسجلون الدخول من عنوان IP مقيد",
+		"Bypass Restricted IP Address Check If Two Factor Auth Enabled":
+			"تجاوز فحص تقييد عنوان IP إذا تم تفعيل المصادقة الثنائية",
 		"About Us": "من نحن",
 		"ALL": "الكل",
 		"All Day": "طوال اليوم",
@@ -379,6 +406,35 @@ EXACT = {
 
 		# banking / accounting terms of art
 		# Term here is a contract condition (شرط), not a vocabulary term
+		"Call Missed": "مكالمة فائتة",            # a phone call, not an invitation
+		"Amount In Figure": "المبلغ بالأرقام",
+		"Asset Owner Company": "الشركة المالكة للأصل",   # was transliterated 'أسيت أونر'
+		"Available Batch Qty at From Warehouse": "كمية الدفعة المتاحة في مستودع المصدر",
+		"Available Batch Qty at Warehouse": "كمية الدفعة المتاحة في المستودع",
+		"Billed Qty": "الكمية المفوترة",
+		"Billing Interval Count": "عدد فترات الفوترة",
+		"Billing State": "ولاية الفوترة",
+		"Campaign Naming By": "تسمية الحملة بواسطة",
+		"Actual Qty is mandatory": "الكمية الفعلية إلزامية",
+		"Allow Overtime": "السماح بالعمل الإضافي",
+		"Academics User": "مستخدم الأكاديميات",
+		"lft": "lft",
+		"rgt": "rgt",
+		"Cannot Calculate Arrival Time as Driver Address is Missing.":
+			"لا يمكن حساب وقت الوصول لأن عنوان السائق مفقود.",
+		"Cannot Optimize Route as Driver Address is Missing.":
+			"لا يمكن تحسين المسار لأن عنوان السائق مفقود.",
+		"Cannot ensure delivery by Serial No as Item {0} is added with and without Ensure Delivery by Serial No.":
+			"لا يمكن ضمان التسليم بالرقم التسلسلي لأن الصنف {0} مضاف مع خيار ضمان التسليم بالرقم التسلسلي وبدونه.",
+		# msgstr said "BOM creation" and dropped the second sentence
+		"Opening stock creation has been queued and will be created in the background. Please check the stock entry after some time.":
+			"تم وضع إنشاء المخزون الافتتاحي في قائمة الانتظار وسيُنشأ في الخلفية. يرجى التحقق من قيد المخزون بعد قليل.",
+		# the final sentence was missing from the translation
+		"Applying a Discount Amount? When this Sales Order is partially fulfilled through multiple Delivery Notes and Sales Invoices, the Discount Amount is allocated on a FIFO basis. The earlier transactions receive a larger share of the discount. To spread the discount proportionally across item prices, use Additional Discount Percentage instead.":
+			"هل تطبّق مبلغ خصم؟ عندما يُنفَّذ أمر البيع هذا جزئيًا عبر عدة إشعارات تسليم وفواتير مبيعات، "
+			"يُوزَّع مبلغ الخصم على أساس الوارد أولًا يُصرف أولًا. تحصل المعاملات الأسبق على حصة أكبر من "
+			"الخصم. لتوزيع الخصم بالتناسب على أسعار الأصناف، استخدم \"نسبة الخصم الإضافي\" بدلًا من ذلك.",
+
 		"Accepted Qty": "الكمية المقبولة",       # was 'المطلوبة' (requested)
 		"Accepted Quantity": "الكمية المقبولة",
 		"Accepted Warehouse": "مستودع القبول",
@@ -510,6 +566,15 @@ EXACT = {
 		"User": "المستخدم",
 		"Action": "إجراء",
 		"Action on Submission": "الإجراء عند الترحيل",
+		"Add Day-wise Dates": "إضافة تواريخ حسب اليوم",   # day-wise, not "daytime"
+		"Allow Over Allocation": "السماح بالتخصيص الزائد",
+		"Allow User": "السماح للمستخدم",
+		"AttendanceRequestListView": "قائمة عرض طلبات الحضور",
+		"Avg Utilization": "متوسط الاستخدام",
+		"Avg Utilization (Billed Only)": "متوسط الاستخدام (المفوتر فقط)",
+		"Avg Feedback Score": "متوسط درجة التقييم",
+		"The day(s) on which you are applying for leave are holidays. You need not apply for leave.":
+			"الأيام التي تطلب فيها إجازة هي أيام عطلة. لا حاجة لتقديم طلب إجازة.",
 		"Advance": "سلفة",
 		"Advance Amount": "مبلغ السلفة",
 		"Advance Paid": "المبلغ المدفوع مقدمًا",
@@ -563,6 +628,9 @@ ORTHOGRAPHY = {
 	"فاتوره": "فاتورة", "الشركه": "الشركة", "المده": "المدة",
 	"السلعه": "السلعة", "الكميه": "الكمية", "القيمه": "القيمة",
 	"موجوده": "موجودة",
+	# U+FEF9, an Arabic presentation-form ligature, sits inside words like اﻹجازة.
+	# It is a rendering artifact, not a letter: it breaks search and comparison.
+	"ﻹ": "لإ",
 	# "الي" as the preposition إلى (distinct from the relative pronoun الذي)
 	"(الي تاريخ)": "(إلى تاريخ)", "(الي التاريخ)": "(إلى التاريخ)",
 	"(الي القيمة)": "(إلى القيمة)",

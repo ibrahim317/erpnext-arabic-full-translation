@@ -658,7 +658,7 @@ msgstr ""
 #. List'
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
 msgid "Add Day-wise Dates"
-msgstr "أضف تواريخ نهارية"
+msgstr "إضافة تواريخ حسب اليوم"
 
 #: hrms/hr/employee_property_update.js:43
 msgid "Add Employee Property"
@@ -942,7 +942,7 @@ msgstr "السماح برصيد سالب"
 #. Label of the allow_over_allocation (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Allow Over Allocation"
-msgstr "السماح على التخصيص"
+msgstr "السماح بالتخصيص الزائد"
 
 #. Label of the allow_tax_exemption (Check) field in DocType 'Income Tax Slab'
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.json
@@ -952,7 +952,7 @@ msgstr "السماح بالإعفاء الضريبي"
 #. Label of the allow_user (Link) field in DocType 'Leave Block List Allow'
 #: hrms/hr/doctype/leave_block_list_allow/leave_block_list_allow.json
 msgid "Allow User"
-msgstr "تسمح للمستخدم"
+msgstr "السماح للمستخدم"
 
 #. Label of the allow_list (Section Break) field in DocType 'Leave Block List'
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
@@ -1788,7 +1788,7 @@ msgstr "سيتم تمييز الحضور تلقائيًا بعد هذا التا
 
 #: frontend/src/views/attendance/Dashboard.vue:19
 msgid "AttendanceRequestListView"
-msgstr "attencereQuestListView"
+msgstr "قائمة عرض طلبات الحضور"
 
 #. Label of the section_break_18 (Section Break) field in DocType 'Training
 #. Event'
@@ -1866,15 +1866,15 @@ msgstr "متوسط ​​تصنيف المهارات الموضحة"
 
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:52
 msgid "Avg Feedback Score"
-msgstr "درجة التغذية المرتدة AVG"
+msgstr "متوسط درجة التقييم"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:218
 msgid "Avg Utilization"
-msgstr "استخدام AVG"
+msgstr "متوسط الاستخدام"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:224
 msgid "Avg Utilization (Billed Only)"
-msgstr "استخدام AVG (فواتير فقط)"
+msgstr "متوسط الاستخدام (المفوتر فقط)"
 
 #. Option for the 'Status' (Select) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
@@ -11975,7 +11975,7 @@ msgid ""
 "Salary already processed for period between {0} and {1}, Leave application period "
 "cannot be between this date range."
 msgstr ""
-"تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب اﻹجازة بين "
+"تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب الإجازة بين "
 "نطاق هذا التاريخ."
 
 #. Description of the 'Earnings & Deductions' (Tab Break) field in DocType
@@ -13386,7 +13386,7 @@ msgstr "يوم الشهر الذي يجب فيه تخصيص الإجازات"
 msgid ""
 "The day(s) on which you are applying for leave are holidays. You need not apply for "
 "leave."
-msgstr "فترة طلب اﻹجازة تقع في فترة عطلة رسمية، يجب اختيار فترة أخرى."
+msgstr "الأيام التي تطلب فيها إجازة هي أيام عطلة. لا حاجة لتقديم طلب إجازة."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:65
 #, python-brace-format
@@ -14759,7 +14759,7 @@ msgstr "تحذير: رصيد الإجازات غير كافٍ لنوع الإج�
 
 #: hrms/hr/doctype/leave_application/leave_application.py:365
 msgid "Warning: Leave application contains following block dates"
-msgstr "تحذير: طلب اﻹجازة يحتوي على الأيام التالية الّتي يمنع فيها اﻹجازة"
+msgstr "تحذير: طلب الإجازة يحتوي على الأيام التالية الّتي يمنع فيها الإجازة"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:91
 #, python-brace-format

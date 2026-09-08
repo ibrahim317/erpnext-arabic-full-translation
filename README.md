@@ -236,7 +236,28 @@ A second reviewer pass over the merged catalog surfaced more of the same kinds:
 - Missing spaces where Arabic met a Latin token (`نقطة وصولAPI`, `مخصصةCSS`),
   and `A featured post` read `الوظيفة` (a job) instead of `المنشور`.
 
-**1,242 entries corrected and 225 newly translated** in total. Every rule lives in
+A third reviewer pass, and the classes behind it:
+
+- **`Driver` was `برنامج التشغيل`** — a *device driver* — in the delivery-routing
+  messages, where it means the person driving.
+- **Transliteration instead of translation**: `Asset Owner Company` read
+  `شركة أسيت أونر` (English spelled out in Arabic letters), `Batch` appeared as
+  `باتش`, and `AttendanceRequestListView` was left as a mangled code identifier.
+- **`Allow X` labels used a conjugated verb** (`تسمح`, "she allows") rather than
+  the masdar: `Allow Overtime` read `تسمح العمل الإضافي`.
+- **Reversed genitive**: `Billed Qty` → `الفواتير الكمية`, `Billing State` →
+  `الدولة الفواتير`, `Campaign Naming By` → `حملة التسمية بواسطة`,
+  `Accounts User` → `حسابات المستخدمين` (the accounts *of* users).
+- **Two dropped sentences** — `Applying a Discount Amount?` lost its closing
+  instruction entirely, and `Opening stock creation…` both dropped a sentence
+  *and* rendered "Opening stock" as `قوائم المواد` (bills of materials).
+- **Case-sensitive identifiers had been uppercased**: `MyISAM` → `MYISAM`,
+  `StartTLS` → `STARTTLS`, `lft`/`rgt` → `LFT`/`RGT`, which breaks them as values.
+- **Four Arabic presentation-form ligatures** (`ﻹ`, U+FEF9) sitting inside words
+  like `اﻹجازة`. They render acceptably but are not letters — they break search,
+  sorting, and string comparison.
+
+**1,290 entries corrected and 225 newly translated** in total. Every rule lives in
 `scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
 so the pass is reviewable as a rule table rather than as a raw PO diff, and
 reproduces byte-identically in a single run from a clean checkout — the overlay's
