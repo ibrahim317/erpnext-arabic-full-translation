@@ -135,180 +135,38 @@ Hard rules enforced by CI:
 
 ### 0.3.3
 
-Corrects translations that were wrong rather than missing. The catalogs were
-seeded from machine translation, and while coverage reached 100% the *sense* was
-frequently wrong — the previous passes fixed crash risks and a handful of
-terminology clusters, not the underlying literalism.
+Corrects translations that were wrong rather than missing: the catalogs were
+seeded from machine translation, so coverage reached 100% while the *sense* was
+often wrong. **1,360 entries corrected and 225 newly translated.**
 
-- **`Stock` was read as *equity* throughout the inventory module.** `Stock Entry`
-  rendered as `دخول الأسهم` ("entrance of the shares"), `Stock UOM` as
-  `وحدة قياس السهم`, `In Stock Qty` as `في سوق الأسهم الكمية` ("in the stock
-  market the quantity"), `Stock In Hand` as `الأسهم، إلى داخل، أعطى`. Now
-  `المخزون` throughout.
-- **Accounting records rendered as data entry.** `Journal Entry` → `قيد اليومية`
-  (was `إدخال دفتر اليومية`), `Payment Entry` → `قيد الدفع` (was
-  `تدوينات المدفوعات`), `Payroll Entry` → `قيد الرواتب` (was `دخول الرواتب`),
-  plus the `Cash`/`Contra`/`Excise`/`Opening`/`POS` entry cluster.
-- **Shipping and credit documents rendered as remarks.** `Delivery Note` →
-  `إشعار التسليم` (was `ملاحظة التسليم`/`مذكرة التسليم`), `Credit Note` →
-  `إشعار دائن`, `Debit Note` → `إشعار مدين`.
-- **Homographs corrected**: `Draft` → `مسودة` (was `مشروع`, "project"),
-  `Leave` → `إجازة` (was `غادر`, "he departed"), `Amount` → `مبلغ` (was `كمية`,
-  the word already used for *Qty*), `Ledger` → `دفتر الأستاذ` (was the
-  transliteration `ليدجر`), `Return` → `مرتجع`, `Bin` → `رصيد المخزون`,
-  `Get Balance` → `عرض الرصيد` (was `استعد توازنك`, "regain your composure").
-- **`Voucher` unified on `سند`** (was split across `قسيمة`/`إيصال`).
-- **174 bilingual artifacts removed** — msgstrs that carried the Arabic followed
-  by a literal `\n<br>\n` and the untranslated English, displaying both in the UI.
-- **13 entries with misplaced parentheses repaired**, which rendered as
-  `(العمر (أيام` instead of `العمر (أيام)`. One of them,
-  `Rates cannot be modified for quoted items`, carried the translation of an
-  entirely different string.
-- **4 latent placeholder bugs fixed** that the English tail had been masking —
-  msgstrs that dropped or duplicated a `{n}` index and failed `msgfmt --check`
-  once the tail was stripped.
-- **29 hamzat-wasl spellings corrected** (`إستلام` → `استلام`, `إختيار` →
-  `اختيار`, …) plus ta-marbuta and whitespace defects.
-- **225 new upstream strings translated** (101 Frappe, 124 ERPNext) so the v16
-  bundles stay at 0 untranslated against the current templates.
-
-Spelling and word-choice, corrected against the catalogs' own usage:
-
-- **`Field` was rendered `الميدان`** — the *battlefield/arena* sense — across the
-  DocType and LDAP settings screens. Now `الحقل` (14 entries).
-- **`Finance Book` was `كتاب المالية`**, a book you read, rather than the parallel
-  set of accounting books it names. Now `الدفتر المالي`. `Book Appointment` read
-  `موعد الكتاب` ("the book's appointment"); now `حجز موعد`.
-- **`User` was `المستعمل`** in three places against `المستخدم` in ~200 others.
-- **149 spelling forms normalised**, each backed by corpus evidence rather than
-  judgement — the corrected form already outnumbered the defective one at least
-  3:1 in these same catalogs. Both directions are checked: hamza missing from a
-  form IV word (`انشاء` → `إنشاء`), and hamza wrongly added to a form VIII/X word
-  (`الأفتراضي` → `الافتراضي`). Chains resolve, so `الألكتروني` lands on
-  `الإلكتروني` rather than stopping at the equally-wrong `الالكتروني`.
-- Doubled letters (`االمستخدم` → `المستخدم`), missing spaces (`لايمكن` →
-  `لا يمكن`), prepositions (`الى`/`الي` → `إلى`, `علي` → `على`), and the
-  progressive participle (`جاري` → `جارٍ`, 36 entries).
-- **15 more bilingual artifacts** using a bare `<br>` rather than `\n<br>\n`,
-  which the first sweep's pattern missed.
-- Four msgstrs that **began with the sentence's full stop**, an RTL artifact.
-
-Reviewer-reported errors, and the classes behind them:
-
-- **`Leaves` was `أوراق`** — foliage — across 17 HR strings. `Allocate Leaves`
-  read `تخصيص الأوراق`. Now `الإجازات`.
-- **`-wise` was `حكيم`** ("wise") in 9 report titles: `Batch-Wise Balance History`
-  read `دفعة الحكيم التاريخ الرصيد`. Now `حسب الدفعة`.
-- **`Blanket Order` was `أمر بطانية`** (a blanket you sleep under). Now `أمر شامل`.
-- **`Masters` was `الماجستير`** (the academic degree) rather than master data.
-- **`Block` as a verb was `كتلة`** (a block of stone). `Block Supplier` now
-  `حظر المورد` — while UI blocks correctly keep `كتلة`.
-- **`Employee Advance` was `تقدم الموظفين`** ("employee progress") rather than
-  `سلفة الموظف`; **`Bank Draft`** was a text draft rather than an instrument;
-  **`Bank Clearance`** was `التخليص` (customs) rather than `المقاصة`;
-  **`Payment Term`** was `مصطلح` (a vocabulary term) rather than `شرط`;
-  **`Hold Invoice`** was `عقد الفاتورة` ("the invoice's contract");
-  **`Bounced`** was `وثب` ("leapt"); **`Appraisee`** was the appraisal rather
-  than the person appraised; **`Kanban Board`** was `مجلس` (a council).
-- **99 `Is X` checkbox labels** read as questions (`هل مجموعة؟`) or as a copula
-  (`هو مجلد`). Arabic field labels are noun phrases; the interrogative is now
-  stripped unless the msgid itself ends in `?`.
-- Adjective/noun order (`الفعلية تكاليف التشغيل` → `تكاليف التشغيل الفعلية`),
-  number agreement (`5 السجلات` → `5 سجلات`), untranslated abbreviations
-  (`فوترة AMT` → `المبلغ المفوتر`), and a transposed alef/lam (`األسهم`).
-
-A second reviewer pass over the merged catalog surfaced more of the same kinds:
-
-- **`Action` was `حدث`** (an *event*) or `العمل` (*work*) across 22 strings. Now
-  `إجراء`.
-- **`Advance` was the adverb `مقدمًا`/`مسبقًا`** rather than the noun `سلفة`, so
-  `Advance Amount` read "the amount in advance" and `Advance Paid` was the word
-  salad `مسبقا المدفوعة`.
-- **`Accepted Qty` was `الكمية المطلوبة`** — the *requested* quantity, the exact
-  opposite field.
-- **`Account Manager` was `إدارة حساب المستخدم`**, `Account Head` was `رئيس حساب`
-  (a person), `Accounting Ledger` was `موازنة دفتر الأستاذ`, `Active Leads` was
-  `العروض النشطة` (offers), and `Acquisition Date` was `تاريخ شراء المركبة`
-  (vehicle purchase date) on a generic field.
-- **`Dashboard` split** between `لوحة القيادة` and `لوحة المعلومات`; **`Timesheet`**
-  still read `ورقة الوقت` in 10 strings; **`Sales Order`** read `طلب مبيعات`
-  against `أمر البيع` everywhere else. All unified.
-- Missing spaces where Arabic met a Latin token (`نقطة وصولAPI`, `مخصصةCSS`),
-  and `A featured post` read `الوظيفة` (a job) instead of `المنشور`.
-
-A third reviewer pass, and the classes behind it:
-
-- **`Driver` was `برنامج التشغيل`** — a *device driver* — in the delivery-routing
-  messages, where it means the person driving.
-- **Transliteration instead of translation**: `Asset Owner Company` read
-  `شركة أسيت أونر` (English spelled out in Arabic letters), `Batch` appeared as
-  `باتش`, and `AttendanceRequestListView` was left as a mangled code identifier.
-- **`Allow X` labels used a conjugated verb** (`تسمح`, "she allows") rather than
-  the masdar: `Allow Overtime` read `تسمح العمل الإضافي`.
-- **Reversed genitive**: `Billed Qty` → `الفواتير الكمية`, `Billing State` →
-  `الدولة الفواتير`, `Campaign Naming By` → `حملة التسمية بواسطة`,
-  `Accounts User` → `حسابات المستخدمين` (the accounts *of* users).
-- **Two dropped sentences** — `Applying a Discount Amount?` lost its closing
-  instruction entirely, and `Opening stock creation…` both dropped a sentence
-  *and* rendered "Opening stock" as `قوائم المواد` (bills of materials).
-- **Case-sensitive identifiers had been uppercased**: `MyISAM` → `MYISAM`,
-  `StartTLS` → `STARTTLS`, `lft`/`rgt` → `LFT`/`RGT`, which breaks them as values.
-- **Four Arabic presentation-form ligatures** (`ﻹ`, U+FEF9) sitting inside words
-  like `اﻹجازة`. They render acceptably but are not letters — they break search,
-  sorting, and string comparison.
-
-A fourth pass:
-
-- **`Slots` was `الشقوق`** — crevices in a wall — in `Appointment Booking Slots`.
-- **`Bulk` was split four ways**: `مجمع`, `بالجملة` (wholesale), `السائبة`
-  (stray/loose, as in stray animals) and `جماعي`. `Bulk Assignments` read
-  `المهام السائبة`. All 30 entries now use `مجمع`, except "purchased in bulk"
-  where `بكميات كبيرة` is genuinely correct.
-- **`Billed Hours` was `ساعات الفواتير`** — the hours belonging to the invoices,
-  rather than the hours billed. `Total Billed Hours` was the word salad
-  `مجموع الساعات وصفت`.
-- **`BOM Explosion Item` was `الصنف المفصص`**, not an industrial term. Now
-  `صنف تفكيك قائمة المواد`.
-- Typos: `لا يتنمى` → `لا ينتمي` (transposed letters), `الحسابه الأب` →
-  `الحساب الأب`, `بناءا` → `بناءً` (tanwin belongs on the hamza).
-
-A final pass closed the remaining reported entries and three classes found by
-sweeping rather than by review:
-
-- **`MR` was read as `الدخل الشهري`** (monthly revenue) in the budget-action
-  settings — it is *Material Request*. `PO` was left untranslated beside it.
-- **Machine-translation stutter**, the same word emitted twice: `Finished Good`
-  read `جيد جيد`, `Bank Credit Balance` read `رصيد رصيد البنك`, `Clear Error
-  Logs` read `مسح سجلات سجلات الأخطاء`, and `Two Factor Auth` read `عامل عامل`.
-- **`DocType` and `Fieldname` uppercased** to `DOCTYPE` / `FIELDNAME` in 14
-  strings. Now `نوع المستند` / `اسم الحقل`.
-- The English `(s)` plural marker left in Arabic text, where it carries no
-  meaning, and `<b>Base</b>` left untranslated inside its tags.
-
-**1,360 entries corrected and 225 newly translated** in total.
-
-### Two guards added after finding my own mistakes
-
-Both of these caught real defects the moment they were switched on:
-
-- **Duplicate keys in the rule tables.** Python keeps the last of a repeated
-  dict key silently, so an earlier rule simply never runs — and the terminology
-  check cannot see it, because the catalogs agree with whichever rule won. Three
-  copies of `Academics User` had accumulated this way, and the fix that appeared
-  in the diff was not the one being applied.
-- **Cross-app divergence.** The overlay merges frappe → erpnext → hrms with the
-  later app winning, so a msgid corrected in an earlier app is still overridden
-  by an uncorrected copy in a later one. Five fixes had never reached the
-  shipped file for this reason. Every rule lives in
-`scripts/terminology_fixes.py` and is applied by `scripts/apply_terminology.py`,
-so the pass is reviewable as a rule table rather than as a raw PO diff, and
-reproduces byte-identically in a single run from a clean checkout — the overlay's
-`POT-Creation-Date` is carried from the source catalog rather than stamped with
-`now()`, so a rebuild produces a diff only when the translations actually changed.
-
-Two words are excluded from the spelling rules by name, because they are correct
-and the frequency test would otherwise "fix" them: `بعدة` ("with several") and
-`دفعه` ("paying it").
+- **Wrong-sense terminology across every module** — `Stock` was read as *equity*
+  (`Stock Entry` rendered as "entrance of the shares"), `Journal`/`Payment`/`Payroll
+  Entry` as data entry, `Delivery Note`/`Credit Note` as remarks, `Leaves` as
+  foliage, `-wise` as "wise", `Blanket Order` as a blanket, `Draft` as "project",
+  `Leave` as "he departed", and `Amount` as the word already used for *Qty*.
+  `Voucher`, `Dashboard`, `Timesheet` and `Sales Order` unified on one form each.
+- **189 bilingual artifacts removed** — msgstrs carrying the Arabic followed by the
+  untranslated English, which displayed both in the UI. Stripping the English tail
+  exposed 4 latent placeholder bugs that failed `msgfmt --check`; those are fixed.
+- **99 `Is X` checkbox labels** read as questions (`هل مجموعة؟`) or as a copula;
+  Arabic field labels are noun phrases. Also adjective/noun order, number
+  agreement, and reversed genitives (`Billed Qty` read "the invoices' quantity").
+- **Orthography** — 149 spelling forms normalised against the catalogs' own usage
+  (hamzat wasl, ta marbuta, `جاري` → `جارٍ`), doubled letters, missing spaces,
+  13 misplaced-parenthesis renderings, Arabic presentation-form ligatures, and
+  machine-translation stutter (`Finished Good` read `جيد جيد`).
+- **Case-sensitive identifiers restored** — `MyISAM`, `StartTLS`, `lft`/`rgt` and
+  `DocType` had been uppercased or transliterated, which breaks them as values.
+- **225 new upstream strings translated** (101 Frappe, 124 ERPNext), keeping the
+  v16 bundles at 0 untranslated against the current templates.
+- **Two CI guards added**, both of which caught real defects when switched on:
+  duplicate keys in the rule tables (Python silently keeps the last of a repeated
+  dict key, so an earlier rule never runs), and cross-app divergence (the overlay
+  merges frappe → erpnext → hrms with the later app winning, so a msgid corrected
+  in an earlier app can still be overridden by an uncorrected copy in a later one).
+- **Deterministic overlay build** — `POT-Creation-Date` is carried from the source
+  catalog instead of being stamped with `now()`, so a rebuild produces a diff only
+  when the translations actually changed.
 
 ### 0.3.2
 
