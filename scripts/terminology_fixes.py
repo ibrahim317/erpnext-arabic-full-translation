@@ -320,6 +320,26 @@ EXACT = {
 		# this catalog are the legitimate "Project" noun and must not be swept.
 		"Indicates that the package is a part of this delivery (Only Draft)":
 			"يشير إلى أن الطرد جزء من هذا التسليم (المسودات فقط)",
+		# Same "majority fixed, minority holdout" shape as the Sales Order block
+		# above: Voucher is سند throughout this catalog (Voucher No, Voucher Type,
+		# Journal Voucher, Group by Voucher...), but these kept the machine-
+		# translation قسيمة/إيصال. "Period Closing Voucher" is deliberately NOT
+		# swept - قيد إغلاق الفترة is the standard accounting term and correct.
+		# The Resubmit string also had submit as إرسال, against the docstatus
+		# sense ترحيل the README glossary declares.
+		"Add vouchers to generate preview.": "أضف السندات لإنشاء معاينة.",
+		"Cannot Resubmit Ledger entries for vouchers in Closed fiscal year.":
+			"لا يمكن إعادة ترحيل قيود دفتر الأستاذ للسندات في سنة مالية مغلقة.",
+		"Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled.":
+			"يرجى إنشاء سندات تكلفة الهبوط مقابل الفواتير التي تم تمكين 'تحديث المخزون' فيها.",
+		"Select Vouchers to Match": "حدد السندات للمطابقة",
+		"Selected Vouchers": "السندات المحددة",
+		"Vouchers": "سندات",
+		# Translated as if the msgid read "Period Closing Voucher", dropping
+		# "Use Legacy Controller For" entirely. Entry is fuzzy, so it does not
+		# reach the shipped bundles, but the source catalog should still be right.
+		"Use Legacy Controller For Period Closing Voucher":
+			"استخدام وحدة التحكم القديمة لقيد إغلاق الفترة",
 		# Stock read as equity, beyond what substitution repairs
 		"Stock In Hand": "المخزون المتاح",
 		"In Stock Qty": "الكمية المتوفرة في المخزون",

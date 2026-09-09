@@ -3178,7 +3178,7 @@ msgstr "إضافة إلى العبور"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:178
 msgid "Add vouchers to generate preview."
-msgstr "أضف القسائم لإنشاء معاينة."
+msgstr "أضف السندات لإنشاء معاينة."
 
 #: erpnext/accounts/doctype/coupon_code/coupon_code.js:36
 msgid "Add/Edit Coupon Conditions"
@@ -10067,7 +10067,7 @@ msgstr "لا يمكن إعفاء الموظف"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:88
 msgid "Cannot Resubmit Ledger entries for vouchers in Closed fiscal year."
-msgstr "لا يمكن إعادة إرسال قيود دفتر الأستاذ للإيصالات في سنة مالية مغلقة."
+msgstr "لا يمكن إعادة ترحيل قيود دفتر الأستاذ للسندات في سنة مالية مغلقة."
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:204
 msgid ""
@@ -39076,7 +39076,7 @@ msgstr "الرجاء إنشاء عميل من العميل المحتمل {0}."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:155
 msgid "Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled."
-msgstr "يرجى إنشاء قسائم تكلفة الهبوط مقابل الفواتير التي تم تمكين 'تحديث المخزون' فيها."
+msgstr "يرجى إنشاء سندات تكلفة الهبوط مقابل الفواتير التي تم تمكين 'تحديث المخزون' فيها."
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:83
 msgid "Please create a new Accounting Dimension if required."
@@ -50334,7 +50334,7 @@ msgstr "حدد العرض"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:251
 msgid "Select Vouchers to Match"
-msgstr "حدد الإيصالات للمطابقة"
+msgstr "حدد السندات للمطابقة"
 
 #: erpnext/public/js/stock_analytics.js:72
 msgid "Select Warehouse..."
@@ -50554,7 +50554,7 @@ msgstr "تم إصلاح إدخالات الحزم التسلسلية والدف�
 #. Ledger'
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Selected Vouchers"
-msgstr "الإيصالات المحددة"
+msgstr "السندات المحددة"
 
 #: erpnext/www/book_appointment/index.html:43
 msgid "Selected date is"
@@ -62574,7 +62574,7 @@ msgstr "الرصيد حسب السند"
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Vouchers"
-msgstr "قسائم"
+msgstr "سندات"
 
 #: erpnext/patches/v15_0/remove_exotel_integration.py:32
 msgid ""
