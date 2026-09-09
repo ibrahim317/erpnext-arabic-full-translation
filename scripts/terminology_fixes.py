@@ -275,6 +275,51 @@ EXACT = {
 		"Use a few words, avoid common phrases.": "استخدم كلمات قليلة، وتجنب العبارات الشائعة.",
 	},
 	"erpnext": {
+		# Named as fixed in earlier commits on this branch but never added here,
+		# so a later full apply_terminology.py rerun reverted them to the
+		# original machine-translation defect. Re-added with evidence:
+		#   Sales Order    - sibling Purchase Order is already أمر الشراء, and
+		#                    every compound string in this catalog (Against
+		#                    Sales Order, % billed against this Sales Order...)
+		#                    already reads أمر, not طلب.
+		#   Bank Clearance - مقاصة is the banking clearance/reconciliation term;
+		#                    تخليص is customs clearance, wrong domain entirely.
+		#   Employee Advance - Advance Amount already renders as مبلغ السلفة in
+		#                    this same catalog; سلفة is the established word.
+		"Sales Order": "أمر البيع",
+		"Bank Clearance": "مقاصة البنك",
+		"Employee Advance": "سلفة الموظف",
+		# The bare label above is the majority form already (أمر البيع/المبيعات
+		# outnumbers طلب المبيعات 50 to 6 in this catalog), but these 6 compounds
+		# were the minority holdout, found while checking the bare-label fix
+		# didn't create a fresh inconsistency. Templated on the parallel Purchase
+		# Order forms already in this catalog, e.g. "Purchase Order Date" ->
+		# "تاريخ أمر الشراء", "Purchase Order Item" -> "صنف أمر الشراء" (note:
+		# Sales Order Item also had مواد/materials where the Purchase Order
+		# sibling correctly uses the singular صنف/item - fixed to match).
+		"Bypass Credit Limit Check at Sales Order": "تجاوز الحد الائتماني في أمر البيع",
+		"Group by Sales Order": "التجميع حسب أمر البيع",
+		"Is Sales Order Required for Sales Invoice & Delivery Note Creation?":
+			"هل أمر البيع مطلوب لإنشاء فاتورة المبيعات وإشعار التسليم؟",
+		"Sales Order Date": "تاريخ أمر البيع",
+		"Sales Order Item": "صنف أمر البيع",
+		"Sales Order {0} is {1}": "أمر البيع {0} هو {1}",
+		# Found by sweeping the other PR#9 defect classes for the same
+		# "majority fixed, minority holdout" shape. These three escaped the
+		# Stock glossary because it targets أسهم/السهم, while these read
+		# الأوراق المالية ("securities") - a different wrong sense of Stock,
+		# and one that is legitimately correct in the Securities & Commodity
+		# Exchanges strings, so it cannot be swept blindly. Templated on
+		# "Stock UOM" -> وحدة قياس المخزون and "Stock Adjustment" -> تسوية المخزون,
+		# already correct in this catalog. ("As per Stock UOM" had also left
+		# UOM untranslated.)
+		"As per Stock UOM": "وفقًا لوحدة قياس المخزون",
+		"Stock Adjustment Account": "حساب تسوية المخزون",
+		"Stock Summary": "ملخص المخزون",
+		# The only genuine Draft-as-project left; the other 55 مشروع hits in
+		# this catalog are the legitimate "Project" noun and must not be swept.
+		"Indicates that the package is a part of this delivery (Only Draft)":
+			"يشير إلى أن الطرد جزء من هذا التسليم (المسودات فقط)",
 		# Stock read as equity, beyond what substitution repairs
 		"Stock In Hand": "المخزون المتاح",
 		"In Stock Qty": "الكمية المتوفرة في المخزون",
@@ -616,6 +661,9 @@ EXACT = {
 		"Credit Note {0} has been created automatically": "تم إنشاء الإشعار الدائن {0} تلقائيًا",
 	},
 	"hrms": {
+		# See the matching note in the erpnext table above - same defect,
+		# same missing-from-EXACT cause, same fix.
+		"Employee Advance": "سلفة الموظف",
 		"Draft": "مسودة",
 		"Leave": "إجازة",
 		"Return": "مرتجع",

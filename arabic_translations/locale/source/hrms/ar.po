@@ -4325,7 +4325,7 @@ msgstr "موظف A / C رقم"
 #: hrms/hr/workspace/expense_claims/expense_claims.json
 #: hrms/hr/workspace/overview/overview.json
 msgid "Employee Advance"
-msgstr "تقدم الموظف"
+msgstr "سلفة الموظف"
 
 #: frontend/src/views/expense_claim/Dashboard.vue:35
 msgid "Employee Advance Balance"
