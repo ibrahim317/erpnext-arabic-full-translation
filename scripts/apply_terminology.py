@@ -168,6 +168,12 @@ def main() -> None:
 		print(f"  {app}: {changed} entries changed")
 
 		if not dry and not errors:
+			# babel re-adds `python-format` on write for any msgid containing a
+			# %-looking token, and msgfmt then rejects the Arabic msgstr. Frappe
+			# formats with str.format(), never %-formatting, so the flag is always
+			# bogus here - build.py strips it for the same reason.
+			for m in cat:
+				m.flags.discard("python-format")
 			with path.open("wb") as fh:
 				write_po(fh, cat, width=88, sort_output=False, sort_by_file=False)
 

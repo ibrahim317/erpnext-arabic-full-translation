@@ -327,7 +327,7 @@ msgstr "\"من تاريخ \" يجب أن يكون بعد \" إلى تاريخ \"
 
 #: erpnext/stock/doctype/item/item.py:450
 msgid "'Has Serial No' can not be 'Yes' for non-stock item"
-msgstr "\"لهُ رقم تسلسل\" لا يمكن أن يكون \"نعم\" لبند غير قابل للتخزين"
+msgstr "\"له رقم تسلسل\" لا يمكن أن يكون \"نعم\" لصنف غير مخزني"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:152
 msgid ""
@@ -8390,7 +8390,7 @@ msgstr "سعر أساسي (عملة الشركة)"
 #. Label of the basic_rate (Currency) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Basic Rate (as per Stock UOM)"
-msgstr "التسعير الأساسي استنادأ لوحدة القياس"
+msgstr "السعر الأساسي (وفقًا لوحدة قياس المخزون)"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -10096,7 +10096,7 @@ msgstr "لا يمكن تطبيق الضرائب من هذا العنوان"
 
 #: erpnext/stock/doctype/item/item.py:362
 msgid "Cannot be a fixed asset item as Stock Ledger is created."
-msgstr "لا يمكن أن يكون عنصر الأصول الثابتة كما يتم إنشاء دفتر الأستاذ."
+msgstr "لا يمكن أن يكون صنفًا من الأصول الثابتة لأنه تم إنشاء دفتر أستاذ المخزون."
 
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:118
 msgid "Cannot cancel Asset Depreciation Schedule {0} as it has a draft journal entry {1}."
@@ -14943,7 +14943,7 @@ msgstr "قائمة المواد الحالية"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:80
 msgid "Current BOM and New BOM can not be same"
-msgstr "فاتورة المواد الحالية وفاتورة المواد الجديدة لا يمكن أن يكونوا نفس الفاتورة"
+msgstr "لا يمكن أن تكون قائمة المواد الحالية والجديدة متطابقتين"
 
 #. Label of the current_exchange_rate (Float) field in DocType 'Exchange Rate
 #. Revaluation Account'
@@ -16356,7 +16356,7 @@ msgstr "يجب أن تكون قائمة المواد الافتراضية ({0}) 
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2573
 msgid "Default BOM for {0} not found"
-msgstr "فاتورة المواد ل {0} غير موجودة"
+msgstr "قائمة المواد الافتراضية لـ {0} غير موجودة"
 
 #: erpnext/controllers/accounts_controller.py:4114
 msgid "Default BOM not found for FG Item {0}"
@@ -26234,7 +26234,7 @@ msgstr "أذونات غير كافية"
 #: erpnext/stock/serial_batch_bundle.py:1315 erpnext/stock/stock_ledger.py:1765
 #: erpnext/stock/stock_ledger.py:2292
 msgid "Insufficient Stock"
-msgstr "المالية غير كافية"
+msgstr "مخزون غير كافٍ"
 
 #: erpnext/stock/stock_ledger.py:2307
 msgid "Insufficient Stock for Batch"
@@ -28521,7 +28521,7 @@ msgstr "تسمية السلعة بواسطة"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:452
 msgid "Item Out of Stock"
-msgstr "المنتج غير متوفر"
+msgstr "نفد مخزون الصنف"
 
 #. Label of a Link in the Buying Workspace
 #. Label of a Link in the Selling Workspace
@@ -30660,7 +30660,7 @@ msgstr "صيانة الأصل"
 #. Label of the is_stock_item (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Maintain Stock"
-msgstr "منتج يخزن"
+msgstr "الاحتفاظ بالمخزون"
 
 #. Label of the maintain_same_internal_transaction_rate (Check) field in
 #. DocType 'Accounts Settings'
@@ -35669,7 +35669,7 @@ msgstr "خارج عن السيطرة"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:665
 msgid "Out of Stock"
-msgstr "انتهى من المخزن"
+msgstr "نفد المخزون"
 
 #. Option for the 'Maintenance Status' (Select) field in DocType 'Serial No'
 #. Option for the 'Warranty / AMC Status' (Select) field in DocType 'Warranty
@@ -35681,7 +35681,7 @@ msgstr "لا تغطيه الضمان"
 
 #: erpnext/templates/includes/macros.html:173
 msgid "Out of stock"
-msgstr "نفدت الكمية"
+msgstr "نفد المخزون"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1254
 #: erpnext/selling/page/point_of_sale/pos_controller.js:199
@@ -50148,7 +50148,7 @@ msgstr "حدد مكتب الإدارة"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1273
 msgid "Select BOM and Qty for Production"
-msgstr "اختر فاتورة المواد و الكمية للإنتاج"
+msgstr "اختر قائمة المواد والكمية للإنتاج"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:258
 #: erpnext/public/js/utils/sales_common.js:441
@@ -53286,7 +53286,7 @@ msgstr "التبويب التاريخي للمخزن"
 #: erpnext/stock/report/stock_analytics/stock_analytics.json
 #: erpnext/stock/workspace/stock/stock.json erpnext/workspace_sidebar/stock.json
 msgid "Stock Analytics"
-msgstr "تحليلات المخازن"
+msgstr "تحليلات المخزون"
 
 #. Label of the stock_asset_account (Link) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
@@ -53495,7 +53495,7 @@ msgstr "أصناف المخزن"
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:36
 #: erpnext/workspace_sidebar/stock.json
 msgid "Stock Ledger"
-msgstr "سجل المخزن"
+msgstr "دفتر أستاذ المخزون"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:30
 msgid "Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts"
@@ -53509,12 +53509,12 @@ msgstr ""
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:158
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:30
 msgid "Stock Ledger Entry"
-msgstr "حركة سجل المخزن"
+msgstr "قيد دفتر أستاذ المخزون"
 
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:98
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:144
 msgid "Stock Ledger ID"
-msgstr "معرف دفتر الأستاذ"
+msgstr "معرف دفتر أستاذ المخزون"
 
 #. Name of a report
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.json
@@ -55127,7 +55127,7 @@ msgstr "رقم فاتورة المورد"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1890
 msgid "Supplier Invoice No exists in Purchase Invoice {0}"
-msgstr "المورد فاتورة لا يوجد في شراء الفاتورة {0}"
+msgstr "رقم فاتورة المورد موجود في فاتورة الشراء {0}"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/supplier_item/supplier_item.json

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arabic_translations VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-10 01:22+0300\n"
+"POT-Creation-Date: 2026-09-10 01:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arabic Translations contributors\n"
 "Language: ar\n"
@@ -337,7 +337,7 @@ msgstr "\"من تاريخ \" يجب أن يكون بعد \" إلى تاريخ \"
 
 #. source: erpnext
 msgid "'Has Serial No' can not be 'Yes' for non-stock item"
-msgstr "\"لهُ رقم تسلسل\" لا يمكن أن يكون \"نعم\" لبند غير قابل للتخزين"
+msgstr "\"له رقم تسلسل\" لا يمكن أن يكون \"نعم\" لصنف غير مخزني"
 
 #. source: frappe
 msgid "'In Global Search' is not allowed for field {0} of type {1}"
@@ -9882,11 +9882,11 @@ msgstr "تحليل مخزون قائمة المواد"
 
 #. source: erpnext
 msgid "BOM Stock Calculated"
-msgstr "BOM Stock محتسب"
+msgstr "مخزون قائمة المواد المحتسب"
 
 #. source: erpnext
 msgid "BOM Stock Report"
-msgstr "تقرير مخزون فاتورة المواد"
+msgstr "تقرير مخزون قائمة المواد"
 
 #. source: erpnext
 msgid "BOM Tree"
@@ -10677,7 +10677,7 @@ msgstr "سعر أساسي (عملة الشركة)"
 
 #. source: erpnext
 msgid "Basic Rate (as per Stock UOM)"
-msgstr "التسعير الأساسي استنادأ لوحدة القياس"
+msgstr "السعر الأساسي (وفقًا لوحدة قياس المخزون)"
 
 #. source: erpnext
 msgid "Batch"
@@ -12715,7 +12715,7 @@ msgstr "لا يمكن إرفاق مجلد بمستند"
 
 #. source: erpnext
 msgid "Cannot be a fixed asset item as Stock Ledger is created."
-msgstr "لا يمكن أن يكون عنصر الأصول الثابتة كما يتم إنشاء دفتر الأستاذ."
+msgstr "لا يمكن أن يكون صنفًا من الأصول الثابتة لأنه تم إنشاء دفتر أستاذ المخزون."
 
 #. source: hrms
 msgid "Cannot break shift after end date"
@@ -13979,7 +13979,7 @@ msgstr "تحقق من عنوان الرابط المطلوب"
 
 #. source: erpnext
 msgid "Check Supplier Invoice Number Uniqueness"
-msgstr "التحقق من رقم الفتورة المرسلة من المورد مميز (ليس متكرر)"
+msgstr "التحقق من عدم تكرار رقم فاتورة المورد"
 
 #. source: erpnext
 msgid "Check Supplier invoice number uniqueness"
@@ -17978,7 +17978,7 @@ msgstr "قائمة المواد الحالية"
 
 #. source: erpnext
 msgid "Current BOM and New BOM can not be same"
-msgstr "فاتورة المواد الحالية وفاتورة المواد الجديدة لا يمكن أن يكونوا نفس الفاتورة"
+msgstr "لا يمكن أن تكون قائمة المواد الحالية والجديدة متطابقتين"
 
 #. source: hrms
 msgid "Current CTC"
@@ -19413,7 +19413,7 @@ msgstr "يجب أن تكون قائمة المواد الافتراضية ({0}) 
 
 #. source: erpnext
 msgid "Default BOM for {0} not found"
-msgstr "فاتورة المواد ل {0} غير موجودة"
+msgstr "قائمة المواد الافتراضية لـ {0} غير موجودة"
 
 #. source: erpnext
 msgid "Default BOM not found for FG Item {0}"
@@ -34198,7 +34198,7 @@ msgstr "أذونات غير كافية لتحرير التقرير"
 
 #. source: erpnext
 msgid "Insufficient Stock"
-msgstr "المالية غير كافية"
+msgstr "مخزون غير كافٍ"
 
 #. source: erpnext
 msgid "Insufficient Stock for Batch"
@@ -36457,7 +36457,7 @@ msgstr "تسمية السلعة بواسطة"
 
 #. source: erpnext
 msgid "Item Out of Stock"
-msgstr "المنتج غير متوفر"
+msgstr "نفد مخزون الصنف"
 
 #. source: erpnext
 msgid "Item Price"
@@ -39761,7 +39761,7 @@ msgstr "حافظ على نفس السعر طوال دورة الشراء"
 
 #. source: erpnext
 msgid "Maintain Stock"
-msgstr "منتج يخزن"
+msgstr "الاحتفاظ بالمخزون"
 
 #. source: erpnext
 msgid "Maintain same rate throughout internal Transaction"
@@ -46864,7 +46864,7 @@ msgstr "خارج عن السيطرة"
 
 #. source: erpnext
 msgid "Out of Stock"
-msgstr "انتهى من المخزن"
+msgstr "نفد المخزون"
 
 #. source: erpnext
 msgid "Out of Warranty"
@@ -46872,7 +46872,7 @@ msgstr "لا تغطيه الضمان"
 
 #. source: erpnext
 msgid "Out of stock"
-msgstr "نفدت الكمية"
+msgstr "نفد المخزون"
 
 #. source: erpnext
 msgid "Outdated POS Opening Entry"
@@ -62011,7 +62011,7 @@ msgstr "حدد مكتب الإدارة"
 
 #. source: erpnext
 msgid "Select BOM and Qty for Production"
-msgstr "اختر فاتورة المواد و الكمية للإنتاج"
+msgstr "اختر قائمة المواد والكمية للإنتاج"
 
 #. source: erpnext
 msgid "Select BOM, Qty and For Warehouse"
@@ -66711,7 +66711,7 @@ msgstr "التبويب التاريخي للمخزن"
 
 #. source: erpnext
 msgid "Stock Analytics"
-msgstr "تحليلات المخازن"
+msgstr "تحليلات المخزون"
 
 #. source: erpnext
 msgid "Stock Asset Account"
@@ -66861,7 +66861,7 @@ msgstr "أصناف المخزن"
 
 #. source: erpnext
 msgid "Stock Ledger"
-msgstr "سجل المخزن"
+msgstr "دفتر أستاذ المخزون"
 
 #. source: erpnext
 msgid "Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts"
@@ -66871,11 +66871,11 @@ msgstr ""
 
 #. source: erpnext
 msgid "Stock Ledger Entry"
-msgstr "حركة سجل المخزن"
+msgstr "قيد دفتر أستاذ المخزون"
 
 #. source: erpnext
 msgid "Stock Ledger ID"
-msgstr "معرف دفتر الأستاذ"
+msgstr "معرف دفتر أستاذ المخزون"
 
 #. source: erpnext
 msgid "Stock Ledger Invariant Check"
@@ -68124,7 +68124,7 @@ msgstr "رقم فاتورة المورد"
 
 #. source: erpnext
 msgid "Supplier Invoice No exists in Purchase Invoice {0}"
-msgstr "المورد فاتورة لا يوجد في شراء الفاتورة {0}"
+msgstr "رقم فاتورة المورد موجود في فاتورة الشراء {0}"
 
 #. source: erpnext
 msgid "Supplier Item"

@@ -340,6 +340,45 @@ EXACT = {
 		# reach the shipped bundles, but the source catalog should still be right.
 		"Use Legacy Controller For Period Closing Voucher":
 			"استخدام وحدة التحكم القديمة لقيد إغلاق الفترة",
+		# Found by sweeping for msgids whose English carries a glossary term whose
+		# agreed Arabic is absent from the msgstr - the same shape as the Sales
+		# Order and Voucher blocks above.
+		#
+		# Stock Ledger: دفتر أستاذ المخزون outnumbers سجل المخزن 11 to 2 in this
+		# catalog, and Ledger alone is already دفتر الأستاذ. Two entries had also
+		# dropped "Stock" from the term entirely.
+		"Stock Ledger": "دفتر أستاذ المخزون",
+		"Stock Ledger Entry": "قيد دفتر أستاذ المخزون",
+		"Stock Ledger ID": "معرف دفتر أستاذ المخزون",
+		"Cannot be a fixed asset item as Stock Ledger is created.":
+			"لا يمكن أن يكون صنفًا من الأصول الثابتة لأنه تم إنشاء دفتر أستاذ المخزون.",
+		# BOM: قائمة المواد outnumbers فاتورة المواد ("invoice of materials") 85 to
+		# 4. These are the four holdouts. BOM Stock Calculated was left in English.
+		"BOM Stock Calculated": "مخزون قائمة المواد المحتسب",
+		"BOM Stock Report": "تقرير مخزون قائمة المواد",
+		"Current BOM and New BOM can not be same":
+			"لا يمكن أن تكون قائمة المواد الحالية والجديدة متطابقتين",
+		"Default BOM for {0} not found": "قائمة المواد الافتراضية لـ {0} غير موجودة",
+		"Select BOM and Qty for Production": "اختر قائمة المواد والكمية للإنتاج",
+		# Stock rendered as something else, or dropped. "Insufficient Stock" read
+		# المالية غير كافية - "the finances are insufficient" - while its two
+		# siblings (for Batch, for Product Bundle Items) already read مخزون غير كافٍ.
+		# The Out-of-Stock cluster was split three ways; unified on نفد المخزون.
+		"Insufficient Stock": "مخزون غير كافٍ",
+		"Item Out of Stock": "نفد مخزون الصنف",
+		"Out of Stock": "نفد المخزون",
+		"Out of stock": "نفد المخزون",
+		"Maintain Stock": "الاحتفاظ بالمخزون",
+		"Stock Analytics": "تحليلات المخزون",
+		"Basic Rate (as per Stock UOM)": "السعر الأساسي (وفقًا لوحدة قياس المخزون)",
+		"'Has Serial No' can not be 'Yes' for non-stock item":
+			"\"له رقم تسلسل\" لا يمكن أن يكون \"نعم\" لصنف غير مخزني",
+		# Supplier-invoice pair: one a misspelling of فاتورة plus a garbled clause,
+		# the other word salad that also inverted the meaning - the msgid says the
+		# number EXISTS, the Arabic said it does not.
+		"Check Supplier Invoice Number Uniqueness": "التحقق من عدم تكرار رقم فاتورة المورد",
+		"Supplier Invoice No exists in Purchase Invoice {0}":
+			"رقم فاتورة المورد موجود في فاتورة الشراء {0}",
 		# Stock read as equity, beyond what substitution repairs
 		"Stock In Hand": "المخزون المتاح",
 		"In Stock Qty": "الكمية المتوفرة في المخزون",
