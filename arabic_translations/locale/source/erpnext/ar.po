@@ -7159,7 +7159,7 @@ msgstr "حتى تاريخ"
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "As per Stock UOM"
-msgstr "وفقا للأوراق UOM"
+msgstr "وفقًا لوحدة قياس المخزون"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:189
 #, python-brace-format
@@ -9095,7 +9095,7 @@ msgstr "حساب الرسوم البنكية"
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.json
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 msgid "Bank Clearance"
-msgstr "تخليص البنك"
+msgstr "مقاصة البنك"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_clearance_detail/bank_clearance_detail.json
@@ -10542,7 +10542,7 @@ msgstr ""
 #. Credit Limit'
 #: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
 msgid "Bypass Credit Limit Check at Sales Order"
-msgstr "تجاوز الحد الائتماني في طلب المبيعات"
+msgstr "تجاوز الحد الائتماني في أمر البيع"
 
 #: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:68
 msgid "Bypass credit check at Sales Order"
@@ -19161,7 +19161,7 @@ msgstr "موظف "
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Employee Advance"
-msgstr "تقدم الموظف"
+msgstr "سلفة الموظف"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:26
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:37
@@ -22895,7 +22895,7 @@ msgstr "تجميع حسب أمر الشراء"
 
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.js:89
 msgid "Group by Sales Order"
-msgstr "التجميع حسب طلب المبيعات"
+msgstr "التجميع حسب أمر البيع"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:145
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:177
@@ -24803,7 +24803,7 @@ msgstr "مستوى المسافة البادئة"
 #. Description of the 'Delivery Note' (Link) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
 msgid "Indicates that the package is a part of this delivery (Only Draft)"
-msgstr "يشير إلى أن الحزمة هو جزء من هذا التسليم (مشروع فقط)"
+msgstr "يشير إلى أن الطرد جزء من هذا التسليم (المسودات فقط)"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -26120,7 +26120,7 @@ msgstr "مرتجع (إشعار مدين)؟"
 #. Label of the so_required (Select) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Is Sales Order Required for Sales Invoice & Delivery Note Creation?"
-msgstr "هل طلب المبيعات مطلوب لإنشاء فاتورة المبيعات وإشعار التسليم؟"
+msgstr "هل أمر البيع مطلوب لإنشاء فاتورة المبيعات وإشعار التسليم؟"
 
 #. Label of the is_scrap_item (Check) field in DocType 'Stock Entry Detail'
 #. Label of the is_scrap_item (Check) field in DocType 'Subcontracting Receipt
@@ -46076,7 +46076,7 @@ msgstr "فرص المبيعات حسب المصدر"
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.py:74
 #: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
 msgid "Sales Order"
-msgstr "طلب المبيعات"
+msgstr "أمر البيع"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -46092,7 +46092,7 @@ msgstr "تحليل أوامر المبيعات"
 #: erpnext/manufacturing/doctype/production_plan_sales_order/production_plan_sales_order.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Sales Order Date"
-msgstr "تاريخ طلب المبيعات"
+msgstr "تاريخ أمر البيع"
 
 #. Label of the so_detail (Data) field in DocType 'POS Invoice Item'
 #. Label of the so_detail (Data) field in DocType 'Sales Invoice Item'
@@ -46126,7 +46126,7 @@ msgstr "تاريخ طلب المبيعات"
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
 msgid "Sales Order Item"
-msgstr "مواد طلب المبيعات"
+msgstr "صنف أمر البيع"
 
 #. Label of the sales_order_packed_item (Data) field in DocType 'Purchase Order
 #. Item'
@@ -46187,7 +46187,7 @@ msgstr "أمر البيع {0} غير موجود"
 #: erpnext/manufacturing/doctype/work_order/work_order.py:466
 #, python-brace-format
 msgid "Sales Order {0} is {1}"
-msgstr "طلب المبيعات {0} هو {1}"
+msgstr "أمر البيع {0} هو {1}"
 
 #. Label of the sales_orders (Table) field in DocType 'Master Production
 #. Schedule'
@@ -49835,7 +49835,7 @@ msgstr "تسوية المخزون"
 #. Label of the stock_adjustment_account (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Stock Adjustment Account"
-msgstr "حساب تسوية الأوراق المالية"
+msgstr "حساب تسوية المخزون"
 
 #. Label of the stock_ageing_section (Section Break) field in DocType 'Stock
 #. Closing Balance'
@@ -50346,7 +50346,7 @@ msgstr "إعدادات المخزون"
 #: erpnext/stock/page/stock_balance/stock_balance.js:4
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Stock Summary"
-msgstr "ملخص الأوراق المالية"
+msgstr "ملخص المخزون"
 
 #. Label of a Card Break in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
