@@ -7,6 +7,8 @@ Checks
    frappe._() output goes straight into str.format()).
 3. No HTML-entity artifacts (&#39; etc.) in msgstr that aren't in msgid.
 4. CSV bundles have no header row and no empty msgid/msgstr.
+
+Read-only: it runs msgfmt and reads the catalogs, and never writes to them.
 """
 
 import csv

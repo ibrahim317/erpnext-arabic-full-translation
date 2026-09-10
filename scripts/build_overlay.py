@@ -27,6 +27,13 @@ def main():
 		copyright_holder="Arabic Translations contributors",
 		charset="UTF-8",
 	)
+	# Babel stamps a fresh `creation_date` (now()) on every new Catalog, which lands
+	# in POT-Creation-Date and makes the overlay differ byte-for-byte between runs
+	# even when nothing changed. Carry the date from the frappe source catalog
+	# instead - read_po preserves it - so the build is genuinely reproducible and a
+	# rebuild produces a diff only when the translations actually changed.
+	with (src_root / "frappe/ar.po").open(encoding="utf-8") as fh:
+		merged.creation_date = read_po(fh).creation_date
 
 	seen: dict[tuple, str] = {}
 	stats = {}

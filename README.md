@@ -8,11 +8,11 @@ Measured against the current upstream `version-16` POT templates (not a stale sn
 
 | App | Translated | Untranslated | Fuzzy (excluded at runtime) |
 |---|---|---|---|
-| Frappe | 6,239 (100%) | 0 | 1 |
-| ERPNext | 10,075 (100%) | 0 | 8 |
+| Frappe | 6,328 (100%) | 0 | 1 |
+| ERPNext | 10,181 (100%) | 0 | 11 |
 | HRMS | 2,228 (100%) | 0 | 1 |
 
-Every string in the current upstream `version-16` templates is translated. The overlay catalog additionally carries strings that upstream removed after v16 but that remain live on v15 — 19,300 unique messages in total. Untranslated strings fall back to English; nothing breaks.
+Every string in the current upstream `version-16` templates is translated. The overlay catalog additionally carries strings that upstream removed after v16 but that remain live on v15 — 19,523 unique messages in total. Untranslated strings fall back to English; nothing breaks.
 
 ## How it works
 
@@ -107,7 +107,7 @@ scripts/
 ├── extract_todo.py     # regenerate the open-entries manifest for a translation pass
 ├── apply_trans.py      # apply a batch dict onto a source catalog (placeholder-guarded)
 ├── fill_from_upstream.py  # harvest safe entries from the upstream Crowdin exports
-├── corrections.py      # hand-written fixes for defective entries
+├── corrections.py      # hand-written fixes for placeholder-defective entries
 └── check_catalogs.py   # CI gate: msgfmt, placeholder & artifact checks
 ```
 
@@ -130,6 +130,36 @@ Hard rules enforced by CI:
 4. CSV bundles: no header row, no empty cells.
 
 ## Changelog
+
+### 0.3.3
+
+Corrects translations that were wrong rather than missing: the catalogs were
+seeded from machine translation, so coverage reached 100% while the *sense* was
+often wrong. **1,360 entries corrected and 225 newly translated.**
+
+- **Wrong-sense terminology across every module** — `Stock` was read as *equity*
+  (`Stock Entry` rendered as "entrance of the shares"), `Journal`/`Payment`/`Payroll
+  Entry` as data entry, `Delivery Note`/`Credit Note` as remarks, `Leaves` as
+  foliage, `-wise` as "wise", `Blanket Order` as a blanket, `Draft` as "project",
+  `Leave` as "he departed", and `Amount` as the word already used for *Qty*.
+  `Voucher`, `Dashboard`, `Timesheet` and `Sales Order` unified on one form each.
+- **189 bilingual artifacts removed** — msgstrs carrying the Arabic followed by the
+  untranslated English, which displayed both in the UI. Stripping the English tail
+  exposed 4 latent placeholder bugs that failed `msgfmt --check`; those are fixed.
+- **99 `Is X` checkbox labels** read as questions (`هل مجموعة؟`) or as a copula;
+  Arabic field labels are noun phrases. Also adjective/noun order, number
+  agreement, and reversed genitives (`Billed Qty` read "the invoices' quantity").
+- **Orthography** — 149 spelling forms normalised against the catalogs' own usage
+  (hamzat wasl, ta marbuta, `جاري` → `جارٍ`), doubled letters, missing spaces,
+  13 misplaced-parenthesis renderings, Arabic presentation-form ligatures, and
+  machine-translation stutter (`Finished Good` read `جيد جيد`).
+- **Case-sensitive identifiers restored** — `MyISAM`, `StartTLS`, `lft`/`rgt` and
+  `DocType` had been uppercased or transliterated, which breaks them as values.
+- **225 new upstream strings translated** (101 Frappe, 124 ERPNext), keeping the
+  v16 bundles at 0 untranslated against the current templates.
+- **Deterministic overlay build** — `POT-Creation-Date` is carried from the source
+  catalog instead of being stamped with `now()`, so a rebuild produces a diff only
+  when the translations actually changed.
 
 ### 0.3.2
 
