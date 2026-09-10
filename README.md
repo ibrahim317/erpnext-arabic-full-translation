@@ -108,8 +108,6 @@ scripts/
 ├── apply_trans.py      # apply a batch dict onto a source catalog (placeholder-guarded)
 ├── fill_from_upstream.py  # harvest safe entries from the upstream Crowdin exports
 ├── corrections.py      # hand-written fixes for placeholder-defective entries
-├── terminology_fixes.py   # glossary + orthography rule table (reviewable)
-├── apply_terminology.py   # applies terminology_fixes.py to the source catalogs
 └── check_catalogs.py   # CI gate: msgfmt, placeholder & artifact checks
 ```
 
@@ -159,11 +157,6 @@ often wrong. **1,360 entries corrected and 225 newly translated.**
   `DocType` had been uppercased or transliterated, which breaks them as values.
 - **225 new upstream strings translated** (101 Frappe, 124 ERPNext), keeping the
   v16 bundles at 0 untranslated against the current templates.
-- **Two CI guards added**, both of which caught real defects when switched on:
-  duplicate keys in the rule tables (Python silently keeps the last of a repeated
-  dict key, so an earlier rule never runs), and cross-app divergence (the overlay
-  merges frappe → erpnext → hrms with the later app winning, so a msgid corrected
-  in an earlier app can still be overridden by an uncorrected copy in a later one).
 - **Deterministic overlay build** — `POT-Creation-Date` is carried from the source
   catalog instead of being stamped with `now()`, so a rebuild produces a diff only
   when the translations actually changed.
