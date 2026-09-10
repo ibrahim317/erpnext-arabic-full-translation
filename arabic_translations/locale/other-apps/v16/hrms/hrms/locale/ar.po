@@ -799,7 +799,7 @@ msgstr "السماح بطلب الإجازة بعد (أيام تقويمية)"
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:105
 msgid "Allow Multiple Shift Assignments for Same Date"
-msgstr "السماح بمهام التحول المتعددة لنفس التاريخ"
+msgstr "السماح بتعيينات مناوبات متعددة لنفس التاريخ"
 
 #. Label of the allow_negative (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -1304,13 +1304,13 @@ msgstr "تعيين هيكل الراتب لـ {0} موظف؟"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:110
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Assign Shift"
-msgstr "تعيين التحول"
+msgstr "تعيين المناوبة"
 
 #. Option for the 'Action' (Select) field in DocType 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:114
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Assign Shift Schedule"
-msgstr "تعيين جدول التحول"
+msgstr "تعيين جدول المناوبات"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:53
 msgid "Assign Structure"
@@ -1588,7 +1588,7 @@ msgstr "تحديث تلقائيا آخر مزامنة من checkin"
 #. Label of the available_leaves (Float) field in DocType 'Salary Slip Leave'
 #: hrms/payroll/doctype/salary_slip_leave/salary_slip_leave.json
 msgid "Available Leave(s)"
-msgstr "الإجازة (الإجازة) المتاحة"
+msgstr "الإجازات المتاحة"
 
 #: hrms/hr/doctype/leave_application/leave_application_dashboard.html:11
 msgid "Available Leaves"
@@ -2732,11 +2732,11 @@ msgstr "وصف الشاغر الوظيفي"
 #. Name of a DocType
 #: hrms/hr/doctype/designation_skill/designation_skill.json
 msgid "Designation Skill"
-msgstr "مهارة التعيين"
+msgstr "مهارة المسمى الوظيفي"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:244
 msgid "Designation: {0}"
-msgstr "المنصب: {0}"
+msgstr "المسمى الوظيفي: {0}"
 
 #. Label of the details_of_sponsor (Data) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
@@ -7212,7 +7212,7 @@ msgstr "لم يتم تحديد طلبات ورديات"
 
 #: hrms/hr/doctype/job_opening/job_opening.js:35
 msgid "No Staffing Plans found for this Designation"
-msgstr "لم يتم العثور على خطط التوظيف لهذا التصنيف"
+msgstr "لم يتم العثور على خطط توظيف لهذا المسمى الوظيفي"
 
 #: hrms/payroll/doctype/arrear/arrear.py:71
 msgid ""
@@ -8268,7 +8268,7 @@ msgstr "يرجى الاطلاع على المرفق"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:231
 msgid "Please select Company and Designation"
-msgstr "يرجى تحديد الشركة والتسمية"
+msgstr "يرجى تحديد الشركة والمسمى الوظيفي"
 
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.js:22
 msgid "Please select Employee"
@@ -9950,7 +9950,7 @@ msgstr "المناوبات والحضور"
 #. Label of the shift_actual_end (Datetime) field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 msgid "Shift Actual End"
-msgstr "التحول نهاية الفعلية"
+msgstr "النهاية الفعلية للمناوبة"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:120
 msgid "Shift Actual End Time"
@@ -9960,7 +9960,7 @@ msgstr "وقت الانتهاء الفعلي للمناوبة"
 #. Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 msgid "Shift Actual Start"
-msgstr "التحول الفعلي البداية"
+msgstr "البداية الفعلية للمناوبة"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:114
 msgid "Shift Actual Start Time"
@@ -9971,7 +9971,7 @@ msgstr "وقت البدء الفعلي للمناوبة"
 #: hrms/hr/doctype/shift_assignment/shift_assignment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Shift Assignment"
-msgstr "مهمة التحول"
+msgstr "تعيين الوردية"
 
 #. Label of the shift_assignment_details_section (Section Break) field in
 #. DocType 'Shift Assignment Tool'
@@ -9993,7 +9993,7 @@ msgstr "أداة تعيين المناوبات"
 
 #: hrms/hr/doctype/shift_request/shift_request.py:61
 msgid "Shift Assignment: {0} created for Employee: {1}"
-msgstr "واجب التحول: {0} تم إنشاؤه للموظف: {1}"
+msgstr "تعيين المناوبة: {0} تم إنشاؤه للموظف: {1}"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:135
 msgid "Shift Assignments created for the schedule between {0} and {1} via background job"
@@ -10020,7 +10020,7 @@ msgstr "تفاصيل المناوبة"
 #. Label of the shift_end (Datetime) field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 msgid "Shift End"
-msgstr "التحول نهاية"
+msgstr "نهاية المناوبة"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:64
 msgid "Shift End Time"
@@ -10052,7 +10052,7 @@ msgstr "موقع المناوبة"
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Request"
-msgstr "طلب التغيير"
+msgstr "طلب مناوبة"
 
 #: hrms/patches/v15_0/update_approver_custom_fields.py:27 hrms/setup.py:141
 #: hrms/setup.py:265
@@ -10109,7 +10109,7 @@ msgstr "إعدادات المناوبة"
 #. Label of the shift_start (Datetime) field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 msgid "Shift Start"
-msgstr "تحول البداية"
+msgstr "بداية المناوبة"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:58
 msgid "Shift Start Time"
@@ -10153,7 +10153,7 @@ msgstr "أدوات المناوبة"
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Type"
-msgstr "نوع التحول"
+msgstr "نوع المناوبة"
 
 #. Label of the shift_and_attendance_tab (Tab Break) field in DocType 'HR
 #. Settings'
