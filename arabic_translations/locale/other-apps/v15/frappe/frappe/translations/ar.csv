@@ -823,7 +823,7 @@ ${values.doctype_name} has been added to queue for optimization,تمت إضاف�
 (Mandatory),(إلزامي),
 ** Failed: {0} to {1}: {2},** فشل: {0} إلى {1}: {2},
 + Add / Remove Fields,+ إضافة / إزالة حقول,
-0 - Draft; 1 - Submitted; 2 - Cancelled,0 - مسودّة؛ 1 - تأكيد؛ 2 - إلغاء,
+0 - Draft; 1 - Submitted; 2 - Cancelled,0 - مسودة؛ 1 - مُرحَّل؛ 2 - ملغى,
 0 is highest,0 أعلى قيمة,
 1 = True & 0 = False,1 = صحيح و 0 = خطأ,
 "1 Currency = [?] Fraction
@@ -1350,8 +1350,8 @@ Amend,تعديل,
 Amend Counter,عداد التعديل,
 Amended Document Naming Settings,إعدادات تسمية المستندات المعدلة,
 Amended Documents,المستندات المعدلة,
-Amended From,معدل من,
-Amending,المعدل,Freeze message while amending a document
+Amended From,معدَّل من,
+Amending,جارٍ التعديل,Freeze message while amending a document
 Amendment Naming Override,تجاوز تسمية التعديل,
 Amendment Not Allowed,التعديل غير مسموح به,
 Amendment naming rules updated.,تم تحديث قواعد تسمية التعديل.,
@@ -6442,7 +6442,7 @@ You can also access wkhtmltopdf variables (valid only in PDF print):,يمكنك 
 You can also copy-paste following link in your browser,يمكنك أيضًا نسخ ولصق الرابط التالي في متصفحك,
 You can also copy-paste this ,يمكنك أيضا نسخ ولصق هذا ,
 You can also copy-paste this {0} to your browser,يمكنك أيضًا نسخ {0} هذا ولصقه في متصفحك,
-"You can change Submitted documents by cancelling them and then, amending them.",يمكنك تغيير المستندات المقدمة عن طريق إلغائها ثم تعديلها.,
+"You can change Submitted documents by cancelling them and then, amending them.",يمكنك تغيير المستندات المرحَّلة عن طريق إلغائها ثم تعديلها.,
 You can change the retention policy from {0}.,يمكنك تغيير سياسة الاحتفاظ من {0}.,
 You can continue with the onboarding after exploring this page,يمكنك متابعة عملية الإعداد بعد استكشاف هذه الصفحة,
 You can disable this {0} instead of deleting it.,يمكنك تعطيل هذا {0} بدلاً من حذفه.,

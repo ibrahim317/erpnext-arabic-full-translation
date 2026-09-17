@@ -776,7 +776,7 @@ msgstr ""
 #. 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Allow Employee Checkin from Mobile App"
-msgstr "السماح للموظف بالتحقق من تطبيق الهاتف المحمول"
+msgstr "السماح للموظف بتسجيل الحضور من تطبيق الجوال"
 
 #. Label of the allow_encashment (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -830,7 +830,7 @@ msgstr "السماح للمستخدمين"
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Allow check-out after shift end time (in minutes)"
-msgstr "السماح بتسجيل المغادرة بعد وقت انتهاء التحول (بالدقائق)"
+msgstr "السماح بتسجيل المغادرة بعد وقت انتهاء الوردية (بالدقائق)"
 
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
@@ -853,7 +853,7 @@ msgstr "يسمح بتخصيص إجازات أكثر من عدد الأيام ف�
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Alternating entries as IN and OUT during the same shift"
-msgstr "بالتناوب إدخالات مثل IN و OUT خلال نفس التحول"
+msgstr "تبديل القيود بالتناوب بين دخول (IN) وخروج (OUT) خلال الوردية نفسها"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:50
 msgid "Amount Based on Formula"
@@ -993,7 +993,7 @@ msgstr "مقدم الطلب للحصول على وظيفة"
 
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:44
 msgid "Applicant name"
-msgstr "اسم التطبيق"
+msgstr "اسم مقدم الطلب"
 
 #. Label of a Card Break in the Leaves Workspace
 #: hrms/hr/workspace/leaves/leaves.json
@@ -1090,7 +1090,7 @@ msgstr "محتوى رسالة التعيين"
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:44
 #: hrms/workspace_sidebar/performance.json
 msgid "Appraisal"
-msgstr "تقييم"
+msgstr "تقييم الأداء"
 
 #. Label of the appraisal_cycle (Link) field in DocType 'Appraisal'
 #. Name of a DocType
@@ -1478,7 +1478,7 @@ msgstr "لقد تم بالفعل تحديد الحضور لجميع الموظف
 
 #: hrms/hr/doctype/attendance/attendance.py:123
 msgid "Attendance for employee {0} is already marked for an overlapping shift {1}: {2}"
-msgstr "تم وضع علامة على الحضور للموظف {0} للتحول المتداخل {1}: {2}"
+msgstr "تم بالفعل وضع علامة حضور للموظف {0} لوردية متداخلة {1}: {2}"
 
 #: hrms/hr/doctype/attendance/attendance.py:77
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
@@ -1663,7 +1663,7 @@ msgstr "الأساسي والمتغير وبدل الإجازة"
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Begin check-in before shift start time (in minutes)"
-msgstr "ابدأ تسجيل الوصول قبل وقت بدء التحول (بالدقائق)"
+msgstr "ابدأ تسجيل الوصول قبل وقت بدء الوردية (بالدقائق)"
 
 #: hrms/controllers/employee_reminders.py:75
 msgid "Below is the list of upcoming holidays for you:"
@@ -3088,7 +3088,7 @@ msgstr "تفصيل التكلفة الإجمالية للموظف على الش�
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Employee Checkin"
-msgstr "فحص الموظف"
+msgstr "تسجيل حضور الموظف"
 
 #: frontend/src/views/attendance/EmployeeCheckinList.vue:5
 msgid "Employee Checkin History"
@@ -3376,7 +3376,7 @@ msgstr "تم الاحتفاظ بالموظف"
 #: hrms/hr/doctype/employee_separation/employee_separation.json
 #: hrms/workspace_sidebar/tenure.json
 msgid "Employee Separation"
-msgstr "فصل الموظف"
+msgstr "إنهاء خدمة الموظف"
 
 #. Label of the employee_separation_template (Link) field in DocType 'Employee
 #. Separation'
@@ -6054,8 +6054,8 @@ msgid ""
 "all Logs are synced from all the locations. Please don't modify this if you are "
 "unsure."
 msgstr ""
-"آخر مزامنة ناجحة معروفة لفحص الموظف. أعد ضبط هذا فقط إذا كنت متأكدًا من مزامنة جميع "
-"السجلات من جميع المواقع. يرجى عدم تعديل هذا إذا كنت غير متأكد."
+"آخر مزامنة ناجحة معروفة لتسجيل حضور الموظف. أعد ضبط هذا فقط إذا كنت متأكدًا من مزامنة"
+" جميع السجلات من جميع المواقع. يرجى عدم تعديل هذا إذا كنت غير متأكد."
 
 #. Label of the last_odometer (Int) field in DocType 'Vehicle Log'
 #: hrms/hr/doctype/vehicle_log/vehicle_log.json
@@ -6662,7 +6662,7 @@ msgstr "نوع السجل"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:83
 msgid "Log Type is required for check-ins falling in the shift: {0}."
-msgstr "نوع السجل مطلوب لتسجيلات الوقوع في التحول: {0}."
+msgstr "نوع السجل مطلوب لتسجيلات الحضور الواقعة في الوردية: {0}."
 
 #: frontend/src/views/InvalidEmployee.vue:7
 msgid "Login Failed"
@@ -6763,7 +6763,7 @@ msgstr "هل تريد تسجيل الحضور كـ {0} لـ {1} في التوا�
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Mark attendance based on 'Employee Checkin' for Employees assigned to this shift."
-msgstr "حدد الحضور استنادًا إلى \"فحص الموظف\" للموظفين المعينين لهذا التحول."
+msgstr "حدد الحضور استنادًا إلى \"تسجيل حضور الموظف\" للموظفين المعينين لهذه الوردية."
 
 #: hrms/hr/doctype/shift_type/shift_type.py:98
 msgid "Mark attendance for existing check-in/out logs before changing shift settings"
@@ -7601,7 +7601,7 @@ msgstr "يمكن اعتماد الطلبات التي حالتها 'معتمدة
 
 #: hrms/hr/doctype/shift_request/shift_request.py:46
 msgid "Only Shift Request with status 'Approved' and 'Rejected' can be submitted"
-msgstr "يمكن فقط تقديم طلب التحول بالحالة \"موافق عليه\" و \"مرفوض\""
+msgstr "لا يمكن ترحيل طلب الوردية إلا بالحالة \"موافق عليه\" أو \"مرفوض\""
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:34
 msgid "Only expired allocation can be cancelled"
@@ -10374,7 +10374,7 @@ msgstr "وقف المستخدمين من طلب إجازة في الأيام ا�
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Strictly based on Log Type in Employee Checkin"
-msgstr "يعتمد بشكل صارم على نوع السجل في فحص الموظف"
+msgstr "يعتمد بشكل صارم على نوع السجل في تسجيل حضور الموظف"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:268
 msgid "Structures have been assigned successfully"
@@ -10689,13 +10689,13 @@ msgstr ""
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time after the shift start time when check-in is considered as late (in minutes)."
-msgstr "الوقت بعد وقت بدء التحول عندما يُعتبر تسجيل الوصول متأخرًا (بالدقائق)."
+msgstr "الوقت بعد وقت بدء الوردية عندما يُعتبر تسجيل الوصول متأخرًا (بالدقائق)."
 
 #. Description of the 'Early Exit Grace Period' (Int) field in DocType 'Shift
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time before the shift end time when check-out is considered as early (in minutes)."
-msgstr "الوقت الذي يسبق وقت نهاية التحول عندما يتم تسجيل المغادرة في وقت مبكر (بالدقائق)."
+msgstr "الوقت الذي يسبق وقت نهاية الوردية عندما يتم تسجيل المغادرة في وقت مبكر (بالدقائق)."
 
 #. Description of the 'Begin check-in before shift start time (in minutes)'
 #. (Int) field in DocType 'Shift Type'
@@ -10703,7 +10703,7 @@ msgstr "الوقت الذي يسبق وقت نهاية التحول عندما �
 msgid ""
 "The time before the shift start time during which Employee Check-in is considered for"
 " attendance."
-msgstr "الوقت الذي يسبق وقت بدء التحول الذي يتم خلاله فحص تسجيل الموظف للحضور."
+msgstr "الوقت الذي يسبق وقت بدء الوردية الذي يتم خلاله تسجيل حضور الموظف."
 
 #. Option for the 'Type' (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
@@ -11962,7 +11962,7 @@ msgstr "لا يمكنك تحديد شرائح متعددة إذا كان لدي�
 
 #: hrms/hr/doctype/shift_request/shift_request.py:82
 msgid "You can not request for your Default Shift: {0}"
-msgstr "لا يمكنك طلب التحول الافتراضي الخاص بك: {0}"
+msgstr "لا يمكنك طلب الوردية الافتراضية الخاصة بك: {0}"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:95
 msgid ""

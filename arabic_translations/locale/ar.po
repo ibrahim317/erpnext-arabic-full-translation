@@ -145,7 +145,7 @@ msgstr "لا يمكن أن يكون \"من التاريخ\" أكبر من أو �
 
 #. source: erpnext
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
-msgstr "\"أصل ثابت\" لا يمكن أن يكون غير محدد، حيث يوجد سجل أصول مقابل البند"
+msgstr "لا يمكن إلغاء تحديد \"أصل ثابت\"، نظراً لوجود سجل أصل مرتبط بهذا الصنف"
 
 #. source: frappe
 msgid "\"Parent\" signifies the parent table in which this row must be added"
@@ -317,7 +317,7 @@ msgstr "'على أساس' و 'المجموعة حسب' لا يمكن أن يكو
 
 #. source: erpnext
 msgid "'Days Since Last Order' must be greater than or equal to zero"
-msgstr "يجب أن تكون \"الأيام منذ آخر طلب\" أكبر من أو تساوي الصفر"
+msgstr "يجب أن تكون \"الأيام منذ آخر أمر\" أكبر من أو تساوي الصفر"
 
 #. source: erpnext
 msgid "'Default {0} Account' in Company {1}"
@@ -333,7 +333,7 @@ msgstr "من تاريخ (مطلوب)"
 
 #. source: erpnext
 msgid "'From Date' must be after 'To Date'"
-msgstr "\"من تاريخ \" يجب أن يكون بعد \" إلى تاريخ \""
+msgstr "يجب أن يكون \"من تاريخ\" بعد \"إلى تاريخ\""
 
 #. source: erpnext
 msgid "'Has Serial No' can not be 'Yes' for non-stock item"
@@ -389,7 +389,7 @@ msgstr "لا يمكن تحديد خيار \"تحديث المخزون\" لأن �
 
 #. source: erpnext
 msgid "'Update Stock' cannot be checked for fixed asset sale"
-msgstr "لا يمكن التحقق من ' تحديث المخزون ' لبيع الأصول الثابتة"
+msgstr "لا يمكن تحديد خيار 'تحديث المخزون' عند بيع أصل ثابت"
 
 #. source: erpnext
 msgid "'Verification Link Expiry Duration' must be between 15 to 60 minutes."
@@ -537,7 +537,7 @@ msgstr "0 - 30 يومًا"
 
 #. source: frappe
 msgid "0 - Draft; 1 - Submitted; 2 - Cancelled"
-msgstr "0 - مسودّة؛ 1 - تأكيد؛ 2 - إلغاء"
+msgstr "0 - مسودة؛ 1 - مُرحَّل؛ 2 - ملغى"
 
 #. source: frappe
 msgid ""
@@ -948,7 +948,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "<b>From Time</b> cannot be later than <b>To Time</b> for {0}"
-msgstr "<b>من الوقت</b> لا يمكن أن يكون بعد من <b>إلى الوقت</b> لـ {0}"
+msgstr "<b>وقت البدء</b> لا يمكن أن يكون بعد <b>وقت الانتهاء</b> لـ {0}"
 
 #. source: erpnext
 msgid ""
@@ -2387,7 +2387,7 @@ msgstr "قائمة الأسعار هي مجموعة من أسعار الأصنا
 
 #. source: erpnext
 msgid "A Product or a Service that is bought, sold or kept in stock."
-msgstr "منتج أو خدمة يتم شراؤها أو بيعها أو الاحتفاظ بها في المخزون."
+msgstr "سلعة أو خدمة يتم شراؤها أو بيعها أو تخزينها."
 
 #. source: erpnext
 msgid "A Reconciliation Job {0} is running for the same filters. Cannot reconcile now"
@@ -2885,7 +2885,7 @@ msgstr "حساب"
 msgid ""
 "Account / customer numbers assigned to your companies by this supplier (for "
 "reconciliation on their statements)"
-msgstr "أرقام الحسابات / الزبائن التي خصصها هذا المورد لشركاتك (للتسوية على كشوفاتهم)"
+msgstr "أرقام الحسابات / الزبائن المخصصة لشركاتك من قِبل هذا المورّد (للتسوية على كشوفاتهم)"
 
 #. source: erpnext
 msgid "Account Balance"
@@ -2973,11 +2973,11 @@ msgstr "رصيد افتتاح الحساب"
 
 #. source: erpnext
 msgid "Account Paid From"
-msgstr "مدفوع من حساب"
+msgstr "الحساب المدفوع منه"
 
 #. source: erpnext
 msgid "Account Paid To"
-msgstr "حساب مدفوع ل"
+msgstr "الحساب المدفوع إليه"
 
 #. source: erpnext
 msgid "Account Pay Only"
@@ -3051,9 +3051,7 @@ msgstr ""
 msgid ""
 "Account type cannot be set for payroll payable account {0}, please remove and try "
 "again"
-msgstr ""
-"لا يمكن تعيين نوع الحساب لحساب كشوف المرتبات المستحقة الدفع {0} ، يرجى الإزالة "
-"والمحاولة مرة أخرى"
+msgstr "لا يمكن تحديد نوع الحساب لحساب مخصص الرواتب {0}، يرجى الحذف ثم إعادة المحاولة"
 
 #. source: hrms
 msgid ""
@@ -3181,9 +3179,7 @@ msgstr "الحساب {0}: لا يمكنك جعله حساب رئيسي"
 msgid ""
 "Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal "
 "Entry"
-msgstr ""
-"الحساب: <b>{0}</b> عبارة \"Capital work\" قيد التقدم ولا يمكن تحديثها بواسطة \"قيد "
-"اليومية\""
+msgstr "الحساب: <b>{0}</b> هو حساب مشروعات تحت التنفيذ ولا يمكن تحديثه بواسطة قيد اليومية"
 
 #. source: erpnext
 msgid "Account: {0} can only be updated via Stock Transactions"
@@ -4982,7 +4978,7 @@ msgstr "مقابل الحساب"
 
 #. source: erpnext
 msgid "Against Blanket Order"
-msgstr "مقابل الأمر الشامل"
+msgstr "مقابل أمر التوريد الشامل"
 
 #. source: erpnext
 msgid "Against Customer Order {0}"
@@ -5352,7 +5348,7 @@ msgstr "تم استلام جميع الأصناف بالفعل"
 
 #. source: erpnext
 msgid "All items have already been transferred for this Work Order."
-msgstr "جميع الأصناف تم نقلها لأمر العمل"
+msgstr "تم بالفعل نقل جميع الأصناف لأمر العمل هذا."
 
 #. source: erpnext
 msgid "All items in this document already have a linked Quality Inspection."
@@ -5620,7 +5616,7 @@ msgstr "السماح بتحرير الأصناف والكميات في أمر ا
 
 #. source: hrms
 msgid "Allow Employee Checkin from Mobile App"
-msgstr "السماح للموظف بالتحقق من تطبيق الهاتف المحمول"
+msgstr "السماح للموظف بتسجيل الحضور من تطبيق الجوال"
 
 #. source: hrms
 msgid "Allow Encashment"
@@ -5736,7 +5732,7 @@ msgstr "السماح باستهلاك المواد المتعددة"
 
 #. source: erpnext
 msgid "Allow Multiple Sales Orders Against a Customer's Purchase Order"
-msgstr "السماح بأوامر مبيعات متعددة مقابل طلب الشراء الخاص بالزبون"
+msgstr "السماح بأوامر بيع متعددة مقابل أمر شراء الزبون"
 
 #. source: hrms
 msgid "Allow Multiple Shift Assignments for Same Date"
@@ -5940,7 +5936,7 @@ msgstr "السماح بالموافقة على منشئ المستند"
 
 #. source: hrms
 msgid "Allow check-out after shift end time (in minutes)"
-msgstr "السماح بتسجيل المغادرة بعد وقت انتهاء التحول (بالدقائق)"
+msgstr "السماح بتسجيل المغادرة بعد وقت انتهاء الوردية (بالدقائق)"
 
 #. source: hrms
 msgid "Allow claim for full benefit amount"
@@ -6443,7 +6439,7 @@ msgstr "صنف بديل"
 
 #. source: hrms
 msgid "Alternating entries as IN and OUT during the same shift"
-msgstr "بالتناوب إدخالات مثل IN و OUT خلال نفس التحول"
+msgstr "تبديل القيود بالتناوب بين دخول (IN) وخروج (OUT) خلال الوردية نفسها"
 
 #. source: frappe
 msgid "Alternative Email ID"
@@ -6515,12 +6511,12 @@ msgstr "المستندات المعدلة"
 
 #. source: frappe
 msgid "Amended From"
-msgstr "معدل من"
+msgstr "معدَّل من"
 
 #. source: frappe
 msgctxt "Freeze message while amending a document"
 msgid "Amending"
-msgstr "المعدل"
+msgstr "جارٍ التعديل"
 
 #. source: frappe
 msgid "Amendment Naming Override"
@@ -7140,7 +7136,7 @@ msgstr "مقدم الطلب للحصول على وظيفة"
 
 #. source: hrms
 msgid "Applicant name"
-msgstr "اسم التطبيق"
+msgstr "اسم مقدم الطلب"
 
 #. source: hrms
 msgid "Applicant-to-Hire Percentage"
@@ -7176,7 +7172,7 @@ msgstr "التطبيق غير مثبت"
 
 #. source: erpnext
 msgid "Application of Funds (Assets)"
-msgstr "استخدام الاموال (الأصول)"
+msgstr "استخدامات الأموال (الأصول)"
 
 #. source: hrms
 msgid "Application period cannot be across two allocation records"
@@ -7208,7 +7204,7 @@ msgstr "يطبق على كل قراءة."
 
 #. source: erpnext
 msgid "Applied putaway rules."
-msgstr "تم تطبيق قواعد التخزين."
+msgstr "تم تطبيق قواعد التخزين الموضعي."
 
 #. source: erpnext
 msgid "Applies To"
@@ -7285,7 +7281,7 @@ msgstr "تنطبق على"
 
 #. source: erpnext
 msgid "Apply Putaway Rule"
-msgstr "تطبيق قاعدة التخزين"
+msgstr "تطبيق قاعدة التخزين الموضعي"
 
 #. source: erpnext
 msgid "Apply Recursion Over (As Per Transaction UOM)"
@@ -7488,7 +7484,7 @@ msgstr "المواعيد المنشأة يدويًا لا يمكن أن تكون
 
 #. source: hrms
 msgid "Appraisal"
-msgstr "تقييم"
+msgstr "تقييم الأداء"
 
 #. source: hrms
 msgid "Appraisal Cycle"
@@ -8221,7 +8217,7 @@ msgstr "تم تخريد الأصل"
 
 #. source: erpnext
 msgid "Asset scrapped via Journal Entry {0}"
-msgstr "ألغت الأصول عن طريق قيد اليومية {0}"
+msgstr "تم تخريد الأصل عن طريق قيد اليومية {0}"
 
 #. source: erpnext
 msgid "Asset sold"
@@ -8848,7 +8844,7 @@ msgstr "لقد تم بالفعل تحديد الحضور لجميع الموظف
 
 #. source: hrms
 msgid "Attendance for employee {0} is already marked for an overlapping shift {1}: {2}"
-msgstr "تم وضع علامة على الحضور للموظف {0} للتحول المتداخل {1}: {2}"
+msgstr "تم بالفعل وضع علامة حضور للموظف {0} لوردية متداخلة {1}: {2}"
 
 #. source: hrms
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
@@ -10082,7 +10078,7 @@ msgstr "الصرف العكسي للمواد الخام من مستودع الع
 
 #. source: erpnext
 msgid "Backflush Raw Materials of Subcontract Based On"
-msgstr "Backflush المواد الخام من العقد من الباطن"
+msgstr "الصرف العكسي للمواد الخام للتعاقد من الباطن بناءً على"
 
 #. source: erpnext
 msgid "Backflush raw materials of subcontract based on"
@@ -10337,11 +10333,11 @@ msgstr "رسوم بنكية، رواتب، إلخ."
 
 #. source: erpnext
 msgid "Bank Clearance"
-msgstr "مقاصة البنك"
+msgstr "المقاصة البنكية"
 
 #. source: erpnext
 msgid "Bank Clearance Detail"
-msgstr "تفاصيل التخليص المصرفي"
+msgstr "تفاصيل المقاصة البنكية"
 
 #. source: erpnext
 msgid "Bank Clearance Summary"
@@ -10935,7 +10931,7 @@ msgstr "ابدأ (بالأيام)"
 
 #. source: hrms
 msgid "Begin check-in before shift start time (in minutes)"
-msgstr "ابدأ تسجيل الوصول قبل وقت بدء التحول (بالدقائق)"
+msgstr "ابدأ تسجيل الوصول قبل وقت بدء الوردية (بالدقائق)"
 
 #. source: frappe
 msgid "Begin typing for results."
@@ -11291,19 +11287,19 @@ msgstr "نموذج فارغ"
 
 #. source: erpnext
 msgid "Blanket Order"
-msgstr "أمر شامل"
+msgstr "أمر توريد شامل"
 
 #. source: erpnext
 msgid "Blanket Order Allowance (%)"
-msgstr "نسبة السماح للأمر الشامل (٪)"
+msgstr "نسبة السماح لأمر التوريد الشامل (٪)"
 
 #. source: erpnext
 msgid "Blanket Order Item"
-msgstr "صنف الأمر الشامل"
+msgstr "صنف أمر التوريد الشامل"
 
 #. source: erpnext
 msgid "Blanket Order Rate"
-msgstr "سعر الأمر الشامل"
+msgstr "سعر أمر التوريد الشامل"
 
 #. source: erpnext
 msgid "Blanket Orders"
@@ -13586,11 +13582,11 @@ msgstr "أمين الصندوق"
 
 #. source: erpnext
 msgid "Cashier Closing"
-msgstr "إغلاق أمين الصندوق"
+msgstr "إقفال الصندوق"
 
 #. source: erpnext
 msgid "Cashier Closing Payments"
-msgstr "مدفوعات إغلاق أمين الصندوق"
+msgstr "مدفوعات إقفال الصندوق"
 
 #. source: erpnext
 msgid "Cashier is currently assigned to another POS."
@@ -14407,7 +14403,7 @@ msgstr "المبلغ المطالب به"
 
 #. source: erpnext
 msgid "Claimed Landed Cost Amount (Company Currency)"
-msgstr "مبلغ التكلفة النهائية المطالب بها (عملة الشركة)"
+msgstr "مبلغ تكاليف الشحن المطالب به (عملة الشركة)"
 
 #. source: hrms
 msgid "Claimed amount of employee {0} exceeds maximum amount eligible for claim {1}"
@@ -18602,15 +18598,15 @@ msgstr "كود صنف الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order"
-msgstr "طلب شراء الزبون"
+msgstr "أمر شراء الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order Date"
-msgstr "تاريخ أمر الشراء الزبون"
+msgstr "تاريخ أمر شراء الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order No"
-msgstr "رقم أمر الشراء الصادر من الزبون"
+msgstr "رقم أمر شراء الزبون"
 
 #. source: erpnext
 msgid "Customer's Vendor"
@@ -19135,11 +19131,11 @@ msgstr "الأيام المتبقية"
 
 #. source: erpnext
 msgid "Days Since Last Order"
-msgstr "أيام منذ آخر طلب"
+msgstr "الأيام منذ آخر أمر"
 
 #. source: erpnext
 msgid "Days Since Last order"
-msgstr "الأيام منذ آخر طلب"
+msgstr "الأيام منذ آخر أمر"
 
 #. source: erpnext
 msgid "Days Until Due"
@@ -20391,7 +20387,7 @@ msgstr "تم التسليم بواسطة المورّد"
 
 #. source: erpnext
 msgid "Delivered by Supplier (Drop Ship)"
-msgstr "سلمت من قبل مورد (إسقاط عملية الشحن)"
+msgstr "يُسلَّم من قبل المورد (شحن مباشر)"
 
 #. source: erpnext
 msgid "Delivered: {0}"
@@ -22446,7 +22442,7 @@ msgstr "رخصة قيادة الفئة"
 
 #. source: erpnext
 msgid "Drop Ship"
-msgstr "إسقاط الشحن"
+msgstr "شحن مباشر"
 
 #. source: erpnext
 msgid "Drop a file here, or click to select a file"
@@ -22514,7 +22510,7 @@ msgstr "بسبب إدخال إقفال المخزون {0}، لا يمكنك إع
 
 #. source: erpnext
 msgid "Dunning"
-msgstr "إنذار بالدفع"
+msgstr "إشعار المطالبة"
 
 #. source: erpnext
 msgid "Dunning Amount"
@@ -22530,11 +22526,11 @@ msgstr "رسوم المطالبة"
 
 #. source: erpnext
 msgid "Dunning Letter"
-msgstr "رسالة تذكير"
+msgstr "خطاب المطالبة بالسداد"
 
 #. source: erpnext
 msgid "Dunning Letter Text"
-msgstr "طلب نص الرسالة"
+msgstr "نص خطاب المطالبة"
 
 #. source: erpnext
 msgid "Dunning Letter for Dunning Type {0} in language '{1}' not found."
@@ -22550,7 +22546,7 @@ msgstr "مستوى المطالبة"
 
 #. source: erpnext
 msgid "Dunning Type"
-msgstr "نوع الطلب"
+msgstr "نوع المطالبة"
 
 #. source: frappe
 msgid "Duplicate"
@@ -23684,7 +23680,7 @@ msgstr "تفصيل التكلفة الإجمالية للموظف على الش�
 
 #. source: hrms
 msgid "Employee Checkin"
-msgstr "فحص الموظف"
+msgstr "تسجيل حضور الموظف"
 
 #. source: hrms
 msgid "Employee Checkin History"
@@ -23888,7 +23884,7 @@ msgstr "تم الاحتفاظ بالموظف"
 
 #. source: hrms
 msgid "Employee Separation"
-msgstr "فصل الموظف"
+msgstr "إنهاء خدمة الموظف"
 
 #. source: hrms
 msgid "Employee Separation Template"
@@ -35977,7 +35973,7 @@ msgstr "صنف نهائي"
 
 #. source: erpnext
 msgid "Is Fixed Asset"
-msgstr "الأصول الثابتة"
+msgstr "أصل ثابت"
 
 #. source: hrms
 msgid "Is Flexible Benefit"
@@ -36847,7 +36843,7 @@ msgstr "الصنف الذي سيتم تصنيعه أو إعادة تعبئته"
 
 #. source: erpnext
 msgid "Item valuation rate is recalculated considering landed cost voucher amount"
-msgstr "يتم إعادة حساب معدل تقييم الصنف مع الأخذ في الاعتبار مبلغ سند التكلفة المستلمة"
+msgstr "يُعاد حساب سعر تقييم الصنف مع الأخذ في الاعتبار مبلغ سند تكاليف الشحن"
 
 #. source: erpnext
 msgid "Item valuation reposting in progress. Report might show incorrect item valuation."
@@ -37917,43 +37913,43 @@ msgstr "التسمية إلزامية"
 
 #. source: erpnext
 msgid "Landed Cost"
-msgstr "تكلفة الهبوط"
+msgstr "تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Help"
-msgstr "هبطت التكلفة مساعدة"
+msgstr "مساعدة تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Id"
-msgstr "معرف تكلفة الهبوط"
+msgstr "معرف تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Item"
-msgstr "هبوط تكلفة صنف"
+msgstr "صنف تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Purchase Receipt"
-msgstr "تكاليف المشتريات المستلمة"
+msgstr "إيصال شراء تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Report"
-msgstr "تقرير تكلفة الهبوط"
+msgstr "تقرير تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Taxes and Charges"
-msgstr "الضرائب التكلفة هبطت والرسوم"
+msgstr "ضرائب ورسوم تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Vendor Invoice"
-msgstr "فاتورة المورد بتكلفة الشحن"
+msgstr "فاتورة المورد لتكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Voucher"
-msgstr "هبطت التكلفة سند"
+msgstr "سند تكاليف الشحن"
 
 #. source: erpnext
 msgid "Landed Cost Voucher Amount"
-msgstr "التكلفة هبطت قيمة سند"
+msgstr "مبلغ سند تكاليف الشحن"
 
 #. source: frappe
 msgid "Landing Page"
@@ -38089,8 +38085,8 @@ msgid ""
 "all Logs are synced from all the locations. Please don't modify this if you are "
 "unsure."
 msgstr ""
-"آخر مزامنة ناجحة معروفة لفحص الموظف. أعد ضبط هذا فقط إذا كنت متأكدًا من مزامنة جميع "
-"السجلات من جميع المواقع. يرجى عدم تعديل هذا إذا كنت غير متأكد."
+"آخر مزامنة ناجحة معروفة لتسجيل حضور الموظف. أعد ضبط هذا فقط إذا كنت متأكدًا من مزامنة"
+" جميع السجلات من جميع المواقع. يرجى عدم تعديل هذا إذا كنت غير متأكد."
 
 #. source: frappe
 msgid "Last Known Versions"
@@ -39506,7 +39502,7 @@ msgstr "نوع السجل"
 
 #. source: hrms
 msgid "Log Type is required for check-ins falling in the shift: {0}."
-msgstr "نوع السجل مطلوب لتسجيلات الوقوع في التحول: {0}."
+msgstr "نوع السجل مطلوب لتسجيلات الحضور الواقعة في الوردية: {0}."
 
 #. source: frappe
 msgid "Log in to access this page."
@@ -40576,7 +40572,7 @@ msgstr "هل تريد تسجيل الحضور كـ {0} لـ {1} في التوا�
 
 #. source: hrms
 msgid "Mark attendance based on 'Employee Checkin' for Employees assigned to this shift."
-msgstr "حدد الحضور استنادًا إلى \"فحص الموظف\" للموظفين المعينين لهذا التحول."
+msgstr "حدد الحضور استنادًا إلى \"تسجيل حضور الموظف\" للموظفين المعينين لهذه الوردية."
 
 #. source: hrms
 msgid "Mark attendance for existing check-in/out logs before changing shift settings"
@@ -45989,7 +45985,7 @@ msgstr "فقط إرسال السجلات التي تم تحديثها في آخ�
 
 #. source: hrms
 msgid "Only Shift Request with status 'Approved' and 'Rejected' can be submitted"
-msgstr "يمكن فقط تقديم طلب التحول بالحالة \"موافق عليه\" و \"مرفوض\""
+msgstr "لا يمكن ترحيل طلب الوردية إلا بالحالة \"موافق عليه\" أو \"مرفوض\""
 
 #. source: frappe
 msgid "Only System Managers can make this file public."
@@ -48950,7 +48946,7 @@ msgstr "دفع حساب البوابة"
 
 #. source: erpnext
 msgid "Payment Gateway Account not created, please create one manually."
-msgstr "حساب بوابة الدفع لم يتم انشاءه، يرجى إنشاء واحد يدويا."
+msgstr "لم يتم إنشاء حساب بوابة الدفع، يرجى إنشاء واحد يدوياً."
 
 #. source: erpnext
 msgid "Payment Gateway Details"
@@ -50530,7 +50526,7 @@ msgstr "الرجاء إنشاء زبون من الزبون المحتمل {0}."
 
 #. source: erpnext
 msgid "Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled."
-msgstr "يرجى إنشاء سندات تكلفة الهبوط مقابل الفواتير التي تم تمكين 'تحديث المخزون' فيها."
+msgstr "يرجى إنشاء سندات تكاليف الشحن مقابل الفواتير التي تم تمكين 'تحديث المخزون' فيها."
 
 #. source: erpnext
 msgid "Please create a new Accounting Dimension if required."
@@ -54361,11 +54357,11 @@ msgstr "وضع قيد الانتظار"
 
 #. source: erpnext
 msgid "Putaway Rule"
-msgstr "قاعدة التخزين"
+msgstr "قاعدة التخزين الموضعي"
 
 #. source: erpnext
 msgid "Putaway Rule already exists for Item {0} in Warehouse {1}."
-msgstr "قاعدة التخزين موجودة بالفعل للصنف {0} في المستودع {1}."
+msgstr "قاعدة التخزين الموضعي موجودة بالفعل للصنف {0} في المستودع {1}."
 
 #. source: frappe
 msgid "Python"
@@ -64125,7 +64121,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Set Landed Cost Based on Purchase Invoice Rate"
-msgstr "تعيين التكلفة الهابطة بناءً على سعر فاتورة الشراء"
+msgstr "تعيين تكاليف الشحن بناءً على سعر فاتورة الشراء"
 
 #. source: hrms
 msgid "Set Leave Details"
@@ -67531,7 +67527,7 @@ msgstr "صفوف متتالية من مفاتيح سهلة للتخمين"
 
 #. source: hrms
 msgid "Strictly based on Log Type in Employee Checkin"
-msgstr "يعتمد بشكل صارم على نوع السجل في فحص الموظف"
+msgstr "يعتمد بشكل صارم على نوع السجل في تسجيل حضور الموظف"
 
 #. source: frappe
 msgid "Strip EXIF tags from uploaded images"
@@ -70315,7 +70311,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "The following Items, having Putaway Rules, could not be accomodated:"
-msgstr "لم يتم استيعاب الأصناف التالية التي لها قواعد وضع:"
+msgstr "تعذّر استيعاب الأصناف التالية التي لها قواعد تخزين موضعي:"
 
 #. source: erpnext
 msgid "The following Purchase Invoices are not submitted:"
@@ -70819,17 +70815,17 @@ msgstr ""
 
 #. source: hrms
 msgid "The time after the shift start time when check-in is considered as late (in minutes)."
-msgstr "الوقت بعد وقت بدء التحول عندما يُعتبر تسجيل الوصول متأخرًا (بالدقائق)."
+msgstr "الوقت بعد وقت بدء الوردية عندما يُعتبر تسجيل الوصول متأخرًا (بالدقائق)."
 
 #. source: hrms
 msgid "The time before the shift end time when check-out is considered as early (in minutes)."
-msgstr "الوقت الذي يسبق وقت نهاية التحول عندما يتم تسجيل المغادرة في وقت مبكر (بالدقائق)."
+msgstr "الوقت الذي يسبق وقت نهاية الوردية عندما يتم تسجيل المغادرة في وقت مبكر (بالدقائق)."
 
 #. source: hrms
 msgid ""
 "The time before the shift start time during which Employee Check-in is considered for"
 " attendance."
-msgstr "الوقت الذي يسبق وقت بدء التحول الذي يتم خلاله فحص تسجيل الموظف للحضور."
+msgstr "الوقت الذي يسبق وقت بدء الوردية الذي يتم خلاله تسجيل حضور الموظف."
 
 #. source: erpnext
 msgid ""
@@ -73385,7 +73381,7 @@ msgid ""
 "card before submission"
 msgstr ""
 "إجمالي الكمية المكتملة مطلوب لبطاقة العمل {0}، يرجى بدء وإكمال بطاقة العمل قبل "
-"التقديم."
+"الترحيل."
 
 #. source: erpnext
 msgid "Total Consumed Material Cost (via Stock Entry)"
@@ -73633,11 +73629,11 @@ msgstr "إجمالي الأصناف"
 
 #. source: erpnext
 msgid "Total Landed Cost"
-msgstr "إجمالي تكلفة الهبوط"
+msgstr "إجمالي تكاليف الشحن"
 
 #. source: erpnext
 msgid "Total Landed Cost (Company Currency)"
-msgstr "إجمالي تكلفة الشحن (بعملة الشركة)"
+msgstr "إجمالي تكاليف الشحن (عملة الشركة)"
 
 #. source: hrms
 msgid "Total Late Entries"
@@ -77550,7 +77546,7 @@ msgstr "عبر بوابة الزبائن"
 
 #. source: erpnext
 msgid "Via Landed Cost Voucher"
-msgstr "عبر سند التكلفة الهابطة"
+msgstr "عبر سند تكاليف الشحن"
 
 #. source: erpnext
 msgid "Vice President"
@@ -78237,7 +78233,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Warning: Sales Order {0} already exists against Customer's Purchase Order {1}"
-msgstr "تحذير: أمر البيع {0} موجود مسبقاً لأمر الشراء الخاص بالزبون {1}"
+msgstr "تحذير: أمر البيع {0} موجود مسبقاً مقابل أمر شراء الزبون {1}"
 
 #. source: erpnext
 msgid "Warning: This action cannot be undone!"
@@ -79546,31 +79542,31 @@ msgstr "الكتابة"
 
 #. source: erpnext
 msgid "Write Off"
-msgstr "لا تصلح"
+msgstr "شطب"
 
 #. source: erpnext
 msgid "Write Off Account"
-msgstr "شطب حساب"
+msgstr "حساب الشطب"
 
 #. source: erpnext
 msgid "Write Off Amount"
-msgstr "شطب المبلغ"
+msgstr "مبلغ الشطب"
 
 #. source: erpnext
 msgid "Write Off Amount (Company Currency)"
-msgstr "شطب المبلغ (شركة العملات)"
+msgstr "مبلغ الشطب (عملة الشركة)"
 
 #. source: erpnext
 msgid "Write Off Based On"
-msgstr "شطب بناء على"
+msgstr "الشطب بناءً على"
 
 #. source: erpnext
 msgid "Write Off Cost Center"
-msgstr "شطب مركز التكلفة"
+msgstr "مركز تكلفة الشطب"
 
 #. source: erpnext
 msgid "Write Off Difference Amount"
-msgstr "شطب الفرق المبلغ"
+msgstr "مبلغ فرق الشطب"
 
 #. source: erpnext
 msgid "Write Off Entry"
@@ -79981,7 +79977,7 @@ msgstr "يمكنك أن تطلب من فريقك إعادة إرسال الدع�
 
 #. source: frappe
 msgid "You can change Submitted documents by cancelling them and then, amending them."
-msgstr "يمكنك تغيير المستندات المقدمة عن طريق إلغائها ثم تعديلها."
+msgstr "يمكنك تغيير المستندات المرحَّلة عن طريق إلغائها ثم تعديلها."
 
 #. source: erpnext
 msgid ""
@@ -80025,7 +80021,7 @@ msgstr "لا يمكنك إدخال السند الحالي في عمود \"قي�
 
 #. source: hrms
 msgid "You can not request for your Default Shift: {0}"
-msgstr "لا يمكنك طلب التحول الافتراضي الخاص بك: {0}"
+msgstr "لا يمكنك طلب الوردية الافتراضية الخاصة بك: {0}"
 
 #. source: frappe
 msgid "You can only edit your own replies."

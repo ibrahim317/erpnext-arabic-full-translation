@@ -3256,7 +3256,7 @@ msgstr "+ إضافة / إزالة حقول"
 #. State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "0 - Draft; 1 - Submitted; 2 - Cancelled"
-msgstr "0 - مسودّة؛ 1 - تأكيد؛ 2 - إلغاء"
+msgstr "0 - مسودة؛ 1 - مُرحَّل؛ 2 - ملغى"
 
 #. Description of the 'Priority' (Int) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -5208,12 +5208,12 @@ msgstr "المستندات المعدلة"
 #: frappe/core/doctype/transaction_log/transaction_log.json
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
 msgid "Amended From"
-msgstr "معدل من"
+msgstr "معدَّل من"
 
 #: frappe/public/js/frappe/form/save.js:12
 msgctxt "Freeze message while amending a document"
 msgid "Amending"
-msgstr "المعدل"
+msgstr "جارٍ التعديل"
 
 #. Label of the amend_naming_override (Table) field in DocType 'Document
 #. Naming
@@ -33897,7 +33897,7 @@ msgstr "يمكنك أيضًا نسخ {0} هذا ولصقه في متصفحك"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:17
 msgid "You can change Submitted documents by cancelling them and then, amending them."
-msgstr "يمكنك تغيير المستندات المقدمة عن طريق إلغائها ثم تعديلها."
+msgstr "يمكنك تغيير المستندات المرحَّلة عن طريق إلغائها ثم تعديلها."
 
 #: frappe/public/js/frappe/logtypes.js:21
 #, python-brace-format
