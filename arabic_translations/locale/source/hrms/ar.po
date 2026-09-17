@@ -3173,7 +3173,7 @@ msgstr "نطاق مخصص"
 #: hrms/hr/report/project_profitability/project_profitability.js:31
 #: hrms/hr/report/project_profitability/project_profitability.py:133
 msgid "Customer"
-msgstr "العميل"
+msgstr "الزبون"
 
 #. Option for the 'Roster Color' (Select) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
@@ -14736,7 +14736,7 @@ msgstr "تحذير: تم فصل وحدة إدارة القروض عن ERPNext."
 
 #: hrms/setup.py:392
 msgid "Walk In"
-msgstr "عميل غير مسجل"
+msgstr "زبون غير مسجل"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:431
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:157

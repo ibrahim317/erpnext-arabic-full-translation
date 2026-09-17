@@ -503,7 +503,7 @@ msgstr ""
 "<h4>مثال</h4>\n"
 "<pre><code>&lt;h3&gt;{{ doc.select_print_heading or \"فاتورة\" }}&lt;/h3&gt;\n"
 "&lt;div class=\"row\"&gt;\n"
-"\t&lt;div class=\"col-md-3 text-right\"&gt;اسم العميل&lt;/div&gt;\n"
+"\t&lt;div class=\"col-md-3 text-right\"&gt;اسم الزبون&lt;/div&gt;\n"
 "\t&lt;div class=\"col-md-9\"&gt;{{ doc.customer_name }}&lt;/div&gt;\n"
 "&lt;/div&gt;\n"
 "&lt;div class=\"row\"&gt;\n"
@@ -628,7 +628,7 @@ msgstr ""
 "\n"
 "التفاصيل\n"
 "\n"
-"- العميل: {{ customer }}\n"
+"- الزبون: {{ customer }}\n"
 "- المبلغ: {{ grand_total }}\n"
 "</pre>\n"
 "\n"
@@ -687,7 +687,7 @@ msgstr ""
 "&lt;h4&gt;التفاصيل&lt;/h4&gt;\n"
 "\n"
 "&lt;ul&gt;\n"
-"&lt;li&gt;العميل: {{ doc.customer }}\n"
+"&lt;li&gt;الزبون: {{ doc.customer }}\n"
 "&lt;li&gt;المبلغ: {{ doc.grand_total }}\n"
 "&lt;/ul&gt;\n"
 "</pre>"
@@ -10345,7 +10345,7 @@ msgid ""
 "Existing Gravatar URLs may still be stored on User, Contact, and Lead records. Do you"
 " want to delete these URLs now?"
 msgstr ""
-"قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال والعملاء "
+"قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال والزبائن "
 "المحتملين. هل تريد حذف هذه الروابط الآن؟"
 
 #: frappe/public/js/frappe/widgets/base_widget.js:160
@@ -17478,7 +17478,7 @@ msgstr "الاسم لا يمكن أن يحتوي على أحرف خاصة مثل
 
 #: frappe/custom/doctype/custom_field/custom_field.js:91
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr "اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: العميل"
+msgstr "اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: الزبون"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:119
 msgid "Name of the new Print Format"
@@ -27895,7 +27895,7 @@ msgstr "يمكن للمستخدم استيراد سجلات جديدة أو تح
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:28
 msgid "The user can select a Customer in Sales Order but cannot open the Customer master."
-msgstr "يمكن للمستخدم اختيار عميل في أمر البيع ولكن لا يمكنه فتح ملف العميل الرئيسي."
+msgstr "يمكن للمستخدم اختيار زبون في أمر البيع ولكن لا يمكنه فتح ملف الزبون الرئيسي."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:78
 msgid "The user can share document access with another user."
@@ -27906,7 +27906,7 @@ msgid ""
 "The user can update a customer or any other fields in an existing Sales Order but "
 "cannot create a new Sales Order."
 msgstr ""
-"يمكن للمستخدم تحديث العميل أو أي حقول أخرى في أمر بيع موجود ولكن لا يمكنه إنشاء أمر "
+"يمكن للمستخدم تحديث الزبون أو أي حقول أخرى في أمر بيع موجود ولكن لا يمكنه إنشاء أمر "
 "بيع جديد."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:33
@@ -32755,7 +32755,7 @@ msgstr "تنازلي"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:169
 msgid "document type..., e.g. customer"
-msgstr "نوع الوثيقة...، على سبيل المثال العملاء"
+msgstr "نوع الوثيقة...، على سبيل المثال الزبائن"
 
 #. Option for the 'Icon' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json

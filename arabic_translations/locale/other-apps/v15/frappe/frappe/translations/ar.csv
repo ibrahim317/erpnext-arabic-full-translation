@@ -109,7 +109,7 @@
 <h4>مثال</h4>
 <pre><code>&lt;h3&gt;{{ doc.select_print_heading or ""فاتورة"" }}&lt;/h3&gt;
 &lt;div class=""row""&gt;
-	&lt;div class=""col-md-3 text-right""&gt;اسم العميل&lt;/div&gt;
+	&lt;div class=""col-md-3 text-right""&gt;اسم الزبون&lt;/div&gt;
 	&lt;div class=""col-md-9""&gt;{{ doc.customer_name }}&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=""row""&gt;
@@ -215,7 +215,7 @@ Last comment: {{ comments[-1].comment }} by {{ comments[-1].by }}
 &lt;h4&gt;التفاصيل&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;العميل: {{ doc.customer }}
+&lt;li&gt;الزبون: {{ doc.customer }}
 &lt;li&gt;المبلغ: {{ doc.grand_total }}
 &lt;/ul&gt;
 </pre>",
@@ -663,9 +663,9 @@ The user can create a new Item but cannot edit existing items.,يمكن للمس
 The user can delete Draft / Cancelled documents.,يمكن للمستخدم حذف المستندات المسودة أو الملغاة.,
 The user can export report data.,يمكن للمستخدم تصدير بيانات التقرير.,
 The user can import new records or update existing data for the document.,يمكن للمستخدم استيراد سجلات جديدة أو تحديث البيانات الموجودة للمستند.,
-The user can select a Customer in Sales Order but cannot open the Customer master.,يمكن للمستخدم اختيار عميل في أمر البيع ولكن لا يمكنه فتح ملف العميل الرئيسي.,
+The user can select a Customer in Sales Order but cannot open the Customer master.,يمكن للمستخدم اختيار زبون في أمر البيع ولكن لا يمكنه فتح ملف الزبون الرئيسي.,
 The user can share document access with another user.,يمكن للمستخدم مشاركة الوصول للمستند مع مستخدم آخر.,
-The user can update a customer or any other fields in an existing Sales Order but cannot create a new Sales Order.,يمكن للمستخدم تحديث العميل أو أي حقول أخرى في أمر بيع موجود ولكن لا يمكنه إنشاء أمر بيع جديد.,
+The user can update a customer or any other fields in an existing Sales Order but cannot create a new Sales Order.,يمكن للمستخدم تحديث الزبون أو أي حقول أخرى في أمر بيع موجود ولكن لا يمكنه إنشاء أمر بيع جديد.,
 The user can view Sales Invoices but cannot modify any field values in them.,يمكن للمستخدم عرض فواتير البيع ولكن لا يمكنه تعديل أي قيم حقول فيها.,
 "The value of the field {0} is too long in the {1} document. To resolve this issue, please reduce the value length or change the {0} field Type to Long Text using customize form, and then try again.",قيمة الحقل {0} طويلة جداً في المستند {1}. لحل هذه المشكلة، يرجى تقليل طول القيمة أو تغيير نوع الحقل {0} إلى نص طويل (Long Text) باستخدام تخصيص النموذج، ثم المحاولة مرة أخرى.,
 "There is no task called ""{}""","لا توجد مهمة تسمى ""{}""",
@@ -1029,7 +1029,7 @@ Details
 
 التفاصيل
 
-- العميل: {{ customer }}
+- الزبون: {{ customer }}
 - المبلغ: {{ grand_total }}
 </pre>
 
@@ -2798,7 +2798,7 @@ Field type cannot be changed for {0},لا يمكن تغيير نوع الحقل 
 Field {0} does not exist on {1},الحقل {0} غير موجود في {1},
 Field {0} is referring to non-existing doctype {1}.,الحقل {0} يشير إلى نوع مستند غير موجود {1}.,
 Field {0} not found.,الحقل {0} غير موجود.,
-Field {0} on document {1} is neither a Mobile number field nor a Customer or User link,الحقل {0} في المستند {1} ليس حقل رقم جوال ولا رابط عميل أو مستخدم,
+Field {0} on document {1} is neither a Mobile number field nor a Customer or User link,الحقل {0} في المستند {1} ليس حقل رقم جوال ولا رابط زبون أو مستخدم,
 Fieldname,اسم الحقل,
 Fieldname '{0}' conflicting with a {1} of the name {2} in {3},اسم الحقل '{0}' يتعارض مع {1} بالاسم {2} في {3},
 Fieldname called {0} must exist to enable autonaming,يجب أن يكون اسم الحقل المسمى {0} موجودًا لتمكين التسمية التلقائية,
@@ -3886,7 +3886,7 @@ Name,اسم,
 Name (Doc Name),الاسم (اسم المستند),
 "Name already taken, please set a new name",الاسم مأخوذ بالفعل، يرجى تعيين اسم جديد,
 Name cannot contain special characters like {0},الاسم لا يمكن أن يحتوي على أحرف خاصة مثل {0},
-Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer,اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: العميل,
+Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer,اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: الزبون,
 Name of the new Print Format,اسم الشكل الجديد طباعة,
 Name of {0} cannot be {1},اسم {0} لا يمكن أن يكون {1},
 Names and surnames by themselves are easy to guess.,الأسماء والألقاب في حد ذاتها سهلة التخمين.,
@@ -4133,7 +4133,7 @@ Notification Recipient,مستلم الإعلام,
 Notification Settings,إعدادات الإشعار,
 Notification Subscribed Document,وثيقة الاشتراك المكتوبة,
 Notification sent to,تم إرسال الإشعار إلى,
-Notification: customer {0} has no Mobile number set,إشعار: العميل {0} ليس لديه رقم هاتف محمول معين,
+Notification: customer {0} has no Mobile number set,إشعار: الزبون {0} ليس لديه رقم هاتف محمول معين,
 Notification: document {0} has no {1} number set (field: {2}),إشعار: المستند {0} ليس لديه رقم {1} معين (الحقل: {2}),
 Notification: user {0} has no Mobile number set,إشعار: المستخدم {0} ليس لديه رقم هاتف محمول معين,
 Notifications,الإشعارات,
@@ -6575,7 +6575,7 @@ default,الافتراضي,
 deferred,مؤجل,
 delete,حذف,
 descending,تنازلي,
-"document type..., e.g. customer",نوع الوثيقة...، على سبيل المثال العملاء,
+"document type..., e.g. customer",نوع الوثيقة...، على سبيل المثال الزبائن,
 "e.g. ""Support"", ""Sales"", ""Jerry Yang""","على سبيل المثال، ""الدعم ""،"" المبيعات ""،"" أحمد صالح """,
 e.g. (55 + 434) / 4 or =Math.sin(Math.PI/2)...,على سبيل المثال، (55 + 434) / 4 أو = Math.sin(Math.PI / 2)...,
 e.g. pop.gmail.com / imap.gmail.com,على سبيل المثال، pop.gmail.com / imap.gmail.com,
@@ -6993,7 +6993,7 @@ Enable bulk update of this field across child table rows.,تفعيل التحد�
 Enter the fieldname of the currency field or a cached value (e.g. Company:company:default_currency).,أدخل اسم حقل العملة أو قيمة مخزنة مؤقتًا (مثال: Company:company:default_currency).,
 Examples:,أمثلة:,
 Existing Gravatar URLs may still be stored on User and Contact records. Do you want to delete these URLs now?,قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال. هل تريد حذف هذه الروابط الآن؟,
-"Existing Gravatar URLs may still be stored on User, Contact, and Lead records. Do you want to delete these URLs now?",قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال والعملاء المحتملين. هل تريد حذف هذه الروابط الآن؟,
+"Existing Gravatar URLs may still be stored on User, Contact, and Lead records. Do you want to delete these URLs now?",قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال والزبائن المحتملين. هل تريد حذف هذه الروابط الآن؟,
 Expiration date must be in the future,يجب أن يكون تاريخ الانتهاء في المستقبل,
 Expires,ينتهي في,
 FAILURE,فشل,

@@ -104,11 +104,11 @@ msgstr " ملخص"
 
 #: erpnext/stock/doctype/item/item.py:266
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
-msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن شرائها"
+msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن شرائها"
 
 #: erpnext/stock/doctype/item/item.py:268
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن أن تحتوي على تكلفة"
+msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن أن تحتوي على تكلفة"
 
 #: erpnext/stock/doctype/item/item.py:367
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
@@ -293,11 +293,11 @@ msgstr "% المواد المسلَّمة مقابل أمر البيع هذا"
 
 #: erpnext/controllers/accounts_controller.py:2475
 msgid "'Account' in the Accounting section of Customer {0}"
-msgstr "'الحساب' في قسم المحاسبة للعميل {0}"
+msgstr "'الحساب' في قسم المحاسبة للزبون {0}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:364
 msgid "'Allow Multiple Sales Orders Against a Customer's Purchase Order'"
-msgstr "'السماح بأوامر بيع متعددة مقابل أمر شراء العميل'"
+msgstr "'السماح بأوامر بيع متعددة مقابل أمر شراء الزبون'"
 
 #: erpnext/controllers/trends.py:66
 msgid "'Based On' and 'Group By' can not be same"
@@ -700,7 +700,7 @@ msgstr ""
 "الديناميكية.\n"
 "</li><li>\n"
 "    جميع الحقول في نوع المستند هذا متاحة ضمن كائن <b>doc</b> وجميع الحقول الخاصة "
-"بالعميل الذي سيُرسل إليه البريد متاحة ضمن كائن <b>customer</b>.\n"
+"بالزبون الذي سيُرسل إليه البريد متاحة ضمن كائن <b>customer</b>.\n"
 "</li></ul>\n"
 "<h4> أمثلة</h4>\n"
 "<!-- {% raw %} -->\n"
@@ -789,7 +789,7 @@ msgstr ""
 " هو صنف مبيعات</code> كـ <b>نعم</b>.</p>\n"
 "<h4>مثال:</h4>\n"
 "<p>إذا كنت تبيع أجهزة كمبيوتر محمولة وحقائب ظهر بشكل منفصل ولديك سعر خاص إذا اشترى "
-"العميل كليهما، فسيكون الكمبيوتر المحمول + حقيبة الظهر صنف حزمة منتج جديد.</p>"
+"الزبون كليهما، فسيكون الكمبيوتر المحمول + حقيبة الظهر صنف حزمة منتج جديد.</p>"
 
 #. Content of the 'Help' (HTML) field in DocType 'Currency Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
@@ -879,7 +879,7 @@ msgid ""
 msgstr ""
 "<h4>مثال على قالب العقد</h4>\n"
 "\n"
-"<pre>عقد للعميل {{ party_name }}\n"
+"<pre>عقد للزبون {{ party_name }}\n"
 "\n"
 "-صالح من : {{ start_date }} \n"
 "-صالح حتى : {{ end_date }}\n"
@@ -1300,7 +1300,7 @@ msgstr "أ - ج"
 msgid ""
 "A Customer Group exists with same name please change the Customer name or rename the "
 "Customer Group"
-msgstr "توجد مجموعة عملاء بنفس الاسم، يرجى تغيير اسم العميل أو إعادة تسمية مجموعة العملاء"
+msgstr "توجد مجموعة زبائن بنفس الاسم، يرجى تغيير اسم الزبون أو إعادة تسمية مجموعة الزبائن"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:73
 msgid "A Holiday List can be added to exclude counting these days for the Workstation."
@@ -1308,7 +1308,7 @@ msgstr "يمكن إضافة قائمة عطلات لاستبعاد حساب هذ
 
 #: erpnext/crm/doctype/lead/lead.py:142
 msgid "A Lead requires either a person's name or an organization's name"
-msgstr "يتطلب العميل المحتمل اسم شخص أو اسم مؤسسة"
+msgstr "يتطلب الزبون المحتمل اسم شخص أو اسم مؤسسة"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:84
 msgid "A Packing Slip can only be created for Draft Delivery Note."
@@ -1347,7 +1347,7 @@ msgstr "شرط لقاعدة شحن"
 #. 'Process Statement Of Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 msgid "A customer must have primary contact email."
-msgstr "يجب أن يكون لدى العميل بريد إلكتروني أساسي للاتصال."
+msgstr "يجب أن يكون لدى الزبون بريد إلكتروني أساسي للاتصال."
 
 #. Description of the 'Disabled' (Check) field in DocType 'Product Bundle'
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -1623,7 +1623,7 @@ msgstr "وفقًا لقائمة المواد {0}، الصنف '{1}' مفقود �
 msgid ""
 "Account / customer numbers assigned to your companies by this supplier (for "
 "reconciliation on their statements)"
-msgstr "أرقام الحسابات / العملاء التي خصصها هذا المورد لشركاتك (للتسوية على كشوفاتهم)"
+msgstr "أرقام الحسابات / الزبائن التي خصصها هذا المورد لشركاتك (للتسوية على كشوفاتهم)"
 
 #. Name of a report
 #: erpnext/accounts/report/account_balance/account_balance.json
@@ -2696,7 +2696,7 @@ msgstr "تفعيل الرقم التسلسلي / رقم الدفعة للصنف"
 
 #: erpnext/selling/page/sales_funnel/sales_funnel.py:55
 msgid "Active Leads"
-msgstr "العملاء المحتملون النشطون"
+msgstr "الزبائن المحتملون النشطون"
 
 #. Label of the on_status_image (Attach Image) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
@@ -2955,7 +2955,7 @@ msgstr "إضافة تكلفة التشغيل التصحيحي في تقييم ا
 
 #: erpnext/public/js/event.js:24
 msgid "Add Customers"
-msgstr "إضافة العملاء"
+msgstr "إضافة الزبائن"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:93
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:442
@@ -2982,11 +2982,11 @@ msgstr "إضافة أصناف في جدول الغرض"
 
 #: erpnext/crm/doctype/lead/lead.js:84
 msgid "Add Lead to Prospect"
-msgstr "إضافة عميل محتمل إلى عميل متوقع"
+msgstr "إضافة زبون محتمل إلى زبون متوقع"
 
 #: erpnext/public/js/event.js:16
 msgid "Add Leads"
-msgstr "إضافة العملاء المحتملين"
+msgstr "إضافة الزبائن المحتملين"
 
 #. Label of the add_local_holidays (Section Break) field in DocType 'Holiday
 #. List'
@@ -3156,7 +3156,7 @@ msgid ""
 "Add the rest of your organization as your users. You can also add invite Customers to"
 " your portal by adding them from Contacts"
 msgstr ""
-"أضف بقية أفراد مؤسستك كمستخدمين. يمكنك أيضا إضافة دعوة العملاء إلى بوابتك عن طريق "
+"أضف بقية أفراد مؤسستك كمستخدمين. يمكنك أيضا إضافة دعوة الزبائن إلى بوابتك عن طريق "
 "إضافتهم من جهات الاتصال"
 
 #. Label of the get_weekly_off_dates (Button) field in DocType 'Holiday List'
@@ -3167,7 +3167,7 @@ msgstr "أضف إلى الإجازات"
 
 #: erpnext/crm/doctype/lead/lead.js:38
 msgid "Add to Prospect"
-msgstr "إضافة إلى عميل متوقع"
+msgstr "إضافة إلى زبون متوقع"
 
 #. Label of the add_to_transit (Check) field in DocType 'Stock Entry'
 #. Label of the add_to_transit (Check) field in DocType 'Stock Entry Type'
@@ -3204,7 +3204,7 @@ msgstr "تمت إضافة دور {1} للمستخدم {0}."
 
 #: erpnext/crm/doctype/lead/lead.js:81
 msgid "Adding Lead to Prospect..."
-msgstr "جارٍ إضافة عميل محتمل إلى عميل متوقع..."
+msgstr "جارٍ إضافة زبون محتمل إلى زبون متوقع..."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:451
 msgid "Additional"
@@ -3631,7 +3631,7 @@ msgid ""
 "Advance Account: {0} must be in either customer billing currency: {1} or Company "
 "default currency: {2}"
 msgstr ""
-"حساب الدفعات المقدمة: {0} يجب أن يكون إما بعملة فواتير العميل: {1} أو بعملة الشركة "
+"حساب الدفعات المقدمة: {0} يجب أن يكون إما بعملة فواتير الزبون: {1} أو بعملة الشركة "
 "الافتراضية: {2}"
 
 #. Label of the advance_amount (Currency) field in DocType 'Purchase Invoice
@@ -3808,7 +3808,7 @@ msgstr "مقابل الأمر الشامل"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1156
 msgid "Against Customer Order {0}"
-msgstr "مقابل طلب العميل {0}"
+msgstr "مقابل طلب الزبون {0}"
 
 #. Label of the dn_detail (Data) field in DocType 'Delivery Note Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
@@ -4095,7 +4095,7 @@ msgstr "جميع جهات الاتصال"
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
 msgid "All Customer Contact"
-msgstr "كافة جهات اتصال العميل"
+msgstr "كافة جهات اتصال الزبون"
 
 #: erpnext/patches/v13_0/remove_bad_selling_defaults.py:9
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:168
@@ -4105,7 +4105,7 @@ msgstr "كافة جهات اتصال العميل"
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:189
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:195
 msgid "All Customer Groups"
-msgstr "جميع مجموعات العملاء"
+msgstr "جميع مجموعات الزبائن"
 
 #: erpnext/patches/v11_0/create_department_records_for_each_company.py:23
 #: erpnext/patches/v11_0/update_department_lft_rgt.py:9
@@ -4148,7 +4148,7 @@ msgstr "جميع الأصناف"
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
 msgid "All Lead (Open)"
-msgstr "جميع العملاء المحتملين (مفتوح)"
+msgstr "جميع الزبائن المحتملين (مفتوح)"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.html:114
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.html:113
@@ -4223,7 +4223,7 @@ msgstr "يجب نقل جميع الاتصالات بما في ذلك وما فو
 #. Description of the 'Billing Currency' (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "All invoices and orders for this customer will be created in this currency."
-msgstr "ستُنشأ جميع فواتير وطلبات هذا العميل بهذه العملة."
+msgstr "ستُنشأ جميع فواتير وطلبات هذا الزبون بهذه العملة."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:971
 msgid "All items are already requested"
@@ -4267,7 +4267,7 @@ msgid ""
 " document(Lead -> Opportunity -> Quotation) throughout the CRM documents."
 msgstr ""
 "سيتم نسخ جميع التعليقات ورسائل البريد الإلكتروني من مستند إلى آخر مستند تم إنشاؤه "
-"حديثًا (عميل محتمل -> فرصة -> عرض أسعار) عبر مستندات إدارة علاقات العملاء."
+"حديثًا (زبون محتمل -> فرصة -> عرض أسعار) عبر مستندات إدارة علاقات الزبائن."
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:204
 msgid "All the items have been already returned."
@@ -4475,7 +4475,7 @@ msgstr "السماح بإضافة الصنف عدة مرات في المعامل
 #. 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Allow Lead Duplication based on Emails"
-msgstr "السماح بتكرار العملاء المحتملين بناءً على رسائل البريد الإلكتروني"
+msgstr "السماح بتكرار الزبائن المحتملين بناءً على رسائل البريد الإلكتروني"
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:9
 msgid "Allow Multiple Material Consumption"
@@ -4679,7 +4679,7 @@ msgstr "السماح بفواتير متعددة العملات مقابل حس�
 #. 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow multiple Sales Orders against a customer's Purchase Order"
-msgstr "السماح بأوامر بيع متعددة مقابل أمر شراء العميل الواحد"
+msgstr "السماح بأوامر بيع متعددة مقابل أمر شراء الزبون الواحد"
 
 #. Label of the allow_negative_rates_for_items (Check) field in DocType 'Buying
 #. Settings'
@@ -4842,7 +4842,7 @@ msgstr "المستخدمون المسموح لهم مطلوبون لمزامنة
 msgid ""
 "Allowed primary roles are 'Customer' and 'Supplier'. Please select one of these roles"
 " only."
-msgstr "الأدوار الأساسية المسموح بها هي 'عميل' و 'مورد'. يرجى تحديد أحد هذه الأدوار فقط."
+msgstr "الأدوار الأساسية المسموح بها هي 'زبون' و 'مورد'. يرجى تحديد أحد هذه الأدوار فقط."
 
 #. Label of the companies (Table) field in DocType 'Supplier'
 #. Label of the companies (Table) field in DocType 'Customer'
@@ -6702,7 +6702,7 @@ msgstr "في السطر {0}: قم بتعيين رقم السطر الأصل لل
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.py:226
 msgid "Atleast one raw material for Finished Good Item {0} should be customer provided."
-msgstr "يجب أن يتم توفير مادة خام واحدة على الأقل لصنف المنتج النهائي {0} من قبل العميل."
+msgstr "يجب أن يتم توفير مادة خام واحدة على الأقل لصنف المنتج النهائي {0} من قبل الزبون."
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -6886,7 +6886,7 @@ msgstr "إنشاء طلب مواد تلقائي"
 #. Label of the auto_opt_in (Check) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "Auto Opt In (For all customers)"
-msgstr "الاشتراك التلقائي (لجميع العملاء)"
+msgstr "الاشتراك التلقائي (لجميع الزبائن)"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:66
 msgid "Auto Reconcile"
@@ -9074,14 +9074,14 @@ msgid ""
 "Only users with the role set in Company's \"Roles Allowed to Set and Edit Frozen "
 "Account Entries\" can transact."
 msgstr ""
-"يمنع المعاملات الجديدة والقيود المحاسبية اللاحقة على حساب هذا العميل. يمكن فقط "
+"يمنع المعاملات الجديدة والقيود المحاسبية اللاحقة على حساب هذا الزبون. يمكن فقط "
 "للمستخدمين الحاصلين على الدور المحدد في \"الأدوار المسموح لها بتعيين وتعديل قيود "
 "الحسابات المجمدة\" في الشركة إجراء المعاملات."
 
 #. Description of the 'Disabled' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Blocks this customer from being used on any new transaction."
-msgstr "يمنع استخدام هذا العميل في أي معاملة جديدة."
+msgstr "يمنع استخدام هذا الزبون في أي معاملة جديدة."
 
 #. Label of the blog_subscriber (Check) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -9686,14 +9686,14 @@ msgstr "إدارة علاقات الزبائن"
 #. Name of a DocType
 #: erpnext/crm/doctype/crm_note/crm_note.json
 msgid "CRM Note"
-msgstr "ملاحظة إدارة علاقات العملاء"
+msgstr "ملاحظة إدارة علاقات الزبائن"
 
 #. Name of a DocType
 #. Label of a Workspace Sidebar Item
 #: erpnext/crm/doctype/crm_settings/crm_settings.json erpnext/workspace_sidebar/crm.json
 #: erpnext/workspace_sidebar/erpnext_settings.json
 msgid "CRM Settings"
-msgstr "إعدادات إدارة علاقات العملاء"
+msgstr "إعدادات إدارة علاقات الزبائن"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:67
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:117
@@ -9963,7 +9963,7 @@ msgstr "لا يمكن التصفية بناءً على حساب فرعي، إذ�
 
 #: erpnext/accounts/report/pos_register/pos_register.py:121
 msgid "Can not filter based on Customer, if grouped by Customer"
-msgstr "لا يمكن التصفية بناءً على العميل، إذا تم تجميعه بواسطة العميل"
+msgstr "لا يمكن التصفية بناءً على الزبون، إذا تم تجميعه بواسطة الزبون"
 
 #: erpnext/accounts/report/pos_register/pos_register.py:118
 msgid "Can not filter based on POS Profile, if grouped by POS Profile"
@@ -10375,7 +10375,7 @@ msgstr "لا يمكن إنتاج أكثر من {0} أصناف لـ {1}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:361
 msgid "Cannot receive from customer against negative outstanding"
-msgstr "لا يمكن الاستلام من العميل مقابل رصيد مستحق سالب"
+msgstr "لا يمكن الاستلام من الزبون مقابل رصيد مستحق سالب"
 
 #: erpnext/controllers/accounts_controller.py:4076
 msgid "Cannot reduce quantity than ordered or purchased quantity"
@@ -10403,7 +10403,7 @@ msgstr "لا يمكن استرداد رمز الارتباط. تحقق من سج
 
 #: erpnext/selling/doctype/customer/customer.py:384
 msgid "Cannot select a Group type Customer Group. Please select a non-group Customer Group."
-msgstr "لا يمكن اختيار مجموعة عملاء من نوع مجموعة. يرجى اختيار مجموعة عملاء ليست مجموعة."
+msgstr "لا يمكن اختيار مجموعة زبائن من نوع مجموعة. يرجى اختيار مجموعة زبائن ليست مجموعة."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1516
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1694
@@ -10844,7 +10844,7 @@ msgstr "قم بتغيير هذا التاريخ يدويًا لإعداد تار
 
 #: erpnext/selling/doctype/customer/customer.py:162
 msgid "Changed customer name to '{}' as '{}' already exists."
-msgstr "تم تغيير اسم العميل إلى '{}' لأن '{}' موجود بالفعل."
+msgstr "تم تغيير اسم الزبون إلى '{}' لأن '{}' موجود بالفعل."
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:160
 msgid "Changes in {0}"
@@ -10852,7 +10852,7 @@ msgstr "التغييرات في {0}"
 
 #: erpnext/stock/doctype/item/item.js:383
 msgid "Changing Customer Group for the selected Customer is not allowed."
-msgstr "لا يسمح بتغيير مجموعة العملاء للعميل المحدد."
+msgstr "لا يسمح بتغيير مجموعة الزبائن للزبون المحدد."
 
 #. Description of the 'column_break_mfor' (Column Break) field in DocType
 #. 'Accounts Settings'
@@ -11184,7 +11184,7 @@ msgstr "الفئة / النسبة المئوية"
 #. Description of a DocType
 #: erpnext/setup/doctype/territory/territory.json
 msgid "Classification of Customers by region"
-msgstr "تصنيف العملاء حسب المنطقة"
+msgstr "تصنيف الزبائن حسب المنطقة"
 
 #. Label of the classify_as (Select) field in DocType 'Bank Transaction Rule'
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.json
@@ -11196,7 +11196,7 @@ msgstr "تصنيف كـ"
 msgid ""
 "Classify the type of market this customer belongs to, used for sales analysis and "
 "targeting."
-msgstr "تصنيف نوع السوق الذي ينتمي إليه هذا العميل، ويُستخدم في تحليل المبيعات والاستهداف."
+msgstr "تصنيف نوع السوق الذي ينتمي إليه هذا الزبون، ويُستخدم في تحليل المبيعات والاستهداف."
 
 #. Label of the more_information (Text Editor) field in DocType 'Bank
 #. Guarantee'
@@ -11632,7 +11632,7 @@ msgstr "عمولة على المبيعات"
 #. 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Commission paid to the Sales Partner on transactions with this customer."
-msgstr "العمولة المدفوعة لشريك المبيعات على المعاملات مع هذا العميل."
+msgstr "العمولة المدفوعة لشريك المبيعات على المعاملات مع هذا الزبون."
 
 #. Name of a DocType
 #. Label of the common_code (Data) field in DocType 'Common Code'
@@ -12371,13 +12371,13 @@ msgstr "أرقام تسجيل الشركة و أرقام ملفات الضرائ
 #. Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Company which internal customer represents"
-msgstr "الشركة التي يمثلها العميل الداخلي"
+msgstr "الشركة التي يمثلها الزبون الداخلي"
 
 #. Description of the 'Represents Company' (Link) field in DocType 'Delivery
 #. Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Company which internal customer represents."
-msgstr "الشركة التي يمثلها العميل الداخلي."
+msgstr "الشركة التي يمثلها الزبون الداخلي."
 
 #. Description of the 'Represents Company' (Link) field in DocType 'Purchase
 #. Invoice'
@@ -13184,7 +13184,7 @@ msgstr "يتحكم في كيفية استهلاك المواد الخام أثن
 msgid ""
 "Controls which tax template is auto-applied when this customer is selected on a "
 "transaction."
-msgstr "يحدد قالب الضريبة الذي يُطبَّق تلقائياً عند اختيار هذا العميل في المعاملة."
+msgstr "يحدد قالب الضريبة الذي يُطبَّق تلقائياً عند اختيار هذا الزبون في المعاملة."
 
 #. Label of the conversion_factor (Float) field in DocType 'Loyalty Program'
 #. Label of the conversion_factor (Float) field in DocType 'Purchase Order Item
@@ -13781,7 +13781,7 @@ msgstr "تعذر حذف بيانات العرض التوضيحي"
 
 #: erpnext/selling/doctype/quotation/quotation.py:650
 msgid "Could not auto create Customer due to the following missing mandatory field(s):"
-msgstr "تعذر إنشاء العميل تلقائيًا بسبب الحقول الإلزامية التالية المفقودة:"
+msgstr "تعذر إنشاء الزبون تلقائيًا بسبب الحقول الإلزامية التالية المفقودة:"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:669
 msgid ""
@@ -13942,7 +13942,7 @@ msgstr "إنشاء دليل الحسابات استنادا إلى"
 #. Label of an action in the Onboarding Step 'Create Customer'
 #: erpnext/selling/onboarding_step/create_customer/create_customer.json
 msgid "Create Customer"
-msgstr "إنشاء عميل"
+msgstr "إنشاء زبون"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Delivery Note'
@@ -14024,7 +14024,7 @@ msgstr "إنشاء قيد اليومية"
 
 #: erpnext/utilities/activation.py:79
 msgid "Create Lead"
-msgstr "إنشاء عميل محتمل"
+msgstr "إنشاء زبون محتمل"
 
 #: erpnext/utilities/activation.py:77
 msgid "Create Leads"
@@ -14060,11 +14060,11 @@ msgstr "إنشاء اتصال جديد"
 
 #: erpnext/public/js/call_popup/call_popup.js:128
 msgid "Create New Customer"
-msgstr "إنشاء عميل جديد"
+msgstr "إنشاء زبون جديد"
 
 #: erpnext/public/js/call_popup/call_popup.js:134
 msgid "Create New Lead"
-msgstr "إنشاء عميل محتمل"
+msgstr "إنشاء زبون محتمل"
 
 #: banking/src/components/common/LinkFieldCombobox.tsx:284
 msgid "Create New {0}"
@@ -14119,7 +14119,7 @@ msgstr "إنشاء مشروع"
 
 #: erpnext/crm/doctype/lead/lead_list.js:8
 msgid "Create Prospect"
-msgstr "إنشاء عميل متوقع"
+msgstr "إنشاء زبون متوقع"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Purchase Invoice'
@@ -14694,7 +14694,7 @@ msgstr "الدائن بعملة الشركة"
 #: erpnext/selling/doctype/customer/customer.py:629
 #: erpnext/selling/doctype/customer/customer.py:684
 msgid "Credit limit has been crossed for customer {0} ({1}/{2})"
-msgstr "تم تجاوز حد الائتمان للعميل {0} ({1} / {2})"
+msgstr "تم تجاوز حد الائتمان للزبون {0} ({1} / {2})"
 
 #: erpnext/selling/doctype/customer/customer.py:411
 msgid "Credit limit is already defined for the Company {0}"
@@ -14702,7 +14702,7 @@ msgstr "تم تحديد حد الائتمان بالفعل للشركة {0}"
 
 #: erpnext/selling/doctype/customer/customer.py:683
 msgid "Credit limit reached for customer {0}"
-msgstr "تم بلوغ حد الائتمان للعميل {0}"
+msgstr "تم بلوغ حد الائتمان للزبون {0}"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:215
 msgid "Creditor Turnover Ratio"
@@ -15259,27 +15259,27 @@ msgstr "محددات مخصصة"
 #: erpnext/workspace_sidebar/home.json erpnext/workspace_sidebar/invoicing.json
 #: erpnext/workspace_sidebar/selling.json erpnext/workspace_sidebar/subscription.json
 msgid "Customer"
-msgstr "العميل"
+msgstr "الزبون"
 
 #. Label of the customer (Link) field in DocType 'Customer Item'
 #: erpnext/accounts/doctype/customer_item/customer_item.json
 msgid "Customer "
-msgstr "العميل "
+msgstr "الزبون "
 
 #. Label of the master_name (Dynamic Link) field in DocType 'Authorization
 #. Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Customer / Item / Item Group"
-msgstr "العميل / الصنف / مجموعة الأصناف"
+msgstr "الزبون / الصنف / مجموعة الأصناف"
 
 #. Label of the customer_address (Link) field in DocType 'Opportunity'
 #: erpnext/crm/doctype/opportunity/opportunity.json
 msgid "Customer / Lead Address"
-msgstr "العميل/ عنوان العميل المحتمل"
+msgstr "الزبون/ عنوان الزبون المحتمل"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:95
 msgid "Customer > Customer Group > Territory"
-msgstr "العميل > مجموعة العملاء > المنطقة"
+msgstr "الزبون > مجموعة الزبائن > المنطقة"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -15287,7 +15287,7 @@ msgstr "العميل > مجموعة العملاء > المنطقة"
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.json
 #: erpnext/selling/workspace/selling/selling.json erpnext/workspace_sidebar/selling.json
 msgid "Customer Acquisition and Loyalty"
-msgstr "اكتساب العملاء و الولاء"
+msgstr "اكتساب الزبائن و الولاء"
 
 #. Label of the customer_address (Link) field in DocType 'Dunning'
 #. Label of the customer_address (Link) field in DocType 'POS Invoice'
@@ -15310,23 +15310,23 @@ msgstr "اكتساب العملاء و الولاء"
 #: erpnext/stock/doctype/delivery_stop/delivery_stop.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Customer Address"
-msgstr "عنوان العميل"
+msgstr "عنوان الزبون"
 
 #. Label of a Link in the Selling Workspace
 #. Label of a Workspace Sidebar Item
 #: erpnext/selling/workspace/selling/selling.json erpnext/workspace_sidebar/selling.json
 msgid "Customer Addresses And Contacts"
-msgstr "عناوين العملاء وجهات الاتصال"
+msgstr "عناوين الزبائن وجهات الاتصال"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:159
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:269
 msgid "Customer Advances"
-msgstr "تقدم العملاء"
+msgstr "الدفعات المقدمة من الزبائن"
 
 #. Label of the customer_code (Small Text) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Customer Code"
-msgstr "رمز العميل"
+msgstr "رمز الزبون"
 
 #. Label of the customer_contact_person (Link) field in DocType 'Purchase
 #. Order'
@@ -15337,12 +15337,12 @@ msgstr "رمز العميل"
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/stock/doctype/delivery_stop/delivery_stop.json
 msgid "Customer Contact"
-msgstr "معلومات اتصال العميل"
+msgstr "معلومات اتصال الزبون"
 
 #. Label of the customer_contact_email (Code) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Customer Contact Email"
-msgstr "البريد الإلكتروني للعميل"
+msgstr "البريد الإلكتروني للزبون"
 
 #. Label of a Link in the Financial Reports Workspace
 #. Name of a report
@@ -15353,23 +15353,23 @@ msgstr "البريد الإلكتروني للعميل"
 #: erpnext/selling/workspace/selling/selling.json
 #: erpnext/workspace_sidebar/financial_reports.json erpnext/workspace_sidebar/selling.json
 msgid "Customer Credit Balance"
-msgstr "رصيد العميل"
+msgstr "رصيد الزبون"
 
 #. Name of a DocType
 #: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
 msgid "Customer Credit Limit"
-msgstr "حد ائتمان العميل"
+msgstr "حد ائتمان الزبون"
 
 #. Label of the currency (Link) field in DocType 'Subcontracting Inward Order'
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
 msgid "Customer Currency"
-msgstr "عملة العميل"
+msgstr "عملة الزبون"
 
 #. Label of the customer_defaults_tab (Tab Break) field in DocType 'Selling
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Customer Defaults"
-msgstr "إعدادات العميل الافتراضية"
+msgstr "إعدادات الزبون الافتراضية"
 
 #. Label of the customer_details_section (Section Break) field in DocType
 #. 'Appointment'
@@ -15382,13 +15382,13 @@ msgstr "إعدادات العميل الافتراضية"
 #: erpnext/selling/doctype/customer/customer.json erpnext/stock/doctype/item/item.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Customer Details"
-msgstr "تفاصيل العميل"
+msgstr "تفاصيل الزبون"
 
 #. Label of the customer_feedback (Small Text) field in DocType 'Maintenance
 #. Visit'
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
 msgid "Customer Feedback"
-msgstr "ملاحظات العميل"
+msgstr "آراء الزبون"
 
 #. Label of the customer_group (Link) field in DocType 'Customer Group Item'
 #. Label of the customer_group (Link) field in DocType 'Loyalty Program'
@@ -15470,45 +15470,45 @@ msgstr "ملاحظات العميل"
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 #: erpnext/workspace_sidebar/crm.json erpnext/workspace_sidebar/selling.json
 msgid "Customer Group"
-msgstr "مجموعة العميل"
+msgstr "مجموعة الزبائن"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/customer_group_item/customer_group_item.json
 msgid "Customer Group Item"
-msgstr "صنف مجموعة العملاء"
+msgstr "صنف مجموعة الزبائن"
 
 #. Label of the customer_group_name (Data) field in DocType 'Customer Group'
 #: erpnext/setup/doctype/customer_group/customer_group.json
 msgid "Customer Group Name"
-msgstr "اسم فئة العميل"
+msgstr "اسم مجموعة الزبائن"
 
 #. Label of the customer_groups (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Customer Groups"
-msgstr "مجموعات العميل"
+msgstr "مجموعات الزبون"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/customer_item/customer_item.json
 msgid "Customer Item"
-msgstr "صنف العميل"
+msgstr "صنف الزبون"
 
 #. Label of the customer_items (Table) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Customer Items"
-msgstr "منتجات العميل"
+msgstr "منتجات الزبون"
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1274
 msgid "Customer LPO"
-msgstr "العميل لبو"
+msgstr "أمر الشراء المحلي للزبون (LPO)"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:185
 msgid "Customer LPO No."
-msgstr "العميل لبو رقم"
+msgstr "رقم أمر الشراء المحلي للزبون"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Customer Ledger"
-msgstr "دفتر أستاذ العميل"
+msgstr "دفتر أستاذ الزبون"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -15521,7 +15521,7 @@ msgstr "ملخص دفتر الأستاذ"
 #. Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Customer Mobile No"
-msgstr "رقم محمول العميل"
+msgstr "رقم محمول الزبون"
 
 #. Label of the customer_name (Data) field in DocType 'Dunning'
 #. Label of the customer_name (Data) field in DocType 'POS Invoice'
@@ -15575,37 +15575,37 @@ msgstr "رقم محمول العميل"
 #: erpnext/support/doctype/issue/issue.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Customer Name"
-msgstr "اسم العميل"
+msgstr "اسم الزبون"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:22
 msgid "Customer Name: "
-msgstr "اسم العميل: "
+msgstr "اسم الزبون: "
 
 #. Label of the cust_master_name (Select) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Customer Naming By"
-msgstr "تسمية العملاء بواسطة"
+msgstr "تسمية الزبائن بواسطة"
 
 #. Label of the customer_number (Data) field in DocType 'Customer Number At
 #. Supplier'
 #: erpnext/buying/doctype/customer_number_at_supplier/customer_number_at_supplier.json
 msgid "Customer Number"
-msgstr "رقم العميل"
+msgstr "رقم الزبون"
 
 #. Name of a DocType
 #: erpnext/buying/doctype/customer_number_at_supplier/customer_number_at_supplier.json
 msgid "Customer Number At Supplier"
-msgstr "رقم العميل لدى المورد"
+msgstr "رقم الزبون لدى المورد"
 
 #. Label of the customer_numbers (Table) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Customer Numbers"
-msgstr "أرقام العملاء"
+msgstr "أرقام الزبائن"
 
 #: erpnext/stock/report/delayed_item_report/delayed_item_report.py:165
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.py:80
 msgid "Customer PO"
-msgstr "أمر شراء العميل"
+msgstr "أمر شراء الزبون"
 
 #. Label of the customer_po_details (Section Break) field in DocType 'POS
 #. Invoice'
@@ -15616,27 +15616,27 @@ msgstr "أمر شراء العميل"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Customer PO Details"
-msgstr "تفاصيل طلب شراء العميل"
+msgstr "تفاصيل طلب شراء الزبون"
 
 #. Label of the customer_pos_id (Data) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Customer POS ID"
-msgstr "معرّف نقطة البيع للعميل"
+msgstr "معرّف نقطة البيع للزبون"
 
 #. Label of the portal_users (Table) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Customer Portal Users"
-msgstr "مستخدمو بوابة العملاء"
+msgstr "مستخدمو بوابة الزبائن"
 
 #. Label of the customer_primary_address (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Customer Primary Address"
-msgstr "عنوان العميل الرئيسي"
+msgstr "عنوان الزبون الرئيسي"
 
 #. Label of the customer_primary_contact (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Customer Primary Contact"
-msgstr "جهة الاتصال الرئيسية للعميل"
+msgstr "جهة الاتصال الرئيسية للزبون"
 
 #. Option for the 'Type' (Select) field in DocType 'Material Request Plan Item'
 #. Option for the 'Default Material Request Type' (Select) field in DocType
@@ -15646,76 +15646,76 @@ msgstr "جهة الاتصال الرئيسية للعميل"
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/doctype/material_request/material_request.json
 msgid "Customer Provided"
-msgstr "العملاء المقدمة"
+msgstr "مقدَّم من الزبون"
 
 #. Label of the customer_provided_item_cost (Currency) field in DocType 'Stock
 #. Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Customer Provided Item Cost"
-msgstr "تكلفة السلعة المقدمة من العميل"
+msgstr "تكلفة السلعة المقدمة من الزبون"
 
 #: erpnext/setup/doctype/company/company.py:491
 msgid "Customer Service"
-msgstr "خدمة العملاء"
+msgstr "خدمة الزبائن"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:13
 msgid "Customer Service Representative"
-msgstr "ممثل خدمة العملاء"
+msgstr "ممثل خدمة الزبائن"
 
 #. Label of the customer_territory (Link) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "Customer Territory"
-msgstr "منطقة العملاء"
+msgstr "منطقة الزبائن"
 
 #. Label of the customer_type (Select) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Customer Type"
-msgstr "نوع العميل"
+msgstr "نوع الزبون"
 
 #. Label of the customer_warehouse (Link) field in DocType 'Subcontracting
 #. Inward Order'
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
 msgid "Customer Warehouse"
-msgstr "مستودع العملاء"
+msgstr "مستودع الزبون"
 
 #. Label of the target_warehouse (Link) field in DocType 'POS Invoice Item'
 #. Label of the target_warehouse (Link) field in DocType 'Sales Order Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Customer Warehouse (Optional)"
-msgstr "مستودع العميل (اختياري)"
+msgstr "مستودع الزبون (اختياري)"
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.py:146
 msgid "Customer Warehouse {0} does not belong to Customer {1}."
-msgstr "مستودع العميل {0} لا ينتمي إلى العميل {1}."
+msgstr "مستودع الزبون {0} لا ينتمي إلى الزبون {1}."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:1006
 msgid "Customer contact updated successfully."
-msgstr "تم تحديث جهة اتصال العميل بنجاح."
+msgstr "تم تحديث جهة اتصال الزبون بنجاح."
 
 #: erpnext/support/doctype/warranty_claim/warranty_claim.py:54
 msgid "Customer is required"
-msgstr "العميل مطلوب"
+msgstr "الزبون مطلوب"
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:135
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:157
 msgid "Customer isn't enrolled in any Loyalty Program"
-msgstr "العميل غير مسجل في أي برنامج ولاء"
+msgstr "الزبون غير مسجل في أي برنامج ولاء"
 
 #. Label of the customer_or_item (Select) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Customer or Item"
-msgstr "عميل أو بند"
+msgstr "زبون أو بند"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.py:95
 msgid "Customer required for 'Customerwise Discount'"
-msgstr "الزبون مطلوب للخصم حسب العميل"
+msgstr "الزبون مطلوب للخصم حسب الزبون"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1196
 #: erpnext/selling/doctype/sales_order/sales_order.py:438
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:408
 msgid "Customer {0} does not belong to project {1}"
-msgstr "العميل {0} لا ينتمي إلى المشروع {1}"
+msgstr "الزبون {0} لا ينتمي إلى المشروع {1}"
 
 #. Label of the customer_item_code (Data) field in DocType 'POS Invoice Item'
 #. Label of the customer_item_code (Data) field in DocType 'Sales Invoice Item'
@@ -15728,7 +15728,7 @@ msgstr "العميل {0} لا ينتمي إلى المشروع {1}"
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Customer's Item Code"
-msgstr "كود صنف العميل"
+msgstr "كود صنف الزبون"
 
 #. Label of the po_no (Data) field in DocType 'POS Invoice'
 #. Label of the po_no (Data) field in DocType 'Sales Invoice'
@@ -15748,7 +15748,7 @@ msgstr "طلب شراء الزبون"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Customer's Purchase Order Date"
-msgstr "تاريخ أمر الشراء العميل"
+msgstr "تاريخ أمر الشراء الزبون"
 
 #. Label of the po_no (Small Text) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
@@ -15757,21 +15757,21 @@ msgstr "رقم أمر الشراء الصادر من الزبون"
 
 #: erpnext/setup/setup_wizard/data/marketing_source.txt:8
 msgid "Customer's Vendor"
-msgstr "مورد العميل"
+msgstr "مورد الزبون"
 
 #. Name of a report
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.json
 msgid "Customer-wise Item Price"
-msgstr "سعر الصنف حسب العميل"
+msgstr "سعر الصنف حسب الزبون"
 
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.py:44
 msgid "Customer/Lead Name"
-msgstr "اسم العميل / العميل المحتمل"
+msgstr "اسم الزبون / الزبون المحتمل"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:19
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:21
 msgid "Customer: "
-msgstr "العميل: "
+msgstr "الزبون: "
 
 #. Label of the section_break_3 (Section Break) field in DocType 'Process
 #. Statement Of Accounts'
@@ -15779,7 +15779,7 @@ msgstr "العميل: "
 #. Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 msgid "Customers"
-msgstr "العملاء"
+msgstr "الزبائن"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -15791,12 +15791,12 @@ msgstr "زبائن بدون أي معاملات مبيعات"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:107
 msgid "Customers not selected."
-msgstr "العملاء لم يتم اختيارهم."
+msgstr "الزبائن لم يتم اختيارهم."
 
 #. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Customerwise Discount"
-msgstr "التخفيض حسب العميل"
+msgstr "التخفيض حسب الزبون"
 
 #. Name of a DocType
 #. Label of the customs_tariff_number (Link) field in DocType 'Item'
@@ -16440,7 +16440,7 @@ msgstr "العملة الافتراضية"
 #. Label of the customer_group (Link) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Default Customer Group"
-msgstr "المجموعة الافتراضية العملاء"
+msgstr "مجموعة الزبائن الافتراضية"
 
 #. Label of the default_deferred_expense_account (Link) field in DocType
 #. 'Company'
@@ -16863,7 +16863,7 @@ msgid ""
 "invoices for this customer."
 msgstr ""
 "يحدد موعد استحقاق الدفع (مثل صافي 30، 50% مقدماً). يُطبَّق تلقائياً على فواتير هذا "
-"العميل."
+"الزبون."
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -16944,7 +16944,7 @@ msgstr "حذف البعد"
 #. 'Transaction Deletion Record'
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
 msgid "Delete Leads and Addresses"
-msgstr "حذف العملاء المحتملين والعناوين"
+msgstr "حذف الزبائن المحتملين والعناوين"
 
 #. Option for the 'Action for Expired Unverified Appointments' (Select) field
 #. in DocType 'Appointment Booking Settings'
@@ -18520,7 +18520,7 @@ msgstr "هل تريد تغيير طريقة التقييم؟"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:158
 msgid "Do you want to notify all the customers by email?"
-msgstr "هل تريد أن تخطر جميع العملاء عن طريق البريد الإلكتروني؟"
+msgstr "هل تريد أن تخطر جميع الزبائن عن طريق البريد الإلكتروني؟"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:334
 msgid "Do you want to submit the material request"
@@ -18841,7 +18841,7 @@ msgstr "نوع الطلب"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:170
 msgid "Duplicate Customer Group"
-msgstr "مجموعة عملاء مكررة"
+msgstr "مجموعة زبائن مكررة"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:190
 msgid "Duplicate DocType"
@@ -18903,7 +18903,7 @@ msgstr "إدخال إقفال مخزون مكرر"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:169
 msgid "Duplicate customer group found in the customer group table"
-msgstr "تم العثور على مجموعة عملاء مكررة في جدول مجموعات العملاء"
+msgstr "تم العثور على مجموعة زبائن مكررة في جدول مجموعات الزبائن"
 
 #: erpnext/stock/doctype/item_manufacturer/item_manufacturer.py:44
 msgid "Duplicate entry against the item code {0} and manufacturer {1}"
@@ -19669,7 +19669,7 @@ msgid ""
 "POS Invoice, Lead,  and Delivery Note."
 msgstr ""
 "تفعيل معاملات وحدة تتبع Urchin في عرض السعر وأمر البيع وفاتورة المبيعات وفاتورة نقطة "
-"البيع والعميل المحتمل وإشعار التسليم."
+"البيع والزبون المحتمل وإشعار التسليم."
 
 #. Label of the enable_youtube_tracking (Check) field in DocType 'Video
 #. Settings'
@@ -19705,7 +19705,7 @@ msgstr "تفعيل محاسبة الخصم للبيع"
 msgid ""
 "Enable for drop shipping - supplier delivers directly to the customer without passing"
 " through your warehouse."
-msgstr "فعّله للشحن المباشر - يسلّم المورّد مباشرةً إلى العميل دون المرور عبر مستودعك."
+msgstr "فعّله للشحن المباشر - يسلّم المورّد مباشرةً إلى الزبون دون المرور عبر مستودعك."
 
 #. Description of the 'Include Item In Manufacturing' (Check) field in DocType
 #. 'Item'
@@ -19735,7 +19735,7 @@ msgstr "فعّله إذا كان هذا الصنف أصلاً من أصول ال
 #. 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Enable if this item is provided by a customer and received via Stock Entry."
-msgstr "فعّله إذا كان هذا الصنف مقدَّماً من العميل ومستلماً عبر قيد المخزون."
+msgstr "فعّله إذا كان هذا الصنف مقدَّماً من الزبون ومستلماً عبر قيد المخزون."
 
 #. Description of the 'Consider Rejected Warehouses' (Check) field in DocType
 #. 'Pick List'
@@ -19853,7 +19853,7 @@ msgid ""
 "Enabling this option prevents the creation of a new Sales Invoice when the customer "
 "has an overdue limit set and their outstanding overdue amount exceeds that limit."
 msgstr ""
-"يمنع تفعيل هذا الخيار إنشاء فاتورة مبيعات جديدة عندما يكون للعميل حد متأخرات محدد "
+"يمنع تفعيل هذا الخيار إنشاء فاتورة مبيعات جديدة عندما يكون للزبون حد متأخرات محدد "
 "ويتجاوز مبلغ متأخراته المستحقة ذلك الحد."
 
 #. Description of the 'Book Advance Payments in Separate Party Account' (Check)
@@ -20053,11 +20053,11 @@ msgstr "أدخل رمز الصنف، سيتم ملء الاسم تلقائيًا
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:953
 msgid "Enter customer's email"
-msgstr "أدخل البريد الإلكتروني الخاص بالعميل"
+msgstr "أدخل البريد الإلكتروني الخاص بالزبون"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:959
 msgid "Enter customer's phone number"
-msgstr "أدخل رقم هاتف العميل"
+msgstr "أدخل رقم هاتف الزبون"
 
 #: erpnext/assets/doctype/asset/asset.js:944
 msgid "Enter date to scrap asset"
@@ -20084,7 +20084,7 @@ msgstr "أدخل رقم الضمان البنكي قبل الإرسال."
 msgid ""
 "Enter the Item Code that this customer uses at their end. This will be shown in Sales"
 " Orders for the customer's reference."
-msgstr "أدخل رمز الصنف الذي يستخدمه هذا العميل لديه. سيظهر في أوامر البيع لمرجعية العميل."
+msgstr "أدخل رمز الصنف الذي يستخدمه هذا الزبون لديه. سيظهر في أوامر البيع لمرجعية الزبون."
 
 #: erpnext/manufacturing/doctype/routing/routing.js:98
 msgid ""
@@ -20565,7 +20565,7 @@ msgstr "الشركة الحالية "
 
 #: erpnext/setup/setup_wizard/data/marketing_source.txt:1
 msgid "Existing Customer"
-msgstr "عميل حالي"
+msgstr "زبون حالي"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:307
 msgid "Existing transactions in the system belonging to the same bank account and date range"
@@ -21107,7 +21107,7 @@ msgstr "جلب بناءً على"
 #. Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 msgid "Fetch Customers"
-msgstr "جلب العملاء"
+msgstr "جلب الزبائن"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:71
 msgid "Fetch Items from Warehouse"
@@ -21161,7 +21161,7 @@ msgstr "جلب سعر التقييم للمعاملة الداخلية"
 #. Description of the 'Price List' (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Fetched automatically on sales orders and invoices for this customer."
-msgstr "يُجلب تلقائياً في أوامر البيع والفواتير الخاصة بهذا العميل."
+msgstr "يُجلب تلقائياً في أوامر البيع والفواتير الخاصة بهذا الزبون."
 
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:468
 msgid "Fetched only {0} available serial numbers."
@@ -22152,7 +22152,7 @@ msgid ""
 "For the convenience of customers, these codes can be used in print formats like "
 "Invoices and Delivery Notes"
 msgstr ""
-"لتسهيل الأمر على العملاء، يمكن استخدام هذه الرموز في تنسيقات الطباعة مثل الفواتير "
+"لتسهيل الأمر على الزبائن، يمكن استخدام هذه الرموز في تنسيقات الطباعة مثل الفواتير "
 "وأذونات التسليم"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1299
@@ -22387,7 +22387,7 @@ msgstr "لا يمكن أن تكون \"من عملة\" و\"إلى عملة\" مت
 #. Label of the customer (Link) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "From Customer"
-msgstr "من العملاء"
+msgstr "من الزبائن"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:45
 msgid "From Date and To Date are Mandatory"
@@ -23085,7 +23085,7 @@ msgstr "الحصول على المخزون الحالي"
 
 #: erpnext/selling/doctype/customer/customer.js:190
 msgid "Get Customer Group Details"
-msgstr "الحصول على تفاصيل مجموعة العملاء"
+msgstr "الحصول على تفاصيل مجموعة الزبائن"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:616
 msgid "Get Delivery Schedule"
@@ -23645,7 +23645,7 @@ msgstr "تقرير الربح الإجمالي والصافي"
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:151
 msgid "Group By Customer"
-msgstr "المجموعة حسب العميل"
+msgstr "المجموعة حسب الزبون"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:134
 msgid "Group By Supplier"
@@ -24055,7 +24055,7 @@ msgstr "إخفاء رمز العملة"
 #. Label of the hide_tax_id (Check) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Hide Customer's Tax ID from sales transactions"
-msgstr "إخفاء الرقم الضريبي للعميل من معاملات المبيعات"
+msgstr "إخفاء الرقم الضريبي للزبون من معاملات المبيعات"
 
 #. Label of the hide_when_empty (Check) field in DocType 'Financial Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
@@ -24363,7 +24363,7 @@ msgid ""
 "If Auto Opt In is checked, then the customers will be automatically linked with the "
 "concerned Loyalty Program (on save)"
 msgstr ""
-"إذا تم تحديد الاشتراك التلقائي، فسيتم ربط العملاء تلقائيًا ببرنامج الولاء المعني (عند"
+"إذا تم تحديد الاشتراك التلقائي، فسيتم ربط الزبائن تلقائيًا ببرنامج الولاء المعني (عند"
 " الحفظ)"
 
 #. Description of the 'Cost Center' (Link) field in DocType 'Journal Entry
@@ -24483,7 +24483,7 @@ msgstr ""
 #. Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "If different than customer address"
-msgstr "إذا كان مختلفا عن عنوان العميل"
+msgstr "إذا كان مختلفا عن عنوان الزبون"
 
 #. Description of the 'Disable In Words' (Check) field in DocType 'Global
 #. Defaults'
@@ -24847,7 +24847,7 @@ msgstr "إذا لم يكن كذلك، يمكنك إلغاء / إرسال هذا 
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:201
 msgid "If party does not exist, create it using the Customer Name field."
-msgstr "إذا لم يكن الطرف موجوداً، فأنشئه باستخدام حقل اسم العميل."
+msgstr "إذا لم يكن الطرف موجوداً، فأنشئه باستخدام حقل اسم الزبون."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:202
 msgid "If party does not exist, create it using the Supplier Name field."
@@ -24880,7 +24880,7 @@ msgid ""
 "If set, accounting entries for this customer will post to these accounts instead of "
 "the company default."
 msgstr ""
-"عند التعيين، ستُرحَّل القيود المحاسبية لهذا العميل إلى هذه الحسابات بدلاً من الحسابات"
+"عند التعيين، ستُرحَّل القيود المحاسبية لهذا الزبون إلى هذه الحسابات بدلاً من الحسابات"
 " الافتراضية للشركة."
 
 #. Description of the 'Fixed Outgoing Email Account' (Link) field in DocType
@@ -25528,7 +25528,7 @@ msgid ""
 "In the case of multi-tier program, Customers will be auto assigned to the concerned "
 "tier as per their spent"
 msgstr ""
-"في حالة البرنامج متعدد المستويات، سيتم تعيين العملاء تلقائيًا إلى المستوى المعني حسب "
+"في حالة البرنامج متعدد المستويات، سيتم تعيين الزبائن تلقائيًا إلى المستوى المعني حسب "
 "إنفاقهم"
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:753
@@ -25556,7 +25556,7 @@ msgstr ""
 #: erpnext/selling/report/inactive_customers/inactive_customers.json
 #: erpnext/selling/workspace/selling/selling.json erpnext/workspace_sidebar/selling.json
 msgid "Inactive Customers"
-msgstr "العملاء الغير النشطين"
+msgstr "الزبائن الغير النشطين"
 
 #. Name of a report
 #: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.json
@@ -26386,17 +26386,17 @@ msgstr "داخلي"
 #. 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Internal Customer Accounting"
-msgstr "محاسبة العميل الداخلي"
+msgstr "محاسبة الزبون الداخلي"
 
 #: erpnext/selling/doctype/customer/customer.py:272
 msgid "Internal Customer Already Exists"
-msgstr "العميل الداخلي موجود بالفعل"
+msgstr "الزبون الداخلي موجود بالفعل"
 
 #: erpnext/selling/doctype/customer/customer.py:266
 msgid ""
 "Internal Customer {0} already exists for {1}. Disable it to make this Customer "
 "internal."
-msgstr "العميل الداخلي {0} موجود بالفعل لـ {1}. عطّله لجعل هذا العميل داخليًا."
+msgstr "الزبون الداخلي {0} موجود بالفعل لـ {1}. عطّله لجعل هذا الزبون داخليًا."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1150
 msgid "Internal Purchase Order"
@@ -26468,7 +26468,7 @@ msgstr "سجل العمل الداخلي"
 #. Description of the 'Customer Details' (Text) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Internal notes about this customer. Not visible on transactions or the portal."
-msgstr "ملاحظات داخلية عن هذا العميل. لا تظهر في المعاملات أو البوابة."
+msgstr "ملاحظات داخلية عن هذا الزبون. لا تظهر في المعاملات أو البوابة."
 
 #: erpnext/controllers/stock_controller.py:1753
 msgid "Internal transfers can only be done in company's default currency"
@@ -26531,7 +26531,7 @@ msgstr "الباركود غير صالح. لا يوجد عنصر مرفق بهذ
 
 #: erpnext/public/js/controllers/transaction.js:3200
 msgid "Invalid Blanket Order for the selected Customer and Item"
-msgstr "أمر شامل غير صالح للعميل والصنف المحدد"
+msgstr "أمر شامل غير صالح للزبون والصنف المحدد"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:509
 msgid "Invalid CSV format. Expected column: doctype_name"
@@ -26556,7 +26556,7 @@ msgstr "مركز تكلفة غير صالح"
 
 #: erpnext/selling/doctype/customer/customer.py:385
 msgid "Invalid Customer Group"
-msgstr "مجموعة عملاء غير صالحة"
+msgstr "مجموعة زبائن غير صالحة"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:421
 msgid "Invalid Delivery Date"
@@ -27231,7 +27231,7 @@ msgstr "التراكمي"
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Is Customer Provided Item"
-msgstr "العميل يقدم الصنف"
+msgstr "الزبون يقدم الصنف"
 
 #. Label of the is_default (Check) field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
@@ -27349,7 +27349,7 @@ msgstr "نصف يوم"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Is Internal Customer"
-msgstr "عميل داخلي"
+msgstr "زبون داخلي"
 
 #. Label of the is_internal_supplier (Check) field in DocType 'Purchase
 #. Invoice'
@@ -28087,7 +28087,7 @@ msgstr "رمز العنصر: {0} غير متوفر ضمن المستودع {1}."
 #. Name of a DocType
 #: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
 msgid "Item Customer Detail"
-msgstr "تفاصيل العميل لهذا البند"
+msgstr "تفاصيل الزبون لهذا البند"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_default/item_default.json
@@ -28558,7 +28558,7 @@ msgid ""
 "Item Price appears multiple times based on Price List, Supplier/Customer, Currency, "
 "Item, Batch, UOM, Qty, and Dates."
 msgstr ""
-"يظهر سعر الصنف عدة مرات بناءً على قائمة الأسعار، المورد/العميل، العملة، الصنف، "
+"يظهر سعر الصنف عدة مرات بناءً على قائمة الأسعار، المورد/الزبون، العملة، الصنف، "
 "الدفعة، وحدة القياس، الكمية، والتواريخ."
 
 #: erpnext/stock/doctype/item/item.py:185
@@ -29513,7 +29513,7 @@ msgid ""
 "Keep Track of Sales Campaigns. Keep track of Leads, Quotations, Sales Order etc from "
 "Campaigns to gauge Return on Investment. "
 msgstr ""
-"تتبع حملات المبيعات. تتبع العملاء المحتملين، عروض الأسعار، أوامر البيع، إلخ من "
+"تتبع حملات المبيعات. تتبع الزبائن المحتملين، عروض الأسعار، أوامر البيع، إلخ من "
 "الحملات لتقييم العائد على الاستثمار. "
 
 #. Name of a UOM
@@ -29854,16 +29854,16 @@ msgstr "خط العرض"
 #: erpnext/setup/workspace/home/home.json erpnext/support/doctype/issue/issue.json
 #: erpnext/workspace_sidebar/crm.json
 msgid "Lead"
-msgstr "عميل محتمل"
+msgstr "زبون محتمل"
 
 #: erpnext/crm/doctype/lead/lead.py:551
 msgid "Lead -> Prospect"
-msgstr "عميل محتمل -> عميل متوقع"
+msgstr "زبون محتمل -> زبون متوقع"
 
 #. Name of a report
 #: erpnext/crm/report/lead_conversion_time/lead_conversion_time.json
 msgid "Lead Conversion Time"
-msgstr "وقت تحويل العميل المحتمل"
+msgstr "وقت تحويل الزبون المحتمل"
 
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:20
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:26
@@ -29902,7 +29902,7 @@ msgstr "يؤدي كفاءة المالك"
 
 #: erpnext/crm/doctype/lead/lead.py:176
 msgid "Lead Owner cannot be same as the Lead Email Address"
-msgstr "لا يمكن أن يكون مالك العميل المحتمل هو نفسه عنوان البريد الإلكتروني للعميل المحتمل"
+msgstr "لا يمكن أن يكون مالك الزبون المحتمل هو نفسه عنوان البريد الإلكتروني للزبون المحتمل"
 
 #. Label of a Link in the CRM Workspace
 #. Label of a Workspace Sidebar Item
@@ -29950,12 +29950,12 @@ msgstr "نوع الزبون المحتمل"
 
 #: erpnext/crm/doctype/lead/lead.py:550
 msgid "Lead {0} has been added to prospect {1}."
-msgstr "تمت إضافة العميل المحتمل {0} إلى العميل المتوقع {1}."
+msgstr "تمت إضافة الزبون المحتمل {0} إلى الزبون المتوقع {1}."
 
 #. Label of the leads_section (Tab Break) field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "Leads"
-msgstr "العملاء المحتملون"
+msgstr "الزبائن المحتملون"
 
 #: erpnext/utilities/activation.py:78
 msgid "Leads help you get business, add all your contacts and more as your leads"
@@ -30224,7 +30224,7 @@ msgstr "رابط لطلبات المواد"
 
 #: erpnext/buying/doctype/supplier/supplier.js:164
 msgid "Link with Customer"
-msgstr "الربط مع العميل"
+msgstr "الربط مع الزبون"
 
 #: erpnext/selling/doctype/customer/customer.js:203
 msgid "Link with Supplier"
@@ -30258,7 +30258,7 @@ msgstr "فشل الربط"
 
 #: erpnext/buying/doctype/supplier/supplier.js:250
 msgid "Linking to Customer Failed. Please try again."
-msgstr "فشل الربط مع العميل. يرجى المحاولة مرة أخرى."
+msgstr "فشل الربط مع الزبون. يرجى المحاولة مرة أخرى."
 
 #: erpnext/selling/doctype/customer/customer.js:280
 msgid "Linking to Supplier Failed. Please try again."
@@ -30584,7 +30584,7 @@ msgid ""
 "Loyalty scheme this customer earns points under. Auto-assigned if a matching program "
 "exists."
 msgstr ""
-"برنامج الولاء الذي يكسب هذا العميل النقاط بموجبه. يُخصَّص تلقائياً إن وُجد برنامج "
+"برنامج الولاء الذي يكسب هذا الزبون النقاط بموجبه. يُخصَّص تلقائياً إن وُجد برنامج "
 "مطابق."
 
 #. Label of the mps (Link) field in DocType 'Purchase Order'
@@ -31427,7 +31427,7 @@ msgstr "وضع علامة كمغلق"
 msgid ""
 "Mark if this customer represents an internal company. Enables inter-company "
 "transactions."
-msgstr "حدّد إن كان هذا العميل يمثّل شركة داخلية. يتيح ذلك المعاملات بين الشركات."
+msgstr "حدّد إن كان هذا الزبون يمثّل شركة داخلية. يتيح ذلك المعاملات بين الشركات."
 
 #. Label of the market_segment (Link) field in DocType 'Lead'
 #. Name of a DocType
@@ -31830,7 +31830,7 @@ msgstr "المواد المنقولة للعقود من الباطن"
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:151
 msgid "Material from Customer"
-msgstr "مواد من العميل"
+msgstr "مواد من الزبون"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:394
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:644
@@ -32104,7 +32104,7 @@ msgstr "سيتم تقسيم الرسائل التي تزيد عن 160 حرفا �
 
 #: erpnext/setup/install.py:131
 msgid "Messaging CRM Campaign"
-msgstr "حملة المراسلة في إدارة علاقات العملاء"
+msgstr "حملة المراسلة في إدارة علاقات الزبائن"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -32687,8 +32687,8 @@ msgid ""
 "Most Customers have a unique Tax ID that is fetched into selling transactions. Enable"
 " this setting if you do not want Customer Tax IDs to appear in sales transactions."
 msgstr ""
-"معظم العملاء لديهم رقم ضريبي فريد يُجلب إلى معاملات البيع. فعّل هذا الإعداد إن كنت لا"
-" ترغب في ظهور الأرقام الضريبية للعملاء في معاملات المبيعات."
+"معظم الزبائن لديهم رقم ضريبي فريد يُجلب إلى معاملات البيع. فعّل هذا الإعداد إن كنت لا"
+" ترغب في ظهور الأرقام الضريبية للزبائن في معاملات المبيعات."
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:32
 msgid "Motion Picture & Video"
@@ -32750,7 +32750,7 @@ msgstr "حسابات متعددة (قالب اليومية)"
 
 #: erpnext/selling/doctype/customer/customer.py:459
 msgid "Multiple Loyalty Programs found for Customer {}. Please select manually."
-msgstr "تم العثور على برامج ولاء متعددة للعميل {}. يرجى التحديد يدويًا."
+msgstr "تم العثور على برامج ولاء متعددة للزبون {}. يرجى التحديد يدويًا."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1247
 msgid "Multiple POS Opening Entry"
@@ -33288,7 +33288,7 @@ msgstr "إيرادات الزبائن الجدد"
 
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:15
 msgid "New Customers"
-msgstr "العملاء الجدد"
+msgstr "الزبائن الجدد"
 
 #: erpnext/setup/doctype/department/department_tree.js:18
 msgid "New Department"
@@ -33331,7 +33331,7 @@ msgstr "سيتم ترحيل قيد يومية جديد بمبلغ الفرق. ي
 #. Label of a number card in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "New Lead (Last 1 Month)"
-msgstr "عميل محتمل جديد (آخر شهر)"
+msgstr "زبون محتمل جديد (آخر شهر)"
 
 #: erpnext/assets/doctype/location/location_tree.js:23
 msgid "New Location"
@@ -33381,8 +33381,8 @@ msgid ""
 "New Sales Invoices are blocked when the customer's overdue amount exceeds this. "
 "Requires 'Restrict Customer Over Billing' in Accounts Settings."
 msgstr ""
-"تُمنع فواتير المبيعات الجديدة عندما يتجاوز المبلغ المتأخر على العميل هذا الحد. يتطلب "
-"تفعيل 'تقييد الفوترة الزائدة للعميل' في إعدادات الحسابات."
+"تُمنع فواتير المبيعات الجديدة عندما يتجاوز المبلغ المتأخر على الزبون هذا الحد. يتطلب "
+"تفعيل 'تقييد الفوترة الزائدة للزبون' في إعدادات الحسابات."
 
 #. Label of the sales_order (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -33424,7 +33424,7 @@ msgid ""
 "New credit limit is less than current outstanding amount for the customer. Credit "
 "limit has to be atleast {0}"
 msgstr ""
-"حد الائتمان الجديد أقل من المبلغ المستحق الحالي للعميل. حد الائتمان يجب أن يكون على "
+"حد الائتمان الجديد أقل من المبلغ المستحق الحالي للزبون. حد الائتمان يجب أن يكون على "
 "الأقل {0}"
 
 #. Description of the 'Generate New Invoices Past Due Date' (Check) field in
@@ -33501,11 +33501,11 @@ msgstr "لم يتم العثور على زبون للمعاملات بين ال�
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:164
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:430
 msgid "No Customers found with selected options."
-msgstr "لم يتم العثور على عملاء بالخيارات المحددة."
+msgstr "لم يتم العثور على زبائن بالخيارات المحددة."
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:146
 msgid "No Delivery Note selected for Customer {}"
-msgstr "لم يتم تحديد إشعار التسليم للعميل {}"
+msgstr "لم يتم تحديد إشعار التسليم للزبون {}"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:767
 msgid "No DocTypes in To Delete list. Please generate or import the list before submitting."
@@ -33673,7 +33673,7 @@ msgstr "لم يتم العثور على معاملات بنكية"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:497
 msgid "No billing email found for customer: {0}"
-msgstr "لم يتم العثور على بريد إلكتروني للفوترة للعميل: {0}"
+msgstr "لم يتم العثور على بريد إلكتروني للفوترة للزبون: {0}"
 
 #: banking/src/components/features/BankReconciliation/CompanySelector.tsx:79
 msgid "No company found."
@@ -33870,7 +33870,7 @@ msgstr "لم يتم العثور على طلبات المواد المعلقة �
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:504
 msgid "No primary email found for customer: {0}"
-msgstr "لم يتم العثور على بريد إلكتروني رئيسي للعميل: {0}"
+msgstr "لم يتم العثور على بريد إلكتروني رئيسي للزبون: {0}"
 
 #: erpnext/templates/includes/product_list.js:41
 msgid "No products found."
@@ -34255,7 +34255,7 @@ msgstr "إشعار (أيام)"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:47
 msgid "Notify Customers via Email"
-msgstr "إعلام العملاء عبر البريد الإلكتروني"
+msgstr "إعلام الزبائن عبر البريد الإلكتروني"
 
 #. Label of the notify_employee (Check) field in DocType 'Supplier Scorecard'
 #. Label of the notify_employee (Check) field in DocType 'Supplier Scorecard
@@ -34302,7 +34302,7 @@ msgstr "الإشعار بالبريد الإلكتروني عند إنشاء ط�
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Notify customer and agent via email on the day of the appointment."
-msgstr "إخطار العميل والوكيل عبر البريد الإلكتروني في يوم الموعد."
+msgstr "إخطار الزبون والوكيل عبر البريد الإلكتروني في يوم الموعد."
 
 #. Label of the number_of_agents (Int) field in DocType 'Appointment Booking
 #. Settings'
@@ -34389,7 +34389,7 @@ msgstr "عدد مركز التكلفة الجديد، سيتم إدراجه في
 #. Description of the 'Supplier Numbers' (Table) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Numbers this customer uses to identify your company in their own system."
-msgstr "الأرقام التي يستخدمها هذا العميل للتعريف بشركتك في نظامه الخاص."
+msgstr "الأرقام التي يستخدمها هذا الزبون للتعريف بشركتك في نظامه الخاص."
 
 #. Label of the numeric (Check) field in DocType 'Item Quality Inspection
 #. Parameter'
@@ -34613,7 +34613,7 @@ msgstr "بمجرد إغلاق أمر العمل، لا يمكن استئنافه
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:39
 msgid "One customer can be part of only single Loyalty Program."
-msgstr "يمكن للعميل الواحد أن يكون جزءًا من برنامج ولاء واحد فقط."
+msgstr "يمكن للزبون الواحد أن يكون جزءًا من برنامج ولاء واحد فقط."
 
 #. Option for the 'Status' (Select) field in DocType 'Subcontracting Inward
 #. Order'
@@ -34719,7 +34719,7 @@ msgstr "يمكن إنشاء قيد {0} واحد فقط مقابل أمر الع�
 #. Description of the 'Customer Groups' (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Only show Customer of these Customer Groups"
-msgstr "أظهر فقط عميل مجموعات العملاء هذه"
+msgstr "أظهر فقط زبون مجموعات الزبائن هذه"
 
 #. Description of the 'Item Groups' (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -35250,7 +35250,7 @@ msgstr "أوب كونت"
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:25
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:31
 msgid "Opp/Lead %"
-msgstr "نسبة الفرص/العملاء المحتملين %"
+msgstr "نسبة الفرص/الزبائن المحتملين %"
 
 #. Label of the opportunities_tab (Tab Break) field in DocType 'Prospect'
 #. Label of the opportunities (Table) field in DocType 'Prospect'
@@ -35889,7 +35889,7 @@ msgid ""
 "Overdue Limit crossed for customer {0}. Overdue amount {1} exceeds the allowed limit "
 "{2}."
 msgstr ""
-"تم تجاوز حد التأخر في السداد للعميل {0}. المبلغ المتأخر {1} يتجاوز الحد المسموح به "
+"تم تجاوز حد التأخر في السداد للزبون {0}. المبلغ المتأخر {1} يتجاوز الحد المسموح به "
 "{2}."
 
 #. Name of a DocType
@@ -36079,7 +36079,7 @@ msgstr "تهيئات نقطة البيع"
 #. Name of a DocType
 #: erpnext/accounts/doctype/pos_customer_group/pos_customer_group.json
 msgid "POS Customer Group"
-msgstr "مجموعة عملاء نقطة البيع"
+msgstr "مجموعة زبائن نقطة البيع"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pos_field/pos_field.json
@@ -36626,7 +36626,7 @@ msgstr "مركز التكلفة الأصل"
 #. Label of the parent_customer_group (Link) field in DocType 'Customer Group'
 #: erpnext/setup/doctype/customer_group/customer_group.json
 msgid "Parent Customer Group"
-msgstr "مجموعة العملاء الأصل"
+msgstr "مجموعة الزبائن الأصل"
 
 #. Label of the parent_department (Link) field in DocType 'Department'
 #: erpnext/setup/doctype/department/department.json
@@ -38889,7 +38889,7 @@ msgstr "الرجاء تحديد شركة."
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:162
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:204
 msgid "Please Select a Customer"
-msgstr "الرجاء تحديد عميل"
+msgstr "الرجاء تحديد زبون"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:123
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:222
@@ -39074,7 +39074,7 @@ msgstr "الرجاء تحويل الحساب الرئيسي في الشركة ا
 
 #: erpnext/selling/doctype/quotation/quotation.py:652
 msgid "Please create Customer from Lead {0}."
-msgstr "الرجاء إنشاء عميل من العميل المحتمل {0}."
+msgstr "الرجاء إنشاء زبون من الزبون المحتمل {0}."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:155
 msgid "Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled."
@@ -39495,7 +39495,7 @@ msgstr "يرجى تحديد تاريخ الانتهاء لاستكمال سجل 
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.js:84
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.js:125
 msgid "Please select Customer first"
-msgstr "يرجى اختيار العميل أولا"
+msgstr "يرجى اختيار الزبون أولا"
 
 #: erpnext/setup/doctype/company/company.py:539
 msgid "Please select Existing Company for creating Chart of Accounts"
@@ -39588,7 +39588,7 @@ msgstr "الرجاء تحديد شركة أولاً."
 
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:18
 msgid "Please select a Customer"
-msgstr "يرجى تحديد العميل"
+msgstr "يرجى تحديد الزبون"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.js:16
 msgid "Please select a Delivery Note"
@@ -39636,7 +39636,7 @@ msgstr "يرجى تحديد بلد"
 
 #: erpnext/accounts/report/sales_register/sales_register.py:36
 msgid "Please select a customer for fetching payments."
-msgstr "يرجى تحديد عميل لجلب المدفوعات."
+msgstr "يرجى تحديد زبون لجلب المدفوعات."
 
 #: erpnext/www/book_appointment/index.js:67
 msgid "Please select a date"
@@ -39785,7 +39785,7 @@ msgstr "يرجى تحديد المستودع أولاً"
 
 #: erpnext/accounts/doctype/coupon_code/coupon_code.py:48
 msgid "Please select the customer."
-msgstr "يرجى اختيار العميل."
+msgstr "يرجى اختيار الزبون."
 
 #: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:43
 #: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:58
@@ -39861,7 +39861,7 @@ msgstr "يرجى تعيين الشركة"
 
 #: erpnext/regional/united_arab_emirates/utils.py:26
 msgid "Please set Customer Address to determine if the transaction is an export."
-msgstr "يرجى تحديد عنوان العميل لتحديد ما إذا كانت المعاملة تصديراً."
+msgstr "يرجى تحديد عنوان الزبون لتحديد ما إذا كانت المعاملة تصديراً."
 
 #: erpnext/assets/doctype/asset/depreciation.py:751
 msgid "Please set Depreciation related Accounts in Asset Category {0} or Company {1}"
@@ -39873,7 +39873,7 @@ msgstr "يرجى تعيين البريد الإلكتروني/الهاتف لج�
 
 #: erpnext/regional/italy/utils.py:257
 msgid "Please set Fiscal Code for the customer '%s'"
-msgstr "يرجى تعيين الرمز المالي للعميل '%s'"
+msgstr "يرجى تعيين الرمز المالي للزبون '%s'"
 
 #: erpnext/regional/italy/utils.py:265
 msgid "Please set Fiscal Code for the public administration '%s'"
@@ -39898,7 +39898,7 @@ msgstr "يرجى تعيين النوع الجذري"
 
 #: erpnext/regional/italy/utils.py:272
 msgid "Please set Tax ID for the customer '%s'"
-msgstr "يرجى تعيين رقم التعريف الضريبي للعميل '%s'"
+msgstr "يرجى تعيين رقم التعريف الضريبي للزبون '%s'"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:364
 msgid "Please set Unrealized Exchange Gain/Loss Account in Company {0}"
@@ -39956,7 +39956,7 @@ msgstr "يرجى تعيين حساب مصروفات في جدول الأصناف
 
 #: erpnext/crm/doctype/email_campaign/email_campaign.py:64
 msgid "Please set an email id for the Lead {0}"
-msgstr "يرجى تعيين بريد إلكتروني للعميل المحتمل {0}"
+msgstr "يرجى تعيين بريد إلكتروني للزبون المحتمل {0}"
 
 #: erpnext/regional/italy/utils.py:283
 msgid "Please set at least one row in the Taxes and Charges Table"
@@ -40031,7 +40031,7 @@ msgstr "يرجى تحديد (تكرار) بعد الحفظ"
 
 #: erpnext/regional/italy/utils.py:277
 msgid "Please set the Customer Address"
-msgstr "يرجى ضبط عنوان العميل"
+msgstr "يرجى ضبط عنوان الزبون"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:198
 msgid "Please set the Default Cost Center in {0} company."
@@ -40519,7 +40519,7 @@ msgstr "قبل البيع"
 #. Description of the 'Company Bank Account' (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Pre-filled on payment entries for this customer. Must be a company account."
-msgstr "يُعبَّأ مسبقاً في قيود الدفع لهذا العميل. يجب أن يكون حساباً للشركة."
+msgstr "يُعبَّأ مسبقاً في قيود الدفع لهذا الزبون. يجب أن يكون حساباً للشركة."
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:310
 msgid "Preference"
@@ -40584,7 +40584,7 @@ msgstr "منع رفق"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Prevent Sales Invoice when Customer is Overdue"
-msgstr "منع فاتورة المبيعات عند تأخر العميل في السداد"
+msgstr "منع فاتورة المبيعات عند تأخر الزبون في السداد"
 
 #. Option for the 'Corrective/Preventive' (Select) field in DocType 'Quality
 #. Action'
@@ -41398,7 +41398,7 @@ msgstr "معالجة كشف الحسابات (نسخة كربونية)"
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_statement_of_accounts_customer/process_statement_of_accounts_customer.json
 msgid "Process Statement Of Accounts Customer"
-msgstr "بيان العملية لحسابات العملاء"
+msgstr "بيان العملية لحسابات الزبائن"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_subscription/process_subscription.json
@@ -42083,26 +42083,26 @@ msgstr "بنسبة كذا"
 #: erpnext/crm/doctype/prospect/prospect.json erpnext/crm/workspace/crm/crm.json
 #: erpnext/selling/doctype/customer/customer.json erpnext/workspace_sidebar/crm.json
 msgid "Prospect"
-msgstr "عميل محتمل"
+msgstr "زبون محتمل"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/prospect_lead/prospect_lead.json
 msgid "Prospect Lead"
-msgstr "عميل محتمل رئيسي"
+msgstr "زبون محتمل رئيسي"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
 msgid "Prospect Opportunity"
-msgstr "فرصة عميل محتمل"
+msgstr "فرصة زبون محتمل"
 
 #. Label of the prospect_owner (Link) field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "Prospect Owner"
-msgstr "مالك العميل المحتمل"
+msgstr "مالك الزبون المحتمل"
 
 #: erpnext/crm/doctype/lead/lead.py:312
 msgid "Prospect {0} already exists"
-msgstr "العميل المحتمل {0} موجود بالفعل"
+msgstr "الزبون المحتمل {0} موجود بالفعل"
 
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:1
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:440
@@ -43776,7 +43776,7 @@ msgstr "عدد النقاط"
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:26
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:32
 msgid "Quot/Lead %"
-msgstr "نسبة عرض السعر / العميل المحتمل %"
+msgstr "نسبة عرض السعر / الزبون المحتمل %"
 
 #. Option for the 'Document Type' (Select) field in DocType 'Contract'
 #. Label of the quotation_section (Section Break) field in DocType 'CRM
@@ -44110,7 +44110,7 @@ msgstr "معدل والمبلغ"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Rate at which Customer Currency is converted to customer's base currency"
-msgstr "المعدل الذي يتم تحويل العملة إلى عملة الأساس العملاء العميل"
+msgstr "المعدل الذي يتم تحويل العملة إلى عملة الأساس الزبائن الزبون"
 
 #. Description of the 'Price List Exchange Rate' (Float) field in DocType
 #. 'Blanket Order'
@@ -44135,7 +44135,7 @@ msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعا
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Rate at which Price list currency is converted to customer's base currency"
-msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للعميل"
+msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للزبون"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Quotation'
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Sales Order'
@@ -44144,7 +44144,7 @@ msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعا
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Rate at which customer's currency is converted to company's base currency"
-msgstr "المعدل الذي يتم تحويل العملة إلى عملة العميل قاعدة الشركة"
+msgstr "المعدل الذي يتم تحويل العملة إلى عملة الزبون قاعدة الشركة"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Blanket Order'
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
@@ -44365,7 +44365,7 @@ msgstr "لا يمكن ترك المواد الخام فارغة."
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:136
 msgid "Raw Materials to Customer"
-msgstr "المواد الخام للعميل"
+msgstr "المواد الخام للزبون"
 
 #. Description of the 'Validate consumed quantity (as per BOM)' (Check) field
 #. in DocType 'Buying Settings'
@@ -44606,7 +44606,7 @@ msgstr "تسلم"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Receive from Customer"
-msgstr "استلام من العميل"
+msgstr "استلام من الزبون"
 
 #. Label of the received_amount (Currency) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -44881,7 +44881,7 @@ msgstr "تسجيل قيد يومية للمصروفات أو الإيرادات 
 
 #: banking/src/components/features/Settings/KeyboardShortcuts.tsx:23
 msgid "Record a payment against a customer or supplier"
-msgstr "تسجيل دفعة مقابل عميل أو مورّد"
+msgstr "تسجيل دفعة مقابل زبون أو مورّد"
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:494
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:500
@@ -44890,7 +44890,7 @@ msgstr "تسجيل دفعة مقابل عميل أو مورّد"
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:685
 #: banking/src/components/features/BankReconciliation/RecordPaymentModal.tsx:19
 msgid "Record a payment entry against a customer or supplier"
-msgstr "تسجيل قيد دفع مقابل عميل أو مورّد"
+msgstr "تسجيل قيد دفع مقابل زبون أو مورّد"
 
 #: banking/src/components/features/Settings/KeyboardShortcuts.tsx:31
 msgid "Record a transfer between two bank accounts"
@@ -45158,7 +45158,7 @@ msgstr "رقم مرجع الفاتورة من النظام السابق"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:142
 msgid "Reference: {0}, Item Code: {1} and Customer: {2}"
-msgstr "المرجع: {0}، رمز العنصر: {1} والعميل: {2}"
+msgstr "المرجع: {0}، رمز العنصر: {1} والزبون: {2}"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:375
 msgid "References to Sales Invoices are Incomplete"
@@ -46630,7 +46630,7 @@ msgstr "كمية المرتجع من المستودع المرفوض"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Return Raw Material to Customer"
-msgstr "إعادة المواد الخام إلى العميل"
+msgstr "إعادة المواد الخام إلى الزبون"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1578
 msgid "Return invoice of asset cancelled"
@@ -47405,7 +47405,7 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} against Subcontracting Inward Order Item {2} "
 "({3}) cannot be added multiple times."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} مقابل صنف أمر التعاقد من الباطن الوارد {2} "
+"السطر #{0}: الصنف المقدم من الزبون {1} مقابل صنف أمر التعاقد من الباطن الوارد {2} "
 "({3}) لا يمكن إضافته عدة مرات."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:178
@@ -47415,19 +47415,19 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} cannot be added multiple times in the "
 "Subcontracting Inward process."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} لا يمكن إضافته عدة مرات في عملية التعاقد من "
+"السطر #{0}: الصنف المقدم من الزبون {1} لا يمكن إضافته عدة مرات في عملية التعاقد من "
 "الباطن الواردة."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:432
 msgid "Row #{0}: Customer Provided Item {1} cannot be added multiple times."
-msgstr "الصف رقم {0}: لا يمكن إضافة الصنف المقدَّم من العميل {1} أكثر من مرة."
+msgstr "الصف رقم {0}: لا يمكن إضافة الصنف المقدَّم من الزبون {1} أكثر من مرة."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:457
 msgid ""
 "Row #{0}: Customer Provided Item {1} does not exist in the Required Items table "
 "linked to the Subcontracting Inward Order."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} غير موجود في جدول الأصناف المطلوبة المرتبط "
+"السطر #{0}: الصنف المقدم من الزبون {1} غير موجود في جدول الأصناف المطلوبة المرتبط "
 "بأمر التعاقد من الباطن الوارد."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:288
@@ -47435,7 +47435,7 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} exceeds quantity available through "
 "Subcontracting Inward Order"
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} يتجاوز الكمية المتاحة من خلال أمر التعاقد من "
+"السطر #{0}: الصنف المقدم من الزبون {1} يتجاوز الكمية المتاحة من خلال أمر التعاقد من "
 "الباطن الوارد."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:445
@@ -47443,17 +47443,17 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} has insufficient quantity in the Subcontracting "
 "Inward Order. Available quantity is {2}."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} لديه كمية غير كافية في أمر التعاقد من الباطن "
+"السطر #{0}: الصنف المقدم من الزبون {1} لديه كمية غير كافية في أمر التعاقد من الباطن "
 "الوارد. الكمية المتاحة هي {2}."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:315
 msgid "Row #{0}: Customer Provided Item {1} is not a part of Subcontracting Inward Order {2}"
-msgstr "السطر #{0}: الصنف المقدم من العميل {1} ليس جزءاً من أمر التعاقد من الباطن الوارد {2}."
+msgstr "السطر #{0}: الصنف المقدم من الزبون {1} ليس جزءاً من أمر التعاقد من الباطن الوارد {2}."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:220
 #: erpnext/controllers/subcontracting_inward_controller.py:363
 msgid "Row #{0}: Customer Provided Item {1} is not a part of Work Order {2}"
-msgstr "الصف رقم {0}: الصنف المقدَّم من العميل {1} ليس جزءًا من أمر العمل {2}"
+msgstr "الصف رقم {0}: الصنف المقدَّم من الزبون {1} ليس جزءًا من أمر العمل {2}"
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:61
 msgid "Row #{0}: Dates overlapping with other row in group {1}"
@@ -47525,7 +47525,7 @@ msgstr "الصف رقم {0}: مرجع المنتج التام إلزامي لل�
 #: erpnext/controllers/subcontracting_inward_controller.py:170
 #: erpnext/controllers/subcontracting_inward_controller.py:294
 msgid "Row #{0}: For Customer Provided Item {1}, Source Warehouse must be {2}"
-msgstr "الصف #{0}: بالنسبة للمنتج المقدم من العميل {1}، يجب أن يكون مستودع المصدر {2}"
+msgstr "الصف #{0}: بالنسبة للمنتج المقدم من الزبون {1}، يجب أن يكون مستودع المصدر {2}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:702
 msgid "Row #{0}: For {1}, you can select reference document only if account gets credited"
@@ -47581,7 +47581,7 @@ msgstr "الصف رقم {0}: الصنف {1} مضاف بالفعل بنفس ال�
 
 #: erpnext/controllers/subcontracting_inward_controller.py:65
 msgid "Row #{0}: Item {1} is not a Customer Provided Item."
-msgstr "الصف #{0}: العنصر {1} ليس عنصرًا مقدمًا من العميل."
+msgstr "الصف #{0}: العنصر {1} ليس عنصرًا مقدمًا من الزبون."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:771
 msgid ""
@@ -47673,7 +47673,7 @@ msgid ""
 "Row #{0}: Overconsumption of Customer Provided Item {1} against Work Order {2} is not"
 " allowed in the Subcontracting Inward process."
 msgstr ""
-"السطر #{0}: الاستهلاك الزائد للصنف المقدم من العميل {1} مقابل أمر العمل {2} غير مسموح"
+"السطر #{0}: الاستهلاك الزائد للصنف المقدم من الزبون {1} مقابل أمر العمل {2} غير مسموح"
 " به في عملية التعاقد من الباطن الواردة."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1055
@@ -47689,7 +47689,7 @@ msgid ""
 "Row #{0}: Please select the Finished Good Item against which this Customer Provided "
 "Item will be used."
 msgstr ""
-"السطر #{0}: يرجى تحديد صنف المنتج التام الذي سيتم استخدام هذا الصنف المقدم من العميل "
+"السطر #{0}: يرجى تحديد صنف المنتج التام الذي سيتم استخدام هذا الصنف المقدم من الزبون "
 "مقابله."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1052
@@ -47899,12 +47899,12 @@ msgid ""
 "Row #{0}: Source Warehouse must be same as Customer Warehouse {1} from the linked "
 "Subcontracting Inward Order"
 msgstr ""
-"السطر #{0}: يجب أن يكون مستودع المصدر هو نفسه مستودع العميل {1} من أمر التعاقد من "
+"السطر #{0}: يجب أن يكون مستودع المصدر هو نفسه مستودع الزبون {1} من أمر التعاقد من "
 "الباطن الوارد المرتبط."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:466
 msgid "Row #{0}: Source Warehouse {1} for item {2} cannot be a customer warehouse."
-msgstr "الصف #{0}: لا يمكن أن يكون مستودع المصدر {1} للعنصر {2} مستودع عميل."
+msgstr "الصف #{0}: لا يمكن أن يكون مستودع المصدر {1} للعنصر {2} مستودع زبون."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:421
 msgid ""
@@ -47978,7 +47978,7 @@ msgid ""
 "Row #{0}: Target Warehouse must be same as Customer Warehouse {1} from the linked "
 "Subcontracting Inward Order"
 msgstr ""
-"السطر #{0}: يجب أن يكون مستودع الهدف هو نفسه مستودع العميل {1} من أمر التعاقد من "
+"السطر #{0}: يجب أن يكون مستودع الهدف هو نفسه مستودع الزبون {1} من أمر التعاقد من "
 "الباطن الوارد المرتبط."
 
 #: erpnext/controllers/stock_controller.py:380
@@ -48136,7 +48136,7 @@ msgstr "الصف رقم {}: فاتورة نقاط البيع {} كانت {}"
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:73
 msgid "Row #{}: POS Invoice {} is not against customer {}"
-msgstr "الصف رقم {}: فاتورة نقاط البيع {} ليست ضد العميل {}"
+msgstr "الصف رقم {}: فاتورة نقاط البيع {} ليست ضد الزبون {}"
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:88
 msgid "Row #{}: POS Invoice {} is not submitted yet"
@@ -48289,11 +48289,11 @@ msgstr "الصف {0}: لا يمكن ربط قيد مدين مع {1}"
 
 #: erpnext/controllers/selling_controller.py:871
 msgid "Row {0}: Delivery Warehouse ({1}) and Customer Warehouse ({2}) can not be same"
-msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم ({1}) ومستودع العميل ({2}) متماثلين"
+msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم ({1}) ومستودع الزبون ({2}) متماثلين"
 
 #: erpnext/controllers/subcontracting_controller.py:159
 msgid "Row {0}: Delivery Warehouse cannot be same as Customer Warehouse for Item {1}."
-msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع العميل للصنف {1}."
+msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع الزبون للصنف {1}."
 
 #: erpnext/controllers/accounts_controller.py:2826
 msgid "Row {0}: Due Date in the Payment Terms table cannot be before Posting Date"
@@ -49284,7 +49284,7 @@ msgid ""
 "Sales Order {0} already exists against Customer's Purchase Order {1}. To allow "
 "multiple Sales Orders, Enable {2} in {3}"
 msgstr ""
-"أمر المبيعات {0} موجود بالفعل مقابل أمر شراء العميل {1}. للسماح بأوامر مبيعات متعددة،"
+"أمر المبيعات {0} موجود بالفعل مقابل أمر شراء الزبون {1}. للسماح بأوامر مبيعات متعددة،"
 " قم بتمكين {2} في {3}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:1846
@@ -50001,11 +50001,11 @@ msgstr "بحث عن حساب..."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:323
 msgid "Search by customer name, phone, email."
-msgstr "البحث عن طريق اسم العميل، الهاتف، البريد الإلكتروني."
+msgstr "البحث عن طريق اسم الزبون، الهاتف، البريد الإلكتروني."
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:60
 msgid "Search by invoice id or customer name"
-msgstr "البحث عن طريق معرف الفاتورة أو اسم العميل"
+msgstr "البحث عن طريق معرف الفاتورة أو اسم الزبون"
 
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:229
 msgid "Search by item code, serial number or barcode"
@@ -50190,7 +50190,7 @@ msgstr "حدد العملية التصحيحية"
 #. Statement Of Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 msgid "Select Customers By"
-msgstr "حدد العملاء حسب"
+msgstr "حدد الزبائن حسب"
 
 #: erpnext/setup/doctype/employee/employee.js:160
 msgid ""
@@ -50356,7 +50356,7 @@ msgstr "حدد الشركة التي ينتمي إليها هذا الموظف."
 
 #: erpnext/buying/doctype/supplier/supplier.js:221
 msgid "Select a Customer"
-msgstr "حدد عميلاً"
+msgstr "حدد زبوناً"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:115
 msgid "Select a Default Priority."
@@ -50487,7 +50487,7 @@ msgstr "حدد المستودع"
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:47
 msgid "Select the customer or supplier."
-msgstr "حدد العميل أو المورد."
+msgstr "حدد الزبون أو المورد."
 
 #: erpnext/assets/doctype/asset/asset.js:947
 msgid "Select the date"
@@ -50534,7 +50534,7 @@ msgstr "حدد يوم عطلتك الأسبوعية"
 #. DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Select, to make the customer searchable with these fields"
-msgstr "حدد، لجعل العميل قابلا للبحث باستخدام هذه الحقول"
+msgstr "حدد، لجعل الزبون قابلا للبحث باستخدام هذه الحقول"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:77
 msgid "Selected POS Opening Entry should be open."
@@ -51012,7 +51012,7 @@ msgstr "الرقم التسلسلي {0} مضاف بالفعل"
 msgid ""
 "Serial No {0} is already assigned to customer {1}. Can only be returned against the "
 "customer {1}"
-msgstr "الرقم التسلسلي {0} مُسند بالفعل للعميل {1}. لا يمكن إرجاعه إلا مقابل العميل {1}"
+msgstr "الرقم التسلسلي {0} مُسند بالفعل للزبون {1}. لا يمكن إرجاعه إلا مقابل الزبون {1}"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:213
 msgid "Serial No {0} is not available in the selected inventory dimensions: {1}"
@@ -51697,7 +51697,7 @@ msgstr "عيّن الحالة يدويًا."
 
 #: erpnext/regional/italy/setup.py:235
 msgid "Set this if the customer is a Public Administration company."
-msgstr "حدد هذا إذا كان العميل شركة إدارة عامة."
+msgstr "حدد هذا إذا كان الزبون شركة إدارة عامة."
 
 #. Description of the 'Close Issue After Days' (Int) field in DocType 'Support
 #. Settings'
@@ -52827,7 +52827,7 @@ msgid ""
 "Source Warehouse {0} must be same as Customer Warehouse {1} in the Subcontracting "
 "Inward Order."
 msgstr ""
-"يجب أن يكون مستودع المصدر {0} هو نفسه مستودع العميل {1} في أمر التعاقد من الباطن "
+"يجب أن يكون مستودع المصدر {0} هو نفسه مستودع الزبون {1} في أمر التعاقد من الباطن "
 "الوارد."
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:85
@@ -54788,7 +54788,7 @@ msgstr "تم استيراد {0} سجل بنجاح."
 
 #: erpnext/buying/doctype/supplier/supplier.js:243
 msgid "Successfully linked to Customer"
-msgstr "تم الربط بالعميل بنجاح"
+msgstr "تم الربط بالزبون بنجاح"
 
 #: erpnext/selling/doctype/customer/customer.js:273
 msgid "Successfully linked to Supplier"
@@ -55198,7 +55198,7 @@ msgstr "رقم المورد"
 #. Name of a DocType
 #: erpnext/selling/doctype/supplier_number_at_customer/supplier_number_at_customer.json
 msgid "Supplier Number At Customer"
-msgstr "رقم المورد لدى العميل"
+msgstr "رقم المورد لدى الزبون"
 
 #. Label of the supplier_numbers (Table) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -55369,7 +55369,7 @@ msgstr "المورد مستودع"
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/stock/doctype/packed_item/packed_item.json
 msgid "Supplier delivers to Customer"
-msgstr "المورد يسلم للعميل"
+msgstr "المورد يسلم للزبون"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1726
 msgid "Supplier is required for all selected Items"
@@ -55576,7 +55576,7 @@ msgstr "TDS مستحق الدفع"
 #. 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "TDS/TCS is calculated at the rate defined here on every payment from this customer."
-msgstr "يُحتسب الاستقطاع/التحصيل الضريبي بالنسبة المحددة هنا على كل دفعة من هذا العميل."
+msgstr "يُحتسب الاستقطاع/التحصيل الضريبي بالنسبة المحددة هنا على كل دفعة من هذا الزبون."
 
 #. Description of a DocType
 #: erpnext/stock/doctype/item_website_specification/item_website_specification.json
@@ -55749,7 +55749,7 @@ msgstr "مستودع الهدف مطلوب قبل التقديم"
 
 #: erpnext/controllers/selling_controller.py:877
 msgid "Target Warehouse is set for some items but the customer is not an internal customer."
-msgstr "تم تعيين مستودع الهدف لبعض الأصناف ولكن العميل ليس عميلًا داخليًا."
+msgstr "تم تعيين مستودع الهدف لبعض الأصناف ولكن الزبون ليس زبونًا داخليًا."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:396
 msgid ""
@@ -57147,7 +57147,7 @@ msgid ""
 "The lowest tier must have a minimum spent amount of 0. Customers need to be part of a"
 " tier as soon as they are enrolled in the program."
 msgstr ""
-"يجب أن يكون الحد الأدنى للمبلغ المنفق في أدنى مستوى هو 0. يجب أن يكون العملاء جزءًا "
+"يجب أن يكون الحد الأدنى للمبلغ المنفق في أدنى مستوى هو 0. يجب أن يكون الزبائن جزءًا "
 "من مستوى بمجرد تسجيلهم في البرنامج."
 
 #. Description of the 'Net Weight' (Float) field in DocType 'Packing Slip'
@@ -57517,7 +57517,7 @@ msgid ""
 "Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, "
 "Supplier, Supplier Type, Campaign, Sales Partner etc."
 msgstr ""
-"يتم تصفية قواعد التسعير بناءً على العميل، مجموعة العملاء، المنطقة، المورد، نوع "
+"يتم تصفية قواعد التسعير بناءً على الزبون، مجموعة الزبائن، المنطقة، المورد، نوع "
 "المورد، الحملة، شريك المبيعات، إلخ."
 
 #: erpnext/assets/doctype/asset/asset.py:731
@@ -57779,7 +57779,7 @@ msgstr "أُرسل هذا البريد الإلكتروني من {0}"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:496
 msgid "This field is used to set the 'Customer'."
-msgstr "يستخدم هذا الحقل لتعيين 'العميل'."
+msgstr "يستخدم هذا الحقل لتعيين 'الزبون'."
 
 #. Description of the 'Bank / Cash Account' (Link) field in DocType 'Payment
 #. Reconciliation'
@@ -57834,7 +57834,7 @@ msgstr "هذا حساب جذري ولا يمكن تعديله."
 
 #: erpnext/setup/doctype/customer_group/customer_group.js:44
 msgid "This is a root customer group and cannot be edited."
-msgstr "هذه هي مجموعة العملاء الجذرية والتي لا يمكن تحريرها."
+msgstr "هذه هي مجموعة الزبائن الجذرية والتي لا يمكن تحريرها."
 
 #: erpnext/setup/doctype/department/department.js:14
 msgid "This is a root department and cannot be edited."
@@ -58628,7 +58628,7 @@ msgstr ""
 #. Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 msgid "To be Delivered to Customer"
-msgstr "ليتم تسليمها للعميل"
+msgstr "ليتم تسليمها للزبون"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:580
 msgid "To cancel a {} you need to cancel the POS Closing Entry {}."
@@ -59959,7 +59959,7 @@ msgid ""
 "customer's overdue amount exceeds the Overdue Limit."
 msgstr ""
 "تُمنع المعاملات عندما يتجاوز الرصيد المستحق حد الائتمان. وعند تفعيل 'تقييد الفوترة "
-"الزائدة للعميل'، تُمنع أيضاً الفواتير الجديدة عندما يتجاوز المبلغ المتأخر على العميل "
+"الزائدة للزبون'، تُمنع أيضاً الفواتير الجديدة عندما يتجاوز المبلغ المتأخر على الزبون "
 "حد التأخر في السداد."
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:239
@@ -61149,7 +61149,7 @@ msgstr "يجب تمكين تحديث المخزون لفاتورة الشراء 
 #. DocType 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Update the modified timestamp on new communications received in Lead & Opportunity."
-msgstr "تحديث الطابع الزمني المعدل على الاتصالات الجديدة المستلمة في العميل المحتمل والفرصة."
+msgstr "تحديث الطابع الزمني المعدل على الاتصالات الجديدة المستلمة في الزبون المحتمل والفرصة."
 
 #. Label of the update_timestamp_on_new_communication (Check) field in DocType
 #. 'CRM Settings'
@@ -61530,7 +61530,7 @@ msgid ""
 "Users listed here can log into the customer portal to view their orders, invoices, "
 "and deliveries."
 msgstr ""
-"يمكن للمستخدمين المدرجين هنا تسجيل الدخول إلى بوابة العملاء لعرض أوامرهم وفواتيرهم "
+"يمكن للمستخدمين المدرجين هنا تسجيل الدخول إلى بوابة الزبائن لعرض أوامرهم وفواتيرهم "
 "وتسليماتهم."
 
 #. Description of the 'Role Allowed to over bill ' (Link) field in DocType
@@ -61556,7 +61556,7 @@ msgid ""
 "Users with this role can still submit invoices for customers who have crossed their "
 "Overdue Limit."
 msgstr ""
-"لا يزال بإمكان المستخدمين الذين لديهم هذا الدور ترحيل فواتير للعملاء الذين تجاوزوا حد"
+"لا يزال بإمكان المستخدمين الذين لديهم هذا الدور ترحيل فواتير للزبائن الذين تجاوزوا حد"
 " التأخر في السداد."
 
 #. Description of the 'Role to Notify on Depreciation Failure' (Link) field in
@@ -61881,7 +61881,7 @@ msgstr "التقييم والمجموع"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:998
 msgid "Valuation rate for customer provided items has been set to zero."
-msgstr "تم تعيين معدل التقييم للأصناف المقدمة من العميل إلى صفر."
+msgstr "تم تعيين معدل التقييم للأصناف المقدمة من الزبون إلى صفر."
 
 #. Description of the 'Sales Incoming Rate' (Currency) field in DocType
 #. 'Purchase Invoice Item'
@@ -62172,7 +62172,7 @@ msgstr "فرستا"
 #. Label of a field in the issues Web Form
 #: erpnext/support/doctype/issue/issue.json erpnext/support/web_form/issues/issues.json
 msgid "Via Customer Portal"
-msgstr "عبر بوابة العملاء"
+msgstr "عبر بوابة الزبائن"
 
 #. Label of the via_landed_cost_voucher (Check) field in DocType 'Repost Item
 #. Valuation'
@@ -62233,7 +62233,7 @@ msgstr "عرض التعليمات"
 
 #: erpnext/crm/doctype/campaign/campaign.js:15
 msgid "View Leads"
-msgstr "مشاهدة العملاء المحتملون"
+msgstr "مشاهدة الزبائن المحتملون"
 
 #: erpnext/accounts/doctype/account/account_tree.js:274
 #: erpnext/stock/doctype/batch/batch.js:18
@@ -62628,7 +62628,7 @@ msgstr "في انتظار الدفع..."
 
 #: erpnext/setup/setup_wizard/data/marketing_source.txt:10
 msgid "Walk In"
-msgstr "عميل غير مسجل"
+msgstr "زبون غير مسجل"
 
 #: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:4
 msgid "Warehouse Capacity Summary"
@@ -62917,7 +62917,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:351
 msgid "Warning: Sales Order {0} already exists against Customer's Purchase Order {1}"
-msgstr "تحذير: أمر البيع {0} موجود مسبقاً لأمر الشراء الخاص بالعميل {1}"
+msgstr "تحذير: أمر البيع {0} موجود مسبقاً لأمر الشراء الخاص بالزبون {1}"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:75
 msgid "Warning: This action cannot be undone!"
@@ -64186,7 +64186,7 @@ msgstr "لم تقم بإنشاء {0} بعد"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:734
 msgid "You must select a customer before adding an item."
-msgstr "يجب عليك تحديد عميل قبل إضافة عنصر."
+msgstr "يجب عليك تحديد زبون قبل إضافة عنصر."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:279
 msgid "You need to cancel POS Closing Entry {} to be able to cancel this document."
@@ -64640,14 +64640,14 @@ msgstr "{0} <b>{1}</b> قام بتقديم أصول. قم بإزالة الصن�
 
 #: erpnext/controllers/accounts_controller.py:2471
 msgid "{0} Account not found against Customer {1}."
-msgstr "لم يتم العثور على حساب {0} مقابل العميل {1}."
+msgstr "لم يتم العثور على حساب {0} مقابل الزبون {1}."
 
 #: erpnext/utilities/transaction_base.py:257
 msgid ""
 "{0} Account: {1} ({2}) must be in either customer billing currency: {3} or Company "
 "default currency: {4}"
 msgstr ""
-"حساب {0}: {1} ({2}) يجب أن يكون إما بعملة فوترة العميل: {3} أو عملة الشركة "
+"حساب {0}: {1} ({2}) يجب أن يكون إما بعملة فوترة الزبون: {3} أو عملة الشركة "
 "الافتراضية: {4}"
 
 #: erpnext/accounts/doctype/budget/budget.py:547
@@ -65027,7 +65027,7 @@ msgid ""
 " the 'Allowed To Transact With'-Section in the Customer record."
 msgstr ""
 "غير مسموح لـ {0} بالتعامل مع {1}. يرجى تغيير الشركة أو إضافة الشركة في قسم 'مسموح له "
-"بالتعامل مع' في سجل العميل."
+"بالتعامل مع' في سجل الزبون."
 
 #: erpnext/manufacturing/doctype/bom/bom.py:670
 msgid "{0} not found for item {1}"

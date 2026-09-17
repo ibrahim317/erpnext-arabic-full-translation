@@ -133,11 +133,11 @@ msgstr "\"نبذة عن الشركة\""
 
 #. source: erpnext
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
-msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن شرائها"
+msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن شرائها"
 
 #. source: erpnext
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"الأصناف المقدمة من العملاء\" لا يمكن أن تحتوي على تكلفة"
+msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن أن تحتوي على تكلفة"
 
 #. source: hrms
 msgid "\"From Date\" can not be greater than or equal to \"To Date\""
@@ -305,11 +305,11 @@ msgstr "'*' مسموح به فقط في دوال SQL من نوع {0}"
 
 #. source: erpnext
 msgid "'Account' in the Accounting section of Customer {0}"
-msgstr "'الحساب' في قسم المحاسبة للعميل {0}"
+msgstr "'الحساب' في قسم المحاسبة للزبون {0}"
 
 #. source: erpnext
 msgid "'Allow Multiple Sales Orders Against a Customer's Purchase Order'"
-msgstr "'السماح بأوامر بيع متعددة مقابل أمر شراء العميل'"
+msgstr "'السماح بأوامر بيع متعددة مقابل أمر شراء الزبون'"
 
 #. source: erpnext
 msgid "'Based On' and 'Group By' can not be same"
@@ -1002,7 +1002,7 @@ msgstr ""
 "الديناميكية.\n"
 "</li><li>\n"
 "    جميع الحقول في نوع المستند هذا متاحة ضمن كائن <b>doc</b> وجميع الحقول الخاصة "
-"بالعميل الذي سيُرسل إليه البريد متاحة ضمن كائن <b>customer</b>.\n"
+"بالزبون الذي سيُرسل إليه البريد متاحة ضمن كائن <b>customer</b>.\n"
 "</li></ul>\n"
 "<h4> أمثلة</h4>\n"
 "<!-- {% raw %} -->\n"
@@ -1202,7 +1202,7 @@ msgstr ""
 " هو صنف مبيعات</code> كـ <b>نعم</b>.</p>\n"
 "<h4>مثال:</h4>\n"
 "<p>إذا كنت تبيع أجهزة كمبيوتر محمولة وحقائب ظهر بشكل منفصل ولديك سعر خاص إذا اشترى "
-"العميل كليهما، فسيكون الكمبيوتر المحمول + حقيبة الظهر صنف حزمة منتج جديد.</p>"
+"الزبون كليهما، فسيكون الكمبيوتر المحمول + حقيبة الظهر صنف حزمة منتج جديد.</p>"
 
 #. source: erpnext
 msgid ""
@@ -1428,7 +1428,7 @@ msgstr ""
 "<h4>مثال</h4>\n"
 "<pre><code>&lt;h3&gt;{{ doc.select_print_heading or \"فاتورة\" }}&lt;/h3&gt;\n"
 "&lt;div class=\"row\"&gt;\n"
-"\t&lt;div class=\"col-md-3 text-right\"&gt;اسم العميل&lt;/div&gt;\n"
+"\t&lt;div class=\"col-md-3 text-right\"&gt;اسم الزبون&lt;/div&gt;\n"
 "\t&lt;div class=\"col-md-9\"&gt;{{ doc.customer_name }}&lt;/div&gt;\n"
 "&lt;/div&gt;\n"
 "&lt;div class=\"row\"&gt;\n"
@@ -1574,7 +1574,7 @@ msgid ""
 msgstr ""
 "<h4>مثال على قالب العقد</h4>\n"
 "\n"
-"<pre>عقد للعميل {{ party_name }}\n"
+"<pre>عقد للزبون {{ party_name }}\n"
 "\n"
 "-صالح من : {{ start_date }} \n"
 "-صالح حتى : {{ end_date }}\n"
@@ -1687,7 +1687,7 @@ msgstr ""
 "\n"
 "التفاصيل\n"
 "\n"
-"- العميل: {{ customer }}\n"
+"- الزبون: {{ customer }}\n"
 "- المبلغ: {{ grand_total }}\n"
 "</pre>\n"
 "\n"
@@ -1791,7 +1791,7 @@ msgstr ""
 "&lt;h4&gt;التفاصيل&lt;/h4&gt;\n"
 "\n"
 "&lt;ul&gt;\n"
-"&lt;li&gt;العميل: {{ doc.customer }}\n"
+"&lt;li&gt;الزبون: {{ doc.customer }}\n"
 "&lt;li&gt;المبلغ: {{ doc.grand_total }}\n"
 "&lt;/ul&gt;\n"
 "</pre>"
@@ -2335,7 +2335,7 @@ msgstr "أ - ج"
 msgid ""
 "A Customer Group exists with same name please change the Customer name or rename the "
 "Customer Group"
-msgstr "توجد مجموعة عملاء بنفس الاسم، يرجى تغيير اسم العميل أو إعادة تسمية مجموعة العملاء"
+msgstr "توجد مجموعة زبائن بنفس الاسم، يرجى تغيير اسم الزبون أو إعادة تسمية مجموعة الزبائن"
 
 #. source: frappe
 msgid ""
@@ -2369,7 +2369,7 @@ msgstr "يوجد بالفعل طلب توظيف لـ {0} مقدَّم من {1}: 
 
 #. source: erpnext
 msgid "A Lead requires either a person's name or an organization's name"
-msgstr "يتطلب العميل المحتمل اسم شخص أو اسم مؤسسة"
+msgstr "يتطلب الزبون المحتمل اسم شخص أو اسم مؤسسة"
 
 #. source: erpnext
 msgid "A Packing Slip can only be created for Draft Delivery Note."
@@ -2403,7 +2403,7 @@ msgstr "شرط لقاعدة شحن"
 
 #. source: erpnext
 msgid "A customer must have primary contact email."
-msgstr "يجب أن يكون لدى العميل بريد إلكتروني أساسي للاتصال."
+msgstr "يجب أن يكون لدى الزبون بريد إلكتروني أساسي للاتصال."
 
 #. source: erpnext
 msgid "A disabled Product Bundle cannot be selected in transactions."
@@ -2885,7 +2885,7 @@ msgstr "حساب"
 msgid ""
 "Account / customer numbers assigned to your companies by this supplier (for "
 "reconciliation on their statements)"
-msgstr "أرقام الحسابات / العملاء التي خصصها هذا المورد لشركاتك (للتسوية على كشوفاتهم)"
+msgstr "أرقام الحسابات / الزبائن التي خصصها هذا المورد لشركاتك (للتسوية على كشوفاتهم)"
 
 #. source: erpnext
 msgid "Account Balance"
@@ -3681,7 +3681,7 @@ msgstr "نشط"
 
 #. source: erpnext
 msgid "Active Customers"
-msgstr "العملاء النشطون"
+msgstr "الزبائن النشطون"
 
 #. source: frappe
 msgid "Active Directory"
@@ -3697,7 +3697,7 @@ msgstr "الموظفون النشطون"
 
 #. source: erpnext
 msgid "Active Leads"
-msgstr "العملاء المحتملون النشطون"
+msgstr "الزبائن المحتملون النشطون"
 
 #. source: frappe
 msgid "Active RQ Worker"
@@ -3990,7 +3990,7 @@ msgstr "إضافة علامات مخصصة"
 
 #. source: erpnext
 msgid "Add Customers"
-msgstr "إضافة العملاء"
+msgstr "إضافة الزبائن"
 
 #. source: hrms
 msgid "Add Day-wise Dates"
@@ -4046,11 +4046,11 @@ msgstr "إضافة أصناف في جدول الغرض"
 
 #. source: erpnext
 msgid "Add Lead to Prospect"
-msgstr "إضافة عميل محتمل إلى عميل متوقع"
+msgstr "إضافة زبون محتمل إلى زبون متوقع"
 
 #. source: erpnext
 msgid "Add Leads"
-msgstr "إضافة العملاء المحتملين"
+msgstr "إضافة الزبائن المحتملين"
 
 #. source: erpnext
 msgid "Add Local Holidays"
@@ -4354,7 +4354,7 @@ msgid ""
 "Add the rest of your organization as your users. You can also add invite Customers to"
 " your portal by adding them from Contacts"
 msgstr ""
-"أضف بقية أفراد مؤسستك كمستخدمين. يمكنك أيضا إضافة دعوة العملاء إلى بوابتك عن طريق "
+"أضف بقية أفراد مؤسستك كمستخدمين. يمكنك أيضا إضافة دعوة الزبائن إلى بوابتك عن طريق "
 "إضافتهم من جهات الاتصال"
 
 #. source: frappe
@@ -4375,7 +4375,7 @@ msgstr "أضف إلى الإجازات"
 
 #. source: erpnext
 msgid "Add to Prospect"
-msgstr "إضافة إلى عميل متوقع"
+msgstr "إضافة إلى زبون متوقع"
 
 #. source: frappe
 msgid "Add to ToDo"
@@ -4472,7 +4472,7 @@ msgstr "تمت إضافة دور {1} للمستخدم {0}."
 
 #. source: erpnext
 msgid "Adding Lead to Prospect..."
-msgstr "جارٍ إضافة عميل محتمل إلى عميل متوقع..."
+msgstr "جارٍ إضافة زبون محتمل إلى زبون متوقع..."
 
 #. source: erpnext
 msgid "Additional"
@@ -4813,7 +4813,7 @@ msgid ""
 "Advance Account: {0} must be in either customer billing currency: {1} or Company "
 "default currency: {2}"
 msgstr ""
-"حساب الدفعات المقدمة: {0} يجب أن يكون إما بعملة فواتير العميل: {1} أو بعملة الشركة "
+"حساب الدفعات المقدمة: {0} يجب أن يكون إما بعملة فواتير الزبون: {1} أو بعملة الشركة "
 "الافتراضية: {2}"
 
 #. source: erpnext
@@ -4986,7 +4986,7 @@ msgstr "مقابل الأمر الشامل"
 
 #. source: erpnext
 msgid "Against Customer Order {0}"
-msgstr "مقابل طلب العميل {0}"
+msgstr "مقابل طلب الزبون {0}"
 
 #. source: erpnext
 msgid "Against Delivery Note Item"
@@ -5218,11 +5218,11 @@ msgstr "جميع جهات الاتصال"
 
 #. source: erpnext
 msgid "All Customer Contact"
-msgstr "كافة جهات اتصال العميل"
+msgstr "كافة جهات اتصال الزبون"
 
 #. source: erpnext
 msgid "All Customer Groups"
-msgstr "جميع مجموعات العملاء"
+msgstr "جميع مجموعات الزبائن"
 
 #. source: frappe
 msgid "All Day"
@@ -5262,7 +5262,7 @@ msgstr "جميع الوظائف"
 
 #. source: erpnext
 msgid "All Lead (Open)"
-msgstr "جميع العملاء المحتملين (مفتوح)"
+msgstr "جميع الزبائن المحتملين (مفتوح)"
 
 #. source: erpnext
 msgid "All Parties"
@@ -5336,7 +5336,7 @@ msgstr "جميع الحقول ضرورية لإرسال التعليق."
 
 #. source: erpnext
 msgid "All invoices and orders for this customer will be created in this currency."
-msgstr "ستُنشأ جميع فواتير وطلبات هذا العميل بهذه العملة."
+msgstr "ستُنشأ جميع فواتير وطلبات هذا الزبون بهذه العملة."
 
 #. source: erpnext
 msgid "All items are already requested"
@@ -5386,7 +5386,7 @@ msgid ""
 " document(Lead -> Opportunity -> Quotation) throughout the CRM documents."
 msgstr ""
 "سيتم نسخ جميع التعليقات ورسائل البريد الإلكتروني من مستند إلى آخر مستند تم إنشاؤه "
-"حديثًا (عميل محتمل -> فرصة -> عرض أسعار) عبر مستندات إدارة علاقات العملاء."
+"حديثًا (زبون محتمل -> فرصة -> عرض أسعار) عبر مستندات إدارة علاقات الزبائن."
 
 #. source: erpnext
 msgid "All the items have been already returned."
@@ -5696,7 +5696,7 @@ msgstr "السماح بإضافة الصنف عدة مرات في المعامل
 
 #. source: erpnext
 msgid "Allow Lead Duplication based on Emails"
-msgstr "السماح بتكرار العملاء المحتملين بناءً على رسائل البريد الإلكتروني"
+msgstr "السماح بتكرار الزبائن المحتملين بناءً على رسائل البريد الإلكتروني"
 
 #. source: hrms
 msgid "Allow Leave Application After (Calendar Days)"
@@ -5736,7 +5736,7 @@ msgstr "السماح باستهلاك المواد المتعددة"
 
 #. source: erpnext
 msgid "Allow Multiple Sales Orders Against a Customer's Purchase Order"
-msgstr "السماح بأوامر مبيعات متعددة مقابل طلب الشراء الخاص بالعميل"
+msgstr "السماح بأوامر مبيعات متعددة مقابل طلب الشراء الخاص بالزبون"
 
 #. source: hrms
 msgid "Allow Multiple Shift Assignments for Same Date"
@@ -6012,7 +6012,7 @@ msgstr "السماح بفواتير متعددة العملات مقابل حس�
 
 #. source: erpnext
 msgid "Allow multiple Sales Orders against a customer's Purchase Order"
-msgstr "السماح بأوامر بيع متعددة مقابل أمر شراء العميل الواحد"
+msgstr "السماح بأوامر بيع متعددة مقابل أمر شراء الزبون الواحد"
 
 #. source: frappe
 msgid "Allow multiple responses"
@@ -6230,7 +6230,7 @@ msgstr "نطاقات التضمين المسموح بها"
 msgid ""
 "Allowed primary roles are 'Customer' and 'Supplier'. Please select one of these roles"
 " only."
-msgstr "الأدوار الأساسية المسموح بها هي 'عميل' و 'مورد'. يرجى تحديد أحد هذه الأدوار فقط."
+msgstr "الأدوار الأساسية المسموح بها هي 'زبون' و 'مورد'. يرجى تحديد أحد هذه الأدوار فقط."
 
 #. source: frappe
 msgid "Allowed special characters are '/' and '-'"
@@ -7479,7 +7479,7 @@ msgstr "يجب جدولة الموعد ضمن أوقات الفترات المت
 #. source: erpnext
 msgid "Appointment was created. But no lead was found. Please check the email to confirm"
 msgstr ""
-"تم إنشاء الموعد. ولكن لم يتم العثور على عميل محتمل. يرجى التحقق من البريد الإلكتروني "
+"تم إنشاء الموعد. ولكن لم يتم العثور على زبون محتمل. يرجى التحقق من البريد الإلكتروني "
 "للتأكيد"
 
 #. source: erpnext
@@ -8646,7 +8646,7 @@ msgstr "في السطر {0}: قم بتعيين رقم السطر الأصل لل
 
 #. source: erpnext
 msgid "Atleast one raw material for Finished Good Item {0} should be customer provided."
-msgstr "يجب أن يتم توفير مادة خام واحدة على الأقل لصنف المنتج النهائي {0} من قبل العميل."
+msgstr "يجب أن يتم توفير مادة خام واحدة على الأقل لصنف المنتج النهائي {0} من قبل الزبون."
 
 #. source: erpnext
 msgid "Atmosphere"
@@ -9180,7 +9180,7 @@ msgstr "الاسم التلقائي"
 
 #. source: erpnext
 msgid "Auto Opt In (For all customers)"
-msgstr "الاشتراك التلقائي (لجميع العملاء)"
+msgstr "الاشتراك التلقائي (لجميع الزبائن)"
 
 #. source: erpnext
 msgid "Auto Reconcile"
@@ -11342,8 +11342,8 @@ msgid ""
 "Block a new Sales Invoice when the customer's overdue amount exceeds the Overdue "
 "Limit set on the customer."
 msgstr ""
-"حظر إنشاء فاتورة مبيعات جديدة عندما يتجاوز المبلغ المتأخر على العميل حد التأخر "
-"المعيّن على العميل."
+"حظر إنشاء فاتورة مبيعات جديدة عندما يتجاوز المبلغ المتأخر على الزبون حد التأخر "
+"المعيّن على الزبون."
 
 #. source: frappe
 msgid "Blocked"
@@ -11354,7 +11354,7 @@ msgid ""
 "Blocks all further accounting entries on this customer's account. Only users with the"
 " frozen-entries role can override.\n"
 msgstr ""
-"يحظر جميع القيود المحاسبية الإضافية على حساب هذا العميل. يمكن فقط للمستخدمين ذوي دور "
+"يحظر جميع القيود المحاسبية الإضافية على حساب هذا الزبون. يمكن فقط للمستخدمين ذوي دور "
 "القيود المجمّدة التجاوز.\n"
 
 #. source: erpnext
@@ -11363,13 +11363,13 @@ msgid ""
 "Only users with the role set in Company's \"Roles Allowed to Set and Edit Frozen "
 "Account Entries\" can transact."
 msgstr ""
-"يمنع المعاملات الجديدة والقيود المحاسبية اللاحقة على حساب هذا العميل. يمكن فقط "
+"يمنع المعاملات الجديدة والقيود المحاسبية اللاحقة على حساب هذا الزبون. يمكن فقط "
 "للمستخدمين الحاصلين على الدور المحدد في \"الأدوار المسموح لها بتعيين وتعديل قيود "
 "الحسابات المجمدة\" في الشركة إجراء المعاملات."
 
 #. source: erpnext
 msgid "Blocks this customer from being used on any new transaction."
-msgstr "يمنع استخدام هذا العميل في أي معاملة جديدة."
+msgstr "يمنع استخدام هذا الزبون في أي معاملة جديدة."
 
 #. source: frappe
 msgid "Blog"
@@ -12163,11 +12163,11 @@ msgstr "إدارة علاقات الزبائن"
 
 #. source: erpnext
 msgid "CRM Note"
-msgstr "ملاحظة إدارة علاقات العملاء"
+msgstr "ملاحظة إدارة علاقات الزبائن"
 
 #. source: erpnext
 msgid "CRM Settings"
-msgstr "إعدادات إدارة علاقات العملاء"
+msgstr "إعدادات إدارة علاقات الزبائن"
 
 #. source: frappe
 msgid "CSS"
@@ -12515,7 +12515,7 @@ msgstr "لا يمكن التصفية بناءً على حساب فرعي، إذ�
 
 #. source: erpnext
 msgid "Can not filter based on Customer, if grouped by Customer"
-msgstr "لا يمكن التصفية بناءً على العميل، إذا تم تجميعه بواسطة العميل"
+msgstr "لا يمكن التصفية بناءً على الزبون، إذا تم تجميعه بواسطة الزبون"
 
 #. source: erpnext
 msgid "Can not filter based on POS Profile, if grouped by POS Profile"
@@ -13268,7 +13268,7 @@ msgstr "لا يمكن إنتاج أكثر من {0} أصناف لـ {1}"
 
 #. source: erpnext
 msgid "Cannot receive from customer against negative outstanding"
-msgstr "لا يمكن الاستلام من العميل مقابل رصيد مستحق سالب"
+msgstr "لا يمكن الاستلام من الزبون مقابل رصيد مستحق سالب"
 
 #. source: erpnext
 msgid "Cannot reduce quantity than ordered or purchased quantity"
@@ -13302,7 +13302,7 @@ msgstr "لا يمكن استرداد رمز الارتباط. تحقق من سج
 
 #. source: erpnext
 msgid "Cannot select a Group type Customer Group. Please select a non-group Customer Group."
-msgstr "لا يمكن اختيار مجموعة عملاء من نوع مجموعة. يرجى اختيار مجموعة عملاء ليست مجموعة."
+msgstr "لا يمكن اختيار مجموعة زبائن من نوع مجموعة. يرجى اختيار مجموعة زبائن ليست مجموعة."
 
 #. source: erpnext
 msgid ""
@@ -13829,7 +13829,7 @@ msgstr "تم التغيير بواسطة"
 
 #. source: erpnext
 msgid "Changed customer name to '{}' as '{}' already exists."
-msgstr "تم تغيير اسم العميل إلى '{}' لأن '{}' موجود بالفعل."
+msgstr "تم تغيير اسم الزبون إلى '{}' لأن '{}' موجود بالفعل."
 
 #. source: hrms
 msgid ""
@@ -13865,7 +13865,7 @@ msgstr "جارٍ تغيير '{0}' إلى {1}."
 
 #. source: erpnext
 msgid "Changing Customer Group for the selected Customer is not allowed."
-msgstr "لا يسمح بتغيير مجموعة العملاء للعميل المحدد."
+msgstr "لا يسمح بتغيير مجموعة الزبائن للزبون المحدد."
 
 #. source: hrms
 msgid ""
@@ -14431,7 +14431,7 @@ msgstr "الفئة / النسبة المئوية"
 
 #. source: erpnext
 msgid "Classification of Customers by region"
-msgstr "تصنيف العملاء حسب المنطقة"
+msgstr "تصنيف الزبائن حسب المنطقة"
 
 #. source: erpnext
 msgid "Classify As"
@@ -14441,7 +14441,7 @@ msgstr "تصنيف كـ"
 msgid ""
 "Classify the type of market this customer belongs to, used for sales analysis and "
 "targeting."
-msgstr "تصنيف نوع السوق الذي ينتمي إليه هذا العميل، ويُستخدم في تحليل المبيعات والاستهداف."
+msgstr "تصنيف نوع السوق الذي ينتمي إليه هذا الزبون، ويُستخدم في تحليل المبيعات والاستهداف."
 
 #. source: erpnext
 msgid "Clauses and Conditions"
@@ -15168,7 +15168,7 @@ msgstr "عمولة على المبيعات"
 
 #. source: erpnext
 msgid "Commission paid to the Sales Partner on transactions with this customer."
-msgstr "العمولة المدفوعة لشريك المبيعات على المعاملات مع هذا العميل."
+msgstr "العمولة المدفوعة لشريك المبيعات على المعاملات مع هذا الزبون."
 
 #. source: frappe
 msgid "Commit"
@@ -15414,11 +15414,11 @@ msgstr "أرقام تسجيل الشركة و أرقام ملفات الضرائ
 
 #. source: erpnext
 msgid "Company which internal customer represents"
-msgstr "الشركة التي يمثلها العميل الداخلي"
+msgstr "الشركة التي يمثلها الزبون الداخلي"
 
 #. source: erpnext
 msgid "Company which internal customer represents."
-msgstr "الشركة التي يمثلها العميل الداخلي."
+msgstr "الشركة التي يمثلها الزبون الداخلي."
 
 #. source: erpnext
 msgid "Company which internal supplier represents"
@@ -16385,7 +16385,7 @@ msgstr ""
 msgid ""
 "Controls which tax template is auto-applied when this customer is selected on a "
 "transaction."
-msgstr "يحدد قالب الضريبة الذي يُطبَّق تلقائياً عند اختيار هذا العميل في المعاملة."
+msgstr "يحدد قالب الضريبة الذي يُطبَّق تلقائياً عند اختيار هذا الزبون في المعاملة."
 
 #. source: erpnext
 msgid "Conversion Factor"
@@ -16747,7 +16747,7 @@ msgstr "تعذر حذف بيانات العرض التوضيحي"
 
 #. source: erpnext
 msgid "Could not auto create Customer due to the following missing mandatory field(s):"
-msgstr "تعذر إنشاء العميل تلقائيًا بسبب الحقول الإلزامية التالية المفقودة:"
+msgstr "تعذر إنشاء الزبون تلقائيًا بسبب الحقول الإلزامية التالية المفقودة:"
 
 #. source: frappe
 msgid "Could not connect to outgoing email server"
@@ -17024,7 +17024,7 @@ msgstr "إنشاء جهات اتصال من رسائل البريد الإلكت
 
 #. source: erpnext
 msgid "Create Customer"
-msgstr "إنشاء عميل"
+msgstr "إنشاء زبون"
 
 #. source: erpnext
 msgid "Create Delivery Note"
@@ -17112,7 +17112,7 @@ msgstr "إنشاء قيد اليومية"
 
 #. source: erpnext
 msgid "Create Lead"
-msgstr "إنشاء عميل محتمل"
+msgstr "إنشاء زبون محتمل"
 
 #. source: erpnext
 msgid "Create Leads"
@@ -17161,7 +17161,7 @@ msgstr "إنشاء اتصال جديد"
 
 #. source: erpnext
 msgid "Create New Customer"
-msgstr "إنشاء عميل جديد"
+msgstr "إنشاء زبون جديد"
 
 #. source: frappe
 msgid "Create New DocType"
@@ -17177,7 +17177,7 @@ msgstr "إنشاء لوحة كانبان جديدة"
 
 #. source: erpnext
 msgid "Create New Lead"
-msgstr "إنشاء عميل محتمل"
+msgstr "إنشاء زبون محتمل"
 
 #. source: erpnext
 msgid "Create New {0}"
@@ -17233,7 +17233,7 @@ msgstr "إنشاء مشروع"
 
 #. source: erpnext
 msgid "Create Prospect"
-msgstr "إنشاء عميل متوقع"
+msgstr "إنشاء زبون متوقع"
 
 #. source: erpnext
 msgid "Create Purchase Invoice"
@@ -17472,7 +17472,7 @@ msgstr "إنشاء في حالة المسودة"
 
 #. source: erpnext
 msgid "Create missing customer or supplier."
-msgstr "إنشاء العملاء أو المورد المفقودين."
+msgstr "إنشاء الزبائن أو المورد المفقودين."
 
 #. source: frappe
 msgid "Create or Edit Print Format"
@@ -17804,7 +17804,7 @@ msgstr "الدائن بعملة الشركة"
 
 #. source: erpnext
 msgid "Credit limit has been crossed for customer {0} ({1}/{2})"
-msgstr "تم تجاوز حد الائتمان للعميل {0} ({1} / {2})"
+msgstr "تم تجاوز حد الائتمان للزبون {0} ({1} / {2})"
 
 #. source: erpnext
 msgid "Credit limit is already defined for the Company {0}"
@@ -17812,7 +17812,7 @@ msgstr "تم تحديد حد الائتمان بالفعل للشركة {0}"
 
 #. source: erpnext
 msgid "Credit limit reached for customer {0}"
-msgstr "تم بلوغ حد الائتمان للعميل {0}"
+msgstr "تم بلوغ حد الائتمان للزبون {0}"
 
 #. source: erpnext
 msgid "Creditor Turnover Ratio"
@@ -18370,115 +18370,115 @@ msgstr "مخصص"
 
 #. source: erpnext
 msgid "Customer"
-msgstr "العميل"
+msgstr "الزبون"
 
 #. source: erpnext
 msgid "Customer "
-msgstr "العميل "
+msgstr "الزبون "
 
 #. source: erpnext
 msgid "Customer / Item / Item Group"
-msgstr "العميل / الصنف / مجموعة الأصناف"
+msgstr "الزبون / الصنف / مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Customer / Lead Address"
-msgstr "العميل/ عنوان العميل المحتمل"
+msgstr "الزبون/ عنوان الزبون المحتمل"
 
 #. source: erpnext
 msgid "Customer > Customer Group > Territory"
-msgstr "العميل > مجموعة العملاء > المنطقة"
+msgstr "الزبون > مجموعة الزبائن > المنطقة"
 
 #. source: erpnext
 msgid "Customer Acquisition and Loyalty"
-msgstr "اكتساب العملاء و الولاء"
+msgstr "اكتساب الزبائن و الولاء"
 
 #. source: erpnext
 msgid "Customer Address"
-msgstr "عنوان العميل"
+msgstr "عنوان الزبون"
 
 #. source: erpnext
 msgid "Customer Addresses And Contacts"
-msgstr "عناوين العملاء وجهات الاتصال"
+msgstr "عناوين الزبائن وجهات الاتصال"
 
 #. source: erpnext
 msgid "Customer Advances"
-msgstr "تقدم العملاء"
+msgstr "الدفعات المقدمة من الزبائن"
 
 #. source: erpnext
 msgid "Customer Code"
-msgstr "رمز العميل"
+msgstr "رمز الزبون"
 
 #. source: erpnext
 msgid "Customer Contact"
-msgstr "معلومات اتصال العميل"
+msgstr "معلومات اتصال الزبون"
 
 #. source: erpnext
 msgid "Customer Contact Email"
-msgstr "البريد الإلكتروني للعميل"
+msgstr "البريد الإلكتروني للزبون"
 
 #. source: erpnext
 msgid "Customer Credit Balance"
-msgstr "رصيد العميل"
+msgstr "رصيد الزبون"
 
 #. source: erpnext
 msgid "Customer Credit Limit"
-msgstr "حد ائتمان العميل"
+msgstr "حد ائتمان الزبون"
 
 #. source: erpnext
 msgid "Customer Currency"
-msgstr "عملة العميل"
+msgstr "عملة الزبون"
 
 #. source: erpnext
 msgid "Customer Defaults"
-msgstr "إعدادات العميل الافتراضية"
+msgstr "إعدادات الزبون الافتراضية"
 
 #. source: erpnext
 msgid "Customer Details"
-msgstr "تفاصيل العميل"
+msgstr "تفاصيل الزبون"
 
 #. source: erpnext
 msgid "Customer Feedback"
-msgstr "ملاحظات العميل"
+msgstr "آراء الزبون"
 
 #. source: erpnext
 msgid "Customer Group"
-msgstr "مجموعة العميل"
+msgstr "مجموعة الزبائن"
 
 #. source: erpnext
 msgid "Customer Group Item"
-msgstr "صنف مجموعة العملاء"
+msgstr "صنف مجموعة الزبائن"
 
 #. source: erpnext
 msgid "Customer Group Name"
-msgstr "اسم فئة العميل"
+msgstr "اسم مجموعة الزبائن"
 
 #. source: erpnext
 msgid "Customer Group: {0} does not exist"
-msgstr "مجموعة العملاء: {0} غير موجودة"
+msgstr "مجموعة الزبائن: {0} غير موجودة"
 
 #. source: erpnext
 msgid "Customer Groups"
-msgstr "مجموعات العميل"
+msgstr "مجموعات الزبون"
 
 #. source: erpnext
 msgid "Customer Item"
-msgstr "صنف العميل"
+msgstr "صنف الزبون"
 
 #. source: erpnext
 msgid "Customer Items"
-msgstr "منتجات العميل"
+msgstr "منتجات الزبون"
 
 #. source: erpnext
 msgid "Customer LPO"
-msgstr "العميل لبو"
+msgstr "أمر الشراء المحلي للزبون (LPO)"
 
 #. source: erpnext
 msgid "Customer LPO No."
-msgstr "العميل لبو رقم"
+msgstr "رقم أمر الشراء المحلي للزبون"
 
 #. source: erpnext
 msgid "Customer Ledger"
-msgstr "دفتر أستاذ العميل"
+msgstr "دفتر أستاذ الزبون"
 
 #. source: erpnext
 msgid "Customer Ledger Summary"
@@ -18486,119 +18486,119 @@ msgstr "ملخص دفتر الأستاذ"
 
 #. source: erpnext
 msgid "Customer Mobile No"
-msgstr "رقم محمول العميل"
+msgstr "رقم محمول الزبون"
 
 #. source: erpnext
 msgid "Customer Name"
-msgstr "اسم العميل"
+msgstr "اسم الزبون"
 
 #. source: erpnext
 msgid "Customer Name: "
-msgstr "اسم العميل: "
+msgstr "اسم الزبون: "
 
 #. source: erpnext
 msgid "Customer Naming By"
-msgstr "تسمية العملاء بواسطة"
+msgstr "تسمية الزبائن بواسطة"
 
 #. source: erpnext
 msgid "Customer Number"
-msgstr "رقم العميل"
+msgstr "رقم الزبون"
 
 #. source: erpnext
 msgid "Customer Number At Supplier"
-msgstr "رقم العميل لدى المورد"
+msgstr "رقم الزبون لدى المورد"
 
 #. source: erpnext
 msgid "Customer Numbers"
-msgstr "أرقام العملاء"
+msgstr "أرقام الزبائن"
 
 #. source: erpnext
 msgid "Customer PO"
-msgstr "أمر شراء العميل"
+msgstr "أمر شراء الزبون"
 
 #. source: erpnext
 msgid "Customer PO Details"
-msgstr "تفاصيل طلب شراء العميل"
+msgstr "تفاصيل طلب شراء الزبون"
 
 #. source: erpnext
 msgid "Customer POS ID"
-msgstr "معرّف نقطة البيع للعميل"
+msgstr "معرّف نقطة البيع للزبون"
 
 #. source: erpnext
 msgid "Customer Portal Users"
-msgstr "مستخدمو بوابة العملاء"
+msgstr "مستخدمو بوابة الزبائن"
 
 #. source: erpnext
 msgid "Customer Primary Address"
-msgstr "عنوان العميل الرئيسي"
+msgstr "عنوان الزبون الرئيسي"
 
 #. source: erpnext
 msgid "Customer Primary Contact"
-msgstr "جهة الاتصال الرئيسية للعميل"
+msgstr "جهة الاتصال الرئيسية للزبون"
 
 #. source: erpnext
 msgid "Customer Provided"
-msgstr "العملاء المقدمة"
+msgstr "مقدَّم من الزبون"
 
 #. source: erpnext
 msgid "Customer Provided Item Cost"
-msgstr "تكلفة السلعة المقدمة من العميل"
+msgstr "تكلفة السلعة المقدمة من الزبون"
 
 #. source: erpnext
 msgid "Customer Service"
-msgstr "خدمة العملاء"
+msgstr "خدمة الزبائن"
 
 #. source: erpnext
 msgid "Customer Service Representative"
-msgstr "ممثل خدمة العملاء"
+msgstr "ممثل خدمة الزبائن"
 
 #. source: erpnext
 msgid "Customer Territory"
-msgstr "منطقة العملاء"
+msgstr "منطقة الزبائن"
 
 #. source: erpnext
 msgid "Customer Type"
-msgstr "نوع العميل"
+msgstr "نوع الزبون"
 
 #. source: erpnext
 msgid "Customer Warehouse"
-msgstr "مستودع العملاء"
+msgstr "مستودع الزبون"
 
 #. source: erpnext
 msgid "Customer Warehouse (Optional)"
-msgstr "مستودع العميل (اختياري)"
+msgstr "مستودع الزبون (اختياري)"
 
 #. source: erpnext
 msgid "Customer Warehouse {0} does not belong to Customer {1}."
-msgstr "مستودع العميل {0} لا ينتمي إلى العميل {1}."
+msgstr "مستودع الزبون {0} لا ينتمي إلى الزبون {1}."
 
 #. source: erpnext
 msgid "Customer contact updated successfully."
-msgstr "تم تحديث جهة اتصال العميل بنجاح."
+msgstr "تم تحديث جهة اتصال الزبون بنجاح."
 
 #. source: erpnext
 msgid "Customer is required"
-msgstr "العميل مطلوب"
+msgstr "الزبون مطلوب"
 
 #. source: erpnext
 msgid "Customer isn't enrolled in any Loyalty Program"
-msgstr "العميل غير مسجل في أي برنامج ولاء"
+msgstr "الزبون غير مسجل في أي برنامج ولاء"
 
 #. source: erpnext
 msgid "Customer or Item"
-msgstr "عميل أو بند"
+msgstr "زبون أو بند"
 
 #. source: erpnext
 msgid "Customer required for 'Customerwise Discount'"
-msgstr "الزبون مطلوب للخصم حسب العميل"
+msgstr "الزبون مطلوب للخصم حسب الزبون"
 
 #. source: erpnext
 msgid "Customer {0} does not belong to project {1}"
-msgstr "العميل {0} لا ينتمي إلى المشروع {1}"
+msgstr "الزبون {0} لا ينتمي إلى المشروع {1}"
 
 #. source: erpnext
 msgid "Customer's Item Code"
-msgstr "كود صنف العميل"
+msgstr "كود صنف الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order"
@@ -18606,7 +18606,7 @@ msgstr "طلب شراء الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order Date"
-msgstr "تاريخ أمر الشراء العميل"
+msgstr "تاريخ أمر الشراء الزبون"
 
 #. source: erpnext
 msgid "Customer's Purchase Order No"
@@ -18614,23 +18614,23 @@ msgstr "رقم أمر الشراء الصادر من الزبون"
 
 #. source: erpnext
 msgid "Customer's Vendor"
-msgstr "مورد العميل"
+msgstr "مورد الزبون"
 
 #. source: erpnext
 msgid "Customer-wise Item Price"
-msgstr "سعر الصنف حسب العميل"
+msgstr "سعر الصنف حسب الزبون"
 
 #. source: erpnext
 msgid "Customer/Lead Name"
-msgstr "اسم العميل / العميل المحتمل"
+msgstr "اسم الزبون / الزبون المحتمل"
 
 #. source: erpnext
 msgid "Customer: "
-msgstr "العميل: "
+msgstr "الزبون: "
 
 #. source: erpnext
 msgid "Customers"
-msgstr "العملاء"
+msgstr "الزبائن"
 
 #. source: erpnext
 msgid "Customers Without Any Sales Transactions"
@@ -18638,11 +18638,11 @@ msgstr "زبائن بدون أي معاملات مبيعات"
 
 #. source: erpnext
 msgid "Customers not selected."
-msgstr "العملاء لم يتم اختيارهم."
+msgstr "الزبائن لم يتم اختيارهم."
 
 #. source: erpnext
 msgid "Customerwise Discount"
-msgstr "التخفيض حسب العميل"
+msgstr "التخفيض حسب الزبون"
 
 #. source: frappe
 msgid "Customization"
@@ -19549,7 +19549,7 @@ msgstr "العملة الافتراضية"
 
 #. source: erpnext
 msgid "Default Customer Group"
-msgstr "المجموعة الافتراضية العملاء"
+msgstr "مجموعة الزبائن الافتراضية"
 
 #. source: erpnext
 msgid "Default Deferred Expense Account"
@@ -19996,7 +19996,7 @@ msgid ""
 "invoices for this customer."
 msgstr ""
 "يحدد موعد استحقاق الدفع (مثل صافي 30، 50% مقدماً). يُطبَّق تلقائياً على فواتير هذا "
-"العميل."
+"الزبون."
 
 #. source: frappe
 msgid "Defines workflow states and rules for a document."
@@ -20119,7 +20119,7 @@ msgstr "حذف لوحة كانبان"
 
 #. source: erpnext
 msgid "Delete Leads and Addresses"
-msgstr "حذف العملاء المحتملين والعناوين"
+msgstr "حذف الزبائن المحتملين والعناوين"
 
 #. source: erpnext
 msgid "Delete Permanently"
@@ -21711,7 +21711,7 @@ msgstr "هل تريد تغيير طريقة التقييم؟"
 
 #. source: erpnext
 msgid "Do you want to notify all the customers by email?"
-msgstr "هل تريد أن تخطر جميع العملاء عن طريق البريد الإلكتروني؟"
+msgstr "هل تريد أن تخطر جميع الزبائن عن طريق البريد الإلكتروني؟"
 
 #. source: erpnext
 msgid "Do you want to submit the material request"
@@ -22570,7 +22570,7 @@ msgstr "تم اكتشاف مطالبة مكررة"
 
 #. source: erpnext
 msgid "Duplicate Customer Group"
-msgstr "مجموعة عملاء مكررة"
+msgstr "مجموعة زبائن مكررة"
 
 #. source: erpnext
 msgid "Duplicate DocType"
@@ -22662,7 +22662,7 @@ msgstr "تكرار الصف الحالي"
 
 #. source: erpnext
 msgid "Duplicate customer group found in the customer group table"
-msgstr "تم العثور على مجموعة عملاء مكررة في جدول مجموعات العملاء"
+msgstr "تم العثور على مجموعة زبائن مكررة في جدول مجموعات الزبائن"
 
 #. source: erpnext
 msgid "Duplicate entry against the item code {0} and manufacturer {1}"
@@ -24468,7 +24468,7 @@ msgid ""
 "POS Invoice, Lead,  and Delivery Note."
 msgstr ""
 "تفعيل معاملات وحدة تتبع Urchin في عرض السعر وأمر البيع وفاتورة المبيعات وفاتورة نقطة "
-"البيع والعميل المحتمل وإشعار التسليم."
+"البيع والزبون المحتمل وإشعار التسليم."
 
 #. source: erpnext
 msgid ""
@@ -24476,7 +24476,7 @@ msgid ""
 "POS Invoice, Lead,  and Delivery Note."
 msgstr ""
 "تفعيل معلمات وحدة تتبع Urchin في عرض السعر، أمر المبيعات، فاتورة المبيعات، فاتورة "
-"نقطة البيع، العميل المحتمل، وإشعار التسليم."
+"نقطة البيع، الزبون المحتمل، وإشعار التسليم."
 
 #. source: erpnext
 msgid "Enable YouTube Tracking"
@@ -24522,7 +24522,7 @@ msgstr "تمكين إشعار البريد الإلكتروني لأي تعلي�
 msgid ""
 "Enable for drop shipping - supplier delivers directly to the customer without passing"
 " through your warehouse."
-msgstr "فعّله للشحن المباشر - يسلّم المورّد مباشرةً إلى العميل دون المرور عبر مستودعك."
+msgstr "فعّله للشحن المباشر - يسلّم المورّد مباشرةً إلى الزبون دون المرور عبر مستودعك."
 
 #. source: erpnext
 msgid ""
@@ -24554,7 +24554,7 @@ msgstr "فعّله إذا كان هذا الصنف أصلاً من أصول ال
 
 #. source: erpnext
 msgid "Enable if this item is provided by a customer and received via Stock Entry."
-msgstr "فعّله إذا كان هذا الصنف مقدَّماً من العميل ومستلماً عبر قيد المخزون."
+msgstr "فعّله إذا كان هذا الصنف مقدَّماً من الزبون ومستلماً عبر قيد المخزون."
 
 #. source: frappe
 msgid "Enable in-app website tracking"
@@ -24707,7 +24707,7 @@ msgid ""
 "Enabling this option prevents the creation of a new Sales Invoice when the customer "
 "has an overdue limit set and their outstanding overdue amount exceeds that limit."
 msgstr ""
-"يمنع تفعيل هذا الخيار إنشاء فاتورة مبيعات جديدة عندما يكون للعميل حد متأخرات محدد "
+"يمنع تفعيل هذا الخيار إنشاء فاتورة مبيعات جديدة عندما يكون للزبون حد متأخرات محدد "
 "ويتجاوز مبلغ متأخراته المستحقة ذلك الحد."
 
 #. source: erpnext
@@ -25058,11 +25058,11 @@ msgstr "أدخل رمز الصنف، سيتم ملء الاسم تلقائيًا
 
 #. source: erpnext
 msgid "Enter customer's email"
-msgstr "أدخل البريد الإلكتروني الخاص بالعميل"
+msgstr "أدخل البريد الإلكتروني الخاص بالزبون"
 
 #. source: erpnext
 msgid "Enter customer's phone number"
-msgstr "أدخل رقم هاتف العميل"
+msgstr "أدخل رقم هاتف الزبون"
 
 #. source: erpnext
 msgid "Enter date to scrap asset"
@@ -25114,7 +25114,7 @@ msgstr "أدخل رقم الضمان البنكي قبل الإرسال."
 msgid ""
 "Enter the Item Code that this customer uses at their end. This will be shown in Sales"
 " Orders for the customer's reference."
-msgstr "أدخل رمز الصنف الذي يستخدمه هذا العميل لديه. سيظهر في أوامر البيع لمرجعية العميل."
+msgstr "أدخل رمز الصنف الذي يستخدمه هذا الزبون لديه. سيظهر في أوامر البيع لمرجعية الزبون."
 
 #. source: erpnext
 msgid ""
@@ -25900,7 +25900,7 @@ msgstr "الشركة الحالية "
 
 #. source: erpnext
 msgid "Existing Customer"
-msgstr "عميل حالي"
+msgstr "زبون حالي"
 
 #. source: frappe
 msgid ""
@@ -25915,7 +25915,7 @@ msgid ""
 "Existing Gravatar URLs may still be stored on User, Contact, and Lead records. Do you"
 " want to delete these URLs now?"
 msgstr ""
-"قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال والعملاء "
+"قد تظل روابط Gravatar الحالية مخزنة في سجلات المستخدمين وجهات الاتصال والزبائن "
 "المحتملين. هل تريد حذف هذه الروابط الآن؟"
 
 #. source: hrms
@@ -26942,7 +26942,7 @@ msgstr "جلب بناءً على"
 
 #. source: erpnext
 msgid "Fetch Customers"
-msgstr "جلب العملاء"
+msgstr "جلب الزبائن"
 
 #. source: frappe
 msgid "Fetch From"
@@ -27018,7 +27018,7 @@ msgstr "جلب سعر التقييم للمعاملة الداخلية"
 
 #. source: erpnext
 msgid "Fetched automatically on sales orders and invoices for this customer."
-msgstr "يُجلب تلقائياً في أوامر البيع والفواتير الخاصة بهذا العميل."
+msgstr "يُجلب تلقائياً في أوامر البيع والفواتير الخاصة بهذا الزبون."
 
 #. source: erpnext
 msgid "Fetched only {0} available serial numbers."
@@ -27170,7 +27170,7 @@ msgstr "الحقل {0} غير موجود."
 
 #. source: frappe
 msgid "Field {0} on document {1} is neither a Mobile number field nor a Customer or User link"
-msgstr "الحقل {0} في المستند {1} ليس حقل رقم جوال ولا رابط عميل أو مستخدم"
+msgstr "الحقل {0} في المستند {1} ليس حقل رقم جوال ولا رابط زبون أو مستخدم"
 
 #. source: frappe
 msgid "Fieldname"
@@ -28588,7 +28588,7 @@ msgid ""
 "For the convenience of customers, these codes can be used in print formats like "
 "Invoices and Delivery Notes"
 msgstr ""
-"لتسهيل الأمر على العملاء، يمكن استخدام هذه الرموز في تنسيقات الطباعة مثل الفواتير "
+"لتسهيل الأمر على الزبائن، يمكن استخدام هذه الرموز في تنسيقات الطباعة مثل الفواتير "
 "وأذونات التسليم"
 
 #. source: erpnext
@@ -28997,7 +28997,7 @@ msgstr "لا يمكن أن تكون \"من عملة\" و\"إلى عملة\" مت
 
 #. source: erpnext
 msgid "From Customer"
-msgstr "من العملاء"
+msgstr "من الزبائن"
 
 #. source: frappe
 msgid "From Date"
@@ -29780,7 +29780,7 @@ msgstr "الحصول على المخزون الحالي"
 
 #. source: erpnext
 msgid "Get Customer Group Details"
-msgstr "الحصول على تفاصيل مجموعة العملاء"
+msgstr "الحصول على تفاصيل مجموعة الزبائن"
 
 #. source: erpnext
 msgid "Get Delivery Schedule"
@@ -30597,7 +30597,7 @@ msgstr "تجميع حسب"
 
 #. source: erpnext
 msgid "Group By Customer"
-msgstr "المجموعة حسب العميل"
+msgstr "المجموعة حسب الزبون"
 
 #. source: erpnext
 msgid "Group By Supplier"
@@ -31275,11 +31275,11 @@ msgstr "إخفاء أنواع المستندات والتقارير المخصص
 
 #. source: erpnext
 msgid "Hide Customer's Tax ID from Sales Transactions"
-msgstr "إخفاء المعرّف الضريبي للعميل من معاملات المبيعات"
+msgstr "إخفاء المعرّف الضريبي للزبون من معاملات المبيعات"
 
 #. source: erpnext
 msgid "Hide Customer's Tax ID from sales transactions"
-msgstr "إخفاء الرقم الضريبي للعميل من معاملات المبيعات"
+msgstr "إخفاء الرقم الضريبي للزبون من معاملات المبيعات"
 
 #. source: frappe
 msgid "Hide Days"
@@ -31853,7 +31853,7 @@ msgid ""
 "If Auto Opt In is checked, then the customers will be automatically linked with the "
 "concerned Loyalty Program (on save)"
 msgstr ""
-"إذا تم تحديد الاشتراك التلقائي، فسيتم ربط العملاء تلقائيًا ببرنامج الولاء المعني (عند"
+"إذا تم تحديد الاشتراك التلقائي، فسيتم ربط الزبائن تلقائيًا ببرنامج الولاء المعني (عند"
 " الحفظ)"
 
 #. source: frappe
@@ -32008,7 +32008,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "If different than customer address"
-msgstr "إذا كان مختلفا عن عنوان العميل"
+msgstr "إذا كان مختلفا عن عنوان الزبون"
 
 #. source: erpnext
 msgid "If disable, 'In Words' field will not be visible in any transaction"
@@ -32531,7 +32531,7 @@ msgstr "إذا لم يكن كذلك، يمكنك إلغاء / إرسال هذا 
 
 #. source: erpnext
 msgid "If party does not exist, create it using the Customer Name field."
-msgstr "إذا لم يكن الطرف موجوداً، فأنشئه باستخدام حقل اسم العميل."
+msgstr "إذا لم يكن الطرف موجوداً، فأنشئه باستخدام حقل اسم الزبون."
 
 #. source: erpnext
 msgid "If party does not exist, create it using the Supplier Name field."
@@ -32571,7 +32571,7 @@ msgid ""
 "If set, accounting entries for this customer will post to these accounts instead of "
 "the company default."
 msgstr ""
-"عند التعيين، ستُرحَّل القيود المحاسبية لهذا العميل إلى هذه الحسابات بدلاً من الحسابات"
+"عند التعيين، ستُرحَّل القيود المحاسبية لهذا الزبون إلى هذه الحسابات بدلاً من الحسابات"
 " الافتراضية للشركة."
 
 #. source: frappe
@@ -33465,7 +33465,7 @@ msgid ""
 "In the case of multi-tier program, Customers will be auto assigned to the concerned "
 "tier as per their spent"
 msgstr ""
-"في حالة البرنامج متعدد المستويات، سيتم تعيين العملاء تلقائيًا إلى المستوى المعني حسب "
+"في حالة البرنامج متعدد المستويات، سيتم تعيين الزبائن تلقائيًا إلى المستوى المعني حسب "
 "إنفاقهم"
 
 #. source: erpnext
@@ -33506,7 +33506,7 @@ msgstr "غير نشط"
 
 #. source: erpnext
 msgid "Inactive Customers"
-msgstr "العملاء الغير النشطين"
+msgstr "الزبائن الغير النشطين"
 
 #. source: erpnext
 msgid "Inactive Sales Items"
@@ -33842,7 +33842,7 @@ msgstr "رسائل البريد الإلكتروني الواردة (آخر 7 أ
 
 #. source: erpnext
 msgid "Incoming Leads"
-msgstr "العملاء المحتملون الواردون"
+msgstr "الزبائن المحتملون الواردون"
 
 #. source: erpnext
 msgid "Incoming Payment"
@@ -34514,21 +34514,21 @@ msgstr "داخلي"
 
 #. source: erpnext
 msgid "Internal Customer Accounting"
-msgstr "محاسبة العميل الداخلي"
+msgstr "محاسبة الزبون الداخلي"
 
 #. source: erpnext
 msgid "Internal Customer Already Exists"
-msgstr "العميل الداخلي موجود بالفعل"
+msgstr "الزبون الداخلي موجود بالفعل"
 
 #. source: erpnext
 msgid "Internal Customer for company {0} already exists"
-msgstr "العميل الداخلي للشركة {0} موجود بالفعل"
+msgstr "الزبون الداخلي للشركة {0} موجود بالفعل"
 
 #. source: erpnext
 msgid ""
 "Internal Customer {0} already exists for {1}. Disable it to make this Customer "
 "internal."
-msgstr "العميل الداخلي {0} موجود بالفعل لـ {1}. عطّله لجعل هذا العميل داخليًا."
+msgstr "الزبون الداخلي {0} موجود بالفعل لـ {1}. عطّله لجعل هذا الزبون داخليًا."
 
 #. source: erpnext
 msgid "Internal Purchase Order"
@@ -34590,7 +34590,7 @@ msgstr "سجل العمل الداخلي"
 
 #. source: erpnext
 msgid "Internal notes about this customer. Not visible on transactions or the portal."
-msgstr "ملاحظات داخلية عن هذا العميل. لا تظهر في المعاملات أو البوابة."
+msgstr "ملاحظات داخلية عن هذا الزبون. لا تظهر في المعاملات أو البوابة."
 
 #. source: frappe
 msgid "Internal record of document shares"
@@ -34818,7 +34818,7 @@ msgstr "مبالغ مزايا غير صالحة"
 
 #. source: erpnext
 msgid "Invalid Blanket Order for the selected Customer and Item"
-msgstr "أمر شامل غير صالح للعميل والصنف المحدد"
+msgstr "أمر شامل غير صالح للزبون والصنف المحدد"
 
 #. source: frappe
 msgid "Invalid CSV Format"
@@ -34862,7 +34862,7 @@ msgstr "بيانات اعتماد غير صالحة لحساب البريد ال
 
 #. source: erpnext
 msgid "Invalid Customer Group"
-msgstr "مجموعة عملاء غير صالحة"
+msgstr "مجموعة زبائن غير صالحة"
 
 #. source: frappe
 msgid "Invalid Date"
@@ -35921,7 +35921,7 @@ msgstr "حقل مخصص"
 
 #. source: erpnext
 msgid "Is Customer Provided Item"
-msgstr "العميل يقدم الصنف"
+msgstr "الزبون يقدم الصنف"
 
 #. source: frappe
 msgid "Is Default"
@@ -36029,7 +36029,7 @@ msgstr "مكون ضريبة الدخل"
 
 #. source: erpnext
 msgid "Is Internal Customer"
-msgstr "عميل داخلي"
+msgstr "زبون داخلي"
 
 #. source: erpnext
 msgid "Is Internal Supplier"
@@ -36525,7 +36525,7 @@ msgstr "رمز العنصر: {0} غير متوفر ضمن المستودع {1}."
 
 #. source: erpnext
 msgid "Item Customer Detail"
-msgstr "تفاصيل العميل لهذا البند"
+msgstr "تفاصيل الزبون لهذا البند"
 
 #. source: erpnext
 msgid "Item Default"
@@ -36636,7 +36636,7 @@ msgid ""
 "Item Price appears multiple times based on Price List, Supplier/Customer, Currency, "
 "Item, Batch, UOM, Qty, and Dates."
 msgstr ""
-"يظهر سعر الصنف عدة مرات بناءً على قائمة الأسعار، المورد/العميل، العملة، الصنف، "
+"يظهر سعر الصنف عدة مرات بناءً على قائمة الأسعار، المورد/الزبون، العملة، الصنف، "
 "الدفعة، وحدة القياس، الكمية، والتواريخ."
 
 #. source: erpnext
@@ -37618,7 +37618,7 @@ msgid ""
 "Keep Track of Sales Campaigns. Keep track of Leads, Quotations, Sales Order etc from "
 "Campaigns to gauge Return on Investment. "
 msgstr ""
-"تتبع حملات المبيعات. تتبع العملاء المحتملين، عروض الأسعار، أوامر البيع، إلخ من "
+"تتبع حملات المبيعات. تتبع الزبائن المحتملين، عروض الأسعار، أوامر البيع، إلخ من "
 "الحملات لتقييم العائد على الاستثمار. "
 
 #. source: frappe
@@ -38286,15 +38286,15 @@ msgstr "سيتم إعادة تعيين التخطيط إلى التخطيط ال
 
 #. source: erpnext
 msgid "Lead"
-msgstr "عميل محتمل"
+msgstr "زبون محتمل"
 
 #. source: erpnext
 msgid "Lead -> Prospect"
-msgstr "عميل محتمل -> عميل متوقع"
+msgstr "زبون محتمل -> زبون متوقع"
 
 #. source: erpnext
 msgid "Lead Conversion Time"
-msgstr "وقت تحويل العميل المحتمل"
+msgstr "وقت تحويل الزبون المحتمل"
 
 #. source: erpnext
 msgid "Lead Count"
@@ -38318,7 +38318,7 @@ msgstr "يؤدي كفاءة المالك"
 
 #. source: erpnext
 msgid "Lead Owner cannot be same as the Lead Email Address"
-msgstr "لا يمكن أن يكون مالك العميل المحتمل هو نفسه عنوان البريد الإلكتروني للعميل المحتمل"
+msgstr "لا يمكن أن يكون مالك الزبون المحتمل هو نفسه عنوان البريد الإلكتروني للزبون المحتمل"
 
 #. source: erpnext
 msgid "Lead Source"
@@ -38354,11 +38354,11 @@ msgstr "نوع الزبون المحتمل"
 
 #. source: erpnext
 msgid "Lead {0} has been added to prospect {1}."
-msgstr "تمت إضافة العميل المحتمل {0} إلى العميل المتوقع {1}."
+msgstr "تمت إضافة الزبون المحتمل {0} إلى الزبون المتوقع {1}."
 
 #. source: erpnext
 msgid "Leads"
-msgstr "العملاء المحتملون"
+msgstr "الزبائن المحتملون"
 
 #. source: erpnext
 msgid "Leads help you get business, add all your contacts and more as your leads"
@@ -39190,7 +39190,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Link with Customer"
-msgstr "الربط مع العميل"
+msgstr "الربط مع الزبون"
 
 #. source: erpnext
 msgid "Link with Supplier"
@@ -39238,7 +39238,7 @@ msgstr "فشل الربط"
 
 #. source: erpnext
 msgid "Linking to Customer Failed. Please try again."
-msgstr "فشل الربط مع العميل. يرجى المحاولة مرة أخرى."
+msgstr "فشل الربط مع الزبون. يرجى المحاولة مرة أخرى."
 
 #. source: erpnext
 msgid "Linking to Supplier Failed. Please try again."
@@ -39863,7 +39863,7 @@ msgid ""
 "Loyalty scheme this customer earns points under. Auto-assigned if a matching program "
 "exists."
 msgstr ""
-"برنامج الولاء الذي يكسب هذا العميل النقاط بموجبه. يُخصَّص تلقائياً إن وُجد برنامج "
+"برنامج الولاء الذي يكسب هذا الزبون النقاط بموجبه. يُخصَّص تلقائياً إن وُجد برنامج "
 "مطابق."
 
 #. source: frappe
@@ -40586,7 +40586,7 @@ msgstr "سجل الحضور لسجلات الدخول/الخروج الحالي�
 msgid ""
 "Mark if this customer represents an internal company. Enables inter-company "
 "transactions."
-msgstr "حدّد إن كان هذا العميل يمثّل شركة داخلية. يتيح ذلك المعاملات بين الشركات."
+msgstr "حدّد إن كان هذا الزبون يمثّل شركة داخلية. يتيح ذلك المعاملات بين الشركات."
 
 #. source: hrms
 msgid "Mark {0} as Completed?"
@@ -40842,7 +40842,7 @@ msgstr "المواد المنقولة للعقود من الباطن"
 
 #. source: erpnext
 msgid "Material from Customer"
-msgstr "مواد من العميل"
+msgstr "مواد من الزبون"
 
 #. source: erpnext
 msgid "Material to Supplier"
@@ -41403,7 +41403,7 @@ msgstr "حملة CRM للمراسلة"
 
 #. source: erpnext
 msgid "Messaging CRM Campaign"
-msgstr "حملة المراسلة في إدارة علاقات العملاء"
+msgstr "حملة المراسلة في إدارة علاقات الزبائن"
 
 #. source: frappe
 msgid "Meta"
@@ -42168,8 +42168,8 @@ msgid ""
 "Most Customers have a unique Tax ID that is fetched into selling transactions. Enable"
 " this setting if you do not want Customer Tax IDs to appear in sales transactions."
 msgstr ""
-"معظم العملاء لديهم رقم ضريبي فريد يُجلب إلى معاملات البيع. فعّل هذا الإعداد إن كنت لا"
-" ترغب في ظهور الأرقام الضريبية للعملاء في معاملات المبيعات."
+"معظم الزبائن لديهم رقم ضريبي فريد يُجلب إلى معاملات البيع. فعّل هذا الإعداد إن كنت لا"
+" ترغب في ظهور الأرقام الضريبية للزبائن في معاملات المبيعات."
 
 #. source: frappe
 msgid "Most Used"
@@ -42295,7 +42295,7 @@ msgstr "توجد رواتب إضافية متعددة مع خاصية الكتا
 
 #. source: erpnext
 msgid "Multiple Loyalty Programs found for Customer {}. Please select manually."
-msgstr "تم العثور على برامج ولاء متعددة للعميل {}. يرجى التحديد يدويًا."
+msgstr "تم العثور على برامج ولاء متعددة للزبون {}. يرجى التحديد يدويًا."
 
 #. source: erpnext
 msgid "Multiple POS Opening Entry"
@@ -42500,7 +42500,7 @@ msgstr "اسم الحساب الجديد. ملاحظة: الرجاء عدم إن
 
 #. source: frappe
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr "اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: العميل"
+msgstr "اسم نوع المستند (DocType) الذي تريد ربط هذا الحقل به. مثال: الزبون"
 
 #. source: erpnext
 msgid "Name of the Monthly Distribution"
@@ -42926,7 +42926,7 @@ msgstr "إيرادات الزبائن الجدد"
 
 #. source: erpnext
 msgid "New Customers"
-msgstr "العملاء الجدد"
+msgstr "الزبائن الجدد"
 
 #. source: erpnext
 msgid "New Department"
@@ -43016,7 +43016,7 @@ msgstr "لوح كانبان جديد"
 
 #. source: erpnext
 msgid "New Lead (Last 1 Month)"
-msgstr "عميل محتمل جديد (آخر شهر)"
+msgstr "زبون محتمل جديد (آخر شهر)"
 
 #. source: hrms
 msgid "New Leave(s) Allocated"
@@ -43123,8 +43123,8 @@ msgid ""
 "New Sales Invoices are blocked when the customer's overdue amount exceeds this. "
 "Requires 'Restrict Customer Over Billing' in Accounts Settings."
 msgstr ""
-"تُمنع فواتير المبيعات الجديدة عندما يتجاوز المبلغ المتأخر على العميل هذا الحد. يتطلب "
-"تفعيل 'تقييد الفوترة الزائدة للعميل' في إعدادات الحسابات."
+"تُمنع فواتير المبيعات الجديدة عندما يتجاوز المبلغ المتأخر على الزبون هذا الحد. يتطلب "
+"تفعيل 'تقييد الفوترة الزائدة للزبون' في إعدادات الحسابات."
 
 #. source: erpnext
 msgid "New Sales Orders"
@@ -43183,7 +43183,7 @@ msgid ""
 "New credit limit is less than current outstanding amount for the customer. Credit "
 "limit has to be atleast {0}"
 msgstr ""
-"حد الائتمان الجديد أقل من المبلغ المستحق الحالي للعميل. حد الائتمان يجب أن يكون على "
+"حد الائتمان الجديد أقل من المبلغ المستحق الحالي للزبون. حد الائتمان يجب أن يكون على "
 "الأقل {0}"
 
 #. source: erpnext
@@ -43483,7 +43483,7 @@ msgstr "لم يتم العثور على زبون للمعاملات بين ال�
 
 #. source: erpnext
 msgid "No Customers found with selected options."
-msgstr "لم يتم العثور على عملاء بالخيارات المحددة."
+msgstr "لم يتم العثور على زبائن بالخيارات المحددة."
 
 #. source: frappe
 msgid "No Data"
@@ -43495,7 +43495,7 @@ msgstr "لا توجد بيانات..."
 
 #. source: erpnext
 msgid "No Delivery Note selected for Customer {}"
-msgstr "لم يتم تحديد إشعار التسليم للعميل {}"
+msgstr "لم يتم تحديد إشعار التسليم للزبون {}"
 
 #. source: erpnext
 msgid "No DocTypes in To Delete list. Please generate or import the list before submitting."
@@ -43945,7 +43945,7 @@ msgstr "لم يتم العثور على معاملات بنكية"
 
 #. source: erpnext
 msgid "No billing email found for customer: {0}"
-msgstr "لم يتم العثور على بريد إلكتروني للفوترة للعميل: {0}"
+msgstr "لم يتم العثور على بريد إلكتروني للفوترة للزبون: {0}"
 
 #. source: frappe
 msgid "No broken links found in the email content"
@@ -44362,7 +44362,7 @@ msgstr "لا توجد أنواع مستندات مثبَّتة."
 
 #. source: erpnext
 msgid "No primary email found for customer: {0}"
-msgstr "لم يتم العثور على بريد إلكتروني رئيسي للعميل: {0}"
+msgstr "لم يتم العثور على بريد إلكتروني رئيسي للزبون: {0}"
 
 #. source: erpnext
 msgid "No products found."
@@ -45130,7 +45130,7 @@ msgstr "تم إرسال الإشعار إلى"
 
 #. source: frappe
 msgid "Notification: customer {0} has no Mobile number set"
-msgstr "إشعار: العميل {0} ليس لديه رقم هاتف محمول معين"
+msgstr "إشعار: الزبون {0} ليس لديه رقم هاتف محمول معين"
 
 #. source: frappe
 msgid "Notification: document {0} has no {1} number set (field: {2})"
@@ -45158,7 +45158,7 @@ msgstr "سيتم إرسال الإشعارات والرسائل المجمعة �
 
 #. source: erpnext
 msgid "Notify Customers via Email"
-msgstr "إعلام العملاء عبر البريد الإلكتروني"
+msgstr "إعلام الزبائن عبر البريد الإلكتروني"
 
 #. source: erpnext
 msgid "Notify Employee"
@@ -45202,7 +45202,7 @@ msgstr "الإشعار بالبريد الإلكتروني عند إنشاء ط�
 
 #. source: erpnext
 msgid "Notify customer and agent via email on the day of the appointment."
-msgstr "إخطار العميل والوكيل عبر البريد الإلكتروني في يوم الموعد."
+msgstr "إخطار الزبون والوكيل عبر البريد الإلكتروني في يوم الموعد."
 
 #. source: frappe
 msgid "Notify if unreplied"
@@ -45404,7 +45404,7 @@ msgstr "عدد النسخ الاحتياطية المحلية"
 
 #. source: erpnext
 msgid "Numbers this customer uses to identify your company in their own system."
-msgstr "الأرقام التي يستخدمها هذا العميل للتعريف بشركتك في نظامه الخاص."
+msgstr "الأرقام التي يستخدمها هذا الزبون للتعريف بشركتك في نظامه الخاص."
 
 #. source: erpnext
 msgid "Numeric"
@@ -45877,7 +45877,7 @@ msgstr "كلمة المرور لمرة واحدة (OTP) رمز التسجيل م
 
 #. source: erpnext
 msgid "One customer can be part of only single Loyalty Program."
-msgstr "يمكن للعميل الواحد أن يكون جزءًا من برنامج ولاء واحد فقط."
+msgstr "يمكن للزبون الواحد أن يكون جزءًا من برنامج ولاء واحد فقط."
 
 #. source: frappe
 msgid "One of"
@@ -46091,7 +46091,7 @@ msgstr "يمكن تعديل تقارير نوع منشئ التقارير فقط
 
 #. source: erpnext
 msgid "Only show Customer of these Customer Groups"
-msgstr "أظهر فقط عميل مجموعات العملاء هذه"
+msgstr "أظهر فقط زبون مجموعات الزبائن هذه"
 
 #. source: erpnext
 msgid "Only show Items from these Item Groups"
@@ -46689,7 +46689,7 @@ msgstr "أوب كونت"
 
 #. source: erpnext
 msgid "Opp/Lead %"
-msgstr "نسبة الفرص/العملاء المحتملين %"
+msgstr "نسبة الفرص/الزبائن المحتملين %"
 
 #. source: erpnext
 msgid "Opportunities"
@@ -47285,7 +47285,7 @@ msgid ""
 "Overdue Limit crossed for customer {0}. Overdue amount {1} exceeds the allowed limit "
 "{2}."
 msgstr ""
-"تم تجاوز حد التأخر في السداد للعميل {0}. المبلغ المتأخر {1} يتجاوز الحد المسموح به "
+"تم تجاوز حد التأخر في السداد للزبون {0}. المبلغ المتأخر {1} يتجاوز الحد المسموح به "
 "{2}."
 
 #. source: erpnext
@@ -47620,7 +47620,7 @@ msgstr "تهيئات نقطة البيع"
 
 #. source: erpnext
 msgid "POS Customer Group"
-msgstr "مجموعة عملاء نقطة البيع"
+msgstr "مجموعة زبائن نقطة البيع"
 
 #. source: erpnext
 msgid "POS Field"
@@ -48134,7 +48134,7 @@ msgstr "مركز التكلفة الأصل"
 
 #. source: erpnext
 msgid "Parent Customer Group"
-msgstr "مجموعة العملاء الأصل"
+msgstr "مجموعة الزبائن الأصل"
 
 #. source: erpnext
 msgid "Parent Department"
@@ -50214,7 +50214,7 @@ msgstr "الرجاء تحديد شركة."
 
 #. source: erpnext
 msgid "Please Select a Customer"
-msgstr "الرجاء تحديد عميل"
+msgstr "الرجاء تحديد زبون"
 
 #. source: erpnext
 msgid "Please Select a Supplier"
@@ -50526,7 +50526,7 @@ msgstr "الرجاء إنشاء البطاقة أولاً"
 
 #. source: erpnext
 msgid "Please create Customer from Lead {0}."
-msgstr "الرجاء إنشاء عميل من العميل المحتمل {0}."
+msgstr "الرجاء إنشاء زبون من الزبون المحتمل {0}."
 
 #. source: erpnext
 msgid "Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled."
@@ -51149,7 +51149,7 @@ msgstr "يرجى تحديد تاريخ الانتهاء لاستكمال سجل 
 
 #. source: erpnext
 msgid "Please select Customer first"
-msgstr "يرجى اختيار العميل أولا"
+msgstr "يرجى اختيار الزبون أولا"
 
 #. source: frappe
 msgid "Please select DocType first"
@@ -51281,7 +51281,7 @@ msgstr "الرجاء تحديد شركة أولاً."
 
 #. source: erpnext
 msgid "Please select a Customer"
-msgstr "يرجى تحديد العميل"
+msgstr "يرجى تحديد الزبون"
 
 #. source: erpnext
 msgid "Please select a Delivery Note"
@@ -51349,7 +51349,7 @@ msgstr "يرجى اختيار ملف CSV"
 
 #. source: erpnext
 msgid "Please select a customer for fetching payments."
-msgstr "يرجى تحديد عميل لجلب المدفوعات."
+msgstr "يرجى تحديد زبون لجلب المدفوعات."
 
 #. source: erpnext
 msgid "Please select a date"
@@ -51579,7 +51579,7 @@ msgstr "يرجى تحديد حالة الحضور."
 
 #. source: erpnext
 msgid "Please select the customer."
-msgstr "يرجى اختيار العميل."
+msgstr "يرجى اختيار الزبون."
 
 #. source: erpnext
 msgid "Please select the document type first"
@@ -51663,7 +51663,7 @@ msgstr "يرجى تعيين الشركة"
 
 #. source: erpnext
 msgid "Please set Customer Address to determine if the transaction is an export."
-msgstr "يرجى تحديد عنوان العميل لتحديد ما إذا كانت المعاملة تصديراً."
+msgstr "يرجى تحديد عنوان الزبون لتحديد ما إذا كانت المعاملة تصديراً."
 
 #. source: erpnext
 msgid "Please set Depreciation related Accounts in Asset Category {0} or Company {1}"
@@ -51687,7 +51687,7 @@ msgstr "يرجى تعيين البريد الإلكتروني/الهاتف لج�
 
 #. source: erpnext
 msgid "Please set Fiscal Code for the customer '%s'"
-msgstr "يرجى تعيين الرمز المالي للعميل '%s'"
+msgstr "يرجى تعيين الرمز المالي للزبون '%s'"
 
 #. source: erpnext
 msgid "Please set Fiscal Code for the public administration '%s'"
@@ -51723,7 +51723,7 @@ msgstr "يرجى تعيين النوع الجذري"
 
 #. source: erpnext
 msgid "Please set Tax ID for the customer '%s'"
-msgstr "يرجى تعيين رقم التعريف الضريبي للعميل '%s'"
+msgstr "يرجى تعيين رقم التعريف الضريبي للزبون '%s'"
 
 #. source: erpnext
 msgid "Please set Unrealized Exchange Gain/Loss Account in Company {0}"
@@ -51797,7 +51797,7 @@ msgstr "يرجى تعيين حساب مصروفات في جدول الأصناف
 
 #. source: erpnext
 msgid "Please set an email id for the Lead {0}"
-msgstr "يرجى تعيين بريد إلكتروني للعميل المحتمل {0}"
+msgstr "يرجى تعيين بريد إلكتروني للزبون المحتمل {0}"
 
 #. source: erpnext
 msgid "Please set at least one row in the Taxes and Charges Table"
@@ -51905,7 +51905,7 @@ msgstr "يرجى تعيين الشركة"
 
 #. source: erpnext
 msgid "Please set the Customer Address"
-msgstr "يرجى ضبط عنوان العميل"
+msgstr "يرجى ضبط عنوان الزبون"
 
 #. source: hrms
 msgid "Please set the Date Of Joining for employee {0}"
@@ -52431,7 +52431,7 @@ msgstr "قبل البيع"
 
 #. source: erpnext
 msgid "Pre-filled on payment entries for this customer. Must be a company account."
-msgstr "يُعبَّأ مسبقاً في قيود الدفع لهذا العميل. يجب أن يكون حساباً للشركة."
+msgstr "يُعبَّأ مسبقاً في قيود الدفع لهذا الزبون. يجب أن يكون حساباً للشركة."
 
 #. source: frappe
 msgid "Precision"
@@ -52555,7 +52555,7 @@ msgstr "منع رفق"
 
 #. source: erpnext
 msgid "Prevent Sales Invoice when Customer is Overdue"
-msgstr "منع فاتورة المبيعات عند تأخر العميل في السداد"
+msgstr "منع فاتورة المبيعات عند تأخر الزبون في السداد"
 
 #. source: hrms
 msgid "Prevent self approval for expense claims even if user has permissions"
@@ -53285,7 +53285,7 @@ msgstr "معالجة كشف الحسابات (نسخة كربونية)"
 
 #. source: erpnext
 msgid "Process Statement Of Accounts Customer"
-msgstr "بيان العملية لحسابات العملاء"
+msgstr "بيان العملية لحسابات الزبائن"
 
 #. source: erpnext
 msgid "Process Subscription"
@@ -53789,23 +53789,23 @@ msgstr "بنسبة كذا"
 
 #. source: erpnext
 msgid "Prospect"
-msgstr "عميل محتمل"
+msgstr "زبون محتمل"
 
 #. source: erpnext
 msgid "Prospect Lead"
-msgstr "عميل محتمل رئيسي"
+msgstr "زبون محتمل رئيسي"
 
 #. source: erpnext
 msgid "Prospect Opportunity"
-msgstr "فرصة عميل محتمل"
+msgstr "فرصة زبون محتمل"
 
 #. source: erpnext
 msgid "Prospect Owner"
-msgstr "مالك العميل المحتمل"
+msgstr "مالك الزبون المحتمل"
 
 #. source: erpnext
 msgid "Prospect {0} already exists"
-msgstr "العميل المحتمل {0} موجود بالفعل"
+msgstr "الزبون المحتمل {0} موجود بالفعل"
 
 #. source: erpnext
 msgid "Prospecting"
@@ -55043,7 +55043,7 @@ msgstr "عدد النقاط"
 
 #. source: erpnext
 msgid "Quot/Lead %"
-msgstr "نسبة عرض السعر / العميل المحتمل %"
+msgstr "نسبة عرض السعر / الزبون المحتمل %"
 
 #. source: erpnext
 msgid "Quotation"
@@ -55207,7 +55207,7 @@ msgstr "معدل والمبلغ"
 
 #. source: erpnext
 msgid "Rate at which Customer Currency is converted to customer's base currency"
-msgstr "المعدل الذي يتم تحويل العملة إلى عملة الأساس العملاء العميل"
+msgstr "المعدل الذي يتم تحويل العملة إلى عملة الأساس الزبائن الزبون"
 
 #. source: erpnext
 msgid "Rate at which Price List Currency is converted to Company Currency"
@@ -55219,11 +55219,11 @@ msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعا
 
 #. source: erpnext
 msgid "Rate at which Price list currency is converted to customer's base currency"
-msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للعميل"
+msgstr "السعر الذي تُحوَّل به عملة قائمة الأسعار إلى العملة الأساسية للزبون"
 
 #. source: erpnext
 msgid "Rate at which customer's currency is converted to company's base currency"
-msgstr "المعدل الذي يتم تحويل العملة إلى عملة العميل قاعدة الشركة"
+msgstr "المعدل الذي يتم تحويل العملة إلى عملة الزبون قاعدة الشركة"
 
 #. source: erpnext
 msgid "Rate at which document currency is converted to company currency"
@@ -55400,7 +55400,7 @@ msgstr "لا يمكن ترك المواد الخام فارغة."
 
 #. source: erpnext
 msgid "Raw Materials to Customer"
-msgstr "المواد الخام للعميل"
+msgstr "المواد الخام للزبون"
 
 #. source: frappe
 msgid "Raw Method"
@@ -55702,7 +55702,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Receive from Customer"
-msgstr "استلام من العميل"
+msgstr "استلام من الزبون"
 
 #. source: frappe
 msgid "Received"
@@ -55954,11 +55954,11 @@ msgstr "تسجيل قيد يومية للمصروفات أو الإيرادات 
 
 #. source: erpnext
 msgid "Record a payment against a customer or supplier"
-msgstr "تسجيل دفعة مقابل عميل أو مورّد"
+msgstr "تسجيل دفعة مقابل زبون أو مورّد"
 
 #. source: erpnext
 msgid "Record a payment entry against a customer or supplier"
-msgstr "تسجيل قيد دفع مقابل عميل أو مورّد"
+msgstr "تسجيل قيد دفع مقابل زبون أو مورّد"
 
 #. source: erpnext
 msgid "Record a transfer between two bank accounts"
@@ -56344,7 +56344,7 @@ msgstr "إشارة: {0} {1}"
 
 #. source: erpnext
 msgid "Reference: {0}, Item Code: {1} and Customer: {2}"
-msgstr "المرجع: {0}، رمز العنصر: {1} والعميل: {2}"
+msgstr "المرجع: {0}، رمز العنصر: {1} والزبون: {2}"
 
 #. source: frappe
 msgid "References"
@@ -58016,7 +58016,7 @@ msgstr "تقييد طلبات الإجازة بأثر رجعي"
 
 #. source: erpnext
 msgid "Restrict Customer Over Billing"
-msgstr "تقييد الفوترة الزائدة للعميل"
+msgstr "تقييد الفوترة الزائدة للزبون"
 
 #. source: frappe
 msgid "Restrict IP"
@@ -58217,7 +58217,7 @@ msgstr "كمية المرتجع من المستودع المرفوض"
 
 #. source: erpnext
 msgid "Return Raw Material to Customer"
-msgstr "إعادة المواد الخام إلى العميل"
+msgstr "إعادة المواد الخام إلى الزبون"
 
 #. source: hrms
 msgid "Return amount cannot be greater than unclaimed amount"
@@ -59064,7 +59064,7 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} against Subcontracting Inward Order Item {2} "
 "({3}) cannot be added multiple times."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} مقابل صنف أمر التعاقد من الباطن الوارد {2} "
+"السطر #{0}: الصنف المقدم من الزبون {1} مقابل صنف أمر التعاقد من الباطن الوارد {2} "
 "({3}) لا يمكن إضافته عدة مرات."
 
 #. source: erpnext
@@ -59072,19 +59072,19 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} cannot be added multiple times in the "
 "Subcontracting Inward process."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} لا يمكن إضافته عدة مرات في عملية التعاقد من "
+"السطر #{0}: الصنف المقدم من الزبون {1} لا يمكن إضافته عدة مرات في عملية التعاقد من "
 "الباطن الواردة."
 
 #. source: erpnext
 msgid "Row #{0}: Customer Provided Item {1} cannot be added multiple times."
-msgstr "الصف رقم {0}: لا يمكن إضافة الصنف المقدَّم من العميل {1} أكثر من مرة."
+msgstr "الصف رقم {0}: لا يمكن إضافة الصنف المقدَّم من الزبون {1} أكثر من مرة."
 
 #. source: erpnext
 msgid ""
 "Row #{0}: Customer Provided Item {1} does not exist in the Required Items table "
 "linked to the Subcontracting Inward Order."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} غير موجود في جدول الأصناف المطلوبة المرتبط "
+"السطر #{0}: الصنف المقدم من الزبون {1} غير موجود في جدول الأصناف المطلوبة المرتبط "
 "بأمر التعاقد من الباطن الوارد."
 
 #. source: erpnext
@@ -59092,7 +59092,7 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} exceeds quantity available through "
 "Subcontracting Inward Order"
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} يتجاوز الكمية المتاحة من خلال أمر التعاقد من "
+"السطر #{0}: الصنف المقدم من الزبون {1} يتجاوز الكمية المتاحة من خلال أمر التعاقد من "
 "الباطن الوارد."
 
 #. source: erpnext
@@ -59100,16 +59100,16 @@ msgid ""
 "Row #{0}: Customer Provided Item {1} has insufficient quantity in the Subcontracting "
 "Inward Order. Available quantity is {2}."
 msgstr ""
-"السطر #{0}: الصنف المقدم من العميل {1} لديه كمية غير كافية في أمر التعاقد من الباطن "
+"السطر #{0}: الصنف المقدم من الزبون {1} لديه كمية غير كافية في أمر التعاقد من الباطن "
 "الوارد. الكمية المتاحة هي {2}."
 
 #. source: erpnext
 msgid "Row #{0}: Customer Provided Item {1} is not a part of Subcontracting Inward Order {2}"
-msgstr "السطر #{0}: الصنف المقدم من العميل {1} ليس جزءاً من أمر التعاقد من الباطن الوارد {2}."
+msgstr "السطر #{0}: الصنف المقدم من الزبون {1} ليس جزءاً من أمر التعاقد من الباطن الوارد {2}."
 
 #. source: erpnext
 msgid "Row #{0}: Customer Provided Item {1} is not a part of Work Order {2}"
-msgstr "الصف رقم {0}: الصنف المقدَّم من العميل {1} ليس جزءًا من أمر العمل {2}"
+msgstr "الصف رقم {0}: الصنف المقدَّم من الزبون {1} ليس جزءًا من أمر العمل {2}"
 
 #. source: erpnext
 msgid "Row #{0}: Dates overlapping with other row in group {1}"
@@ -59181,7 +59181,7 @@ msgstr "الصف رقم {0}: مرجع المنتج التام إلزامي لل�
 
 #. source: erpnext
 msgid "Row #{0}: For Customer Provided Item {1}, Source Warehouse must be {2}"
-msgstr "الصف #{0}: بالنسبة للمنتج المقدم من العميل {1}، يجب أن يكون مستودع المصدر {2}"
+msgstr "الصف #{0}: بالنسبة للمنتج المقدم من الزبون {1}، يجب أن يكون مستودع المصدر {2}"
 
 #. source: erpnext
 msgid "Row #{0}: For {1}, you can select reference document only if account gets credited"
@@ -59241,7 +59241,7 @@ msgstr "الصف رقم {0}: الصنف {1} مضاف بالفعل بنفس ال�
 
 #. source: erpnext
 msgid "Row #{0}: Item {1} is not a Customer Provided Item."
-msgstr "الصف #{0}: العنصر {1} ليس عنصرًا مقدمًا من العميل."
+msgstr "الصف #{0}: العنصر {1} ليس عنصرًا مقدمًا من الزبون."
 
 #. source: erpnext
 msgid ""
@@ -59331,7 +59331,7 @@ msgid ""
 "Row #{0}: Overconsumption of Customer Provided Item {1} against Work Order {2} is not"
 " allowed in the Subcontracting Inward process."
 msgstr ""
-"السطر #{0}: الاستهلاك الزائد للصنف المقدم من العميل {1} مقابل أمر العمل {2} غير مسموح"
+"السطر #{0}: الاستهلاك الزائد للصنف المقدم من الزبون {1} مقابل أمر العمل {2} غير مسموح"
 " به في عملية التعاقد من الباطن الواردة."
 
 #. source: erpnext
@@ -59347,7 +59347,7 @@ msgid ""
 "Row #{0}: Please select the Finished Good Item against which this Customer Provided "
 "Item will be used."
 msgstr ""
-"السطر #{0}: يرجى تحديد صنف المنتج التام الذي سيتم استخدام هذا الصنف المقدم من العميل "
+"السطر #{0}: يرجى تحديد صنف المنتج التام الذي سيتم استخدام هذا الصنف المقدم من الزبون "
 "مقابله."
 
 #. source: erpnext
@@ -59561,12 +59561,12 @@ msgid ""
 "Row #{0}: Source Warehouse must be same as Customer Warehouse {1} from the linked "
 "Subcontracting Inward Order"
 msgstr ""
-"السطر #{0}: يجب أن يكون مستودع المصدر هو نفسه مستودع العميل {1} من أمر التعاقد من "
+"السطر #{0}: يجب أن يكون مستودع المصدر هو نفسه مستودع الزبون {1} من أمر التعاقد من "
 "الباطن الوارد المرتبط."
 
 #. source: erpnext
 msgid "Row #{0}: Source Warehouse {1} for item {2} cannot be a customer warehouse."
-msgstr "الصف #{0}: لا يمكن أن يكون مستودع المصدر {1} للعنصر {2} مستودع عميل."
+msgstr "الصف #{0}: لا يمكن أن يكون مستودع المصدر {1} للعنصر {2} مستودع زبون."
 
 #. source: erpnext
 msgid ""
@@ -59643,7 +59643,7 @@ msgid ""
 "Row #{0}: Target Warehouse must be same as Customer Warehouse {1} from the linked "
 "Subcontracting Inward Order"
 msgstr ""
-"السطر #{0}: يجب أن يكون مستودع الهدف هو نفسه مستودع العميل {1} من أمر التعاقد من "
+"السطر #{0}: يجب أن يكون مستودع الهدف هو نفسه مستودع الزبون {1} من أمر التعاقد من "
 "الباطن الوارد المرتبط."
 
 #. source: erpnext
@@ -59815,7 +59815,7 @@ msgstr "الصف رقم {}: فاتورة نقاط البيع {} كانت {}"
 
 #. source: erpnext
 msgid "Row #{}: POS Invoice {} is not against customer {}"
-msgstr "الصف رقم {}: فاتورة نقاط البيع {} ليست ضد العميل {}"
+msgstr "الصف رقم {}: فاتورة نقاط البيع {} ليست ضد الزبون {}"
 
 #. source: erpnext
 msgid "Row #{}: POS Invoice {} is not submitted yet"
@@ -60029,11 +60029,11 @@ msgstr "الصف {0}: لا يمكن ربط قيد مدين مع {1}"
 
 #. source: erpnext
 msgid "Row {0}: Delivery Warehouse ({1}) and Customer Warehouse ({2}) can not be same"
-msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم ({1}) ومستودع العميل ({2}) متماثلين"
+msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم ({1}) ومستودع الزبون ({2}) متماثلين"
 
 #. source: erpnext
 msgid "Row {0}: Delivery Warehouse cannot be same as Customer Warehouse for Item {1}."
-msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع العميل للصنف {1}."
+msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع الزبون للصنف {1}."
 
 #. source: erpnext
 msgid "Row {0}: Due Date in the Payment Terms table cannot be before Posting Date"
@@ -61175,7 +61175,7 @@ msgid ""
 "Sales Order {0} already exists against Customer's Purchase Order {1}. To allow "
 "multiple Sales Orders, Enable {2} in {3}"
 msgstr ""
-"أمر المبيعات {0} موجود بالفعل مقابل أمر شراء العميل {1}. للسماح بأوامر مبيعات متعددة،"
+"أمر المبيعات {0} موجود بالفعل مقابل أمر شراء الزبون {1}. للسماح بأوامر مبيعات متعددة،"
 " قم بتمكين {2} في {3}"
 
 #. source: erpnext
@@ -61951,7 +61951,7 @@ msgstr "بحث عن حساب..."
 
 #. source: erpnext
 msgid "Search by customer name, phone, email."
-msgstr "البحث عن طريق اسم العميل، الهاتف، البريد الإلكتروني."
+msgstr "البحث عن طريق اسم الزبون، الهاتف، البريد الإلكتروني."
 
 #. source: frappe
 msgid "Search by filename or extension"
@@ -61959,7 +61959,7 @@ msgstr "البحث حسب اسم الملف أو الامتداد"
 
 #. source: erpnext
 msgid "Search by invoice id or customer name"
-msgstr "البحث عن طريق معرف الفاتورة أو اسم العميل"
+msgstr "البحث عن طريق معرف الفاتورة أو اسم الزبون"
 
 #. source: erpnext
 msgid "Search by item code, serial number or barcode"
@@ -62329,7 +62329,7 @@ msgstr "اختر العملة"
 
 #. source: erpnext
 msgid "Select Customers By"
-msgstr "حدد العملاء حسب"
+msgstr "حدد الزبائن حسب"
 
 #. source: frappe
 msgid "Select Dashboard"
@@ -62647,7 +62647,7 @@ msgstr "حدد الشركة التي ينتمي إليها هذا الموظف."
 
 #. source: erpnext
 msgid "Select a Customer"
-msgstr "حدد عميلاً"
+msgstr "حدد زبوناً"
 
 #. source: erpnext
 msgid "Select a Default Priority."
@@ -62867,7 +62867,7 @@ msgstr "حدد المستودع"
 
 #. source: erpnext
 msgid "Select the customer or supplier."
-msgstr "حدد العميل أو المورد."
+msgstr "حدد الزبون أو المورد."
 
 #. source: erpnext
 msgid "Select the date"
@@ -62968,7 +62968,7 @@ msgstr "حدد {0}"
 
 #. source: erpnext
 msgid "Select, to make the customer searchable with these fields"
-msgstr "حدد، لجعل العميل قابلا للبحث باستخدام هذه الحقول"
+msgstr "حدد، لجعل الزبون قابلا للبحث باستخدام هذه الحقول"
 
 #. source: erpnext
 msgid "Selected POS Opening Entry should be open."
@@ -63640,7 +63640,7 @@ msgstr "الرقم التسلسلي {0} مضاف بالفعل"
 msgid ""
 "Serial No {0} is already assigned to customer {1}. Can only be returned against the "
 "customer {1}"
-msgstr "الرقم التسلسلي {0} مُسند بالفعل للعميل {1}. لا يمكن إرجاعه إلا مقابل العميل {1}"
+msgstr "الرقم التسلسلي {0} مُسند بالفعل للزبون {1}. لا يمكن إرجاعه إلا مقابل الزبون {1}"
 
 #. source: erpnext
 msgid "Serial No {0} is not available in the selected inventory dimensions: {1}"
@@ -64473,7 +64473,7 @@ msgstr "عيّن الحالة إلى {0} إذا لزم الأمر."
 
 #. source: erpnext
 msgid "Set this if the customer is a Public Administration company."
-msgstr "حدد هذا إذا كان العميل شركة إدارة عامة."
+msgstr "حدد هذا إذا كان الزبون شركة إدارة عامة."
 
 #. source: erpnext
 msgid "Set this value to 0 to disable the feature."
@@ -66302,7 +66302,7 @@ msgid ""
 "Source Warehouse {0} must be same as Customer Warehouse {1} in the Subcontracting "
 "Inward Order."
 msgstr ""
-"يجب أن يكون مستودع المصدر {0} هو نفسه مستودع العميل {1} في أمر التعاقد من الباطن "
+"يجب أن يكون مستودع المصدر {0} هو نفسه مستودع الزبون {1} في أمر التعاقد من الباطن "
 "الوارد."
 
 #. source: hrms
@@ -68190,7 +68190,7 @@ msgstr "تم استيراد {0} سجل بنجاح."
 
 #. source: erpnext
 msgid "Successfully linked to Customer"
-msgstr "تم الربط بالعميل بنجاح"
+msgstr "تم الربط بالزبون بنجاح"
 
 #. source: erpnext
 msgid "Successfully linked to Supplier"
@@ -68430,7 +68430,7 @@ msgstr "رقم المورد"
 
 #. source: erpnext
 msgid "Supplier Number At Customer"
-msgstr "رقم المورد لدى العميل"
+msgstr "رقم المورد لدى الزبون"
 
 #. source: erpnext
 msgid "Supplier Numbers"
@@ -68534,7 +68534,7 @@ msgstr "المورد مستودع"
 
 #. source: erpnext
 msgid "Supplier delivers to Customer"
-msgstr "المورد يسلم للعميل"
+msgstr "المورد يسلم للزبون"
 
 #. source: erpnext
 msgid "Supplier is required for all selected Items"
@@ -68542,7 +68542,7 @@ msgstr "المورد مطلوب لجميع الأصناف المختارة"
 
 #. source: erpnext
 msgid "Supplier numbers assigned by the customer"
-msgstr "أرقام الموردين المعينة من قبل العميل"
+msgstr "أرقام الموردين المعينة من قبل الزبون"
 
 #. source: erpnext
 msgid "Supplier of Goods or Services."
@@ -68914,7 +68914,7 @@ msgstr "TDS مستحق الدفع"
 
 #. source: erpnext
 msgid "TDS/TCS is calculated at the rate defined here on every payment from this customer."
-msgstr "يُحتسب الاستقطاع/التحصيل الضريبي بالنسبة المحددة هنا على كل دفعة من هذا العميل."
+msgstr "يُحتسب الاستقطاع/التحصيل الضريبي بالنسبة المحددة هنا على كل دفعة من هذا الزبون."
 
 #. source: frappe
 msgid "TOS URI"
@@ -69146,7 +69146,7 @@ msgstr "مستودع الهدف مطلوب قبل التقديم"
 
 #. source: erpnext
 msgid "Target Warehouse is set for some items but the customer is not an internal customer."
-msgstr "تم تعيين مستودع الهدف لبعض الأصناف ولكن العميل ليس عميلًا داخليًا."
+msgstr "تم تعيين مستودع الهدف لبعض الأصناف ولكن الزبون ليس زبونًا داخليًا."
 
 #. source: erpnext
 msgid ""
@@ -70478,7 +70478,7 @@ msgid ""
 "The lowest tier must have a minimum spent amount of 0. Customers need to be part of a"
 " tier as soon as they are enrolled in the program."
 msgstr ""
-"يجب أن يكون الحد الأدنى للمبلغ المنفق في أدنى مستوى هو 0. يجب أن يكون العملاء جزءًا "
+"يجب أن يكون الحد الأدنى للمبلغ المنفق في أدنى مستوى هو 0. يجب أن يكون الزبائن جزءًا "
 "من مستوى بمجرد تسجيلهم في البرنامج."
 
 #. source: frappe
@@ -70881,7 +70881,7 @@ msgstr "يمكن للمستخدم استيراد سجلات جديدة أو تح
 
 #. source: frappe
 msgid "The user can select a Customer in Sales Order but cannot open the Customer master."
-msgstr "يمكن للمستخدم اختيار عميل في أمر البيع ولكن لا يمكنه فتح ملف العميل الرئيسي."
+msgstr "يمكن للمستخدم اختيار زبون في أمر البيع ولكن لا يمكنه فتح ملف الزبون الرئيسي."
 
 #. source: frappe
 msgid "The user can share document access with another user."
@@ -70892,7 +70892,7 @@ msgid ""
 "The user can update a customer or any other fields in an existing Sales Order but "
 "cannot create a new Sales Order."
 msgstr ""
-"يمكن للمستخدم تحديث العميل أو أي حقول أخرى في أمر بيع موجود ولكن لا يمكنه إنشاء أمر "
+"يمكن للمستخدم تحديث الزبون أو أي حقول أخرى في أمر بيع موجود ولكن لا يمكنه إنشاء أمر "
 "بيع جديد."
 
 #. source: frappe
@@ -71033,7 +71033,7 @@ msgid ""
 "Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, "
 "Supplier, Supplier Type, Campaign, Sales Partner etc."
 msgstr ""
-"يتم تصفية قواعد التسعير بناءً على العميل، مجموعة العملاء، المنطقة، المورد، نوع "
+"يتم تصفية قواعد التسعير بناءً على الزبون، مجموعة الزبائن، المنطقة، المورد، نوع "
 "المورد، الحملة، شريك المبيعات، إلخ."
 
 #. source: hrms
@@ -71620,7 +71620,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "This field is used to set the 'Customer'."
-msgstr "يستخدم هذا الحقل لتعيين 'العميل'."
+msgstr "يستخدم هذا الحقل لتعيين 'الزبون'."
 
 #. source: frappe
 msgid ""
@@ -71724,7 +71724,7 @@ msgstr "هذا حساب جذري ولا يمكن تعديله."
 
 #. source: erpnext
 msgid "This is a root customer group and cannot be edited."
-msgstr "هذه هي مجموعة العملاء الجذرية والتي لا يمكن تحريرها."
+msgstr "هذه هي مجموعة الزبائن الجذرية والتي لا يمكن تحريرها."
 
 #. source: erpnext
 msgid "This is a root department and cannot be edited."
@@ -72776,7 +72776,7 @@ msgstr "للتقدم بطلب للحصول على نصف يوم، حدد 'نصف
 
 #. source: erpnext
 msgid "To be Delivered to Customer"
-msgstr "ليتم تسليمها للعميل"
+msgstr "ليتم تسليمها للزبون"
 
 #. source: frappe
 msgid ""
@@ -73137,7 +73137,7 @@ msgstr "أعلى الوسط"
 
 #. source: erpnext
 msgid "Top Customers"
-msgstr "أفضل العملاء"
+msgstr "أفضل الزبائن"
 
 #. source: frappe
 msgid "Top Errors"
@@ -74496,7 +74496,7 @@ msgid ""
 "customer's overdue amount exceeds the Overdue Limit."
 msgstr ""
 "تُمنع المعاملات عندما يتجاوز الرصيد المستحق حد الائتمان. وعند تفعيل 'تقييد الفوترة "
-"الزائدة للعميل'، تُمنع أيضاً الفواتير الجديدة عندما يتجاوز المبلغ المتأخر على العميل "
+"الزائدة للزبون'، تُمنع أيضاً الفواتير الجديدة عندما يتجاوز المبلغ المتأخر على الزبون "
 "حد التأخر في السداد."
 
 #. source: hrms
@@ -75990,7 +75990,7 @@ msgstr "يجب تمكين تحديث المخزون لفاتورة الشراء 
 
 #. source: erpnext
 msgid "Update the modified timestamp on new communications received in Lead & Opportunity."
-msgstr "تحديث الطابع الزمني المعدل على الاتصالات الجديدة المستلمة في العميل المحتمل والفرصة."
+msgstr "تحديث الطابع الزمني المعدل على الاتصالات الجديدة المستلمة في الزبون المحتمل والفرصة."
 
 #. source: erpnext
 msgid "Update timestamp on new communication"
@@ -76833,7 +76833,7 @@ msgid ""
 "Users listed here can log into the customer portal to view their orders, invoices, "
 "and deliveries."
 msgstr ""
-"يمكن للمستخدمين المدرجين هنا تسجيل الدخول إلى بوابة العملاء لعرض أوامرهم وفواتيرهم "
+"يمكن للمستخدمين المدرجين هنا تسجيل الدخول إلى بوابة الزبائن لعرض أوامرهم وفواتيرهم "
 "وتسليماتهم."
 
 #. source: frappe
@@ -76857,7 +76857,7 @@ msgid ""
 "Users with this role can still submit invoices for customers who have crossed their "
 "Overdue Limit."
 msgstr ""
-"لا يزال بإمكان المستخدمين الذين لديهم هذا الدور ترحيل فواتير للعملاء الذين تجاوزوا حد"
+"لا يزال بإمكان المستخدمين الذين لديهم هذا الدور ترحيل فواتير للزبائن الذين تجاوزوا حد"
 " التأخر في السداد."
 
 #. source: erpnext
@@ -77136,7 +77136,7 @@ msgstr "التقييم والمجموع"
 
 #. source: erpnext
 msgid "Valuation rate for customer provided items has been set to zero."
-msgstr "تم تعيين معدل التقييم للأصناف المقدمة من العميل إلى صفر."
+msgstr "تم تعيين معدل التقييم للأصناف المقدمة من الزبون إلى صفر."
 
 #. source: erpnext
 msgid "Valuation rate for the item as per Sales Invoice (Only for Internal Transfers)"
@@ -77546,7 +77546,7 @@ msgstr "فرستا"
 
 #. source: erpnext
 msgid "Via Customer Portal"
-msgstr "عبر بوابة العملاء"
+msgstr "عبر بوابة الزبائن"
 
 #. source: erpnext
 msgid "Via Landed Cost Voucher"
@@ -77650,7 +77650,7 @@ msgstr "الاطلاع على عرض العمل"
 
 #. source: erpnext
 msgid "View Leads"
-msgstr "مشاهدة العملاء المحتملون"
+msgstr "مشاهدة الزبائن المحتملون"
 
 #. source: hrms
 msgid "View Leave History"
@@ -77991,7 +77991,7 @@ msgstr "في انتظار الدفع..."
 
 #. source: erpnext
 msgid "Walk In"
-msgstr "عميل غير مسجل"
+msgstr "زبون غير مسجل"
 
 #. source: frappe
 msgid "Want to discuss?"
@@ -78237,7 +78237,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Warning: Sales Order {0} already exists against Customer's Purchase Order {1}"
-msgstr "تحذير: أمر البيع {0} موجود مسبقاً لأمر الشراء الخاص بالعميل {1}"
+msgstr "تحذير: أمر البيع {0} موجود مسبقاً لأمر الشراء الخاص بالزبون {1}"
 
 #. source: erpnext
 msgid "Warning: This action cannot be undone!"
@@ -80587,7 +80587,7 @@ msgstr "يجب تسجيل الدخول لاستخدام هذا النموذج"
 
 #. source: erpnext
 msgid "You must select a customer before adding an item."
-msgstr "يجب عليك تحديد عميل قبل إضافة عنصر."
+msgstr "يجب عليك تحديد زبون قبل إضافة عنصر."
 
 #. source: frappe
 msgid "You need the '{0}' permission on {1} {2} to perform this action."
@@ -81248,7 +81248,7 @@ msgstr "نوع المستند"
 
 #. source: frappe
 msgid "document type..., e.g. customer"
-msgstr "نوع الوثيقة...، على سبيل المثال العملاء"
+msgstr "نوع الوثيقة...، على سبيل المثال الزبائن"
 
 #. source: frappe
 msgid "e.g."
@@ -82128,14 +82128,14 @@ msgstr "{0} = {1}"
 
 #. source: erpnext
 msgid "{0} Account not found against Customer {1}."
-msgstr "لم يتم العثور على حساب {0} مقابل العميل {1}."
+msgstr "لم يتم العثور على حساب {0} مقابل الزبون {1}."
 
 #. source: erpnext
 msgid ""
 "{0} Account: {1} ({2}) must be in either customer billing currency: {3} or Company "
 "default currency: {4}"
 msgstr ""
-"حساب {0}: {1} ({2}) يجب أن يكون إما بعملة فوترة العميل: {3} أو عملة الشركة "
+"حساب {0}: {1} ({2}) يجب أن يكون إما بعملة فوترة الزبون: {3} أو عملة الشركة "
 "الافتراضية: {4}"
 
 #. source: hrms
@@ -83216,7 +83216,7 @@ msgid ""
 " the 'Allowed To Transact With'-Section in the Customer record."
 msgstr ""
 "غير مسموح لـ {0} بالتعامل مع {1}. يرجى تغيير الشركة أو إضافة الشركة في قسم 'مسموح له "
-"بالتعامل مع' في سجل العميل."
+"بالتعامل مع' في سجل الزبون."
 
 #. source: frappe
 msgid "{0} not found"
