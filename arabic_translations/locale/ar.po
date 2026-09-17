@@ -161,7 +161,7 @@ msgstr "\"أعضاء الفريق\" أو \"الإدارة\""
 
 #. source: frappe
 msgid "\"amended_from\" field must be present to do an amendment."
-msgstr "يجب أن يكون الحقل \"amended_from\" حاضرًا لإجراء تعديل."
+msgstr "يجب أن يكون الحقل \"amended_from\" موجودًا لإجراء تعديل."
 
 #. source: frappe
 msgid "\"{0}\" is not a valid Google Sheets URL"
@@ -1814,7 +1814,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Amount In Words</label>"
-msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">المبلغ بالكلمات</label>"
+msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">تفقيط المبلغ</label>"
 
 #. source: erpnext
 msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Date Settings</label>"
@@ -3023,7 +3023,7 @@ msgstr "شركة الحساب لا تطابق شركة القاعدة."
 
 #. source: erpnext
 msgid "Account for Change Amount"
-msgstr "حساب لتغيير المبلغ"
+msgstr "حساب مبلغ الباقي"
 
 #. source: erpnext
 msgid "Account is mandatory"
@@ -3179,7 +3179,7 @@ msgstr "الحساب {0}: الحساب الرئيسي {1} لا ينتمي إلى
 
 #. source: erpnext
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "الحساب {0}: الحساب الأب {1} غير موجود"
+msgstr "الحساب {0}: الحساب الرئيسي {1} غير موجود"
 
 #. source: erpnext
 msgid "Account {0}: You can not assign itself as parent account"
@@ -5352,7 +5352,7 @@ msgstr "جميع الأصناف مطلوبة بالفعل"
 
 #. source: erpnext
 msgid "All items have already been Invoiced/Returned"
-msgstr "تم بالفعل تحرير / إرجاع جميع الأصناف"
+msgstr "تمت فوترة / إرجاع جميع الأصناف بالفعل"
 
 #. source: erpnext
 msgid "All items have already been received"
@@ -7104,7 +7104,7 @@ msgstr "قابل للتطبيق إذا كانت الشركة فردية أو م�
 
 #. source: hrms
 msgid "Applicable in the case of Employee Onboarding"
-msgstr "ينطبق على حالة تشغيل الموظف"
+msgstr "ينطبق في حالة تهيئة الموظف الجديد"
 
 #. source: erpnext
 msgid "Applicable on Cumulative Expense"
@@ -7426,7 +7426,7 @@ msgstr "تفاصيل الموعد"
 
 #. source: erpnext
 msgid "Appointment Duration (In Minutes)"
-msgstr "مدة التعيين (بالدقائق)"
+msgstr "مدة الموعد (بالدقائق)"
 
 #. source: hrms
 msgid "Appointment Letter"
@@ -10615,11 +10615,11 @@ msgstr "المبلغ الأساسي"
 
 #. source: erpnext
 msgid "Base Amount (Company Currency)"
-msgstr "المبلغ الأساسي (عملة الشركة )"
+msgstr "المبلغ الأساسي (عملة الشركة)"
 
 #. source: erpnext
 msgid "Base Change Amount (Company Currency)"
-msgstr "مدى تغيير المبلغ الأساسي (عملة الشركة )"
+msgstr "مبلغ الباقي الأساسي (عملة الشركة)"
 
 #. source: erpnext
 msgid "Base Cost (Company Currency)"
@@ -10727,7 +10727,7 @@ msgstr "المبلغ الأساسي"
 
 #. source: erpnext
 msgid "Basic Amount (Company Currency)"
-msgstr "المبلغ الأساسي (عملة الشركة )"
+msgstr "المبلغ الأساسي (عملة الشركة)"
 
 #. source: frappe
 msgid "Basic Info"
@@ -11799,7 +11799,7 @@ msgstr "تقرير إنحرافات الموازنة"
 
 #. source: erpnext
 msgid "Budget cannot be assigned against Group Account {0}"
-msgstr "لا يمكن أسناد الميزانية للمجموعة Account {0}"
+msgstr "لا يمكن إسناد الميزانية لحساب المجموعة {0}"
 
 #. source: erpnext
 msgid "Budget cannot be assigned against {0}, as it's not an Income or Expense account"
@@ -13771,7 +13771,7 @@ msgstr "تغيير"
 
 #. source: erpnext
 msgid "Change Amount"
-msgstr "تغيير المبلغ"
+msgstr "مبلغ الباقي"
 
 #. source: frappe
 msgid "Change Image"
@@ -17130,7 +17130,7 @@ msgstr "إنشاء زبائن محتملين"
 
 #. source: erpnext
 msgid "Create Ledger Entries for Change Amount"
-msgstr "إنشاء قيود دفتر الأستاذ لمبلغ التغيير"
+msgstr "إنشاء قيود دفتر الأستاذ لمبلغ الباقي"
 
 #. source: frappe
 msgid "Create Letter Head"
@@ -20949,7 +20949,7 @@ msgstr "فرق"
 
 #. source: erpnext
 msgid "Difference (Dr - Cr)"
-msgstr "الفرق ( المدين - الدائن )"
+msgstr "الفرق (المدين - الدائن)"
 
 #. source: erpnext
 msgid "Difference Account"
@@ -20981,7 +20981,7 @@ msgstr "مقدار الفرق"
 
 #. source: erpnext
 msgid "Difference Amount (Company Currency)"
-msgstr "فروق المبلغ ( عملة الشركة )."
+msgstr "فروق المبلغ (عملة الشركة)."
 
 #. source: erpnext
 msgid "Difference Amount must be zero"
@@ -32026,7 +32026,7 @@ msgstr "إذا كان مختلفا عن عنوان الزبون"
 
 #. source: erpnext
 msgid "If disable, 'In Words' field will not be visible in any transaction"
-msgstr "إذا تم تعطيله، فلن يكون الحقل 'بالحروف' مرئيا في أي معاملة"
+msgstr "إذا تم تعطيله، فلن يكون حقل 'التفقيط' مرئيًا في أي معاملة"
 
 #. source: erpnext
 msgid "If disable, 'Rounded Total' field will not be visible in any transaction"
@@ -32155,7 +32155,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "If enabled, ledger entries will be posted for change amount in POS transactions"
-msgstr "إذا تم تمكينه، سيتم ترحيل قيود دفتر الأستاذ لمبلغ التغيير في معاملات نقاط البيع"
+msgstr "إذا تم تمكينه، سيتم ترحيل قيود دفتر الأستاذ لمبلغ الباقي في معاملات نقاط البيع"
 
 #. source: frappe
 msgid ""
@@ -33420,15 +33420,15 @@ msgstr "القيمة القادمة"
 
 #. source: erpnext
 msgid "In Words"
-msgstr "في كلمات"
+msgstr "التفقيط"
 
 #. source: erpnext
 msgid "In Words (Company Currency)"
-msgstr "في الأحرف ( عملة الشركة )"
+msgstr "التفقيط (عملة الشركة)"
 
 #. source: erpnext
 msgid "In Words (Export) will be visible once you save the Delivery Note."
-msgstr "بالحروف (تصدير) سوف تكون مرئية بمجرد حفظ إشعار التسليم."
+msgstr "سيظهر التفقيط (تصدير) بمجرد حفظ إشعار التسليم."
 
 #. source: erpnext
 msgid "In Words will be visible once you save the Delivery Note."
@@ -35100,7 +35100,7 @@ msgstr "معلمات غير صالحة."
 
 #. source: erpnext
 msgid "Invalid Parent Account"
-msgstr "الحساب الأصل غير صالح"
+msgstr "الحساب الرئيسي غير صالح"
 
 #. source: erpnext
 msgid "Invalid Part Number"
@@ -42728,7 +42728,7 @@ msgstr "صافي القيمة"
 
 #. source: erpnext
 msgid "Net Amount (Company Currency)"
-msgstr "صافي المبلغ ( بعملة الشركة )"
+msgstr "صافي المبلغ (بعملة الشركة)"
 
 #. source: erpnext
 msgid "Net Asset value as on"
@@ -42824,7 +42824,7 @@ msgstr "صافي معدل"
 
 #. source: erpnext
 msgid "Net Rate (Company Currency)"
-msgstr "صافي السعر ( بعملة الشركة )"
+msgstr "صافي السعر (بعملة الشركة)"
 
 #. source: hrms
 msgid "Net Salary Amount"
@@ -42836,7 +42836,7 @@ msgstr "صافي المجموع"
 
 #. source: erpnext
 msgid "Net Total (Company Currency)"
-msgstr "صافي الإجمالي ( بعملة الشركة )"
+msgstr "صافي الإجمالي (بعملة الشركة)"
 
 #. source: erpnext
 msgid "Net Weight"
@@ -48128,11 +48128,11 @@ msgstr "الأصل"
 
 #. source: erpnext
 msgid "Parent Account"
-msgstr "الحساب الأصل"
+msgstr "الحساب الرئيسي"
 
 #. source: erpnext
 msgid "Parent Account Missing"
-msgstr "الحساب الأصل مفقود"
+msgstr "الحساب الرئيسي مفقود"
 
 #. source: erpnext
 msgid "Parent Batch"
@@ -70576,7 +70576,7 @@ msgstr "المبلغ المستحق {0} في {1} أقل من {2}. يتم تحد�
 
 #. source: erpnext
 msgid "The parent account {0} does not exists in the uploaded template"
-msgstr "الحساب الأصل {0} غير موجود في القالب الذي تم تحميله"
+msgstr "الحساب الرئيسي {0} غير موجود في القالب الذي تم تحميله"
 
 #. source: frappe
 msgid "The password of your account has expired."
@@ -73699,7 +73699,7 @@ msgstr "إجمالي سداد القرض"
 
 #. source: erpnext
 msgid "Total Message(s)"
-msgstr "مجموع الرسائل ( ق )"
+msgstr "إجمالي الرسائل"
 
 #. source: erpnext
 msgid "Total Monthly Sales"

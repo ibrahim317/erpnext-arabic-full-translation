@@ -1217,7 +1217,7 @@ msgstr "ينطبق على"
 #. 'Employee Boarding Activity'
 #: hrms/hr/doctype/employee_boarding_activity/employee_boarding_activity.json
 msgid "Applicable in the case of Employee Onboarding"
-msgstr "ينطبق على حالة تشغيل الموظف"
+msgstr "ينطبق في حالة تهيئة الموظف الجديد"
 
 #. Label of the applicant_email (Data) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json

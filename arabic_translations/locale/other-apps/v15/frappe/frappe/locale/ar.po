@@ -43,7 +43,7 @@ msgstr "\"أعضاء الفريق\" أو \"الإدارة\""
 
 #: frappe/public/js/frappe/form/form.js:1014
 msgid "\"amended_from\" field must be present to do an amendment."
-msgstr "يجب أن يكون الحقل \"amended_from\" حاضرًا لإجراء تعديل."
+msgstr "يجب أن يكون الحقل \"amended_from\" موجودًا لإجراء تعديل."
 
 #: frappe/utils/csvutils.py:253
 msgid "\"{0}\" is not a valid Google Sheets URL"

@@ -955,7 +955,7 @@ msgstr ""
 #. Content of the 'html_19' (HTML) field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Amount In Words</label>"
-msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">المبلغ بالكلمات</label>"
+msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">تفقيط المبلغ</label>"
 
 #. Content of the 'Date Settings' (HTML) field in DocType 'Cheque Print
 #. Template'
@@ -1853,7 +1853,7 @@ msgstr "شركة الحساب لا تطابق شركة القاعدة."
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Account for Change Amount"
-msgstr "حساب لتغيير المبلغ"
+msgstr "حساب مبلغ الباقي"
 
 #: erpnext/accounts/doctype/budget/budget.py:150
 msgid "Account is mandatory"
@@ -2008,7 +2008,7 @@ msgstr "الحساب {0}: الحساب الرئيسي {1} لا ينتمي إلى
 
 #: erpnext/accounts/doctype/account/account.py:147
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "الحساب {0}: الحساب الأب {1} غير موجود"
+msgstr "الحساب {0}: الحساب الرئيسي {1} غير موجود"
 
 #: erpnext/accounts/doctype/account/account.py:150
 msgid "Account {0}: You can not assign itself as parent account"
@@ -4231,7 +4231,7 @@ msgstr "جميع الأصناف مطلوبة بالفعل"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:1526
 msgid "All items have already been Invoiced/Returned"
-msgstr "تم بالفعل تحرير / إرجاع جميع الأصناف"
+msgstr "تمت فوترة / إرجاع جميع الأصناف بالفعل"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:1217
 msgid "All items have already been received"
@@ -5794,7 +5794,7 @@ msgstr "تفاصيل الموعد"
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Appointment Duration (In Minutes)"
-msgstr "مدة التعيين (بالدقائق)"
+msgstr "مدة الموعد (بالدقائق)"
 
 #. Label of the agent_detail_section (Section Break) field in DocType
 #. 'Appointment Booking Settings'
@@ -8272,14 +8272,14 @@ msgstr "المبلغ الأساسي"
 #. Label of the base_amount (Currency) field in DocType 'Sales Invoice Payment'
 #: erpnext/accounts/doctype/sales_invoice_payment/sales_invoice_payment.json
 msgid "Base Amount (Company Currency)"
-msgstr "المبلغ الأساسي (عملة الشركة )"
+msgstr "المبلغ الأساسي (عملة الشركة)"
 
 #. Label of the base_change_amount (Currency) field in DocType 'POS Invoice'
 #. Label of the base_change_amount (Currency) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Base Change Amount (Company Currency)"
-msgstr "مدى تغيير المبلغ الأساسي (عملة الشركة )"
+msgstr "مبلغ الباقي الأساسي (عملة الشركة)"
 
 #. Label of the base_cost (Currency) field in DocType 'BOM Secondary Item'
 #: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
@@ -9434,7 +9434,7 @@ msgstr "تقرير إنحرافات الموازنة"
 
 #: erpnext/accounts/doctype/budget/budget.py:157
 msgid "Budget cannot be assigned against Group Account {0}"
-msgstr "لا يمكن أسناد الميزانية للمجموعة Account {0}"
+msgstr "لا يمكن إسناد الميزانية لحساب المجموعة {0}"
 
 #: erpnext/accounts/doctype/budget/budget.py:162
 msgid "Budget cannot be assigned against {0}, as its Root Type is not of Income or Expense"
@@ -10816,7 +10816,7 @@ msgstr "سلسلة"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/selling/page/point_of_sale/pos_payment.js:684
 msgid "Change Amount"
-msgstr "تغيير المبلغ"
+msgstr "مبلغ الباقي"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:94
 msgid "Change Release Date"
@@ -14035,7 +14035,7 @@ msgstr "إنشاء زبائن محتملين"
 #. Label of the post_change_gl_entries (Check) field in DocType 'POS Settings'
 #: erpnext/accounts/doctype/pos_settings/pos_settings.json
 msgid "Create Ledger Entries for Change Amount"
-msgstr "إنشاء قيود دفتر الأستاذ لمبلغ التغيير"
+msgstr "إنشاء قيود دفتر الأستاذ لمبلغ الباقي"
 
 #: erpnext/buying/doctype/supplier/supplier.js:257
 #: erpnext/selling/doctype/customer/customer.js:287
@@ -17675,7 +17675,7 @@ msgstr "فرق"
 #. Label of the difference (Currency) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Difference (Dr - Cr)"
-msgstr "الفرق ( المدين - الدائن )"
+msgstr "الفرق (المدين - الدائن)"
 
 #. Label of the difference_account (Link) field in DocType 'Payment
 #. Reconciliation Allocation'
@@ -17735,7 +17735,7 @@ msgstr "مقدار الفرق"
 #. Label of the difference_amount (Currency) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Difference Amount (Company Currency)"
-msgstr "فروق المبلغ ( عملة الشركة )."
+msgstr "فروق المبلغ (عملة الشركة)."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:204
 msgid "Difference Amount must be zero"
@@ -24491,7 +24491,7 @@ msgstr "إذا كان مختلفا عن عنوان الزبون"
 #. Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "If disable, 'In Words' field will not be visible in any transaction"
-msgstr "إذا تم تعطيله، فلن يكون الحقل 'بالحروف' مرئيا في أي معاملة"
+msgstr "إذا تم تعطيله، فلن يكون حقل 'التفقيط' مرئيًا في أي معاملة"
 
 #. Description of the 'Disable Rounded Total' (Check) field in DocType 'Global
 #. Defaults'
@@ -24591,7 +24591,7 @@ msgstr ""
 #. in DocType 'POS Settings'
 #: erpnext/accounts/doctype/pos_settings/pos_settings.json
 msgid "If enabled, ledger entries will be posted for change amount in POS transactions"
-msgstr "إذا تم تمكينه، سيتم ترحيل قيود دفتر الأستاذ لمبلغ التغيير في معاملات نقاط البيع"
+msgstr "إذا تم تمكينه، سيتم ترحيل قيود دفتر الأستاذ لمبلغ الباقي في معاملات نقاط البيع"
 
 #. Description of the 'Automatically run rules on unreconciled transactions'
 #. (Check) field in DocType 'Accounts Settings'
@@ -25467,7 +25467,7 @@ msgstr "القيمة القادمة"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "In Words"
-msgstr "في كلمات"
+msgstr "التفقيط"
 
 #. Label of the base_in_words (Small Text) field in DocType 'Payment Entry'
 #. Label of the base_in_words (Data) field in DocType 'POS Invoice'
@@ -25478,12 +25478,12 @@ msgstr "في كلمات"
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
 #: erpnext/selling/doctype/quotation/quotation.json
 msgid "In Words (Company Currency)"
-msgstr "في الأحرف ( عملة الشركة )"
+msgstr "التفقيط (عملة الشركة)"
 
 #. Description of the 'In Words' (Data) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "In Words (Export) will be visible once you save the Delivery Note."
-msgstr "بالحروف (تصدير) سوف تكون مرئية بمجرد حفظ إشعار التسليم."
+msgstr "سيظهر التفقيط (تصدير) بمجرد حفظ إشعار التسليم."
 
 #. Description of the 'In Words' (Data) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
@@ -26652,7 +26652,7 @@ msgstr "حقل بحث غير صالح في نقطة البيع"
 
 #: erpnext/accounts/doctype/account/account.py:418
 msgid "Invalid Parent Account"
-msgstr "الحساب الأصل غير صالح"
+msgstr "الحساب الرئيسي غير صالح"
 
 #: erpnext/public/js/controllers/buying.js:428
 msgid "Invalid Part Number"
@@ -33012,7 +33012,7 @@ msgstr "صافي القيمة"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Net Amount (Company Currency)"
-msgstr "صافي المبلغ ( بعملة الشركة )"
+msgstr "صافي المبلغ (بعملة الشركة)"
 
 #: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:906
 #: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:912
@@ -33140,7 +33140,7 @@ msgstr "صافي معدل"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Net Rate (Company Currency)"
-msgstr "صافي السعر ( بعملة الشركة )"
+msgstr "صافي السعر (بعملة الشركة)"
 
 #. Label of the net_total (Currency) field in DocType 'POS Closing Entry'
 #. Label of the net_total (Currency) field in DocType 'POS Invoice'
@@ -33215,7 +33215,7 @@ msgstr "صافي المجموع"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Net Total (Company Currency)"
-msgstr "صافي الإجمالي ( بعملة الشركة )"
+msgstr "صافي الإجمالي (بعملة الشركة)"
 
 #. Option for the 'Calculate Based On' (Select) field in DocType 'Shipping
 #. Rule'
@@ -36600,11 +36600,11 @@ msgstr "الطرود"
 #. Label of the parent_account (Link) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
 msgid "Parent Account"
-msgstr "الحساب الأصل"
+msgstr "الحساب الرئيسي"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:395
 msgid "Parent Account Missing"
-msgstr "الحساب الأصل مفقود"
+msgstr "الحساب الرئيسي مفقود"
 
 #. Label of the parent_batch (Link) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
@@ -57190,7 +57190,7 @@ msgstr "المبلغ المستحق {0} في {1} أقل من {2}. يتم تحد�
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:245
 msgid "The parent account {0} does not exists in the uploaded template"
-msgstr "الحساب الأصل {0} غير موجود في القالب الذي تم تحميله"
+msgstr "الحساب الرئيسي {0} غير موجود في القالب الذي تم تحميله"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:188
 msgid ""
@@ -59212,7 +59212,7 @@ msgstr "إجمالي الخصوم"
 #. Label of the total_messages (Int) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
 msgid "Total Message(s)"
-msgstr "مجموع الرسائل ( ق )"
+msgstr "إجمالي الرسائل"
 
 #. Label of the total_monthly_sales (Currency) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
