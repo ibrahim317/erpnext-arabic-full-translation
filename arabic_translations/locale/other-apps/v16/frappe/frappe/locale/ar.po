@@ -1492,7 +1492,7 @@ msgstr "إضافة جهات اتصال"
 #. Label of the add_container (Check) field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
 msgid "Add Container"
-msgstr "أضف الحاوية"
+msgstr "إضافة حاوية"
 
 #. Label of the set_meta_tags (Button) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -1507,7 +1507,7 @@ msgstr "إضافة عوامل تصفية"
 #. Label of the add_shade (Check) field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
 msgid "Add Gray Background"
-msgstr "أضف خلفية رمادية"
+msgstr "إضافة خلفية رمادية"
 
 #: frappe/public/js/frappe/ui/group_by/group_by.js:236
 #: frappe/public/js/frappe/ui/group_by/group_by.js:430
@@ -1528,7 +1528,7 @@ msgstr "إضافة قاعدة صلاحيات جديدة"
 
 #: frappe/desk/doctype/event/event.js:40
 msgid "Add Participants"
-msgstr "أضف مشاركين"
+msgstr "إضافة مشاركين"
 
 #. Label of the add_query_parameters (Check) field in DocType 'Email Group'
 #: frappe/email/doctype/email_group/email_group.json
@@ -1651,7 +1651,7 @@ msgstr "إضافة صف أسفل الصف الحالي"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:286
 msgid "Add a {0} Chart"
-msgstr "أضف مخطط {0}"
+msgstr "إضافة مخطط {0}"
 
 #: frappe/public/js/frappe/form/controls/attachment_gallery.js:205
 msgid "Add attachment"
@@ -1716,7 +1716,7 @@ msgstr "إضافة إلى سطح المكتب"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:110
 msgid "Add to ToDo"
-msgstr "أضف إلى ToDo"
+msgstr "إضافة إلى قائمة المهام"
 
 #: frappe/website/doctype/website_slideshow/website_slideshow.js:32
 msgid "Add to table"
@@ -3174,7 +3174,7 @@ msgstr "كلف إلى"
 
 #: frappe/desk/report/todo/todo.py:40
 msgid "Assigned To/Owner"
-msgstr "تعيين ل / المالك"
+msgstr "مُسند إلى / المالك"
 
 #. Label of the assignee (Table MultiSelect) field in DocType 'Auto Repeat'
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json

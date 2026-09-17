@@ -4536,7 +4536,7 @@ msgstr "إضافة أو خصم"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:280
 msgid "Add Order Discount"
-msgstr "أضف خصم الطلب"
+msgstr "إضافة خصم الطلب"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:281
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:416
@@ -4620,7 +4620,7 @@ msgstr "إضافة سجلات الدوام"
 #. List'
 #: erpnext/setup/doctype/holiday_list/holiday_list.json
 msgid "Add Weekly Holidays"
-msgstr "أضف عطلات أسبوعية"
+msgstr "إضافة عطلات أسبوعية"
 
 #: erpnext/public/js/utils/crm_activities.js:144
 msgid "Add a Note"
@@ -4653,7 +4653,7 @@ msgstr ""
 #. Label of the get_local_holidays (Button) field in DocType 'Holiday List'
 #: erpnext/setup/doctype/holiday_list/holiday_list.json
 msgid "Add to Holidays"
-msgstr "أضف إلى الإجازات"
+msgstr "إضافة إلى العطلات"
 
 #: erpnext/crm/doctype/lead/lead.js:38
 msgid "Add to Prospect"
@@ -8010,7 +8010,7 @@ msgstr "المصادقة فشلت"
 #. 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "Authorised By"
-msgstr "مرخص بها من"
+msgstr "مُفوَّض من"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/authorization_control/authorization_control.json
@@ -20545,7 +20545,7 @@ msgstr "قَامَة"
 #. Feedback'
 #: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
 msgid "Feedback By"
-msgstr "ردود الفعل من"
+msgstr "مقدّم التقييم"
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -40614,7 +40614,7 @@ msgstr "ردود فعل الجودة"
 #. Name of a DocType
 #: erpnext/quality_management/doctype/quality_feedback_parameter/quality_feedback_parameter.json
 msgid "Quality Feedback Parameter"
-msgstr "نوعية ردود الفعل المعلمة"
+msgstr "معلمة ملاحظات الجودة"
 
 #. Name of a DocType
 #. Label of a Link in the Quality Workspace
@@ -40626,7 +40626,7 @@ msgstr "قالب ملاحظات الجودة"
 #. Name of a DocType
 #: erpnext/quality_management/doctype/quality_feedback_template_parameter/quality_feedback_template_parameter.json
 msgid "Quality Feedback Template Parameter"
-msgstr "نوعية ردود الفعل قالب المعلمة"
+msgstr "معلمة قالب ملاحظات الجودة"
 
 #. Name of a DocType
 #. Label of a Link in the Quality Workspace

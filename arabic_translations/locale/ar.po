@@ -3986,7 +3986,7 @@ msgstr "إضافة جهات اتصال"
 
 #. source: frappe
 msgid "Add Container"
-msgstr "أضف الحاوية"
+msgstr "إضافة حاوية"
 
 #. source: erpnext
 msgid "Add Corrective Operation Cost in Finished Good Valuation"
@@ -4018,11 +4018,11 @@ msgstr "إضافة موظفين"
 
 #. source: hrms
 msgid "Add Expense"
-msgstr "أضف المصاريف"
+msgstr "إضافة مصروف"
 
 #. source: hrms
 msgid "Add Feedback"
-msgstr "أضف ردود الفعل"
+msgstr "إضافة تقييم"
 
 #. source: frappe
 msgid "Add Filters"
@@ -4030,7 +4030,7 @@ msgstr "إضافة عوامل تصفية"
 
 #. source: frappe
 msgid "Add Gray Background"
-msgstr "أضف خلفية رمادية"
+msgstr "إضافة خلفية رمادية"
 
 #. source: frappe
 msgid "Add Group"
@@ -4090,11 +4090,11 @@ msgstr "إضافة أو خصم"
 
 #. source: erpnext
 msgid "Add Order Discount"
-msgstr "أضف خصم الطلب"
+msgstr "إضافة خصم الطلب"
 
 #. source: frappe
 msgid "Add Participants"
-msgstr "أضف مشاركين"
+msgstr "إضافة مشاركين"
 
 #. source: erpnext
 msgid "Add Phantom Item"
@@ -4195,7 +4195,7 @@ msgstr "إضافة علامات"
 
 #. source: hrms
 msgid "Add Tax"
-msgstr "أضف الضريبة"
+msgstr "إضافة ضريبة"
 
 #. source: frappe
 msgid "Add Template"
@@ -4227,7 +4227,7 @@ msgstr "إضافة مؤتمر فيديو"
 
 #. source: erpnext
 msgid "Add Weekly Holidays"
-msgstr "أضف عطلات أسبوعية"
+msgstr "إضافة عطلات أسبوعية"
 
 #. source: frappe
 msgid "Add X-Original-From header"
@@ -4287,7 +4287,7 @@ msgstr "إضافة صف بمبلغ الفرق"
 
 #. source: frappe
 msgid "Add a {0} Chart"
-msgstr "أضف مخطط {0}"
+msgstr "إضافة مخطط {0}"
 
 #. source: erpnext
 msgid "Add all accounts that you want to split the transaction into."
@@ -4379,7 +4379,7 @@ msgstr "إضافة إلى التفاصيل"
 
 #. source: erpnext
 msgid "Add to Holidays"
-msgstr "أضف إلى الإجازات"
+msgstr "إضافة إلى العطلات"
 
 #. source: erpnext
 msgid "Add to Prospect"
@@ -4387,7 +4387,7 @@ msgstr "إضافة إلى زبون متوقع"
 
 #. source: frappe
 msgid "Add to ToDo"
-msgstr "أضف إلى ToDo"
+msgstr "إضافة إلى قائمة المهام"
 
 #. source: erpnext
 msgid "Add to Transit"
@@ -4407,7 +4407,7 @@ msgstr "إضافة الإجازات غير المستخدمة من المخصص�
 
 #. source: hrms
 msgid "Add unused leaves from previous leave period's allocation to this allocation"
-msgstr "أضف إجازات غير مستخدمة من تخصيص فترة الإجازة السابقة لهذا التخصيص"
+msgstr "إضافة الإجازات غير المستخدمة من تخصيص فترة الإجازة السابقة إلى هذا التخصيص"
 
 #. source: erpnext
 msgid "Add vouchers to generate preview."
@@ -6806,7 +6806,7 @@ msgstr "التخصيص السنوي"
 
 #. source: hrms
 msgid "Annual Allocation Exceeded"
-msgstr "التخصيص السنوي تجاوز"
+msgstr "تم تجاوز التخصيص السنوي"
 
 #. source: erpnext
 msgid "Annual Billing: {0}"
@@ -6914,7 +6914,7 @@ msgstr "أي تفاصيل أخرى"
 
 #. source: hrms
 msgid "Any other remarks, noteworthy effort that should go in the records"
-msgstr "أي ملاحظات أخرى، جهد جدير بالملاحظة يجب أن يذهب في السجلات"
+msgstr "أي ملاحظات أخرى أو جهد جدير بالذكر ينبغي أن يُسجل"
 
 #. source: frappe
 msgid ""
@@ -8418,7 +8418,7 @@ msgstr "كلف إلى"
 
 #. source: frappe
 msgid "Assigned To/Owner"
-msgstr "تعيين ل / المالك"
+msgstr "مُسند إلى / المالك"
 
 #. source: frappe
 msgid "Assignee"
@@ -9036,7 +9036,7 @@ msgstr "مؤلف"
 
 #. source: erpnext
 msgid "Authorised By"
-msgstr "مرخص بها من"
+msgstr "مُفوَّض من"
 
 #. source: frappe
 msgid "Authorization"
@@ -9724,7 +9724,7 @@ msgstr "في انتظار كلمة المرور"
 
 #. source: hrms
 msgid "Awaiting Response"
-msgstr "انتظار الرد"
+msgstr "بانتظار الرد"
 
 #. source: frappe
 msgid "Awaiting password"
@@ -26892,7 +26892,7 @@ msgstr "ملاحظات"
 
 #. source: erpnext
 msgid "Feedback By"
-msgstr "ردود الفعل من"
+msgstr "مقدّم التقييم"
 
 #. source: hrms
 msgid "Feedback Count"
@@ -52075,7 +52075,7 @@ msgstr ""
 msgid ""
 "Please share your feedback to the training by clicking on 'Training Feedback' and "
 "then 'New'"
-msgstr "يرجى حصة ملاحظاتك للتدريب من خلال النقر على \"التدريب ردود الفعل\" ثم \"جديد\""
+msgstr "يرجى مشاركة ملاحظاتك عن التدريب بالنقر على \"ملاحظات التدريب\" ثم \"جديد\""
 
 #. source: frappe
 msgid "Please specify"
@@ -54632,7 +54632,7 @@ msgstr "ردود فعل الجودة"
 
 #. source: erpnext
 msgid "Quality Feedback Parameter"
-msgstr "نوعية ردود الفعل المعلمة"
+msgstr "معلمة ملاحظات الجودة"
 
 #. source: erpnext
 msgid "Quality Feedback Template"
@@ -54640,7 +54640,7 @@ msgstr "قالب ملاحظات الجودة"
 
 #. source: erpnext
 msgid "Quality Feedback Template Parameter"
-msgstr "نوعية ردود الفعل قالب المعلمة"
+msgstr "معلمة قالب ملاحظات الجودة"
 
 #. source: erpnext
 msgid "Quality Goal"
@@ -74321,7 +74321,7 @@ msgstr "أحداث التدريب"
 
 #. source: hrms
 msgid "Training Feedback"
-msgstr "ردود الفعل على التدريب"
+msgstr "ملاحظات التدريب"
 
 #. source: hrms
 msgid "Training Program"

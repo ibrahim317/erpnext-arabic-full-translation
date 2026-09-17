@@ -536,15 +536,15 @@ msgstr "إضافة ممتلكات الموظف"
 
 #: frontend/src/components/ExpensesTable.vue:123
 msgid "Add Expense"
-msgstr "أضف المصاريف"
+msgstr "إضافة مصروف"
 
 #: hrms/public/js/performance/performance_feedback.js:95
 msgid "Add Feedback"
-msgstr "أضف ردود الفعل"
+msgstr "إضافة تقييم"
 
 #: frontend/src/components/ExpenseTaxesTable.vue:118
 msgid "Add Tax"
-msgstr "أضف الضريبة"
+msgstr "إضافة ضريبة"
 
 #: hrms/hr/employee_property_update.js:116
 msgid "Add to Details"
@@ -562,7 +562,7 @@ msgstr "إضافة الإجازات غير المستخدمة من المخصص�
 #. Panel'
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 msgid "Add unused leaves from previous leave period's allocation to this allocation"
-msgstr "أضف إجازات غير مستخدمة من تخصيص فترة الإجازة السابقة لهذا التخصيص"
+msgstr "إضافة الإجازات غير المستخدمة من تخصيص فترة الإجازة السابقة إلى هذا التخصيص"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1603
 msgid ""
@@ -924,7 +924,7 @@ msgstr "التخصيص السنوي"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:372
 msgid "Annual Allocation Exceeded"
-msgstr "التخصيص السنوي تجاوز"
+msgstr "تم تجاوز التخصيص السنوي"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:123
 msgid "Annual CTC"
@@ -947,7 +947,7 @@ msgstr "أي تفاصيل أخرى"
 #. Description of the 'Remarks' (Text) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 msgid "Any other remarks, noteworthy effort that should go in the records"
-msgstr "أي ملاحظات أخرى، جهد جدير بالملاحظة يجب أن يذهب في السجلات"
+msgstr "أي ملاحظات أخرى أو جهد جدير بالذكر ينبغي أن يُسجل"
 
 #. Label of the applicable_earnings_component (Table MultiSelect) field in
 #. DocType 'Gratuity Rule'
@@ -1630,7 +1630,7 @@ msgstr "متوسط الاستخدام (المفوتر فقط)"
 #. Option for the 'Status' (Select) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Awaiting Response"
-msgstr "انتظار الرد"
+msgstr "بانتظار الرد"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:177
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
@@ -8477,7 +8477,7 @@ msgstr "يرجى إعداد سلسلة الترقيم للحضور عبر الإ
 msgid ""
 "Please share your feedback to the training by clicking on 'Training Feedback' and "
 "then 'New'"
-msgstr "يرجى حصة ملاحظاتك للتدريب من خلال النقر على \"التدريب ردود الفعل\" ثم \"جديد\""
+msgstr "يرجى مشاركة ملاحظاتك عن التدريب بالنقر على \"ملاحظات التدريب\" ثم \"جديد\""
 
 #: hrms/hr/doctype/interview/interview.py:225
 msgid "Please specify the job applicant to be updated."
@@ -11334,7 +11334,7 @@ msgstr "أحداث التدريب"
 #: hrms/hr/doctype/training_feedback/training_feedback.json
 #: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Training Feedback"
-msgstr "ردود الفعل على التدريب"
+msgstr "ملاحظات التدريب"
 
 #. Label of the training_program (Link) field in DocType 'Training Event'
 #. Name of a DocType
