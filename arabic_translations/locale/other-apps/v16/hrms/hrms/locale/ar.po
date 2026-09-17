@@ -574,7 +574,7 @@ msgstr ""
 
 #: hrms/hr/employee_property_update.js:193
 msgid "Added to details"
-msgstr "تم اضافته إلى التفاصيل"
+msgstr "تم إضافته إلى التفاصيل"
 
 #. Label of the additional_amount (Currency) field in DocType 'Salary Detail'
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
@@ -3523,7 +3523,7 @@ msgstr "تم تسجيل الموظف غائبًا للنصف الآخر بسبب
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:454
 msgid "Employee {0} : {1}"
-msgstr "الموظف {0} : {1}"
+msgstr "الموظف {0}: {1}"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:112
 msgid "Employee {0} already has an Attendance Request {1} that overlaps with this period"
@@ -9551,7 +9551,7 @@ msgid ""
 "Salary already processed for period between {0} and {1}, Leave application period "
 "cannot be between this date range."
 msgstr ""
-"تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب الإجازة بين "
+"تمت معالجة الراتب بالفعل للفترة بين {0} و {1}، لا يمكن أن تكون فترة طلب الإجازة بين "
 "نطاق هذا التاريخ."
 
 #. Description of the 'Earnings & Deductions' (Tab Break) field in DocType
@@ -10262,8 +10262,8 @@ msgid ""
 "Skipping Salary Structure Assignment for the following employees, as Salary Structure"
 " Assignment records already exists against them. {0}"
 msgstr ""
-"تخطي تعيين هيكل الرواتب للموظفين التاليين ، لأن سجلات تعيين هيكل الرواتب موجودة "
-"بالفعل ضدهم. {0}"
+"تخطي تعيين هيكل الرواتب للموظفين التاليين، لأن سجلات تعيين هيكل الرواتب موجودة بالفعل"
+" ضدهم. {0}"
 
 #: hrms/api/roster.py:137
 msgid "Source and target shifts cannot be the same"
@@ -10326,7 +10326,7 @@ msgstr "ساعات العمل القياسية"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1807
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}."
-msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف المرتبات الصالحة ، ولا يمكن حساب {0}."
+msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف المرتبات الصالحة، ولا يمكن حساب {0}."
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:27
 msgid "Start date cannot be greater than end date"
@@ -12135,7 +12135,7 @@ msgstr "{0} و {1} إضافي"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:487
 msgid "{0} : {1}"
-msgstr "{0} : {1}"
+msgstr "{0}: {1}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2545
 msgid "{0} <br> This error can be due to missing or deleted field."

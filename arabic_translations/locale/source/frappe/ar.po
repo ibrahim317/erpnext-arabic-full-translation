@@ -3632,6 +3632,9 @@ msgid ""
 "<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
 "</pre>\n"
 msgstr ""
+"<p><strong>أمثلة على الشروط:</strong></p>\n"
+"<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
+"</pre>\n"
 
 #. Content of the 'Condition description' (HTML) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -3731,7 +3734,7 @@ msgstr "<span class=\"h2\">مرحبًا،</span>"
 #. Header text in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>التقارير والبيانات الرئيسية</b></span>"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:39
 #, python-brace-format
@@ -7129,7 +7132,7 @@ msgstr "تحديث الصفحة"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:181
 msgid "Calculate"
-msgstr "إحسب"
+msgstr "احتساب"
 
 #. Label of a Link in the Tools Workspace
 #. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
@@ -14230,7 +14233,7 @@ msgstr ""
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 #, python-brace-format
 msgid "For more information, {0}."
-msgstr "لمزيد من المعلومات ، {0}."
+msgstr "لمزيد من المعلومات، {0}."
 
 #. Description of the 'Email To' (Small Text) field in DocType 'Auto Email
 #. Report'
@@ -14696,7 +14699,7 @@ msgstr "فرع جيت"
 #. Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "GitHub"
-msgstr "جت هب (GITHUB)"
+msgstr "GitHub"
 
 #: frappe/website/doctype/web_page/web_page.js:92
 msgid "Github flavoured markdown syntax"
@@ -14830,7 +14833,7 @@ msgstr "تقويم جوجل - جهة الاتصال / البريد الإلكت�
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:266
 #, python-brace-format
 msgid "Google Calendar - Could not create Calendar for {0}, error code {1}."
-msgstr "تقويم Google - تعذر إنشاء تقويم لـ {0} ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر إنشاء تقويم لـ {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:610
 #, python-brace-format
@@ -14850,12 +14853,12 @@ msgstr "تقويم جوجل - تعذر العثور على تقويم لـ {0}،
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:232
 #, python-brace-format
 msgid "Google Calendar - Could not insert contact in Google Contacts {0}, error code {1}."
-msgstr "تقويم Google - تعذر إدراج جهة اتصال في جهات اتصال Google {0} ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر إدراج جهة اتصال في جهات اتصال Google {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:496
 #, python-brace-format
 msgid "Google Calendar - Could not insert event in Google Calendar {0}, error code {1}."
-msgstr "تقويم Google - تعذر إدراج حدث في تقويم Google {0} ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر إدراج حدث في تقويم Google {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:580
 #, python-brace-format
@@ -14892,12 +14895,12 @@ msgstr "اتصالات جوجل"
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:137
 #, python-brace-format
 msgid "Google Contacts - Could not sync contacts from Google Contacts {0}, error code {1}."
-msgstr "جهات اتصال Google - تعذر مزامنة جهات الاتصال من جهات اتصال Google {0} ، رمز الخطأ {1}."
+msgstr "جهات اتصال Google - تعذر مزامنة جهات الاتصال من جهات اتصال Google {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:294
 #, python-brace-format
 msgid "Google Contacts - Could not update contact in Google Contacts {0}, error code {1}."
-msgstr "جهات اتصال Google - تعذر تحديث جهة الاتصال في جهات اتصال Google {0} ، رمز الخطأ {1}."
+msgstr "جهات اتصال Google - تعذر تحديث جهة الاتصال في جهات اتصال Google {0}، رمز الخطأ {1}."
 
 #. Label of the google_contacts_id (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
@@ -15796,8 +15799,8 @@ msgid ""
 "If enabled,  user can login from any IP Address using Two Factor Auth, this can also "
 "be set for all users in System Settings"
 msgstr ""
-"في حالة التمكين ، يمكن للمستخدم تسجيل الدخول من أي عنوان IP باستخدام المصادقة "
-"الثنائية ، كما يمكن تعيين ذلك لجميع المستخدمين في إعدادات النظام"
+"في حالة التمكين، يمكن للمستخدم تسجيل الدخول من أي عنوان IP باستخدام المصادقة "
+"الثنائية، كما يمكن تعيين ذلك لجميع المستخدمين في إعدادات النظام"
 
 #. Description of the 'Anonymous responses' (Check) field in DocType 'Web
 #. Form'
@@ -16259,7 +16262,7 @@ msgstr "استيراد {0} من {1}"
 #: frappe/core/doctype/data_import/data_import.js:35
 #, python-brace-format
 msgid "Importing {0} of {1}, {2}"
-msgstr "استيراد {0} من {1} ، {2}"
+msgstr "استيراد {0} من {1}، {2}"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:20
 msgid "In"
@@ -16754,12 +16757,12 @@ msgstr "غير صالحة"
 #: frappe/public/js/frappe/form/layout.js:811
 #: frappe/public/js/frappe/views/reports/report_view.js:710
 msgid "Invalid \"depends_on\" expression"
-msgstr "تعبير \"under_on\" غير صالح"
+msgstr "تعبير \"depends_on\" غير صالح"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:513
 #, python-brace-format
 msgid "Invalid \"depends_on\" expression set in filter {0}"
-msgstr "تم تعيين تعبير \"يعتمد على\" غير صالح في عامل التصفية {0}"
+msgstr "تم تعيين تعبير \"depends_on\" غير صالح في عامل التصفية {0}"
 
 #: frappe/public/js/frappe/form/save.js:159
 msgid "Invalid \"mandatory_depends_on\" expression"
@@ -20911,7 +20914,7 @@ msgstr "غير مسموح لـ {0}: {1}"
 msgid ""
 "Not allowed to attach {0} document, please enable Allow Print For {0} in Print "
 "Settings"
-msgstr "غير مسموح بإرفاق مستند {0} ، يرجى تمكين السماح بالطباعة لـ {0} في إعدادات الطباعة"
+msgstr "غير مسموح بإرفاق مستند {0}، يرجى تمكين السماح بالطباعة لـ {0} في إعدادات الطباعة"
 
 #: frappe/core/doctype/doctype/doctype.py:334
 msgid "Not allowed to create custom Virtual DocType."
@@ -20995,8 +20998,8 @@ msgid ""
 "Note: For best results,  images must be of the same size and width must be greater "
 "than height."
 msgstr ""
-"ملاحظة: للحصول على أفضل النتائج ، يجب أن تكون الصور بنفس الحجم والعرض يجب أن يكون "
-"أكبر من الارتفاع."
+"ملاحظة: للحصول على أفضل النتائج، يجب أن تكون الصور بنفس الحجم والعرض يجب أن يكون أكبر"
+" من الارتفاع."
 
 #. Description of the 'Allow only one session per user' (Check) field in
 #. DocType 'System Settings'
@@ -24564,7 +24567,7 @@ msgstr "مطلوب مرجع دوكتيب واسم مرجع"
 #: frappe/core/doctype/submission_queue/submission_queue.json
 #: frappe/website/doctype/discussion_topic/discussion_topic.json
 msgid "Reference Docname"
-msgstr "إشارة DocName"
+msgstr "اسم المستند المرجعي"
 
 #. Label of the reference_doctype (Data) field in DocType 'Webhook Request
 #. Log'
@@ -24988,7 +24991,7 @@ msgstr "كرر هذا الحدث"
 
 #: frappe/utils/password_strength.py:110
 msgid "Repeats like \"aaa\" are easy to guess"
-msgstr "كما يكرر \"AAA\" من السهل تخمين"
+msgstr "التكرارات مثل \"aaa\" يسهل تخمينها"
 
 #: frappe/utils/password_strength.py:105
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
@@ -28814,7 +28817,7 @@ msgstr "يخزن التاريخ والوقت الذي تم فيه إنشاء آ�
 
 #: frappe/utils/password_strength.py:97
 msgid "Straight rows of keys are easy to guess"
-msgstr "صفوف متتالية من مفاتيح سهلة للتخمين"
+msgstr "الصفوف المتتالية من المفاتيح يسهل تخمينها"
 
 #. Label of the strip_exif_metadata_from_uploaded_images (Check) field in
 #. DocType 'System Settings'
@@ -30826,12 +30829,12 @@ msgstr ""
 #: frappe/automation/doctype/auto_repeat/auto_repeat.js:35
 #, python-brace-format
 msgid "To configure Auto Repeat, enable \"Allow Auto Repeat\" from {0}."
-msgstr "لتهيئة التكرار التلقائي ، قم بتمكين \"السماح بالتكرار التلقائي\" من {0}."
+msgstr "لتهيئة التكرار التلقائي، قم بتمكين \"السماح بالتكرار التلقائي\" من {0}."
 
 #: frappe/www/login.html:76
 #, python-brace-format
 msgid "To enable it follow the instructions in the following link: {0}"
-msgstr "لتمكينه ، اتبع التعليمات في الرابط التالي: {0}"
+msgstr "لتمكينه، اتبع التعليمات في الرابط التالي: {0}"
 
 #: frappe/core/doctype/server_script/server_script.js:38
 #, python-brace-format
@@ -30850,7 +30853,7 @@ msgstr "لإنشاء كلمة مرور، انقر فوق {0}"
 #: frappe/public/js/frappe/views/reports/query_report.js:857
 #, python-brace-format
 msgid "To get the updated report, click on {0}."
-msgstr "للحصول على التقرير المحدّث ، انقر على {0}."
+msgstr "للحصول على التقرير المحدّث، انقر على {0}."
 
 #: frappe/email/doctype/email_account/email_account.js:139
 #, python-brace-format
@@ -31886,7 +31889,7 @@ msgstr "تحديث {0}"
 #: frappe/core/doctype/data_import/data_import.js:36
 #, python-brace-format
 msgid "Updating {0} of {1}, {2}"
-msgstr "تحديث {0} من {1} ، {2}"
+msgstr "تحديث {0} من {1}، {2}"
 
 #: frappe/public/js/billing.bundle.js:131
 msgid "Upgrade plan"
@@ -32461,7 +32464,7 @@ msgstr ""
 #: frappe/core/page/permission_manager/permission_manager.js:355
 #, python-brace-format
 msgid "Users with role {0}:"
-msgstr "مستخدمين  مع صلاحية {0} :"
+msgstr "المستخدمون ذوو الصلاحية {0}:"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:70
 msgid "Uses system's theme to switch between light and dark mode"
@@ -34490,7 +34493,7 @@ msgstr "لوحة المعلومات"
 #: frappe/core/doctype/language/language.json
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "dd-mm-yyyy"
-msgstr "DD-MM-YYYY"
+msgstr "dd-mm-yyyy"
 
 #. Option for the 'Date Format' (Select) field in DocType 'Language'
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'
@@ -35422,7 +35425,7 @@ msgstr "{0} قام بالفعل بتعيين القيمة الافتراضية �
 #: frappe/email/doctype/newsletter/newsletter.py:380
 #, python-brace-format
 msgid "{0} has been successfully added to the Email Group."
-msgstr "{0}  تم بنجاح الإضافة إلى مجموعة البريد الإلكتروني"
+msgstr "تمت إضافة {0} بنجاح إلى مجموعة البريد الإلكتروني."
 
 #: frappe/email/queue.py:123
 #, python-brace-format
@@ -35857,7 +35860,7 @@ msgstr "أرسل {0} هذا المستند {1}"
 #: frappe/email/doctype/email_group/email_group.py:133
 #, python-brace-format
 msgid "{0} subscribers added"
-msgstr "{0}  مشتركين تم اضافتهم"
+msgstr "تمت إضافة {0} مشترك"
 
 #: frappe/email/queue.py:68
 #, python-brace-format
@@ -35879,7 +35882,7 @@ msgstr "{0} الغى مشاركة هذه الوثيقة مع {1}"
 #: frappe/custom/doctype/customize_form/customize_form.py:253
 #, python-brace-format
 msgid "{0} updated"
-msgstr "{0}  تم تحديث"
+msgstr "تم تحديث {0}"
 
 #: frappe/public/js/frappe/form/controls/multiselect_list.js:198
 #, python-brace-format
@@ -35939,7 +35942,7 @@ msgstr "{0} {1} لا يمكن أن يكون تفريعة لأن لديه تفر�
 #: frappe/model/rename_doc.py:376
 #, python-brace-format
 msgid "{0} {1} does not exist, select a new target to merge"
-msgstr "{0} {1} غير موجود ، حدد هدفا جديدا لدمج"
+msgstr "{0} {1} غير موجود، حدد هدفا جديدا لدمج"
 
 #: frappe/public/js/frappe/form/form.js:951
 #, python-brace-format
@@ -35984,7 +35987,7 @@ msgstr "{0}: لا يمكن تعيين معدل إذا لم يتم ترحيله"
 #: frappe/core/doctype/doctype/doctype.py:1815
 #, python-brace-format
 msgid "{0}: Cannot set Assign Submit if not Submittable"
-msgstr "{0} : لا يمكن تحديد تعيين بالتأكيد إذا لم يكن قابل للتأكيد"
+msgstr "{0}: لا يمكن تحديد تعيين بالتأكيد إذا لم يكن قابل للتأكيد"
 
 #: frappe/core/doctype/doctype/doctype.py:1794
 #, python-brace-format
@@ -35994,12 +35997,12 @@ msgstr "{0}: لا يمكن تعيين إلغاء بدون ترحيل"
 #: frappe/core/doctype/doctype/doctype.py:1801
 #, python-brace-format
 msgid "{0}: Cannot set Import without Create"
-msgstr "{0} : لا يمكن تحديد استيراد دون إنشاء"
+msgstr "{0}: لا يمكن تحديد استيراد دون إنشاء"
 
 #: frappe/core/doctype/doctype/doctype.py:1797
 #, python-brace-format
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0} : لا يمكن تحديد تأكيد ، إلغاء ، تعديل دون كتابة"
+msgstr "{0}: لا يمكن تحديد تأكيد، إلغاء، تعديل دون كتابة"
 
 #: frappe/core/doctype/doctype/doctype.py:1821
 #, python-brace-format
@@ -36013,7 +36016,7 @@ msgid ""
 "auto repeat notification email, enable {1} in Print Settings"
 msgstr ""
 "{0}: فشل في إرفاق وثيقة متكررة جديدة. لتمكين إرفاق المستند في رسالة البريد الإلكتروني"
-" لإشعار التكرار التلقائي ، قم بتمكين {1} في إعدادات الطباعة"
+" لإشعار التكرار التلقائي، قم بتمكين {1} في إعدادات الطباعة"
 
 #: frappe/core/doctype/doctype/doctype.py:1425
 #, python-brace-format
@@ -36043,7 +36046,7 @@ msgstr "{0}: لا يمكن أن يكون Fieldtype {1} لـ {2} فريدًا"
 #: frappe/core/doctype/doctype/doctype.py:1754
 #, python-brace-format
 msgid "{0}: No basic permissions set"
-msgstr "{0} : لم يتم تحديد صلاحيات أساسية"
+msgstr "{0}: لم يتم تحديد صلاحيات أساسية"
 
 #: frappe/core/doctype/doctype/doctype.py:1768
 #, python-brace-format
@@ -36073,7 +36076,7 @@ msgstr "{0}: قد تنطبق قواعد أذونات أخرى أيضًا"
 #: frappe/core/doctype/doctype/doctype.py:1783
 #, python-brace-format
 msgid "{0}: Permission at level 0 must be set before higher levels are set"
-msgstr "{0} : صلاحيات على مستوى 0 يجب تحديده قبل أن يتم تحديد صلاحيات أعلى"
+msgstr "{0}: صلاحيات على مستوى 0 يجب تحديده قبل أن يتم تحديد صلاحيات أعلى"
 
 #: frappe/public/js/frappe/form/controls/data.js:51
 #, python-brace-format

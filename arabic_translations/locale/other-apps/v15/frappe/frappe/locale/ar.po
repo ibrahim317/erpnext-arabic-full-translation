@@ -864,7 +864,7 @@ msgstr ""
 #: frappe/core/workspace/users/users.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>التقارير والبيانات الرئيسية</b></span>"
 
 #. Header text in the Tools Workspace
 #. Header text in the Users Workspace
@@ -4403,7 +4403,7 @@ msgstr "تحديث الصفحة"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:187
 msgid "Calculate"
-msgstr "إحسب"
+msgstr "احتساب"
 
 #. Label of a Link in the Tools Workspace
 #. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
@@ -11624,7 +11624,7 @@ msgstr ""
 
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 msgid "For more information, {0}."
-msgstr "لمزيد من المعلومات ، {0}."
+msgstr "لمزيد من المعلومات، {0}."
 
 #. Description of the 'Email To' (Small Text) field in DocType 'Auto Email
 #. Report'
@@ -12092,7 +12092,7 @@ msgstr "فرع جيت"
 #. Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "GitHub"
-msgstr "جت هب (GITHUB)"
+msgstr "GitHub"
 
 #: frappe/website/doctype/web_page/web_page.js:95
 msgid "Github flavoured markdown syntax"
@@ -12229,7 +12229,7 @@ msgstr "تقويم جوجل - جهة الاتصال / البريد الإلكت�
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:266
 msgid "Google Calendar - Could not create Calendar for {0}, error code {1}."
-msgstr "تقويم Google - تعذر إنشاء تقويم لـ {0} ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر إنشاء تقويم لـ {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:612
 msgid "Google Calendar - Could not delete Event {0} from Google Calendar, error code {1}."
@@ -12245,11 +12245,11 @@ msgstr "تقويم جوجل - تعذر العثور على تقويم لـ {0}،
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:234
 msgid "Google Calendar - Could not insert contact in Google Contacts {0}, error code {1}."
-msgstr "تقويم Google - تعذر إدراج جهة اتصال في جهات اتصال Google {0} ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر إدراج جهة اتصال في جهات اتصال Google {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:498
 msgid "Google Calendar - Could not insert event in Google Calendar {0}, error code {1}."
-msgstr "تقويم Google - تعذر إدراج حدث في تقويم Google {0} ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر إدراج حدث في تقويم Google {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:582
 msgid "Google Calendar - Could not update Event {0} in Google Calendar, error code {1}."
@@ -12284,11 +12284,11 @@ msgstr "اتصالات جوجل"
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:139
 msgid "Google Contacts - Could not sync contacts from Google Contacts {0}, error code {1}."
-msgstr "جهات اتصال Google - تعذر مزامنة جهات الاتصال من جهات اتصال Google {0} ، رمز الخطأ {1}."
+msgstr "جهات اتصال Google - تعذر مزامنة جهات الاتصال من جهات اتصال Google {0}، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:296
 msgid "Google Contacts - Could not update contact in Google Contacts {0}, error code {1}."
-msgstr "جهات اتصال Google - تعذر تحديث جهة الاتصال في جهات اتصال Google {0} ، رمز الخطأ {1}."
+msgstr "جهات اتصال Google - تعذر تحديث جهة الاتصال في جهات اتصال Google {0}، رمز الخطأ {1}."
 
 #. Label of a Data field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
@@ -13212,8 +13212,8 @@ msgid ""
 "If enabled,  user can login from any IP Address using Two Factor Auth, this can also "
 "be set for all users in System Settings"
 msgstr ""
-"في حالة التمكين ، يمكن للمستخدم تسجيل الدخول من أي عنوان IP باستخدام المصادقة "
-"الثنائية ، كما يمكن تعيين ذلك لجميع المستخدمين في إعدادات النظام"
+"في حالة التمكين، يمكن للمستخدم تسجيل الدخول من أي عنوان IP باستخدام المصادقة "
+"الثنائية، كما يمكن تعيين ذلك لجميع المستخدمين في إعدادات النظام"
 
 #. Description of the 'Anonymous responses' (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -13699,7 +13699,7 @@ msgstr "استيراد {0} من {1}"
 
 #: frappe/core/doctype/data_import/data_import.js:35
 msgid "Importing {0} of {1}, {2}"
-msgstr "استيراد {0} من {1} ، {2}"
+msgstr "استيراد {0} من {1}، {2}"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:20
 msgid "In"
@@ -14222,11 +14222,11 @@ msgstr "غير صالحة"
 #: frappe/public/js/frappe/form/layout.js:773
 #: frappe/public/js/frappe/views/reports/report_view.js:745
 msgid "Invalid \"depends_on\" expression"
-msgstr "تعبير \"under_on\" غير صالح"
+msgstr "تعبير \"depends_on\" غير صالح"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:515
 msgid "Invalid \"depends_on\" expression set in filter {0}"
-msgstr "تم تعيين تعبير \"يعتمد على\" غير صالح في عامل التصفية {0}"
+msgstr "تم تعيين تعبير \"depends_on\" غير صالح في عامل التصفية {0}"
 
 #: frappe/public/js/frappe/form/save.js:282
 msgid "Invalid \"mandatory_depends_on\" expression"
@@ -18528,7 +18528,7 @@ msgstr "غير مسموح لـ {0}: {1}"
 msgid ""
 "Not allowed to attach {0} document, please enable Allow Print For {0} in Print "
 "Settings"
-msgstr "غير مسموح بإرفاق مستند {0} ، يرجى تمكين السماح بالطباعة لـ {0} في إعدادات الطباعة"
+msgstr "غير مسموح بإرفاق مستند {0}، يرجى تمكين السماح بالطباعة لـ {0} في إعدادات الطباعة"
 
 #: frappe/core/doctype/doctype/doctype.py:342
 msgid "Not allowed to create custom Virtual DocType."
@@ -18621,8 +18621,8 @@ msgid ""
 "Note: For best results,  images must be of the same size and width must be greater "
 "than height."
 msgstr ""
-"ملاحظة: للحصول على أفضل النتائج ، يجب أن تكون الصور بنفس الحجم والعرض يجب أن يكون "
-"أكبر من الارتفاع."
+"ملاحظة: للحصول على أفضل النتائج، يجب أن تكون الصور بنفس الحجم والعرض يجب أن يكون أكبر"
+" من الارتفاع."
 
 #. Description of the 'Allow only one session per user' (Check) field in
 #. DocType 'System Settings'
@@ -22281,7 +22281,7 @@ msgstr "مطلوب مرجع دوكتيب واسم مرجع"
 #: frappe/core/doctype/submission_queue/submission_queue.json
 #: frappe/website/doctype/discussion_topic/discussion_topic.json
 msgid "Reference Docname"
-msgstr "إشارة DocName"
+msgstr "اسم المستند المرجعي"
 
 #. Label of a Link field in DocType 'Discussion Topic'
 #: frappe/core/doctype/communication/communication.js:143
@@ -22712,7 +22712,7 @@ msgstr "كرر هذا الحدث"
 
 #: frappe/utils/password_strength.py:104
 msgid "Repeats like \"aaa\" are easy to guess"
-msgstr "كما يكرر \"AAA\" من السهل تخمين"
+msgstr "التكرارات مثل \"aaa\" يسهل تخمينها"
 
 #: frappe/utils/password_strength.py:99
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
@@ -26625,7 +26625,7 @@ msgstr "يخزن التاريخ والوقت الذي تم فيه إنشاء آ�
 
 #: frappe/utils/password_strength.py:91
 msgid "Straight rows of keys are easy to guess"
-msgstr "صفوف متتالية من مفاتيح سهلة للتخمين"
+msgstr "الصفوف المتتالية من المفاتيح يسهل تخمينها"
 
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -28767,11 +28767,11 @@ msgstr ""
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.js:36
 msgid "To configure Auto Repeat, enable \"Allow Auto Repeat\" from {0}."
-msgstr "لتهيئة التكرار التلقائي ، قم بتمكين \"السماح بالتكرار التلقائي\" من {0}."
+msgstr "لتهيئة التكرار التلقائي، قم بتمكين \"السماح بالتكرار التلقائي\" من {0}."
 
 #: frappe/www/login.html:75
 msgid "To enable it follow the instructions in the following link: {0}"
-msgstr "لتمكينه ، اتبع التعليمات في الرابط التالي: {0}"
+msgstr "لتمكينه، اتبع التعليمات في الرابط التالي: {0}"
 
 #: frappe/core/doctype/server_script/server_script.js:37
 msgid "To enable server scripts, read the {0}."
@@ -28783,7 +28783,7 @@ msgstr "لتصدير هذه الخطوة كـ JSON، اربطها في مستن�
 
 #: frappe/public/js/frappe/views/reports/query_report.js:804
 msgid "To get the updated report, click on {0}."
-msgstr "للحصول على التقرير المحدّث ، انقر على {0}."
+msgstr "للحصول على التقرير المحدّث، انقر على {0}."
 
 #: frappe/www/me.html:51
 msgid "To manage your authorized third party apps"
@@ -29811,7 +29811,7 @@ msgstr "تحديث {0}"
 
 #: frappe/core/doctype/data_import/data_import.js:36
 msgid "Updating {0} of {1}, {2}"
-msgstr "تحديث {0} من {1} ، {2}"
+msgstr "تحديث {0} من {1}، {2}"
 
 #: frappe/public/js/billing.bundle.js:131
 msgid "Upgrade plan"
@@ -32719,7 +32719,7 @@ msgstr "لوحة المعلومات"
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "dd-mm-yyyy"
-msgstr "DD-MM-YYYY"
+msgstr "dd-mm-yyyy"
 
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -34228,7 +34228,7 @@ msgstr "{0} قام بالفعل بتعيين القيمة الافتراضية �
 
 #: frappe/email/doctype/newsletter/newsletter.py:383
 msgid "{0} has been successfully added to the Email Group."
-msgstr "{0}  تم بنجاح الإضافة إلى مجموعة البريد الإلكتروني"
+msgstr "تمت إضافة {0} بنجاح إلى مجموعة البريد الإلكتروني."
 
 #: frappe/email/queue.py:124
 msgid "{0} has left the conversation in {1} {2}"
@@ -34635,7 +34635,7 @@ msgstr "أرسل {0} هذا المستند {1}"
 #: frappe/email/doctype/email_group/email_group.py:71
 #: frappe/email/doctype/email_group/email_group.py:142
 msgid "{0} subscribers added"
-msgstr "{0}  مشتركين تم اضافتهم"
+msgstr "تمت إضافة {0} مشترك"
 
 #: frappe/email/queue.py:69
 msgid "{0} to stop receiving emails of this type"
@@ -34653,7 +34653,7 @@ msgstr "{0} الغى مشاركة هذه الوثيقة مع {1}"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:256
 msgid "{0} updated"
-msgstr "{0}  تم تحديث"
+msgstr "تم تحديث {0}"
 
 #: frappe/public/js/frappe/form/controls/multiselect_list.js:193
 msgid "{0} values selected"
@@ -34706,7 +34706,7 @@ msgstr "{0} {1} لا يمكن أن يكون تفريعة لأن لديه تفر�
 
 #: frappe/model/rename_doc.py:362
 msgid "{0} {1} does not exist, select a new target to merge"
-msgstr "{0} {1} غير موجود ، حدد هدفا جديدا لدمج"
+msgstr "{0} {1} غير موجود، حدد هدفا جديدا لدمج"
 
 #: frappe/public/js/frappe/form/form.js:921
 msgid "{0} {1} is linked with the following submitted documents: {2}"
@@ -34742,7 +34742,7 @@ msgstr "{0}: لا يمكن تعيين معدل إذا لم يتم ترحيله"
 
 #: frappe/core/doctype/doctype/doctype.py:1836
 msgid "{0}: Cannot set Assign Submit if not Submittable"
-msgstr "{0} : لا يمكن تحديد تعيين بالتأكيد إذا لم يكن قابل للتأكيد"
+msgstr "{0}: لا يمكن تحديد تعيين بالتأكيد إذا لم يكن قابل للتأكيد"
 
 #: frappe/core/doctype/doctype/doctype.py:1815
 msgid "{0}: Cannot set Cancel without Submit"
@@ -34750,11 +34750,11 @@ msgstr "{0}: لا يمكن تعيين إلغاء بدون ترحيل"
 
 #: frappe/core/doctype/doctype/doctype.py:1822
 msgid "{0}: Cannot set Import without Create"
-msgstr "{0} : لا يمكن تحديد استيراد دون إنشاء"
+msgstr "{0}: لا يمكن تحديد استيراد دون إنشاء"
 
 #: frappe/core/doctype/doctype/doctype.py:1818
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0} : لا يمكن تحديد تأكيد ، إلغاء ، تعديل دون كتابة"
+msgstr "{0}: لا يمكن تحديد تأكيد، إلغاء، تعديل دون كتابة"
 
 #: frappe/core/doctype/doctype/doctype.py:1842
 msgid "{0}: Cannot set import as {1} is not importable"
@@ -34766,7 +34766,7 @@ msgid ""
 "auto repeat notification email, enable {1} in Print Settings"
 msgstr ""
 "{0}: فشل في إرفاق وثيقة متكررة جديدة. لتمكين إرفاق المستند في رسالة البريد الإلكتروني"
-" لإشعار التكرار التلقائي ، قم بتمكين {1} في إعدادات الطباعة"
+" لإشعار التكرار التلقائي، قم بتمكين {1} في إعدادات الطباعة"
 
 #: frappe/core/doctype/doctype/doctype.py:1404
 msgid "{0}: Field '{1}' cannot be set as Unique as it has non-unique values"
@@ -34795,7 +34795,7 @@ msgstr "{0}: لا يمكن لحقل الربط الإشارة إلى نوع ال
 
 #: frappe/core/doctype/doctype/doctype.py:1775
 msgid "{0}: No basic permissions set"
-msgstr "{0} : لم يتم تحديد صلاحيات أساسية"
+msgstr "{0}: لم يتم تحديد صلاحيات أساسية"
 
 #: frappe/core/doctype/doctype/doctype.py:1789
 msgid "{0}: Only one rule allowed with the same Role, Level and {1}"
@@ -34819,7 +34819,7 @@ msgstr "{0}: قد تنطبق قواعد أذونات أخرى أيضًا"
 
 #: frappe/core/doctype/doctype/doctype.py:1804
 msgid "{0}: Permission at level 0 must be set before higher levels are set"
-msgstr "{0} : صلاحيات على مستوى 0 يجب تحديده قبل أن يتم تحديد صلاحيات أعلى"
+msgstr "{0}: صلاحيات على مستوى 0 يجب تحديده قبل أن يتم تحديد صلاحيات أعلى"
 
 #: frappe/public/js/frappe/form/controls/data.js:51
 msgid "{0}: You can increase the limit for the field if required via {1}"

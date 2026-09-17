@@ -708,7 +708,7 @@ msgstr ""
 
 #: hrms/hr/employee_property_update.js:193
 msgid "Added to details"
-msgstr "تم اضافته إلى التفاصيل"
+msgstr "تم إضافته إلى التفاصيل"
 
 #. Label of the additional_amount (Currency) field in DocType 'Salary Detail'
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
@@ -1162,7 +1162,7 @@ msgstr "المبلغ الذي تم دفعه مقابل هذا التقدم"
 msgid ""
 "An amount of {0} already claimed for the component {1}, set the amount equal or "
 "greater than {2}"
-msgstr "مبلغ {0} المطالب به بالفعل للمكون {1} ، قم بتعيين المبلغ متساوٍ أو أكبر من {2}"
+msgstr "مبلغ {0} المطالب به بالفعل للمكون {1}، قم بتعيين المبلغ متساوٍ أو أكبر من {2}"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:54
 msgid ""
@@ -11973,7 +11973,7 @@ msgid ""
 "Salary already processed for period between {0} and {1}, Leave application period "
 "cannot be between this date range."
 msgstr ""
-"تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب الإجازة بين "
+"تمت معالجة الراتب بالفعل للفترة بين {0} و {1}، لا يمكن أن تكون فترة طلب الإجازة بين "
 "نطاق هذا التاريخ."
 
 #. Description of the 'Earnings & Deductions' (Tab Break) field in DocType
@@ -12763,8 +12763,8 @@ msgid ""
 "Skipping Salary Structure Assignment for the following employees, as Salary Structure"
 " Assignment records already exists against them. {0}"
 msgstr ""
-"تخطي تعيين هيكل الرواتب للموظفين التاليين ، لأن سجلات تعيين هيكل الرواتب موجودة "
-"بالفعل ضدهم. {0}"
+"تخطي تعيين هيكل الرواتب للموظفين التاليين، لأن سجلات تعيين هيكل الرواتب موجودة بالفعل"
+" ضدهم. {0}"
 
 #. Label of the source (Link) field in DocType 'Job Applicant'
 #. Label of the source (Data) field in DocType 'Employee Other Income'
@@ -12880,12 +12880,12 @@ msgstr "بداية الوقت"
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:264
 #, python-brace-format
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}"
-msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف رواتب صالحة ، لا يمكن حساب {0}"
+msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف رواتب صالحة، لا يمكن حساب {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1500
 #, python-brace-format
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}."
-msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف المرتبات الصالحة ، ولا يمكن حساب {0}."
+msgstr "تواريخ البدء والانتهاء ليست في فترة كشوف المرتبات الصالحة، ولا يمكن حساب {0}."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:199
 #, python-brace-format
@@ -13759,7 +13759,7 @@ msgstr "اليوم {0} في شركتنا! 🎉"
 #: hrms/controllers/employee_reminders.py:241
 #, python-brace-format
 msgid "Today {0} completed {1} year(s) at our Company! 🎉"
-msgstr ""
+msgstr "اليوم أكمل {0} {1} سنة في شركتنا! 🎉"
 
 #. Label of the total (Currency) field in DocType 'Expense Taxes and Charges'
 #: hrms/hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
@@ -15834,7 +15834,7 @@ msgstr "تم تسجيل الموظف غائبًا للنصف الآخر بسبب
 
 #, python-brace-format
 msgid "Employee {0} : {1}"
-msgstr "الموظف {0} : {1}"
+msgstr "الموظف {0}: {1}"
 
 #, python-brace-format
 msgid ""
@@ -16660,7 +16660,7 @@ msgstr "سنوات"
 
 #, python-brace-format
 msgid "{0} : {1}"
-msgstr "{0} : {1}"
+msgstr "{0}: {1}"
 
 #, python-brace-format
 msgid "{0} applicable after {1} calendar days"
