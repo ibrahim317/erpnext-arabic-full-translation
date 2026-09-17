@@ -2036,7 +2036,7 @@ msgstr "حقل حساب المستلم"
 #. Label of the redirect_to_path (Data) field in DocType 'User Invitation'
 #: frappe/core/doctype/user_invitation/user_invitation.json
 msgid "Redirect To Path"
-msgstr "إعادة توجيه للمسار"
+msgstr "إعادة التوجيه إلى المسار"
 
 #. Label of the reference_docname (Dynamic Link) field in DocType 'Event'
 #: frappe/desk/doctype/event/event.json
@@ -2493,7 +2493,7 @@ msgstr ""
 msgid ""
 "This document has already been queued for submission. You can track the progress over"
 " {0}."
-msgstr "تم وضع هذا المستند بالفعل في زمام التقديم. يمكنك تتبع التقدم عبر {0}."
+msgstr "تم وضع هذا المستند بالفعل في قائمة انتظار الترحيل. يمكنك تتبع التقدم عبر {0}."
 
 #. Description of the 'Depends On' (Code) field in DocType 'Customize Form
 #. Field'
@@ -3092,7 +3092,7 @@ msgstr "{0}."
 #: frappe/core/doctype/doctype/doctype.py:1913
 #, python-brace-format
 msgid "{0}: The 'Amend' permission cannot be granted for a non-submittable DocType."
-msgstr "{0}: لا يمكن منح إذن 'تعديل' لنوع مستند غير قابل للتقديم."
+msgstr "{0}: لا يمكن منح إذن 'تعديل' لنوع مستند غير قابل للترحيل."
 
 #: frappe/core/doctype/doctype/doctype.py:1861
 #, python-brace-format
@@ -3102,7 +3102,7 @@ msgstr "{0}: لا يمكن منح إذن 'تعديل' بدون إذن 'إنشا�
 #: frappe/core/doctype/doctype/doctype.py:1848
 #, python-brace-format
 msgid "{0}: The 'Cancel' permission cannot be granted without the 'Submit' permission."
-msgstr "{0}: لا يمكن منح إذن 'إلغاء' بدون إذن 'تقديم'."
+msgstr "{0}: لا يمكن منح إذن 'إلغاء' بدون إذن 'ترحيل'."
 
 #: frappe/core/doctype/doctype/doctype.py:1895
 #, python-brace-format
@@ -3138,14 +3138,14 @@ msgstr "{0}: تمت إزالة إذن 'تقرير' لأنه لا يمكن منح
 #: frappe/core/doctype/doctype/doctype.py:1906
 #, python-brace-format
 msgid "{0}: The 'Submit' permission cannot be granted for a non-submittable DocType."
-msgstr "{0}: لا يمكن منح إذن 'تقديم' لنوع مستند غير قابل للتقديم."
+msgstr "{0}: لا يمكن منح إذن 'ترحيل' لنوع مستند غير قابل للترحيل."
 
 #: frappe/core/doctype/doctype/doctype.py:1855
 #, python-brace-format
 msgid ""
 "{0}: The 'Submit', 'Cancel', and 'Amend' permissions cannot be granted without the "
 "'Write' permission."
-msgstr "{0}: لا يمكن منح أذونات 'تقديم' و 'إلغاء' و 'تعديل' بدون إذن 'كتابة'."
+msgstr "{0}: لا يمكن منح أذونات 'ترحيل' و 'إلغاء' و 'تعديل' بدون إذن 'كتابة'."
 
 #: frappe/core/doctype/doctype/doctype.py:1300
 #, python-brace-format
@@ -3170,7 +3170,7 @@ msgstr "\"نبذة عن الشركة\""
 
 #: frappe/core/doctype/data_export/exporter.py:202
 msgid "\"Parent\" signifies the parent table in which this row must be added"
-msgstr "\"الأم\" يدل على الجدول الأصل الذي يجب أن يضاف هذا الصف"
+msgstr "يشير \"الأصل\" إلى الجدول الرئيسي الذي يجب إضافة هذا الصف إليه"
 
 #. Description of the 'Team Members Heading' (Data) field in DocType 'About Us
 #. Settings'
@@ -4430,7 +4430,7 @@ msgstr "إضافة فاصل صفحات"
 
 #: frappe/custom/doctype/client_script/client_script.js:16
 msgid "Add script for Child Table"
-msgstr "إضافة البرنامج النصي لجدول الطفل"
+msgstr "إضافة برنامج نصي (Script) للجدول الفرعي"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:111
 msgid "Add section above"
@@ -4680,7 +4680,7 @@ msgstr "بعد الحفظ"
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "After Save (Submitted Document)"
-msgstr "بعد الحفظ (المستند المقدم)"
+msgstr "بعد الحفظ (المستند المرحّل)"
 
 #. Label of the section_break_5 (Section Break) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -4690,7 +4690,7 @@ msgstr "بعد الإرسال"
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "After Submit"
-msgstr "بعد تقديم"
+msgstr "بعد الترحيل"
 
 #: frappe/desk/doctype/number_card/number_card.py:60
 msgid "Aggregate Field is required to create a number card"
@@ -4798,7 +4798,7 @@ msgid ""
 "\"Saved\", 1 is \"Submitted\" and 2 is \"Cancelled\""
 msgstr ""
 "جميع حالات سير العمل الممكنة وأدوار سير العمل. خيارات حالة المستند: 0 هو \"محفوظ\"، 1"
-" هو \"مرسل\" و 2 هو \"ملغى\""
+" هو \"مرحّل\" و 2 هو \"ملغى\""
 
 #: frappe/utils/password_strength.py:183
 msgid "All-uppercase is almost as easy to guess as all-lowercase."
@@ -4994,7 +4994,7 @@ msgstr "السماح بإنشاء المستندات عبر البريد الإ�
 #. Label of the allow_edit (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Allow editing after submit"
-msgstr "السماح بالتعديل بعد الإرسال"
+msgstr "السماح بالتعديل بعد الترحيل"
 
 #. Description of the 'Allow Bulk Editing' (Check) field in DocType 'List View
 #. Settings'
@@ -5021,7 +5021,7 @@ msgstr "السماح للأحداث في المخطط الزمني"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Allow in Quick Entry"
-msgstr "السماح لأدخال سريع"
+msgstr "السماح في الإدخال السريع"
 
 #. Label of the allow_incomplete (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -5697,7 +5697,7 @@ msgstr "تعيين لي"
 
 #: frappe/automation/doctype/assignment_rule/assignment_rule.js:53
 msgid "Assign to the one who has the least assignments"
-msgstr "كلف الشخص الذي لديه أقل المهام"
+msgstr "عيِّن للمستخدم صاحب أقل عدد من التعيينات"
 
 #: frappe/automation/doctype/assignment_rule/assignment_rule.js:54
 msgid "Assign to the user set in this field"
@@ -5926,7 +5926,7 @@ msgstr "المرفقات"
 
 #: frappe/public/js/frappe/form/print_utils.js:91
 msgid "Attempting Connection to QZ Tray..."
-msgstr "محاولة الاتصال بـ QZ Tray..."
+msgstr "جارٍ محاولة الاتصال بـ QZ Tray..."
 
 #: frappe/public/js/frappe/form/print_utils.js:107
 msgid "Attempting to launch QZ Tray..."
@@ -6046,7 +6046,7 @@ msgstr "تخويل Google Drive Access"
 #. Label of the authorize_url (Data) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Authorize URL"
-msgstr "مصادقة عنوان ورل"
+msgstr "عنوان URL للتفويض"
 
 #. Option for the 'Status' (Select) field in DocType 'Integration Request'
 #: frappe/integrations/doctype/integration_request/integration_request.json
@@ -6252,7 +6252,7 @@ msgstr "تجنب السنوات الأخيرة."
 
 #: frappe/utils/password_strength.py:117
 msgid "Avoid sequences like abc or 6543 as they are easy to guess"
-msgstr "تجنب تسلسل مثل abc أو 6543 كما أنها سهلة لتخمين"
+msgstr "تجنب المتواليات مثل abc أو 6543 لأن تخمينها سهل"
 
 #: frappe/utils/password_strength.py:124
 msgid "Avoid years that are associated with you."
@@ -6621,12 +6621,12 @@ msgstr "قبل الحفظ"
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Before Save (Submitted Document)"
-msgstr "قبل الحفظ (المستند المقدم)"
+msgstr "قبل الحفظ (المستند المرحّل)"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Before Submit"
-msgstr "قبل إرسال"
+msgstr "قبل الترحيل"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -7216,7 +7216,7 @@ msgstr "يمكن المشاركة"
 #: frappe/public/js/frappe/form/templates/set_sharing.html:6
 #: frappe/public/js/frappe/form/templates/set_sharing.html:52
 msgid "Can Submit"
-msgstr "يمكن الإرسال"
+msgstr "يمكن الترحيل"
 
 #: frappe/public/js/frappe/form/templates/set_sharing.html:5
 #: frappe/public/js/frappe/form/templates/set_sharing.html:51
@@ -7333,7 +7333,7 @@ msgstr "لا يمكن إزالة"
 
 #: frappe/model/base_document.py:1155
 msgid "Cannot Update After Submit"
-msgstr "لا يمكن التحديث بعد الإرسال"
+msgstr "لا يمكن التحديث بعد الترحيل"
 
 #: frappe/core/doctype/file/file.py:621
 #, python-brace-format
@@ -7345,12 +7345,12 @@ msgstr "لا يمكن الوصول إلى مسار الملف {0}"
 msgid ""
 "Cannot cancel before submitting while transitioning from <b>{0} State</b> to <b>{1} "
 "State</b>"
-msgstr "لا يمكن الإلغاء قبل الإرسال أثناء الانتقال من <b>حالة {0}</b> إلى <b>حالة {1}</b>"
+msgstr "لا يمكن الإلغاء قبل الترحيل أثناء الانتقال من <b>حالة {0}</b> إلى <b>حالة {1}</b>"
 
 #: frappe/workflow/doctype/workflow/workflow.py:109
 #, python-brace-format
 msgid "Cannot cancel before submitting. See Transition {0}"
-msgstr "لا يمكن الإلغاء قبل الإرسال. انظر الانتقال {0}"
+msgstr "لا يمكن الإلغاء قبل الترحيل. انظر الانتقال {0}"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:294
 #, python-brace-format
@@ -7363,7 +7363,7 @@ msgstr "لا يمكن تغيير حالة المستند من 0 (مسودة) إ�
 
 #: frappe/model/document.py:1025
 msgid "Cannot change docstatus from 1 (Submitted) to 0 (Draft)"
-msgstr "لا يمكن تغيير حالة المستند من 1 (مرسل) إلى 0 (مسودة)"
+msgstr "لا يمكن تغيير حالة المستند من 1 (مرحّل) إلى 0 (مسودة)"
 
 #: frappe/public/js/workflow_builder/utils.js:170
 #, python-brace-format
@@ -7474,7 +7474,7 @@ msgstr "لا تستطيع تعديل الحقول القياسية"
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:127
 #, python-brace-format
 msgid "Cannot enable {0} for a non-submittable doctype"
-msgstr "لا يمكن تمكين {0} لنوع مستند غير قابل للإرسال"
+msgstr "لا يمكن تمكين {0} لنوع مستند غير قابل للترحيل"
 
 #: frappe/core/doctype/file/file.py:252
 #, python-brace-format
@@ -7527,12 +7527,12 @@ msgstr "لا يمكن تعيين إشعار بالحدث {0} على نوع ال�
 #: frappe/core/doctype/docshare/docshare.py:67
 #, python-brace-format
 msgid "Cannot share {0} with submit permission as the doctype {1} is not submittable"
-msgstr "لا يمكن مشاركة {0} بإذن الإرسال لأن نوع المستند {1} غير قابل للإرسال"
+msgstr "لا يمكن مشاركة {0} بإذن الترحيل لأن نوع المستند {1} غير قابل للترحيل"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:291
 #, python-brace-format
 msgid "Cannot submit {0}."
-msgstr "لا يمكن إرسال {0}."
+msgstr "لا يمكن ترحيل {0}."
 
 #: frappe/desk/doctype/bulk_update/bulk_update.js:26
 #: frappe/public/js/frappe/list/bulk_operations.js:366
@@ -7620,7 +7620,7 @@ msgid ""
 " for such documents is called Submitted. You can restrict which roles can Submit."
 msgstr ""
 "بعض المستندات، مثل الفاتورة، لا يجب تغييرها بمجرد أن تصبح نهائية. الحالة النهائية "
-"لمثل هذه المستندات تسمى \"مرسلة\". يمكنك تقييد الأدوار التي يمكنها الإرسال."
+"لمثل هذه المستندات تسمى \"مرحّلة\". يمكنك تقييد الأدوار التي يمكنها الترحيل."
 
 #: frappe/core/report/transaction_log_report/transaction_log_report.py:82
 msgid "Chain Integrity"
@@ -8002,7 +8002,7 @@ msgstr "انقر فوق {0} لإنشاء تحديث الرمز المميز."
 #: frappe/email/doctype/auto_email_report/auto_email_report.js:99
 #: frappe/website/doctype/web_form/web_form.js:236
 msgid "Click table to edit"
-msgstr "انقر الجدول لتعديل"
+msgstr "انقر الجدول لتعديله"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:502
 #: frappe/desk/doctype/number_card/number_card.js:402
@@ -8072,7 +8072,7 @@ msgstr "معلومات العميل"
 #: frappe/custom/doctype/doctype_layout/doctype_layout.json
 #: frappe/website/doctype/web_page/web_page.js:103
 msgid "Client Script"
-msgstr "العميل النصي"
+msgstr "النص البرمجي للعميل"
 
 #. Label of the client_secret (Password) field in DocType 'Connected App'
 #. Label of the client_secret (Password) field in DocType 'Google Settings'
@@ -8087,12 +8087,12 @@ msgstr "سر العميل"
 #. Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Client URLs"
-msgstr "الروابط للعميل"
+msgstr "روابط العميل"
 
 #. Label of the client_script (Code) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Client script"
-msgstr "سكريبت العميل"
+msgstr "النص البرمجي للعميل"
 
 #: frappe/core/doctype/communication/communication.js:39
 #: frappe/desk/doctype/todo/todo.js:23 frappe/public/js/frappe/form/form_tour.js:17
@@ -9313,7 +9313,7 @@ msgstr "مخصص"
 #. Label of the custom_base_url (Check) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Custom Base URL"
-msgstr "عنوان ورل لقاعدة مخصصة"
+msgstr "عنوان URL أساسي مخصص"
 
 #. Label of the custom_block_name (Link) field in DocType 'Workspace Custom
 #. Block'
@@ -10959,7 +10959,7 @@ msgstr "نوع المستند هو جدول / نموذج في التطبيق."
 
 #: frappe/integrations/doctype/webhook/webhook.py:79
 msgid "DocType must be Submittable for the selected Doc Event"
-msgstr "يجب تقديم دوكتيب للحدث دوك المحدد"
+msgstr "يجب أن يكون نوع المستند قابلاً للترحيل لحدث المستند المحدد"
 
 #: frappe/client.py:403
 msgid "DocType must be a string"
@@ -11255,7 +11255,7 @@ msgstr "نوع المستند غير قابل للاستيراد"
 
 #: frappe/permissions.py:144
 msgid "Document Type is not submittable"
-msgstr "نوع المستند غير قابل للتقديم"
+msgstr "نوع المستند غير قابل للترحيل"
 
 #. Label of the document_type (Link) field in DocType 'Milestone Tracker'
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -11297,7 +11297,7 @@ msgstr "تم إلغاء المستند"
 
 #: frappe/public/js/frappe/list/list_view.js:1155
 msgid "Document has been submitted"
-msgstr "تم إرسال المستند"
+msgstr "تم ترحيل المستند"
 
 #: frappe/public/js/frappe/list/list_view.js:1154
 msgid "Document is in draft state"
@@ -12481,7 +12481,7 @@ msgstr ""
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Enabling this will submit documents in background"
-msgstr "سيؤدي تمكين هذا إلى إرسال المستندات في الخلفية"
+msgstr "سيؤدي تمكين هذا إلى ترحيل المستندات في الخلفية"
 
 #. Label of the encrypt_backup (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -12617,7 +12617,7 @@ msgstr ""
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter url parameter for message"
-msgstr "أدخل معمل العنوان للرسالة"
+msgstr "أدخل معلمة الرابط للرسالة"
 
 #. Description of the 'Receiver Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -12713,15 +12713,15 @@ msgstr "حدث خطأ في {0}"
 
 #: frappe/public/js/frappe/form/script_manager.js:199
 msgid "Error in Client Script"
-msgstr "خطأ في سكريبت العميل"
+msgstr "خطأ في النص البرمجي للعميل"
 
 #: frappe/public/js/frappe/form/script_manager.js:256
 msgid "Error in Client Script."
-msgstr "خطأ في سكريبت العميل."
+msgstr "خطأ في النص البرمجي للعميل."
 
 #: frappe/printing/doctype/letter_head/letter_head.js:21
 msgid "Error in Header/Footer Script"
-msgstr "خطأ في سكريبت الترويسة/التذييل"
+msgstr "خطأ في النص البرمجي للترويسة/التذييل"
 
 #: frappe/email/doctype/notification/notification.py:598
 #: frappe/email/doctype/notification/notification.py:735
@@ -19067,7 +19067,7 @@ msgstr "أنا"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:14
 msgid "Meaning of Submit, Cancel, Amend"
-msgstr "معنى الإرسال والإلغاء والتعديل"
+msgstr "معنى الترحيل والإلغاء والتعديل"
 
 #. Option for the 'Priority' (Select) field in DocType 'ToDo'
 #. Label of the medium (Data) field in DocType 'Web Page View'
@@ -19757,7 +19757,7 @@ msgstr "يجب أن يكون لديك إذن تقارير للوصول إلى ه
 
 #: frappe/core/doctype/report/report.py:151
 msgid "Must specify a Query to run"
-msgstr "يجب تحديد استعلام لتشغيل"
+msgstr "يجب تحديد استعلام لتشغيله"
 
 #. Label of the mute_sounds (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -20982,7 +20982,7 @@ msgstr "ملاحظة: يتم إرسال رسائل البريد الإلكترو
 
 #: frappe/public/js/frappe/utils/utils.js:775
 msgid "Note: Changing the Page Name will break previous URL to this page."
-msgstr "ملاحظة: يؤدي تغيير اسم الصفحة إلى كسر عنوان ورل السابق لهذه الصفحة."
+msgstr "ملاحظة: يؤدي تغيير اسم الصفحة إلى كسر عنوان URL السابق لهذه الصفحة."
 
 #: frappe/core/doctype/user/user.js:35
 msgid "Note: Etc timezones have their signs reversed."
@@ -21023,7 +21023,7 @@ msgstr "لا يوجد شيء جديد"
 
 #: frappe/public/js/frappe/form/undo_manager.js:43
 msgid "Nothing left to redo"
-msgstr "لم يتبق شيء للإعادة"
+msgstr "لم يتبق شيء لإعادته"
 
 #: frappe/public/js/frappe/form/undo_manager.js:33
 msgid "Nothing left to undo"
@@ -21035,7 +21035,7 @@ msgstr "لم يتبق شيء للتراجع"
 #: frappe/website/doctype/blog_post/templates/blog_post_list.html:41
 #: frappe/website/doctype/help_article/templates/help_article_list.html:21
 msgid "Nothing to show"
-msgstr "لا شيء لإظهار"
+msgstr "لا شيء لعرضه"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:129
 msgid "Nothing to update"
@@ -21495,7 +21495,7 @@ msgstr "اكتمل الإعداد"
 msgid ""
 "Once submitted, submittable documents cannot be changed. They can only be Cancelled "
 "and Amended."
-msgstr "بمجرد إرسالها، لا يمكن تغيير المستندات المقدمة. يمكن إلغاؤها وتعديلها فقط."
+msgstr "بمجرد ترحيلها، لا يمكن تغيير المستندات المرحّلة. يمكن إلغاؤها وتعديلها فقط."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:35
 msgid ""
@@ -22518,7 +22518,7 @@ msgstr "هل تريد تجاهل {0} بشكل دائم؟"
 #: frappe/public/js/frappe/form/form.js:861
 #, python-brace-format
 msgid "Permanently Submit {0}?"
-msgstr "إرسال دائم {0} ؟"
+msgstr "ترحيل دائم {0} ؟"
 
 #: frappe/public/js/frappe/model/model.js:733
 #, python-brace-format
@@ -22904,15 +22904,15 @@ msgstr "يرجى التأكد من أن التعريف الخاص بك لديه 
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:82
 msgid "Please enter Access Token URL"
-msgstr "الرجاء إدخال عنوان ورل لرمز الدخول المميز"
+msgstr "الرجاء إدخال عنوان URL لرمز الدخول المميز"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:80
 msgid "Please enter Authorize URL"
-msgstr "الرجاء إدخال عنوان ورل للمصادقة"
+msgstr "الرجاء إدخال عنوان URL للتفويض"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:78
 msgid "Please enter Base URL"
-msgstr "الرجاء إدخال عنوان ورل الأساسي"
+msgstr "الرجاء إدخال عنوان URL الأساسي"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:86
 msgid "Please enter Client ID before social login is enabled"
@@ -24098,7 +24098,7 @@ msgstr "في قائمة الانتظار بواسطة"
 #: frappe/core/doctype/submission_queue/submission_queue.py:174
 #, python-brace-format
 msgid "Queued for Submission. You can track the progress over {0}."
-msgstr "في قائمة الانتظار للإرسال. يمكنك تتبع التقدم عبر {0}."
+msgstr "في قائمة الانتظار للترحيل. يمكنك تتبع التقدم عبر {0}."
 
 #: frappe/integrations/doctype/dropbox_settings/dropbox_settings.py:65
 #: frappe/integrations/doctype/google_drive/google_drive.py:153
@@ -24127,7 +24127,7 @@ msgstr "جارٍ وضع رسائل البريد الإلكتروني في قائ
 #: frappe/desk/doctype/bulk_update/bulk_update.py:85
 #, python-brace-format
 msgid "Queuing {0} for Submission"
-msgstr "جارٍ وضع {0} في قائمة الانتظار للإرسال"
+msgstr "جارٍ وضع {0} في قائمة الانتظار للترحيل"
 
 #. Label of the quick_entry (Check) field in DocType 'DocType'
 #. Label of the quick_entry (Check) field in DocType 'Customize Form'
@@ -25883,7 +25883,7 @@ msgstr "الصف {0}: غير مسموح بتعطيل إلزامي للحقول �
 #: frappe/custom/doctype/customize_form/customize_form.py:341
 #, python-brace-format
 msgid "Row {0}: Not allowed to enable Allow on Submit for standard fields"
-msgstr "صف {0}: غير مسموح لتمكين السماح إرسال على لحقول القياسية"
+msgstr "الصف {0}: غير مسموح بتمكين 'السماح عند الترحيل' للحقول القياسية"
 
 #. Label of the rows_added_section (Section Break) field in DocType 'Audit
 #. Trail'
@@ -26839,7 +26839,7 @@ msgstr "اختر صورة بعرض 150px تقريبا مع خلفية شفافة
 
 #: frappe/public/js/frappe/list/bulk_operations.js:36
 msgid "Select atleast 1 record for printing"
-msgstr "اختر أتلست سجل 1 للطباعة"
+msgstr "اختر سجلاً واحداً على الأقل للطباعة"
 
 #: frappe/core/doctype/success_action/success_action.js:18
 msgid "Select atleast 2 actions"
@@ -28911,7 +28911,7 @@ msgstr "يجب أن يكون نوع حقل الموضوع بيانات، نص، 
 #. Name of a DocType
 #: frappe/core/doctype/submission_queue/submission_queue.json
 msgid "Submission Queue"
-msgstr "قائمة انتظار الإرسال"
+msgstr "قائمة انتظار الترحيل"
 
 #. Label of the submit (Check) field in DocType 'Custom DocPerm'
 #. Label of the submit (Check) field in DocType 'DocPerm'
@@ -28956,7 +28956,7 @@ msgstr "تسجيل"
 #. Label of the submit_after_import (Check) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Submit After Import"
-msgstr "إرسال بعد الاستيراد"
+msgstr "ترحيل بعد الاستيراد"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:39
 msgid "Submit an Issue"
@@ -28976,7 +28976,7 @@ msgstr "تسمية زر الإرسال"
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:128
 msgid "Submit on Creation"
-msgstr "إرسال عند الإنشاء"
+msgstr "ترحيل عند الإنشاء"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:395
 msgid "Submit this document to complete this step."
@@ -28984,13 +28984,13 @@ msgstr "أرسل هذا المستند لإكمال هذه الخطوة."
 
 #: frappe/public/js/frappe/form/form.js:1221
 msgid "Submit this document to confirm"
-msgstr "إرسال هذه الوثيقة إلى تأكيد"
+msgstr "رحّل هذا المستند للتأكيد"
 
 #: frappe/public/js/frappe/list/list_view.js:2090
 #, python-brace-format
 msgctxt "Title of confirmation dialog"
 msgid "Submit {0} documents?"
-msgstr "إرسال {0} وثائق؟"
+msgstr "ترحيل {0} وثائق؟"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json frappe/public/js/frappe/model/indicator.js:95
@@ -29010,18 +29010,18 @@ msgid ""
 "Submitted document cannot be converted back to draft while transitioning from <b>{0} "
 "State</b> to <b>{1} State</b>"
 msgstr ""
-"لا يمكن تحويل المستند المرسل مرة أخرى إلى مسودة أثناء الانتقال من <b>حالة {0}</b> إلى"
-" <b>حالة {1}</b>"
+"لا يمكن تحويل المستند المرحّل مرة أخرى إلى مسودة أثناء الانتقال من <b>حالة {0}</b> "
+"إلى <b>حالة {1}</b>"
 
 #: frappe/public/js/frappe/form/save.js:10
 msgctxt "Freeze message while submitting a document"
 msgid "Submitting"
-msgstr "تقديم"
+msgstr "جارٍ الترحيل"
 
 #: frappe/desk/doctype/bulk_update/bulk_update.py:88
 #, python-brace-format
 msgid "Submitting {0}"
-msgstr "تقديم {0}"
+msgstr "جارٍ ترحيل {0}"
 
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
@@ -31247,7 +31247,7 @@ msgstr "التحولات"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Translatable"
-msgstr "للترجمة"
+msgstr "قابل للترجمة"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2188
 msgid "Translate Data"
@@ -34246,13 +34246,13 @@ msgstr "لقد حددت مسودة أو مستندات تم إلغاؤها"
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:48
 msgctxt "Form timeline"
 msgid "You submitted this document"
-msgstr "لقد قمت بإرسال هذا المستند"
+msgstr "لقد قمت بترحيل هذا المستند"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:35
 #, python-brace-format
 msgctxt "Form timeline"
 msgid "You submitted this document {0}"
-msgstr "لقد قمت بإرسال هذا المستند {0}"
+msgstr "لقد قمت بترحيل هذا المستند {0}"
 
 #: frappe/public/js/frappe/form/sidebar/document_follow.js:144
 msgid "You unfollowed this document"
@@ -34799,7 +34799,7 @@ msgstr "على التغيير"
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "on_submit"
-msgstr "عند_الإرسال"
+msgstr "عند_الترحيل"
 
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -34814,7 +34814,7 @@ msgstr "عند_التحديث"
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "on_update_after_submit"
-msgstr "عند_التحديث_بعد_الإرسال"
+msgstr "عند_التحديث_بعد_الترحيل"
 
 #: frappe/public/js/frappe/utils/utils.js:392 frappe/www/login.html:90
 #: frappe/www/login.py:112
@@ -35208,7 +35208,7 @@ msgstr "{0} الاسم"
 #: frappe/model/base_document.py:1148
 #, python-brace-format
 msgid "{0} Not allowed to change {1} after submission from {2} to {3}"
-msgstr "{0} غير مسموح بتغيير {1} بعد الإرسال من {2} إلى {3}"
+msgstr "{0} غير مسموح بتغيير {1} بعد الترحيل من {2} إلى {3}"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:95
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:96
@@ -35944,7 +35944,7 @@ msgstr "{0} {1} غير موجود ، حدد هدفا جديدا لدمج"
 #: frappe/public/js/frappe/form/form.js:951
 #, python-brace-format
 msgid "{0} {1} is linked with the following submitted documents: {2}"
-msgstr "{0} {1} مرتبط بالمستندات المرسلة التالية: {2}"
+msgstr "{0} {1} مرتبط بالمستندات المرحّلة التالية: {2}"
 
 #: frappe/model/document.py:259 frappe/permissions.py:558
 #, python-brace-format
@@ -35954,7 +35954,7 @@ msgstr "{0} {1} غير موجود"
 #: frappe/model/delete_doc.py:247
 #, python-brace-format
 msgid "{0} {1}: Submitted Record cannot be deleted. You must {2} Cancel {3} it first."
-msgstr "{0} {1}: لا يمكن حذف السجل المقدم. يجب عليك {2} إلغاء {3} أولاً."
+msgstr "{0} {1}: لا يمكن حذف السجل المرحّل. يجب عليك {2} إلغاء {3} أولاً."
 
 #: frappe/model/base_document.py:1109
 #, python-brace-format
@@ -35979,7 +35979,7 @@ msgstr "{0}: لا يمكن تعيين تعديل بدون إلغاء"
 #: frappe/core/doctype/doctype/doctype.py:1817
 #, python-brace-format
 msgid "{0}: Cannot set Assign Amend if not Submittable"
-msgstr "{0}: لا يمكن تعيين معدل إذا لم يتم إرساله"
+msgstr "{0}: لا يمكن تعيين معدل إذا لم يتم ترحيله"
 
 #: frappe/core/doctype/doctype/doctype.py:1815
 #, python-brace-format
@@ -35989,7 +35989,7 @@ msgstr "{0} : لا يمكن تحديد تعيين بالتأكيد إذا لم �
 #: frappe/core/doctype/doctype/doctype.py:1794
 #, python-brace-format
 msgid "{0}: Cannot set Cancel without Submit"
-msgstr "{0}: لا يمكن تعيين إلغاء بدون إرسال"
+msgstr "{0}: لا يمكن تعيين إلغاء بدون ترحيل"
 
 #: frappe/core/doctype/doctype/doctype.py:1801
 #, python-brace-format
