@@ -2196,13 +2196,13 @@ msgstr "السماح للوحدات النمطية"
 #. Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Allow Print for Cancelled"
-msgstr "السماح بالطباعة للإلغاء"
+msgstr "السماح بطباعة المستندات الملغاة"
 
 #. Label of the allow_print_for_draft (Check) field in DocType 'Print Settings'
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:438
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Allow Print for Draft"
-msgstr "السماح بالطباعة للمسودة"
+msgstr "السماح بطباعة المسودات"
 
 #. Label of the allow_read_on_all_link_options (Check) field in DocType 'Web
 #. Form Field'
@@ -2829,7 +2829,7 @@ msgstr "أنواع المستندات القابلة للتطبيق"
 #. Label of the applicable_for (Link) field in DocType 'User Permission'
 #: frappe/core/doctype/user_permission/user_permission.json
 msgid "Applicable For"
-msgstr "قابل للتطبيق ل"
+msgstr "ينطبق على"
 
 #. Label of the app_logo (Attach Image) field in DocType 'Navbar Settings'
 #. Label of the logo_section (Section Break) field in DocType 'Navbar Settings'
@@ -3423,7 +3423,7 @@ msgstr "الإسناد"
 #. Name of a report
 #: frappe/custom/report/audit_system_hooks/audit_system_hooks.json
 msgid "Audit System Hooks"
-msgstr "تدقيق خطافات النظام"
+msgstr "تدقيق إجراءات النظام المبرمجة (Hooks)"
 
 #. Name of a DocType
 #: frappe/core/doctype/audit_trail/audit_trail.json
@@ -3905,7 +3905,7 @@ msgstr "طباعة في الخلفية (مطلوبة لأكثر من 25 مستن
 #: frappe/core/doctype/system_settings/system_settings.json
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Background Workers"
-msgstr "قائمة العمليات"
+msgstr "مُعالجات الخلفية (Background Workers)"
 
 #: frappe/desk/page/backups/backups.js:28
 msgid "Backup Encryption Key"

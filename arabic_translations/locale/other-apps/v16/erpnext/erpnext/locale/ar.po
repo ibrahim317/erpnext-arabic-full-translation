@@ -54,7 +54,7 @@ msgstr " قائمة المواد"
 #. Label of the default_wip_warehouse (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid " Default Work In Progress Warehouse "
-msgstr " المستودع الافتراضي للأعمال قيد التنفيذ "
+msgstr " المستودع الافتراضي لـالإنتاج تحت التشغيل "
 
 #. Label of the istable (Check) field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
@@ -104,11 +104,11 @@ msgstr " ملخص"
 
 #: erpnext/stock/doctype/item/item.py:266
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
-msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن شرائها"
+msgstr "\"الأصناف المقدَّمة من الزبائن\" لا يمكن شراؤها أيضًا"
 
 #: erpnext/stock/doctype/item/item.py:268
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن أن تحتوي على تكلفة"
+msgstr "\"الأصناف المقدَّمة من الزبائن\" لا يمكن أن تتضمن سعر تقييم"
 
 #: erpnext/stock/doctype/item/item.py:367
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
@@ -965,11 +965,11 @@ msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">إعداد�
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:126
 msgid "<li>Clearance date must be after cheque date for row(s): {0}</li>"
-msgstr "<li>تاريخ المقاصة يجب أن يكون بعد تاريخ الشيك للأصف: {0}</li>"
+msgstr "<li>تاريخ المقاصة يجب أن يكون بعد تاريخ الشيك للصفوف: {0}</li>"
 
 #: erpnext/controllers/accounts_controller.py:2358
 msgid "<li>Item {0} in row(s) {1} billed more than {2}</li>"
-msgstr "<li>الصنف {0} في الأصف {1} تمت فوترته بأكثر من {2}</li>"
+msgstr "<li>الصنف {0} في الصفوف {1} تمت فوترته بأكثر من {2}</li>"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:424
 msgid "<li>Packed Item {0}: Required {1}, Available {2}</li>"
@@ -977,7 +977,7 @@ msgstr "<li>الصنف المعبأ {0}: المطلوب {1}، المتوفر {2}
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:121
 msgid "<li>Payment document required for row(s): {0}</li>"
-msgstr "<li>مستند الدفع مطلوب للأصف: {0}</li>"
+msgstr "<li>مستند الدفع مطلوب للصفوف: {0}</li>"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:164
 #: erpnext/utilities/bulk_transaction.py:35
@@ -2018,7 +2018,9 @@ msgstr "الحساب {0}: لا يمكنك جعله حساب رئيسي"
 msgid ""
 "Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal "
 "Entry"
-msgstr "الحساب: <b>{0}</b> هو حساب مشروعات تحت التنفيذ ولا يمكن تحديثه بواسطة قيد اليومية"
+msgstr ""
+"الحساب: <b>{0}</b> هو حساب الأعمال الرأسمالية تحت التنفيذ ولا يمكن تحديثه بواسطة قيد "
+"اليومية"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:376
 msgid "Account: {0} can only be updated via Stock Transactions"
@@ -2815,7 +2817,7 @@ msgstr "لا يمكن أن يكون تاريخ الانتهاء الفعلي ق�
 #. Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Actual End Time"
-msgstr "الفعلي وقت الانتهاء"
+msgstr "وقت الانتهاء الفعلي"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:470
 msgid "Actual Expense"
@@ -2905,7 +2907,7 @@ msgstr "تاريخ البدء الفعلي (عبر سجل الدوام)"
 #. Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Actual Start Time"
-msgstr "الفعلي وقت البدء"
+msgstr "وقت البدء الفعلي"
 
 #. Label of the timing_detail (Tab Break) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
@@ -3454,7 +3456,7 @@ msgstr ""
 "الكمية المحولة الإضافية {0}\n"
 "لا يمكن أن تكون أكبر من {1}.\n"
 "لإصلاح ذلك، قم بزيادة قيمة النسبة المئوية\n"
-"في حقل 'تحويل المواد الخام الزائدة إلى الإنتاج تحت التنفيذ'\n"
+"في حقل 'تحويل المواد الخام الزائدة إلى الإنتاج تحت التشغيل'\n"
 "في إعدادات التصنيع."
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:711
@@ -3980,7 +3982,7 @@ msgstr "التقادم بناءً على"
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:35
 #: erpnext/stock/report/stock_ageing/stock_ageing.js:58
 msgid "Ageing Range"
-msgstr "مدى العمر"
+msgstr "نطاق أعمار الديون"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:104
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:352
@@ -4297,7 +4299,7 @@ msgstr "تخصيص"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Allocate Advances Automatically (FIFO)"
-msgstr "تخصيص السلف تلقائيا (الداخل أولا الخارج أولا)"
+msgstr "تخصيص الدفعات المقدمة تلقائيًا (الوارد أولاً يصرف أولاً)"
 
 #. Label of the allocate_full_amount_to_stock_items (Check) field in DocType
 #. 'Purchase Taxes and Charges'
@@ -4515,7 +4517,7 @@ msgstr "السماح بالدفع الجزئي"
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow Production on Holidays"
-msgstr "السماح الإنتاج على عطلات"
+msgstr "السماح بالإنتاج في أيام العطلات"
 
 #. Label of the is_purchase_item (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -7103,7 +7105,7 @@ msgstr "تقرير الدفعات المتاحة"
 
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:494
 msgid "Available For Use Date"
-msgstr "متاح للاستخدام تاريخ"
+msgstr "تاريخ الإتاحة للاستخدام"
 
 #. Label of the available_qty_section (Section Break) field in DocType
 #. 'Delivery Note Item'
@@ -7149,7 +7151,7 @@ msgstr "الكمية المتاحة في المستودع المستهدف"
 #. Order Item'
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 msgid "Available Qty at WIP Warehouse"
-msgstr "الكمية المتوفرة في مستودع ويب"
+msgstr "الكمية المتاحة في مستودع الإنتاج تحت التشغيل"
 
 #. Label of the actual_qty (Float) field in DocType 'POS Invoice Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
@@ -7684,7 +7686,7 @@ msgstr "الصرف العكسي للمواد الخام بناءً على"
 #. Label of the from_wip_warehouse (Check) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Backflush Raw Materials From Work-in-Progress Warehouse"
-msgstr "الصرف العكسي للمواد الخام من مستودع العمل تحت التشغيل"
+msgstr "الصرف العكسي للمواد الخام من مستودع الإنتاج تحت التشغيل"
 
 #. Label of the backflush_raw_materials_of_subcontract_based_on (Select) field
 #. in DocType 'Buying Settings'
@@ -8019,7 +8021,7 @@ msgstr "تم إنشاء القيود البنكية"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 msgid "Bank Entry"
-msgstr "حركة بنكية"
+msgstr "قيد بنكي"
 
 #: banking/src/components/features/BankReconciliation/BankEntryModalContent.tsx:295
 msgid "Bank Entry Created"
@@ -8437,7 +8439,7 @@ msgstr "معرف الدُفعة إلزامي"
 #: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.json
 #: erpnext/stock/workspace/stock/stock.json erpnext/workspace_sidebar/stock.json
 msgid "Batch Item Expiry Status"
-msgstr "حالة انتهاء صلاحية الدفعة الصنف"
+msgstr "حالة انتهاء صلاحية دفعة الصنف"
 
 #. Label of the section_break_gnhq (Section Break) field in DocType 'Stock
 #. Settings'
@@ -8885,7 +8887,7 @@ msgstr "ساعات الفواتير"
 #. Label of the billing_interval (Select) field in DocType 'Subscription Plan'
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
 msgid "Billing Interval"
-msgstr "فواتير الفوترة"
+msgstr "فترة الفوترة"
 
 #. Label of the billing_interval_count (Int) field in DocType 'Subscription
 #. Plan'
@@ -9857,7 +9859,7 @@ msgstr "توجيه المكالمات"
 #: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.js:58
 #: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.py:48
 msgid "Call Schedule Row {0}: To time slot should always be ahead of From time slot."
-msgstr "صف جدول المكالمات {0}: يجب أن يكون وقت الانتهاء دائمًا متقدمًا على وقت البدء."
+msgstr "صف جدول المكالمات {0}: يجب أن يكون وقت الانتهاء دائمًا لاحقًا لوقت البدء."
 
 #. Label of the section_break_11 (Section Break) field in DocType 'Call Log'
 #: erpnext/public/js/call_popup/call_popup.js:164
@@ -9951,7 +9953,7 @@ msgstr "يمكن الموافقة عليها بواسطة {0}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2890
 msgid "Can not close Work Order. Since {0} Job Cards are in Work In Progress state."
-msgstr "لا يمكن إغلاق أمر العمل. نظرًا لوجود {0} بطاقات عمل في حالة العمل قيد التقدم."
+msgstr "لا يمكن إغلاق أمر العمل. نظرًا لوجود {0} بطاقات عمل في حالة الإنتاج تحت التشغيل."
 
 #: erpnext/accounts/report/pos_register/pos_register.py:124
 msgid "Can not filter based on Cashier, if grouped by Cashier"
@@ -10527,13 +10529,13 @@ msgstr "رأس المال"
 #: erpnext/assets/doctype/asset_category_account/asset_category_account.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Capital Work In Progress Account"
-msgstr "حساب رأس المال قيد التنفيذ"
+msgstr "حساب الأعمال الرأسمالية تحت التنفيذ"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
 #: erpnext/accounts/report/account_balance/account_balance.js:42
 msgid "Capital Work in Progress"
-msgstr "العمل الرأسمالي في التقدم"
+msgstr "الأعمال الرأسمالية تحت التنفيذ"
 
 #: erpnext/assets/doctype/asset/asset.js:236
 msgid "Capitalize Asset"
@@ -19538,7 +19540,7 @@ msgstr "تمكين المطابقة التلقائية للطرف"
 #. Category'
 #: erpnext/assets/doctype/asset_category/asset_category.json
 msgid "Enable Capital Work in Progress Accounting"
-msgstr "تمكين العمل في رأس المال"
+msgstr "تمكين محاسبة الأعمال الرأسمالية تحت التنفيذ"
 
 #. Label of the enable_common_party_accounting (Check) field in DocType
 #. 'Accounts Settings'
@@ -28583,7 +28585,7 @@ msgstr "أسعار الصنف"
 #: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
 #: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
 msgid "Item Quality Inspection Parameter"
-msgstr "معلمة تفتيش جودة الصنف"
+msgstr "معلمة فحص جودة الصنف"
 
 #. Label of the item_reference (Link) field in DocType 'Maintenance Schedule
 #. Detail'
@@ -31851,7 +31853,7 @@ msgstr "تم استلام المواد بالفعل مقابل {0} {1}"
 msgid ""
 "Materials needs to be transferred to the work in progress warehouse for the job card "
 "{0}"
-msgstr "يجب نقل المواد إلى مستودع العمل قيد التقدم لبطاقة العمل {0}"
+msgstr "يجب نقل المواد إلى مستودع الإنتاج تحت التشغيل لبطاقة العمل {0}"
 
 #. Label of the max_amount (Currency) field in DocType 'Bank Transaction Rule'
 #. Label of the max_amount (Currency) field in DocType 'Promotional Scheme
@@ -40047,7 +40049,7 @@ msgstr "يرجى تعيين المستودع المستهدف في بطاقة ا
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1908
 msgid "Please set the WIP Warehouse in the Job Card"
-msgstr "يرجى تعيين مستودع العمل تحت التنفيذ في بطاقة العمل"
+msgstr "يرجى تعيين مستودع الإنتاج تحت التشغيل في بطاقة العمل"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:182
 msgid ""
@@ -52636,12 +52638,12 @@ msgstr "تخطي تحويل المواد"
 #. Label of the skip_material_transfer (Check) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Skip Material Transfer to WIP"
-msgstr "تخطي تحويل المواد إلى العمل تحت التشغيل"
+msgstr "تخطي تحويل المواد إلى الإنتاج تحت التشغيل"
 
 #. Label of the skip_transfer (Check) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Skip Material Transfer to WIP Warehouse"
-msgstr "تخطي نقل المواد إلى مستودع WIP"
+msgstr "تخطي نقل المواد إلى مستودع الإنتاج تحت التشغيل"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:574
 msgid "Skipped {0} DocType(s):<br>{1}"
@@ -57432,7 +57434,7 @@ msgid ""
 "The user will be able to transfer additional materials from the store to the Work in "
 "Progress (WIP) warehouse."
 msgstr ""
-"سيكون المستخدم قادراً على نقل مواد إضافية من المتجر إلى مستودع الأعمال قيد التنفيذ "
+"سيكون المستخدم قادراً على نقل مواد إضافية من المخزن إلى مستودع الإنتاج تحت التشغيل "
 "(WIP)."
 
 #. Description of the 'Role allowed to edit frozen stock' (Link) field in
@@ -58644,7 +58646,7 @@ msgstr "لإنشاء مستند مرجع طلب الدفع مطلوب"
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:110
 msgid "To enable Capital Work in Progress Accounting,"
-msgstr "لتمكين محاسبة العمل الرأسمالي تحت التنفيذ،"
+msgstr "لتمكين محاسبة الأعمال الرأسمالية تحت التنفيذ،"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:732
 msgid ""
@@ -60009,7 +60011,7 @@ msgstr "تحويل الأصل"
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Transfer Extra Raw Materials to WIP (%)"
-msgstr "تحويل المواد الخام الزائدة إلى المنتجات قيد التصنيع (%)"
+msgstr "تحويل المواد الخام الزائدة إلى الإنتاج تحت التشغيل (%)"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:456
 msgid "Transfer From Warehouses"
@@ -61168,7 +61170,7 @@ msgstr "تم التحديث عبر 'سجل الوقت' (بالدقائق)"
 
 #: erpnext/accounts/doctype/account_category/account_category.py:55
 msgid "Updated {0} Financial Report Row(s) with new category name"
-msgstr "تم تحديث {0} صف/أصف من صفوف التقارير المالية باسم الفئة الجديد."
+msgstr "تم تحديث {0} صف/صفوف من التقارير المالية باسم الفئة الجديد."
 
 #: erpnext/projects/doctype/project/project.js:137
 msgid "Updating Costing and Billing fields against this Project..."
@@ -62596,12 +62598,12 @@ msgstr ""
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "WIP Composite Asset"
-msgstr "أصل مركب قيد التشغيل"
+msgstr "أصل مركب تحت التشغيل"
 
 #. Label of the wip_warehouse (Link) field in DocType 'Work Order Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "WIP WH"
-msgstr "مستودع قيد التشغيل"
+msgstr "مستودع الإنتاج تحت التشغيل"
 
 #. Label of the wip_warehouse (Link) field in DocType 'BOM Operation'
 #. Label of the wip_warehouse (Link) field in DocType 'Job Card'
@@ -62609,12 +62611,12 @@ msgstr "مستودع قيد التشغيل"
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 #: erpnext/manufacturing/doctype/work_order/work_order_calendar.js:44
 msgid "WIP Warehouse"
-msgstr "مستودع WIP"
+msgstr "مستودع الإنتاج تحت التشغيل"
 
 #. Label of a number card in the Manufacturing Workspace
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "WIP Work Orders"
-msgstr "أوامر العمل قيد التنفيذ"
+msgstr "أوامر العمل تحت التشغيل"
 
 #: erpnext/manufacturing/doctype/workstation/test_workstation.py:148
 #: erpnext/patches/v16_0/make_workstation_operating_components.py:50
@@ -63451,7 +63453,7 @@ msgstr "العمل المنجز"
 #: erpnext/setup/doctype/company/company.py:388
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Work In Progress"
-msgstr "التقدم في العمل"
+msgstr "الإنتاج تحت التشغيل"
 
 #. Option for the 'Transfer Material Against' (Select) field in DocType 'BOM'
 #. Label of the work_order (Link) field in DocType 'Job Card'
@@ -63612,16 +63614,16 @@ msgstr "أوامر العمل في التقدم"
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Work in Progress"
-msgstr "التقدم في العمل"
+msgstr "الإنتاج تحت التشغيل"
 
 #. Label of the wip_warehouse (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Work-in-Progress Warehouse"
-msgstr "مستودع العمل قيد التنفيذ"
+msgstr "مستودع الإنتاج تحت التشغيل"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:948
 msgid "Work-in-Progress Warehouse is required before Submit"
-msgstr "مستودع أعمال جارية مطلوب قبل التسجيل"
+msgstr "مستودع الإنتاج تحت التشغيل مطلوب قبل الترحيل"
 
 #. Label of the workday (Select) field in DocType 'Service Day'
 #: erpnext/support/doctype/service_day/service_day.json
@@ -64620,7 +64622,7 @@ msgstr "عبر أداة تحديث قائمة المواد"
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:111
 msgid "you must select Capital Work in Progress Account in accounts table"
-msgstr "يجب عليك تحديد حساب رأس المال قيد التقدم في جدول الحسابات"
+msgstr "يجب عليك تحديد حساب الأعمال الرأسمالية تحت التنفيذ في جدول الحسابات"
 
 #: erpnext/controllers/accounts_controller.py:1371
 msgid "{0} '{1}' is disabled"

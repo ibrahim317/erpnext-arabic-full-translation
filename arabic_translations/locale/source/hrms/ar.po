@@ -1210,7 +1210,7 @@ msgstr "مكون الأرباح المعمول به"
 #. Cycle'
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgid "Applicable For"
-msgstr "قابل للتطبيق ل"
+msgstr "ينطبق على"
 
 #. Description of the 'Required for Employee Creation' (Check) field in
 #. DocType
@@ -1905,7 +1905,7 @@ msgstr "تفاصيل البنك"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:155
 msgid "Bank Entries"
-msgstr "مدخلات البنك"
+msgstr "قيود بنكية"
 
 #. Label of the bank_name (Data) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -1930,7 +1930,7 @@ msgstr "الأساسي"
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "Base & Variable"
-msgstr "قاعدة ومتغير"
+msgstr "أساسي ومتغير"
 
 #. Label of the begin_on (Int) field in DocType 'Employee Boarding Activity'
 #: hrms/hr/doctype/employee_boarding_activity/employee_boarding_activity.json

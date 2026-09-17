@@ -1638,7 +1638,7 @@ msgstr "تطبيق الإجازة الخلفية مقيد. يرجى تعيين {
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:282
 msgid "Bank Entries"
-msgstr "مدخلات البنك"
+msgstr "قيود بنكية"
 
 #. Name of a report
 #. Label of a Link in the Payroll Workspace

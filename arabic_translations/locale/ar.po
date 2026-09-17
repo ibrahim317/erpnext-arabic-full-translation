@@ -63,7 +63,7 @@ msgstr " قائمة المواد"
 
 #. source: erpnext
 msgid " Default Work In Progress Warehouse "
-msgstr " المستودع الافتراضي للأعمال قيد التنفيذ "
+msgstr " المستودع الافتراضي لـالإنتاج تحت التشغيل "
 
 #. source: erpnext
 msgid " Is Child Table"
@@ -133,11 +133,11 @@ msgstr "\"نبذة عن الشركة\""
 
 #. source: erpnext
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
-msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن شرائها"
+msgstr "\"الأصناف المقدَّمة من الزبائن\" لا يمكن شراؤها أيضًا"
 
 #. source: erpnext
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"الأصناف المقدمة من الزبائن\" لا يمكن أن تحتوي على تكلفة"
+msgstr "\"الأصناف المقدَّمة من الزبائن\" لا يمكن أن تتضمن سعر تقييم"
 
 #. source: hrms
 msgid "\"From Date\" can not be greater than or equal to \"To Date\""
@@ -1822,11 +1822,11 @@ msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">إعداد�
 
 #. source: erpnext
 msgid "<li>Clearance date must be after cheque date for row(s): {0}</li>"
-msgstr "<li>تاريخ المقاصة يجب أن يكون بعد تاريخ الشيك للأصف: {0}</li>"
+msgstr "<li>تاريخ المقاصة يجب أن يكون بعد تاريخ الشيك للصفوف: {0}</li>"
 
 #. source: erpnext
 msgid "<li>Item {0} in row(s) {1} billed more than {2}</li>"
-msgstr "<li>الصنف {0} في الأصف {1} تمت فوترته بأكثر من {2}</li>"
+msgstr "<li>الصنف {0} في الصفوف {1} تمت فوترته بأكثر من {2}</li>"
 
 #. source: erpnext
 msgid "<li>Packed Item {0}: Required {1}, Available {2}</li>"
@@ -1834,7 +1834,7 @@ msgstr "<li>الصنف المعبأ {0}: المطلوب {1}، المتوفر {2}
 
 #. source: erpnext
 msgid "<li>Payment document required for row(s): {0}</li>"
-msgstr "<li>مستند الدفع مطلوب للأصف: {0}</li>"
+msgstr "<li>مستند الدفع مطلوب للصفوف: {0}</li>"
 
 #. source: erpnext
 msgid "<li>{}</li>"
@@ -3179,7 +3179,9 @@ msgstr "الحساب {0}: لا يمكنك جعله حساب رئيسي"
 msgid ""
 "Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal "
 "Entry"
-msgstr "الحساب: <b>{0}</b> هو حساب مشروعات تحت التنفيذ ولا يمكن تحديثه بواسطة قيد اليومية"
+msgstr ""
+"الحساب: <b>{0}</b> هو حساب الأعمال الرأسمالية تحت التنفيذ ولا يمكن تحديثه بواسطة قيد "
+"اليومية"
 
 #. source: erpnext
 msgid "Account: {0} can only be updated via Stock Transactions"
@@ -3553,7 +3555,7 @@ msgstr "فشل الإجراء"
 
 #. source: erpnext
 msgid "Action If Quality Inspection Is Not Submitted"
-msgstr "الإجراء إذا لم يتم ترحيل استقصاء الجودة"
+msgstr "الإجراء إذا لم يتم ترحيل فحص الجودة"
 
 #. source: erpnext
 msgid "Action If Quality Inspection Is Rejected"
@@ -3797,7 +3799,7 @@ msgstr "لا يمكن أن يكون تاريخ الانتهاء الفعلي ق�
 
 #. source: erpnext
 msgid "Actual End Time"
-msgstr "الفعلي وقت الانتهاء"
+msgstr "وقت الانتهاء الفعلي"
 
 #. source: erpnext
 msgid "Actual Expense"
@@ -3861,7 +3863,7 @@ msgstr "تاريخ البدء الفعلي (عبر سجل الدوام)"
 
 #. source: erpnext
 msgid "Actual Start Time"
-msgstr "الفعلي وقت البدء"
+msgstr "وقت البدء الفعلي"
 
 #. source: erpnext
 msgid "Actual Time"
@@ -4609,7 +4611,7 @@ msgstr ""
 "الكمية المحولة الإضافية {0}\n"
 "لا يمكن أن تكون أكبر من {1}.\n"
 "لإصلاح ذلك، قم بزيادة قيمة النسبة المئوية\n"
-"في حقل 'تحويل المواد الخام الزائدة إلى الإنتاج تحت التنفيذ'\n"
+"في حقل 'تحويل المواد الخام الزائدة إلى الإنتاج تحت التشغيل'\n"
 "في إعدادات التصنيع."
 
 #. source: erpnext
@@ -5086,7 +5088,7 @@ msgstr "التقادم بناءً على"
 
 #. source: erpnext
 msgid "Ageing Range"
-msgstr "مدى العمر"
+msgstr "نطاق أعمار الديون"
 
 #. source: erpnext
 msgid "Ageing Report based on {0} up to {1}"
@@ -5416,7 +5418,7 @@ msgstr "تخصيص"
 
 #. source: erpnext
 msgid "Allocate Advances Automatically (FIFO)"
-msgstr "تخصيص السلف تلقائيا (الداخل أولا الخارج أولا)"
+msgstr "تخصيص الدفعات المقدمة تلقائيًا (الوارد أولاً يصرف أولاً)"
 
 #. source: hrms
 msgid "Allocate Based On Leave Policy"
@@ -5780,15 +5782,15 @@ msgstr "السماح بالحجز الجزئي"
 
 #. source: frappe
 msgid "Allow Print for Cancelled"
-msgstr "السماح بالطباعة للإلغاء"
+msgstr "السماح بطباعة المستندات الملغاة"
 
 #. source: frappe
 msgid "Allow Print for Draft"
-msgstr "السماح بالطباعة للمسودة"
+msgstr "السماح بطباعة المسودات"
 
 #. source: erpnext
 msgid "Allow Production on Holidays"
-msgstr "السماح الإنتاج على عطلات"
+msgstr "السماح بالإنتاج في أيام العطلات"
 
 #. source: erpnext
 msgid "Allow Purchase"
@@ -7032,7 +7034,7 @@ msgstr "مكون الأرباح المعمول به"
 
 #. source: frappe
 msgid "Applicable For"
-msgstr "قابل للتطبيق ل"
+msgstr "ينطبق على"
 
 #. source: erpnext
 msgid "Applicable Holiday List"
@@ -8968,7 +8970,7 @@ msgstr "الجمهور"
 
 #. source: frappe
 msgid "Audit System Hooks"
-msgstr "تدقيق خطافات النظام"
+msgstr "تدقيق إجراءات النظام المبرمجة (Hooks)"
 
 #. source: frappe
 msgid "Audit Trail"
@@ -9508,7 +9510,7 @@ msgstr "تقرير الدفعات المتاحة"
 
 #. source: erpnext
 msgid "Available For Use Date"
-msgstr "متاح للاستخدام تاريخ"
+msgstr "تاريخ الإتاحة للاستخدام"
 
 #. source: hrms
 msgid "Available Leave(s)"
@@ -9540,7 +9542,7 @@ msgstr "الكمية المتاحة في المستودع المستهدف"
 
 #. source: erpnext
 msgid "Available Qty at WIP Warehouse"
-msgstr "الكمية المتوفرة في مستودع ويب"
+msgstr "الكمية المتاحة في مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Available Qty at Warehouse"
@@ -10076,7 +10078,7 @@ msgstr "الصرف العكسي للمواد الخام بناءً على"
 
 #. source: erpnext
 msgid "Backflush Raw Materials From Work-in-Progress Warehouse"
-msgstr "الصرف العكسي للمواد الخام من مستودع العمل تحت التشغيل"
+msgstr "الصرف العكسي للمواد الخام من مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Backflush Raw Materials of Subcontract Based On"
@@ -10120,7 +10122,7 @@ msgstr "طباعة في الخلفية (مطلوبة لأكثر من 25 مستن
 
 #. source: frappe
 msgid "Background Workers"
-msgstr "قائمة العمليات"
+msgstr "مُعالجات الخلفية (Background Workers)"
 
 #. source: frappe
 msgid "Backing up Data."
@@ -10359,7 +10361,7 @@ msgstr "حوالة بنكية"
 
 #. source: hrms
 msgid "Bank Entries"
-msgstr "مدخلات البنك"
+msgstr "قيود بنكية"
 
 #. source: erpnext
 msgid "Bank Entries Created"
@@ -10367,7 +10369,7 @@ msgstr "تم إنشاء القيود البنكية"
 
 #. source: erpnext
 msgid "Bank Entry"
-msgstr "حركة بنكية"
+msgstr "قيد بنكي"
 
 #. source: erpnext
 msgid "Bank Entry Created"
@@ -10595,7 +10597,7 @@ msgstr "الأساسي"
 
 #. source: hrms
 msgid "Base & Variable"
-msgstr "قاعدة ومتغير"
+msgstr "أساسي ومتغير"
 
 #. source: erpnext
 msgid "Base Amount"
@@ -10755,7 +10757,7 @@ msgstr "معرف الدُفعة إلزامي"
 
 #. source: erpnext
 msgid "Batch Item Expiry Status"
-msgstr "حالة انتهاء صلاحية الدفعة الصنف"
+msgstr "حالة انتهاء صلاحية دفعة الصنف"
 
 #. source: erpnext
 msgid "Batch Item settings"
@@ -11151,7 +11153,7 @@ msgstr "ساعات الفواتير"
 
 #. source: erpnext
 msgid "Billing Interval"
-msgstr "فواتير الفوترة"
+msgstr "فترة الفوترة"
 
 #. source: erpnext
 msgid "Billing Interval Count"
@@ -12377,7 +12379,7 @@ msgstr "توجيه المكالمات"
 
 #. source: erpnext
 msgid "Call Schedule Row {0}: To time slot should always be ahead of From time slot."
-msgstr "صف جدول المكالمات {0}: يجب أن يكون وقت الانتهاء دائمًا متقدمًا على وقت البدء."
+msgstr "صف جدول المكالمات {0}: يجب أن يكون وقت الانتهاء دائمًا لاحقًا لوقت البدء."
 
 #. source: erpnext
 msgid "Call Summary"
@@ -12501,7 +12503,7 @@ msgstr "يمكن الموافقة عليها بواسطة {0}"
 
 #. source: erpnext
 msgid "Can not close Work Order. Since {0} Job Cards are in Work In Progress state."
-msgstr "لا يمكن إغلاق أمر العمل. نظرًا لوجود {0} بطاقات عمل في حالة العمل قيد التقدم."
+msgstr "لا يمكن إغلاق أمر العمل. نظرًا لوجود {0} بطاقات عمل في حالة الإنتاج تحت التشغيل."
 
 #. source: erpnext
 msgid "Can not filter based on Cashier, if grouped by Cashier"
@@ -13456,11 +13458,11 @@ msgstr "رأس المال"
 
 #. source: erpnext
 msgid "Capital Work In Progress Account"
-msgstr "حساب رأس المال قيد التنفيذ"
+msgstr "حساب الأعمال الرأسمالية تحت التنفيذ"
 
 #. source: erpnext
 msgid "Capital Work in Progress"
-msgstr "العمل الرأسمالي في التقدم"
+msgstr "الأعمال الرأسمالية تحت التنفيذ"
 
 #. source: frappe
 msgid "Capitalization doesn't help very much."
@@ -24254,7 +24256,7 @@ msgstr "تمكين المطابقة التلقائية للطرف"
 
 #. source: erpnext
 msgid "Enable Capital Work in Progress Accounting"
-msgstr "تمكين العمل في رأس المال"
+msgstr "تمكين محاسبة الأعمال الرأسمالية تحت التنفيذ"
 
 #. source: frappe
 msgid "Enable Comments"
@@ -36655,7 +36657,7 @@ msgstr "أسعار الصنف"
 
 #. source: erpnext
 msgid "Item Quality Inspection Parameter"
-msgstr "معلمة تفتيش جودة الصنف"
+msgstr "معلمة فحص جودة الصنف"
 
 #. source: erpnext
 msgid "Item Reference"
@@ -40862,7 +40864,7 @@ msgstr "تم استلام المواد بالفعل مقابل {0} {1}"
 msgid ""
 "Materials needs to be transferred to the work in progress warehouse for the job card "
 "{0}"
-msgstr "يجب نقل المواد إلى مستودع العمل قيد التقدم لبطاقة العمل {0}"
+msgstr "يجب نقل المواد إلى مستودع الإنتاج تحت التشغيل لبطاقة العمل {0}"
 
 #. source: frappe
 msgid "Max 500 records at a time"
@@ -51935,7 +51937,7 @@ msgstr "يرجى تعيين المستودع المستهدف في بطاقة ا
 
 #. source: erpnext
 msgid "Please set the WIP Warehouse in the Job Card"
-msgstr "يرجى تعيين مستودع العمل تحت التنفيذ في بطاقة العمل"
+msgstr "يرجى تعيين مستودع الإنتاج تحت التشغيل في بطاقة العمل"
 
 #. source: erpnext
 msgid ""
@@ -65939,11 +65941,11 @@ msgstr "تخطي تحويل المواد"
 
 #. source: erpnext
 msgid "Skip Material Transfer to WIP"
-msgstr "تخطي تحويل المواد إلى العمل تحت التشغيل"
+msgstr "تخطي تحويل المواد إلى الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Skip Material Transfer to WIP Warehouse"
-msgstr "تخطي نقل المواد إلى مستودع WIP"
+msgstr "تخطي نقل المواد إلى مستودع الإنتاج تحت التشغيل"
 
 #. source: frappe
 msgid "Skip Step"
@@ -70918,7 +70920,7 @@ msgid ""
 "The user will be able to transfer additional materials from the store to the Work in "
 "Progress (WIP) warehouse."
 msgstr ""
-"سيكون المستخدم قادراً على نقل مواد إضافية من المتجر إلى مستودع الأعمال قيد التنفيذ "
+"سيكون المستخدم قادراً على نقل مواد إضافية من المخزن إلى مستودع الإنتاج تحت التشغيل "
 "(WIP)."
 
 #. source: erpnext
@@ -72834,7 +72836,7 @@ msgstr "لا يمكن أن يكون تاريخ الانتهاء قبل تاري�
 
 #. source: erpnext
 msgid "To enable Capital Work in Progress Accounting,"
-msgstr "لتمكين محاسبة العمل الرأسمالي تحت التنفيذ،"
+msgstr "لتمكين محاسبة الأعمال الرأسمالية تحت التنفيذ،"
 
 #. source: frappe
 msgid "To enable it follow the instructions in the following link: {0}"
@@ -74539,7 +74541,7 @@ msgstr "تاريخ التحويل"
 
 #. source: erpnext
 msgid "Transfer Extra Raw Materials to WIP (%)"
-msgstr "تحويل المواد الخام الزائدة إلى المنتجات قيد التصنيع (%)"
+msgstr "تحويل المواد الخام الزائدة إلى الإنتاج تحت التشغيل (%)"
 
 #. source: erpnext
 msgid "Transfer From Warehouses"
@@ -76058,7 +76060,7 @@ msgstr "تم التحديث عبر 'سجل الوقت' (بالدقائق)"
 
 #. source: erpnext
 msgid "Updated {0} Financial Report Row(s) with new category name"
-msgstr "تم تحديث {0} صف/أصف من صفوف التقارير المالية باسم الفئة الجديد."
+msgstr "تم تحديث {0} صف/صفوف من التقارير المالية باسم الفئة الجديد."
 
 #. source: frappe
 msgid "Updated {0} selected {1}. Save the form to keep changes."
@@ -77973,19 +77975,19 @@ msgstr "تحذير: تم فصل وحدة إدارة القروض عن ERPNext."
 
 #. source: erpnext
 msgid "WIP Composite Asset"
-msgstr "أصل مركب قيد التشغيل"
+msgstr "أصل مركب تحت التشغيل"
 
 #. source: erpnext
 msgid "WIP WH"
-msgstr "مستودع قيد التشغيل"
+msgstr "مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "WIP Warehouse"
-msgstr "مستودع WIP"
+msgstr "مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "WIP Work Orders"
-msgstr "أوامر العمل قيد التنفيذ"
+msgstr "أوامر العمل تحت التشغيل"
 
 #. source: erpnext
 msgid "Wages"
@@ -79126,7 +79128,7 @@ msgstr "العمل من المنزل"
 
 #. source: erpnext
 msgid "Work In Progress"
-msgstr "التقدم في العمل"
+msgstr "الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Work Order"
@@ -79230,15 +79232,15 @@ msgstr "ملخص العمل ل {0}"
 
 #. source: erpnext
 msgid "Work in Progress"
-msgstr "التقدم في العمل"
+msgstr "الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Work-in-Progress Warehouse"
-msgstr "مستودع العمل قيد التنفيذ"
+msgstr "مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Work-in-Progress Warehouse is required before Submit"
-msgstr "مستودع أعمال جارية مطلوب قبل التسجيل"
+msgstr "مستودع الإنتاج تحت التشغيل مطلوب قبل الترحيل"
 
 #. source: erpnext
 msgid "Workday"
@@ -82070,7 +82072,7 @@ msgstr "في الامس"
 
 #. source: erpnext
 msgid "you must select Capital Work in Progress Account in accounts table"
-msgstr "يجب عليك تحديد حساب رأس المال قيد التقدم في جدول الحسابات"
+msgstr "يجب عليك تحديد حساب الأعمال الرأسمالية تحت التنفيذ في جدول الحسابات"
 
 #. source: frappe
 msgid "yyyy-mm-dd"
