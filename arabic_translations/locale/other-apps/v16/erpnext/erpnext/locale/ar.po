@@ -6725,7 +6725,7 @@ msgstr "أرفق ملف.csv مفصولًا بفواصل بعمودين، واح�
 #. Importer'
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
 msgid "Attach custom Chart of Accounts file"
-msgstr "إرفاق ملف مخطط الحسابات المخصص"
+msgstr "إرفاق ملف دليل الحسابات المخصص"
 
 #. Label of the attendance_and_leave_details (Tab Break) field in DocType
 #. 'Employee'
@@ -9660,7 +9660,7 @@ msgstr "CC إلى"
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/accounts_setup.json
 msgid "COA Importer"
-msgstr "مستورد شجرة الحسابات"
+msgstr "مستورد دليل الحسابات"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -12628,7 +12628,7 @@ msgstr "تهيئة الحسابات البنكية"
 #. Label of an action in the Onboarding Step 'Review Chart of Accounts'
 #: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
 msgid "Configure Chart of Accounts"
-msgstr "تهيئة شجرة الحسابات"
+msgstr "تهيئة دليل الحسابات"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:45
 msgid "Configure Product Assembly"
@@ -38933,7 +38933,7 @@ msgstr "يرجى إضافة حساب جذر لـ - {0}"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:346
 msgid "Please add a Temporary Opening account in Chart of Accounts"
-msgstr "الرجاء إضافة حساب فتح مؤقت في مخطط الحسابات"
+msgstr "الرجاء إضافة حساب افتتاحي مؤقت في دليل الحسابات"
 
 #: erpnext/crm/doctype/appointment/appointment.py:96
 msgid "Please add a valid Holiday List on Appointment Booking Settings."
@@ -46812,7 +46812,7 @@ msgstr "مراجعة إعدادات الشراء"
 #. Title of an Onboarding Step
 #: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
 msgid "Review Chart of Accounts"
-msgstr "مراجعة شجرة الحسابات"
+msgstr "مراجعة دليل الحسابات"
 
 #. Label of the review_date (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
@@ -52410,7 +52410,7 @@ msgstr "إظهار توفر الأصناف المفصّلة"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Show balances in Chart of Accounts"
-msgstr "إظهار الأرصدة في شجرة الحسابات"
+msgstr "إظهار الأرصدة في دليل الحسابات"
 
 #. Label of the show_barcode_field (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
@@ -59947,7 +59947,7 @@ msgid ""
 "Transactions against the Company already exist! Chart of Accounts can only be "
 "imported for a Company with no transactions."
 msgstr ""
-"المعاملات مقابل الشركة موجودة بالفعل! لا يمكن استيراد شجرة الحسابات إلا لشركة ليس "
+"المعاملات مقابل الشركة موجودة بالفعل! لا يمكن استيراد دليل الحسابات إلا لشركة ليس "
 "لديها معاملات."
 
 #. Description of the 'Credit & Overdue Limits' (Table) field in DocType

@@ -8704,7 +8704,7 @@ msgstr "إرفاق رابط ويب"
 
 #. source: erpnext
 msgid "Attach custom Chart of Accounts file"
-msgstr "إرفاق ملف مخطط الحسابات المخصص"
+msgstr "إرفاق ملف دليل الحسابات المخصص"
 
 #. source: frappe
 msgid "Attach files / urls and add in table."
@@ -12149,7 +12149,7 @@ msgstr "الأمر"
 
 #. source: erpnext
 msgid "COA Importer"
-msgstr "مستورد شجرة الحسابات"
+msgstr "مستورد دليل الحسابات"
 
 #. source: erpnext
 msgid "CODE-39"
@@ -15749,7 +15749,7 @@ msgstr "تكوين المخطط"
 
 #. source: erpnext
 msgid "Configure Chart of Accounts"
-msgstr "تهيئة شجرة الحسابات"
+msgstr "تهيئة دليل الحسابات"
 
 #. source: frappe
 msgid "Configure Columns"
@@ -50280,7 +50280,7 @@ msgstr "يرجى إضافة حساب جذر لـ - {0}"
 
 #. source: erpnext
 msgid "Please add a Temporary Opening account in Chart of Accounts"
-msgstr "الرجاء إضافة حساب فتح مؤقت في مخطط الحسابات"
+msgstr "الرجاء إضافة حساب افتتاحي مؤقت في دليل الحسابات"
 
 #. source: frappe
 msgid "Please add a subject to your email"
@@ -58381,7 +58381,7 @@ msgstr "مراجعة إعدادات الشراء"
 
 #. source: erpnext
 msgid "Review Chart of Accounts"
-msgstr "مراجعة شجرة الحسابات"
+msgstr "مراجعة دليل الحسابات"
 
 #. source: erpnext
 msgid "Review Date"
@@ -65147,7 +65147,7 @@ msgstr "إظهار البيانات الوصفية لخادم المصادقة"
 
 #. source: erpnext
 msgid "Show Balances in Chart Of Accounts"
-msgstr "عرض الأرصدة في شجرة الحسابات"
+msgstr "عرض الأرصدة في دليل الحسابات"
 
 #. source: erpnext
 msgid "Show Barcode Field in Stock Transactions"
@@ -65507,7 +65507,7 @@ msgstr "إظهار توفر الأصناف المفصّلة"
 
 #. source: erpnext
 msgid "Show balances in Chart of Accounts"
-msgstr "إظهار الأرصدة في شجرة الحسابات"
+msgstr "إظهار الأرصدة في دليل الحسابات"
 
 #. source: erpnext
 msgid "Show barcode field in stock transactions"
@@ -74510,7 +74510,7 @@ msgid ""
 "Transactions against the Company already exist! Chart of Accounts can only be "
 "imported for a Company with no transactions."
 msgstr ""
-"المعاملات مقابل الشركة موجودة بالفعل! لا يمكن استيراد شجرة الحسابات إلا لشركة ليس "
+"المعاملات مقابل الشركة موجودة بالفعل! لا يمكن استيراد دليل الحسابات إلا لشركة ليس "
 "لديها معاملات."
 
 #. source: erpnext

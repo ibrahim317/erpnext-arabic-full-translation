@@ -7931,7 +7931,7 @@ msgstr "أرفق ملف.csv مفصولًا بفواصل بعمودين، واح�
 #. Importer'
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
 msgid "Attach custom Chart of Accounts file"
-msgstr "إرفاق ملف مخطط الحسابات المخصص"
+msgstr "إرفاق ملف دليل الحسابات المخصص"
 
 #. Label of the attendance_and_leave_details (Tab Break) field in DocType
 #. 'Employee'
@@ -36645,7 +36645,7 @@ msgstr "يرجى إضافة حساب جذر لـ - {0}"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:302
 msgid "Please add a Temporary Opening account in Chart of Accounts"
-msgstr "الرجاء إضافة حساب فتح مؤقت في مخطط الحسابات"
+msgstr "الرجاء إضافة حساب افتتاحي مؤقت في دليل الحسابات"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:650
 msgid "Please add atleast one Serial No / Batch No"
@@ -48960,7 +48960,7 @@ msgstr "عرض القيمة الإجمالية من الشركات التابع�
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Show Balances in Chart Of Accounts"
-msgstr "عرض الأرصدة في شجرة الحسابات"
+msgstr "عرض الأرصدة في دليل الحسابات"
 
 #. Label of the show_barcode_field (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
@@ -55718,7 +55718,7 @@ msgid ""
 "Transactions against the Company already exist! Chart of Accounts can only be "
 "imported for a Company with no transactions."
 msgstr ""
-"المعاملات مقابل الشركة موجودة بالفعل! لا يمكن استيراد شجرة الحسابات إلا لشركة ليس "
+"المعاملات مقابل الشركة موجودة بالفعل! لا يمكن استيراد دليل الحسابات إلا لشركة ليس "
 "لديها معاملات."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1161
@@ -61177,7 +61177,7 @@ msgid "Bypass credit limit check at sales order"
 msgstr "تجاوز فحص حد الائتمان عند أمر البيع"
 
 msgid "COA Importer"
-msgstr "مستورد شجرة الحسابات"
+msgstr "مستورد دليل الحسابات"
 
 msgid "Calculate Product Bundle price based on child Item's rates"
 msgstr "احتساب سعر حزمة المنتجات بناءً على أسعار الأصناف الفرعية"
@@ -61361,7 +61361,7 @@ msgid "Configure Bank Accounts"
 msgstr "تهيئة الحسابات البنكية"
 
 msgid "Configure Chart of Accounts"
-msgstr "تهيئة شجرة الحسابات"
+msgstr "تهيئة دليل الحسابات"
 
 msgid "Configure Series"
 msgstr "تهيئة التسلسلات"
@@ -63438,7 +63438,7 @@ msgid "Review Buying Settings"
 msgstr "مراجعة إعدادات الشراء"
 
 msgid "Review Chart of Accounts"
-msgstr "مراجعة شجرة الحسابات"
+msgstr "مراجعة دليل الحسابات"
 
 msgid "Review Manufacturing Settings"
 msgstr "مراجعة إعدادات التصنيع"
@@ -63838,7 +63838,7 @@ msgid "Show availability of exploded items"
 msgstr "إظهار توفر الأصناف المفصّلة"
 
 msgid "Show balances in Chart of Accounts"
-msgstr "إظهار الأرصدة في شجرة الحسابات"
+msgstr "إظهار الأرصدة في دليل الحسابات"
 
 msgid "Show barcode field in stock transactions"
 msgstr "إظهار حقل الباركود في معاملات المخزون"
