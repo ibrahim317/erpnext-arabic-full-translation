@@ -1458,7 +1458,7 @@ msgstr "حالة الموافقة يجب أن تكون (موافق عليه) أ�
 #: frontend/src/components/RequestActionSheet.vue:108
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:119
 msgid "Approve"
-msgstr "يعتمد"
+msgstr "اعتماد"
 
 #. Option for the 'Approval Status' (Select) field in DocType 'Expense Claim'
 #. Option for the 'Status' (Select) field in DocType 'Leave Application'
@@ -1468,7 +1468,7 @@ msgstr "يعتمد"
 #: hrms/hr/doctype/leave_application/leave_application.json
 #: hrms/hr/doctype/shift_request/shift_request.json
 msgid "Approved"
-msgstr "موافقة"
+msgstr "معتمد"
 
 #. Label of the approver (Link) field in DocType 'Department Approver'
 #. Label of the approver (Link) field in DocType 'Shift Assignment Tool'
@@ -1845,22 +1845,22 @@ msgstr "الإجازات المتاحة"
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:84
 msgid "Average Feedback Score"
-msgstr "متوسط ​​درجة ردود الفعل"
+msgstr "متوسط درجة التقييم"
 
 #. Label of the average_rating (Rating) field in DocType 'Interview Feedback'
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 #: hrms/public/js/templates/feedback_summary.html:5
 msgid "Average Rating"
-msgstr "متوسط ​​التصنيف"
+msgstr "متوسط التصنيف"
 
 #. Description of the 'Final Score' (Float) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 msgid "Average of Goal Score, Feedback Score, and Self Appraisal Score (out of 5)"
-msgstr "متوسط ​​درجة الأهداف، درجة التغذية المرتدة، ونقاط التقييم الذاتي (من أصل 5)"
+msgstr "متوسط درجة الأهداف، درجة التغذية المرتدة، ونقاط التقييم الذاتي (من أصل 5)"
 
 #: hrms/public/js/templates/interview_feedback.html:16
 msgid "Average rating of demonstrated skills"
-msgstr "متوسط ​​تصنيف المهارات الموضحة"
+msgstr "متوسط تصنيف المهارات الموضحة"
 
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:52
 msgid "Avg Feedback Score"
@@ -2109,7 +2109,7 @@ msgid ""
 "By default, the Final Score is calculated as the average of Goal Score, Feedback "
 "Score, and Self Appraisal Score. Enable this to set a different formula"
 msgstr ""
-"بشكل افتراضي، يتم حساب النتيجة النهائية على أنها متوسط ​​درجة الأهداف، ونقاط التغذية "
+"بشكل افتراضي، يتم حساب النتيجة النهائية على أنها متوسط درجة الأهداف، ونقاط التغذية "
 "المرتدة، ودرجة التقييم الذاتي. تمكين هذا من وضع صيغة مختلفة"
 
 #. Label of the ctc (Currency) field in DocType 'Salary Slip'

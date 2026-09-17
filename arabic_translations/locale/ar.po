@@ -3982,7 +3982,7 @@ msgstr "إضافة جهة اتصال"
 
 #. source: frappe
 msgid "Add Contacts"
-msgstr "اضف جهات اتصال"
+msgstr "إضافة جهات اتصال"
 
 #. source: frappe
 msgid "Add Container"
@@ -4443,8 +4443,8 @@ msgid ""
 "Added HTML in the &lt;head&gt; section of the web page, primarily used for website "
 "verification and SEO"
 msgstr ""
-"وأضاف HTML في القسم &lt;head&gt; من صفحة الويب، تستخدم في المقام الأول للتحقق من "
-"الموقع وSEO"
+"إضافة HTML في قسم &lt;head&gt; من صفحة الويب، تُستخدم في المقام الأول للتحقق من "
+"الموقع وتحسين محركات البحث (SEO)"
 
 #. source: hrms
 msgid "Added On"
@@ -4690,7 +4690,7 @@ msgstr "العناوين و التواصل"
 
 #. source: erpnext
 msgid "Address and Contacts"
-msgstr "عناوين واتصالات"
+msgstr "العناوين وجهات الاتصال"
 
 #. source: frappe
 msgid "Address and other legal information you may want to put in the footer."
@@ -5130,7 +5130,7 @@ msgstr "رسالة وكيل غير متاح"
 
 #. source: erpnext
 msgid "Agents"
-msgstr "عملاء"
+msgstr "الوكلاء"
 
 #. source: frappe
 msgid "Aggregate Field is required to create a number card"
@@ -7289,7 +7289,7 @@ msgstr "التطبيق الآن"
 
 #. source: erpnext
 msgid "Apply On"
-msgstr "تنطبق على"
+msgstr "تطبيق على"
 
 #. source: erpnext
 msgid "Apply Putaway Rule"
@@ -7582,11 +7582,11 @@ msgstr "حالة الموافقة يجب أن تكون (موافق عليه) أ�
 
 #. source: hrms
 msgid "Approve"
-msgstr "يعتمد"
+msgstr "اعتماد"
 
 #. source: hrms
 msgid "Approved"
-msgstr "موافقة"
+msgstr "معتمد"
 
 #. source: hrms
 msgid "Approved Claims (This Month)"
@@ -9620,7 +9620,7 @@ msgstr "متوسط الخصم"
 
 #. source: hrms
 msgid "Average Feedback Score"
-msgstr "متوسط ​​درجة ردود الفعل"
+msgstr "متوسط درجة التقييم"
 
 #. source: erpnext
 msgid "Average Order Value"
@@ -9636,7 +9636,7 @@ msgstr "المعدل المتوسط"
 
 #. source: hrms
 msgid "Average Rating"
-msgstr "متوسط ​​التصنيف"
+msgstr "متوسط التصنيف"
 
 #. source: erpnext
 msgid "Average Response Time"
@@ -9652,7 +9652,7 @@ msgstr "متوسط درجة الأهداف ودرجة التغذية الراج�
 
 #. source: hrms
 msgid "Average of Goal Score, Feedback Score, and Self Appraisal Score (out of 5)"
-msgstr "متوسط ​​درجة الأهداف، درجة التغذية المرتدة، ونقاط التقييم الذاتي (من أصل 5)"
+msgstr "متوسط درجة الأهداف، درجة التغذية المرتدة، ونقاط التقييم الذاتي (من أصل 5)"
 
 #. source: frappe
 msgid "Average of {0}"
@@ -9660,7 +9660,7 @@ msgstr "متوسط {0}"
 
 #. source: hrms
 msgid "Average rating of demonstrated skills"
-msgstr "متوسط ​​تصنيف المهارات الموضحة"
+msgstr "متوسط تصنيف المهارات الموضحة"
 
 #. source: erpnext
 msgid "Average time taken by the supplier to deliver"
@@ -11123,7 +11123,7 @@ msgstr "عنوان الفوترة لا ينتمي إلى {0}"
 
 #. source: erpnext
 msgid "Billing Amount"
-msgstr "قيمة الفواتير"
+msgstr "مبلغ الفوترة"
 
 #. source: erpnext
 msgid "Billing City"
@@ -12072,7 +12072,7 @@ msgid ""
 "By default, the Final Score is calculated as the average of Goal Score, Feedback "
 "Score, and Self Appraisal Score. Enable this to set a different formula"
 msgstr ""
-"بشكل افتراضي، يتم حساب النتيجة النهائية على أنها متوسط ​​درجة الأهداف، ونقاط التغذية "
+"بشكل افتراضي، يتم حساب النتيجة النهائية على أنها متوسط درجة الأهداف، ونقاط التغذية "
 "المرتدة، ودرجة التقييم الذاتي. تمكين هذا من وضع صيغة مختلفة"
 
 #. source: erpnext
@@ -12557,7 +12557,7 @@ msgstr "يمكن فقط إدراج أنواع المستندات التي تم �
 
 #. source: erpnext
 msgid "Can only make payment against unbilled {0}"
-msgstr "يمكن إجراء دفعة فقط مقابل فاتورة غير مدفوعة {0}"
+msgstr "يمكن إجراء الدفع فقط مقابل {0} غير مفوتر"
 
 #. source: erpnext
 msgid ""
@@ -21008,8 +21008,8 @@ msgid ""
 "Different \"States\" this document can exist in. Like \"Open\", \"Pending Approval\" "
 "etc."
 msgstr ""
-"مختلف \"الحالات\" في هذه الوثيقة يمكن أن تكون موجودة في. مثل \"فتح\" أو \"في انتظار "
-"الموافقة\" الخ."
+"الحالات المختلفة التي يمكن أن يوجد بها هذا المستند، مثل \"مفتوح\" و\"في انتظار "
+"الموافقة\" وغيرها."
 
 #. source: erpnext
 msgid "Different 'Source Warehouse' and 'Target Warehouse' can be set for each row."
@@ -49404,7 +49404,7 @@ msgstr "في انتظار المبلغ"
 
 #. source: frappe
 msgid "Pending Approval"
-msgstr "ما زال يحتاج بتصدير"
+msgstr "في انتظار الموافقة"
 
 #. source: hrms
 msgid "Pending Asset Returns"

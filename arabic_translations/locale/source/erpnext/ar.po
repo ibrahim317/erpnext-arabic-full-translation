@@ -1826,7 +1826,7 @@ msgstr ""
 #. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "  "
-msgstr " "
+msgstr "  "
 
 #: erpnext/selling/doctype/quotation/quotation.js:82
 msgid " Address"
@@ -5030,7 +5030,7 @@ msgstr "العناوين و التواصل"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/stock/doctype/manufacturer/manufacturer.json
 msgid "Address and Contacts"
-msgstr "عناوين واتصالات"
+msgstr "العناوين وجهات الاتصال"
 
 #: erpnext/accounts/custom/address.py:33
 msgid ""
@@ -5469,7 +5469,7 @@ msgstr "رسالة وكيل غير متاح"
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Agents"
-msgstr "عملاء"
+msgstr "الوكلاء"
 
 #. Description of a DocType
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -6947,7 +6947,7 @@ msgstr "تطبيق قواعد التسعير متعددة"
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
 msgid "Apply On"
-msgstr "تنطبق على"
+msgstr "تطبيق على"
 
 #. Label of the apply_putaway_rule (Check) field in DocType 'Purchase Receipt'
 #. Label of the apply_putaway_rule (Check) field in DocType 'Stock Entry'
@@ -9825,7 +9825,7 @@ msgstr "عنوان الفوترة لا ينتمي إلى {0}"
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:73
 #: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:50
 msgid "Billing Amount"
-msgstr "قيمة الفواتير"
+msgstr "مبلغ الفوترة"
 
 #. Label of the billing_city (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
@@ -10869,7 +10869,7 @@ msgstr "لا يمكن الفلترة على أساس (رقم السند)، إذ�
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2862
 #, python-brace-format
 msgid "Can only make payment against unbilled {0}"
-msgstr "يمكن إجراء دفعة فقط مقابل فاتورة غير مدفوعة {0}"
+msgstr "يمكن إجراء الدفع فقط مقابل {0} غير مفوتر"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1513
 #: erpnext/controllers/accounts_controller.py:3175

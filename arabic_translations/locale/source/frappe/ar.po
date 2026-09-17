@@ -4255,7 +4255,7 @@ msgstr "إضافة جهة اتصال"
 
 #: frappe/desk/doctype/event/event.js:38
 msgid "Add Contacts"
-msgstr "اضف جهات اتصال"
+msgstr "إضافة جهات اتصال"
 
 #. Label of the add_container (Check) field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
@@ -4489,8 +4489,8 @@ msgid ""
 "Added HTML in the &lt;head&gt; section of the web page, primarily used for website "
 "verification and SEO"
 msgstr ""
-"وأضاف HTML في القسم &lt;head&gt; من صفحة الويب، تستخدم في المقام الأول للتحقق من "
-"الموقع وSEO"
+"إضافة HTML في قسم &lt;head&gt; من صفحة الويب، تُستخدم في المقام الأول للتحقق من "
+"الموقع وتحسين محركات البحث (SEO)"
 
 #: frappe/core/doctype/log_settings/log_settings.py:81
 #, python-brace-format
@@ -10555,8 +10555,8 @@ msgid ""
 "Different \"States\" this document can exist in. Like \"Open\", \"Pending Approval\" "
 "etc."
 msgstr ""
-"مختلف \"الحالات\" في هذه الوثيقة يمكن أن تكون موجودة في. مثل \"فتح\" أو \"في انتظار "
-"الموافقة\" الخ."
+"الحالات المختلفة التي يمكن أن يوجد بها هذا المستند، مثل \"مفتوح\" و\"في انتظار "
+"الموافقة\" وغيرها."
 
 #. Label of the prefix_digits (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -22457,7 +22457,7 @@ msgstr "معلق"
 #. Request'
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
 msgid "Pending Approval"
-msgstr "ما زال يحتاج بتصدير"
+msgstr "في انتظار الموافقة"
 
 #. Label of the pending_emails (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
