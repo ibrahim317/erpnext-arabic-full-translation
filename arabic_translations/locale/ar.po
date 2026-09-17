@@ -644,7 +644,7 @@ msgstr "تمت مزامنة حدث تقويم Google واحد."
 
 #. source: erpnext
 msgid "1 Loyalty Points = How much base currency?"
-msgstr "1 نقاط الولاء = كم العملة الأساسية؟"
+msgstr "1 نقطة ولاء = كم تساوي بالعملة الأساسية؟"
 
 #. source: frappe
 msgid "1 Report"
@@ -2553,7 +2553,7 @@ msgstr ""
 
 #. source: frappe
 msgid "A word by itself is easy to guess."
-msgstr "كلمة في حد ذاتها هي سهلة التخمين."
+msgstr "يسهل تخمين الكلمة بمفردها."
 
 #. source: hrms
 msgid "A {0} exists between {1} and {2} ("
@@ -4327,7 +4327,7 @@ msgstr "إضافة علامة تبويب جديدة"
 
 #. source: frappe
 msgid "Add numbers or special characters."
-msgstr "أضف أرقاماً أو رموزاً خاصة."
+msgstr "إضافة أرقام أو رموز خاصة."
 
 #. source: erpnext
 msgid "Add or Deduct"
@@ -4998,7 +4998,7 @@ msgstr "مقابل طلب الزبون {0}"
 
 #. source: erpnext
 msgid "Against Delivery Note Item"
-msgstr "ضد بند إشعار التسليم"
+msgstr "ضد صنف إشعار التسليم"
 
 #. source: erpnext
 msgid "Against Docname"
@@ -5046,7 +5046,7 @@ msgstr "مقابل فاتورة المبيعات"
 
 #. source: erpnext
 msgid "Against Sales Invoice Item"
-msgstr "مقابل بند فاتورة المبيعات"
+msgstr "مقابل صنف فاتورة المبيعات"
 
 #. source: erpnext
 msgid "Against Sales Order"
@@ -5054,7 +5054,7 @@ msgstr "مقابل أمر بيع"
 
 #. source: erpnext
 msgid "Against Sales Order Item"
-msgstr "مقابل بند أمر بيع"
+msgstr "مقابل صنف أمر بيع"
 
 #. source: erpnext
 msgid "Against Stock Entry"
@@ -5352,7 +5352,7 @@ msgstr "جميع الأصناف مطلوبة بالفعل"
 
 #. source: erpnext
 msgid "All items have already been Invoiced/Returned"
-msgstr "تم بالفعل تحرير / إرجاع جميع العناصر"
+msgstr "تم بالفعل تحرير / إرجاع جميع الأصناف"
 
 #. source: erpnext
 msgid "All items have already been received"
@@ -5416,7 +5416,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "All these items have already been Invoiced/Returned"
-msgstr "تم بالفعل إصدار فاتورة / إرجاع جميع هذه العناصر"
+msgstr "تم بالفعل إصدار فاتورة / إرجاع جميع هذه الأصناف"
 
 #. source: frappe
 msgid "All-uppercase is almost as easy to guess as all-lowercase."
@@ -5688,7 +5688,7 @@ msgstr "السماح بالتحويلات الداخلية بسعر السوق"
 
 #. source: erpnext
 msgid "Allow Item To Be Added Multiple Times in a Transaction"
-msgstr "السماح بإضافة العنصر عدة مرات في المعاملة"
+msgstr "السماح بإضافة الصنف عدة مرات في المعاملة"
 
 #. source: erpnext
 msgid "Allow Item to Be Added Multiple Times in a Transaction"
@@ -7305,11 +7305,11 @@ msgstr "تطبيق القاعدة على العلامة التجارية"
 
 #. source: erpnext
 msgid "Apply Rule On Item Code"
-msgstr "تطبيق القاعدة على رمز البند"
+msgstr "تطبيق القاعدة على رمز الصنف"
 
 #. source: erpnext
 msgid "Apply Rule On Item Group"
-msgstr "تطبيق القاعدة على مجموعة العناصر"
+msgstr "تطبيق القاعدة على مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Apply Rule On Other"
@@ -7578,7 +7578,7 @@ msgstr "حالة الموافقة"
 
 #. source: hrms
 msgid "Approval Status must be 'Approved' or 'Rejected'"
-msgstr "حالة الموافقة يجب أن تكون (موافق عليه) أو (مرفوض)"
+msgstr "يجب أن تكون حالة الاعتماد 'معتمد' أو 'مرفوض'"
 
 #. source: hrms
 msgid "Approve"
@@ -7905,7 +7905,7 @@ msgstr "وفقًا لوحدة قياس المخزون"
 
 #. source: hrms
 msgid "As per your assigned Salary Structure you cannot apply for benefits"
-msgstr "حسب هيكل الرواتب المعيّن الخاص بك، لا يمكنك التقدم بطلب للحصول على مخصصات"
+msgstr "بناءً على هيكل الرواتب المعيَّن لك، لا يمكنك التقدم بطلب للحصول على مزايا"
 
 #. source: frappe
 msgid ""
@@ -7999,7 +7999,7 @@ msgstr "اسم فئة الأصول"
 
 #. source: erpnext
 msgid "Asset Category is mandatory for Fixed Asset item"
-msgstr "فئة الموجودات إلزامية لبنود الموجودات الثابتة"
+msgstr "فئة الموجودات إلزامية لأصناف الموجودات الثابتة"
 
 #. source: erpnext
 msgid "Asset Depreciation Cost Center"
@@ -8085,7 +8085,7 @@ msgstr "حركة الأصول"
 
 #. source: erpnext
 msgid "Asset Movement Item"
-msgstr "بند حركة الأصول"
+msgstr "صنف حركة الأصول"
 
 #. source: erpnext
 msgid "Asset Movement record {0} created"
@@ -9184,7 +9184,7 @@ msgstr "إنشاء طلب مواد تلقائي"
 
 #. source: frappe
 msgid "Auto Name"
-msgstr "الاسم التلقائي"
+msgstr "تسمية تلقائية"
 
 #. source: erpnext
 msgid "Auto Opt In (For all customers)"
@@ -9424,7 +9424,7 @@ msgstr "إضافة الصنف المفلتر إلى السلة تلقائيًا"
 
 #. source: erpnext
 msgid "Automatically Add Taxes and Charges from Item Tax Template"
-msgstr "إضافة الضرائب والرسوم تلقائيا من قالب الضريبة البند"
+msgstr "إضافة الضرائب والرسوم تلقائيا من قالب الضريبة الصنف"
 
 #. source: frappe
 msgid "Automatically Assign Documents to Users"
@@ -10076,27 +10076,27 @@ msgstr "قيد مخزون مؤرخ"
 
 #. source: erpnext
 msgid "Backflush Materials From WIP Warehouse"
-msgstr "سحب المواد تلقائيًا من مستودع الإنتاج تحت التشغيل"
+msgstr "الصرف التلقائي للمواد من مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Backflush Raw Materials"
-msgstr "الصرف العكسي للمواد الخام"
+msgstr "الصرف التلقائي للمواد الخام"
 
 #. source: erpnext
 msgid "Backflush Raw Materials Based On"
-msgstr "الصرف العكسي للمواد الخام بناءً على"
+msgstr "الصرف التلقائي للمواد الخام بناءً على"
 
 #. source: erpnext
 msgid "Backflush Raw Materials From Work-in-Progress Warehouse"
-msgstr "الصرف العكسي للمواد الخام من مستودع الإنتاج تحت التشغيل"
+msgstr "الصرف التلقائي للمواد الخام من مستودع الإنتاج تحت التشغيل"
 
 #. source: erpnext
 msgid "Backflush Raw Materials of Subcontract Based On"
-msgstr "الصرف العكسي للمواد الخام للتعاقد من الباطن بناءً على"
+msgstr "الصرف التلقائي للمواد الخام للتعاقد من الباطن بناءً على"
 
 #. source: erpnext
 msgid "Backflush raw materials of subcontract based on"
-msgstr "إعادة صرف المواد الخام للتعاقد من الباطن بناءً على"
+msgstr "الصرف التلقائي للمواد الخام للتعاقد من الباطن بناءً على"
 
 #. source: frappe
 msgid "Background Color"
@@ -10877,7 +10877,7 @@ msgstr "الدفعة {0} غير متاحة في المستودع {1}"
 
 #. source: erpnext
 msgid "Batch {0} of Item {1} has expired."
-msgstr "الدفعة {0} للعنصر {1} انتهت صلاحيتها"
+msgstr "الدفعة {0} للصنف {1} انتهت صلاحيتها"
 
 #. source: erpnext
 msgid "Batch {0} of Item {1} is disabled."
@@ -12401,7 +12401,7 @@ msgstr "تم حفظ ملخص المكالمة"
 
 #. source: frappe
 msgid "Call To Action"
-msgstr "دعوة للعمل"
+msgstr "الحث على اتخاذ إجراء"
 
 #. source: frappe
 msgid "Call To Action URL"
@@ -12895,13 +12895,13 @@ msgstr "لا يمكن تغيير نوع المستند المرجعي."
 
 #. source: erpnext
 msgid "Cannot change Service Stop Date for item in row {0}"
-msgstr "لا يمكن تغيير تاريخ إيقاف الخدمة للعنصر الموجود في الصف {0}"
+msgstr "لا يمكن تغيير تاريخ إيقاف الخدمة للصنف الموجود في الصف {0}"
 
 #. source: erpnext
 msgid ""
 "Cannot change Variant properties after stock transaction. You will have to make a new"
 " Item to do this."
-msgstr "لا يمكن تغيير خصائص المتغير بعد معاملة المخزون. سيكون عليك عمل عنصر جديد للقيام بذلك."
+msgstr "لا يمكن تغيير خصائص المتغير بعد معاملة المخزون. سيكون عليك عمل صنف جديد للقيام بذلك."
 
 #. source: erpnext
 msgid ""
@@ -13194,7 +13194,7 @@ msgstr "لا يمكن العثور على صنف أو مستودع بهذا ال
 
 #. source: erpnext
 msgid "Cannot find Item with this Barcode"
-msgstr "لا يمكن العثور على عنصر بهذا الرمز الشريطي"
+msgstr "لا يمكن العثور على صنف بهذا الرمز الشريطي"
 
 #. source: erpnext
 msgid ""
@@ -13340,7 +13340,7 @@ msgstr "لا يمكن تحديد التخويل على أساس الخصم ل {0
 
 #. source: erpnext
 msgid "Cannot set multiple Item Defaults for a company."
-msgstr "لا يمكن تعيين عدة عناصر افتراضية لأي شركة."
+msgstr "لا يمكن تعيين عدة أصناف افتراضية لأي شركة."
 
 #. source: erpnext
 msgid "Cannot set quantity less than delivered quantity"
@@ -15242,7 +15242,7 @@ msgstr "سر الاتصال غير معين"
 
 #. source: erpnext
 msgid "Compact Item Print"
-msgstr "مدمجة البند طباعة"
+msgstr "مدمجة الصنف طباعة"
 
 #. source: erpnext
 msgid "Companies"
@@ -15713,7 +15713,7 @@ msgstr "متغير الشروط والصيغة والمثال"
 
 #. source: erpnext
 msgid "Conditions will be applied on all the selected items combined. "
-msgstr "سيتم تطبيق الشروط على جميع العناصر المختارة مجتمعة. "
+msgstr "سيتم تطبيق الشروط على جميع الأصناف المختارة مجتمعة. "
 
 #. source: hrms
 msgid "Conference"
@@ -15818,7 +15818,7 @@ msgid ""
 "Configure the default Price List when creating a new Purchase transaction. Item "
 "prices will be fetched from this Price List."
 msgstr ""
-"تكوين قائمة الأسعار الافتراضية عند إنشاء معاملة شراء جديدة. سيتم جلب أسعار العناصر من"
+"تكوين قائمة الأسعار الافتراضية عند إنشاء معاملة شراء جديدة. سيتم جلب أسعار الأصناف من"
 " قائمة الأسعار هذه."
 
 #. source: frappe
@@ -16089,7 +16089,7 @@ msgstr "الأصول المستهلكة"
 
 #. source: erpnext
 msgid "Consumed Items"
-msgstr "العناصر المستهلكة"
+msgstr "الأصناف المستهلكة"
 
 #. source: erpnext
 msgid "Consumed Items Cost"
@@ -16713,7 +16713,7 @@ msgstr "تقرير تكلفة الجودة الرديئة"
 
 #. source: erpnext
 msgid "Cost of Purchased Items"
-msgstr "تكلفة البنود التي تم شراؤها"
+msgstr "تكلفة الأصناف التي تم شراؤها"
 
 #. source: erpnext
 msgid "Cost of various activities"
@@ -18596,7 +18596,7 @@ msgstr "الزبون غير مسجل في أي برنامج ولاء"
 
 #. source: erpnext
 msgid "Customer or Item"
-msgstr "زبون أو بند"
+msgstr "زبون أو صنف"
 
 #. source: erpnext
 msgid "Customer required for 'Customerwise Discount'"
@@ -19635,7 +19635,7 @@ msgstr "المجموعة الافتراضية للمواد"
 
 #. source: erpnext
 msgid "Default Item Manufacturer"
-msgstr "الشركة المصنعة الافتراضية للعنصر"
+msgstr "الشركة المصنعة الافتراضية للصنف"
 
 #. source: frappe
 msgid "Default Letter Head"
@@ -19836,8 +19836,8 @@ msgid ""
 "already made some transaction(s) with another UOM. You will need to create a new Item"
 " to use a different Default UOM."
 msgstr ""
-"لا يمكن تغيير وحدة القياس الافتراضية للبند {0} مباشرة لأنك قمت بالفعل ببعض المعاملات "
-"(المعاملة) مع UOM أخرى. ستحتاج إلى إنشاء عنصر جديد لاستخدام واجهة مستخدم افتراضية "
+"لا يمكن تغيير وحدة القياس الافتراضية للصنف {0} مباشرة لأنك قمت بالفعل ببعض المعاملات "
+"(المعاملة) مع UOM أخرى. ستحتاج إلى إنشاء صنف جديد لاستخدام واجهة مستخدم افتراضية "
 "مختلفة."
 
 #. source: erpnext
@@ -20042,7 +20042,7 @@ msgstr "الأيام المتأخرة"
 
 #. source: erpnext
 msgid "Delayed Item Report"
-msgstr "تأخر تقرير البند"
+msgstr "تأخر تقرير الصنف"
 
 #. source: erpnext
 msgid "Delayed Order Report"
@@ -20525,7 +20525,7 @@ msgstr "التسليم إلى"
 
 #. source: erpnext
 msgid "Delivery warehouse required for stock item {0}"
-msgstr "مستودع التسليم مطلوب للبند المستودعي {0}"
+msgstr "مستودع التسليم مطلوب للصنف المستودعي {0}"
 
 #. source: erpnext
 msgid "Demand"
@@ -21020,8 +21020,8 @@ msgid ""
 "Different UOM for items will lead to incorrect (Total) Net Weight value. Make sure "
 "that Net Weight of each item is in the same UOM."
 msgstr ""
-"UOM المختلفة للعناصر سوف ترتبط بقيمة الحجم الصافي الغير صحيحة. تاكد الحجم الصافي لكل "
-"عنصر هي نفس UOM"
+"UOM المختلفة للأصناف سوف ترتبط بقيمة الحجم الصافي الغير صحيحة. تاكد الحجم الصافي لكل "
+"صنف هي نفس UOM"
 
 #. source: frappe
 msgid "Digits"
@@ -21420,7 +21420,7 @@ msgstr "تم تطبيق خصم {} حسب شروط الدفع"
 
 #. source: erpnext
 msgid "Discount on Other Item"
-msgstr "خصم على بند آخر"
+msgstr "خصم على صنف آخر"
 
 #. source: erpnext
 msgid "Discount on Price List Rate (%)"
@@ -22608,7 +22608,7 @@ msgstr "مجموعة أصناف مكررة"
 
 #. source: erpnext
 msgid "Duplicate Item Under Same Parent"
-msgstr "عنصر مكرر تحت نفس الأصل"
+msgstr "صنف مكرر تحت نفس الأصل"
 
 #. source: hrms
 msgid "Duplicate Job Requisition"
@@ -22676,7 +22676,7 @@ msgstr "تم العثور على مجموعة زبائن مكررة في جدو�
 
 #. source: erpnext
 msgid "Duplicate entry against the item code {0} and manufacturer {1}"
-msgstr "إدخال مكرر مقابل رمز العنصر {0} والشركة المصنعة {1}"
+msgstr "إدخال مكرر مقابل رمز الصنف {0} والشركة المصنعة {1}"
 
 #. source: erpnext
 msgid "Duplicate entry: {0}{1}"
@@ -22688,7 +22688,7 @@ msgstr "تكرار الحقل"
 
 #. source: erpnext
 msgid "Duplicate item group found in the item group table"
-msgstr "تم العثور على مجموعة عناصر مكررة في جدول مجموعة الأصناف"
+msgstr "تم العثور على مجموعة أصناف مكررة في جدول مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Duplicate languages found on Dunning Letter Text. Keep only one of them."
@@ -25672,7 +25672,7 @@ msgid ""
 msgstr ""
 "مثال: ABCD. #####. إذا تم ضبط المسلسل ولم يتم ذكر رقم الدفعة في المعاملات، فسيتم "
 "إنشاء رقم الدفعة تلقائيًا استنادًا إلى هذه السلسلة. إذا كنت تريد دائمًا الإشارة صراحة"
-" إلى Batch No لهذا العنصر، فاترك هذا فارغًا. ملاحظة: سيأخذ هذا الإعداد الأولوية على "
+" إلى Batch No لهذا الصنف، فاترك هذا فارغًا. ملاحظة: سيأخذ هذا الإعداد الأولوية على "
 "بادئة Naming Series في إعدادات المخزون."
 
 #. source: erpnext
@@ -26341,7 +26341,7 @@ msgstr "تفسير"
 
 #. source: erpnext
 msgid "Exploded Items"
-msgstr "العناصر المتفجرة"
+msgstr "الأصناف المتفجرة"
 
 #. source: erpnext
 msgid "Exponential Smoothing Forecasting"
@@ -26972,7 +26972,7 @@ msgstr "جلب الصور"
 
 #. source: erpnext
 msgid "Fetch Items from Warehouse"
-msgstr "جلب العناصر من المستودع"
+msgstr "جلب الأصناف من المستودع"
 
 #. source: erpnext
 msgid "Fetch Latest Exchange Rate"
@@ -27959,7 +27959,7 @@ msgstr "إعدادات الأصول الثابتة الافتراضية"
 
 #. source: erpnext
 msgid "Fixed Asset Item must be a non-stock item."
-msgstr "يجب أن يكون بند الأصول الثابتة عنصرا غير مخزون."
+msgstr "يجب أن يكون صنف الأصول الثابتة صنفا غير مخزون."
 
 #. source: erpnext
 msgid "Fixed Asset Register"
@@ -27971,7 +27971,7 @@ msgstr "نسبة دوران الأصول الثابتة"
 
 #. source: erpnext
 msgid "Fixed Asset item {0} cannot be used in BOMs."
-msgstr "لا يمكن استخدام عنصر الأصول الثابتة {0} في قوائم المواد."
+msgstr "لا يمكن استخدام صنف الأصول الثابتة {0} في قوائم المواد."
 
 #. source: erpnext
 msgid "Fixed Assets"
@@ -28055,7 +28055,7 @@ msgstr "التسوية النهائية معلقة"
 
 #. source: erpnext
 msgid "Focus on Item Group filter"
-msgstr "التركيز على عامل تصفية مجموعة العناصر"
+msgstr "التركيز على عامل تصفية مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Focus on search input"
@@ -28117,7 +28117,7 @@ msgstr "متبوع بـ"
 msgid ""
 "Following Material Requests have been raised automatically based on Item's re-order "
 "level"
-msgstr "تم رفع طلبات المواد التالية تلقائيا بناء على مستوى إعادة الطلب للبنود"
+msgstr "تم رفع طلبات المواد التالية تلقائيا بناء على مستوى إعادة الطلب للأصناف"
 
 #. source: frappe
 msgid "Following Report Filters have missing values:"
@@ -28266,10 +28266,10 @@ msgid ""
 "for any 'Product Bundle' item, those values can be entered in the main Item table, "
 "values will be copied to 'Packing List' table."
 msgstr ""
-"لبنود حزمة المنتج والمستودع والرقم المتسلسل ورقم الدفعة ستأخذ بعين الاعتبار من جدول "
-"قائمة التغليف. إذا كان للمستودع ورقم الدفعة نفس البند من بنود التغليف لأي بند من حزمة"
-" المنتج. هذه القيم يمكن ادخالها في جدول البند الرئيسي. والقيم سيتم نسخها إلى جدول "
-"قائمة التغليف."
+"لأصناف حزمة المنتج والمستودع والرقم المتسلسل ورقم الدفعة ستأخذ بعين الاعتبار من جدول "
+"قائمة التغليف. إذا كان للمستودع ورقم الدفعة نفس الصنف من أصناف التغليف لأي صنف من "
+"حزمة المنتج. هذه القيم يمكن ادخالها في جدول الصنف الرئيسي. والقيم سيتم نسخها إلى جدول"
+" قائمة التغليف."
 
 #. source: erpnext
 msgid "For All Stock Asset Accounts"
@@ -28413,11 +28413,11 @@ msgstr "لموضوع ديناميكي، استخدم وسوم Jinja كالتال
 
 #. source: erpnext
 msgid "For an item {0}, quantity must be negative number"
-msgstr "بالنسبة إلى عنصر {0}، يجب أن تكون الكمية رقمًا سالبًا"
+msgstr "بالنسبة إلى صنف {0}، يجب أن تكون الكمية رقمًا سالبًا"
 
 #. source: erpnext
 msgid "For an item {0}, quantity must be positive number"
-msgstr "بالنسبة إلى عنصر {0}، يجب أن تكون الكمية رقمًا موجبًا"
+msgstr "بالنسبة إلى صنف {0}، يجب أن تكون الكمية رقمًا موجبًا"
 
 #. source: frappe
 msgid ""
@@ -28591,7 +28591,7 @@ msgstr "بالنسبة إلى الصف {0}: أدخل الكمية المخطط �
 
 #. source: erpnext
 msgid "For service item"
-msgstr "لعنصر الخدمة"
+msgstr "لصنف الخدمة"
 
 #. source: erpnext
 msgid "For the 'Apply Rule On Other' condition the field {0} is mandatory"
@@ -28918,7 +28918,7 @@ msgstr "تسليم للناقل"
 
 #. source: erpnext
 msgid "Free Item"
-msgstr "بند مجاني"
+msgstr "صنف مجاني"
 
 #. source: erpnext
 msgid "Free Item Rate"
@@ -28930,11 +28930,11 @@ msgstr "تسليم على ظهر السفينة"
 
 #. source: erpnext
 msgid "Free item code is not selected"
-msgstr "لم يتم تحديد رمز العنصر المجاني"
+msgstr "لم يتم تحديد رمز الصنف المجاني"
 
 #. source: erpnext
 msgid "Free item not set in the pricing rule {0}"
-msgstr "عنصر حر غير مضبوط في قاعدة التسعير {0}"
+msgstr "صنف حر غير مضبوط في قاعدة التسعير {0}"
 
 #. source: erpnext
 msgid "Freeze Stocks Older Than (Days)"
@@ -29838,7 +29838,7 @@ msgstr "الحصول على الفواتير على أساس المرشحات"
 
 #. source: erpnext
 msgid "Get Item Locations"
-msgstr "الحصول على مواقع البند"
+msgstr "الحصول على مواقع الصنف"
 
 #. source: frappe
 msgid "Get Items"
@@ -29846,7 +29846,7 @@ msgstr "احصل على البنود"
 
 #. source: erpnext
 msgid "Get Items From"
-msgstr "الحصول على البنود من"
+msgstr "الحصول على الأصناف من"
 
 #. source: erpnext
 msgid "Get Items for Purchase / Transfer"
@@ -29862,7 +29862,7 @@ msgstr "جلب الأصناف من قائمة المواد"
 
 #. source: erpnext
 msgid "Get Items from Material Requests against this Supplier"
-msgstr "الحصول على عناصر من طلبات المواد ضد هذا المورد"
+msgstr "الحصول على أصناف من طلبات المواد ضد هذا المورد"
 
 #. source: erpnext
 msgid "Get Items from Product Bundle"
@@ -30643,7 +30643,7 @@ msgstr "فئة كائن المجموعة"
 
 #. source: erpnext
 msgid "Group Same Items"
-msgstr "تجميع العناصر المتشابهة"
+msgstr "تجميع الأصناف المتشابهة"
 
 #. source: erpnext
 msgid "Group Warehouses cannot be used in transactions. Please change the value of {0}"
@@ -31361,7 +31361,7 @@ msgstr "إخفاء العلامات"
 
 #. source: erpnext
 msgid "Hide Unavailable Items"
-msgstr "إخفاء العناصر غير المتوفرة"
+msgstr "إخفاء الأصناف غير المتوفرة"
 
 #. source: frappe
 msgid "Hide Weekends"
@@ -32465,7 +32465,7 @@ msgid ""
 "If item is a variant of another item then description, image, pricing, taxes etc will"
 " be set from the template unless explicitly specified"
 msgstr ""
-"إذا كان البند هو البديل من بند آخر ثم وصف، صورة، والتسعير، والضرائب سيتم تعيين غيرها "
+"إذا كان الصنف هو البديل من صنف آخر ثم وصف، صورة، والتسعير، والضرائب سيتم تعيين غيرها "
 "من القالب، ما لم يذكر صراحة"
 
 #. source: erpnext
@@ -32621,8 +32621,8 @@ msgid ""
 "If the item is transacting as a Zero Valuation Rate item in this entry, please enable"
 " 'Allow Zero Valuation Rate' in the {0} Item table."
 msgstr ""
-"إذا كان العنصر يتعامل كعنصر سعر تقييم صفري في هذا الإدخال، فالرجاء تمكين \"السماح "
-"بمعدل تقييم صفري\" في جدول العناصر {0}."
+"إذا كان الصنف يتعامل كصنف سعر تقييم صفري في هذا الإدخال، فالرجاء تمكين \"السماح بمعدل"
+" تقييم صفري\" في جدول الأصناف {0}."
 
 #. source: erpnext
 msgid ""
@@ -32726,7 +32726,7 @@ msgstr "إذا كان هذا غير مرغوب فيه، يرجى إلغاء قي
 
 #. source: erpnext
 msgid "If this item has variants, then it cannot be selected in sales orders etc."
-msgstr "إذا كان هذا البند لديها بدائل، فإنه لا يمكن اختيارها في أوامر البيع الخ"
+msgstr "إذا كان هذا الصنف لديها بدائل، فإنه لا يمكن اختيارها في أوامر البيع الخ"
 
 #. source: erpnext
 msgid ""
@@ -32897,11 +32897,11 @@ msgstr "إذا كنت تريد تشغيل العمليات بالتوازي، ف
 
 #. source: erpnext
 msgid "If you {0} {1} quantities of the item {2}, the scheme {3} will be applied on the item."
-msgstr "إذا قمت {0} {1} بكميات العنصر {2}، فسيتم تطبيق المخطط {3} على العنصر."
+msgstr "إذا قمت {0} {1} بكميات الصنف {2}، فسيتم تطبيق المخطط {3} على الصنف."
 
 #. source: erpnext
 msgid "If you {0} {1} worth item {2}, the scheme {3} will be applied on the item."
-msgstr "إذا كنت {0} {1} تستحق العنصر {2}، فسيتم تطبيق النظام {3} على العنصر."
+msgstr "إذا كنت {0} {1} تستحق الصنف {2}، فسيتم تطبيق النظام {3} على الصنف."
 
 #. source: frappe
 msgid ""
@@ -33616,7 +33616,7 @@ msgstr "تضمين الدفعات منتهية الصلاحية"
 
 #. source: erpnext
 msgid "Include Exploded Items"
-msgstr "تشمل البنود المستبعدة"
+msgstr "تشمل الأصناف المستبعدة"
 
 #. source: hrms
 msgid "Include Holidays"
@@ -33624,7 +33624,7 @@ msgstr "تضمين العطلات"
 
 #. source: erpnext
 msgid "Include Item In Manufacturing"
-msgstr "تشمل البند في التصنيع"
+msgstr "تشمل الصنف في التصنيع"
 
 #. source: frappe
 msgid "Include Name Field"
@@ -33672,7 +33672,7 @@ msgstr "قم بتضمين المواد الخام التجميعية الفرع�
 
 #. source: erpnext
 msgid "Include Subcontracted Items"
-msgstr "تضمين العناصر من الباطن"
+msgstr "تضمين الأصناف من الباطن"
 
 #. source: frappe
 msgid "Include Theme from Apps"
@@ -34300,7 +34300,7 @@ msgstr "تثبيت الزمن"
 
 #. source: erpnext
 msgid "Installation date cannot be before delivery date for Item {0}"
-msgstr "تاريخ التركيب لا يمكن أن يكون قبل تاريخ التسليم للبند {0}"
+msgstr "تاريخ التركيب لا يمكن أن يكون قبل تاريخ التسليم للصنف {0}"
 
 #. source: frappe
 msgid "Installed Application"
@@ -34372,7 +34372,7 @@ msgstr "مخزون غير كافٍ للدفعة"
 
 #. source: erpnext
 msgid "Insufficient Stock for Product Bundle Items"
-msgstr "لا يوجد مخزون كافٍ من عناصر حزمة المنتج"
+msgstr "لا يوجد مخزون كافٍ من أصناف حزمة المنتج"
 
 #. source: frappe
 msgid "Insufficient attachment limit"
@@ -34824,7 +34824,7 @@ msgstr "حساب بنكي غير صالح"
 
 #. source: erpnext
 msgid "Invalid Barcode. There is no Item attached to this barcode."
-msgstr "الباركود غير صالح. لا يوجد عنصر مرفق بهذا الرمز الشريطي."
+msgstr "الباركود غير صالح. لا يوجد صنف مرفق بهذا الرمز الشريطي."
 
 #. source: hrms
 msgid "Invalid Benefit Amounts"
@@ -34988,7 +34988,7 @@ msgstr "الصفحة الرئيسية غير صالحة"
 
 #. source: erpnext
 msgid "Invalid Item"
-msgstr "عنصر غير صالح"
+msgstr "صنف غير صالح"
 
 #. source: erpnext
 msgid "Invalid Item Defaults"
@@ -36003,7 +36003,7 @@ msgstr "مجلد"
 
 #. source: erpnext
 msgid "Is Free Item"
-msgstr "البند الحرة"
+msgstr "الصنف الحرة"
 
 #. source: erpnext
 msgid "Is Frozen"
@@ -36123,7 +36123,7 @@ msgstr "قائمة مواد وهمية (Phantom BOM)"
 
 #. source: erpnext
 msgid "Is Phantom Item"
-msgstr "عنصر وهمي"
+msgstr "صنف وهمي"
 
 #. source: frappe
 msgid "Is Primary"
@@ -36275,7 +36275,7 @@ msgstr "صنف مخزون"
 
 #. source: erpnext
 msgid "Is Sub Assembly Item"
-msgstr "عنصر تجميعي"
+msgstr "صنف تجميعي"
 
 #. source: erpnext
 msgid "Is Subcontracted"
@@ -36283,7 +36283,7 @@ msgstr "وتعاقد من الباطن"
 
 #. source: erpnext
 msgid "Is Subcontracted Item"
-msgstr "بند متعاقد عليه من الباطن"
+msgstr "صنف متعاقد عليه من الباطن"
 
 #. source: frappe
 msgid "Is Submittable"
@@ -36403,7 +36403,7 @@ msgstr "نشر"
 
 #. source: erpnext
 msgid "Issued Items Against Work Order"
-msgstr "البنود الصادرة ضد طلب العمل"
+msgstr "الأصناف الصادرة ضد طلب العمل"
 
 #. source: erpnext
 msgid "Issues"
@@ -36421,7 +36421,7 @@ msgstr "قد يستغرق ظهور قيم المخزون الدقيقة بضع �
 
 #. source: erpnext
 msgid "It is needed to fetch Item Details."
-msgstr "هناك حاجة لجلب تفاصيل البند."
+msgstr "هناك حاجة لجلب تفاصيل الصنف."
 
 #. source: frappe
 msgid "It is risky to delete this file: {0}. Please contact your System Manager."
@@ -36495,7 +36495,7 @@ msgstr "قيمة مواصفة الصنف"
 
 #. source: erpnext
 msgid "Item Attribute Values"
-msgstr "قيم سمة العنصر"
+msgstr "قيم سمة الصنف"
 
 #. source: erpnext
 msgid "Item Attributes"
@@ -36503,7 +36503,7 @@ msgstr "خصائص الصنف"
 
 #. source: erpnext
 msgid "Item Balance (Simple)"
-msgstr "البند الرصيد (بسيط)"
+msgstr "الصنف الرصيد (بسيط)"
 
 #. source: erpnext
 msgid "Item Barcode"
@@ -36531,23 +36531,23 @@ msgstr "لا يمكن تغيير رمز السلعة للرقم التسلسلي
 
 #. source: erpnext
 msgid "Item Code required at Row No {0}"
-msgstr "رمز العنصر المطلوب في الصف رقم {0}"
+msgstr "رمز الصنف المطلوب في الصف رقم {0}"
 
 #. source: erpnext
 msgid "Item Code: {0} is not available under warehouse {1}."
-msgstr "رمز العنصر: {0} غير متوفر ضمن المستودع {1}."
+msgstr "رمز الصنف: {0} غير متوفر ضمن المستودع {1}."
 
 #. source: erpnext
 msgid "Item Customer Detail"
-msgstr "تفاصيل الزبون لهذا البند"
+msgstr "تفاصيل الزبون لهذا الصنف"
 
 #. source: erpnext
 msgid "Item Default"
-msgstr "البند الافتراضي"
+msgstr "الصنف الافتراضي"
 
 #. source: erpnext
 msgid "Item Defaults"
-msgstr "البند الافتراضي"
+msgstr "الصنف الافتراضي"
 
 #. source: erpnext
 msgid "Item Description"
@@ -36563,7 +36563,7 @@ msgstr "مجموعة الصنف"
 
 #. source: erpnext
 msgid "Item Group Defaults"
-msgstr "افتراضيات مجموعة العناصر"
+msgstr "افتراضيات مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Item Group Name"
@@ -36571,11 +36571,11 @@ msgstr "اسم مجموعة السلعة"
 
 #. source: erpnext
 msgid "Item Group Tree"
-msgstr "شجرة فئات البنود"
+msgstr "شجرة فئات الأصناف"
 
 #. source: erpnext
 msgid "Item Group not mentioned in item master for item {0}"
-msgstr "فئة البند غير مذكورة في ماستر البند لهذا البند {0}"
+msgstr "فئة الصنف غير مذكورة في ماستر الصنف لهذا الصنف {0}"
 
 #. source: erpnext
 msgid "Item Group wise Discount"
@@ -36587,7 +36587,7 @@ msgstr "مجموعات السلعة"
 
 #. source: erpnext
 msgid "Item Image (if not slideshow)"
-msgstr "صورة البند (إن لم يكن عرض شرائح)"
+msgstr "صورة الصنف (إن لم يكن عرض شرائح)"
 
 #. source: erpnext
 msgid "Item Information"
@@ -36603,7 +36603,7 @@ msgstr "مدة تجهيز المنتج"
 
 #. source: erpnext
 msgid "Item Locations"
-msgstr "مواقع البند"
+msgstr "مواقع الصنف"
 
 #. source: erpnext
 msgid "Item Manager"
@@ -36675,11 +36675,11 @@ msgstr "مرجع الصنف"
 
 #. source: erpnext
 msgid "Item Reorder"
-msgstr "البند إعادة ترتيب"
+msgstr "الصنف إعادة ترتيب"
 
 #. source: erpnext
 msgid "Item Row"
-msgstr "صف العنصر"
+msgstr "صف الصنف"
 
 #. source: erpnext
 msgid "Item Row {0}: {1} {2} does not exist in above '{1}' table"
@@ -36707,7 +36707,7 @@ msgstr "ضريبة الصنف"
 
 #. source: erpnext
 msgid "Item Tax Amount Included in Value"
-msgstr "البند ضريبة المبلغ المدرجة في القيمة"
+msgstr "الصنف ضريبة المبلغ المدرجة في القيمة"
 
 #. source: erpnext
 msgid "Item Tax Rate"
@@ -36715,7 +36715,7 @@ msgstr "معدل ضريبة الصنف"
 
 #. source: erpnext
 msgid "Item Tax Row {0} must have account of type Tax or Income or Expense or Chargeable"
-msgstr "ضريبة البند يجب أن يكون الصف {0} حسابا من نوع الضريبة أو الدخل أو المصاريف أو الرسوم"
+msgstr "ضريبة الصنف يجب أن يكون الصف {0} حسابا من نوع الضريبة أو الدخل أو المصاريف أو الرسوم"
 
 #. source: erpnext
 msgid "Item Tax Row {0}: Account must belong to Company - {1}"
@@ -36723,11 +36723,11 @@ msgstr "صف ضريبة الصنف {0}: يجب أن ينتمي الحساب إل
 
 #. source: erpnext
 msgid "Item Tax Template"
-msgstr "قالب الضريبة البند"
+msgstr "قالب الضريبة الصنف"
 
 #. source: erpnext
 msgid "Item Tax Template Detail"
-msgstr "البند قالب الضريبة التفاصيل"
+msgstr "الصنف قالب الضريبة التفاصيل"
 
 #. source: erpnext
 msgid "Item To Manufacture"
@@ -36763,7 +36763,7 @@ msgstr "متغير الصنف {0} موجود بالفعل مع نفس الخصا
 
 #. source: erpnext
 msgid "Item Variants updated"
-msgstr "تم تحديث متغيرات العنصر"
+msgstr "تم تحديث متغيرات الصنف"
 
 #. source: erpnext
 msgid "Item Warehouse based reposting has been enabled."
@@ -36803,7 +36803,7 @@ msgstr "الصنف والمستودع"
 
 #. source: erpnext
 msgid "Item and Warranty Details"
-msgstr "البند والضمان تفاصيل"
+msgstr "الصنف والضمان تفاصيل"
 
 #. source: frappe
 msgid "Item cannot be added to its own descendants"
@@ -36811,11 +36811,11 @@ msgstr "البند لا يمكن أن تضاف إلى أحفادها"
 
 #. source: erpnext
 msgid "Item for row {0} does not match Material Request"
-msgstr "عنصر الصف {0} لا يتطابق مع طلب المواد"
+msgstr "صنف الصف {0} لا يتطابق مع طلب المواد"
 
 #. source: erpnext
 msgid "Item has variants."
-msgstr "البند لديه متغيرات."
+msgstr "الصنف لديه متغيرات."
 
 #. source: erpnext
 msgid "Item is mandatory in Raw Materials table."
@@ -36869,7 +36869,7 @@ msgstr "إعادة ترحيل تقييم الصنف قيد التقدم. قد ي
 
 #. source: erpnext
 msgid "Item variant {0} exists with same attributes"
-msgstr "متغير العنصر {0} موجود بنفس السمات"
+msgstr "متغير الصنف {0} موجود بنفس السمات"
 
 #. source: erpnext
 msgid "Item with name {0} not found in the Purchase Order"
@@ -36893,7 +36893,7 @@ msgstr "لا يمكن طلب الصنف {0} بأكثر من {1} مقابل ال�
 
 #. source: erpnext
 msgid "Item {0} does not exist"
-msgstr "العنصر {0} غير موجود"
+msgstr "الصنف {0} غير موجود"
 
 #. source: erpnext
 msgid "Item {0} does not exist in the system or has expired"
@@ -36901,7 +36901,7 @@ msgstr "الصنف{0} غير موجود في النظام أو انتهت صلا
 
 #. source: erpnext
 msgid "Item {0} does not exist."
-msgstr "العنصر {0} غير موجود"
+msgstr "الصنف {0} غير موجود"
 
 #. source: erpnext
 msgid "Item {0} entered multiple times."
@@ -36935,7 +36935,7 @@ msgstr "الصنف{0} قد وصل إلى نهاية عمره في {1}"
 
 #. source: erpnext
 msgid "Item {0} ignored since it is not a stock item"
-msgstr "تم تجاهل الصنف {0} لأنه ليس بند مخزون"
+msgstr "تم تجاهل الصنف {0} لأنه ليس صنف مخزون"
 
 #. source: erpnext
 msgid "Item {0} is already reserved/delivered against Sales Order {1}."
@@ -36943,11 +36943,11 @@ msgstr "الصنف {0} محجوز/مسلم بالفعل مقابل أمر الب
 
 #. source: erpnext
 msgid "Item {0} is cancelled"
-msgstr "تم إلغاء العنصر {0}"
+msgstr "تم إلغاء الصنف {0}"
 
 #. source: erpnext
 msgid "Item {0} is disabled"
-msgstr "تم تعطيل البند {0}"
+msgstr "تم تعطيل الصنف {0}"
 
 #. source: erpnext
 msgid "Item {0} is not a drop ship item. Only drop ship items can have Delivered Qty updated."
@@ -36957,11 +36957,11 @@ msgstr ""
 
 #. source: erpnext
 msgid "Item {0} is not a serialized Item"
-msgstr "البند {0} ليس بند لديه رقم تسلسلي"
+msgstr "الصنف {0} ليس صنف لديه رقم تسلسلي"
 
 #. source: erpnext
 msgid "Item {0} is not a stock Item"
-msgstr "العنصر {0} ليس عنصر مخزون"
+msgstr "الصنف {0} ليس صنف مخزون"
 
 #. source: erpnext
 msgid "Item {0} is not a subcontracted item"
@@ -36973,11 +36973,11 @@ msgstr "الصنف {0} ليس صنفاً قالبياً."
 
 #. source: erpnext
 msgid "Item {0} is not active or end of life has been reached"
-msgstr "البند {0} غير نشط أو تم التوصل إلى نهاية الحياة"
+msgstr "الصنف {0} غير نشط أو تم التوصل إلى نهاية الحياة"
 
 #. source: erpnext
 msgid "Item {0} must be a Fixed Asset Item"
-msgstr "البند {0} يجب أن يكون بند أصول ثابتة"
+msgstr "الصنف {0} يجب أن يكون صنف أصول ثابتة"
 
 #. source: erpnext
 msgid "Item {0} must be a Non-Stock Item"
@@ -36985,7 +36985,7 @@ msgstr "يجب أن يكون الصنف {0} صنفًا غير مخزني"
 
 #. source: erpnext
 msgid "Item {0} must be a Sub-contracted Item"
-msgstr "البند {0} يجب أن يكون عنصر التعاقد الفرعي"
+msgstr "الصنف {0} يجب أن يكون صنف التعاقد الفرعي"
 
 #. source: erpnext
 msgid "Item {0} must be a non-stock item"
@@ -37002,12 +37002,12 @@ msgstr "لم يتم العثور على الصنف {0}."
 #. source: erpnext
 msgid "Item {0}: Ordered qty {1} cannot be less than minimum order qty {2} (defined in Item)."
 msgstr ""
-"البند {0} الكمية المطلوبة {1} لا يمكن أن تكون أقل من الحد الأدنى للطلب {2} (المحددة "
-"في البند)."
+"الصنف {0} الكمية المطلوبة {1} لا يمكن أن تكون أقل من الحد الأدنى للطلب {2} (المحددة "
+"في الصنف)."
 
 #. source: erpnext
 msgid "Item {0}: {1} qty produced. "
-msgstr "العنصر {0}: {1} الكمية المنتجة. "
+msgstr "الصنف {0}: {1} الكمية المنتجة. "
 
 #. source: erpnext
 msgid "Item {} does not exist."
@@ -37067,7 +37067,7 @@ msgstr "تصفية الأصناف"
 
 #. source: erpnext
 msgid "Items Required"
-msgstr "العناصر المطلوبة"
+msgstr "الأصناف المطلوبة"
 
 #. source: erpnext
 msgid "Items To Be Received"
@@ -37097,7 +37097,7 @@ msgstr "لا يمكن تحديث الأصناف حيث تم إنشاء أمر ت
 
 #. source: erpnext
 msgid "Items for Raw Material Request"
-msgstr "عناصر لطلب المواد الخام"
+msgstr "أصناف لطلب المواد الخام"
 
 #. source: erpnext
 msgid "Items not found."
@@ -37115,7 +37115,7 @@ msgstr "الأصناف التي سيتم إعادة ترحيلها"
 
 #. source: erpnext
 msgid "Items to Manufacture are required to pull the Raw Materials associated with it."
-msgstr "العناصر المطلوب تصنيعها لسحب المواد الخام المرتبطة بها."
+msgstr "الأصناف المطلوب تصنيعها لسحب المواد الخام المرتبطة بها."
 
 #. source: erpnext
 msgid "Items to Order and Receive"
@@ -37127,7 +37127,7 @@ msgstr "الأصناف المطلوب حجزها"
 
 #. source: erpnext
 msgid "Items under this warehouse will be suggested"
-msgstr "وسيتم اقتراح العناصر الموجودة تحت هذا المستودع"
+msgstr "وسيتم اقتراح الأصناف الموجودة تحت هذا المستودع"
 
 #. source: erpnext
 msgid "Items {0} do not exist in the Item master."
@@ -38180,7 +38180,7 @@ msgstr "آخر ظهور"
 
 #. source: erpnext
 msgid "Last Stock Transaction for item {0} under warehouse {1} was on {2}."
-msgstr "كانت آخر معاملة مخزون للبند {0} تحت المستودع {1} في {2}."
+msgstr "كانت آخر معاملة مخزون للصنف {0} تحت المستودع {1} في {2}."
 
 #. source: frappe
 msgid "Last Sync On"
@@ -40676,7 +40676,7 @@ msgstr "جدول الإنتاج الرئيسي"
 
 #. source: erpnext
 msgid "Master Production Schedule Item"
-msgstr "بند من بنود جدول الإنتاج الرئيسي"
+msgstr "صنف من أصناف جدول الإنتاج الرئيسي"
 
 #. source: erpnext
 msgid "Masters"
@@ -40768,7 +40768,7 @@ msgstr "طلب مواد لا"
 
 #. source: erpnext
 msgid "Material Request Plan Item"
-msgstr "المادة طلب خطة البند"
+msgstr "المادة طلب خطة الصنف"
 
 #. source: erpnext
 msgid "Material Request Type"
@@ -40784,7 +40784,7 @@ msgstr "لم يتم إنشاء طلب المواد، ككمية للمواد ا�
 
 #. source: erpnext
 msgid "Material Request of maximum {0} can be made for Item {1} against Sales Order {2}"
-msgstr "المادة يمكن طلب الحد الأقصى {0} للبند {1} من أمر المبيعات {2}"
+msgstr "المادة يمكن طلب الحد الأقصى {0} للصنف {1} من أمر المبيعات {2}"
 
 #. source: erpnext
 msgid "Material Request used to make this Stock Entry"
@@ -41090,13 +41090,13 @@ msgstr "الحد الأقصى للأصناف القابلة للإنتاج"
 
 #. source: erpnext
 msgid "Maximum Samples - {0} can be retained for Batch {1} and Item {2}."
-msgstr "الحد الأقصى للعينات - {0} يمكن الاحتفاظ بالدفعة {1} والبند {2}."
+msgstr "الحد الأقصى للعينات - {0} يمكن الاحتفاظ بالدفعة {1} والصنف {2}."
 
 #. source: erpnext
 msgid ""
 "Maximum Samples - {0} have already been retained for Batch {1} and Item {2} in Batch "
 "{3}."
-msgstr "الحد الأقصى للعينات - {0} تم الاحتفاظ به مسبقا للدفعة {1} و العنصر {2} في الدفعة {3}."
+msgstr "الحد الأقصى للعينات - {0} تم الاحتفاظ به مسبقا للدفعة {1} و الصنف {2} في الدفعة {3}."
 
 #. source: erpnext
 msgid "Maximum Use"
@@ -42203,7 +42203,7 @@ msgstr "حرك"
 
 #. source: erpnext
 msgid "Move Item"
-msgstr "حرك بند"
+msgstr "حرك صنف"
 
 #. source: erpnext
 msgid "Move Stock"
@@ -43589,7 +43589,7 @@ msgstr "لم يتم تحديد موعد لأي مقابلة."
 
 #. source: erpnext
 msgid "No Item with Barcode {0}"
-msgstr "أي عنصر مع الباركود {0}"
+msgstr "أي صنف مع الباركود {0}"
 
 #. source: erpnext
 msgid "No Item with Serial No {0}"
@@ -43605,7 +43605,7 @@ msgstr "لا توجد أصناف لها قائمة مواد للتصنيع أو 
 
 #. source: erpnext
 msgid "No Items with Bill of Materials."
-msgstr "لا توجد عناصر مع جدول المواد."
+msgstr "لا توجد أصناف مع جدول المواد."
 
 #. source: frappe
 msgid "No LDAP User found for email: {0}"
@@ -44171,7 +44171,7 @@ msgstr "لا توجد أصناف متاحة في أمر البيع {0} للإن�
 
 #. source: erpnext
 msgid "No items found. Scan barcode again."
-msgstr "لم يتم العثور على العناصر. امسح الباركود ضوئيًا مرة أخرى."
+msgstr "لم يتم العثور على الأصناف. امسح الباركود ضوئيًا مرة أخرى."
 
 #. source: erpnext
 msgid "No items in cart"
@@ -44355,7 +44355,7 @@ msgstr "لا تتوفر صورة لهذه الصفحة."
 
 #. source: erpnext
 msgid "No pending Material Requests found to link for the given items."
-msgstr "لم يتم العثور على طلبات المواد المعلقة للربط للعناصر المحددة."
+msgstr "لم يتم العثور على طلبات المواد المعلقة للربط للأصناف المحددة."
 
 #. source: frappe
 msgid "No permission for {0}"
@@ -44673,7 +44673,7 @@ msgstr "لا شيء"
 
 #. source: erpnext
 msgid "None of the items have any change in quantity or value."
-msgstr "لا يوجد أي من البنود لديها أي تغيير في كمية أو قيمة."
+msgstr "لا يوجد أي من الأصناف لديها أي تغيير في كمية أو قيمة."
 
 #. source: frappe
 msgid "None: End of Workflow"
@@ -44850,7 +44850,7 @@ msgstr "غير نشطة"
 
 #. source: erpnext
 msgid "Not allow to set alternative item for the item {0}"
-msgstr "لا تسمح بتعيين عنصر بديل للعنصر {0}"
+msgstr "لا تسمح بتعيين صنف بديل للصنف {0}"
 
 #. source: frappe
 msgid "Not allowed for {0}: {1}"
@@ -44992,7 +44992,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Note: Item {0} added multiple times"
-msgstr "ملاحظة: تمت إضافة العنصر {0} عدة مرات"
+msgstr "ملاحظة: تمت إضافة الصنف {0} عدة مرات"
 
 #. source: frappe
 msgid "Note: Multiple sessions will be allowed in case of mobile device"
@@ -45708,7 +45708,7 @@ msgstr "معلق منذ"
 
 #. source: erpnext
 msgid "On Item Quantity"
-msgstr "على كمية البند"
+msgstr "على كمية الصنف"
 
 #. source: hrms
 msgid "On Leave"
@@ -46113,7 +46113,7 @@ msgstr "أظهر فقط زبون مجموعات الزبائن هذه"
 
 #. source: erpnext
 msgid "Only show Items from these Item Groups"
-msgstr "فقط عرض العناصر من مجموعات العناصر هذه"
+msgstr "فقط عرض الأصناف من مجموعات الأصناف هذه"
 
 #. source: frappe
 msgid "Only standard DocTypes are allowed to be customized from Customize Form."
@@ -46489,11 +46489,11 @@ msgstr "أداة إنشاء فاتورة افتتاحية"
 
 #. source: erpnext
 msgid "Opening Invoice Creation Tool Item"
-msgstr "أداة إنشاء فاتورة بند افتتاحية"
+msgstr "أداة إنشاء فاتورة صنف افتتاحية"
 
 #. source: erpnext
 msgid "Opening Invoice Item"
-msgstr "فتح الفاتورة البند"
+msgstr "فتح الفاتورة الصنف"
 
 #. source: erpnext
 msgid "Opening Invoice Tool"
@@ -47036,7 +47036,7 @@ msgstr "الأصلي"
 
 #. source: erpnext
 msgid "Original Item"
-msgstr "البند الأصلي"
+msgstr "الصنف الأصلي"
 
 #. source: frappe
 msgid "Original Value"
@@ -47232,7 +47232,7 @@ msgstr "بدل الفوترة الزائدة (٪)"
 
 #. source: erpnext
 msgid "Over Billing Allowance exceeded for Purchase Receipt Item {0} ({1}) by {2}%"
-msgstr "تم تجاوز بدل الفوترة الزائدة لبند إيصال الشراء {0} ({1}) بنسبة {2}٪"
+msgstr "تم تجاوز بدل الفوترة الزائدة لصنف إيصال الشراء {0} ({1}) بنسبة {2}٪"
 
 #. source: erpnext
 msgid "Over Delivery/Receipt Allowance (%)"
@@ -47650,7 +47650,7 @@ msgstr "فاتورة نقاط البيع"
 
 #. source: erpnext
 msgid "POS Invoice Item"
-msgstr "بند فاتورة نقاط البيع"
+msgstr "صنف فاتورة نقاط البيع"
 
 #. source: erpnext
 msgid "POS Invoice Merge Log"
@@ -47896,11 +47896,11 @@ msgstr "قسيمة التعبئة من إشعار التسليم"
 
 #. source: erpnext
 msgid "Packed Item"
-msgstr "عنصر معبأ"
+msgstr "صنف معبأ"
 
 #. source: erpnext
 msgid "Packed Items"
-msgstr "عناصر معبأة"
+msgstr "أصناف معبأة"
 
 #. source: erpnext
 msgid "Packed Items cannot be transferred internally"
@@ -48216,7 +48216,7 @@ msgstr "الصنف الرئيسي {0} يجب ألا يكون أصلًا ثابت
 
 #. source: erpnext
 msgid "Parent Item {0} must not be a Stock Item"
-msgstr "البند الأب {0} يجب ألا يكون بند مخزون"
+msgstr "الصنف الأب {0} يجب ألا يكون صنف مخزون"
 
 #. source: frappe
 msgid "Parent Label"
@@ -49886,11 +49886,11 @@ msgstr "لا يمكن إنشاء قائمة مواد وهمية للصنف ال�
 
 #. source: erpnext
 msgid "Phantom Item"
-msgstr "عنصر شبح"
+msgstr "صنف شبح"
 
 #. source: erpnext
 msgid "Phantom Item is mandatory"
-msgstr "العنصر الوهمي إلزامي"
+msgstr "الصنف الوهمي إلزامي"
 
 #. source: erpnext
 msgid "Pharmaceutical"
@@ -49938,7 +49938,7 @@ msgstr "قائمة الانتقاء غير مكتملة"
 
 #. source: erpnext
 msgid "Pick List Item"
-msgstr "اختيار عنصر القائمة"
+msgstr "اختيار صنف القائمة"
 
 #. source: erpnext
 msgid "Pick Manually"
@@ -50215,7 +50215,7 @@ msgid ""
 "Please Restock Items and Update the Pick List to continue. To discontinue, cancel the"
 " Pick List."
 msgstr ""
-"يرجى إعادة تخزين العناصر وتحديث قائمة الاختيار للمتابعة. للتوقف، قم بإلغاء قائمة "
+"يرجى إعادة تخزين الأصناف وتحديث قائمة الاختيار للمتابعة. للتوقف، قم بإلغاء قائمة "
 "الاختيار."
 
 #. source: hrms
@@ -50484,7 +50484,7 @@ msgstr "الرجاء انقر على \"إنشاء الجدول الزمني\""
 
 #. source: erpnext
 msgid "Please click on 'Generate Schedule' to fetch Serial No added for Item {0}"
-msgstr "الرجاء النقر على \"إنشاء جدول\" لجلب الرقم التسلسلي المضاف للبند {0}"
+msgstr "الرجاء النقر على \"إنشاء جدول\" لجلب الرقم التسلسلي المضاف للصنف {0}"
 
 #. source: erpnext
 msgid "Please click on 'Generate Schedule' to get schedule"
@@ -50568,7 +50568,7 @@ msgstr "يرجى إنشاء عملية شراء من مستند البيع ال�
 
 #. source: erpnext
 msgid "Please create purchase receipt or purchase invoice for the item {0}"
-msgstr "الرجاء إنشاء إيصال شراء أو فاتورة شراء للعنصر {0}"
+msgstr "الرجاء إنشاء إيصال شراء أو فاتورة شراء للصنف {0}"
 
 #. source: erpnext
 msgid "Please delete Product Bundle {0}, before merging {1} into {2}"
@@ -50596,7 +50596,7 @@ msgstr "من فضلك لا تغيير عناوين القالب."
 
 #. source: erpnext
 msgid "Please do not create more than 500 items at a time"
-msgstr "يرجى عدم إنشاء أكثر من 500 عنصر في وقت واحد"
+msgstr "يرجى عدم إنشاء أكثر من 500 صنف في وقت واحد"
 
 #. source: frappe
 msgid "Please duplicate this to make changes"
@@ -50734,15 +50734,15 @@ msgstr "الرجاء إدخال حساب النفقات"
 
 #. source: erpnext
 msgid "Please enter Item Code to get Batch Number"
-msgstr "الرجاء إدخال رمز العنصر للحصول على رقم الدفعة"
+msgstr "الرجاء إدخال رمز الصنف للحصول على رقم الدفعة"
 
 #. source: erpnext
 msgid "Please enter Item Code to get batch no"
-msgstr "الرجاء إدخال كود البند للحصول على رقم الدفعة"
+msgstr "الرجاء إدخال كود الصنف للحصول على رقم الدفعة"
 
 #. source: erpnext
 msgid "Please enter Item first"
-msgstr "الرجاء إدخال البند أولا"
+msgstr "الرجاء إدخال الصنف أولا"
 
 #. source: erpnext
 msgid "Please enter Maintenance Details first"
@@ -50754,7 +50754,7 @@ msgstr "يرجى إدخال عنوان URL تكوين OpenID"
 
 #. source: erpnext
 msgid "Please enter Planned Qty for Item {0} at row {1}"
-msgstr "الرجاء إدخال الكمية المخططة للبند {0} في الصف {1}"
+msgstr "الرجاء إدخال الكمية المخططة للصنف {0} في الصف {1}"
 
 #. source: erpnext
 msgid "Please enter Preferred Contact Email"
@@ -50762,7 +50762,7 @@ msgstr "الرجاء إدخال البريد إلكتروني المفضل لل�
 
 #. source: erpnext
 msgid "Please enter Production Item first"
-msgstr "الرجاء إدخال بند الإنتاج أولا"
+msgstr "الرجاء إدخال صنف الإنتاج أولا"
 
 #. source: erpnext
 msgid "Please enter Purchase Receipt first"
@@ -51037,7 +51037,7 @@ msgstr "يرجى ذكر قائمة المواد الحالية والجديدة 
 
 #. source: erpnext
 msgid "Please pull items from Delivery Note"
-msgstr "الرجاء سحب البنود من إشعار التسليم"
+msgstr "الرجاء سحب الأصناف من إشعار التسليم"
 
 #. source: erpnext
 msgid "Please rectify and try again."
@@ -51123,15 +51123,15 @@ msgstr "الرجاء اختيار (تطبيق تخفيض على)"
 
 #. source: erpnext
 msgid "Please select BOM against item {0}"
-msgstr "الرجاء اختيار بوم ضد العنصر {0}"
+msgstr "الرجاء اختيار بوم ضد الصنف {0}"
 
 #. source: erpnext
 msgid "Please select BOM for Item in Row {0}"
-msgstr "الرجاء تحديد قائمة المواد للبند في الصف {0}"
+msgstr "الرجاء تحديد قائمة المواد للصنف في الصف {0}"
 
 #. source: erpnext
 msgid "Please select BOM in BOM field for Item {item_code}."
-msgstr "يرجى تحديد قائمة المواد في الحقل (قائمة المواد) للبند {item_code}."
+msgstr "يرجى تحديد قائمة المواد في الحقل (قائمة المواد) للصنف {item_code}."
 
 #. source: erpnext
 msgid "Please select Bank Account"
@@ -51211,7 +51211,7 @@ msgstr "يرجى تحديد تاريخ البدء."
 
 #. source: erpnext
 msgid "Please select Item Code first"
-msgstr "يرجى اختيار رمز البند أولاً"
+msgstr "يرجى اختيار رمز الصنف أولاً"
 
 #. source: erpnext
 msgid "Please select Maintenance Status as Completed or remove Completion Date"
@@ -51243,7 +51243,7 @@ msgstr "الرجاء اختيار قائمة الأسعار"
 
 #. source: erpnext
 msgid "Please select Qty against item {0}"
-msgstr "الرجاء اختيار الكمية ضد العنصر {0}"
+msgstr "الرجاء اختيار الكمية ضد الصنف {0}"
 
 #. source: erpnext
 msgid "Please select Sample Retention Warehouse in Stock Settings first"
@@ -51263,7 +51263,7 @@ msgstr "يرجى تحديد نوع الوردية وتاريخ (تواريخ) ا
 
 #. source: erpnext
 msgid "Please select Start Date and End Date for Item {0}"
-msgstr "الرجاء تحديد تاريخ البدء وتاريخ الانتهاء للبند {0}"
+msgstr "الرجاء تحديد تاريخ البدء وتاريخ الانتهاء للصنف {0}"
 
 #. source: erpnext
 msgid "Please select Stock Asset Account"
@@ -51541,7 +51541,7 @@ msgstr "يرجى اختيار حالة حضور نصف اليوم."
 
 #. source: erpnext
 msgid "Please select item code"
-msgstr "الرجاء تحديد رمز البند"
+msgstr "الرجاء تحديد رمز الصنف"
 
 #. source: erpnext
 msgid "Please select items to reserve."
@@ -51885,7 +51885,7 @@ msgstr "يرجى تعيين التكلفة الإجمالية للموظف عل�
 
 #. source: erpnext
 msgid "Please set filter based on Item or Warehouse"
-msgstr "يرجى ضبط الفلتر على أساس البند أو المخزن"
+msgstr "يرجى ضبط الفلتر على أساس الصنف أو المخزن"
 
 #. source: frappe
 msgid "Please set filters"
@@ -51939,7 +51939,7 @@ msgstr "يرجى تعيين قائمة العطلات."
 
 #. source: erpnext
 msgid "Please set the Item Code first"
-msgstr "يرجى تعيين رمز العنصر أولا"
+msgstr "يرجى تعيين رمز الصنف أولا"
 
 #. source: erpnext
 msgid "Please set the Target Warehouse in the Job Card"
@@ -51993,7 +51993,7 @@ msgstr "يرجى تعيين {0} أولاً."
 
 #. source: erpnext
 msgid "Please set {0} for Batched Item {1}, which is used to set {2} on Submit."
-msgstr "يرجى تعيين {0} للعنصر المجمّع {1}، والذي يتم استخدامه لتعيين {2} عند الترحيل."
+msgstr "يرجى تعيين {0} للصنف المجمّع {1}، والذي يتم استخدامه لتعيين {2} عند الترحيل."
 
 #. source: hrms
 msgid "Please set {0} for Employee {1}"
@@ -52784,7 +52784,7 @@ msgstr "لم يتم تعيين سعر للصنف."
 
 #. source: erpnext
 msgid "Price not found for item {0} in price list {1}"
-msgstr "لم يتم العثور على السعر للعنصر {0} في قائمة الأسعار {1}"
+msgstr "لم يتم العثور على السعر للصنف {0} في قائمة الأسعار {1}"
 
 #. source: erpnext
 msgid "Price or Product Discount"
@@ -52824,7 +52824,7 @@ msgstr "تعليمات قاعدة التسعير"
 
 #. source: erpnext
 msgid "Pricing Rule Item Code"
-msgstr "قاعدة بند التسعير"
+msgstr "قاعدة صنف التسعير"
 
 #. source: erpnext
 msgid "Pricing Rule Item Group"
@@ -53419,7 +53419,7 @@ msgstr "المنتج حزمة مساعدة"
 
 #. source: erpnext
 msgid "Product Bundle Item"
-msgstr "المنتج حزمة البند"
+msgstr "المنتج حزمة الصنف"
 
 #. source: erpnext
 msgid "Product Bundle Parent"
@@ -53459,7 +53459,7 @@ msgstr "السعة الإنتاجية"
 
 #. source: erpnext
 msgid "Production Item"
-msgstr "بند إنتاج"
+msgstr "صنف إنتاج"
 
 #. source: erpnext
 msgid "Production Item Info"
@@ -53479,7 +53479,7 @@ msgstr "خطة إنتاج السلعة"
 
 #. source: erpnext
 msgid "Production Plan Item Reference"
-msgstr "مرجع بند خطة الإنتاج"
+msgstr "مرجع صنف خطة الإنتاج"
 
 #. source: erpnext
 msgid "Production Plan Material Request"
@@ -53499,11 +53499,11 @@ msgstr "خطة الإنتاج لأمر المبيعات"
 
 #. source: erpnext
 msgid "Production Plan Sub Assembly Item"
-msgstr "بند التجميع الفرعي لخطة الإنتاج"
+msgstr "صنف التجميع الفرعي لخطة الإنتاج"
 
 #. source: erpnext
 msgid "Production Plan Sub-assembly Item"
-msgstr "بند التجميع الفرعي لخطة الإنتاج"
+msgstr "صنف التجميع الفرعي لخطة الإنتاج"
 
 #. source: erpnext
 msgid "Production Plan Summary"
@@ -54131,7 +54131,7 @@ msgstr "الأصناف المزوده بأمر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order Item reference is missing in Subcontracting Receipt {0}"
-msgstr "مرجع بند أمر الشراء مفقود في إيصال التعاقد من الباطن {0}"
+msgstr "مرجع صنف أمر الشراء مفقود في إيصال التعاقد من الباطن {0}"
 
 #. source: erpnext
 msgid "Purchase Order Items not received on time"
@@ -54147,7 +54147,7 @@ msgstr "أمر الشراء مطلوب"
 
 #. source: erpnext
 msgid "Purchase Order Required for item {}"
-msgstr "طلب الشراء مطلوب للعنصر {}"
+msgstr "طلب الشراء مطلوب للصنف {}"
 
 #. source: erpnext
 msgid "Purchase Order Trends"
@@ -54155,7 +54155,7 @@ msgstr "اتجهات أمر الشراء"
 
 #. source: erpnext
 msgid "Purchase Order already created for all Sales Order items"
-msgstr "تم إنشاء أمر الشراء بالفعل لجميع بنود أوامر المبيعات"
+msgstr "تم إنشاء أمر الشراء بالفعل لجميع أصناف أوامر المبيعات"
 
 #. source: erpnext
 msgid "Purchase Order number required for Item {0}"
@@ -54179,7 +54179,7 @@ msgstr "عدد أوامر الشراء"
 
 #. source: erpnext
 msgid "Purchase Orders Items Overdue"
-msgstr "أوامر الشراء البنود المتأخرة"
+msgstr "أوامر الشراء الأصناف المتأخرة"
 
 #. source: erpnext
 msgid "Purchase Orders are not allowed for {0} due to a scorecard standing of {1}."
@@ -54231,7 +54231,7 @@ msgstr "إيصال استلام المشتريات مطلوب"
 
 #. source: erpnext
 msgid "Purchase Receipt Required for item {}"
-msgstr "إيصال الشراء مطلوب للعنصر {}"
+msgstr "إيصال الشراء مطلوب للصنف {}"
 
 #. source: erpnext
 msgid "Purchase Receipt Trends"
@@ -54243,7 +54243,7 @@ msgstr "اتجاهات إيصالات الشراء "
 
 #. source: erpnext
 msgid "Purchase Receipt doesn't have any Item for which Retain Sample is enabled."
-msgstr "لا يحتوي إيصال الشراء على أي عنصر تم تمكين الاحتفاظ عينة به."
+msgstr "لا يحتوي إيصال الشراء على أي صنف تم تمكين الاحتفاظ عينة به."
 
 #. source: erpnext
 msgid "Purchase Receipt {0} created."
@@ -54544,7 +54544,7 @@ msgstr "يجب أن تكون كمية صنف المنتج النهائي أكب�
 
 #. source: erpnext
 msgid "Qty of raw materials will be decided based on the qty of the Finished Goods Item"
-msgstr "سيتم تحديد كمية المواد الخام بناءً على الكمية الخاصة ببند البضائع النهائية"
+msgstr "سيتم تحديد كمية المواد الخام بناءً على الكمية الخاصة بصنف البضائع النهائية"
 
 #. source: erpnext
 msgid "Qty scrapped in this cycle, nobody will produce it."
@@ -54844,12 +54844,12 @@ msgid ""
 "Quantity of item obtained after manufacturing / repacking from given quantities of "
 "raw materials"
 msgstr ""
-"الكمية من البنود التي تم الحصول عليها بعد التصنيع / إعادة التعبئة من الكميات المعطاء "
-"من المواد الخام"
+"الكمية من الأصناف التي تم الحصول عليها بعد التصنيع / إعادة التعبئة من الكميات المعطاء"
+" من المواد الخام"
 
 #. source: erpnext
 msgid "Quantity required for Item {0} in row {1}"
-msgstr "الكمية مطلوبة للبند {0} في الصف {1}"
+msgstr "الكمية مطلوبة للصنف {0} في الصف {1}"
 
 #. source: erpnext
 msgid "Quantity should be greater than 0"
@@ -55073,7 +55073,7 @@ msgstr "مبلغ عرض السعر"
 
 #. source: erpnext
 msgid "Quotation Item"
-msgstr "بند المناقصة"
+msgstr "صنف المناقصة"
 
 #. source: erpnext
 msgid "Quotation Lost Reason"
@@ -55354,7 +55354,7 @@ msgstr "تكلفة المواد الخام لكل كمية"
 
 #. source: erpnext
 msgid "Raw Material Item"
-msgstr "بند المواد الخام"
+msgstr "صنف المواد الخام"
 
 #. source: erpnext
 msgid "Raw Material Item Code"
@@ -55680,7 +55680,7 @@ msgstr "استلام نوع الوثيقة"
 
 #. source: erpnext
 msgid "Receipt Items"
-msgstr "بنود الإيصال"
+msgstr "أصناف الإيصال"
 
 #. source: erpnext
 msgid "Receivable"
@@ -55752,7 +55752,7 @@ msgstr "مستلم من"
 
 #. source: erpnext
 msgid "Received Items To Be Billed"
-msgstr "العناصر الواردة إلى أن توصف"
+msgstr "الأصناف الواردة إلى أن توصف"
 
 #. source: erpnext
 msgid "Received On"
@@ -56362,7 +56362,7 @@ msgstr "إشارة: {0} {1}"
 
 #. source: erpnext
 msgid "Reference: {0}, Item Code: {1} and Customer: {2}"
-msgstr "المرجع: {0}، رمز العنصر: {1} والزبون: {2}"
+msgstr "المرجع: {0}، رمز الصنف: {1} والزبون: {2}"
 
 #. source: frappe
 msgid "References"
@@ -56779,7 +56779,7 @@ msgstr "الأيقونات المحذوفة"
 
 #. source: erpnext
 msgid "Removed items with no change in quantity or value."
-msgstr "العناصر إزالتها مع أي تغيير في كمية أو قيمة."
+msgstr "الأصناف إزالتها مع أي تغيير في كمية أو قيمة."
 
 #. source: erpnext
 msgid "Removed {0} rows with zero document count. Please save to persist changes."
@@ -56795,7 +56795,7 @@ msgstr "إعادة تسمية"
 
 #. source: erpnext
 msgid "Rename Attribute Value in Item Attribute."
-msgstr "إعادة تسمية سمة السمة في سمة البند."
+msgstr "إعادة تسمية سمة السمة في سمة الصنف."
 
 #. source: frappe
 msgid "Rename Fieldname"
@@ -56968,7 +56968,7 @@ msgid ""
 "It also updates latest price in all the BOMs."
 msgstr ""
 "استبدال قائمة مواد معينة في جميع قوائم المواد الأخرى التي تُستخدم فيها. سيقوم "
-"باستبدال رابط قائمة المواد القديمة، وتحديث التكلفة، وإعادة إنشاء جدول \"بند تفجير "
+"باستبدال رابط قائمة المواد القديمة، وتحديث التكلفة، وإعادة إنشاء جدول \"صنف تفجير "
 "قائمة المواد\" وفقًا لقائمة المواد الجديدة.\n"
 "كما يقوم بتحديث أحدث سعر في جميع قوائم المواد."
 
@@ -57066,7 +57066,7 @@ msgstr "تقرير المعلومات"
 
 #. source: erpnext
 msgid "Report Line Items"
-msgstr "بنود التقرير"
+msgstr "أصناف التقرير"
 
 #. source: frappe
 msgid "Report Manager"
@@ -57210,7 +57210,7 @@ msgstr "إعادة ترحيل دفتر الأستاذ المحاسبي"
 
 #. source: erpnext
 msgid "Repost Accounting Ledger Items"
-msgstr "بنود إعادة ترحيل دفتر الأستاذ المحاسبي"
+msgstr "أصناف إعادة ترحيل دفتر الأستاذ المحاسبي"
 
 #. source: erpnext
 msgid "Repost Accounting Ledger Settings"
@@ -57230,7 +57230,7 @@ msgstr "إعادة ترحيل تقييم الصنف"
 
 #. source: erpnext
 msgid "Repost Item Valuation restarted for selected failed records."
-msgstr "تمت إعادة تشغيل تقييم العناصر المعاد نشرها للسجلات الفاشلة المحددة."
+msgstr "تمت إعادة تشغيل تقييم الأصناف المعاد نشرها للسجلات الفاشلة المحددة."
 
 #. source: erpnext
 msgid "Repost Only Accounting Ledgers"
@@ -57242,7 +57242,7 @@ msgstr "إعادة ترحيل دفتر أستاذ المدفوعات"
 
 #. source: erpnext
 msgid "Repost Payment Ledger Items"
-msgstr "بنود إعادة ترحيل دفتر أستاذ المدفوعات"
+msgstr "أصناف إعادة ترحيل دفتر أستاذ المدفوعات"
 
 #. source: erpnext
 msgid "Repost Status"
@@ -57466,7 +57466,7 @@ msgstr "طلب للحصول على الاقتباس"
 
 #. source: erpnext
 msgid "Request for Quotation Item"
-msgstr "طلب تسعيرة البند"
+msgstr "طلب تسعيرة الصنف"
 
 #. source: erpnext
 msgid "Request for Quotation Supplier"
@@ -57494,11 +57494,11 @@ msgstr "مطلوب بواسطة (الاسم)"
 
 #. source: erpnext
 msgid "Requested Items To Be Transferred"
-msgstr "العناصر المطلوبة على أن يتم تحويلها"
+msgstr "الأصناف المطلوبة على أن يتم تحويلها"
 
 #. source: erpnext
 msgid "Requested Items to Order and Receive"
-msgstr "العناصر المطلوبة للطلب والاستلام"
+msgstr "الأصناف المطلوبة للطلب والاستلام"
 
 #. source: frappe
 msgid "Requested Numbers"
@@ -58821,7 +58821,7 @@ msgstr "الصف رقم"
 
 #. source: erpnext
 msgid "Row # {0}: Cannot return more than {1} for Item {2}"
-msgstr "الصف # {0}: لا يمكن الارجاع أكثر من {1} للبند {2}"
+msgstr "الصف # {0}: لا يمكن الارجاع أكثر من {1} للصنف {2}"
 
 #. source: frappe
 msgid "Row # {0}: Non administrator user can not set the role {1} to the custom doctype"
@@ -58845,7 +58845,7 @@ msgstr "الصف # {0}: لا يمكن أن يكون المعدل أكبر من �
 
 #. source: erpnext
 msgid "Row # {0}: Returned Item {1} does not exist in {2} {3}"
-msgstr "الصف رقم {0}: العنصر الذي تم إرجاعه {1} غير موجود في {2} {3}"
+msgstr "الصف رقم {0}: الصنف الذي تم إرجاعه {1} غير موجود في {2} {3}"
 
 #. source: erpnext
 msgid "Row #1: Sequence ID must be 1 for Operation {0}."
@@ -58997,23 +58997,23 @@ msgstr "الصف #{0}: لا يمكن إنشاء قيد بروابط مستندا
 
 #. source: erpnext
 msgid "Row #{0}: Cannot delete item {1} which has already been billed."
-msgstr "الصف # {0}: لا يمكن حذف العنصر {1} الذي تم تحرير فاتورة به بالفعل."
+msgstr "الصف # {0}: لا يمكن حذف الصنف {1} الذي تم تحرير فاتورة به بالفعل."
 
 #. source: erpnext
 msgid "Row #{0}: Cannot delete item {1} which has already been delivered"
-msgstr "الصف # {0}: لا يمكن حذف العنصر {1} الذي تم تسليمه بالفعل"
+msgstr "الصف # {0}: لا يمكن حذف الصنف {1} الذي تم تسليمه بالفعل"
 
 #. source: erpnext
 msgid "Row #{0}: Cannot delete item {1} which has already been received"
-msgstr "الصف # {0}: لا يمكن حذف العنصر {1} الذي تم استلامه بالفعل"
+msgstr "الصف # {0}: لا يمكن حذف الصنف {1} الذي تم استلامه بالفعل"
 
 #. source: erpnext
 msgid "Row #{0}: Cannot delete item {1} which has work order assigned to it."
-msgstr "الصف # {0}: لا يمكن حذف العنصر {1} الذي تم تعيين ترتيب العمل إليه."
+msgstr "الصف # {0}: لا يمكن حذف الصنف {1} الذي تم تعيين ترتيب العمل إليه."
 
 #. source: erpnext
 msgid "Row #{0}: Cannot delete item {1} which is already ordered against this Sales Order."
-msgstr "الصف #{0}: لا يمكن حذف العنصر {1} الذي تم طلبه بالفعل مقابل أمر البيع هذا."
+msgstr "الصف #{0}: لا يمكن حذف الصنف {1} الذي تم طلبه بالفعل مقابل أمر البيع هذا."
 
 #. source: erpnext
 msgid ""
@@ -59045,9 +59045,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Row #{0}: Child Item should not be a Product Bundle. Please remove Item {1} and Save"
-msgstr ""
-"الصف رقم {0}: يجب ألا يكون العنصر الفرعي عبارة عن حزمة منتج. يرجى إزالة العنصر {1} "
-"وحفظه"
+msgstr "الصف رقم {0}: يجب ألا يكون الصنف الفرعي عبارة عن حزمة منتج. يرجى إزالة الصنف {1} وحفظه"
 
 #. source: erpnext
 msgid "Row #{0}: Consumed Asset {1} cannot be Draft"
@@ -59227,11 +59225,11 @@ msgstr "الصف رقم {0}: حقلا وقت البدء ووقت الانتها�
 
 #. source: erpnext
 msgid "Row #{0}: Item added"
-msgstr "الصف # {0}: تمت إضافة العنصر"
+msgstr "الصف # {0}: تمت إضافة الصنف"
 
 #. source: erpnext
 msgid "Row #{0}: Item {1} cannot be transferred more than {2} against {3} {4}"
-msgstr "الصف #{0}: لا يمكن نقل العنصر {1} إلى أكثر من {2} مقابل {3} {4}"
+msgstr "الصف #{0}: لا يمكن نقل الصنف {1} إلى أكثر من {2} مقابل {3} {4}"
 
 #. source: erpnext
 msgid "Row #{0}: Item {1} does not exist"
@@ -59263,15 +59261,15 @@ msgstr "الصف رقم {0}: الصنف {1} مضاف بالفعل بنفس ال�
 
 #. source: erpnext
 msgid "Row #{0}: Item {1} is not a Customer Provided Item."
-msgstr "الصف #{0}: العنصر {1} ليس عنصرًا مقدمًا من الزبون."
+msgstr "الصف #{0}: الصنف {1} ليس صنفًا مقدمًا من الزبون."
 
 #. source: erpnext
 msgid ""
 "Row #{0}: Item {1} is not a Serialized/Batched Item. It cannot have a Serial No/Batch"
 " No against it."
 msgstr ""
-"الصف # {0}: العنصر {1} ليس عنصرًا تسلسليًا / مُجمَّع. لا يمكن أن يكون له رقم مسلسل / "
-"لا دفعة ضده."
+"الصف # {0}: الصنف {1} ليس صنفًا تسلسليًا / مُجمَّع. لا يمكن أن يكون له رقم مسلسل / لا"
+" دفعة ضده."
 
 #. source: erpnext
 msgid "Row #{0}: Item {1} is not a part of Subcontracting Inward Order {2}"
@@ -59430,7 +59428,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Row #{0}: Quantity for Item {1} cannot be zero."
-msgstr "الصف # {0}: كمية البند {1} لا يمكن أن يكون صفرا"
+msgstr "الصف # {0}: كمية الصنف {1} لا يمكن أن يكون صفرا"
 
 #. source: erpnext
 msgid "Row #{0}: Quantity must be greater than 0 for Item {1}"
@@ -59568,7 +59566,7 @@ msgstr "الصف # {0}: مطلوب بداية وتاريخ انتهاء الخد
 
 #. source: erpnext
 msgid "Row #{0}: Set Supplier for item {1}"
-msgstr "الصف # {0}: حدد المورد للبند {1}"
+msgstr "الصف # {0}: حدد المورد للصنف {1}"
 
 #. source: erpnext
 msgid ""
@@ -59588,7 +59586,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Row #{0}: Source Warehouse {1} for item {2} cannot be a customer warehouse."
-msgstr "الصف #{0}: لا يمكن أن يكون مستودع المصدر {1} للعنصر {2} مستودع زبون."
+msgstr "الصف #{0}: لا يمكن أن يكون مستودع المصدر {1} للصنف {2} مستودع زبون."
 
 #. source: erpnext
 msgid ""
@@ -59743,7 +59741,7 @@ msgstr "الصف رقم {0}: الحساب {1} ليس من النوع {2}"
 
 #. source: erpnext
 msgid "Row #{0}: {1} can not be negative for item {2}"
-msgstr "الصف # {0}: {1} لا يمكن أن يكون سالبا للبند {2}"
+msgstr "الصف # {0}: {1} لا يمكن أن يكون سالبا للصنف {2}"
 
 #. source: erpnext
 msgid "Row #{0}: {1} is mandatory for the Inventory Dimension {2}."
@@ -59935,7 +59933,7 @@ msgstr "الصف {0}"
 
 #. source: erpnext
 msgid "Row {0} : Operation is required against the raw material item {1}"
-msgstr "الصف {0}: العملية مطلوبة مقابل عنصر المادة الخام {1}"
+msgstr "الصف {0}: العملية مطلوبة مقابل صنف المادة الخام {1}"
 
 #. source: erpnext
 msgid ""
@@ -60035,7 +60033,7 @@ msgstr "الصف {0}: مركز التكلفة {1} لا ينتمي إلى الش�
 
 #. source: erpnext
 msgid "Row {0}: Cost center is required for an item {1}"
-msgstr "الصف {0}: مركز التكلفة مطلوب لعنصر {1}"
+msgstr "الصف {0}: مركز التكلفة مطلوب لصنف {1}"
 
 #. source: erpnext
 msgid "Row {0}: Credit entry can not be linked with a {1}"
@@ -60293,7 +60291,7 @@ msgstr "الصف {0}: لا يمكن تغيير الوردية لأنه تم با
 
 #. source: erpnext
 msgid "Row {0}: Subcontracted Item is mandatory for the raw material {1}"
-msgstr "الصف {0}: العنصر المتعاقد عليه من الباطن إلزامي للمادة الخام {1}"
+msgstr "الصف {0}: الصنف المتعاقد عليه من الباطن إلزامي للمادة الخام {1}"
 
 #. source: erpnext
 msgid "Row {0}: Target Warehouse is mandatory for internal transfers"
@@ -60309,7 +60307,7 @@ msgstr "الصف {0}: تم تخصيص كامل مبلغ المصروف للحس�
 
 #. source: erpnext
 msgid "Row {0}: The item {1}, quantity must be positive number"
-msgstr "الصف {0}: العنصر {1}، يجب أن تكون الكمية رقمًا موجبًا"
+msgstr "الصف {0}: الصنف {1}، يجب أن تكون الكمية رقمًا موجبًا"
 
 #. source: erpnext
 msgid "Row {0}: The {3} Account {1} does not belong to the company {2}"
@@ -60353,7 +60351,7 @@ msgstr "الصف {0}: محطة العمل أو نوع محطة العمل إلز
 
 #. source: erpnext
 msgid "Row {0}: user has not applied the rule {1} on the item {2}"
-msgstr "الصف {0}: لم يطبق المستخدم القاعدة {1} على العنصر {2}"
+msgstr "الصف {0}: لم يطبق المستخدم القاعدة {1} على الصنف {2}"
 
 #. source: hrms
 msgid "Row {0}: {1}"
@@ -61048,7 +61046,7 @@ msgstr "توقعات المبيعات"
 
 #. source: erpnext
 msgid "Sales Forecast Item"
-msgstr "بند توقعات المبيعات"
+msgstr "صنف توقعات المبيعات"
 
 #. source: erpnext
 msgid "Sales Funnel"
@@ -61068,7 +61066,7 @@ msgstr "فاتورة مبيعات المقدمة"
 
 #. source: erpnext
 msgid "Sales Invoice Item"
-msgstr "بند فاتورة مبيعات"
+msgstr "صنف فاتورة مبيعات"
 
 #. source: erpnext
 msgid "Sales Invoice No"
@@ -61188,7 +61186,7 @@ msgstr "مجرى طلبات البيع"
 
 #. source: erpnext
 msgid "Sales Order required for Item {0}"
-msgstr "طلب البيع مطلوب للبند {0}"
+msgstr "طلب البيع مطلوب للصنف {0}"
 
 #. source: erpnext
 msgid ""
@@ -61264,7 +61262,7 @@ msgstr "تباين هدف شريك المبيعات بناءً على مجموع
 
 #. source: erpnext
 msgid "Sales Partner Target Variance based on Item Group"
-msgstr "الفرق المستهدف لشركاء المبيعات استنادًا إلى مجموعة العناصر"
+msgstr "الفرق المستهدف لشركاء المبيعات استنادًا إلى مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Sales Partner Transaction Summary"
@@ -61420,7 +61418,7 @@ msgstr "تم إدخال نفس الحقل أكثر من مرة"
 
 #. source: erpnext
 msgid "Same Item"
-msgstr "نفس البند"
+msgstr "نفس الصنف"
 
 #. source: erpnext
 msgid "Same day"
@@ -61432,7 +61430,7 @@ msgstr "تم إدخال نفس تركيبة الصنف والمستودع بال
 
 #. source: erpnext
 msgid "Same item cannot be entered multiple times."
-msgstr "لا يمكن إدخال البند نفسه عدة مرات."
+msgstr "لا يمكن إدخال الصنف نفسه عدة مرات."
 
 #. source: erpnext
 msgid "Same supplier has been entered multiple times"
@@ -62269,7 +62267,7 @@ msgstr "تحديد الكل"
 
 #. source: erpnext
 msgid "Select Alternate Item"
-msgstr "اختر البند البديل"
+msgstr "اختر الصنف البديل"
 
 #. source: erpnext
 msgid "Select Alternative Items for Sales Order"
@@ -62471,11 +62469,11 @@ msgstr "حدد المقابلة أولاً"
 
 #. source: erpnext
 msgid "Select Items"
-msgstr "اختيار العناصر"
+msgstr "اختيار الأصناف"
 
 #. source: erpnext
 msgid "Select Items based on Delivery Date"
-msgstr "حدد العناصر بناءً على تاريخ التسليم"
+msgstr "حدد الأصناف بناءً على تاريخ التسليم"
 
 #. source: erpnext
 msgid "Select Items for Quality Inspection"
@@ -62483,11 +62481,11 @@ msgstr "حدد الأصناف لفحص الجودة"
 
 #. source: erpnext
 msgid "Select Items to Manufacture"
-msgstr "حدد العناصر لتصنيع"
+msgstr "حدد الأصناف لتصنيع"
 
 #. source: erpnext
 msgid "Select Items to Receive"
-msgstr "اختر العناصر التي ترغب في استلامها"
+msgstr "اختر الأصناف التي ترغب في استلامها"
 
 #. source: erpnext
 msgid "Select Items up to Delivery Date"
@@ -62694,8 +62692,8 @@ msgid ""
 "Select a Supplier from the Default Suppliers of the items below. On selection, a "
 "Purchase Order will be made against items belonging to the selected Supplier only."
 msgstr ""
-"حدد موردًا من الموردين الافتراضيين للعناصر أدناه. عند التحديد، سيتم إجراء طلب الشراء "
-"مقابل العناصر التي تنتمي إلى المورد المحدد فقط."
+"حدد موردًا من الموردين الافتراضيين للأصناف أدناه. عند التحديد، سيتم إجراء طلب الشراء "
+"مقابل الأصناف التي تنتمي إلى المورد المحدد فقط."
 
 #. source: erpnext
 msgid "Select a bank account to reconcile"
@@ -62803,7 +62801,7 @@ msgstr "اختر التاريخ"
 
 #. source: erpnext
 msgid "Select finance book for the item {0} at row {1}"
-msgstr "حدد دفتر تمويل للعنصر {0} في الصف {1}"
+msgstr "حدد دفتر تمويل للصنف {0} في الصف {1}"
 
 #. source: hrms
 msgid "Select if any of the days selected for request are holidays"
@@ -62811,7 +62809,7 @@ msgstr "حدد هذا الخيار إذا كان أي من الأيام المح
 
 #. source: erpnext
 msgid "Select item group"
-msgstr "حدد مجموعة العناصر"
+msgstr "حدد مجموعة الأصناف"
 
 #. source: frappe
 msgctxt "Description of a list view shortcut"
@@ -62845,7 +62843,7 @@ msgstr "اختر الصف {0}"
 
 #. source: erpnext
 msgid "Select template item"
-msgstr "حدد عنصر القالب"
+msgstr "حدد صنف القالب"
 
 #. source: erpnext
 msgid "Select the Bank Account to reconcile."
@@ -62955,7 +62953,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Select variant item code for the template item {0}"
-msgstr "حدد رمز عنصر متغير لعنصر النموذج {0}"
+msgstr "حدد رمز صنف متغير لصنف النموذج {0}"
 
 #. source: erpnext
 msgid ""
@@ -63634,7 +63632,7 @@ msgstr "الرقم المتسلسل {0} لا ينتمي إلى إشعار تسل
 
 #. source: erpnext
 msgid "Serial No {0} does not belong to Item {1}"
-msgstr "الرقم المتسلسل {0} لا ينتمي إلى البند {1}"
+msgstr "الرقم المتسلسل {0} لا ينتمي إلى الصنف {1}"
 
 #. source: erpnext
 msgid "Serial No {0} does not exist"
@@ -64385,7 +64383,7 @@ msgstr "تعيين كمية صنف فاقد المعالجة:"
 
 #. source: erpnext
 msgid "Set rate of sub-assembly item based on BOM"
-msgstr "تعيين معدل عنصر التجميع الفرعي استنادا إلى بوم"
+msgstr "تعيين معدل صنف التجميع الفرعي استنادا إلى بوم"
 
 #. source: frappe
 msgid "Set size in MB"
@@ -64539,11 +64537,11 @@ msgstr "يعيّن 'مستودع الحجز' في كل صف من جدول الأ
 
 #. source: erpnext
 msgid "Sets 'Source Warehouse' in each row of the items table."
-msgstr "يعيّن \"مستودع المصدر\" في كل صف من جدول العناصر."
+msgstr "يعيّن \"مستودع المصدر\" في كل صف من جدول الأصناف."
 
 #. source: erpnext
 msgid "Sets 'Target Warehouse' in each row of the items table."
-msgstr "يعيّن \"المستودع المستهدف\" في كل صف من جدول العناصر."
+msgstr "يعيّن \"المستودع المستهدف\" في كل صف من جدول الأصناف."
 
 #. source: erpnext
 msgid "Sets 'Warehouse' in each row of the Items table."
@@ -65191,7 +65189,7 @@ msgstr "عرض المخزون حسب الأبعاد"
 
 #. source: erpnext
 msgid "Show Disabled Items"
-msgstr "عرض العناصر المعطلة"
+msgstr "عرض الأصناف المعطلة"
 
 #. source: erpnext
 msgid "Show Disabled Warehouses"
@@ -65267,7 +65265,7 @@ msgstr "عرض اسم الصنف"
 
 #. source: erpnext
 msgid "Show Items"
-msgstr "إظهار العناصر"
+msgstr "إظهار الأصناف"
 
 #. source: frappe
 msgid "Show Keyboard Shortcuts"
@@ -66793,7 +66791,7 @@ msgstr "تاريخ بدء فترة الفاتورة الحالية"
 
 #. source: erpnext
 msgid "Start date should be less than end date for Item {0}"
-msgstr "يجب أن يكون تاريخ البدء أقل من تاريخ الانتهاء للعنصر {0}"
+msgstr "يجب أن يكون تاريخ البدء أقل من تاريخ الانتهاء للصنف {0}"
 
 #. source: erpnext
 msgid "Start date should be less than end date for task {0}"
@@ -67099,7 +67097,7 @@ msgstr "تفاصيل قيد المخزون"
 
 #. source: erpnext
 msgid "Stock Entry Item"
-msgstr "بند قيد المخزون"
+msgstr "صنف قيد المخزون"
 
 #. source: erpnext
 msgid "Stock Entry Type"
@@ -67237,7 +67235,7 @@ msgstr "جرد المخزون"
 
 #. source: erpnext
 msgid "Stock Reconciliation Item"
-msgstr "جرد عناصر المخزون"
+msgstr "جرد أصناف المخزون"
 
 #. source: erpnext
 msgid "Stock Reconciliations"
@@ -67603,7 +67601,7 @@ msgstr "رمز صنف التجميع الفرعي"
 
 #. source: erpnext
 msgid "Sub Assembly Item Reference"
-msgstr "مرجع عناصر التجميع الفرعي"
+msgstr "مرجع أصناف التجميع الفرعي"
 
 #. source: erpnext
 msgid "Sub Assembly Item is mandatory"
@@ -67677,11 +67675,11 @@ msgstr "مرتجع تعاقد من الباطن"
 
 #. source: erpnext
 msgid "Subcontracted Item"
-msgstr "البند من الباطن"
+msgstr "الصنف من الباطن"
 
 #. source: erpnext
 msgid "Subcontracted Item To Be Received"
-msgstr "البند المتعاقد عليه من الباطن"
+msgstr "الصنف المتعاقد عليه من الباطن"
 
 #. source: erpnext
 msgid "Subcontracted Purchase Order"
@@ -67729,11 +67727,11 @@ msgstr "عدد الطلبات الواردة من الباطن"
 
 #. source: erpnext
 msgid "Subcontracting Inward Order Item"
-msgstr "بند طلب داخلي للتعاقد من الباطن"
+msgstr "صنف طلب داخلي للتعاقد من الباطن"
 
 #. source: erpnext
 msgid "Subcontracting Inward Order Received Item"
-msgstr "بند تم استلامه من الباطن"
+msgstr "صنف تم استلامه من الباطن"
 
 #. source: erpnext
 msgid "Subcontracting Inward Order Secondary Item"
@@ -67741,7 +67739,7 @@ msgstr "الصنف الثانوي لأمر التعاقد من الباطن ال
 
 #. source: erpnext
 msgid "Subcontracting Inward Order Service Item"
-msgstr "بند خدمة طلب داخلي للتعاقد من الباطن"
+msgstr "صنف خدمة طلب داخلي للتعاقد من الباطن"
 
 #. source: erpnext
 msgid "Subcontracting Order"
@@ -69286,7 +69284,7 @@ msgstr "الفئة الضريبية"
 
 #. source: erpnext
 msgid "Tax Category has been changed to \"Total\" because all the Items are non-stock items"
-msgstr "تم تغيير فئة الضرائب إلى \"توتال\" لأن جميع العناصر هي عناصر غير مخزون"
+msgstr "تم تغيير فئة الضرائب إلى \"توتال\" لأن جميع الأصناف هي أصناف غير مخزون"
 
 #. source: hrms
 msgid "Tax Deducted Till Date"
@@ -69603,7 +69601,7 @@ msgstr "ملف القالب"
 
 #. source: erpnext
 msgid "Template Item"
-msgstr "عنصر القالب"
+msgstr "صنف القالب"
 
 #. source: erpnext
 msgid "Template Item Selected"
@@ -69715,7 +69713,7 @@ msgstr "اسم الاقليم"
 
 #. source: erpnext
 msgid "Territory Target Variance Based On Item Group"
-msgstr "التباين المستهدف للمنطقة بناءً على مجموعة العناصر"
+msgstr "التباين المستهدف للمنطقة بناءً على مجموعة الأصناف"
 
 #. source: erpnext
 msgid "Territory Targets"
@@ -69999,11 +69997,11 @@ msgid ""
 "Transfer entry made against that Work Order instead, then you can set it under this "
 "field."
 msgstr ""
-"يُعرف قيد المخزون من نوع \"التصنيع\" باسم التدفق الرجعي. تُعرف المواد الخام التي يتم "
-"استهلاكها لتصنيع السلع التامة الصنع بالتدفق العكسي.<br><br> عند إنشاء إدخال التصنيع، "
-"يتم إجراء مسح تلقائي لعناصر المواد الخام استنادًا إلى قائمة مكونات الصنف الخاصة بصنف "
-"الإنتاج. إذا كنت تريد إعادة تسريح أصناف المواد الخام استنادًا إلى إدخال نقل المواد "
-"الذي تم إجراؤه مقابل طلب العمل هذا بدلاً من ذلك، فيمكنك تعيينه ضمن هذا الحقل."
+"يُعرف قيد المخزون من نوع \"التصنيع\" بالصرف التلقائي. واستهلاك المواد الخام لتصنيع "
+"المنتجات التامة يُعرف بالصرف التلقائي للمواد.<br><br> عند إنشاء قيد التصنيع، تُصرف "
+"أصناف المواد الخام تلقائيًا استنادًا إلى قائمة مواد صنف الإنتاج. وإذا أردت صرفها "
+"استنادًا إلى قيد نقل المواد المسجل مقابل أمر العمل بدلاً من ذلك، فيمكنك تعيين ذلك في "
+"هذا الحقل."
 
 #. source: frappe
 msgid ""
@@ -70714,7 +70712,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "The selected BOMs are not for the same item"
-msgstr "قوائم المواد المحددة ليست لنفس البند"
+msgstr "قوائم المواد المحددة ليست لنفس الصنف"
 
 #. source: erpnext
 msgid "The selected change account {} doesn't belongs to Company {}."
@@ -70726,7 +70724,7 @@ msgstr "المستند المحدد {0} ليس {1}."
 
 #. source: erpnext
 msgid "The selected item cannot have Batch"
-msgstr "العنصر المحدد لا يمكن أن يكون دفعة"
+msgstr "الصنف المحدد لا يمكن أن يكون دفعة"
 
 #. source: erpnext
 msgid ""
@@ -70747,7 +70745,7 @@ msgstr "حزمة الرقم التسلسلي والدفعة {0} غير مرتب�
 
 #. source: erpnext
 msgid "The serial no {0} does not belong to item {1}"
-msgstr "الرقم التسلسلي {0} لا ينتمي إلى العنصر {1}"
+msgstr "الرقم التسلسلي {0} لا ينتمي إلى الصنف {1}"
 
 #. source: erpnext
 msgid "The shareholder does not belong to this company"
@@ -70951,7 +70949,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "The value of {0} differs between Items {1} and {2}"
-msgstr "تختلف قيمة {0} بين العناصر {1} و {2}"
+msgstr "تختلف قيمة {0} بين الأصناف {1} و {2}"
 
 #. source: frappe
 msgid "The value you pasted was {0} characters long. Max allowed characters is {1}."
@@ -70959,7 +70957,7 @@ msgstr "القيمة التي لصقتها كانت بطول {0} حرفًا. ا�
 
 #. source: erpnext
 msgid "The value {0} is already assigned to an existing Item {1}."
-msgstr "تم تعيين القيمة {0} بالفعل لعنصر موجود {1}."
+msgstr "تم تعيين القيمة {0} بالفعل لصنف موجود {1}."
 
 #. source: erpnext
 msgid ""
@@ -71368,12 +71366,12 @@ msgid ""
 "the 'Copy Fields to Variant' table in Item Variant Settings will be copied to its "
 "variant items."
 msgstr ""
-"هذا العنصر عبارة عن قالب ولا يمكن استخدامه في المعاملات.<br>سيتم نسخ جميع الحقول "
-"الموجودة في جدول \"نسخ الحقول إلى المتغير\" في إعدادات متغير العنصر إلى متغيراته."
+"هذا الصنف عبارة عن قالب ولا يمكن استخدامه في المعاملات.<br>سيتم نسخ جميع الحقول "
+"الموجودة في جدول \"نسخ الحقول إلى المتغير\" في إعدادات متغير الصنف إلى متغيراته."
 
 #. source: erpnext
 msgid "This Item is a Variant of {0} (Template)."
-msgstr "هذا العنصر هو متغير {0} (قالب)."
+msgstr "هذا الصنف هو متغير {0} (قالب)."
 
 #. source: frappe
 msgid "This Kanban Board will be private"
@@ -71752,7 +71750,7 @@ msgstr "هذا هو قسم الجذر ولا يمكن تحريره."
 
 #. source: erpnext
 msgid "This is a root item group and cannot be edited."
-msgstr "هذه هي مجموعة البند الجذرية والتي لا يمكن تحريرها."
+msgstr "هذه هي مجموعة الصنف الجذرية والتي لا يمكن تحريرها."
 
 #. source: erpnext
 msgid "This is a root sales person and cannot be edited."
@@ -72126,8 +72124,8 @@ msgid ""
 "abbreviation is \"SM\", and the item code is \"T-SHIRT\", the item code of the "
 "variant will be \"T-SHIRT-SM\""
 msgstr ""
-"سيتم إلحاق هذا إلى بند رمز للمتغير. على سبيل المثال، إذا اختصار الخاص بك هو \"SM\"، "
-"ورمز البند هو \"T-SHIRT\"، رمز العنصر المتغير سيكون \"T-SHIRT-SM\""
+"سيتم إلحاق هذا إلى صنف رمز للمتغير. على سبيل المثال، إذا اختصار الخاص بك هو \"SM\"، "
+"ورمز الصنف هو \"T-SHIRT\"، رمز الصنف المتغير سيكون \"T-SHIRT-SM\""
 
 #. source: erpnext
 msgid "This will be applied if no naming series is configured in Item master"
@@ -72758,7 +72756,7 @@ msgstr "للسماح بمزيد من التقارير، قم بتحديث الح
 msgid ""
 "To allow over billing, update \"Over Billing Allowance\" in Accounts Settings or the "
 "Item."
-msgstr "للسماح بزيادة الفواتير، حدّث \"Over Billing Allowance\" في إعدادات الحسابات أو العنصر."
+msgstr "للسماح بزيادة الفواتير، حدّث \"Over Billing Allowance\" في إعدادات الحسابات أو الصنف."
 
 #. source: erpnext
 msgid "To allow over ordering, update \"Over Order Allowance\" in Buying Settings."
@@ -72770,7 +72768,7 @@ msgid ""
 " Settings or the Item."
 msgstr ""
 "للسماح بوصول الاستلام / التسليم، قم بتحديث \"الإفراط في الاستلام / بدل التسليم\" في "
-"إعدادات المخزون أو العنصر."
+"إعدادات المخزون أو الصنف."
 
 #. source: hrms
 msgid "To allow this, enable {0} under {1}."
@@ -72900,7 +72898,7 @@ msgstr "لمعرفة المزيد، انقر فوق {0}"
 
 #. source: erpnext
 msgid "To merge, following properties must be same for both items"
-msgstr "لدمج، يجب أن يكون نفس الخصائص التالية ل كلا البندين"
+msgstr "لدمج، يجب أن يكون نفس الخصائص التالية ل كلا الصنفين"
 
 #. source: erpnext
 msgid ""
@@ -72934,7 +72932,7 @@ msgstr "لتعيين الدور {0} للمستخدم {1}، يرجى تعيين �
 msgid ""
 "To still proceed with editing this Attribute Value, enable {0} in Item Variant "
 "Settings."
-msgstr "للاستمرار في تعديل قيمة السمة هذه، قم بتمكين {0} في إعدادات متغير العنصر."
+msgstr "للاستمرار في تعديل قيمة السمة هذه، قم بتمكين {0} في إعدادات متغير الصنف."
 
 #. source: erpnext
 msgid "To submit the invoice without purchase order please set {0} as {1} in {2}"
@@ -74157,7 +74155,7 @@ msgstr "إجمالي {0} ({1})"
 msgid ""
 "Total {0} for all items is zero, may be you should change 'Distribute Charges Based "
 "On'"
-msgstr "إجمالي {0} لجميع العناصر هو صفر، قد يكون عليك تغيير 'توزيع الرسوم على أساس'"
+msgstr "إجمالي {0} لجميع الأصناف هو صفر، قد يكون عليك تغيير 'توزيع الرسوم على أساس'"
 
 #. source: erpnext
 msgid "Total(Amt)"
@@ -75037,7 +75035,7 @@ msgstr "عامل تحويل وحدة القياس"
 
 #. source: erpnext
 msgid "UOM Conversion factor ({0} -> {1}) not found for item: {2}"
-msgstr "معامل تحويل UOM ({0} -> {1}) غير موجود للعنصر: {2}"
+msgstr "معامل تحويل UOM ({0} -> {1}) غير موجود للصنف: {2}"
 
 #. source: erpnext
 msgid "UOM Conversion factor is required in row {0}"
@@ -75902,7 +75900,7 @@ msgstr "تحديث ترتيب دقة الخطافات"
 
 #. source: erpnext
 msgid "Update Items"
-msgstr "تحديث العناصر"
+msgstr "تحديث الأصناف"
 
 #. source: hrms
 msgid "Update Job Applicant"
@@ -77140,7 +77138,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "Valuation Rate for the Item {0}, is required to do accounting entries for {1} {2}."
-msgstr "معدل التقييم للعنصر {0}، مطلوب لإجراء إدخالات محاسبية لـ {1} {2}."
+msgstr "معدل التقييم للصنف {0}، مطلوب لإجراء إدخالات محاسبية لـ {1} {2}."
 
 #. source: erpnext
 msgid "Valuation Rate is mandatory if Opening Stock entered"
@@ -77148,7 +77146,7 @@ msgstr "معدل التقييم إلزامي إذا ادخلت قيمة مبدئ
 
 #. source: erpnext
 msgid "Valuation Rate required for Item {0} at row {1}"
-msgstr "معدل التقييم مطلوب للبند {0} في الصف {1}"
+msgstr "معدل التقييم مطلوب للصنف {0} في الصف {1}"
 
 #. source: erpnext
 msgid "Valuation Type"
@@ -77254,7 +77252,7 @@ msgstr "لا يمكن أن تكون القيمة سالبة لـ {0}: {1}"
 msgid ""
 "Value for Attribute {0} must be within the range of {1} to {2} in the increments of "
 "{3} for Item {4}"
-msgstr "يجب أن تكون قيمة للسمة {0} ضمن مجموعة من {1} إلى {2} في الزيادات من {3} لالبند {4}"
+msgstr "يجب أن تكون قيمة للسمة {0} ضمن مجموعة من {1} إلى {2} في الزيادات من {3} للصنف {4}"
 
 #. source: frappe
 msgid "Value for a check field can be either 0 or 1"
@@ -77410,11 +77408,11 @@ msgstr "الحقل البديل"
 
 #. source: erpnext
 msgid "Variant Item"
-msgstr "عنصر متغير"
+msgstr "صنف متغير"
 
 #. source: erpnext
 msgid "Variant Items"
-msgstr "العناصر المتغيرة"
+msgstr "الأصناف المتغيرة"
 
 #. source: erpnext
 msgid "Variant Of"
@@ -79164,7 +79162,7 @@ msgstr "المواد المستهلكة في أمر العمل"
 
 #. source: erpnext
 msgid "Work Order Item"
-msgstr "بند أمر العمل"
+msgstr "صنف أمر العمل"
 
 #. source: erpnext
 msgid "Work Order Mismatch"
@@ -79200,7 +79198,7 @@ msgstr "لا يمكن إنشاء أمر العمل للسبب التالي:<br> 
 
 #. source: erpnext
 msgid "Work Order cannot be raised against a Item Template"
-msgstr "لا يمكن رفع أمر العمل مقابل قالب العنصر"
+msgstr "لا يمكن رفع أمر العمل مقابل قالب الصنف"
 
 #. source: erpnext
 msgid "Work Order has been {0}"
@@ -80387,7 +80385,7 @@ msgstr "ليس لديك أذونات لإلغاء كافة المستندات ا
 
 #. source: erpnext
 msgid "You do not have permissions to {} items in a {}."
-msgstr "ليس لديك أذونات لـ {} من العناصر في {}."
+msgstr "ليس لديك أذونات لـ {} من الأصناف في {}."
 
 #. source: frappe
 msgid "You don't have access to Report: {0}"
@@ -80467,7 +80465,7 @@ msgstr "لديك رسالة جديدة من: "
 
 #. source: erpnext
 msgid "You have already selected items from {0} {1}"
-msgstr "لقد حددت العناصر من {0} {1}"
+msgstr "لقد حددت الأصناف من {0} {1}"
 
 #. source: erpnext
 msgid "You have been invited to collaborate on the project {0}."
@@ -80611,7 +80609,7 @@ msgstr "يجب تسجيل الدخول لاستخدام هذا النموذج"
 
 #. source: erpnext
 msgid "You must select a customer before adding an item."
-msgstr "يجب عليك تحديد زبون قبل إضافة عنصر."
+msgstr "يجب عليك تحديد زبون قبل إضافة صنف."
 
 #. source: frappe
 msgid "You need the '{0}' permission on {1} {2} to perform this action."
@@ -80998,7 +80996,7 @@ msgstr "كمية صفرية"
 
 #. source: erpnext
 msgid "Zero-Quantity Line Items"
-msgstr "بنود بكمية صفرية"
+msgstr "أصناف بكمية صفرية"
 
 #. source: erpnext
 msgid "Zip File"
@@ -82276,7 +82274,7 @@ msgid ""
 "item"
 msgstr ""
 "{0} يعتمد الاحتفاظ بالعينة على الدُفعة، يُرجى تحديد \"رقم الدُفعة\" للاحتفاظ بعينة من"
-" العنصر"
+" الصنف"
 
 #. source: hrms
 msgid "{0} Row #{1}: Formula is set but {2} is disabled for the Salary Component {3}."
@@ -82619,7 +82617,7 @@ msgstr "{0} لا ينتمي إلى الشركة {1}. يرجى اختيار حس�
 
 #. source: erpnext
 msgid "{0} entered twice in Item Tax"
-msgstr "{0} أدخل مرتين في ضريبة البند"
+msgstr "{0} أدخل مرتين في ضريبة الصنف"
 
 #. source: erpnext
 msgid "{0} entered twice {1} in Item Taxes"
@@ -82937,7 +82935,7 @@ msgstr "{0} ليس رقم هاتف صالحًا"
 
 #. source: erpnext
 msgid "{0} is not a valid Value for Attribute {1} of Item {2}."
-msgstr "{0} ليست قيمة صالحة للسمة {1} للعنصر {2}."
+msgstr "{0} ليست قيمة صالحة للسمة {1} للصنف {2}."
 
 #. source: frappe
 msgid "{0} is not a valid Workflow State. Please update your Workflow and try again."
@@ -83025,7 +83023,7 @@ msgstr "{0} غير معين"
 
 #. source: erpnext
 msgid "{0} is not the default supplier for any items."
-msgstr "{0} ليس المورد الافتراضي لأية عناصر."
+msgstr "{0} ليس المورد الافتراضي لأية أصناف."
 
 #. source: frappe
 msgid "{0} is now default print format for {1} doctype"
@@ -83093,7 +83091,7 @@ msgstr "تم تفكيك {0} صنفاً"
 
 #. source: erpnext
 msgid "{0} items in progress"
-msgstr "{0} العنصر قيد الاستخدام"
+msgstr "{0} الصنف قيد الاستخدام"
 
 #. source: erpnext
 msgid "{0} items lost during process."
@@ -83101,7 +83099,7 @@ msgstr "تم فقدان {0} صنف أثناء العملية."
 
 #. source: erpnext
 msgid "{0} items produced"
-msgstr "{0} عناصر منتجة"
+msgstr "{0} أصناف منتجة"
 
 #. source: erpnext
 msgid "{0} items returned"
@@ -83248,7 +83246,7 @@ msgstr "لم يتم العثور على {0}"
 
 #. source: erpnext
 msgid "{0} not found for item {1}"
-msgstr "{0} لم يتم العثور على العنصر {1}"
+msgstr "{0} لم يتم العثور على الصنف {1}"
 
 #. source: frappe
 msgid "{0} of {1}"
@@ -83512,7 +83510,7 @@ msgstr ""
 
 #. source: erpnext
 msgid "{0} valid serial nos for Item {1}"
-msgstr "{0} أرقام تسلسلية صالحة للبند {1}"
+msgstr "{0} أرقام تسلسلية صالحة للصنف {1}"
 
 #. source: frappe
 msgid "{0} values selected"
@@ -83774,7 +83772,7 @@ msgstr "{0} {1}: قيد محاسبي ل {2} يمكن أن يتم فقط بالع
 
 #. source: erpnext
 msgid "{0} {1}: Cost Center is mandatory for Item {2}"
-msgstr "{0} {1}: مركز التكلفة إلزامي للبند {2}"
+msgstr "{0} {1}: مركز التكلفة إلزامي للصنف {2}"
 
 #. source: erpnext
 msgid "{0} {1}: Cost Center is required for 'Profit and Loss' account {2}."

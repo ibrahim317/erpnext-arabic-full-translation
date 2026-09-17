@@ -1009,7 +1009,7 @@ msgstr ""
 
 #: frappe/utils/password_strength.py:169
 msgid "A word by itself is easy to guess."
-msgstr "كلمة في حد ذاتها هي سهلة التخمين."
+msgstr "يسهل تخمين الكلمة بمفردها."
 
 #. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -1678,7 +1678,7 @@ msgstr "إضافة علامة تبويب جديدة"
 
 #: frappe/utils/password_strength.py:191
 msgid "Add numbers or special characters."
-msgstr "أضف أرقاماً أو رموزاً خاصة."
+msgstr "إضافة أرقام أو رموز خاصة."
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:125
 msgid "Add page break"
@@ -3565,7 +3565,7 @@ msgstr "إرسال التقارير عبر البريد الإلكتروني ا�
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Auto Name"
-msgstr "الاسم التلقائي"
+msgstr "تسمية تلقائية"
 
 #. Name of a DocType
 #. Label of a Workspace Sidebar Item
@@ -4517,7 +4517,7 @@ msgstr "اتصال"
 #. Label of the call_to_action (Data) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Call To Action"
-msgstr "دعوة للعمل"
+msgstr "الحث على اتخاذ إجراء"
 
 #. Label of the call_to_action_url (Data) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json

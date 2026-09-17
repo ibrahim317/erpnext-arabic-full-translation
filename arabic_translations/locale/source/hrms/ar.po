@@ -1453,7 +1453,7 @@ msgstr "حالة الموافقة"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:118
 msgid "Approval Status must be 'Approved' or 'Rejected'"
-msgstr "حالة الموافقة يجب أن تكون (موافق عليه) أو (مرفوض)"
+msgstr "يجب أن تكون حالة الاعتماد 'معتمد' أو 'مرفوض'"
 
 #: frontend/src/components/RequestActionSheet.vue:108
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:119
@@ -1527,7 +1527,7 @@ msgstr "تارخ الوصول"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:41
 msgid "As per your assigned Salary Structure you cannot apply for benefits"
-msgstr "حسب هيكل الرواتب المعيّن الخاص بك، لا يمكنك التقدم بطلب للحصول على مخصصات"
+msgstr "بناءً على هيكل الرواتب المعيَّن لك، لا يمكنك التقدم بطلب للحصول على مزايا"
 
 #. Label of the asset_name (Data) field in DocType 'Full and Final Asset'
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
