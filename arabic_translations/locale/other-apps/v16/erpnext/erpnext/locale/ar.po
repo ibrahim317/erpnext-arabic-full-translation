@@ -35551,12 +35551,12 @@ msgstr "أوامر"
 #: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:30
 #: erpnext/desktop_icon/organization.json erpnext/workspace_sidebar/organization.json
 msgid "Organization"
-msgstr "منظمة"
+msgstr "المؤسسة"
 
 #. Label of the company_name (Data) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "Organization Name"
-msgstr "اسم المنظمة"
+msgstr "اسم المؤسسة"
 
 #. Label of the original_item (Link) field in DocType 'BOM Item'
 #. Label of the original_item (Link) field in DocType 'Stock Entry Detail'
@@ -51832,7 +51832,7 @@ msgstr "إعداد حساب البريد الإلكتروني"
 #. Title of the Module Onboarding 'Organization Onboarding'
 #: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
 msgid "Setup Organization"
-msgstr "إعداد المنشأة"
+msgstr "إعداد المؤسسة"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Setup Role Permissions'

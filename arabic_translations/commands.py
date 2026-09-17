@@ -60,4 +60,25 @@ def restore_original_translations(site=None):
 		frappe.destroy()
 
 
-commands = [install_arabic_translations, restore_original_translations]
+@click.command("audit-arabic-translations")
+@click.option("--site", required=True, help="Site name")
+@click.option("--as-po", is_flag=True, help="Emit paste-ready PO entries for what is missing.")
+@click.option("--lang", default="ar", help="Language code to audit. Defaults to 'ar'.")
+def audit_arabic_translations(site=None, as_po=False, lang="ar"):
+	"""Report UI labels that render untranslated on a live site.
+
+	Covers the class no POT can see: Workspaces, Dashboard Charts, Number Cards
+	and Reports ship as database fixtures, so the gettext extractor never sees
+	them even though Frappe resolves them by msgid at render time.
+	"""
+	from arabic_translations.audit import report
+
+	frappe.init(site=site)
+	frappe.connect()
+	try:
+		report(as_po=as_po, lang=lang)
+	finally:
+		frappe.destroy()
+
+
+commands = [install_arabic_translations, restore_original_translations, audit_arabic_translations]

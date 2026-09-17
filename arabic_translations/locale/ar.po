@@ -23030,6 +23030,10 @@ msgid "Edit Heading"
 msgstr "تحرير العنوان"
 
 #. source: frappe
+msgid "Edit Layout"
+msgstr "تعديل التخطيط"
+
+#. source: frappe
 msgid "Edit Letter Head"
 msgstr "تحرير الترويسة"
 
@@ -42907,6 +42911,10 @@ msgid "New Contact"
 msgstr "جهة اتصال جديدة"
 
 #. source: erpnext
+msgid "New Contacts"
+msgstr "جهات اتصال جديدة"
+
+#. source: erpnext
 msgid "New Cost Center Name"
 msgstr "اسم مركز تكلفة جديد"
 
@@ -46996,11 +47004,11 @@ msgstr "عنوان تاريخ المنظمة"
 
 #. source: erpnext
 msgid "Organization"
-msgstr "منظمة"
+msgstr "المؤسسة"
 
 #. source: erpnext
 msgid "Organization Name"
-msgstr "اسم المنظمة"
+msgstr "اسم المؤسسة"
 
 #. source: hrms
 msgid "Organizational Chart"
@@ -57773,6 +57781,10 @@ msgid "Reset Dashboard Customizations"
 msgstr "إعادة تعيين تخصيصات لوحة التحكم"
 
 #. source: frappe
+msgid "Reset Desktop Layout"
+msgstr "إعادة تعيين تخطيط سطح المكتب"
+
+#. source: frappe
 msgid "Reset Fields"
 msgstr "تصفير البيانات في الحقول"
 
@@ -64649,7 +64661,7 @@ msgstr "إعداد حساب البريد الإلكتروني"
 
 #. source: erpnext
 msgid "Setup Organization"
-msgstr "إعداد المنشأة"
+msgstr "إعداد المؤسسة"
 
 #. source: erpnext
 msgid "Setup Role Permissions"

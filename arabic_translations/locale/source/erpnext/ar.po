@@ -33631,12 +33631,12 @@ msgstr "أوامر"
 #: erpnext/crm/doctype/lead/lead.json erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:30
 msgid "Organization"
-msgstr "منظمة"
+msgstr "المؤسسة"
 
 #. Label of the company_name (Data) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "Organization Name"
-msgstr "اسم المنظمة"
+msgstr "اسم المؤسسة"
 
 #. Label of the original_item (Link) field in DocType 'BOM Item'
 #. Label of the original_item (Link) field in DocType 'Stock Entry Detail'
@@ -63808,7 +63808,7 @@ msgid "Setup Email Account"
 msgstr "إعداد حساب البريد الإلكتروني"
 
 msgid "Setup Organization"
-msgstr "إعداد المنشأة"
+msgstr "إعداد المؤسسة"
 
 msgid "Setup Role Permissions"
 msgstr "إعداد صلاحيات الأدوار"
@@ -65674,6 +65674,10 @@ msgstr "إجمالي المدفوعات الصادرة"
 
 msgid "Warehouse wise Stock Value"
 msgstr "قيمة المخزون حسب المستودع"
+
+#. UI string with no POT entry; overlay-only
+msgid "New Contacts"
+msgstr "جهات اتصال جديدة"
 
 #~ msgid " Reserve Stock"
 #~ msgstr " حجز المخزون"

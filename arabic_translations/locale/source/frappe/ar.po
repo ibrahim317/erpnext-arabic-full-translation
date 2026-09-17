@@ -37867,3 +37867,11 @@ msgstr "إجمالي مستخدمي الموقع"
 msgid "Webpage Views"
 msgstr "مشاهدات صفحات الويب"
 
+#. UI string with no POT entry; overlay-only
+msgid "Reset Desktop Layout"
+msgstr "إعادة تعيين تخطيط سطح المكتب"
+
+#. UI string with no POT entry; overlay-only
+msgid "Edit Layout"
+msgstr "تعديل التخطيط"
+
