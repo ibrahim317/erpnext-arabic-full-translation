@@ -50,11 +50,19 @@ It is read-only. Add what it reports to `locale/source/<app>/ar.po` and rebuild.
 
 Two consequences worth knowing:
 
-* These msgids are **overlay-only**. `build.py` runs `msgmerge` against the POT
-  and then `msgattrib --no-obsolete`, which drops any entry the POT does not
-  define -- so they live in `locale/source/` and in the merged `locale/ar.po`,
-  but never appear in `locale/other-apps/**`. A site running in `overwrite` mode
-  alone will not get them; it needs `overlay` or `both`.
+* These msgids survive only where a catalog is **copied** rather than merged.
+  `build.py` runs `msgmerge` against the POT and then `msgattrib --no-obsolete`
+  on every PO bundle, which drops any entry the POT does not define, so all four
+  PO bundles lose them: `v16/{frappe,erpnext,hrms}` and `v15/frappe`. The three
+  v15 **CSV** bundles are written by `po_to_csv` straight from `locale/source/`
+  and are never msgmerged, so they carry every one of them -- as do
+  `locale/source/` itself and the merged `locale/ar.po`.
+
+  In `overwrite` mode that makes this a **v16-only** gap. A v15 site is served
+  the CSVs and does get these labels (on frappe >= 15.33 the compiled PO wins
+  key by key, but it has no entry for them, so the CSV row stands). A **v16**
+  site running `overwrite` alone will not get them; it needs `overlay` or
+  `both`.
 * A label that renders in English on a site whose other strings are Arabic is
   usually one of these, or a stale cache -- not a missing translation. Check the
   catalog before translating anything:
