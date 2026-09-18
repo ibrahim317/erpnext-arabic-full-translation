@@ -13790,8 +13790,8 @@ msgid ""
 "Could not create Credit Note automatically, please uncheck 'Issue Credit Note' and "
 "submit again"
 msgstr ""
-"تعذر إنشاء إشعار دائن تلقائيًا، يُرجى إلغاء تحديد \"إشعار ائتمان الإصدار\" وإرساله "
-"مرة أخرى"
+"تعذر إنشاء إشعار دائن تلقائيًا، يُرجى إلغاء تحديد \"إصدار إشعار دائن\" وترحيله مرة "
+"أخرى"
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:978
 msgid ""
@@ -22146,7 +22146,7 @@ msgstr "لصنف الخدمة"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:196
 msgid "For the 'Apply Rule On Other' condition the field {0} is mandatory"
-msgstr "بالنسبة لشرط \"تطبيق القاعدة على أخرى\" ، يكون الحقل {0} إلزاميًا"
+msgstr "بالنسبة لشرط \"تطبيق القاعدة على أخرى\"، يكون الحقل {0} إلزاميًا"
 
 #. Description of a DocType
 #: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
@@ -27640,7 +27640,7 @@ msgstr "تحليلات المشكلات"
 #. Label of the issue_credit_note (Check) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Issue Credit Note"
-msgstr "إصدار إشعار الائتمان"
+msgstr "إصدار إشعار دائن"
 
 #. Label of the complaint_date (Date) field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
@@ -29900,7 +29900,7 @@ msgstr "مالك الزبون المحتمل"
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.json
 #: erpnext/crm/workspace/crm/crm.json erpnext/workspace_sidebar/crm.json
 msgid "Lead Owner Efficiency"
-msgstr "يؤدي كفاءة المالك"
+msgstr "كفاءة مالك الزبون المحتمل"
 
 #: erpnext/crm/doctype/lead/lead.py:176
 msgid "Lead Owner cannot be same as the Lead Email Address"
@@ -29924,7 +29924,7 @@ msgstr "المهلة"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:273
 msgid "Lead Time (Days)"
-msgstr "أيام القيادة)"
+msgstr "المهلة (بالأيام)"
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:267
 msgid "Lead Time (in mins)"
@@ -39451,7 +39451,7 @@ msgstr "الرجاء اختيار (تطبيق تخفيض على)"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:1809
 msgid "Please select BOM against item {0}"
-msgstr "الرجاء اختيار بوم ضد الصنف {0}"
+msgstr "الرجاء اختيار قائمة المواد مقابل الصنف {0}"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:192
 msgid "Please select BOM for Item in Row {0}"
@@ -39542,7 +39542,7 @@ msgstr "الرجاء اختيار قائمة الأسعار"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:1811
 msgid "Please select Qty against item {0}"
-msgstr "الرجاء اختيار الكمية ضد الصنف {0}"
+msgstr "الرجاء اختيار الكمية مقابل الصنف {0}"
 
 #: erpnext/stock/doctype/item/item.py:372
 msgid "Please select Sample Retention Warehouse in Stock Settings first"
@@ -39574,7 +39574,7 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1640
 msgid "Please select a BOM"
-msgstr "يرجى تحديد بوم"
+msgstr "يرجى تحديد قائمة مواد"
 
 #: erpnext/accounts/party.py:445 erpnext/stock/doctype/pick_list/pick_list.py:1857
 msgid "Please select a Company"
@@ -44045,7 +44045,7 @@ msgstr "سعر المواد استنادا على"
 #. Label of the rate (Percent) field in DocType 'Lower Deduction Certificate'
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
 msgid "Rate Of TDS As Per Certificate"
-msgstr "معدل إجمالي المواد الصلبة الذائبة حسب الشهادة"
+msgstr "معدل ضريبة الخصم من المنبع حسب الشهادة"
 
 #. Label of the section_break_6 (Section Break) field in DocType 'Serial and
 #. Batch Entry'
@@ -45550,7 +45550,7 @@ msgstr "استبدل"
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "Replace BOM"
-msgstr "استبدال بوم"
+msgstr "استبدال قائمة المواد"
 
 #. Description of a DocType
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
@@ -51668,7 +51668,7 @@ msgstr "تعيين كمية صنف فاقد المعالجة:"
 #. DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set rate of sub-assembly item based on BOM"
-msgstr "تعيين معدل صنف التجميع الفرعي استنادا إلى بوم"
+msgstr "تعيين سعر صنف التجميع الفرعي استنادًا إلى قائمة المواد"
 
 #. Description of the 'Sales Person Targets' (Section Break) field in DocType
 #. 'Sales Person'
@@ -54608,11 +54608,11 @@ msgstr "ترحيل قيود اليومية"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:185
 msgid "Submit this Work Order for further processing."
-msgstr "أرسل طلب العمل هذا لمزيد من المعالجة."
+msgstr "رحّل أمر العمل هذا لمزيد من المعالجة."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:325
 msgid "Submit your Quotation"
-msgstr "قدم عرض سعرك"
+msgstr "رحّل عرض سعرك"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1653
 msgid "Submitted Job Card cannot be processed."
@@ -60998,7 +60998,7 @@ msgstr "تحديث السيارات تكرار المرجع"
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:23
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM Cost Automatically"
-msgstr "تحديث بوم التكلفة تلقائيا"
+msgstr "تحديث تكلفة قائمة المواد تلقائيًا"
 
 #. Description of the 'Update BOM Cost Automatically' (Check) field in DocType
 #. 'Manufacturing Settings'

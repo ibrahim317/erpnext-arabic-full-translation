@@ -1299,31 +1299,31 @@ msgid ""
 "<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
 msgstr ""
-"<h3> مساعدة </h3>\n"
+"<h3>مساعدة</h3>\n"
 "\n"
-"<p> الملاحظات: </p>\n"
+"<p>ملاحظات:</p>\n"
 "\n"
 "<ol>\n"
-"<li> استخدم الحقل <code> قاعدة </code> لاستخدام الراتب الأساسي للموظف </li>\n"
-"<li> استخدم اختصارات مكونات الراتب في الظروف والصيغ. <code> bs = الراتب الأساسي "
-"</code> </li>\n"
-"<li> استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code> نوع التوظيف = التوظيف "
-"_type </code> <code> الفرع = الفرع </code> </li>\n"
-"<li> استخدم اسم الحقل من قسيمة الراتب في الظروف والصيغ. <code> أيام الدفع = "
-"payment_days </code> <code> إجازة بدون دفع = LEED_WITHOUT_PAY </code> </li>\n"
-"يمكن أيضًا إدخال المبلغ المباشر بناءً على الحالة. انظر المثال 3 </li> </ol>\n"
+"<li>استخدم الحقل <code>base</code> لاستخدام الراتب الأساسي للموظف</li>\n"
+"<li>استخدم اختصارات مكونات الراتب في الشروط والصيغ. <code>BS = Basic "
+"Salary</code></li>\n"
+"<li>استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code>Employment Type = "
+"employment_type</code><code>Branch = branch</code></li>\n"
+"<li>استخدم اسم الحقل من قسيمة الراتب في الشروط والصيغ. <code>Payment Days = "
+"payment_days</code><code>Leave without pay = leave_without_pay</code></li>\n"
+"<li>يمكن أيضًا إدخال المبلغ المباشر بناءً على الشرط. انظر المثال 3</li></ol>\n"
 "\n"
-"<h4> أمثلة </h4>\n"
+"<h4>أمثلة</h4>\n"
 "<ol>\n"
-"<li> حساب الراتب الأساسي على أساس <code> قاعدة </code>\n"
-"<pre> <code> الشرط: base & lt ؛ 10000 </code> </pre>\n"
-"<pre> <code> الصيغة: قاعدة * .2 </code> </pre> </li>\n"
-"<li> حساب HRA استنادًا إلى الراتب الأساسي <code> BS </code> \n"
-"<pre> <code> الشرط: bs & gt ؛ 2000 </code> </pre>\n"
-"<pre> <code> الصيغة: bs * .1 </code> </pre> </li>\n"
-"<li> حساب TDs استنادًا إلى نوع التوظيف <code> التوظيف _type </code> \n"
-"<pre> <code> الشرط: التوظيف _type == \"Intern\" </code> </pre>\n"
-"<pre> <code> المبلغ: 1000 </code> </pre> </li>\n"
+"<li>حساب الراتب الأساسي بناءً على <code>base</code>\n"
+"<pre><code>Condition: base &lt; 10000</code></pre>\n"
+"<pre><code>Formula: base * .2</code></pre></li>\n"
+"<li>حساب بدل السكن بناءً على الراتب الأساسي<code>BS</code> \n"
+"<pre><code>Condition: BS &gt; 2000</code></pre>\n"
+"<pre><code>Formula: BS * .1</code></pre></li>\n"
+"<li>حساب ضريبة الخصم من المنبع بناءً على نوع التوظيف<code>employment_type</code> \n"
+"<pre><code>Condition: employment_type==\"Intern\"</code></pre>\n"
+"<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
 
 #. source: frappe
@@ -1538,16 +1538,15 @@ msgid ""
 "<li>Applying tax by Salary Component<br>\n"
 "<code>Condition: base &gt; 10000</code></li></ol>"
 msgstr ""
-"<h4> أمثلة الشرط </h4>\n"
+"<h4>أمثلة الشروط</h4>\n"
 "<ol>\n"
-"<li> تطبيق الضريبة إذا ولد الموظف بين 31-12-1937 و 01-01-1958 (الموظفين الذين تتراوح "
-"أعمارهم بين 60 و 80) <br>\n"
-"<code> الشرط: date_of_birth & gt ؛ التاريخ (1937 ، 12 ، 31) و Date_of_birth & lt ؛ "
-"date (1958 ، 01 ، 01) </code> </li> <br> <li> تطبيق الضريبة حسب جنس الموظف <br> <br>"
-"\n"
-"<code> الشرط: الجنس == \"ذكر\" </code> </li> <br>\n"
-"<li> تطبيق الضريبة حسب مكون الراتب <br>\n"
-"<code> الشرط: BASE & GT ؛ 10000 </code> </li> </ol>"
+"<li>تطبيق الضريبة إذا كان الموظف من مواليد ما بين 31-12-1937 و01-01-1958 (الموظفون "
+"بين 60 و80 عامًا)<br>\n"
+"<code>Condition: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, "
+"01, 01)</code></li><br><li>تطبيق الضريبة حسب جنس الموظف<br>\n"
+"<code>Condition: gender==\"Male\"</code></li><br>\n"
+"<li>تطبيق الضريبة حسب مكون الراتب<br>\n"
+"<code>Condition: base &gt; 10000</code></li></ol>"
 
 #. source: erpnext
 msgid ""
@@ -5748,7 +5747,7 @@ msgstr "السماح بأوامر بيع متعددة مقابل أمر شراء
 
 #. source: hrms
 msgid "Allow Multiple Shift Assignments for Same Date"
-msgstr "السماح بتعيينات مناوبات متعددة لنفس التاريخ"
+msgstr "السماح بتعيينات ورديات متعددة لنفس التاريخ"
 
 #. source: hrms
 msgid "Allow Negative Balance"
@@ -6040,7 +6039,7 @@ msgstr "السماح بالمخزون السالب للدفعة"
 
 #. source: frappe
 msgid "Allow on Submit"
-msgstr "السماح بالاعتماد"
+msgstr "السماح عند الترحيل"
 
 #. source: frappe
 msgid "Allow only one session per user"
@@ -8353,7 +8352,7 @@ msgstr "تعيين الوردية"
 
 #. source: hrms
 msgid "Assign Shift Schedule"
-msgstr "تعيين جدول المناوبات"
+msgstr "تعيين جدول الورديات"
 
 #. source: hrms
 msgid "Assign Structure"
@@ -16768,8 +16767,8 @@ msgid ""
 "Could not create Credit Note automatically, please uncheck 'Issue Credit Note' and "
 "submit again"
 msgstr ""
-"تعذر إنشاء إشعار دائن تلقائيًا، يُرجى إلغاء تحديد \"إشعار ائتمان الإصدار\" وإرساله "
-"مرة أخرى"
+"تعذر إنشاء إشعار دائن تلقائيًا، يُرجى إلغاء تحديد \"إصدار إشعار دائن\" وترحيله مرة "
+"أخرى"
 
 #. source: erpnext
 msgid ""
@@ -25942,7 +25941,7 @@ msgstr "الدور الحالي"
 
 #. source: hrms
 msgid "Existing Shift Assignments"
-msgstr "إسنادات المناوبات الحالية"
+msgstr "تعيينات الورديات الحالية"
 
 #. source: erpnext
 msgid "Existing transactions in the system belonging to the same bank account and date range"
@@ -26916,7 +26915,7 @@ msgstr "درجة الملاحظات"
 
 #. source: hrms
 msgid "Feedback Submitted"
-msgstr "تم تسليم التعليقات"
+msgstr "تم ترحيل الملاحظات"
 
 #. source: hrms
 msgid "Feedback Summary"
@@ -28595,7 +28594,7 @@ msgstr "لصنف الخدمة"
 
 #. source: erpnext
 msgid "For the 'Apply Rule On Other' condition the field {0} is mandatory"
-msgstr "بالنسبة لشرط \"تطبيق القاعدة على أخرى\" ، يكون الحقل {0} إلزاميًا"
+msgstr "بالنسبة لشرط \"تطبيق القاعدة على أخرى\"، يكون الحقل {0} إلزاميًا"
 
 #. source: erpnext
 msgid ""
@@ -30235,11 +30234,11 @@ msgstr "تقويم Google - تعذر إنشاء تقويم لـ {0}، رمز ا�
 
 #. source: frappe
 msgid "Google Calendar - Could not delete Event {0} from Google Calendar, error code {1}."
-msgstr "تقويم Google - تعذر حذف الحدث {0} من تقويم Google ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر حذف الحدث {0} من تقويم Google، رمز الخطأ {1}."
 
 #. source: frappe
 msgid "Google Calendar - Could not fetch event from Google Calendar, error code {0}."
-msgstr "تقويم Google - تعذر إحضار حدث من تقويم Google ، رمز الخطأ {0}."
+msgstr "تقويم Google - تعذر إحضار حدث من تقويم Google، رمز الخطأ {0}."
 
 #. source: frappe
 msgid "Google Calendar - Could not find Calendar for {0}, error code {1}."
@@ -30255,7 +30254,7 @@ msgstr "تقويم Google - تعذر إدراج حدث في تقويم Google {0
 
 #. source: frappe
 msgid "Google Calendar - Could not update Event {0} in Google Calendar, error code {1}."
-msgstr "تقويم Google - تعذر تحديث الحدث {0} في تقويم Google ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر تحديث الحدث {0} في تقويم Google، رمز الخطأ {1}."
 
 #. source: frappe
 msgid "Google Calendar Event ID"
@@ -33448,7 +33447,7 @@ msgid ""
 "about the error on this Payroll Entry and revert to the Submitted status"
 msgstr ""
 "في حالة حدوث أي خطأ أثناء هذه العملية في الخلفية، سيضيف النظام تعليقًا حول الخطأ في "
-"قيد الرواتب هذا ويعود إلى حالة الإرسال"
+"قيد الرواتب هذا ويعود إلى حالة \"مُرحَّل\""
 
 #. source: erpnext
 msgid "In mins"
@@ -33664,7 +33663,7 @@ msgstr "إضافة البحث في الشريط العلوي"
 
 #. source: hrms
 msgid "Include Shift Attendance Without Checkins"
-msgstr "تضمين حضور المناوبات بدون تسجيلات دخول"
+msgstr "تضمين حضور الورديات بدون تسجيلات دخول"
 
 #. source: erpnext
 msgid "Include Sub-assembly Raw Materials"
@@ -35496,7 +35495,7 @@ msgstr "استعلام بحث غير صالح"
 
 #. source: hrms
 msgid "Invalid shift filter: {0}"
-msgstr "عامل تصفية مناوبات غير صالح: {0}"
+msgstr "عامل تصفية ورديات غير صالح: {0}"
 
 #. source: frappe
 msgid "Invalid simple filter format: {0}"
@@ -36287,7 +36286,7 @@ msgstr "صنف متعاقد عليه من الباطن"
 
 #. source: frappe
 msgid "Is Submittable"
-msgstr "يستطيع الاعتماد"
+msgstr "قابل للترحيل"
 
 #. source: frappe
 msgid "Is System Generated"
@@ -36359,7 +36358,7 @@ msgstr "تحليلات المشكلات"
 
 #. source: erpnext
 msgid "Issue Credit Note"
-msgstr "إصدار إشعار الائتمان"
+msgstr "إصدار إشعار دائن"
 
 #. source: erpnext
 msgid "Issue Date"
@@ -38328,7 +38327,7 @@ msgstr "مالك الزبون المحتمل"
 
 #. source: erpnext
 msgid "Lead Owner Efficiency"
-msgstr "يؤدي كفاءة المالك"
+msgstr "كفاءة مالك الزبون المحتمل"
 
 #. source: erpnext
 msgid "Lead Owner cannot be same as the Lead Email Address"
@@ -38344,7 +38343,7 @@ msgstr "المهلة"
 
 #. source: erpnext
 msgid "Lead Time (Days)"
-msgstr "أيام القيادة)"
+msgstr "المهلة (بالأيام)"
 
 #. source: erpnext
 msgid "Lead Time (in mins)"
@@ -49723,7 +49722,7 @@ msgstr "العنوان الدائم هو"
 
 #. source: frappe
 msgid "Permanently Cancel {0}?"
-msgstr "إلغاء دائم {0} ؟"
+msgstr "إلغاء دائم {0}؟"
 
 #. source: frappe
 msgid "Permanently Discard {0}?"
@@ -49731,7 +49730,7 @@ msgstr "هل تريد تجاهل {0} بشكل دائم؟"
 
 #. source: frappe
 msgid "Permanently Submit {0}?"
-msgstr "ترحيل دائم {0} ؟"
+msgstr "ترحيل دائم {0}؟"
 
 #. source: hrms
 msgid "Permanently cancel {0}"
@@ -49739,7 +49738,7 @@ msgstr "إلغاء {0} بشكل دائم"
 
 #. source: frappe
 msgid "Permanently delete {0}?"
-msgstr "حذف بشكل دائم {0} ؟"
+msgstr "حذف بشكل دائم {0}؟"
 
 #. source: hrms
 msgid "Permanently submit {0}"
@@ -49812,7 +49811,7 @@ msgid ""
 "Print, Email and Set User Permissions."
 msgstr ""
 "يتم تعيين الأذونات على الأدوار وأنواع المستندات (تسمى DocTypes) عن طريق تعيين حقوق "
-"مثل القراءة والكتابة والإنشاء والحذف والإرسال والإلغاء والتعديل والتقرير والاستيراد "
+"مثل القراءة والكتابة والإنشاء والحذف والترحيل والإلغاء والتعديل والتقرير والاستيراد "
 "والتصدير والطباعة والبريد الإلكتروني وتعيين أذونات المستخدم."
 
 #. source: frappe
@@ -50774,7 +50773,7 @@ msgstr "الرجاء إدخال مستند الاستلام"
 
 #. source: frappe
 msgid "Please enter Redirect URL"
-msgstr "الرجاء إدخال عنوان ورل لإعادة التوجيه"
+msgstr "الرجاء إدخال عنوان URL لإعادة التوجيه"
 
 #. source: erpnext
 msgid "Please enter Reference date"
@@ -51123,7 +51122,7 @@ msgstr "الرجاء اختيار (تطبيق تخفيض على)"
 
 #. source: erpnext
 msgid "Please select BOM against item {0}"
-msgstr "الرجاء اختيار بوم ضد الصنف {0}"
+msgstr "الرجاء اختيار قائمة المواد مقابل الصنف {0}"
 
 #. source: erpnext
 msgid "Please select BOM for Item in Row {0}"
@@ -51243,7 +51242,7 @@ msgstr "الرجاء اختيار قائمة الأسعار"
 
 #. source: erpnext
 msgid "Please select Qty against item {0}"
-msgstr "الرجاء اختيار الكمية ضد الصنف {0}"
+msgstr "الرجاء اختيار الكمية مقابل الصنف {0}"
 
 #. source: erpnext
 msgid "Please select Sample Retention Warehouse in Stock Settings first"
@@ -51287,7 +51286,7 @@ msgstr "يرجى تحديد حقلي X و Y"
 
 #. source: erpnext
 msgid "Please select a BOM"
-msgstr "يرجى تحديد بوم"
+msgstr "يرجى تحديد قائمة مواد"
 
 #. source: erpnext
 msgid "Please select a Company"
@@ -52145,7 +52144,7 @@ msgstr "يرجى تحديد حقل القيمة الذي يجب التحقق م�
 msgid ""
 "Please specify {0} and {1} (if any), for the correct tax calculation in future salary"
 " slips."
-msgstr "يرجى تحديد {0} و {1} (إن وجد) ، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية."
+msgstr "يرجى تحديد {0} و{1} (إن وجد)، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية."
 
 #. source: hrms
 msgid "Please submit the {0} before marking the cycle as Completed"
@@ -53291,7 +53290,7 @@ msgstr "معالجة الطلبات"
 
 #. source: hrms
 msgid "Process Shift Requests"
-msgstr "معالجة طلبات المناوبات"
+msgstr "معالجة طلبات الورديات"
 
 #. source: erpnext
 msgid "Process Statement Of Accounts"
@@ -53363,7 +53362,7 @@ msgstr "جارٍ معالجة الاستيراد..."
 
 #. source: hrms
 msgid "Processing of Shift Requests has been queued. It may take a few minutes."
-msgstr "تم وضع معالجة طلبات المناوبات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
+msgstr "تم وضع معالجة طلبات الورديات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
 
 #. source: frappe
 msgid "Processing..."
@@ -55205,7 +55204,7 @@ msgstr "سعر المواد استنادا على"
 
 #. source: erpnext
 msgid "Rate Of TDS As Per Certificate"
-msgstr "معدل إجمالي المواد الصلبة الذائبة حسب الشهادة"
+msgstr "معدل ضريبة الخصم من المنبع حسب الشهادة"
 
 #. source: erpnext
 msgid "Rate Section"
@@ -55832,7 +55831,7 @@ msgstr "الطلبات الأخيرة"
 
 #. source: hrms
 msgid "Recent Shift Requests"
-msgstr "طلبات المناوبات الأخيرة"
+msgstr "طلبات الورديات الأخيرة"
 
 #. source: erpnext
 msgid "Recent Transactions"
@@ -56230,7 +56229,7 @@ msgstr "نوع المستند المرجعي"
 
 #. source: frappe
 msgid "Reference DocType and Reference Name are required"
-msgstr "مطلوب مرجع دوكتيب واسم مرجع"
+msgstr "نوع المستند المرجعي واسم المرجع مطلوبان"
 
 #. source: frappe
 msgid "Reference Docname"
@@ -56959,7 +56958,7 @@ msgstr "استبدل"
 
 #. source: erpnext
 msgid "Replace BOM"
-msgstr "استبدال بوم"
+msgstr "استبدال قائمة المواد"
 
 #. source: erpnext
 msgid ""
@@ -57434,7 +57433,7 @@ msgstr "طلب نوع"
 
 #. source: frappe
 msgid "Request URL"
-msgstr "طلب عنوان ورل"
+msgstr "عنوان URL للطلب"
 
 #. source: hrms
 msgid "Request a Leave"
@@ -57830,7 +57829,7 @@ msgstr "قالب إعادة تعيين كلمة المرور"
 
 #. source: frappe
 msgid "Reset Permissions for {0}?"
-msgstr "إعادة تعيين أذونات ل {0} ؟"
+msgstr "إعادة تعيين أذونات لـ {0}؟"
 
 #. source: erpnext
 msgid "Reset Plaid Link"
@@ -58681,11 +58680,11 @@ msgstr "الجذر {0} لا يمكن حذف"
 
 #. source: hrms
 msgid "Roster"
-msgstr "قائمة المناوبات"
+msgstr "قائمة الورديات"
 
 #. source: hrms
 msgid "Roster Color"
-msgstr "لون قائمة المناوبات"
+msgstr "لون قائمة الورديات"
 
 #. source: erpnext
 msgid "Round Free Qty"
@@ -62581,7 +62580,7 @@ msgstr "حدد الرقم التسلسلي والدفعة"
 
 #. source: hrms
 msgid "Select Shift Requests"
-msgstr "حدد طلبات المناوبات"
+msgstr "حدد طلبات الورديات"
 
 #. source: erpnext
 msgid "Select Shipping Address"
@@ -62937,7 +62936,7 @@ msgstr "حدد تاريخ بدء طلب الإجازة الخاص بك."
 
 #. source: hrms
 msgid "Select this if you want shift assignments to be automatically created indefinitely."
-msgstr "حدد هذا الخيار إذا كنت تريد إنشاء تعيينات المناوبات تلقائيًا إلى أجل غير مسمى."
+msgstr "حدد هذا الخيار إذا كنت تريد إنشاء تعيينات الورديات تلقائيًا إلى أجل غير مسمى."
 
 #. source: frappe
 msgid "Select two versions to view the diff."
@@ -64383,7 +64382,7 @@ msgstr "تعيين كمية صنف فاقد المعالجة:"
 
 #. source: erpnext
 msgid "Set rate of sub-assembly item based on BOM"
-msgstr "تعيين معدل صنف التجميع الفرعي استنادا إلى بوم"
+msgstr "تعيين سعر صنف التجميع الفرعي استنادًا إلى قائمة المواد"
 
 #. source: frappe
 msgid "Set size in MB"
@@ -64769,7 +64768,7 @@ msgstr "وردية"
 
 #. source: hrms
 msgid "Shift & Attendance"
-msgstr "المناوبات والحضور"
+msgstr "الورديات والحضور"
 
 #. source: hrms
 msgid "Shift Actual End"
@@ -64801,11 +64800,11 @@ msgstr "تفاصيل تعيين الوردية"
 
 #. source: hrms
 msgid "Shift Assignment History"
-msgstr "سجل تعيين المناوبات"
+msgstr "سجل تعيين الورديات"
 
 #. source: hrms
 msgid "Shift Assignment Tool"
-msgstr "أداة تعيين المناوبات"
+msgstr "أداة تعيين الورديات"
 
 #. source: hrms
 msgid "Shift Assignment: {0} created for Employee: {1}"
@@ -64813,7 +64812,7 @@ msgstr "تعيين الوردية: {0} تم إنشاؤه للموظف: {1}"
 
 #. source: hrms
 msgid "Shift Assignments created for the schedule between {0} and {1} via background job"
-msgstr "تم إنشاء إسنادات المناوبات للجدول بين {0} و {1} عبر مهمة خلفية"
+msgstr "تم إنشاء تعيينات الورديات للجدول بين {0} و {1} عبر مهمة خلفية"
 
 #. source: hrms
 msgid "Shift Attendance"
@@ -64853,23 +64852,23 @@ msgstr "موافق طلب الوردية"
 
 #. source: hrms
 msgid "Shift Request Filters"
-msgstr "عوامل تصفية طلبات المناوبات"
+msgstr "عوامل تصفية طلبات الورديات"
 
 #. source: hrms
 msgid "Shift Requests ending before this date will be excluded."
-msgstr "سيتم استبعاد طلبات المناوبات التي تنتهي قبل هذا التاريخ."
+msgstr "سيتم استبعاد طلبات الورديات التي تنتهي قبل هذا التاريخ."
 
 #. source: hrms
 msgid "Shift Requests starting after this date will be excluded."
-msgstr "سيتم استبعاد طلبات المناوبات التي تبدأ بعد هذا التاريخ."
+msgstr "سيتم استبعاد طلبات الورديات التي تبدأ بعد هذا التاريخ."
 
 #. source: hrms
 msgid "Shift Schedule"
-msgstr "جدول المناوبات"
+msgstr "جدول الورديات"
 
 #. source: hrms
 msgid "Shift Schedule Assignment"
-msgstr "تعيين جدول المناوبات"
+msgstr "تعيين جدول الورديات"
 
 #. source: hrms
 msgid "Shift Settings"
@@ -64905,15 +64904,15 @@ msgstr "نوع الوردية"
 
 #. source: hrms
 msgid "Shift and Attendance"
-msgstr "المناوبات والحضور"
+msgstr "الورديات والحضور"
 
 #. source: hrms
 msgid ""
 "Shift assignments for {0} after {1} are already created. Please change {2} date to a "
 "date later than {3} {4}"
 msgstr ""
-"إسنادات المناوبات لـ {0} بعد {1} أُنشئت بالفعل. يرجى تغيير تاريخ {2} إلى تاريخ لاحق "
-"لـ {3} {4}"
+"تعيينات الورديات لـ {0} بعد {1} أُنشئت بالفعل. يرجى تغيير تاريخ {2} إلى تاريخ لاحق لـ"
+" {3} {4}"
 
 #. source: hrms
 msgid "Shift has been successfully updated to {0}."
@@ -64921,7 +64920,7 @@ msgstr "تم تحديث الوردية بنجاح إلى {0}."
 
 #. source: hrms
 msgid "Shifts"
-msgstr "المناوبات"
+msgstr "الورديات"
 
 #. source: erpnext
 msgid "Shipment"
@@ -66575,7 +66574,7 @@ msgstr "لا يمكن حذف نوع المستند القياسي."
 
 #. source: frappe
 msgid "Standard DocType cannot have default print format, use Customize Form"
-msgstr "لا يمكن أن يكون تنسيق دوكتيب القياسي تنسيق طباعة افتراضي، استخدام نموذج مخصص"
+msgstr "لا يمكن أن يكون لنوع المستند القياسي تنسيق طباعة افتراضي، استخدم تخصيص النموذج"
 
 #. source: hrms
 msgid "Standard Multiplier"
@@ -67847,32 +67846,32 @@ msgstr "لا يُسمح بترحيل {0} قبل {1}"
 
 #. source: frappe
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "ترحيل"
 
 #. source: frappe
 msgctxt "Button in list view actions menu"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "ترحيل"
 
 #. source: frappe
 msgctxt "Button in web form"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #. source: frappe
 msgctxt "Primary action in dialog"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #. source: frappe
 msgctxt "Primary action of prompt dialog"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #. source: frappe
 msgctxt "Submit password for Email Account"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #. source: erpnext
 msgid "Submit Action Failed"
@@ -67904,7 +67903,7 @@ msgstr "ترحيل قيود اليومية"
 
 #. source: hrms
 msgid "Submit Now"
-msgstr "قدم الآن"
+msgstr "رحّل الآن"
 
 #. source: hrms
 msgid "Submit Overtime Slips"
@@ -67916,7 +67915,7 @@ msgstr "ترحيل دليل"
 
 #. source: hrms
 msgid "Submit Salary Slip"
-msgstr "الموافقة كشف الرواتب"
+msgstr "ترحيل قسيمة الراتب"
 
 #. source: frappe
 msgid "Submit an Issue"
@@ -67937,15 +67936,15 @@ msgstr "ترحيل عند الإنشاء"
 
 #. source: hrms
 msgid "Submit this Leave Application to confirm."
-msgstr "قدم طلب الإجازة هذا للتأكيد."
+msgstr "رحّل طلب الإجازة هذا للتأكيد."
 
 #. source: erpnext
 msgid "Submit this Work Order for further processing."
-msgstr "أرسل طلب العمل هذا لمزيد من المعالجة."
+msgstr "رحّل أمر العمل هذا لمزيد من المعالجة."
 
 #. source: frappe
 msgid "Submit this document to complete this step."
-msgstr "أرسل هذا المستند لإكمال هذه الخطوة."
+msgstr "رحّل هذا المستند لإكمال هذه الخطوة."
 
 #. source: frappe
 msgid "Submit this document to confirm"
@@ -67957,7 +67956,7 @@ msgstr "ترحيل هذا لإنشاء سجل الموظف"
 
 #. source: erpnext
 msgid "Submit your Quotation"
-msgstr "قدم عرض سعرك"
+msgstr "رحّل عرض سعرك"
 
 #. source: frappe
 msgctxt "Title of confirmation dialog"
@@ -67966,11 +67965,11 @@ msgstr "ترحيل {0} وثائق؟"
 
 #. source: frappe
 msgid "Submitted"
-msgstr "مسجلة"
+msgstr "مُرحَّل"
 
 #. source: frappe
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
-msgstr "الوثيقة المسجلة لا يمكن تحويلها إلى مسودة row {0}"
+msgstr "لا يمكن إعادة المستند المُرحَّل إلى مسودة. صف الانتقال {0}"
 
 #. source: erpnext
 msgid "Submitted Job Card cannot be processed."
@@ -71093,7 +71092,7 @@ msgstr "أيام العطل لهذا الشهر أكثر من أيام العم�
 msgid ""
 "There are multiple shifts assigned to the employee for the same period. Please "
 "mention the shift"
-msgstr "توجد مناوبات متعددة مسندة للموظف لنفس الفترة. يرجى تحديد الوردية"
+msgstr "توجد ورديات متعددة مسندة للموظف لنفس الفترة. يرجى تحديد الوردية"
 
 #. source: erpnext
 msgid "There are no Failed transactions"
@@ -72944,15 +72943,15 @@ msgstr "لترحيل الفاتورة بدون إيصال شراء، يرجى ت
 
 #. source: frappe
 msgid "To use Google Calendar, enable {0}."
-msgstr "لاستخدام تقويم Google ، قم بتمكين {0}."
+msgstr "لاستخدام تقويم Google، قم بتمكين {0}."
 
 #. source: frappe
 msgid "To use Google Contacts, enable {0}."
-msgstr "لاستخدام جهات اتصال Google ، قم بتمكين {0}."
+msgstr "لاستخدام جهات اتصال Google، قم بتمكين {0}."
 
 #. source: frappe
 msgid "To use Google Drive, enable {0}."
-msgstr "لاستخدام Google Drive ، قم بتمكين {0}."
+msgstr "لاستخدام Google Drive، قم بتمكين {0}."
 
 #. source: frappe
 msgid "To use Google Indexing, enable <a href=\"/app/google-settings\">Google Settings</a>."
@@ -75792,7 +75791,7 @@ msgstr "تذكير بالعطلات القادمة"
 
 #. source: hrms
 msgid "Upcoming Shifts"
-msgstr "المناوبات القادمة"
+msgstr "الورديات القادمة"
 
 #. source: frappe
 msgid "Update"
@@ -75824,7 +75823,7 @@ msgstr "يتوفر تحديث"
 
 #. source: erpnext
 msgid "Update BOM Cost Automatically"
-msgstr "تحديث بوم التكلفة تلقائيا"
+msgstr "تحديث تكلفة قائمة المواد تلقائيًا"
 
 #. source: erpnext
 msgid ""
@@ -78893,7 +78892,7 @@ msgstr ""
 
 #. source: hrms
 msgid "When set to 'Inactive', employees with conflicting active shifts will not be excluded."
-msgstr "عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم مناوبات نشطة متعارضة."
+msgstr "عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم ورديات نشطة متعارضة."
 
 #. source: erpnext
 msgid ""
@@ -80521,7 +80520,7 @@ msgstr "ليس لديك عطلات قادمة"
 
 #. source: hrms
 msgid "You have no upcoming shifts"
-msgstr "ليس لديك مناوبات قادمة"
+msgstr "ليس لديك ورديات قادمة"
 
 #. source: erpnext
 msgid "You have not added any bank accounts to your company."
@@ -80597,7 +80596,7 @@ msgstr "يجب أن تكون مسجلاً الدخول لاستخدام هذا �
 
 #. source: hrms
 msgid "You must be within {0} meters of your shift location to check in."
-msgstr "يجب أن تكون على بعد {0} متر من موقع مناوبتك لتسجيل الحضور."
+msgstr "يجب أن تكون على بعد {0} متر من موقع ورديتك لتسجيل الحضور."
 
 #. source: frappe
 msgid "You must login to submit this form"
@@ -83873,7 +83872,7 @@ msgstr "{0}: لا يمكن تعيين معدل إذا لم يتم ترحيله"
 
 #. source: frappe
 msgid "{0}: Cannot set Assign Submit if not Submittable"
-msgstr "{0}: لا يمكن تحديد تعيين بالتأكيد إذا لم يكن قابل للتأكيد"
+msgstr "{0}: لا يمكن تحديد تعيين الترحيل إذا لم يكن قابلاً للترحيل"
 
 #. source: frappe
 msgid "{0}: Cannot set Cancel without Submit"
@@ -83885,7 +83884,7 @@ msgstr "{0}: لا يمكن تحديد استيراد دون إنشاء"
 
 #. source: frappe
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0}: لا يمكن تحديد تأكيد، إلغاء، تعديل دون كتابة"
+msgstr "{0}: لا يمكن تحديد الترحيل والإلغاء والتعديل دون الكتابة"
 
 #. source: frappe
 msgid "{0}: Cannot set import as {1} is not importable"

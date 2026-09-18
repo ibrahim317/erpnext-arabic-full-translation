@@ -262,31 +262,31 @@ msgid ""
 "<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
 msgstr ""
-"<h3> مساعدة </h3>\n"
+"<h3>مساعدة</h3>\n"
 "\n"
-"<p> الملاحظات: </p>\n"
+"<p>ملاحظات:</p>\n"
 "\n"
 "<ol>\n"
-"<li> استخدم الحقل <code> قاعدة </code> لاستخدام الراتب الأساسي للموظف </li>\n"
-"<li> استخدم اختصارات مكونات الراتب في الظروف والصيغ. <code> bs = الراتب الأساسي "
-"</code> </li>\n"
-"<li> استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code> نوع التوظيف = التوظيف "
-"_type </code> <code> الفرع = الفرع </code> </li>\n"
-"<li> استخدم اسم الحقل من قسيمة الراتب في الظروف والصيغ. <code> أيام الدفع = "
-"payment_days </code> <code> إجازة بدون دفع = LEED_WITHOUT_PAY </code> </li>\n"
-"يمكن أيضًا إدخال المبلغ المباشر بناءً على الحالة. انظر المثال 3 </li> </ol>\n"
+"<li>استخدم الحقل <code>base</code> لاستخدام الراتب الأساسي للموظف</li>\n"
+"<li>استخدم اختصارات مكونات الراتب في الشروط والصيغ. <code>BS = Basic "
+"Salary</code></li>\n"
+"<li>استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code>Employment Type = "
+"employment_type</code><code>Branch = branch</code></li>\n"
+"<li>استخدم اسم الحقل من قسيمة الراتب في الشروط والصيغ. <code>Payment Days = "
+"payment_days</code><code>Leave without pay = leave_without_pay</code></li>\n"
+"<li>يمكن أيضًا إدخال المبلغ المباشر بناءً على الشرط. انظر المثال 3</li></ol>\n"
 "\n"
-"<h4> أمثلة </h4>\n"
+"<h4>أمثلة</h4>\n"
 "<ol>\n"
-"<li> حساب الراتب الأساسي على أساس <code> قاعدة </code>\n"
-"<pre> <code> الشرط: base & lt ؛ 10000 </code> </pre>\n"
-"<pre> <code> الصيغة: قاعدة * .2 </code> </pre> </li>\n"
-"<li> حساب HRA استنادًا إلى الراتب الأساسي <code> BS </code> \n"
-"<pre> <code> الشرط: bs & gt ؛ 2000 </code> </pre>\n"
-"<pre> <code> الصيغة: bs * .1 </code> </pre> </li>\n"
-"<li> حساب TDs استنادًا إلى نوع التوظيف <code> التوظيف _type </code> \n"
-"<pre> <code> الشرط: التوظيف _type == \"Intern\" </code> </pre>\n"
-"<pre> <code> المبلغ: 1000 </code> </pre> </li>\n"
+"<li>حساب الراتب الأساسي بناءً على <code>base</code>\n"
+"<pre><code>Condition: base &lt; 10000</code></pre>\n"
+"<pre><code>Formula: base * .2</code></pre></li>\n"
+"<li>حساب بدل السكن بناءً على الراتب الأساسي<code>BS</code> \n"
+"<pre><code>Condition: BS &gt; 2000</code></pre>\n"
+"<pre><code>Formula: BS * .1</code></pre></li>\n"
+"<li>حساب ضريبة الخصم من المنبع بناءً على نوع التوظيف<code>employment_type</code> \n"
+"<pre><code>Condition: employment_type==\"Intern\"</code></pre>\n"
+"<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
 
 #. Content of the 'html_6' (HTML) field in DocType 'Taxable Salary Slab'
@@ -302,16 +302,15 @@ msgid ""
 "<li>Applying tax by Salary Component<br>\n"
 "<code>Condition: base &gt; 10000</code></li></ol>"
 msgstr ""
-"<h4> أمثلة الشرط </h4>\n"
+"<h4>أمثلة الشروط</h4>\n"
 "<ol>\n"
-"<li> تطبيق الضريبة إذا ولد الموظف بين 31-12-1937 و 01-01-1958 (الموظفين الذين تتراوح "
-"أعمارهم بين 60 و 80) <br>\n"
-"<code> الشرط: date_of_birth & gt ؛ التاريخ (1937 ، 12 ، 31) و Date_of_birth & lt ؛ "
-"date (1958 ، 01 ، 01) </code> </li> <br> <li> تطبيق الضريبة حسب جنس الموظف <br> <br>"
-"\n"
-"<code> الشرط: الجنس == \"ذكر\" </code> </li> <br>\n"
-"<li> تطبيق الضريبة حسب مكون الراتب <br>\n"
-"<code> الشرط: BASE & GT ؛ 10000 </code> </li> </ol>"
+"<li>تطبيق الضريبة إذا كان الموظف من مواليد ما بين 31-12-1937 و01-01-1958 (الموظفون "
+"بين 60 و80 عامًا)<br>\n"
+"<code>Condition: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, "
+"01, 01)</code></li><br><li>تطبيق الضريبة حسب جنس الموظف<br>\n"
+"<code>Condition: gender==\"Male\"</code></li><br>\n"
+"<li>تطبيق الضريبة حسب مكون الراتب<br>\n"
+"<code>Condition: base &gt; 10000</code></li></ol>"
 
 #. Content of the 'Half Day Marked Employee Header' (HTML) field in DocType
 #. 'Employee Attendance Tool'
@@ -799,7 +798,7 @@ msgstr "السماح بطلب الإجازة بعد (أيام تقويمية)"
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:105
 msgid "Allow Multiple Shift Assignments for Same Date"
-msgstr "السماح بتعيينات مناوبات متعددة لنفس التاريخ"
+msgstr "السماح بتعيينات ورديات متعددة لنفس التاريخ"
 
 #. Label of the allow_negative (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -1310,7 +1309,7 @@ msgstr "تعيين الوردية"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:114
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Assign Shift Schedule"
-msgstr "تعيين جدول المناوبات"
+msgstr "تعيين جدول الورديات"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:53
 msgid "Assign Structure"
@@ -3984,7 +3983,7 @@ msgstr "سجل موجود"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:37
 msgid "Existing Shift Assignments"
-msgstr "إسنادات المناوبات الحالية"
+msgstr "تعيينات الورديات الحالية"
 
 #. Option for the 'Final Decision' (Select) field in DocType 'Exit Interview'
 #: hrms/hr/doctype/exit_interview/exit_interview.json
@@ -4315,7 +4314,7 @@ msgstr "درجة الملاحظات"
 #. Option for the 'Status' (Select) field in DocType 'Training Event Employee'
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
 msgid "Feedback Submitted"
-msgstr "تم تسليم التعليقات"
+msgstr "تم ترحيل الملاحظات"
 
 #: hrms/public/js/templates/interview_feedback.html:14
 msgid "Feedback Summary"
@@ -5286,7 +5285,7 @@ msgid ""
 "about the error on this Payroll Entry and revert to the Submitted status"
 msgstr ""
 "في حالة حدوث أي خطأ أثناء هذه العملية في الخلفية، سيضيف النظام تعليقًا حول الخطأ في "
-"قيد الرواتب هذا ويعود إلى حالة الإرسال"
+"قيد الرواتب هذا ويعود إلى حالة \"مُرحَّل\""
 
 #. Label of the incentive_section (Section Break) field in DocType 'Employee
 #. Incentive'
@@ -5311,7 +5310,7 @@ msgstr "تضمين العطلات"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.js:64
 msgid "Include Shift Attendance Without Checkins"
-msgstr "تضمين حضور المناوبات بدون تسجيلات دخول"
+msgstr "تضمين حضور الورديات بدون تسجيلات دخول"
 
 #. Label of the include_holidays_in_total_working_days (Check) field in DocType
 #. 'Payroll Settings'
@@ -5678,7 +5677,7 @@ msgstr "المعلمات المقدمة غير صالحة. يرجى تمرير �
 
 #: hrms/api/roster.py:40
 msgid "Invalid shift filter: {0}"
-msgstr "عامل تصفية مناوبات غير صالح: {0}"
+msgstr "عامل تصفية ورديات غير صالح: {0}"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -8487,7 +8486,7 @@ msgstr "يرجى تحديد المتقدم للوظيفة الذي سيتم تح
 msgid ""
 "Please specify {0} and {1} (if any), for the correct tax calculation in future salary"
 " slips."
-msgstr "يرجى تحديد {0} و {1} (إن وجد) ، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية."
+msgstr "يرجى تحديد {0} و{1} (إن وجد)، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية."
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:157
 msgid "Please submit the {0} before marking the cycle as Completed"
@@ -8590,7 +8589,7 @@ msgstr "معالجة الطلبات"
 #. Option for the 'Action' (Select) field in DocType 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Process Shift Requests"
-msgstr "معالجة طلبات المناوبات"
+msgstr "معالجة طلبات الورديات"
 
 #. Description of the 'Pay Via Payment Entry' (Check) field in DocType 'Leave
 #. Encashment'
@@ -8612,7 +8611,7 @@ msgstr "جارٍ معالجة الطلبات..."
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.py:271
 msgid "Processing of Shift Requests has been queued. It may take a few minutes."
-msgstr "تم وضع معالجة طلبات المناوبات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
+msgstr "تم وضع معالجة طلبات الورديات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق."
 
 #. Name of a report
 #. Label of a Link in the Payroll Workspace
@@ -8793,7 +8792,7 @@ msgstr "الإجازات الأخيرة"
 
 #: frontend/src/views/attendance/Dashboard.vue:40
 msgid "Recent Shift Requests"
-msgstr "طلبات المناوبات الأخيرة"
+msgstr "طلبات الورديات الأخيرة"
 
 #. Description of the 'Automatically update Last Sync of Checkin' (Check) field
 #. in DocType 'Shift Type'
@@ -9133,12 +9132,12 @@ msgstr "الدور المسموح به لإنشاء تطبيق إجازة Backda
 #: hrms/public/js/utils/index.js:252 hrms/public/js/utils/index.js:273
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Roster"
-msgstr "قائمة المناوبات"
+msgstr "قائمة الورديات"
 
 #. Label of the color (Select) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Roster Color"
-msgstr "لون قائمة المناوبات"
+msgstr "لون قائمة الورديات"
 
 #. Option for the 'Work Experience Calculation Method' (Select) field in
 #. DocType 'Gratuity Rule'
@@ -9660,7 +9659,7 @@ msgstr "اختر الملكية"
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:134
 msgid "Select Shift Requests"
-msgstr "حدد طلبات المناوبات"
+msgstr "حدد طلبات الورديات"
 
 #. Label of the select_terms (Link) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
@@ -9725,7 +9724,7 @@ msgstr "حدد تاريخ بدء طلب الإجازة الخاص بك."
 #. Assignment'
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 msgid "Select this if you want shift assignments to be automatically created indefinitely."
-msgstr "حدد هذا الخيار إذا كنت تريد إنشاء تعيينات المناوبات تلقائيًا إلى أجل غير مسمى."
+msgstr "حدد هذا الخيار إذا كنت تريد إنشاء تعيينات الورديات تلقائيًا إلى أجل غير مسمى."
 
 #: hrms/hr/doctype/leave_application/leave_application.js:309
 msgid ""
@@ -9945,7 +9944,7 @@ msgstr "تمت مشاركة المستند مع المستخدم {0} بصلاح�
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift & Attendance"
-msgstr "المناوبات والحضور"
+msgstr "الورديات والحضور"
 
 #. Label of the shift_actual_end (Datetime) field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
@@ -9981,7 +9980,7 @@ msgstr "تفاصيل تعيين الوردية"
 
 #: frontend/src/views/attendance/ShiftAssignmentList.vue:5
 msgid "Shift Assignment History"
-msgstr "سجل تعيين المناوبات"
+msgstr "سجل تعيين الورديات"
 
 #. Name of a DocType
 #. Label of a Link in the Shift & Attendance Workspace
@@ -9989,7 +9988,7 @@ msgstr "سجل تعيين المناوبات"
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: hrms/public/js/utils/index.js:240 hrms/public/js/utils/index.js:262
 msgid "Shift Assignment Tool"
-msgstr "أداة تعيين المناوبات"
+msgstr "أداة تعيين الورديات"
 
 #: hrms/hr/doctype/shift_request/shift_request.py:61
 msgid "Shift Assignment: {0} created for Employee: {1}"
@@ -9997,7 +9996,7 @@ msgstr "تعيين الوردية: {0} تم إنشاؤه للموظف: {1}"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:135
 msgid "Shift Assignments created for the schedule between {0} and {1} via background job"
-msgstr "تم إنشاء إسنادات المناوبات للجدول بين {0} و {1} عبر مهمة خلفية"
+msgstr "تم إنشاء تعيينات الورديات للجدول بين {0} و {1} عبر مهمة خلفية"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
@@ -10063,18 +10062,18 @@ msgstr "موافق طلب الوردية"
 #. 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Shift Request Filters"
-msgstr "عوامل تصفية طلبات المناوبات"
+msgstr "عوامل تصفية طلبات الورديات"
 
 #. Description of the 'From Date' (Date) field in DocType 'Shift Assignment
 #. Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Shift Requests ending before this date will be excluded."
-msgstr "سيتم استبعاد طلبات المناوبات التي تنتهي قبل هذا التاريخ."
+msgstr "سيتم استبعاد طلبات الورديات التي تنتهي قبل هذا التاريخ."
 
 #. Description of the 'To Date' (Date) field in DocType 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Shift Requests starting after this date will be excluded."
-msgstr "سيتم استبعاد طلبات المناوبات التي تبدأ بعد هذا التاريخ."
+msgstr "سيتم استبعاد طلبات الورديات التي تبدأ بعد هذا التاريخ."
 
 #. Label of the shift_schedule (Link) field in DocType 'Shift Assignment Tool'
 #. Name of a DocType
@@ -10088,7 +10087,7 @@ msgstr "سيتم استبعاد طلبات المناوبات التي تبدأ 
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Schedule"
-msgstr "جدول المناوبات"
+msgstr "جدول الورديات"
 
 #. Label of the shift_schedule_assignment (Link) field in DocType 'Shift
 #. Assignment'
@@ -10098,7 +10097,7 @@ msgstr "جدول المناوبات"
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Shift Schedule Assignment"
-msgstr "تعيين جدول المناوبات"
+msgstr "تعيين جدول الورديات"
 
 #. Label of the shift_settings_section (Section Break) field in DocType 'HR
 #. Settings'
@@ -10159,15 +10158,15 @@ msgstr "نوع الوردية"
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Shift and Attendance"
-msgstr "المناوبات والحضور"
+msgstr "الورديات والحضور"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:21
 msgid ""
 "Shift assignments for {0} after {1} are already created. Please change {2} date to a "
 "date later than {3} {4}"
 msgstr ""
-"إسنادات المناوبات لـ {0} بعد {1} أُنشئت بالفعل. يرجى تغيير تاريخ {2} إلى تاريخ لاحق "
-"لـ {3} {4}"
+"تعيينات الورديات لـ {0} بعد {1} أُنشئت بالفعل. يرجى تغيير تاريخ {2} إلى تاريخ لاحق لـ"
+" {3} {4}"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.js:42
 msgid "Shift has been successfully updated to {0}."
@@ -10176,7 +10175,7 @@ msgstr "تم تحديث الوردية بنجاح إلى {0}."
 #. Label of a Card Break in the Shift & Attendance Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Shifts"
-msgstr "المناوبات"
+msgstr "الورديات"
 
 #: hrms/hr/doctype/job_applicant/job_applicant.js:56
 msgid "Shortlist"
@@ -10401,7 +10400,7 @@ msgstr "ترحيل الملاحظات"
 
 #: hrms/hr/doctype/exit_interview/exit_questionnaire_notification_template.html:14
 msgid "Submit Now"
-msgstr "قدم الآن"
+msgstr "رحّل الآن"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:90
 msgid "Submit Overtime Slips"
@@ -10413,11 +10412,11 @@ msgstr "ترحيل دليل"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:171
 msgid "Submit Salary Slip"
-msgstr "الموافقة كشف الرواتب"
+msgstr "ترحيل قسيمة الراتب"
 
 #: hrms/hr/doctype/leave_application/leave_application.js:108
 msgid "Submit this Leave Application to confirm."
-msgstr "قدم طلب الإجازة هذا للتأكيد."
+msgstr "رحّل طلب الإجازة هذا للتأكيد."
 
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:40
 msgid "Submit this to create the Employee record"
@@ -10718,7 +10717,7 @@ msgstr "أيام العطل لهذا الشهر أكثر من أيام العم�
 msgid ""
 "There are multiple shifts assigned to the employee for the same period. Please "
 "mention the shift"
-msgstr "توجد مناوبات متعددة مسندة للموظف لنفس الفترة. يرجى تحديد الوردية"
+msgstr "توجد ورديات متعددة مسندة للموظف لنفس الفترة. يرجى تحديد الوردية"
 
 #: hrms/payroll/doctype/arrear/arrear.py:384
 msgid "There are no arrear differences between existing and new salary structure components."
@@ -11557,7 +11556,7 @@ msgstr "تذكير بالعطلات القادمة"
 
 #: frontend/src/views/attendance/Dashboard.vue:23
 msgid "Upcoming Shifts"
-msgstr "المناوبات القادمة"
+msgstr "الورديات القادمة"
 
 #: frontend/src/components/ExpensesTable.vue:123
 msgid "Update Expense"
@@ -11793,7 +11792,7 @@ msgstr "الوزن النسبي (٪)"
 #. Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "When set to 'Inactive', employees with conflicting active shifts will not be excluded."
-msgstr "عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم مناوبات نشطة متعارضة."
+msgstr "عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم ورديات نشطة متعارضة."
 
 #: hrms/hr/doctype/leave_type/leave_type.py:36
 msgid ""
@@ -12015,7 +12014,7 @@ msgstr "ليس لديك عطلات قادمة"
 
 #: frontend/src/views/attendance/Dashboard.vue:29
 msgid "You have no upcoming shifts"
-msgstr "ليس لديك مناوبات قادمة"
+msgstr "ليس لديك ورديات قادمة"
 
 #: hrms/overrides/employee_master.py:83
 msgid "You may add additional details, if any, and submit the offer."
@@ -12023,7 +12022,7 @@ msgstr "يمكنك إضافة تفاصيل إضافية، إن وجدت، وتر
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:128
 msgid "You must be within {0} meters of your shift location to check in."
-msgstr "يجب أن تكون على بعد {0} متر من موقع مناوبتك لتسجيل الحضور."
+msgstr "يجب أن تكون على بعد {0} متر من موقع ورديتك لتسجيل الحضور."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:52
 msgid ""

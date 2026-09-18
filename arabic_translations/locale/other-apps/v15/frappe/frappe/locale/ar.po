@@ -1373,7 +1373,7 @@ msgstr "إضافة"
 #: frappe/public/js/frappe/list/list_view.js:291
 msgctxt "Primary action in list view"
 msgid "Add"
-msgstr ""
+msgstr "إضافة"
 
 #: frappe/public/js/frappe/form/grid_row.js:455
 msgid "Add / Remove Columns"
@@ -2206,7 +2206,7 @@ msgstr "السماح في الإدخال السريع"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Allow on Submit"
-msgstr "السماح بالاعتماد"
+msgstr "السماح عند الترحيل"
 
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -12233,11 +12233,11 @@ msgstr "تقويم Google - تعذر إنشاء تقويم لـ {0}، رمز ا�
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:612
 msgid "Google Calendar - Could not delete Event {0} from Google Calendar, error code {1}."
-msgstr "تقويم Google - تعذر حذف الحدث {0} من تقويم Google ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر حذف الحدث {0} من تقويم Google، رمز الخطأ {1}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:305
 msgid "Google Calendar - Could not fetch event from Google Calendar, error code {0}."
-msgstr "تقويم Google - تعذر إحضار حدث من تقويم Google ، رمز الخطأ {0}."
+msgstr "تقويم Google - تعذر إحضار حدث من تقويم Google، رمز الخطأ {0}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:252
 msgid "Google Calendar - Could not find Calendar for {0}, error code {1}."
@@ -12253,7 +12253,7 @@ msgstr "تقويم Google - تعذر إدراج حدث في تقويم Google {0
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:582
 msgid "Google Calendar - Could not update Event {0} in Google Calendar, error code {1}."
-msgstr "تقويم Google - تعذر تحديث الحدث {0} في تقويم Google ، رمز الخطأ {1}."
+msgstr "تقويم Google - تعذر تحديث الحدث {0} في تقويم Google، رمز الخطأ {1}."
 
 #. Label of a Data field in DocType 'Event'
 #: frappe/desk/doctype/event/event.json
@@ -14786,7 +14786,7 @@ msgstr "معيار"
 #. Label of a Check field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json frappe/core/doctype/doctype/doctype_list.js:26
 msgid "Is Submittable"
-msgstr "يستطيع الاعتماد"
+msgstr "قابل للترحيل"
 
 #. Label of a Check field in DocType 'Custom Field'
 #. Label of a Check field in DocType 'Customize Form Field'
@@ -20152,15 +20152,15 @@ msgstr "دائم"
 
 #: frappe/public/js/frappe/form/form.js:998
 msgid "Permanently Cancel {0}?"
-msgstr "إلغاء دائم {0} ؟"
+msgstr "إلغاء دائم {0}؟"
 
 #: frappe/public/js/frappe/form/form.js:831
 msgid "Permanently Submit {0}?"
-msgstr "ترحيل دائم {0} ؟"
+msgstr "ترحيل دائم {0}؟"
 
 #: frappe/public/js/frappe/model/model.js:715
 msgid "Permanently delete {0}?"
-msgstr "حذف بشكل دائم {0} ؟"
+msgstr "حذف بشكل دائم {0}؟"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:19
 msgid "Permission"
@@ -20240,7 +20240,7 @@ msgid ""
 "Print, Email and Set User Permissions."
 msgstr ""
 "يتم تعيين الأذونات على الأدوار وأنواع المستندات (تسمى DocTypes) عن طريق تعيين حقوق "
-"مثل القراءة والكتابة والإنشاء والحذف والإرسال والإلغاء والتعديل والتقرير والاستيراد "
+"مثل القراءة والكتابة والإنشاء والحذف والترحيل والإلغاء والتعديل والتقرير والاستيراد "
 "والتصدير والطباعة والبريد الإلكتروني وتعيين أذونات المستخدم."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:93
@@ -20284,7 +20284,7 @@ msgstr "الشخصية"
 #: frappe/public/js/frappe/views/workspace/workspace.js:34
 msgctxt "Workspace Category"
 msgid "Personal"
-msgstr ""
+msgstr "الشخصية"
 
 #. Name of a DocType
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
@@ -20544,7 +20544,7 @@ msgstr "يرجى إدخال عنوان URL تكوين OpenID"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:84
 msgid "Please enter Redirect URL"
-msgstr "الرجاء إدخال عنوان ورل لإعادة التوجيه"
+msgstr "الرجاء إدخال عنوان URL لإعادة التوجيه"
 
 #: frappe/templates/includes/comments/comments.html:167
 msgid "Please enter a valid email address."
@@ -21528,7 +21528,7 @@ msgstr "جمهور"
 #: frappe/public/js/frappe/views/workspace/workspace.js:35
 msgctxt "Workspace Category"
 msgid "Public"
-msgstr ""
+msgstr "جمهور"
 
 #. Label of a Float field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -22274,7 +22274,7 @@ msgstr "نوع المستند المرجعي"
 
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.py:26
 msgid "Reference DocType and Reference Name are required"
-msgstr "مطلوب مرجع دوكتيب واسم مرجع"
+msgstr "نوع المستند المرجعي واسم المرجع مطلوبان"
 
 #. Label of a Dynamic Link field in DocType 'Submission Queue'
 #. Label of a Dynamic Link field in DocType 'Discussion Topic'
@@ -23030,7 +23030,7 @@ msgstr "مهلة الطلب"
 #. Label of a Small Text field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "Request URL"
-msgstr "طلب عنوان ورل"
+msgstr "عنوان URL للطلب"
 
 #. Title of the request-to-delete-data Web Form
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
@@ -23125,7 +23125,7 @@ msgstr "قالب إعادة تعيين كلمة المرور"
 
 #: frappe/core/page/permission_manager/permission_manager.js:116
 msgid "Reset Permissions for {0}?"
-msgstr "إعادة تعيين أذونات ل {0} ؟"
+msgstr "إعادة تعيين أذونات لـ {0}؟"
 
 #: frappe/public/js/form_builder/components/Field.vue:113
 msgid "Reset To Default"
@@ -26310,7 +26310,7 @@ msgstr "لا يمكن حذف نوع المستند القياسي."
 
 #: frappe/core/doctype/doctype/doctype.py:231
 msgid "Standard DocType cannot have default print format, use Customize Form"
-msgstr "لا يمكن أن يكون تنسيق دوكتيب القياسي تنسيق طباعة افتراضي، استخدام نموذج مخصص"
+msgstr "لا يمكن أن يكون لنوع المستند القياسي تنسيق طباعة افتراضي، استخدم تخصيص النموذج"
 
 #: frappe/desk/doctype/dashboard/dashboard.py:58
 msgid "Standard Not Set"
@@ -26741,32 +26741,32 @@ msgstr "قائمة انتظار الترحيل"
 #: frappe/social/doctype/energy_point_settings/energy_point_settings.js:47
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "ترحيل"
 
 #: frappe/public/js/frappe/list/list_view.js:2028
 msgctxt "Button in list view actions menu"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "ترحيل"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:45
 msgctxt "Button in web form"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #: frappe/public/js/frappe/ui/dialog.js:60
 msgctxt "Primary action in dialog"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #: frappe/public/js/frappe/ui/messages.js:103
 msgctxt "Primary action of prompt dialog"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #: frappe/public/js/frappe/desk.js:221
 msgctxt "Submit password for Email Account"
 msgid "Submit"
-msgstr "تسجيل"
+msgstr "إرسال"
 
 #. Label of a Check field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -26795,7 +26795,7 @@ msgstr "ترحيل عند الإنشاء"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:400
 msgid "Submit this document to complete this step."
-msgstr "أرسل هذا المستند لإكمال هذه الخطوة."
+msgstr "رحّل هذا المستند لإكمال هذه الخطوة."
 
 #: frappe/public/js/frappe/form/form.js:1145
 msgid "Submit this document to confirm"
@@ -26814,11 +26814,11 @@ msgstr "ترحيل {0} وثائق؟"
 #: frappe/public/js/frappe/ui/filters/filter.js:545
 #: frappe/website/doctype/web_form/templates/web_form.html:142
 msgid "Submitted"
-msgstr "مسجلة"
+msgstr "مُرحَّل"
 
 #: frappe/workflow/doctype/workflow/workflow.py:103
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
-msgstr "الوثيقة المسجلة لا يمكن تحويلها إلى مسودة row {0}"
+msgstr "لا يمكن إعادة المستند المُرحَّل إلى مسودة. صف الانتقال {0}"
 
 #: frappe/public/js/workflow_builder/utils.js:176
 msgid ""
@@ -28802,15 +28802,15 @@ msgstr "لتعيين الدور {0} للمستخدم {1}، يرجى تعيين �
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.js:8
 msgid "To use Google Calendar, enable {0}."
-msgstr "لاستخدام تقويم Google ، قم بتمكين {0}."
+msgstr "لاستخدام تقويم Google، قم بتمكين {0}."
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.js:8
 msgid "To use Google Contacts, enable {0}."
-msgstr "لاستخدام جهات اتصال Google ، قم بتمكين {0}."
+msgstr "لاستخدام جهات اتصال Google، قم بتمكين {0}."
 
 #: frappe/integrations/doctype/google_drive/google_drive.js:8
 msgid "To use Google Drive, enable {0}."
-msgstr "لاستخدام Google Drive ، قم بتمكين {0}."
+msgstr "لاستخدام Google Drive، قم بتمكين {0}."
 
 #. Description of the 'Enable Google indexing' (Check) field in DocType
 #. 'Website Settings'
@@ -34742,7 +34742,7 @@ msgstr "{0}: لا يمكن تعيين معدل إذا لم يتم ترحيله"
 
 #: frappe/core/doctype/doctype/doctype.py:1836
 msgid "{0}: Cannot set Assign Submit if not Submittable"
-msgstr "{0}: لا يمكن تحديد تعيين بالتأكيد إذا لم يكن قابل للتأكيد"
+msgstr "{0}: لا يمكن تحديد تعيين الترحيل إذا لم يكن قابلاً للترحيل"
 
 #: frappe/core/doctype/doctype/doctype.py:1815
 msgid "{0}: Cannot set Cancel without Submit"
@@ -34754,7 +34754,7 @@ msgstr "{0}: لا يمكن تحديد استيراد دون إنشاء"
 
 #: frappe/core/doctype/doctype/doctype.py:1818
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0}: لا يمكن تحديد تأكيد، إلغاء، تعديل دون كتابة"
+msgstr "{0}: لا يمكن تحديد الترحيل والإلغاء والتعديل دون الكتابة"
 
 #: frappe/core/doctype/doctype/doctype.py:1842
 msgid "{0}: Cannot set import as {1} is not importable"

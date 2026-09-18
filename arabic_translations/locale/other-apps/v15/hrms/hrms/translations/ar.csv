@@ -56,28 +56,28 @@
 <li>Calculating TDS based on Employment Type<code>employment_type</code> 
 <pre><code>Condition: employment_type==""Intern""</code></pre>
 <pre><code>Amount: 1000</code></pre></li>
-</ol>","<h3> مساعدة </h3>
+</ol>","<h3>مساعدة</h3>
 
-<p> الملاحظات: </p>
+<p>ملاحظات:</p>
 
 <ol>
-<li> استخدم الحقل <code> قاعدة </code> لاستخدام الراتب الأساسي للموظف </li>
-<li> استخدم اختصارات مكونات الراتب في الظروف والصيغ. <code> bs = الراتب الأساسي </code> </li>
-<li> استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code> نوع التوظيف = التوظيف _type </code> <code> الفرع = الفرع </code> </li>
-<li> استخدم اسم الحقل من قسيمة الراتب في الظروف والصيغ. <code> أيام الدفع = payment_days </code> <code> إجازة بدون دفع = LEED_WITHOUT_PAY </code> </li>
-يمكن أيضًا إدخال المبلغ المباشر بناءً على الحالة. انظر المثال 3 </li> </ol>
+<li>استخدم الحقل <code>base</code> لاستخدام الراتب الأساسي للموظف</li>
+<li>استخدم اختصارات مكونات الراتب في الشروط والصيغ. <code>BS = Basic Salary</code></li>
+<li>استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ. <code>Employment Type = employment_type</code><code>Branch = branch</code></li>
+<li>استخدم اسم الحقل من قسيمة الراتب في الشروط والصيغ. <code>Payment Days = payment_days</code><code>Leave without pay = leave_without_pay</code></li>
+<li>يمكن أيضًا إدخال المبلغ المباشر بناءً على الشرط. انظر المثال 3</li></ol>
 
-<h4> أمثلة </h4>
+<h4>أمثلة</h4>
 <ol>
-<li> حساب الراتب الأساسي على أساس <code> قاعدة </code>
-<pre> <code> الشرط: base & lt ؛ 10000 </code> </pre>
-<pre> <code> الصيغة: قاعدة * .2 </code> </pre> </li>
-<li> حساب HRA استنادًا إلى الراتب الأساسي <code> BS </code> 
-<pre> <code> الشرط: bs & gt ؛ 2000 </code> </pre>
-<pre> <code> الصيغة: bs * .1 </code> </pre> </li>
-<li> حساب TDs استنادًا إلى نوع التوظيف <code> التوظيف _type </code> 
-<pre> <code> الشرط: التوظيف _type == ""Intern"" </code> </pre>
-<pre> <code> المبلغ: 1000 </code> </pre> </li>
+<li>حساب الراتب الأساسي بناءً على <code>base</code>
+<pre><code>Condition: base &lt; 10000</code></pre>
+<pre><code>Formula: base * .2</code></pre></li>
+<li>حساب بدل السكن بناءً على الراتب الأساسي<code>BS</code> 
+<pre><code>Condition: BS &gt; 2000</code></pre>
+<pre><code>Formula: BS * .1</code></pre></li>
+<li>حساب ضريبة الخصم من المنبع بناءً على نوع التوظيف<code>employment_type</code> 
+<pre><code>Condition: employment_type==""Intern""</code></pre>
+<pre><code>Amount: 1000</code></pre></li>
 </ol>",
 "<h4>Condition Examples</h4>
 <ol>
@@ -85,13 +85,13 @@
 <code>Condition: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>Applying tax by employee gender<br>
 <code>Condition: gender==""Male""</code></li><br>
 <li>Applying tax by Salary Component<br>
-<code>Condition: base &gt; 10000</code></li></ol>","<h4> أمثلة الشرط </h4>
+<code>Condition: base &gt; 10000</code></li></ol>","<h4>أمثلة الشروط</h4>
 <ol>
-<li> تطبيق الضريبة إذا ولد الموظف بين 31-12-1937 و 01-01-1958 (الموظفين الذين تتراوح أعمارهم بين 60 و 80) <br>
-<code> الشرط: date_of_birth & gt ؛ التاريخ (1937 ، 12 ، 31) و Date_of_birth & lt ؛ date (1958 ، 01 ، 01) </code> </li> <br> <li> تطبيق الضريبة حسب جنس الموظف <br> <br>
-<code> الشرط: الجنس == ""ذكر"" </code> </li> <br>
-<li> تطبيق الضريبة حسب مكون الراتب <br>
-<code> الشرط: BASE & GT ؛ 10000 </code> </li> </ol>",
+<li>تطبيق الضريبة إذا كان الموظف من مواليد ما بين 31-12-1937 و01-01-1958 (الموظفون بين 60 و80 عامًا)<br>
+<code>Condition: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>تطبيق الضريبة حسب جنس الموظف<br>
+<code>Condition: gender==""Male""</code></li><br>
+<li>تطبيق الضريبة حسب مكون الراتب<br>
+<code>Condition: base &gt; 10000</code></li></ol>",
 "<span class=""h4""><b>Masters &amp; Reports</b></span>","<span class = ""h4""> <b> التقارير وإدارة البيانات الرئيسية </b> </span>",
 "<span class=""h4""><b>Masters &amp; Transactions</b></span>","<span class = ""h4""> <b> إدارة البيانات الرئيسية والمعاملات </b> </span>",
 "<span class=""h4""><b>Reports &amp; Masters</b></span>","<span class = ""h4""> <b> التقارير وإدارة البيانات الرئيسية </b> </span>",
@@ -185,7 +185,7 @@ Allow Employee Checkin from Mobile App,السماح للموظف بتسجيل ا
 Allow Encashment,السماح بالصرف,
 Allow Geolocation Tracking,السماح بتتبع تحديد الموقع الجغرافي,
 Allow Leave Application After (Working Days),السماح بطلب الإجازة بعد (أيام العمل),
-Allow Multiple Shift Assignments for Same Date,السماح بتعيينات مناوبات متعددة لنفس التاريخ,
+Allow Multiple Shift Assignments for Same Date,السماح بتعيينات ورديات متعددة لنفس التاريخ,
 Allow Negative Balance,السماح برصيد سالب,
 Allow Over Allocation,السماح بالتخصيص الزائد,
 Allow Tax Exemption,السماح بالإعفاء الضريبي,
@@ -276,7 +276,7 @@ Asset Recovery Cost for {0}: {1},تكلفة استرداد الأصول لـ {0}
 Assets Allocated,الأصول المخصصة,
 Assign Salary Structure to {0} employee(s)?,تعيين هيكل الراتب لـ {0} موظف؟,
 Assign Shift,تعيين الوردية,
-Assign Shift Schedule,تعيين جدول المناوبات,
+Assign Shift Schedule,تعيين جدول الورديات,
 Assign Structure,تعيين هيكل,
 Assigning Salary Structure,تعيين هيكل الراتب,
 Assigning Structure...,تعيين هيكل...,
@@ -871,7 +871,7 @@ Feedback HTML,HTML الملاحظات,
 Feedback Ratings,تقييمات الملاحظات,
 Feedback Reminder Notification Template,قالب إشعار تذكير الملاحظات,
 Feedback Score,درجة الملاحظات,
-Feedback Submitted,تم تسليم التعليقات,
+Feedback Submitted,تم ترحيل الملاحظات,
 Feedback Summary,ملخص الملاحظات,
 Feedback already submitted for the Interview {0}. Please cancel the previous Interview Feedback {1} to continue.,تم ترحيل الملاحظات بالفعل للمقابلة {0}. يرجى إلغاء ملاحظات المقابلة السابقة {1} للمتابعة.,
 Feedback cannot be recorded for an absent Employee.,لا يمكن تسجيل الملاحظات لموظف غائب.,
@@ -1062,7 +1062,7 @@ Importing {0} of {1},استيراد {0} من {1},
 In Process,في عملية,
 In Progress,في تَقَدم,
 In Time,في الوقت المناسب,
-"In case of any error during this background process, the system will add a comment about the error on this Payroll Entry and revert to the Submitted status",في حالة حدوث أي خطأ أثناء هذه العملية في الخلفية، سيضيف النظام تعليقًا حول الخطأ في قيد الرواتب هذا ويعود إلى حالة الإرسال,
+"In case of any error during this background process, the system will add a comment about the error on this Payroll Entry and revert to the Submitted status","في حالة حدوث أي خطأ أثناء هذه العملية في الخلفية، سيضيف النظام تعليقًا حول الخطأ في قيد الرواتب هذا ويعود إلى حالة ""مُرحَّل""",
 Inactive,غير نشط,
 Incentive,حافز,
 Incentive Amount,مبلغ الحافز,
@@ -1666,7 +1666,7 @@ Please setup Employee Naming System in Human Resource > HR Settings,يرجى إ�
 Please setup numbering series for Attendance via Setup > Numbering Series,يرجى إعداد سلسلة الترقيم للحضور عبر الإعداد> سلسلة الترقيم,
 Please share your feedback to the training by clicking on 'Training Feedback' and then 'New',"يرجى مشاركة ملاحظاتك عن التدريب بالنقر على ""ملاحظات التدريب"" ثم ""جديد""",
 Please specify the job applicant to be updated.,يرجى تحديد المتقدم للوظيفة الذي سيتم تحديثه.,
-"Please specify {0} and {1} (if any), for the correct tax calculation in future salary slips.",يرجى تحديد {0} و {1} (إن وجد) ، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية.,
+"Please specify {0} and {1} (if any), for the correct tax calculation in future salary slips.",يرجى تحديد {0} و{1} (إن وجد)، لحساب الضريبة الصحيح في قسائم الرواتب المستقبلية.,
 Please submit the {0} before marking the cycle as Completed,يرجى ترحيل {0} قبل تحديد الدورة على أنها مكتملة,
 Please update your status for this training event,يرجى تحديث حالتك لهذا الحدث التدريبي,
 Posted On,تاريخ النشر,
@@ -1687,12 +1687,12 @@ Probationary Period,فترة الاختبار,
 Process Attendance After,عملية الحضور بعد,
 Process Payroll Accounting Entry based on Employee,معالجة قيد محاسبة الرواتب بناءً على الموظف,
 Process Requests,معالجة الطلبات,
-Process Shift Requests,معالجة طلبات المناوبات,
+Process Shift Requests,معالجة طلبات الورديات,
 Process leave encashment via a separate Payment Entry instead of Salary Slip,معالجة تسييل الإجازات عبر قيد دفع منفصل بدلاً من قسيمة الراتب,
 Process {0} Shift Request(s) as <b>{1}</b>?,هل تريد معالجة {0} طلب(ات) وردية كـ <b>{1}</b>؟,
 Processing Requests,جارٍ معالجة الطلبات,
 Processing Requests...,جارٍ معالجة الطلبات...,
-Processing of Shift Requests has been queued. It may take a few minutes.,تم وضع معالجة طلبات المناوبات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق.,
+Processing of Shift Requests has been queued. It may take a few minutes.,تم وضع معالجة طلبات الورديات في قائمة الانتظار. قد يستغرق الأمر بضع دقائق.,
 Professional Tax Deductions,الخصومات الضريبية المهنية,
 Proficiency,مهارة,
 Profile,الملف الشخصي,
@@ -1736,7 +1736,7 @@ Receivables,المستحقات للغير (مدينة),
 Recent Attendance Requests,طلبات الحضور الأخيرة,
 Recent Expenses,النفقات الأخيرة,
 Recent Leaves,الإجازات الأخيرة,
-Recent Shift Requests,طلبات المناوبات الأخيرة,
+Recent Shift Requests,طلبات الورديات الأخيرة,
 Recommended for a single biometric device / checkins via mobile app,موصى به لجهاز بصمة واحد / تسجيل الحضور عبر تطبيق الجوال,
 Recover Cost,استرداد التكلفة,
 Recruitment,التوظيف,
@@ -1821,8 +1821,8 @@ Revised CTC,إجمالي الراتب المنقح,
 Right,حق,
 Role,صلاحية,
 Role Allowed to Create Backdated Leave Application,الدور المسموح به لإنشاء تطبيق إجازة Backdated,
-Roster,قائمة المناوبات,
-Roster Color,لون قائمة المناوبات,
+Roster,قائمة الورديات,
+Roster Color,لون قائمة الورديات,
 Round Name,اسم الجولة,
 Round off Work Experience,تقريب الخبرة العملية,
 Round to the Nearest Integer,جولة إلى أقرب عدد صحيح,
@@ -1920,7 +1920,7 @@ Select Payment Account to make Bank Entry,اختار الحساب الذي سو�
 Select Payroll Frequency.,حدد تكرار الرواتب.,
 Select Payroll Period,حدد فترة الرواتب,
 Select Property,اختر الملكية,
-Select Shift Requests,حدد طلبات المناوبات,
+Select Shift Requests,حدد طلبات الورديات,
 Select Terms and Conditions,اختر الشروط والأحكام,
 Select Users,حدد المستخدمون,
 Select an employee to get the employee advance.,حدد الموظف للحصول على تقدم الموظف.,
@@ -1931,7 +1931,7 @@ Select the date after which this Leave Allocation will expire.,حدد التار
 Select the date from which this Leave Allocation will be valid.,حدد التاريخ الذي سيكون تخصيص الإجازة هذا صالحًا منه.,
 Select the end date for your Leave Application.,حدد تاريخ انتهاء طلب الإجازة الخاص بك.,
 Select the start date for your Leave Application.,حدد تاريخ بدء طلب الإجازة الخاص بك.,
-Select this if you want shift assignments to be automatically created indefinitely.,حدد هذا الخيار إذا كنت تريد إنشاء تعيينات المناوبات تلقائيًا إلى أجل غير مسمى.,
+Select this if you want shift assignments to be automatically created indefinitely.,حدد هذا الخيار إذا كنت تريد إنشاء تعيينات الورديات تلقائيًا إلى أجل غير مسمى.,
 "Select type of leave the employee wants to apply for, like Sick Leave, Privilege Leave, Casual Leave, etc.",حدد نوع الإجازة التي يرغب الموظف في التقدم لها، مثل الإجازة المرضية، الإجازة السنوية، الإجازة العارضة، إلخ.,
 Select your Leave Approver i.e. the person who approves or rejects your leaves.,حدد موافق الإجازات الخاص بك، أي الشخص الذي يوافق على إجازاتك أو يرفضها.,
 Select {0},حدد {0},
@@ -1984,15 +1984,15 @@ Settled,تسوية,
 Setup,الإعدادات,
 Shared with the user {0} with 'submit' permisions,تمت مشاركته مع المستخدم {0} مع صلاحيات 'الترحيل',
 Shift,وردية,
-Shift & Attendance,المناوبات والحضور,
+Shift & Attendance,الورديات والحضور,
 Shift Actual End,النهاية الفعلية للوردية,
 Shift Actual End Time,وقت الانتهاء الفعلي للوردية,
 Shift Actual Start,البداية الفعلية للوردية,
 Shift Actual Start Time,وقت البدء الفعلي للوردية,
 Shift Assignment,تعيين الوردية,
 Shift Assignment Details,تفاصيل تعيين الوردية,
-Shift Assignment History,سجل تعيين المناوبات,
-Shift Assignment Tool,أداة تعيين المناوبات,
+Shift Assignment History,سجل تعيين الورديات,
+Shift Assignment Tool,أداة تعيين الورديات,
 Shift Assignment: {0} created for Employee: {1},تعيين الوردية: {0} تم إنشاؤه للموظف: {1},
 Shift Attendance,حضور الوردية,
 Shift Details,تفاصيل الوردية,
@@ -2001,11 +2001,11 @@ Shift End Time,وقت انتهاء الوردية,
 Shift Location,موقع الوردية,
 Shift Request,طلب وردية,
 Shift Request Approver,موافق طلب الوردية,
-Shift Request Filters,عوامل تصفية طلبات المناوبات,
-Shift Requests ending before this date will be excluded.,سيتم استبعاد طلبات المناوبات التي تنتهي قبل هذا التاريخ.,
-Shift Requests starting after this date will be excluded.,سيتم استبعاد طلبات المناوبات التي تبدأ بعد هذا التاريخ.,
-Shift Schedule,جدول المناوبات,
-Shift Schedule Assignment,تعيين جدول المناوبات,
+Shift Request Filters,عوامل تصفية طلبات الورديات,
+Shift Requests ending before this date will be excluded.,سيتم استبعاد طلبات الورديات التي تنتهي قبل هذا التاريخ.,
+Shift Requests starting after this date will be excluded.,سيتم استبعاد طلبات الورديات التي تبدأ بعد هذا التاريخ.,
+Shift Schedule,جدول الورديات,
+Shift Schedule Assignment,تعيين جدول الورديات,
 Shift Settings,إعدادات الوردية,
 Shift Start,بداية الوردية,
 Shift Start Time,وقت بدء الوردية,
@@ -2014,7 +2014,7 @@ Shift Timings,توقيتات الوردية,
 Shift Tools,أدوات الوردية,
 Shift Type,نوع الوردية,
 Shift has been successfully updated to {0}.,تم تحديث الوردية بنجاح إلى {0}.,
-Shifts,المناوبات,
+Shifts,الورديات,
 Show Employee,إظهار الموظف,
 Show Leave Balances in Salary Slip,إظهار أرصدة الإجازات في قسيمة الراتب,
 Show Leaves Of All Department Members In Calendar,إظهار إجازات جميع أعضاء القسم في التقويم,
@@ -2057,14 +2057,14 @@ Subject,موضوع,
 Submission Date,تاريخ الترحيل,
 Submission Failed,فشل الترحيل,
 Submission of {0} before {1} is not allowed,لا يُسمح بترحيل {0} قبل {1},
-Submit,تسجيل,
+Submit,ترحيل,
 Submit Feedback,ترحيل الملاحظات,
-Submit Now,قدم الآن,
+Submit Now,رحّل الآن,
 Submit Proof,ترحيل دليل,
-Submit Salary Slip,الموافقة كشف الرواتب,
-Submit this Leave Application to confirm.,قدم طلب الإجازة هذا للتأكيد.,
+Submit Salary Slip,ترحيل قسيمة الراتب,
+Submit this Leave Application to confirm.,رحّل طلب الإجازة هذا للتأكيد.,
 Submit this to create the Employee record,ترحيل هذا لإنشاء سجل الموظف,
-Submitted,مسجلة,
+Submitted,مُرحَّل,
 Submitting Salary Slips and creating Journal Entry...,ترحيل قسائم الرواتب وإنشاء قيد دفتر اليومية...,
 Submitting Salary Slips...,ترحيل قسائم الرواتب...,
 Subsidiary companies have already planned for {1} vacancies at a budget of {2}. Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned for its subsidiary companies,خططت الشركات التابعة بالفعل لـ {1} وظيفة شاغرة بميزانية {2}. يجب أن تخصص خطة التوظيف لـ {0} وظائف شاغرة وميزانية لـ {3} أكثر مما هو مخطط له لشركاتها التابعة,
@@ -2292,7 +2292,7 @@ Untracked Hours (U),ساعات غير متتبعة (U),
 Unused leaves,إجازات غير مستخدمة,
 Upcoming Holidays,العطلات القادمة,
 Upcoming Holidays Reminder,تذكير بالعطلات القادمة,
-Upcoming Shifts,المناوبات القادمة,
+Upcoming Shifts,الورديات القادمة,
 Update,تحديث,
 Update Expense,تحديث المصروف,
 Update Job Applicant,تحديث المتقدم للوظيفة,
@@ -2350,7 +2350,7 @@ Website Listing,إدراج موقع الويب,
 Wednesday,الأربعاء,
 Weekly,الأسبوعية,
 Weightage (%),الوزن النسبي (٪),
-"When set to 'Inactive', employees with conflicting active shifts will not be excluded.",عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم مناوبات نشطة متعارضة.,
+"When set to 'Inactive', employees with conflicting active shifts will not be excluded.",عند التعيين على 'غير نشط'، لن يتم استبعاد الموظفين الذين لديهم ورديات نشطة متعارضة.,
 Whereas allocation for Compensatory Leaves is automatically created or updated on submission of Compensatory Leave Request.,في حين يتم إنشاء أو تحديث تخصيص الإجازات التعويضية تلقائيًا عند ترحيل طلب إجازة تعويضية.,
 Why is this Candidate Qualified for this Position?,لماذا هذا المرشح مؤهل لهذا المنصب؟,
 Withheld,محجوز,
@@ -2393,9 +2393,9 @@ You have no leaves allocated,ليس لديك إجازات مخصصة,
 You have no notifications,ليس لديك أي إشعارات,
 You have no requests,ليس لديك أي طلبات,
 You have no upcoming holidays,ليس لديك عطلات قادمة,
-You have no upcoming shifts,ليس لديك مناوبات قادمة,
+You have no upcoming shifts,ليس لديك ورديات قادمة,
 "You may add additional details, if any, and submit the offer.",يمكنك إضافة تفاصيل إضافية، إن وجدت، وترحيل العرض.,
-You must be within {0} meters of your shift location to check in.,يجب أن تكون على بعد {0} متر من موقع مناوبتك لتسجيل الحضور.,
+You must be within {0} meters of your shift location to check in.,يجب أن تكون على بعد {0} متر من موقع ورديتك لتسجيل الحضور.,
 You were only present for Half Day on {}. Cannot apply for a full day compensatory leave,لقد كنت حاضراً فقط لنصف يوم في {}. لا يمكن تقديم طلب إجازة تعويضية ليوم كامل,
 Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5},تمت إعادة جدولة جلسة المقابلة الخاصة بك من {0} {1} - {2} إلى {3} {4} - {5},
 Your password has expired. Please reset your password to continue,انتهت صلاحية كلمة المرور الخاصة بك. يرجى إعادة تعيين كلمة المرور للمتابعة,
@@ -2594,7 +2594,7 @@ Error downloading PDF,خطأ في تنزيل ملف PDF,
 Exchange rate of Payment Entry against Employee Advance,سعر صرف قيد الدفع مقابل سلفة الموظف,
 Exemption Declaration,إقرار الإعفاء,
 Exemption Submission Proof,إثبات ترحيل الإعفاء,
-Existing Shift Assignments,إسنادات المناوبات الحالية,
+Existing Shift Assignments,تعيينات الورديات الحالية,
 Exits (This Month),المغادرون (هذا الشهر),
 Expected Salary Range per month,نطاق الراتب المتوقع شهريًا,
 Expenses Settings,إعدادات المصروفات,
@@ -2628,7 +2628,7 @@ Hourly Rate,معدل الساعة,
 "If enabled, this component allows to accrue amounts without adding them to earnings. The accrued balance is tracked in the Employee Benefit Ledger and can be paid out later as needed.",إذا فُعّل هذا الخيار، يتيح هذا المكوّن تراكم المبالغ دون إضافتها إلى الاستحقاقات. يُتتبع الرصيد المتراكم في دفتر مزايا الموظف ويمكن صرفه لاحقًا عند الحاجة.,
 "If enabled, this component will be included in arrear calculations",إذا فُعّل هذا الخيار، سيُضمّن هذا المكوّن في حساب المتأخرات,
 "If greater than zero, this sets the maximum benefit amount assignable to any employee",إذا كانت القيمة أكبر من صفر، فإنها تحدد الحد الأقصى لمبلغ الميزة الذي يمكن إسناده لأي موظف,
-Include Shift Attendance Without Checkins,تضمين حضور المناوبات بدون تسجيلات دخول,
+Include Shift Attendance Without Checkins,تضمين حضور الورديات بدون تسجيلات دخول,
 Income Tax Slab: ,شريحة ضريبة الدخل: ,
 Interview Type Name,اسم نوع المقابلة,
 Interview Type {0} is only applicable for the Designation {1},نوع المقابلة {0} ينطبق فقط على المسمى الوظيفي {1},
@@ -2639,7 +2639,7 @@ Invalid Arrear Component,مكوّن متأخرات غير صالح,
 Invalid Benefit Amounts,مبالغ مزايا غير صالحة,
 Invalid LWP Days Reversed,أيام إجازة بدون راتب معكوسة غير صالحة,
 Invalid employee filter: {0},عامل تصفية موظفين غير صالح: {0},
-Invalid shift filter: {0},عامل تصفية مناوبات غير صالح: {0},
+Invalid shift filter: {0},عامل تصفية ورديات غير صالح: {0},
 Is Allocated,مخصَّص,
 Job Applicants are not allowed to appear twice for the same Interview Type. Interview {0} already scheduled for Job Applicant {1},لا يُسمح للمتقدمين للوظائف بالظهور مرتين لنفس نوع المقابلة. المقابلة {0} مجدولة بالفعل للمتقدم {1},
 Job Application,طلب توظيف,
@@ -2765,9 +2765,9 @@ Self-approval for Expense Claims is not allowed,الموافقة الذاتية 
 Send Reset Link,إرسال رابط إعادة التعيين,
 Sender Copy,نسخة المرسِل,
 Shared document with the user {0} with 'Submit' permission,تمت مشاركة المستند مع المستخدم {0} بصلاحية 'ترحيل',
-Shift Assignments created for the schedule between {0} and {1} via background job,تم إنشاء إسنادات المناوبات للجدول بين {0} و {1} عبر مهمة خلفية,
-Shift and Attendance,المناوبات والحضور,
-Shift assignments for {0} after {1} are already created. Please change {2} date to a date later than {3} {4},إسنادات المناوبات لـ {0} بعد {1} أُنشئت بالفعل. يرجى تغيير تاريخ {2} إلى تاريخ لاحق لـ {3} {4},
+Shift Assignments created for the schedule between {0} and {1} via background job,تم إنشاء تعيينات الورديات للجدول بين {0} و {1} عبر مهمة خلفية,
+Shift and Attendance,الورديات والحضور,
+Shift assignments for {0} after {1} are already created. Please change {2} date to a date later than {3} {4},تعيينات الورديات لـ {0} بعد {1} أُنشئت بالفعل. يرجى تغيير تاريخ {2} إلى تاريخ لاحق لـ {3} {4},
 Shortlist,إدراج في القائمة المختصرة,
 Shortlisted,مُدرج في القائمة المختصرة,
 Standard Multiplier,المضاعِف القياسي,
@@ -2779,7 +2779,7 @@ Sum of benefit amounts {0} exceeds maximum limit of {1},مجموع مبالغ ا
 Taxable Income Relief Threshold Limit,الحد الأقصى للإعفاء من الدخل الخاضع للضريبة,
 Tenure,مدة الخدمة,
 Thank you for applying.,شكرًا لتقديمك.,
-There are multiple shifts assigned to the employee for the same period. Please mention the shift,توجد مناوبات متعددة مسندة للموظف لنفس الفترة. يرجى تحديد الوردية,
+There are multiple shifts assigned to the employee for the same period. Please mention the shift,توجد ورديات متعددة مسندة للموظف لنفس الفترة. يرجى تحديد الوردية,
 There are no arrear differences between existing and new salary structure components.,لا توجد فروق متأخرات بين مكوّنات هيكل الراتب الحالي والجديد.,
 There is no Salary Structure assigned to {0}. First assign a Salary Structure.,لا يوجد هيكل راتب مسند لـ {0}. قم بإسناد هيكل راتب أولًا.,
 Today {0} completed {1} {2} at our Company! 🎉,اليوم أكمل {0} {1} {2} في شركتنا! 🎉,
