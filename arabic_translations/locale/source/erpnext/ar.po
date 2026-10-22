@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.17.0\n"
 
 #. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -2043,17 +2043,17 @@ msgstr "% تم إرجاعه"
 #. Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "% of materials billed against this Sales Order"
-msgstr "% المواد المفوترة مقابل أمر البيع هذا"
+msgstr "% من المواد المفوترة مقابل أمر البيع هذا"
 
 #. Description of the '% Delivered' (Percent) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "% of materials delivered against this Pick List"
-msgstr "% المواد المسلَّمة مقابل قائمة الانتقاء هذه"
+msgstr "% من المواد المسلَّمة مقابل قائمة الانتقاء هذه"
 
 #. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "% of materials delivered against this Sales Order"
-msgstr "% المواد المسلَّمة مقابل أمر البيع هذا"
+msgstr "% من المواد المسلَّمة مقابل أمر البيع هذا"
 
 #: erpnext/controllers/accounts_controller.py:2371
 #, python-brace-format
@@ -60360,7 +60360,7 @@ msgstr "{0}% مسلم"
 #: erpnext/accounts/doctype/payment_term/payment_term.js:15
 #, python-brace-format
 msgid "{0}% of total invoice value will be given as discount."
-msgstr "سيُمنح {0}% من إجمالي قيمة الفاتورة كخصم."
+msgstr "سيُمنح {0}% من إجمالي قيمة الفاتورة خصمًا."
 
 #: erpnext/projects/doctype/task/task.py:130
 #, python-brace-format
@@ -61257,7 +61257,7 @@ msgid "Check Supplier invoice number uniqueness"
 msgstr "التحقق من عدم تكرار رقم فاتورة المورّد"
 
 msgid "Check if this tax is not applicable to items (distinct from 0% rate)"
-msgstr "حدّد إن كانت هذه الضريبة غير قابلة للتطبيق على الأصناف (بخلاف النسبة 0%)"
+msgstr "حدّد إن كانت هذه الضريبة غير مطبّقة على الأصناف (وهذا يختلف عن نسبة 0%)"
 
 msgid "Checks and Deposits incorrectly cleared"
 msgstr "تمت تسوية الشيكات والإيداعات بشكل غير صحيح"
@@ -62358,8 +62358,8 @@ msgid ""
 "In this case, the amount will be calculated as 25% of the transaction amount. If the "
 "transaction amount is 200, then this will be calculated as 200 * 0.25 = 50."
 msgstr ""
-"في هذه الحالة، سيُحتسب المبلغ بنسبة 25% من مبلغ المعاملة. فإذا كان مبلغ المعاملة 200،"
-" فسيُحتسب كالتالي 200 * 0.25 = 50."
+"في هذه الحالة، يُحسب المبلغ بنسبة 25% من مبلغ المعاملة. فإذا كان مبلغ المعاملة 200، "
+"يكون الحساب: 200 * 0.25 = 50."
 
 msgid "Include"
 msgstr "تضمين"
@@ -64949,6 +64949,7 @@ msgstr "حالة {ref_doctype} {ref_name} هي {status}."
 msgid "{} invoices"
 msgstr "{} فاتورة"
 
+#, python-brace-format
 msgid "A draft reverse journal for {0} has been created: {1}"
 msgstr "تم إنشاء مسودة قيد يومية عكسي لـ {0}: {1}"
 
@@ -64984,6 +64985,7 @@ msgstr ""
 msgid "Cannot declare as Lost because an active Quotation exists."
 msgstr "لا يمكن الإعلان عنه كمفقود لوجود عرض أسعار نشط."
 
+#, python-brace-format
 msgid "Cannot repost more than {0} vouchers at once. Split them into multiple documents."
 msgstr "لا يمكن إعادة ترحيل أكثر من {0} سند دفعة واحدة. قسّمها إلى عدة مستندات."
 
@@ -64999,9 +65001,11 @@ msgstr "حساب المصروفات المضافة إلى المخزون"
 msgid "Expenses Added To Stock Contra Account"
 msgstr "الحساب المقابل للمصروفات المضافة إلى المخزون"
 
+#, python-brace-format
 msgid "Expenses Added To Stock for Item {0}"
 msgstr "المصروفات المضافة إلى المخزون للصنف {0}"
 
+#, python-brace-format
 msgid "Item {0} cannot be ordered more than once"
 msgstr "لا يمكن طلب الصنف {0} أكثر من مرة"
 
@@ -65011,15 +65015,19 @@ msgstr "أُعيد ترحيله جزئيًا"
 msgid "Payment Link couldn't be sent."
 msgstr "تعذّر إرسال رابط الدفع."
 
+#, python-brace-format
 msgid "Please select a valid {0}"
 msgstr "يرجى اختيار {0} صالح"
 
+#, python-brace-format
 msgid "Please set {0} in Company {1} or in the Item Defaults of Item {2}"
 msgstr "يرجى ضبط {0} في الشركة {1} أو في الإعدادات الافتراضية للصنف {2}"
 
+#, python-brace-format
 msgid "Quantity for Item {0} must be greater than zero and cannot exceed {1}"
 msgstr "يجب أن تكون كمية الصنف {0} أكبر من صفر وألا تتجاوز {1}"
 
+#, python-brace-format
 msgctxt "<b>${pending_qty}</b>"
 msgid "Quantity for Item {0} must be greater than zero and cannot exceed {1}"
 msgstr "يجب أن تكون كمية الصنف {0} أكبر من صفر وألا تتجاوز {1}"
@@ -65033,15 +65041,18 @@ msgstr "حالة إعادة الترحيل"
 msgid "Reposting can be started only for submitted document."
 msgstr "لا يمكن بدء إعادة الترحيل إلا للمستند المُرحّل."
 
+#, python-brace-format
 msgid "Reposting cannot be started when status is {0}."
 msgstr "لا يمكن بدء إعادة الترحيل عندما تكون الحالة {0}."
 
 msgid "Reposting is still in progress in background."
 msgstr "إعادة الترحيل ما زالت قيد التنفيذ في الخلفية."
 
+#, python-brace-format
 msgid "Reposting {0} {1}"
 msgstr "جارٍ إعادة ترحيل {0} {1}"
 
+#, python-brace-format
 msgid "Reverse {0} already available in draft status: {1}"
 msgstr "يوجد بالفعل {0} عكسي بحالة مسودة: {1}"
 
@@ -65051,6 +65062,7 @@ msgstr "المجدول غير نشط. لن تُنفَّذ إعادة الترح�
 msgid "Select Supplier for Items"
 msgstr "اختر المورد للأصناف"
 
+#, python-brace-format
 msgid "Select a Supplier for Item {0}"
 msgstr "اختر موردًا للصنف {0}"
 
@@ -65069,9 +65081,11 @@ msgstr "مصروف المخزون"
 msgid "Stock Expense Accounting"
 msgstr "محاسبة مصروف المخزون"
 
+#, python-brace-format
 msgid "Stock not available to reserve for the Item {0} in Warehouse {1}."
 msgstr "لا يتوفر مخزون للحجز للصنف {0} في المستودع {1}."
 
+#, python-brace-format
 msgid "The following vouchers are not submitted: {0}"
 msgstr "السندات التالية غير مُرحّلة: {0}"
 
@@ -65081,12 +65095,14 @@ msgstr "تعذّرت إعادة ترحيل دفتر الأستاذ المحاس�
 msgid "Used to balance the books when recording expenses added to stock"
 msgstr "يُستخدم لموازنة الدفاتر عند تسجيل المصروفات المضافة إلى المخزون"
 
+#, python-brace-format
 msgid "{0} was set to today for items whose requested date has passed"
 msgstr "تم ضبط {0} على تاريخ اليوم للأصناف التي تجاوز تاريخها المطلوب"
 
 msgid "% of FG Cost"
 msgstr "نسبة من تكلفة المنتج النهائي"
 
+#, python-brace-format
 msgid ""
 "<strong>Total qty</strong> of the rows (<strong>{0}</strong>) does not match the "
 "<strong>Qty to Fetch</strong> (<strong>{1}</strong>). Qty of the item will be changed"
@@ -65105,6 +65121,7 @@ msgstr "مرشح الحساب"
 msgid "Accounts Receivable / Payable Report"
 msgstr "تقرير الذمم المدينة / الدائنة"
 
+#, python-brace-format
 msgid "Accounts cannot be removed, as user doesn't have access to all the accounts of {0}"
 msgstr "لا يمكن إزالة الحسابات، لأن المستخدم لا يملك صلاحية الوصول إلى جميع حسابات {0}"
 
@@ -65132,6 +65149,7 @@ msgstr "لا يمكن تطبيق الضرائب"
 msgid "Cannot apply taxes from this address"
 msgstr "لا يمكن تطبيق الضرائب من هذا العنوان"
 
+#, python-brace-format
 msgid ""
 "Cannot find a default warehouse for item {0}. Please select one in the Update Items "
 "dialog, or set a default in the Item Master or in Stock Settings."
@@ -65139,23 +65157,28 @@ msgstr ""
 "تعذر العثور على مستودع افتراضي للصنف {0}. يرجى تحديد واحد في نافذة تحديث الأصناف، أو "
 "تعيين مستودع افتراضي في بطاقة الصنف أو في إعدادات المخزون."
 
+#, python-brace-format
 msgid "Cannot load {0} details"
 msgstr "تعذر تحميل تفاصيل {0}"
 
+#, python-brace-format
 msgid "Circular dependency detected: {0}"
 msgstr "تم اكتشاف اعتمادية دائرية: {0}"
 
 msgid "Closed Period"
 msgstr "فترة مقفلة"
 
+#, python-brace-format
 msgid "Company is required to apply taxes. Set Company, then select {0} again."
 msgstr "الشركة مطلوبة لتطبيق الضرائب. عيّن الشركة، ثم حدد {0} مرة أخرى."
 
+#, python-brace-format
 msgid ""
 "Company is required to load address, taxes, and payment terms. Set Company, then "
 "select {0} again."
 msgstr "الشركة مطلوبة لتحميل العنوان والضرائب وشروط الدفع. عيّن الشركة، ثم حدد {0} مرة أخرى."
 
+#, python-brace-format
 msgid ""
 "Completed Quantity ({0}), Pending Quantity ({1}) and Process Loss Quantity ({2}) must"
 " add up to the Qty to Manufacture ({3})."
@@ -65163,15 +65186,18 @@ msgstr ""
 "يجب أن يكون مجموع الكمية المنجزة ({0}) والكمية المعلقة ({1}) وكمية الفاقد ({2}) "
 "مساويًا لكمية التصنيع ({3})."
 
+#, python-brace-format
 msgid "Completed Quantity cannot be greater than {0}"
 msgstr "لا يمكن أن تكون الكمية المنجزة أكبر من {0}"
 
 msgid "Completed, Pending and Process Loss quantities must add up to this."
 msgstr "يجب أن يكون مجموع الكميات المنجزة والمعلقة والفاقد مساويًا لهذه القيمة."
 
+#, python-brace-format
 msgid "Could not validate {0}: {1}"
 msgstr "تعذر التحقق من {0}: {1}"
 
+#, python-brace-format
 msgid ""
 "Create a Stock Closing Entry for the entire company with To Date as {0} before "
 "submitting the Period Closing Voucher."
@@ -65183,6 +65209,7 @@ msgstr "تعطيل مرشح \"مراعاة البعد المحاسبي\""
 msgid "Duplicate POS Search Fields"
 msgstr "حقول بحث مكررة في نقطة البيع"
 
+#, python-brace-format
 msgid "Duplicate line reference: '{0}'"
 msgstr "مرجع سطر مكرر: '{0}'"
 
@@ -65193,6 +65220,7 @@ msgstr ""
 "يمنع تفعيل هذا الخيار إنشاء فاتورة مبيعات جديدة عندما يكون للزبون حد متأخرات محدد "
 "ويتجاوز مبلغ متأخراته المستحقة ذلك الحد."
 
+#, python-brace-format
 msgid ""
 "Exchange rate {0} does not match the exchange rate of Purchase Receipt {1}. Use the "
 "same exchange rate as the Purchase Receipt or enable {2} in {3} to adjust the landed "
@@ -65201,6 +65229,7 @@ msgstr ""
 "سعر الصرف {0} لا يطابق سعر صرف إشعار استلام المشتريات {1}. استخدم نفس سعر الصرف الخاص"
 " بإشعار الاستلام أو فعّل {2} في {3} لتعديل التكلفة الواصلة بناءً على هذه الفاتورة."
 
+#, python-brace-format
 msgid "Field '{0}' is not a valid Account field"
 msgstr "الحقل '{0}' ليس حقل حساب صالحًا"
 
@@ -65213,15 +65242,18 @@ msgstr "يجب أن يكون المرشح بالشكل [الحقل، المعا�
 msgid "Filter must be a list or dict"
 msgstr "يجب أن يكون المرشح قائمة أو قاموسًا"
 
+#, python-brace-format
 msgid "Formula evaluation error: {0}"
 msgstr "خطأ في تقييم الصيغة: {0}"
 
 msgid "Formula has unbalanced parentheses"
 msgstr "الصيغة تحتوي على أقواس غير متوازنة"
 
+#, python-brace-format
 msgid "Formula must return a numeric value, got {0}"
 msgstr "يجب أن تُرجع الصيغة قيمة رقمية، وقد أرجعت {0}"
 
+#, python-brace-format
 msgid "Formula references itself ('{0}')"
 msgstr "الصيغة تشير إلى نفسها ('{0}')"
 
@@ -65243,6 +65275,7 @@ msgstr "بُعد مخزون غير صحيح"
 msgid "Internal Customer Already Exists"
 msgstr "الزبون الداخلي موجود بالفعل"
 
+#, python-brace-format
 msgid ""
 "Internal Customer {0} already exists for {1}. Disable it to make this Customer "
 "internal."
@@ -65251,11 +65284,13 @@ msgstr "الزبون الداخلي {0} موجود بالفعل لـ {1}. عطّ
 msgid "Internal Supplier Already Exists"
 msgstr "المورد الداخلي موجود بالفعل"
 
+#, python-brace-format
 msgid ""
 "Internal Supplier {0} already exists for {1}. Disable it to make this Supplier "
 "internal."
 msgstr "المورد الداخلي {0} موجود بالفعل لـ {1}. عطّله لجعل هذا المورد داخليًا."
 
+#, python-brace-format
 msgid "Invalid JSON format: {0}"
 msgstr "صيغة JSON غير صالحة: {0}"
 
@@ -65271,6 +65306,7 @@ msgstr "حقل بحث غير صالح في نقطة البيع"
 msgid "Invalid Reading"
 msgstr "قراءة غير صالحة"
 
+#, python-brace-format
 msgid ""
 "Invalid line reference format: '{0}'. Must start with letter and contain only "
 "letters, numbers, underscores, and hyphens"
@@ -65278,12 +65314,14 @@ msgstr ""
 "صيغة مرجع سطر غير صالحة: '{0}'. يجب أن يبدأ بحرف وأن يحتوي فقط على حروف وأرقام وشرطات"
 " سفلية وشرطات"
 
+#, python-brace-format
 msgid "Invalid operator '{0}'"
 msgstr "معامل غير صالح '{0}'"
 
 msgid "Invoice is not blocked. Block the invoice to change the release date."
 msgstr "الفاتورة غير محظورة. احظر الفاتورة لتغيير تاريخ الإفراج."
 
+#, python-brace-format
 msgid ""
 "Job Card {0}: As per the sequence of the operations in the work order {1}, submit the"
 " manufacturing entry for the operation {2} before the operation {3}."
@@ -65291,6 +65329,7 @@ msgstr ""
 "بطاقة العمل {0}: وفقًا لتسلسل العمليات في أمر العمل {1}، رحّل قيد التصنيع للعملية {2}"
 " قبل العملية {3}."
 
+#, python-brace-format
 msgid "Line references undefined in {0}: {1}"
 msgstr "مراجع أسطر غير معرّفة في {0}: {1}"
 
@@ -65303,9 +65342,11 @@ msgstr "تحتاج الشروط المنطقية إلى شرط فرعي واحد
 msgid "Logical operators must be 'and' or 'or'"
 msgstr "يجب أن تكون المعاملات المنطقية 'and' أو 'or'"
 
+#, python-brace-format
 msgid "Method '{0}' must be whitelisted and permit GET requests"
 msgstr "يجب أن تكون الدالة '{0}' مدرجة في القائمة البيضاء وأن تسمح بطلبات GET"
 
+#, python-brace-format
 msgid "Method {0} must permit GET requests"
 msgstr "يجب أن تسمح الدالة {0} بطلبات GET"
 
@@ -65318,21 +65359,25 @@ msgstr "لا يوجد ما يمكن طلبه من الصفوف المحددة"
 msgid "Nothing to order, the selected rows are already covered by stock or existing orders"
 msgstr "لا يوجد ما يمكن طلبه، فالصفوف المحددة مغطاة بالفعل بالمخزون أو بأوامر قائمة"
 
+#, python-brace-format
 msgid "Operator '{0}' requires a list value"
 msgstr "المعامل '{0}' يتطلب قيمة من نوع قائمة"
 
 msgid "Please select a warehouse first."
 msgstr "يرجى تحديد مستودع أولاً."
 
+#, python-brace-format
 msgid "Please set a primary email ID for the Contact {0}"
 msgstr "يرجى تعيين بريد إلكتروني رئيسي لجهة الاتصال {0}"
 
 msgid "Prevent Sales Invoice when Customer is Overdue"
 msgstr "منع فاتورة المبيعات عند تأخر الزبون في السداد"
 
+#, python-brace-format
 msgid "Price List {0} is not enabled for {1}"
 msgstr "قائمة الأسعار {0} غير مفعّلة لـ {1}"
 
+#, python-brace-format
 msgid "Process Loss Quantity cannot be greater than {0}"
 msgstr "لا يمكن أن تكون كمية الفاقد أكبر من {0}"
 
@@ -65363,6 +65408,7 @@ msgstr "السعر الذي تُحوَّل به عملة المستند إلى �
 msgid "Return Purchase Invoice cannot be held."
 msgstr "لا يمكن تعليق فاتورة شراء مرتجعة."
 
+#, python-brace-format
 msgid ""
 "Row #{0}: % of FG Cost needs a BOM secondary item. Choose Valuation Rate or Manual "
 "for {1}."
@@ -65370,15 +65416,19 @@ msgstr ""
 "الصف رقم {0}: خيار نسبة من تكلفة المنتج النهائي يتطلب صنفًا ثانويًا في قائمة المواد. "
 "اختر سعر التقييم أو يدوي لـ {1}."
 
+#, python-brace-format
 msgid "Row #{0}: '{1}' cannot be used to search items."
 msgstr "الصف رقم {0}: لا يمكن استخدام '{1}' للبحث عن الأصناف."
 
+#, python-brace-format
 msgid "Row #{0}: '{1}' does not match {2}."
 msgstr "الصف رقم {0}: '{1}' لا يطابق {2}."
 
+#, python-brace-format
 msgid "Row #{0}: '{1}' is not a valid field of {2}."
 msgstr "الصف رقم {0}: '{1}' ليس حقلاً صالحًا في {2}."
 
+#, python-brace-format
 msgid ""
 "Row #{0}: FG / Semi FG Item is required for the operation {1} as 'Track Semi Finished"
 " Goods' is enabled."
@@ -65386,12 +65436,15 @@ msgstr ""
 "الصف رقم {0}: صنف المنتج النهائي / نصف المصنّع مطلوب للعملية {1} لأن خيار 'تتبع السلع"
 " نصف المصنعة' مفعّل."
 
+#, python-brace-format
 msgid "Row #{0}: Item {1} is already added with the same Type in the Secondary Items table."
 msgstr "الصف رقم {0}: الصنف {1} مضاف بالفعل بنفس النوع في جدول الأصناف الثانوية."
 
+#, python-brace-format
 msgid "Row #{0}: Quantity must be greater than 0 for Item {1}"
 msgstr "الصف رقم {0}: يجب أن تكون الكمية أكبر من 0 للصنف {1}"
 
+#, python-brace-format
 msgid ""
 "Row #{0}: Reading {1} {2} is not a valid number in the {3} number format. Use {4} as "
 "the decimal separator."
@@ -65399,6 +65452,7 @@ msgstr ""
 "الصف رقم {0}: القراءة {1} {2} ليست رقمًا صالحًا بتنسيق الأرقام {3}. استخدم {4} كفاصل "
 "عشري."
 
+#, python-brace-format
 msgid ""
 "Row #{0}: The operation {1} has 'Is Final Finished Good' checked, so its FG / Semi FG"
 " Item must be {2}."
@@ -65406,6 +65460,7 @@ msgstr ""
 "الصف رقم {0}: العملية {1} محدد لها خيار 'المنتج النهائي الأخير'، لذا يجب أن يكون صنف "
 "المنتج النهائي / نصف المصنّع الخاص بها {2}."
 
+#, python-brace-format
 msgctxt "Financial Report Template"
 msgid "Row {0}: {1}"
 msgstr "الصف {0}: {1}"
@@ -65420,6 +65475,7 @@ msgstr ""
 msgid "Serial No status sync has been queued. Reload the report after a few minutes."
 msgstr "تمت جدولة مزامنة حالة الأرقام التسلسلية. أعد تحميل التقرير بعد بضع دقائق."
 
+#, python-brace-format
 msgid "Serial No {0} is not available in the selected inventory dimensions: {1}"
 msgstr "الرقم التسلسلي {0} غير متوفر في أبعاد المخزون المحددة: {1}"
 
@@ -65432,6 +65488,7 @@ msgstr "قيد إقفال المخزون غير محدّث"
 msgid "Stock Closing Entry Required"
 msgstr "قيد إقفال المخزون مطلوب"
 
+#, python-brace-format
 msgid ""
 "Stock Closing Entry {0} belongs to a closed accounting period. Cancel the Period "
 "Closing Voucher {1} first."
@@ -65443,6 +65500,7 @@ msgstr "المخزون مجمّد"
 msgid "Stock Value Mismatch"
 msgstr "عدم تطابق قيمة المخزون"
 
+#, python-brace-format
 msgid ""
 "Stock transactions dated on or before {0} are frozen because the period is closed and"
 " the Stock Closing Entry {1} has been generated. To make changes, cancel the Period "
@@ -65451,6 +65509,7 @@ msgstr ""
 "الحركات المخزنية بتاريخ {0} أو قبله مجمّدة لأن الفترة مقفلة وتم إنشاء قيد إقفال "
 "المخزون {1}. لإجراء تغييرات، ألغِ سند إقفال الفترة أولاً."
 
+#, python-brace-format
 msgid ""
 "Stock transactions were created or modified after the Stock Closing Entry {0} was "
 "generated. Regenerate it before submitting the Period Closing Voucher."
@@ -65458,6 +65517,7 @@ msgstr ""
 "تم إنشاء أو تعديل حركات مخزنية بعد إنشاء قيد إقفال المخزون {0}. أعد إنشاءه قبل ترحيل "
 "سند إقفال الفترة."
 
+#, python-brace-format
 msgid "Supplier Quotation {0} already exists against Request for Quotation {1}"
 msgstr "عرض سعر المورد {0} موجود بالفعل مقابل طلب عرض السعر {1}"
 
@@ -65475,6 +65535,7 @@ msgstr ""
 "ألغِ التحديد لتجاهل الأسعار الأقدم من أيام التقادم وجلب سعر جديد من مزود أسعار الصرف "
 "بدلاً من ذلك."
 
+#, python-brace-format
 msgid ""
 "The Job Card {0} has only {1} left to produce, but this entry books {2} ({3} finished"
 " goods and {4} process loss). Cancel or update its other manufacture entries first."
@@ -65482,11 +65543,13 @@ msgstr ""
 "بطاقة العمل {0} لم يتبقَ لها سوى {1} للإنتاج، لكن هذا القيد يسجل {2} ({3} منتجات "
 "نهائية و{4} فاقد). ألغِ أو حدّث قيود التصنيع الأخرى الخاصة بها أولاً."
 
+#, python-brace-format
 msgid ""
 "The Stock Closing Entry for {0} is not completed yet. Wait for it to complete before "
 "submitting the Period Closing Voucher."
 msgstr "قيد إقفال المخزون لـ {0} لم يكتمل بعد. انتظر اكتماله قبل ترحيل سند إقفال الفترة."
 
+#, python-brace-format
 msgid ""
 "The closing balance {0} of the Stock Asset accounts does not match the closing value "
 "{1} of the Stock Balance report as on {2}. Resolve the difference using the Stock "
@@ -65496,6 +65559,7 @@ msgstr ""
 "المخزون كما في {2}. عالج الفرق باستخدام تقرير انحراف دفتر أستاذ المخزون قبل إقفال "
 "الفترة."
 
+#, python-brace-format
 msgid ""
 "The completed quantity {0} of an operation {1} cannot be greater than the "
 "manufactured quantity {2} of a previous operation {3}. Submit the manufacturing entry"
@@ -65504,12 +65568,15 @@ msgstr ""
 "الكمية المنجزة {0} للعملية {1} لا يمكن أن تكون أكبر من الكمية المصنّعة {2} لعملية "
 "سابقة {3}. رحّل قيد التصنيع للعملية {3} أولاً."
 
+#, python-brace-format
 msgid "The cost of the secondary items cannot exceed the raw material cost of {0}."
 msgstr "لا يمكن أن تتجاوز تكلفة الأصناف الثانوية تكلفة المواد الخام البالغة {0}."
 
+#, python-brace-format
 msgid "The following rows are not valid fields of {0} and have to be removed: {1}"
 msgstr "الصفوف التالية ليست حقولاً صالحة في {0} ويجب إزالتها: {1}"
 
+#, python-brace-format
 msgid ""
 "This will update the warehouse and status of Serial Nos counted in {0} to match the "
 "stock ledger. Continue?"
@@ -65523,6 +65590,7 @@ msgstr "تلميح"
 msgid "Tip: Select report lines to view their accounts"
 msgstr "تلميح: حدد سطور التقرير لعرض حساباتها"
 
+#, python-brace-format
 msgid ""
 "Total Completed Qty ({0}), Process Loss Qty ({1}) and Pending Qty ({2}) must add up "
 "to the Qty to Manufacture ({3})."
@@ -65542,40 +65610,52 @@ msgstr ""
 msgid "Valuation Type"
 msgstr "نوع التقييم"
 
+#, python-brace-format
 msgid "You are not permitted to create a Task for Project {0}"
 msgstr "غير مصرح لك بإنشاء مهمة للمشروع {0}"
 
+#, python-brace-format
 msgctxt "Financial Report Template"
 msgid "[{0}] {1}"
 msgstr "[{0}] {1}"
 
+#, python-brace-format
 msgid "{0} cannot be used as an accounting dimension as it is not a standalone document type."
 msgstr "{0} لا يمكن استخدامه كبُعد محاسبي لأنه ليس نوع مستند مستقلاً."
 
+#, python-brace-format
 msgid "{0} is already a Reverse Journal Entry of {1}. Cancel it instead of reversing it."
 msgstr "{0} هو بالفعل قيد يومية عكسي لـ {1}. ألغِه بدلاً من عكسه."
 
+#, python-brace-format
 msgid "{0} is required to apply taxes. Set {0}, then select {1} again."
 msgstr "{0} مطلوب لتطبيق الضرائب. عيّن {0}، ثم حدد {1} مرة أخرى."
 
+#, python-brace-format
 msgid "{0} is required when {1} is {2}"
 msgstr "{0} مطلوب عندما يكون {1} هو {2}"
 
+#, python-brace-format
 msgid "{0} is the site's Demo Company and cannot be deleted directly. Use {1} instead."
 msgstr "{0} هي الشركة التجريبية للموقع ولا يمكن حذفها مباشرة. استخدم {1} بدلاً من ذلك."
 
+#, python-brace-format
 msgid "{0} should be in format: app.module.method"
 msgstr "{0} يجب أن يكون بالصيغة: app.module.method"
 
+#, python-brace-format
 msgid "{0} {1} is blocked and on hold until {2}."
 msgstr "{0} {1} محظور ومعلق حتى {2}."
 
+#, python-brace-format
 msgid "{0} {1} is blocked."
 msgstr "{0} {1} محظور."
 
+#, python-brace-format
 msgid "{0}'s {1} cannot be before {2}'s Expected Start Date."
 msgstr "{1} الخاص بـ {0} لا يمكن أن يكون قبل تاريخ البدء المتوقع لـ {2}."
 
+#, python-brace-format
 msgid "{0}: expected \"{1}\", got \"{2}\""
 msgstr "{0}: كان متوقعًا \"{1}\"، وتم الحصول على \"{2}\""
 
@@ -65676,6 +65756,3342 @@ msgstr "قيمة المخزون حسب المستودع"
 #. UI string with no POT entry; overlay-only
 msgid "New Contacts"
 msgstr "جهات اتصال جديدة"
+
+msgid "% of Component Cost"
+msgstr "% من تكلفة المكوّن"
+
+#, python-brace-format
+msgid "'{0}' is a reserved name and cannot be used as a line reference"
+msgstr "'{0}' اسم محجوز ولا يمكن استخدامه مرجعًا لسطر"
+
+msgid "(A) Balance Qty"
+msgstr "(A) كمية الرصيد"
+
+msgid "(B) Expected Balance Qty"
+msgstr "(B) كمية الرصيد المتوقعة"
+
+msgid "(C) Change in Stock Value"
+msgstr "(C) التغير في قيمة المخزون"
+
+msgid "(D) Expected Change in Stock Value"
+msgstr "(D) التغير المتوقع في قيمة المخزون"
+
+msgid "(E) Valuation Rate"
+msgstr "(E) سعر التقييم"
+
+msgid "(F) Expected Valuation Rate"
+msgstr "(F) سعر التقييم المتوقع"
+
+msgid "(G) Balance Stock Value"
+msgstr "(G) قيمة رصيد المخزون"
+
+msgid "(H) Expected Balance Stock Value"
+msgstr "(H) قيمة رصيد المخزون المتوقعة"
+
+msgid "(none)"
+msgstr "(لا شيء)"
+
+msgid "A band of scores, and what happens to suppliers in it."
+msgstr "نطاق من الدرجات، وما يترتب على الموردين الواقعين فيه."
+
+msgid "A bank account of yours or of a customer or supplier."
+msgstr "حساب بنكي لك أو لزبون أو مورد."
+
+msgid "A bank you or your customers and suppliers hold accounts with."
+msgstr "بنك تحتفظ فيه أنت أو زبائنك ومورّدوك بحسابات."
+
+msgid "A batch of payments to send to your bank."
+msgstr "دفعة من المدفوعات لإرسالها إلى بنكك."
+
+msgid "A bill from a supplier for what you bought."
+msgstr "فاتورة من مورد عمّا اشتريته."
+
+msgid "A bill to a customer for what you sold."
+msgstr "فاتورة إلى زبون عمّا بعته."
+
+msgid "A branch of your company."
+msgstr "فرع من فروع شركتك."
+
+msgid "A brand your items are sold under."
+msgstr "علامة تجارية تُباع أصنافك تحتها."
+
+msgid ""
+"A business or person you buy from. See "
+"[Supplier](https://docs.frappe.io/erpnext/user/manual/en/supplier)."
+msgstr ""
+"شركة أو شخص تشتري منه. راجع "
+"[المورد](https://docs.frappe.io/erpnext/user/manual/en/supplier)."
+
+msgid ""
+"A business or person you sell to. See "
+"[Customer](https://docs.frappe.io/erpnext/user/manual/en/customer)."
+msgstr ""
+"شركة أو شخص تبيع له. راجع "
+"[الزبون](https://docs.frappe.io/erpnext/user/manual/en/customer)."
+
+msgid "A certificate that lets you withhold less tax from a supplier."
+msgstr "شهادة تتيح لك استقطاع ضريبة أقل من مورد."
+
+msgid "A channel customers reach you on, like a phone line."
+msgstr "قناة يتواصل معك الزبائن عبرها، مثل خط هاتفي."
+
+msgid "A class of shares, like equity or preference."
+msgstr "فئة من الأسهم، مثل الأسهم العادية أو الممتازة."
+
+msgid "A code customers enter to get a discount from a pricing rule."
+msgstr "رمز يُدخله الزبائن للحصول على خصم من قاعدة تسعير."
+
+msgid "A code from a code list and what it maps to."
+msgstr "رمز من قائمة رموز وما يقابله."
+
+msgid "A company or person you buy goods or services from."
+msgstr "شركة أو شخص تشتري منه سلعًا أو خدمات."
+
+msgid "A company or person you sell goods or services to."
+msgstr "شركة أو شخص تبيع له سلعًا أو خدمات."
+
+msgid "A company that makes the items you buy or sell."
+msgstr "شركة تصنع الأصناف التي تشتريها أو تبيعها."
+
+msgid "A company you are trying to win as a customer, with its leads."
+msgstr "شركة تسعى لكسبها زبونًا، مع زبائنها المحتملين."
+
+msgid "A customer's claim to repair or replace an item under warranty."
+msgstr "مطالبة زبون بإصلاح صنف أو استبداله ضمن الضمان."
+
+msgid "A customer's confirmed order."
+msgstr "طلب مؤكد من زبون."
+
+msgid "A date range you can close so no one posts into it."
+msgstr "فترة زمنية يمكنك إغلاقها كي لا يرحّل أحد قيودًا فيها."
+
+msgid "A department of your company."
+msgstr "قسم من أقسام شركتك."
+
+msgid "A direct entry in your books, for anything without its own form."
+msgstr "قيد مباشر في دفاترك، لكل ما ليس له نموذج خاص."
+
+msgid "A distributor, dealer or reseller who sells for you on commission."
+msgstr "موزّع أو وكيل أو بائع يبيع لحسابك مقابل عمولة."
+
+msgid "A finer grouping of bank accounts, like savings or current."
+msgstr "تصنيف أدق للحسابات البنكية، مثل حساب التوفير أو الحساب الجاري."
+
+msgid "A group of tax withholding categories that apply together."
+msgstr "مجموعة من فئات استقطاع الضريبة تُطبَّق معًا."
+
+msgid "A group of units of an item made or received together."
+msgstr "مجموعة من وحدات صنف صُنعت أو استُلمت معًا."
+
+msgid "A grouping of bank accounts, like checking or credit card."
+msgstr "تصنيف للحسابات البنكية، مثل الحساب الجاري أو بطاقة الائتمان."
+
+msgid "A grouping of calls, like sales or support."
+msgstr "تصنيف للمكالمات، مثل المبيعات أو الدعم."
+
+msgid "A grouping of inspection parameters."
+msgstr "مجموعة من معايير الفحص."
+
+msgid "A grouping of issues, like billing or technical."
+msgstr "تصنيف للبلاغات، مثل الفوترة أو المشكلات الفنية."
+
+msgid "A grouping of projects, like internal or external."
+msgstr "تصنيف للمشاريع، مثل الداخلية أو الخارجية."
+
+msgid "A grouping of tasks, like bug or feature."
+msgstr "تصنيف للمهام، مثل خلل أو ميزة."
+
+msgid "A grouping of units, like weight or length."
+msgstr "تصنيف لوحدات القياس، مثل الوزن أو الطول."
+
+msgid "A grouping of warehouses, like transit or store."
+msgstr "تصنيف للمستودعات، مثل مستودع العبور أو المخزن."
+
+msgid "A guarantee a bank gives on your behalf, or on a customer's or supplier's."
+msgstr "ضمان يصدره بنك نيابةً عنك، أو عن زبون أو مورد."
+
+msgid "A job title, like manager or accountant."
+msgstr "مسمى وظيفي، مثل مدير أو محاسب."
+
+msgid "A kind of stock entry, like material transfer or manufacture."
+msgstr "نوع من قيود المخزون، مثل نقل المواد أو التصنيع."
+
+msgid "A kind of work you track time against, like design or support."
+msgstr "نوع من العمل تسجّل الوقت عليه، مثل التصميم أو الدعم."
+
+msgid "A kind of workstation, with its costs."
+msgstr "نوع من محطات العمل، مع تكاليفه."
+
+msgid "A ledger in your chart of accounts that entries are posted to."
+msgstr "حساب في دليل الحسابات تُرحَّل إليه القيود."
+
+msgid "A legal entity with its own books, like your business or a subsidiary."
+msgstr "كيان قانوني له دفاتره الخاصة، مثل نشاطك التجاري أو شركة تابعة."
+
+msgid "A line from your bank statement, ready to be matched with a payment."
+msgstr "سطر من كشف حسابك البنكي، جاهز لمطابقته مع دفعة."
+
+msgid "A machine or place where operations are done."
+msgstr "آلة أو مكان تُنفَّذ فيه العمليات."
+
+msgid "A marketing campaign, to see which leads and sales it brought in."
+msgstr "حملة تسويقية، لمعرفة ما جلبته من زبائن محتملين ومبيعات."
+
+msgid "A meeting booked with a lead or customer."
+msgstr "اجتماع محجوز مع زبون محتمل أو زبون."
+
+msgid "A meeting to review quality, with its agenda and minutes."
+msgstr "اجتماع لمراجعة الجودة، مع جدول أعماله ومحضره."
+
+msgid "A parcel size you ship often."
+msgstr "حجم طرد تشحنه كثيرًا."
+
+msgid "A parcel you send through a carrier."
+msgstr "طرد ترسله عبر شركة شحن."
+
+msgid ""
+"A part of your business you track income and expenses for, like a branch or product "
+"line."
+msgstr "جزء من نشاطك تتابع إيراداته ومصروفاته، مثل فرع أو خط منتجات."
+
+msgid "A periodic check of how a quality goal is going."
+msgstr "مراجعة دورية لسير هدف جودة."
+
+msgid "A person or company that owns shares in your company."
+msgstr "شخص أو شركة تملك أسهمًا في شركتك."
+
+msgid "A phone call made or received."
+msgstr "مكالمة هاتفية صادرة أو واردة."
+
+msgid "A piece of work to be done, often part of a project."
+msgstr "عمل يجب إنجازه، غالبًا ضمن مشروع."
+
+msgid "A piece of work with tasks, time and costs."
+msgstr "عمل له مهام ووقت وتكاليف."
+
+msgid "A place where you keep stock."
+msgstr "مكان تحفظ فيه المخزون."
+
+msgid "A place where your assets are kept."
+msgstr "مكان تُحفظ فيه أصولك."
+
+msgid "A potential sale to a lead or customer."
+msgstr "بيع محتمل لزبون محتمل أو زبون."
+
+msgid "A problem or question raised by a customer."
+msgstr "مشكلة أو استفسار يرفعه زبون."
+
+msgid ""
+"A product or a service you sell. See "
+"[Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "منتج أو خدمة تبيعها. راجع [الصنف](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+msgid "A product or service you buy, sell or keep in stock."
+msgstr "منتج أو خدمة تشتريها أو تبيعها أو تحتفظ بها في المخزون."
+
+msgid "A progress update collected from the project team."
+msgstr "تحديث عن سير العمل يُجمع من فريق المشروع."
+
+msgid "A property item variants differ by, like size or colour."
+msgstr "خاصية تختلف بها متغيرات الصنف، مثل المقاس أو اللون."
+
+msgid "A published list of codes, like units or tax categories, used in e-invoicing."
+msgstr "قائمة رموز منشورة، مثل الوحدات أو الفئات الضريبية، تُستخدم في الفوترة الإلكترونية."
+
+msgid "A record of maintenance done on an asset."
+msgstr "سجل بأعمال الصيانة المنفّذة على أصل."
+
+msgid "A record of shares issued, bought back or moved between shareholders."
+msgstr "سجل بالأسهم المصدرة أو المعاد شراؤها أو المنقولة بين المساهمين."
+
+msgid "A region you sell in, to group customers and set targets."
+msgstr "منطقة تبيع فيها، لتجميع الزبائن وتحديد الأهداف."
+
+msgid "A regular email summing up how the business is doing."
+msgstr "بريد إلكتروني دوري يلخّص أداء النشاط التجاري."
+
+msgid "A reminder to a customer about an overdue invoice."
+msgstr "تذكير لزبون بفاتورة متأخرة السداد."
+
+msgid "A repair made to an asset, and what it cost."
+msgstr "إصلاح أُجري على أصل، وتكلفته."
+
+msgid "A request to buy, transfer or make items."
+msgstr "طلب لشراء أصناف أو نقلها أو تصنيعها."
+
+msgid "A sale made at the point of sale."
+msgstr "عملية بيع تمت في نقطة البيع."
+
+msgid "A saved set of accounts to start journal entries from."
+msgstr "مجموعة محفوظة من الحسابات تُبدأ منها قيود اليومية."
+
+msgid "A separate set of books, for example to depreciate assets under another rule."
+msgstr "مجموعة دفاتر منفصلة، مثلًا لإهلاك الأصول وفق قاعدة أخرى."
+
+msgid "A series of emails sent to leads or contacts on a schedule."
+msgstr "سلسلة رسائل بريد إلكتروني تُرسل إلى الزبائن المحتملين أو جهات الاتصال وفق جدول."
+
+msgid "A set of discounts and free items, like buy two get one free."
+msgstr "مجموعة من الخصومات والأصناف المجانية، مثل اشترِ اثنين واحصل على الثالث مجانًا."
+
+msgid "A set of item prices for buying, selling or both."
+msgstr "مجموعة أسعار أصناف للشراء أو البيع أو كليهما."
+
+msgid "A set of payment terms to apply to invoices and orders."
+msgstr "مجموعة من شروط الدفع تُطبَّق على الفواتير والأوامر."
+
+msgid "A set of tasks to start new projects from."
+msgstr "مجموعة مهام تُبدأ منها المشاريع الجديدة."
+
+msgid "A short code added to account names, like Cash - AC."
+msgstr "رمز قصير يُضاف إلى أسماء الحسابات، مثل Cash - AC."
+
+msgid "A single unit of an item, tracked by its own number."
+msgstr "وحدة واحدة من صنف، تُتتبَّع برقمها الخاص."
+
+msgid "A step in making an item, like cutting or assembly."
+msgstr "خطوة في تصنيع صنف، مثل القص أو التجميع."
+
+msgid "A step in your sales process, like qualification or negotiation."
+msgstr "مرحلة في عملية البيع لديك، مثل التأهيل أو التفاوض."
+
+msgid "A task becomes Overdue on its own once its Expected End Date passes"
+msgstr "تصبح المهمة متأخرة تلقائيًا بمجرد انقضاء تاريخ الانتهاء المتوقع"
+
+msgid "A unit you measure items in, like kg or box."
+msgstr "وحدة تقيس بها الأصناف، مثل كغ أو صندوق."
+
+msgid "A value a scorecard criterion is calculated from."
+msgstr "قيمة يُحسب منها أحد معايير بطاقة الأداء."
+
+msgid "A vehicle's route to deliver to several customers."
+msgstr "مسار مركبة للتسليم إلى عدة زبائن."
+
+msgid "A view of your workstations and what each is doing."
+msgstr "عرض لمحطات العمل وما تقوم به كل منها."
+
+msgid "A visit to service or repair what a customer bought."
+msgstr "زيارة لخدمة أو إصلاح ما اشتراه زبون."
+
+msgid "A way you pay or get paid, like cash, bank transfer or card."
+msgstr "طريقة تدفع بها أو تقبض، مثل النقد أو التحويل البنكي أو البطاقة."
+
+msgid "Accepted Stock Value Difference"
+msgstr "فرق قيمة المخزون المقبول"
+
+#, python-brace-format
+msgid "Account {0} does not belong to Company {1}"
+msgstr "الحساب {0} لا ينتمي إلى الشركة {1}"
+
+msgid "Add Account"
+msgstr "إضافة حساب"
+
+msgid "Add Asset"
+msgstr "إضافة أصل"
+
+msgid "Add Bank Account"
+msgstr "إضافة حساب بنكي"
+
+msgid "Add Customer"
+msgstr "إضافة زبون"
+
+msgid "Add Opening Stock"
+msgstr "إضافة مخزون أول المدة"
+
+msgid "Add Price"
+msgstr "إضافة سعر"
+
+msgid "Add Raw Material"
+msgstr "إضافة مادة خام"
+
+msgid "Add Supplier"
+msgstr "إضافة مورد"
+
+msgid "Add a customer"
+msgstr "أضف زبونًا"
+
+msgid "Add a product you make"
+msgstr "أضف منتجًا تصنعه"
+
+msgid "Add a raw material"
+msgstr "أضف مادة خام"
+
+msgid "Add a supplier"
+msgstr "أضف موردًا"
+
+msgid "Add a supplier, order from them and pay their bill."
+msgstr "أضف موردًا، واطلب منه، وسدّد فاتورته."
+
+msgid "Add an asset item"
+msgstr "أضف صنف أصل"
+
+msgid "Add an item and a customer, bill them and collect the payment."
+msgstr "أضف صنفًا وزبونًا، وأصدر له فاتورة، وحصّل الدفعة."
+
+msgid "Add an item you buy"
+msgstr "أضف صنفًا تشتريه"
+
+msgid "Add an item you sell"
+msgstr "أضف صنفًا تبيعه"
+
+msgid "Add an item you stock"
+msgstr "أضف صنفًا تخزّنه"
+
+msgid "Add demo data so you can explore"
+msgstr "إضافة بيانات تجريبية لتستكشف النظام"
+
+msgid "Add the bank account you use"
+msgstr "أضف الحساب البنكي الذي تستخدمه"
+
+msgid "Add the people you work with and choose what they can see."
+msgstr "أضف الأشخاص الذين تعمل معهم واختر ما يمكنهم رؤيته."
+
+msgid "Adding demo data"
+msgstr "جارٍ إضافة البيانات التجريبية"
+
+#, python-brace-format
+msgid "Additional Discount has been removed as Pricing Rule {0} is no longer applicable"
+msgstr "أُزيل الخصم الإضافي لأن قاعدة التسعير {0} لم تعد سارية"
+
+msgid "Adds freight, duty and other charges to the cost of received items."
+msgstr "يضيف تكاليف الشحن والرسوم الجمركية وغيرها إلى تكلفة الأصناف المستلمة."
+
+msgid "Adjusted By"
+msgstr "عُدِّل بواسطة"
+
+msgid "Adjustment Date"
+msgstr "تاريخ التعديل"
+
+msgid "Adjustment Entry"
+msgstr "قيد تعديل"
+
+msgid "Adjustment Time"
+msgstr "وقت التعديل"
+
+#, python-brace-format
+msgid ""
+"After the adjustment, Item {0} in Warehouse {1} would hold a qty of {2} worth {3}, "
+"instead of {4} worth {5}."
+msgstr ""
+"بعد التعديل، سيحتوي الصنف {0} في المستودع {1} على كمية {2} بقيمة {3}، بدلًا من {4} "
+"بقيمة {5}."
+
+msgid "All Differences"
+msgstr "كل الفروقات"
+
+msgid "All Entries"
+msgstr "كل القيود"
+
+msgid ""
+"All Stock Ledger Entries and Serial and Batch Bundles of the selected vouchers will "
+"be cancelled and reposting will be queued. Continue?"
+msgstr ""
+"ستُلغى جميع قيود دفتر أستاذ المخزون وحزم الأرقام التسلسلية والدفعات للمستندات "
+"المحددة، وستُجدوَل إعادة الترحيل. هل تريد المتابعة؟"
+
+msgid "All raw materials are already mapped to finished goods"
+msgstr "جميع المواد الخام مربوطة بالسلع تامة الصنع بالفعل"
+
+msgid "An agreement to buy or sell an item at a fixed price over a period."
+msgstr "اتفاقية لشراء صنف أو بيعه بسعر ثابت خلال فترة."
+
+msgid "An agreement with a customer, supplier or employee."
+msgstr "اتفاقية مع زبون أو مورد أو موظف."
+
+msgid "An extra way to tag entries, like branch or region, beyond cost centers."
+msgstr "طريقة إضافية لتصنيف القيود، مثل الفرع أو المنطقة، إلى جانب مراكز التكلفة."
+
+msgid "An extra way to tag stock, like a rack or bin."
+msgstr "طريقة إضافية لتصنيف المخزون، مثل الرف أو الخانة."
+
+msgid "An item you can use in place of another."
+msgstr "صنف يمكنك استخدامه بدلًا من صنف آخر."
+
+msgid "An order for a subcontractor to make items from your materials."
+msgstr "أمر لمقاول من الباطن لتصنيع أصناف من موادك."
+
+msgid "An order to make a quantity of an item."
+msgstr "أمر بتصنيع كمية من صنف."
+
+msgid "An order to make items for a customer from materials they send."
+msgstr "أمر بتصنيع أصناف لزبون من مواد يرسلها."
+
+msgid "An order you place with a supplier."
+msgstr "أمر تُصدره لمورد."
+
+msgid ""
+"Anything with a start and an end: a client job, an installation, an internal "
+"initiative. See [Project](https://docs.frappe.io/erpnext/user/manual/en/project)."
+msgstr ""
+"أي عمل له بداية ونهاية: مهمة لعميل، أو تركيب، أو مبادرة داخلية. راجع "
+"[المشروع](https://docs.frappe.io/erpnext/user/manual/en/project)."
+
+msgid ""
+"Anything you keep on shelves and count. See "
+"[Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr ""
+"أي شيء تحفظه على الرفوف وتعدّه. راجع "
+"[الصنف](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+msgid "Applies a tax template automatically when its conditions match."
+msgstr "يطبّق قالبًا ضريبيًا تلقائيًا عند تحقق شروطه."
+
+msgid "Applying recommended settings"
+msgstr "جارٍ تطبيق الإعدادات الموصى بها"
+
+msgid "Appointment Booking"
+msgstr "حجز المواعيد"
+
+msgid "Ask a customer to pay, by email with a payment link."
+msgstr "اطلب من زبون السداد، عبر البريد الإلكتروني مع رابط دفع."
+
+msgid "Ask suppliers for prices on the items you need."
+msgstr "اطلب من الموردين أسعار الأصناف التي تحتاجها."
+
+msgid "Asset Maintenance Report"
+msgstr "تقرير صيانة الأصول"
+
+msgid "Asset Reports"
+msgstr "تقارير الأصول"
+
+msgid ""
+"Assets, liabilities and equity on any date, straight from your ledger. See [Balance "
+"Sheet](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet)."
+msgstr ""
+"الأصول والمطلوبات وحقوق الملكية في أي تاريخ، مباشرة من دفتر الأستاذ. راجع [المركز "
+"المالي](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet)."
+
+msgid "Assets, liabilities and equity on any date."
+msgstr "الأصول والمطلوبات وحقوق الملكية في أي تاريخ."
+
+msgid "Audit Reports"
+msgstr "تقارير التدقيق"
+
+msgid "Auto Assign"
+msgstr "إسناد تلقائي"
+
+msgid "Auto Map Raw Materials to Finished Goods"
+msgstr "ربط المواد الخام بالسلع تامة الصنع تلقائيًا"
+
+msgid "BOM Reports"
+msgstr "تقارير قوائم المواد"
+
+msgid "Backdated Entry Before Adjustment Entry"
+msgstr "قيد بتاريخ سابق قبل قيد التعديل"
+
+msgid "Backflush Materials from WIP Warehouse"
+msgstr "صرف المواد تلقائيًا من مستودع الإنتاج تحت التشغيل"
+
+msgid "Bank Reconciliation (old)"
+msgstr "التسوية البنكية (القديمة)"
+
+#, python-brace-format
+msgid "Bank Transaction {0} added as {1}"
+msgstr "أُضيفت المعاملة البنكية {0} بصفة {1}"
+
+msgid "Bank and Cash"
+msgstr "البنك والنقدية"
+
+msgid "Batch Tracked"
+msgstr "متتبَّع بالدفعات"
+
+msgid ""
+"Bill your customer for the item. Submit it, then use **Print** to see it on paper or "
+"send it as a PDF. See [Sales Invoice](https://docs.frappe.io/erpnext/user/manual/en"
+"/sales-invoice)."
+msgstr ""
+"أصدر فاتورة للزبون عن الصنف. رحّلها، ثم استخدم **طباعة** لعرضها ورقيًا أو إرسالها ملف"
+" PDF. راجع [فاتورة المبيعات](https://docs.frappe.io/erpnext/user/manual/en/sales-"
+"invoice)."
+
+msgid "Bills a customer or supplier for the same things on a schedule."
+msgstr "يصدر فواتير لزبون أو مورد عن الأشياء نفسها وفق جدول."
+
+#, python-brace-format
+msgid "Books are closed till {0} by Period Closing Voucher, remove these rows: {1}"
+msgstr "الدفاتر مغلقة حتى {0} بقيد إغلاق الفترة، احذف هذه الصفوف: {1}"
+
+msgid "Books deferred revenue or expense for a period."
+msgstr "يقيّد الإيرادات أو المصروفات المؤجلة لفترة."
+
+msgid "Brands"
+msgstr "العلامات التجارية"
+
+msgid "Break a project into tasks and log the time your team spends."
+msgstr "قسّم المشروع إلى مهام وسجّل الوقت الذي يقضيه فريقك."
+
+msgid "Break it into tasks"
+msgstr "قسّمه إلى مهام"
+
+msgid "Bring in a bank statement to match its lines against your books."
+msgstr "استورد كشف حساب بنكي لمطابقة سطوره مع دفاترك."
+
+msgid "Bring in your chart of accounts from a spreadsheet."
+msgstr "استورد دليل حساباتك من جدول بيانات."
+
+msgid "Budgeting"
+msgstr "الموازنات"
+
+msgid "Build a multi-level BOM in one place."
+msgstr "أنشئ قائمة مواد متعددة المستويات في مكان واحد."
+
+msgid "C - D"
+msgstr "C - D"
+
+msgid "Cancel Stock Ledger Entries"
+msgstr "إلغاء قيود دفتر أستاذ المخزون"
+
+#, python-brace-format
+msgid ""
+"Cannot cancel Stock Closing Entry {0} because the later Stock Closing Entry {1} is "
+"built on it. Cancel {1} first."
+msgstr ""
+"لا يمكن إلغاء قيد إغلاق المخزون {0} لأن قيد إغلاق المخزون اللاحق {1} مبني عليه. ألغِ "
+"{1} أولًا."
+
+#, python-brace-format
+msgid "Cannot create Material Request for item {0} in group warehouse {1}."
+msgstr "لا يمكن إنشاء طلب مواد للصنف {0} في المستودع الرئيسي {1}."
+
+msgid "Cannot create Work Orders from a stopped Material Request"
+msgstr "لا يمكن إنشاء أوامر عمل من طلب مواد متوقف"
+
+#, python-brace-format
+msgid "Cannot create {0} from a Bank Transaction"
+msgstr "لا يمكن إنشاء {0} من معاملة بنكية"
+
+msgid ""
+"Cannot disable Serial and Batch No for Item, as there are items with serial / batch "
+"enabled."
+msgstr ""
+"لا يمكن تعطيل الرقم التسلسلي والدفعة للصنف، لوجود أصناف مفعّل فيها التتبع بالرقم "
+"التسلسلي أو الدفعة."
+
+#, python-brace-format
+msgid "Cannot enable {0} as {1} is disabled in {2}"
+msgstr "لا يمكن تفعيل {0} لأن {1} معطّل في {2}"
+
+#, python-brace-format
+msgid ""
+"Cannot find a default warehouse for item {0}. Please select one in the Update Items "
+"dialog, or set a default in the Item Master or in the Company."
+msgstr ""
+"تعذّر العثور على مستودع افتراضي للصنف {0}. يُرجى اختيار مستودع في نافذة تحديث "
+"الأصناف، أو تعيين مستودع افتراضي في بيانات الصنف أو في الشركة."
+
+#, python-brace-format
+msgid "Cannot plan {0} {1} of Item {2} against Sales Order {3}. Only {4} {1} is left to plan."
+msgstr "لا يمكن تخطيط {0} {1} من الصنف {2} مقابل أمر البيع {3}. المتبقي للتخطيط {4} {1} فقط."
+
+msgid "Changes a price or gives a discount when its conditions are met."
+msgstr "يغيّر السعر أو يمنح خصمًا عند تحقق شروطه."
+
+msgid "Changes an asset's value outside its depreciation."
+msgstr "يغيّر قيمة الأصل خارج إهلاكه."
+
+msgid "Changes how many shifts an asset works, which changes its depreciation."
+msgstr "يغيّر عدد الورديات التي يعمل بها الأصل، مما يغيّر إهلاكه."
+
+msgid "Check its depreciation"
+msgstr "راجع إهلاكه"
+
+msgid "Check what you owe"
+msgstr "راجع ما عليك من مستحقات"
+
+msgid "Check your chart of accounts and taxes, and add the bank account you use."
+msgstr "راجع دليل الحسابات والضرائب، وأضف الحساب البنكي الذي تستخدمه."
+
+msgid "Check your profit"
+msgstr "راجع أرباحك"
+
+msgid "Check your stock levels"
+msgstr "راجع مستويات مخزونك"
+
+msgid "Checks an item against its quality parameters."
+msgstr "يفحص صنفًا وفق معايير جودته."
+
+#, python-brace-format
+msgid ""
+"Choose a bank account in this chart's filters, or set a default bank account on {0}, "
+"to see its balance."
+msgstr ""
+"اختر حسابًا بنكيًا في عوامل تصفية هذا المخطط، أو عيّن حسابًا بنكيًا افتراضيًا في {0}،"
+" لعرض رصيده."
+
+msgid "Choose a company in this chart's filters to see its bank balance."
+msgstr "اختر شركة في عوامل تصفية هذا المخطط لعرض رصيدها البنكي."
+
+msgid "Clearance Summary"
+msgstr "ملخص المقاصة"
+
+msgid "Click to change the closing balance as per statement"
+msgstr "انقر لتغيير الرصيد الختامي وفق الكشف"
+
+msgid "Closed Period Rows Selected"
+msgstr "تم اختيار صفوف من فترة مغلقة"
+
+msgid "Closes a POS shift and totals what was collected."
+msgstr "يُغلق وردية نقطة البيع ويجمع ما حُصِّل."
+
+msgid "Closes a fiscal year by moving its profit or loss to equity."
+msgstr "يُغلق سنة مالية بنقل أرباحها أو خسائرها إلى حقوق الملكية."
+
+msgid "Closes stock balances for a period so reports run faster."
+msgstr "يُغلق أرصدة المخزون لفترة كي تعمل التقارير أسرع."
+
+msgid "Closing (statement)"
+msgstr "الختامي (وفق الكشف)"
+
+msgid "Closing (system)"
+msgstr "الختامي (وفق النظام)"
+
+msgid "Closing This Month"
+msgstr "تُغلق هذا الشهر"
+
+msgid "Combine two or more accounts into one."
+msgstr "ادمج حسابين أو أكثر في حساب واحد."
+
+#, python-brace-format
+msgid "Communication {0} is not on the timeline of Issue {1}"
+msgstr "المراسلة {0} ليست في الخط الزمني للبلاغ {1}"
+
+#, python-brace-format
+msgid "Company Abbreviation cannot have more than {0} characters"
+msgstr "لا يمكن أن يتجاوز اختصار الشركة {0} حرفًا"
+
+msgid "Company cannot be changed for an existing Cost Center"
+msgstr "لا يمكن تغيير الشركة لمركز تكلفة موجود"
+
+msgid ""
+"Compare the results against the goal, and decide what to change. See [Quality "
+"Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+msgstr ""
+"قارن النتائج بالهدف، وقرّر ما الذي يجب تغييره. راجع [إدارة "
+"الجودة](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+
+msgid "Completed Quantity cannot be negative"
+msgstr "لا يمكن أن تكون الكمية المكتملة سالبة"
+
+msgid "Completed This Month"
+msgstr "اكتملت هذا الشهر"
+
+msgid "Completed quantity cannot be negative."
+msgstr "لا يمكن أن تكون الكمية المكتملة سالبة."
+
+#, python-brace-format
+msgid ""
+"Completed, Process Loss or Pending Qty is required for Job Card {0}, please start and"
+" complete the job card before submission"
+msgstr ""
+"الكمية المكتملة أو فاقد العملية أو الكمية المعلقة مطلوبة لبطاقة العمل {0}، يُرجى بدء "
+"بطاقة العمل وإكمالها قبل الترحيل"
+
+#, python-brace-format
+msgid "Components can be returned only after Work Order {0} is Completed or Closed"
+msgstr "لا يمكن إرجاع المكونات إلا بعد اكتمال أمر العمل {0} أو إغلاقه"
+
+msgid ""
+"Computers, vehicles, furniture: how each kind depreciates, and which accounts it "
+"posts to. See [Asset Category](https://docs.frappe.io/erpnext/user/manual/en/asset-"
+"category)."
+msgstr ""
+"الحواسيب والمركبات والأثاث: كيف يُهلَك كل نوع، وإلى أي حسابات يُرحَّل. راجع [فئة "
+"الأصل](https://docs.frappe.io/erpnext/user/manual/en/asset-category)."
+
+msgid "Confirm a sales order"
+msgstr "أكّد أمر بيع"
+
+msgid ""
+"Confirm what the customer ordered and when it is due. Deliver and invoice from the "
+"order itself. See [Sales Order](https://docs.frappe.io/erpnext/user/manual/en/sales-"
+"order)."
+msgstr ""
+"أكّد ما طلبه الزبون وموعد استحقاقه. سلّم وأصدر الفاتورة من الأمر نفسه. راجع [أمر "
+"البيع](https://docs.frappe.io/erpnext/user/manual/en/sales-order)."
+
+msgid "Convert to Phantom Item"
+msgstr "تحويل إلى صنف شبح"
+
+msgid "Convert to Sub Assembly"
+msgstr "تحويل إلى تجميع فرعي"
+
+msgid "Could not download the statement. Please try again."
+msgstr "تعذّر تنزيل الكشف. يُرجى المحاولة مرة أخرى."
+
+msgid "Create Asset Maintenance"
+msgstr "إنشاء صيانة أصل"
+
+msgid "Create Asset Movement"
+msgstr "إنشاء حركة أصل"
+
+msgid "Create BOM"
+msgstr "إنشاء قائمة مواد"
+
+msgid "Create Maintenance Schedule"
+msgstr "إنشاء جدول صيانة"
+
+msgid "Create Material Request"
+msgstr "إنشاء طلب مواد"
+
+msgid "Create Non Conformance"
+msgstr "إنشاء حالة عدم مطابقة"
+
+msgid "Create Production Plan"
+msgstr "إنشاء خطة إنتاج"
+
+msgid "Create Project Template"
+msgstr "إنشاء قالب مشروع"
+
+msgid "Create Quality Goal"
+msgstr "إنشاء هدف جودة"
+
+msgid "Create Quality Inspection"
+msgstr "إنشاء فحص جودة"
+
+msgid "Create Quality Inspection Template"
+msgstr "إنشاء قالب فحص جودة"
+
+msgid "Create Quality Procedure"
+msgstr "إنشاء إجراء جودة"
+
+msgid "Create Quality Review"
+msgstr "إنشاء مراجعة جودة"
+
+msgid "Create Stock Reconciliation"
+msgstr "إنشاء جرد مخزون"
+
+msgid "Create your first Material Request to get started."
+msgstr "أنشئ أول طلب مواد للبدء."
+
+msgid "Creating Opening Stock Entry..."
+msgstr "جارٍ إنشاء قيد مخزون أول المدة..."
+
+msgid "Creating your company"
+msgstr "جارٍ إنشاء شركتك"
+
+msgid "Credit Notes"
+msgstr "الإشعارات الدائنة"
+
+msgid "Currency filters are currently unsupported in Custom Financial Report"
+msgstr "عوامل تصفية العملة غير مدعومة حاليًا في التقرير المالي المخصص"
+
+msgid "Customer Reports"
+msgstr "تقارير الزبائن"
+
+msgid "Debit Notes"
+msgstr "الإشعارات المدينة"
+
+msgid ""
+"Decide how many to make. The raw materials you need are worked out from the BOM. See "
+"[Work Order](https://docs.frappe.io/erpnext/user/manual/en/work-order)."
+msgstr ""
+"حدّد الكمية المراد تصنيعها. تُحسب المواد الخام اللازمة من قائمة المواد. راجع [أمر "
+"العمل](https://docs.frappe.io/erpnext/user/manual/en/work-order)."
+
+msgid "Decide what to check"
+msgstr "حدّد ما يجب فحصه"
+
+msgid "Declare opportunities lost one at a time"
+msgstr "إعلان خسارة الفرص واحدة تلو الأخرى"
+
+msgid "Default BOMs"
+msgstr "قوائم المواد الافتراضية"
+
+#, python-brace-format
+msgid "Default Supplier for {0} not found"
+msgstr "لم يُعثر على المورد الافتراضي لـ {0}"
+
+#, python-brace-format
+msgid ""
+"Default Target Warehouse {0} must be a Transit warehouse when Add to Transit is "
+"enabled."
+msgstr "يجب أن يكون المستودع الهدف الافتراضي {0} مستودع عبور عند تفعيل الإضافة إلى العبور."
+
+msgid "Default source Warehouse"
+msgstr "مستودع المصدر الافتراضي"
+
+msgid "Default warehouse from Item Defaults."
+msgstr "المستودع الافتراضي من الإعدادات الافتراضية للصنف."
+
+msgid "Defaults to the company's Stock Adjustment Account"
+msgstr "الافتراضي هو حساب تسوية المخزون للشركة"
+
+msgid "Delete Item"
+msgstr "حذف الصنف"
+
+msgid "Deletes a company's transactions, keeping its masters."
+msgstr "يحذف معاملات الشركة مع الإبقاء على بياناتها الأساسية."
+
+msgid ""
+"Depreciation is posted on schedule, asset by asset, without a journal entry from you."
+" See [Depreciation](https://docs.frappe.io/erpnext/user/manual/en/asset-"
+"depreciation)."
+msgstr ""
+"يُرحَّل الإهلاك وفق الجدول، أصلًا بأصل، دون قيد يومية منك. راجع "
+"[الإهلاك](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation)."
+
+msgid ""
+"Difference between the Stock Asset accounts balance and the Stock Balance value "
+"accepted while submitting"
+msgstr "الفرق بين رصيد حسابات أصول المخزون وقيمة رصيد المخزون المقبول عند الترحيل"
+
+msgid "Dimension-based grouping is currently unsupported in Custom Financial Report"
+msgstr "التجميع حسب الأبعاد غير مدعوم حاليًا في التقرير المالي المخصص"
+
+#, python-brace-format
+msgid "Disabled Item {0} cannot be used in BOMs."
+msgstr "لا يمكن استخدام الصنف المعطّل {0} في قوائم المواد."
+
+msgid "Disabled Price List"
+msgstr "قائمة أسعار معطّلة"
+
+msgid "Discount Removed"
+msgstr "أُزيل الخصم"
+
+msgid "Disposed"
+msgstr "مُستبعَد"
+
+msgid "Do you want to continue?"
+msgstr "هل تريد المتابعة؟"
+
+msgid "Drafts"
+msgstr "المسودات"
+
+msgid "Due This Month"
+msgstr "مستحق هذا الشهر"
+
+msgid "Due in 7 Days"
+msgstr "مستحق خلال 7 أيام"
+
+msgid "E - F"
+msgstr "E - F"
+
+msgid "Emails customers their statements on a schedule."
+msgstr "يرسل للزبائن كشوف حساباتهم بالبريد الإلكتروني وفق جدول."
+
+msgid "Enable Item Search Index"
+msgstr "تفعيل فهرس البحث عن الأصناف"
+
+msgid "Enter a supplier's bill"
+msgstr "أدخل فاتورة مورد"
+
+msgid "Enter the stock you have today"
+msgstr "أدخل المخزون الموجود لديك اليوم"
+
+msgid "Enter their bill"
+msgstr "أدخل فاتورته"
+
+msgid "Every depreciation posted, asset by asset."
+msgstr "كل إهلاك مُرحَّل، أصلًا بأصل."
+
+msgid ""
+"Every movement of every item, in and out, with the balance after each. See [Stock "
+"Ledger](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger)."
+msgstr ""
+"كل حركة لكل صنف، واردة وصادرة، مع الرصيد بعد كل منها. راجع [دفتر أستاذ "
+"المخزون](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger)."
+
+msgid "Every movement of every item, in and out."
+msgstr "كل حركة لكل صنف، واردة وصادرة."
+
+msgid ""
+"Every posting from your invoices and payments, with its debit and credit. See "
+"[General Ledger](https://docs.frappe.io/erpnext/user/manual/en/general-ledger)."
+msgstr ""
+"كل ترحيل من فواتيرك ومدفوعاتك، بمدينه ودائنه. راجع [دفتر الأستاذ "
+"العام](https://docs.frappe.io/erpnext/user/manual/en/general-ledger)."
+
+msgid "Every posting, with its debit and credit."
+msgstr "كل ترحيل، بمدينه ودائنه."
+
+msgid "Every work order, how far along it is, and what is late."
+msgstr "كل أمر عمل، ومدى تقدّمه، وما تأخر منه."
+
+msgid ""
+"Every work order, how far along it is, and what is running late. See [Work Order "
+"Summary](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary)."
+msgstr ""
+"كل أمر عمل، ومدى تقدّمه، وما يتأخر منه. راجع [ملخص أوامر "
+"العمل](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary)."
+
+msgid "Expand / Collapse All"
+msgstr "توسيع / طي الكل"
+
+msgid "Expected Value Based On"
+msgstr "القيمة المتوقعة بناءً على"
+
+msgid "Expiring Soon"
+msgstr "تنتهي صلاحيتها قريبًا"
+
+msgid "Expiring in 7 Days"
+msgstr "تنتهي خلال 7 أيام"
+
+msgid "FY"
+msgstr "س.م"
+
+msgid "Feedback on your quality from a customer or employee."
+msgstr "ملاحظات زبون أو موظف على جودتك."
+
+msgid "Finish making it"
+msgstr "أكمل تصنيعه"
+
+msgid "Finished Good Batch No"
+msgstr "رقم دفعة المنتج النهائي"
+
+msgid "Finished Good Quantity Exceeded"
+msgstr "تم تجاوز كمية المنتج النهائي"
+
+msgid "Finished Good Serial / Batch No"
+msgstr "الرقم التسلسلي / رقم الدفعة للمنتج النهائي"
+
+msgid "Finished Good Serial No"
+msgstr "الرقم التسلسلي للمنتج النهائي"
+
+msgid "Finished good batch this raw material was consumed into (Manufacture / Repack)"
+msgstr "دفعة المنتج النهائي التي استُهلكت فيها هذه المادة الخام (تصنيع / إعادة تعبئة)"
+
+msgid "Finished good mapping can't be changed for a cancelled entry"
+msgstr "لا يمكن تغيير ربط المنتج النهائي لقيد ملغى"
+
+msgid "Finished good mapping is only allowed for Manufacture and Repack entries"
+msgstr "ربط المنتج النهائي مسموح لقيود التصنيع وإعادة التعبئة فقط"
+
+msgid "Finished good serial no this raw material was consumed into (Manufacture / Repack)"
+msgstr "الرقم التسلسلي للمنتج النهائي الذي استُهلكت فيه هذه المادة الخام (تصنيع / إعادة تعبئة)"
+
+msgid "First Difference per Item-Warehouse"
+msgstr "أول فرق لكل صنف ومستودع"
+
+msgid "Fix Differences"
+msgstr "معالجة الفروقات"
+
+msgid "Follow every movement"
+msgstr "تابع كل حركة"
+
+msgid "Follow up on unpaid invoices"
+msgstr "تابع الفواتير غير المسددة"
+
+msgid "For Delivery"
+msgstr "للتسليم"
+
+msgid "For Qty"
+msgstr "للكمية"
+
+#, python-brace-format
+msgid "For Warehouse {0} must be a non-group warehouse under {1}."
+msgstr "يجب أن يكون المستودع {0} في حقل «للمستودع» مستودعًا فرعيًا تحت {1}."
+
+msgid ""
+"For anything that isn't an invoice or a payment: accruals, depreciation, or fixing a "
+"mistake. See [Journal Entry](https://docs.frappe.io/erpnext/user/manual/en/journal-"
+"entry)."
+msgstr ""
+"لكل ما ليس فاتورة أو دفعة: المستحقات، أو الإهلاك، أو تصحيح خطأ. راجع [قيد "
+"اليومية](https://docs.frappe.io/erpnext/user/manual/en/journal-entry)."
+
+#, python-brace-format
+msgid "For the new {0} to take effect, would you like to clear the current {1}?"
+msgstr "لكي يسري {0} الجديد، هل تريد مسح {1} الحالي؟"
+
+msgid "From Date cannot be after As On Date"
+msgstr "لا يمكن أن يكون «من تاريخ» بعد «في تاريخ»"
+
+msgid "From Reference Date cannot be greater than To Reference Date"
+msgstr "لا يمكن أن يكون «من تاريخ المرجع» بعد «إلى تاريخ المرجع»"
+
+msgid ""
+"From the store to the shop floor, or between branches. See [Stock "
+"Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+msgstr ""
+"من المخزن إلى أرضية المصنع، أو بين الفروع. راجع [قيد "
+"المخزون](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+
+msgid "Frozen - entries restricted"
+msgstr "مجمَّد - القيود مقيّدة"
+
+msgid "G - H"
+msgstr "G - H"
+
+msgid "GL Reposting Entries"
+msgstr "قيود إعادة ترحيل دفتر الأستاذ العام"
+
+#, python-brace-format
+msgid "GL reposting entries created: {0}"
+msgstr "أُنشئت قيود إعادة ترحيل دفتر الأستاذ العام: {0}"
+
+#, python-brace-format
+msgid "GL reposting is not allowed against the voucher type {0}."
+msgstr "إعادة ترحيل دفتر الأستاذ العام غير مسموحة لنوع المستند {0}."
+
+msgid "Get paid"
+msgstr "حصّل الدفعة"
+
+msgid "Get to know ERPNext"
+msgstr "تعرّف على ERPNext"
+
+msgid "Get your books ready"
+msgstr "جهّز دفاترك"
+
+msgid ""
+"Goods or services you buy from suppliers. See "
+"[Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr ""
+"السلع أو الخدمات التي تشتريها من الموردين. راجع "
+"[الصنف](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+msgid "Group by Dimension"
+msgstr "التجميع حسب البعد"
+
+msgid "Group by Item"
+msgstr "التجميع حسب الصنف"
+
+msgid "Group the report by Sales Order or by Item, not both."
+msgstr "جمّع التقرير حسب أمر البيع أو حسب الصنف، وليس كليهما."
+
+msgid "Groups accounts into the lines your financial statements show."
+msgstr "يجمّع الحسابات في البنود التي تظهر في قوائمك المالية."
+
+msgid "Groups assets that share accounts and depreciation rules."
+msgstr "يجمّع الأصول التي تشترك في الحسابات وقواعد الإهلاك."
+
+msgid "Groups customers, for pricing and reporting."
+msgstr "يجمّع الزبائن، للتسعير والتقارير."
+
+msgid "Groups items, for pricing, defaults and reporting."
+msgstr "يجمّع الأصناف، للتسعير والقيم الافتراضية والتقارير."
+
+msgid "Groups suppliers, for terms and reporting."
+msgstr "يجمّع الموردين، للشروط والتقارير."
+
+msgid "Hand it to a person or place"
+msgstr "سلّمه إلى شخص أو موقع"
+
+msgid "How fast issues must be answered and resolved."
+msgstr "مدى سرعة الرد على البلاغات وحلّها."
+
+msgid "How items, warehouses and stock transactions work."
+msgstr "كيف تعمل الأصناف والمستودعات ومعاملات المخزون."
+
+msgid "How leads, opportunities and appointments work."
+msgstr "كيف يعمل الزبائن المحتملون والفرص والمواعيد."
+
+msgid "How long it takes to get or make an item."
+msgstr "المدة اللازمة للحصول على صنف أو تصنيعه."
+
+msgid "How many of one unit make another, like 1000 g in a kg."
+msgstr "كم من وحدة يساوي وحدة أخرى، مثل 1000 غ في الكغ."
+
+msgid "How much a cost center or project may spend over a fiscal year."
+msgstr "المبلغ الذي يجوز لمركز تكلفة أو مشروع إنفاقه خلال سنة مالية."
+
+msgid "How much faster an asset depreciates on a given shift."
+msgstr "مقدار تسارع إهلاك الأصل في وردية معيّنة."
+
+msgid ""
+"How much of each item is on your shelves, and what it is worth. From here, every "
+"receipt and delivery keeps it up to date. See [Stock "
+"Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
+msgstr ""
+"كمية كل صنف على رفوفك وقيمتها. من هنا، يُبقيها كل استلام وتسليم محدّثة. راجع [جرد "
+"المخزون](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
+
+msgid "How much of each item to make, and when."
+msgstr "الكمية المراد تصنيعها من كل صنف، وموعدها."
+
+msgid "How much you expect to sell, to plan production."
+msgstr "الكمية التي تتوقع بيعها، لتخطيط الإنتاج."
+
+msgid "How quotations, sales orders and pricing work."
+msgstr "كيف تعمل عروض الأسعار وأوامر البيع والتسعير."
+
+msgid "How urgent an issue is."
+msgstr "مدى إلحاح البلاغ."
+
+msgid "Ignore Differences Below"
+msgstr "تجاهل الفروقات الأقل من"
+
+msgid "Import 1 transaction"
+msgstr "استيراد معاملة واحدة"
+
+msgid ""
+"Import a statement from your bank and pair each line with a payment, so your books "
+"agree with it. See [Bank "
+"Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/bank-reconciliation)."
+msgstr ""
+"استورد كشفًا من بنكك وطابق كل سطر مع دفعة، لتتفق دفاترك معه. راجع [التسوية "
+"البنكية](https://docs.frappe.io/erpnext/user/manual/en/bank-reconciliation)."
+
+msgid "Importing 1 transaction"
+msgstr "جارٍ استيراد معاملة واحدة"
+
+#, python-brace-format
+msgid "Importing {0} of {1} transactions"
+msgstr "جارٍ استيراد {0} من {1} معاملة"
+
+msgid "In Use"
+msgstr "قيد الاستخدام"
+
+msgid "Include Revaluation Journals"
+msgstr "تضمين قيود إعادة التقييم"
+
+msgid ""
+"Income against expenses for any period, built from every invoice and payment you have"
+" recorded."
+msgstr "الإيرادات مقابل المصروفات لأي فترة، محسوبة من كل فاتورة ودفعة سجّلتها."
+
+msgid "Income against expenses, from every invoice and payment."
+msgstr "الإيرادات مقابل المصروفات، من كل فاتورة ودفعة."
+
+msgid "Incorrectly Cleared"
+msgstr "مقاصة غير صحيحة"
+
+msgid "Individuals"
+msgstr "الأفراد"
+
+msgid "Inspect goods coming in or going out"
+msgstr "افحص البضائع الواردة أو الصادرة"
+
+msgid "Invalid Price List"
+msgstr "قائمة أسعار غير صالحة"
+
+msgid "Invalid Sample Size"
+msgstr "حجم العينة غير صالح"
+
+msgid "Invalid Shipping Account"
+msgstr "حساب الشحن غير صالح"
+
+msgid "Invalid Valuation Method"
+msgstr "طريقة التقييم غير صالحة"
+
+msgid "Invalid address"
+msgstr "عنوان غير صالح"
+
+msgid "Invalid doctype"
+msgstr "نوع مستند غير صالح"
+
+#, python-brace-format
+msgid "Invalid doctype {0}"
+msgstr "نوع المستند {0} غير صالح"
+
+msgid "Invalid document type"
+msgstr "نوع مستند غير صالح"
+
+msgid "Invalid filter"
+msgstr "عامل تصفية غير صالح"
+
+#, python-brace-format
+msgid ""
+"Invalid line reference format: '{0}'. Must start with a letter and contain only "
+"letters, numbers and underscores"
+msgstr ""
+"صيغة مرجع السطر غير صالحة: '{0}'. يجب أن يبدأ بحرف وأن يحتوي على حروف وأرقام وشرطات "
+"سفلية فقط"
+
+msgid "Invalid name"
+msgstr "اسم غير صالح"
+
+#, python-brace-format
+msgid "Invalid operator {0}"
+msgstr "عامل غير صالح {0}"
+
+msgid "Invalid reference"
+msgstr "مرجع غير صالح"
+
+msgid "Invalid sort order"
+msgstr "ترتيب فرز غير صالح"
+
+msgid "Invalid tax master doctype"
+msgstr "نوع مستند القالب الضريبي غير صالح"
+
+msgid "Invalid type"
+msgstr "نوع غير صالح"
+
+msgid "Invite your team"
+msgstr "ادعُ فريقك"
+
+msgid "Invoicing & Payments"
+msgstr "الفوترة والمدفوعات"
+
+msgid "Issue Status"
+msgstr "حالة البلاغ"
+
+msgid "Issues Opened"
+msgstr "البلاغات المفتوحة"
+
+msgid "Issues and Receipts"
+msgstr "الصرف والاستلام"
+
+msgid ""
+"It clears their bill and takes the money out of your bank or cash account. See "
+"[Payment Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+msgstr ""
+"يسدّد فاتورته ويخصم المبلغ من حسابك البنكي أو النقدي. راجع [قيد "
+"الدفع](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+
+msgid "It has no stock transactions by then."
+msgstr "لا توجد له معاملات مخزون حتى ذلك التاريخ."
+
+msgid ""
+"It posts the expense, and what you owe the supplier, to your ledger. See [Purchase "
+"Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+msgstr ""
+"يُرحِّل المصروف، وما تدين به للمورد، إلى دفتر الأستاذ. راجع [فاتورة "
+"الشراء](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+
+msgid "Item Reports"
+msgstr "تقارير الأصناف"
+
+msgid "Item Restricted for Party"
+msgstr "الصنف مقيّد لهذا الطرف"
+
+#, python-brace-format
+msgid "Item {0} in Warehouse {1} cannot be adjusted on {2}: {3}"
+msgstr "لا يمكن تعديل الصنف {0} في المستودع {1} بتاريخ {2}: {3}"
+
+#, python-brace-format
+msgid ""
+"Item {0} in Warehouse {1} was adjusted by {2} on {3}, so no stock transaction dated "
+"before it can be posted or cancelled. Post it on or after that date, or cancel the "
+"Adjustment Entry first."
+msgstr ""
+"عُدِّل الصنف {0} في المستودع {1} بمقدار {2} بتاريخ {3}، لذا لا يمكن ترحيل أو إلغاء أي"
+" معاملة مخزون بتاريخ سابق له. رحّلها في ذلك التاريخ أو بعده، أو ألغِ قيد التعديل "
+"أولًا."
+
+#, python-brace-format
+msgid ""
+"Item {0}: Ordered qty {1} {2} exceeds the minimum order qty {3} {2} by {4} {2} due to"
+" purchase UOM rounding."
+msgstr ""
+"الصنف {0}: الكمية المطلوبة {1} {2} تتجاوز الحد الأدنى لكمية الطلب {3} {2} بمقدار {4} "
+"{2} بسبب تقريب وحدة قياس الشراء."
+
+msgid "Items must be a list of Item codes"
+msgstr "يجب أن تكون الأصناف قائمة من رموز الأصناف"
+
+msgid "Items received from a subcontractor."
+msgstr "أصناف مستلمة من مقاول من الباطن."
+
+msgid "Items received from a supplier."
+msgstr "أصناف مستلمة من مورد."
+
+msgid "Items shipped to a customer."
+msgstr "أصناف مشحونة إلى زبون."
+
+#, python-brace-format
+msgid "Its difference on {0} is not before the adjustment date."
+msgstr "فرقه في {0} ليس قبل تاريخ التعديل."
+
+msgid "Its stock qty and value are already right on this date."
+msgstr "كمية مخزونه وقيمته صحيحتان بالفعل في هذا التاريخ."
+
+msgid "Its stock should be negative on this date, which cannot be counted in."
+msgstr "يُفترض أن يكون مخزونه سالبًا في هذا التاريخ، ولا يمكن جرده."
+
+msgid "Keep quality in check"
+msgstr "حافظ على الجودة"
+
+msgid "Keep track of your stock"
+msgstr "تابع مخزونك"
+
+msgid "Know what you own and owe"
+msgstr "اعرف ما تملكه وما عليك"
+
+msgid "Later Stock Closing Entry Exists"
+msgstr "يوجد قيد إغلاق مخزون لاحق"
+
+msgid "Lead Pipeline"
+msgstr "مسار الزبائن المحتملين"
+
+msgid "Leave as 0 to allow zero valuation rate."
+msgstr "اتركه 0 للسماح بسعر تقييم صفري."
+
+msgid "Ledger Tools"
+msgstr "أدوات دفتر الأستاذ"
+
+msgid ""
+"Link the Serial and Batch Bundles of the raw materials and finished goods first. "
+"Serial / batch nos picked on submit can be mapped after the entry is submitted."
+msgstr ""
+"اربط حزم الأرقام التسلسلية والدفعات للمواد الخام والسلع تامة الصنع أولًا. يمكن ربط "
+"الأرقام التسلسلية / الدفعات المختارة عند الترحيل بعد ترحيل القيد."
+
+msgid "Loading import file..."
+msgstr "جارٍ تحميل ملف الاستيراد..."
+
+msgid "Log a problem"
+msgstr "سجّل مشكلة"
+
+msgid "Log time against it"
+msgstr "سجّل الوقت عليه"
+
+msgid "Make Adjustment Entry"
+msgstr "إنشاء قيد تعديل"
+
+msgid "Make your first sale"
+msgstr "أنجز أول عملية بيع"
+
+msgid "Manufactured Qty (including Process Loss)"
+msgstr "الكمية المصنّعة (شاملة فاقد العملية)"
+
+msgid "Map Raw Materials to Finished Goods"
+msgstr "ربط المواد الخام بالسلع تامة الصنع"
+
+msgid "Mapping must be a dictionary of raw material entries to finished goods"
+msgstr "يجب أن يكون الربط قاموسًا يربط قيود المواد الخام بالسلع تامة الصنع"
+
+msgid "Mapping saved"
+msgstr "حُفظ الربط"
+
+msgid "Match your bank statement"
+msgstr "طابق كشف حسابك البنكي"
+
+msgid "Matched date"
+msgstr "تاريخ المطابقة"
+
+msgid "Matches payments to invoices in the background."
+msgstr "يطابق المدفوعات مع الفواتير في الخلفية."
+
+msgid "Material Request must be submitted to create Work Orders"
+msgstr "يجب ترحيل طلب المواد لإنشاء أوامر العمل"
+
+msgid "Meetings & Feedback"
+msgstr "الاجتماعات والملاحظات"
+
+msgid "Missing Accounting Dimension"
+msgstr "بُعد محاسبي مفقود"
+
+msgid "Missing Company"
+msgstr "الشركة مفقودة"
+
+msgid "Money you received or paid, matched against invoices."
+msgstr "أموال قبضتها أو دفعتها، مطابَقة مع الفواتير."
+
+msgid "Monthly Completed Work Order"
+msgstr "أوامر العمل المكتملة شهريًا"
+
+msgid "Move stock between warehouses"
+msgstr "انقل المخزون بين المستودعات"
+
+msgid "Movement Reports"
+msgstr "تقارير الحركة"
+
+msgid "Moves an asset to another location or person."
+msgstr "ينقل أصلًا إلى موقع أو شخص آخر."
+
+msgid "Moves, receives, issues or manufactures stock."
+msgstr "ينقل المخزون أو يستلمه أو يصرفه أو يصنّعه."
+
+msgid "Needs Attention"
+msgstr "يحتاج إلى متابعة"
+
+msgid "New This Week"
+msgstr "جديد هذا الأسبوع"
+
+msgid "No Company Found"
+msgstr "لم يُعثر على شركة"
+
+msgid "No Matching Vouchers Found"
+msgstr "لم يُعثر على مستندات مطابقة"
+
+msgid "No Material Request created"
+msgstr "لم يُنشأ أي طلب مواد"
+
+msgid "No default warehouse set for this company. Entry will use Stock Settings default."
+msgstr ""
+"لا يوجد مستودع افتراضي معيّن لهذه الشركة. سيستخدم القيد المستودع الافتراضي من إعدادات"
+" المخزون."
+
+msgid "No new GL reposting entries were created for the selected rows."
+msgstr "لم تُنشأ قيود جديدة لإعادة ترحيل دفتر الأستاذ العام للصفوف المحددة."
+
+#, python-brace-format
+msgid ""
+"No warehouse found for company {0}. Please set a Default Warehouse in Item Defaults "
+"or Company."
+msgstr ""
+"لم يُعثر على مستودع للشركة {0}. يُرجى تعيين مستودع افتراضي في الإعدادات الافتراضية "
+"للصنف أو في الشركة."
+
+#, python-brace-format
+msgid "No {0} linked to this Work Order."
+msgstr "لا يوجد {0} مرتبط بأمر العمل هذا."
+
+msgid "Not Supported"
+msgstr "غير مدعوم"
+
+#, python-brace-format
+msgid "Not permitted for {0}"
+msgstr "غير مسموح لـ {0}"
+
+msgid ""
+"Note down a price a supplier offered, so you can compare suppliers before you order. "
+"See [Supplier Quotation](https://docs.frappe.io/erpnext/user/manual/en/supplier-"
+"quotation)."
+msgstr ""
+"دوّن سعرًا عرضه مورد، لتقارن بين الموردين قبل الطلب. راجع [عرض سعر "
+"المورد](https://docs.frappe.io/erpnext/user/manual/en/supplier-quotation)."
+
+msgid ""
+"On submit of a Manufacture / Repack entry, map the raw material serial / batch nos "
+"that were not mapped in draft to the finished goods, in order"
+msgstr ""
+"عند ترحيل قيد تصنيع / إعادة تعبئة، اربط الأرقام التسلسلية / الدفعات للمواد الخام التي"
+" لم تُربط في المسودة بالسلع تامة الصنع، بالترتيب"
+
+msgid ""
+"Once the customer agrees, turn it into a sales order or an invoice from the quotation"
+" itself. See [Quotation](https://docs.frappe.io/erpnext/user/manual/en/quotation)."
+msgstr ""
+"بمجرد موافقة الزبون، حوّله إلى أمر بيع أو فاتورة من عرض السعر نفسه. راجع [عرض "
+"السعر](https://docs.frappe.io/erpnext/user/manual/en/quotation)."
+
+#, python-brace-format
+msgid "Only users with the {0} role can repost GL entries"
+msgstr "لا يمكن إعادة ترحيل قيود دفتر الأستاذ العام إلا للمستخدمين الذين لديهم الصلاحية {0}"
+
+msgid "Open Accounts"
+msgstr "فتح الحسابات"
+
+msgid "Open Accounts Payable"
+msgstr "فتح الحسابات الدائنة"
+
+msgid "Open Accounts Receivable"
+msgstr "فتح الحسابات المدينة"
+
+msgid "Open Asset Depreciation Ledger"
+msgstr "فتح دفتر إهلاك الأصول"
+
+msgid "Open Assets"
+msgstr "فتح الأصول"
+
+msgid "Open Balance Sheet"
+msgstr "فتح المركز المالي"
+
+msgid "Open Banking"
+msgstr "فتح الخدمات البنكية"
+
+msgid "Open Buying"
+msgstr "فتح المشتريات"
+
+msgid "Open Chart of Accounts"
+msgstr "فتح دليل الحسابات"
+
+msgid "Open Delayed Tasks Summary"
+msgstr "فتح ملخص المهام المتأخرة"
+
+msgid "Open Fixed Asset Register"
+msgstr "فتح سجل الأصول الثابتة"
+
+msgid "Open General Ledger"
+msgstr "فتح دفتر الأستاذ العام"
+
+msgid "Open Manufacturing"
+msgstr "فتح التصنيع"
+
+msgid "Open Non Conformances"
+msgstr "حالات عدم المطابقة المفتوحة"
+
+msgid "Open Profit and Loss"
+msgstr "فتح الأرباح والخسائر"
+
+msgid "Open Project Summary"
+msgstr "فتح ملخص المشروع"
+
+msgid "Open Purchase Order Analysis"
+msgstr "فتح تحليل أوامر الشراء"
+
+msgid "Open Quality"
+msgstr "فتح الجودة"
+
+msgid "Open Quality Actions"
+msgstr "إجراءات الجودة المفتوحة"
+
+msgid "Open Quality Reviews"
+msgstr "مراجعات الجودة المفتوحة"
+
+msgid "Open Sales Analytics"
+msgstr "فتح تحليلات المبيعات"
+
+msgid "Open Sales Taxes and Charges Template"
+msgstr "فتح قالب الضرائب والرسوم على المبيعات"
+
+msgid "Open Selling"
+msgstr "فتح المبيعات"
+
+msgid "Open Stock"
+msgstr "فتح المخزون"
+
+msgid "Open Stock Balance"
+msgstr "فتح رصيد المخزون"
+
+msgid "Open Stock Ledger"
+msgstr "فتح دفتر أستاذ المخزون"
+
+msgid "Open Warehouse"
+msgstr "فتح المستودع"
+
+msgid "Open Work Order Summary"
+msgstr "فتح ملخص أوامر العمل"
+
+msgid "Opening Entries"
+msgstr "القيود الافتتاحية"
+
+msgid "Opening Stock can only be set for stock items."
+msgstr "لا يمكن تعيين مخزون أول المدة إلا للأصناف المخزنية."
+
+#, python-brace-format
+msgid "Opening Stock cannot be created as stock transactions already exist for item {0}."
+msgstr "لا يمكن إنشاء مخزون أول المدة لوجود معاملات مخزون للصنف {0}."
+
+msgid ""
+"Opening Stock for serialised or batch items must be set via the Stock Reconciliation "
+"form."
+msgstr ""
+"يجب تعيين مخزون أول المدة للأصناف ذات الأرقام التسلسلية أو الدفعات من خلال نموذج جرد "
+"المخزون."
+
+#, python-brace-format
+msgid "Opening Stock reconciliation created with zero valuation rate: {0}"
+msgstr "أُنشئ جرد مخزون أول المدة بسعر تقييم صفري: {0}"
+
+#, python-brace-format
+msgid "Opening Stock reconciliation created: {0}"
+msgstr "أُنشئ جرد مخزون أول المدة: {0}"
+
+msgid "Opening and Closing balance is not supported for dimension grouped cash flow statement"
+msgstr "الرصيد الافتتاحي والختامي غير مدعومين في قائمة التدفقات النقدية المجمّعة حسب الأبعاد"
+
+msgid ""
+"Opening stock creation has been queued and will be created in the background. Please "
+"check the Stock Reconciliation after some time."
+msgstr ""
+"أُدرج إنشاء مخزون أول المدة في قائمة الانتظار وسيُنشأ في الخلفية. يُرجى مراجعة جرد "
+"المخزون بعد قليل."
+
+msgid "Opens a POS shift with the cash in the drawer."
+msgstr "يفتح وردية نقطة البيع بالنقد الموجود في الدرج."
+
+msgid "Opportunity Pipeline"
+msgstr "مسار الفرص"
+
+msgid ""
+"Optional group warehouse. Raw material availability is checked across its child "
+"warehouses; material is still received into For Warehouse."
+msgstr ""
+"مستودع رئيسي اختياري. يُتحقق من توفر المواد الخام عبر مستودعاته الفرعية، وتظل المواد "
+"تُستلم في «للمستودع»."
+
+msgid "Order Status Reports"
+msgstr "تقارير حالة الأوامر"
+
+msgid ""
+"Order from the supplier. When the goods arrive, receive them and record the bill from"
+" the order itself. See [Purchase Order](https://docs.frappe.io/erpnext/user/manual/en"
+"/purchase-order)."
+msgstr ""
+"اطلب من المورد. عند وصول البضائع، استلمها وسجّل الفاتورة من الأمر نفسه. راجع [أمر "
+"الشراء](https://docs.frappe.io/erpnext/user/manual/en/purchase-order)."
+
+msgid "Order from your suppliers"
+msgstr "اطلب من مورديك"
+
+msgid "Overdue Issues"
+msgstr "البلاغات المتأخرة"
+
+msgid "Paid From and Paid To accounts must be different for an Internal Transfer."
+msgstr "يجب أن يختلف حسابا «مدفوع من» و«مدفوع إلى» في النقل الداخلي."
+
+msgid "Parent Cost Center must belong to the same Company"
+msgstr "يجب أن ينتمي مركز التكلفة الرئيسي إلى الشركة نفسها"
+
+msgid "Parent document is required to search child rows"
+msgstr "المستند الأصل مطلوب للبحث في الصفوف الفرعية"
+
+msgid "Pay your supplier"
+msgstr "ادفع لمورّدك"
+
+msgid "Pending Repost"
+msgstr "إعادة ترحيل معلّقة"
+
+msgid "Pending qty"
+msgstr "الكمية المعلقة"
+
+msgid ""
+"Pick the finished good serial / batch each raw material went into. The Serial No and "
+"Batch Traceability report uses this mapping."
+msgstr ""
+"اختر الرقم التسلسلي / الدفعة للمنتج النهائي الذي دخلت فيه كل مادة خام. يستخدم تقرير "
+"إمكانية تتبع الرقم التسلسلي والدفعة هذا الربط."
+
+msgid "Picks the right tax template for a customer, supplier or address."
+msgstr "يختار القالب الضريبي المناسب لزبون أو مورد أو عنوان."
+
+msgid "Place a purchase order"
+msgstr "أصدر أمر شراء"
+
+msgid "Plan a work order"
+msgstr "خطّط أمر عمل"
+
+msgid "Plan and deliver projects"
+msgstr "خطّط المشاريع وأنجزها"
+
+msgid "Plan and run production"
+msgstr "خطّط الإنتاج ونفّذه"
+
+msgid "Plan maintenance visits"
+msgstr "خطّط زيارات الصيانة"
+
+msgid "Plan production from your orders"
+msgstr "خطّط الإنتاج من أوامرك"
+
+msgid "Planned visits to service what a customer bought."
+msgstr "زيارات مخططة لخدمة ما اشتراه زبون."
+
+msgid "Planning Reports"
+msgstr "تقارير التخطيط"
+
+msgid "Plans the work orders and materials needed for your demand."
+msgstr "يخطّط أوامر العمل والمواد اللازمة لتلبية طلبك."
+
+msgid ""
+"Please add at least one row in Item Defaults with a Company before setting opening "
+"stock."
+msgstr ""
+"يُرجى إضافة صف واحد على الأقل في الإعدادات الافتراضية للصنف مع شركة قبل تعيين مخزون "
+"أول المدة."
+
+msgid "Please contact any of the following users for this transaction."
+msgstr "يُرجى التواصل مع أي من المستخدمين التاليين بشأن هذه المعاملة."
+
+msgid "Please enter a valid date for when your financial year begins."
+msgstr "يُرجى إدخال تاريخ صالح لبداية سنتك المالية."
+
+msgid "Please pick a company name other than Company."
+msgstr "يُرجى اختيار اسم شركة غير Company."
+
+msgid "Please select Sample Retention Warehouse in Company first"
+msgstr "يُرجى اختيار مستودع الاحتفاظ بالعينات في الشركة أولًا"
+
+msgid "Please select rows to create GL Reposting Entries"
+msgstr "يُرجى اختيار صفوف لإنشاء قيود إعادة ترحيل دفتر الأستاذ العام"
+
+#, python-brace-format
+msgid "Please select rows to create {0}"
+msgstr "يُرجى اختيار صفوف لإنشاء {0}"
+
+#, python-brace-format
+msgid ""
+"Please set a Temporary Opening account for company {0} to create an Opening Stock "
+"reconciliation."
+msgstr "يُرجى تعيين حساب افتتاحي مؤقت للشركة {0} لإنشاء جرد مخزون أول المدة."
+
+msgid "Please set company on the Document before requesting for invoices."
+msgstr "يُرجى تعيين الشركة في المستند قبل طلب الفواتير."
+
+#, python-brace-format
+msgid "Please set {0} in Company {1} to retain samples."
+msgstr "يُرجى تعيين {0} في الشركة {1} للاحتفاظ بالعينات."
+
+msgid "Points a customer earned or spent under a loyalty program."
+msgstr "نقاط اكتسبها زبون أو أنفقها ضمن برنامج ولاء."
+
+msgid "Post a journal entry"
+msgstr "رحّل قيد يومية"
+
+#, python-brace-format
+msgid "Price List {0} cannot be used in {1}"
+msgstr "لا يمكن استخدام قائمة الأسعار {0} في {1}"
+
+#, python-brace-format
+msgid "Price List {0} cannot be used on a buying transaction"
+msgstr "لا يمكن استخدام قائمة الأسعار {0} في معاملة شراء"
+
+#, python-brace-format
+msgid "Price List {0} cannot be used on a selling transaction"
+msgstr "لا يمكن استخدام قائمة الأسعار {0} في معاملة بيع"
+
+#, python-brace-format
+msgid "Price List {0} is disabled"
+msgstr "قائمة الأسعار {0} معطّلة"
+
+msgid "Prices a supplier offered you."
+msgstr "أسعار عرضها عليك مورد."
+
+msgid "Prices you offer a customer or lead."
+msgstr "أسعار تعرضها على زبون أو زبون محتمل."
+
+#, python-brace-format
+msgid "Pricing Rule {0} is disabled"
+msgstr "قاعدة التسعير {0} معطّلة"
+
+msgid "Process Loss qty"
+msgstr "كمية فاقد العملية"
+
+msgid "Production Plan Quantity Exceeded"
+msgstr "تم تجاوز كمية خطة الإنتاج"
+
+msgid "Production Reports"
+msgstr "تقارير الإنتاج"
+
+msgid "Progress, hours and costs for every project."
+msgstr "الإنجاز والساعات والتكاليف لكل مشروع."
+
+msgid "Project Reports"
+msgstr "تقارير المشاريع"
+
+msgid "Pull in open sales orders and work out what to make, and what to buy, to fill them."
+msgstr "اجلب أوامر البيع المفتوحة وحدّد ما يجب تصنيعه وما يجب شراؤه لتلبيتها."
+
+msgid "Purchase Reports"
+msgstr "تقارير المشتريات"
+
+#, python-brace-format
+msgid ""
+"Qty for Manufacture must be greater than the process loss of {0} to produce a "
+"finished good."
+msgstr "يجب أن تكون الكمية المراد تصنيعها أكبر من فاقد العملية البالغ {0} لإنتاج منتج نهائي."
+
+msgid "Quality Reports"
+msgstr "تقارير الجودة"
+
+msgid "Quantity must be greater than zero."
+msgstr "يجب أن تكون الكمية أكبر من صفر."
+
+msgid "Quote a price"
+msgstr "قدّم عرض سعر"
+
+msgid "Raise money against unpaid sales invoices."
+msgstr "احصل على تمويل مقابل فواتير مبيعات غير مسددة."
+
+msgid "Rates a supplier over time on criteria you choose."
+msgstr "يقيّم أداء المورد بمرور الوقت وفق معايير تختارها."
+
+msgid "Rates and thresholds for tax withheld on payments, like TDS."
+msgstr "النسب والحدود الدنيا للضريبة المستقطعة من المدفوعات، مثل TDS."
+
+msgid "Raw Material Group Warehouse"
+msgstr "المستودع الرئيسي للمواد الخام"
+
+#, python-brace-format
+msgid "Raw material {0} is already mapped and can't be changed after {1} is submitted"
+msgstr "المادة الخام {0} مربوطة بالفعل ولا يمكن تغييرها بعد ترحيل {1}"
+
+#, python-brace-format
+msgid "Raw material {0} is mapped to {1}, which is not a finished good of this entry"
+msgstr "المادة الخام {0} مربوطة بـ {1}، وهو ليس منتجًا نهائيًا في هذا القيد"
+
+msgid ""
+"Raw materials come out of stock and the finished products go in. From the work order,"
+" **Finish** fills this in for you. See [Stock "
+"Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+msgstr ""
+"تخرج المواد الخام من المخزون وتدخل المنتجات النهائية. من أمر العمل، يملأ زر **إنهاء**"
+" هذا لك. راجع [قيد المخزون](https://docs.frappe.io/erpnext/user/manual/en/stock-"
+"entry)."
+
+msgid "Rebuilds the ledger entries of transactions that were posted wrongly."
+msgstr "يعيد بناء قيود دفتر الأستاذ للمعاملات التي رُحّلت بشكل خاطئ."
+
+msgid "Rebuilds the payment ledger so outstanding amounts are right again."
+msgstr "يعيد بناء دفتر أستاذ المدفوعات لتصبح المبالغ المستحقة صحيحة مجددًا."
+
+msgid "Recalculates stock values after a backdated change."
+msgstr "يعيد حساب قيم المخزون بعد تغيير بتاريخ سابق."
+
+msgid "Receivables & Payables"
+msgstr "المدينون والدائنون"
+
+msgid "Receive goods from a supplier"
+msgstr "استلم بضائع من مورد"
+
+msgid "Reconciliation"
+msgstr "التسوية"
+
+msgid "Reconciliation Failed"
+msgstr "فشلت التسوية"
+
+msgid "Record a supplier's quote"
+msgstr "سجّل عرض سعر مورد"
+
+msgid "Record an asset and see what it's worth year by year."
+msgstr "سجّل أصلًا واطّلع على قيمته سنة بعد سنة."
+
+msgid "Record an asset you already own"
+msgstr "سجّل أصلًا تملكه بالفعل"
+
+msgid ""
+"Record the hours spent on tasks. Bill them to the customer or use them to cost the "
+"project. See [Timesheet](https://docs.frappe.io/erpnext/user/manual/en/timesheets)."
+msgstr ""
+"سجّل الساعات المصروفة على المهام. أصدر بها فواتير للزبون أو استخدمها لحساب تكلفة "
+"المشروع. راجع [سجل الدوام](https://docs.frappe.io/erpnext/user/manual/en/timesheets)."
+
+msgid ""
+"Record the results against a receipt or a delivery, and accept or reject the goods. "
+"See [Quality Inspection](https://docs.frappe.io/erpnext/user/manual/en/quality-"
+"inspection)."
+msgstr ""
+"سجّل النتائج مقابل استلام أو تسليم، واقبل البضائع أو ارفضها. راجع [فحص "
+"الجودة](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection)."
+
+msgid ""
+"Record who has it and where it is, so you always know. See [Asset "
+"Movement](https://docs.frappe.io/erpnext/user/manual/en/asset-movement)."
+msgstr ""
+"سجّل من يحوزه وأين هو، لتعرف دائمًا. راجع [حركة "
+"الأصول](https://docs.frappe.io/erpnext/user/manual/en/asset-movement)."
+
+msgid "Registers & Profitability"
+msgstr "السجلات والربحية"
+
+msgid ""
+"Regular service visits for equipment you sold, planned ahead for the whole contract. "
+"See [Maintenance Schedule](https://docs.frappe.io/erpnext/user/manual/en/maintenance-"
+"schedule)."
+msgstr ""
+"زيارات خدمة دورية للمعدات التي بعتها، مخططة مسبقًا لكامل مدة العقد. راجع [جدول "
+"الصيانة](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule)."
+
+msgid "Replace a BOM everywhere it is used, or update the cost of all BOMs."
+msgstr "استبدل قائمة مواد في كل مكان تُستخدم فيه، أو حدّث تكلفة جميع قوائم المواد."
+
+msgid "Repost GL Entries"
+msgstr "إعادة ترحيل قيود دفتر الأستاذ العام"
+
+msgid "Repost Item Valuation will be made for:"
+msgstr "ستُنشأ إعادة ترحيل تقييم الصنف لما يلي:"
+
+msgid "Repost Stock & GL Entries"
+msgstr "إعادة ترحيل قيود المخزون ودفتر الأستاذ العام"
+
+#, python-brace-format
+msgid "Repost {0} is already pending."
+msgstr "إعادة الترحيل {0} معلّقة بالفعل."
+
+msgid "Reposting Entries"
+msgstr "قيود إعادة الترحيل"
+
+msgid "Reposting could not be queued for:"
+msgstr "تعذّر إدراج إعادة الترحيل في قائمة الانتظار لما يلي:"
+
+msgid "Reposting has been queued for:"
+msgstr "أُدرجت إعادة الترحيل في قائمة الانتظار لما يلي:"
+
+msgid "Required in 7 Days"
+msgstr "مطلوب خلال 7 أيام"
+
+msgid "Requires approval for transactions above a limit."
+msgstr "يشترط الموافقة على المعاملات التي تتجاوز حدًا معيّنًا."
+
+msgid "Resolved Issues"
+msgstr "البلاغات المحلولة"
+
+msgid "Restates foreign currency balances at today's exchange rate."
+msgstr "يعيد تقييم أرصدة العملات الأجنبية بسعر صرف اليوم."
+
+msgid "Reuse it as a template"
+msgstr "أعد استخدامه قالبًا"
+
+msgid "Review how a goal is going"
+msgstr "راجع سير هدف"
+
+msgid "Review your chart of accounts"
+msgstr "راجع دليل حساباتك"
+
+msgid "Review your taxes"
+msgstr "راجع ضرائبك"
+
+msgid "Review your warehouses"
+msgstr "راجع مستودعاتك"
+
+msgid "Rewards customers with points they can spend on later purchases."
+msgstr "يكافئ الزبائن بنقاط يمكنهم إنفاقها في مشتريات لاحقة."
+
+msgid "Routing Required"
+msgstr "التوجيه مطلوب"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: % of Component Cost needs a BOM secondary item. Choose Valuation Rate or "
+"Manual for {1}."
+msgstr ""
+"الصف رقم {0}: تتطلب «% من تكلفة المكوّن» صنفًا ثانويًا في قائمة المواد. اختر سعر "
+"التقييم أو يدوي لـ {1}."
+
+#, python-brace-format
+msgid "Row #{0}: Cannot return {1} of Batch {2}, only {3} was delivered and not returned yet."
+msgstr ""
+"الصف رقم {0}: لا يمكن إرجاع {1} من الدفعة {2}، إذ لم يُسلَّم منها إلا {3} ولم يُرجع "
+"بعد."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Company {1} does not match with the company {2} in Serial and Batch Bundle "
+"{3}."
+msgstr "الصف رقم {0}: الشركة {1} لا تطابق الشركة {2} في حزمة الرقم التسلسلي والدفعة {3}."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Delivery of Item {1} is ensured by produced Serial No, but no Serial No is "
+"reserved against Sales Order {2}. Reserve the produced Serial Nos from the Sales "
+"Order."
+msgstr ""
+"الصف رقم {0}: تسليم الصنف {1} مضمون بالأرقام التسلسلية المنتجة، لكن لا يوجد رقم "
+"تسلسلي محجوز مقابل أمر البيع {2}. احجز الأرقام التسلسلية المنتجة من أمر البيع."
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} has Operation {2}. Set a Routing to create BOMs with operations."
+msgstr "الصف رقم {0}: للصنف {1} العملية {2}. عيّن توجيهًا لإنشاء قوائم مواد بعمليات."
+
+#, python-brace-format
+msgid "Row #{0}: Planned Qty must be greater than 0 for Item {1}."
+msgstr "الصف رقم {0}: يجب أن تكون الكمية المخططة أكبر من 0 للصنف {1}."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Serial No {1} is not reserved against Sales Order {2}. Deliver only the "
+"Serial Nos produced and reserved for it."
+msgstr ""
+"الصف رقم {0}: الرقم التسلسلي {1} غير محجوز مقابل أمر البيع {2}. سلّم فقط الأرقام "
+"التسلسلية المنتجة والمحجوزة له."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Stock cannot be reserved for the Item {1} as its delivery is ensured based "
+"on the produced Serial Nos. The Work Order will reserve them on manufacture."
+msgstr ""
+"الصف رقم {0}: لا يمكن حجز المخزون للصنف {1} لأن تسليمه مضمون بناءً على الأرقام "
+"التسلسلية المنتجة. سيحجزها أمر العمل عند التصنيع."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Target Warehouse {1} must be a Transit warehouse when Add to Transit is "
+"enabled."
+msgstr "الصف رقم {0}: يجب أن يكون المستودع الهدف {1} مستودع عبور عند تفعيل الإضافة إلى العبور."
+
+#, python-brace-format
+msgid ""
+"Row {0} in {1} {2}: Work Order quantity after process loss {3} exceeds the remaining "
+"allowed quantity {4}."
+msgstr ""
+"الصف {0} في {1} {2}: كمية أمر العمل بعد فاقد العملية {3} تتجاوز الكمية المتبقية "
+"المسموح بها {4}."
+
+#, python-brace-format
+msgid "Row {0} is not a raw material serial / batch entry of {1}"
+msgstr "الصف {0} ليس قيد رقم تسلسلي / دفعة لمادة خام في {1}"
+
+#, python-brace-format
+msgid ""
+"Row {0}: Accounting Dimension {1} is mandatory for account {2}. Set it on this Taxes "
+"and Charges row, or on Item Row {3} ({4})."
+msgstr ""
+"الصف {0}: البُعد المحاسبي {1} إلزامي للحساب {2}. عيّنه في صف الضرائب والرسوم هذا، أو "
+"في صف الصنف {3} ({4})."
+
+#, python-brace-format
+msgid "Row {0}: Item {1} is not allowed for {2} {3}."
+msgstr "الصف {0}: الصنف {1} غير مسموح به لـ {2} {3}."
+
+msgid "SLA Failed"
+msgstr "إخفاق اتفاقية مستوى الخدمة"
+
+#, python-brace-format
+msgid "Sales Order Item {0} does not belong to {1}"
+msgstr "صنف أمر البيع {0} لا ينتمي إلى {1}"
+
+msgid "Sales Order Qty Exceeded"
+msgstr "تم تجاوز كمية أمر البيع"
+
+msgid "Sales Reports"
+msgstr "تقارير المبيعات"
+
+msgid "Sales Team Reports"
+msgstr "تقارير فريق المبيعات"
+
+msgid "Sales by customer, item or territory, over any period."
+msgstr "المبيعات حسب الزبون أو الصنف أو الإقليم، لأي فترة."
+
+msgid ""
+"Sales by customer, item or territory, over any period. See [Sales "
+"Analytics](https://docs.frappe.io/erpnext/user/manual/en/sales-analytics)."
+msgstr ""
+"المبيعات حسب الزبون أو الصنف أو الإقليم، لأي فترة. راجع [تحليلات "
+"المبيعات](https://docs.frappe.io/erpnext/user/manual/en/sales-analytics)."
+
+msgid "Sample Retention Warehouse Missing"
+msgstr "مستودع الاحتفاظ بالعينات مفقود"
+
+msgid "Sample Size must be greater than zero"
+msgstr "يجب أن يكون حجم العينة أكبر من صفر"
+
+msgid "Save the Work Order to view linked documents."
+msgstr "احفظ أمر العمل لعرض المستندات المرتبطة."
+
+msgid "Save the tasks you repeat on every job, and start the next project from them."
+msgstr "احفظ المهام التي تكررها في كل عمل، وابدأ المشروع التالي منها."
+
+msgid "Schedule its upkeep"
+msgstr "جدوِل صيانته"
+
+msgid "Scheduling & Costing"
+msgstr "الجدولة والتكلفة"
+
+msgid "See everything you own"
+msgstr "اطّلع على كل ما تملكه"
+
+msgid "See how production is going"
+msgstr "اطّلع على سير الإنتاج"
+
+msgid "Select the differences to fix."
+msgstr "اختر الفروقات المراد معالجتها."
+
+msgid "Sells several items together as one item."
+msgstr "يبيع عدة أصناف معًا كصنف واحد."
+
+msgid "Send your first invoice"
+msgstr "أرسل أول فاتورة لك"
+
+msgid "Serial & Batch"
+msgstr "الأرقام التسلسلية والدفعات"
+
+msgid "Serial & Batch Reports"
+msgstr "تقارير الأرقام التسلسلية والدفعات"
+
+msgid "Serial / Batch No Not Activated"
+msgstr "الرقم التسلسلي / الدفعة غير مفعّل"
+
+msgid "Serial No Not Reserved"
+msgstr "الرقم التسلسلي غير محجوز"
+
+#, python-brace-format
+msgid ""
+"Serial No Wise Valuation cannot be enabled for Item {0} because Serial Nos already "
+"exist for it. Valuation for those Serial Nos was not tracked, so enabling it now "
+"would value outward entries incorrectly."
+msgstr ""
+"لا يمكن تفعيل التقييم حسب الرقم التسلسلي للصنف {0} لوجود أرقام تسلسلية له بالفعل. لم "
+"يُتتبَّع تقييم تلك الأرقام التسلسلية، لذا فإن تفعيله الآن سيقيّم القيود الصادرة بشكل "
+"خاطئ."
+
+msgid "Serial Nos Exist"
+msgstr "توجد أرقام تسلسلية"
+
+msgid "Serialized"
+msgstr "متتبَّع بالأرقام التسلسلية"
+
+msgid ""
+"Serialized items are valued at Moving Average once stock transactions exist and "
+"Serial No Wise Valuation is disabled."
+msgstr ""
+"تُقيَّم الأصناف ذات الأرقام التسلسلية بالمتوسط المتحرك بمجرد وجود معاملات مخزون عند "
+"تعطيل التقييم حسب الرقم التسلسلي."
+
+msgid ""
+"Servicing, inspections and calibration, with reminders to the team doing it. See "
+"[Asset Maintenance](https://docs.frappe.io/erpnext/user/manual/en/asset-maintenance)."
+msgstr ""
+"الخدمة والفحص والمعايرة، مع تذكيرات للفريق المسؤول. راجع [صيانة "
+"الأصول](https://docs.frappe.io/erpnext/user/manual/en/asset-maintenance)."
+
+msgid "Set Opening Stock"
+msgstr "تعيين مخزون أول المدة"
+
+msgid "Set a quality goal"
+msgstr "حدّد هدف جودة"
+
+msgid ""
+"Set automatically to the day after the previous Stock Closing Entry, or to the first "
+"stock transaction's date"
+msgstr ""
+"يُعيَّن تلقائيًا إلى اليوم التالي لقيد إغلاق المخزون السابق، أو إلى تاريخ أول معاملة "
+"مخزون"
+
+msgid "Set up an asset category"
+msgstr "أعِدّ فئة أصول"
+
+msgid "Set up an inspection and record your first check."
+msgstr "أعِدّ فحصًا وسجّل أول عملية تحقق."
+
+msgid "Set up your company"
+msgstr "أعِدّ شركتك"
+
+msgid "Set up your warehouses and enter the stock you have today."
+msgstr "أعِدّ مستودعاتك وأدخل المخزون الموجود لديك اليوم."
+
+msgid "Sets stock quantities and values to what is actually in your warehouses."
+msgstr "يضبط كميات المخزون وقيمه وفق الموجود فعليًا في مستودعاتك."
+
+msgid "Setting up the basics"
+msgstr "جارٍ إعداد الأساسيات"
+
+msgid "Settings for a point of sale, like its warehouse, price list and payment methods."
+msgstr "إعدادات نقطة البيع، مثل مستودعها وقائمة أسعارها وطرق الدفع."
+
+msgid "Ship to a customer"
+msgstr "اشحن إلى زبون"
+
+#, python-brace-format
+msgid "Shipping Account {0} does not belong to Company {1}"
+msgstr "حساب الشحن {0} لا ينتمي إلى الشركة {1}"
+
+msgid "Show Differences Settled by Adjustment Entries"
+msgstr "إظهار الفروقات المسوّاة بقيود التعديل"
+
+msgid "Shows which POS invoices were merged into a sales invoice."
+msgstr "يبيّن فواتير نقاط البيع التي دُمجت في فاتورة مبيعات."
+
+#, python-brace-format
+msgid ""
+"Since you are reposting transactions from the previous fiscal year {0}, the closing "
+"balances of that fiscal year can change. The reposting might also take time to "
+"complete."
+msgstr ""
+"بما أنك تعيد ترحيل معاملات من السنة المالية السابقة {0}، فقد تتغير الأرصدة الختامية "
+"لتلك السنة. وقد تستغرق إعادة الترحيل وقتًا لتكتمل."
+
+msgid "Some of its serial nos or batches should be short of stock on this date."
+msgstr "يُفترض أن يكون بعض أرقامه التسلسلية أو دفعاته ناقص المخزون في هذا التاريخ."
+
+msgid "Someone who might buy from you."
+msgstr "شخص قد يشتري منك."
+
+msgid "Someone who sells for you, with targets and commission."
+msgstr "شخص يبيع لحسابك، مع أهداف وعمولة."
+
+msgid "Something a supplier is scored on, like on-time delivery."
+msgstr "معيار يُقيَّم المورد عليه، مثل التسليم في الموعد."
+
+msgid "Something an item is checked for, like weight or colour."
+msgstr "خاصية يُفحص الصنف عليها، مثل الوزن أو اللون."
+
+msgid "Something that did not meet your quality standard."
+msgstr "شيء لم يستوفِ معيار الجودة لديك."
+
+msgid ""
+"Something you bought before using ERPNext, with what you paid, where it is, and how "
+"much has already depreciated. See "
+"[Asset](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+msgstr ""
+"شيء اشتريته قبل استخدام ERPNext، مع ما دفعته، ومكانه، وما أُهلك منه. راجع "
+"[الأصل](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+
+msgid "Something you measure and improve on a schedule, like on-time delivery."
+msgstr "شيء تقيسه وتحسّنه وفق جدول، مثل التسليم في الموعد."
+
+msgid ""
+"Something you use to make your products, kept in the Raw Material group. See "
+"[Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr ""
+"شيء تستخدمه لصنع منتجاتك، محفوظ في مجموعة Raw Material. راجع "
+"[الصنف](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+msgid ""
+"Something you want to measure and improve, like on-time delivery or returns, reviewed"
+" on a schedule you choose. See [Quality "
+"Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+msgstr ""
+"شيء تريد قياسه وتحسينه، مثل التسليم في الموعد أو المرتجعات، يُراجَع وفق جدول تختاره. "
+"راجع [إدارة الجودة](https://docs.frappe.io/erpnext/user/manual/en/quality-"
+"management)."
+
+msgid "Something your business owns and uses over time, like a machine or a laptop."
+msgstr "شيء يملكه نشاطك ويستخدمه مدةً من الزمن، مثل آلة أو حاسوب محمول."
+
+#, python-brace-format
+msgid "Source Warehouse is required for item {0}"
+msgstr "مستودع المصدر مطلوب للصنف {0}"
+
+msgid ""
+"Speeds up Item search on large catalogues. Requires a single app server: the index is"
+" a file on that server's disk, and several servers would each answer from a different"
+" copy. Building it takes about 20 minutes for 3 million items, and runs in the "
+"background."
+msgstr ""
+"يسرّع البحث عن الأصناف في الكتالوجات الكبيرة. يتطلب خادم تطبيق واحدًا: الفهرس ملف على"
+" قرص ذلك الخادم، ولو تعددت الخوادم لأجاب كل منها من نسخة مختلفة. يستغرق بناؤه نحو 20 "
+"دقيقة لكل 3 ملايين صنف، ويعمل في الخلفية."
+
+msgid "Splits one cost center's amounts across others by percentage."
+msgstr "يوزّع مبالغ مركز تكلفة على مراكز أخرى بالنسب المئوية."
+
+msgid "Spot delayed tasks"
+msgstr "اكتشف المهام المتأخرة"
+
+msgid "Spot your best sellers"
+msgstr "اكتشف الأكثر مبيعًا"
+
+msgid "Spreads a yearly budget or target across months for seasonal businesses."
+msgstr "يوزّع موازنة أو هدفًا سنويًا على الأشهر للأنشطة الموسمية."
+
+msgid "Standard Cost"
+msgstr "التكلفة المعيارية"
+
+msgid "Standard terms to add to quotes, orders and invoices."
+msgstr "شروط قياسية تُضاف إلى عروض الأسعار والأوامر والفواتير."
+
+msgid "Start a project"
+msgstr "ابدأ مشروعًا"
+
+msgid "Stock Entries"
+msgstr "قيود المخزون"
+
+msgid "Stock Ledger Entries of Cancelled Vouchers"
+msgstr "قيود دفتر أستاذ المخزون للمستندات الملغاة"
+
+msgid ""
+"Stock Ledger Entries of the selected vouchers have been cancelled and reposting has "
+"been queued."
+msgstr ""
+"أُلغيت قيود دفتر أستاذ المخزون للمستندات المحددة وأُدرجت إعادة الترحيل في قائمة "
+"الانتظار."
+
+msgid "Stock Reposting"
+msgstr "إعادة ترحيل المخزون"
+
+msgid "Stock Valuation Comparison"
+msgstr "مقارنة تقييم المخزون"
+
+msgid "Stock Value Difference"
+msgstr "فرق قيمة المخزون"
+
+msgid ""
+"Stock goes down as the goods leave, and the invoice can be made from the delivery. "
+"See [Delivery Note](https://docs.frappe.io/erpnext/user/manual/en/delivery-note)."
+msgstr ""
+"ينخفض المخزون عند خروج البضائع، ويمكن إنشاء الفاتورة من التسليم. راجع [إشعار "
+"التسليم](https://docs.frappe.io/erpnext/user/manual/en/delivery-note)."
+
+msgid ""
+"Stock goes up in the warehouse you receive into, and the bill can be made from the "
+"receipt. See [Purchase Receipt](https://docs.frappe.io/erpnext/user/manual/en"
+"/purchase-receipt)."
+msgstr ""
+"يرتفع المخزون في المستودع الذي تستلم فيه، ويمكن إنشاء الفاتورة من الاستلام. راجع "
+"[إشعار استلام المشتريات](https://docs.frappe.io/erpnext/user/manual/en/purchase-"
+"receipt)."
+
+msgid "Stock set aside for a sales order or production."
+msgstr "مخزون مخصص لأمر بيع أو للإنتاج."
+
+msgid "Subcontracted"
+msgstr "متعاقد عليه من الباطن"
+
+msgid "Subcontracting Reports"
+msgstr "تقارير التعاقد من الباطن"
+
+msgid "Supplier Reports"
+msgstr "تقارير الموردين"
+
+#, python-brace-format
+msgid "Target Warehouse is required for item {0}"
+msgstr "المستودع الهدف مطلوب للصنف {0}"
+
+msgid "Task Status"
+msgstr "حالة المهمة"
+
+msgid "Tasks past their due date, and how late each one is."
+msgstr "المهام التي تجاوزت موعد استحقاقها، ومقدار تأخر كل منها."
+
+msgid "Tax & Compliance"
+msgstr "الضرائب والامتثال"
+
+msgid "Tax rates for items that are taxed differently from the rest."
+msgstr "النسب الضريبية للأصناف التي تخضع لضريبة مختلفة عن غيرها."
+
+msgid "The VAT accounts to report in the South Africa VAT audit report."
+msgstr ""
+"حسابات ضريبة القيمة المضافة التي تُدرج في تقرير تدقيق ضريبة القيمة المضافة في جنوب "
+"أفريقيا."
+
+msgid ""
+"The account your customers pay into and you pay from, linked to its account in your "
+"chart of accounts. See [Bank Account](https://docs.frappe.io/erpnext/user/manual/en"
+"/bank-account)."
+msgstr ""
+"الحساب الذي يدفع إليه زبائنك وتدفع منه، مربوطًا بحسابه في دليل الحسابات. راجع [الحساب"
+" البنكي](https://docs.frappe.io/erpnext/user/manual/en/bank-account)."
+
+msgid ""
+"The bill your supplier sent, so you know what you owe and when it is due. See "
+"[Purchase Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+msgstr ""
+"الفاتورة التي أرسلها مورّدك، لتعرف ما عليك وموعد استحقاقه. راجع [فاتورة "
+"الشراء](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+
+#, python-brace-format
+msgid ""
+"The closing balance {0} of the Stock Asset accounts differs from the closing value "
+"{1} of the Stock Balance report by {2}, which is within the allowed {3}% tolerance. "
+"Submit the Period Closing Voucher with this difference?"
+msgstr ""
+"الرصيد الختامي {0} لحسابات أصول المخزون يختلف عن القيمة الختامية {1} في تقرير رصيد "
+"المخزون بمقدار {2}، وهو ضمن هامش السماح {3}%. هل تريد ترحيل قيد إغلاق الفترة بهذا "
+"الفرق؟"
+
+msgid "The contents and weight of each package in a delivery."
+msgstr "محتويات كل طرد في التسليم ووزنه."
+
+#, python-brace-format
+msgid ""
+"The finished good rows receive {0}, which is more than the Finished Good Quantity "
+"{1}. Set Finished Good Quantity to {0} and get the items again, or reduce the "
+"finished good rows."
+msgstr ""
+"تستلم صفوف المنتج النهائي {0}، وهو أكثر من كمية المنتج النهائي {1}. عيّن كمية المنتج "
+"النهائي إلى {0} واجلب الأصناف مجددًا، أو قلّل صفوف المنتج النهائي."
+
+msgid "The holidays and weekly offs of a company or employee."
+msgstr "العطلات والإجازات الأسبوعية لشركة أو موظف."
+
+msgid "The items and quantities to pick from the warehouse."
+msgstr "الأصناف والكميات المراد انتقاؤها من المستودع."
+
+msgid ""
+"The kind of thing you own, marked as a fixed asset. See "
+"[Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr ""
+"نوع الشيء الذي تملكه، مُعلَّم كأصل ثابت. راجع "
+"[الصنف](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+msgid "The materials a subcontractor uses to make an item for you."
+msgstr "المواد التي يستخدمها المقاول من الباطن لتصنيع صنف لك."
+
+msgid "The materials and operations it takes to make an item."
+msgstr "المواد والعمليات اللازمة لتصنيع صنف."
+
+msgid "The order of operations to make an item."
+msgstr "ترتيب العمليات لتصنيع صنف."
+
+msgid "The parameters to check an item for."
+msgstr "المعايير التي يُفحص الصنف عليها."
+
+msgid ""
+"The parameters to inspect and what counts as a pass, reused on every inspection. See "
+"[Quality Inspection Template](https://docs.frappe.io/erpnext/user/manual/en/quality-"
+"inspection-template)."
+msgstr ""
+"المعايير المراد فحصها وما يُعدّ نجاحًا، يُعاد استخدامها في كل فحص. راجع [قالب فحص "
+"الجودة](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template)."
+
+msgid "The people responsible for maintaining assets."
+msgstr "الأشخاص المسؤولون عن صيانة الأصول."
+
+msgid "The price of an item in a price list."
+msgstr "سعر صنف في قائمة أسعار."
+
+msgid "The progress of a BOM replacement or cost update."
+msgstr "تقدّم استبدال قائمة مواد أو تحديث تكلفتها."
+
+msgid "The questions to ask when collecting quality feedback."
+msgstr "الأسئلة التي تُطرح عند جمع ملاحظات الجودة."
+
+msgid "The rate to convert one currency into another."
+msgstr "سعر تحويل عملة إلى أخرى."
+
+msgid ""
+"The raw materials, and how much of each, that go into one unit of your product. "
+"Submit it to use it in production. See "
+"[BOM](https://docs.frappe.io/erpnext/user/manual/en/bill-of-materials).\n"
+"\n"
+"Sending some of the work to a supplier? See "
+"[Subcontracting](https://docs.frappe.io/erpnext/user/manual/en/subcontracting)."
+msgstr ""
+"المواد الخام، وكمية كل منها، الداخلة في وحدة واحدة من منتجك. رحّلها لاستخدامها في "
+"الإنتاج. راجع [قائمة المواد](https://docs.frappe.io/erpnext/user/manual/en/bill-of-"
+"materials).\n"
+"\n"
+"هل تسند جزءًا من العمل إلى مورد؟ راجع [التعاقد من "
+"الباطن](https://docs.frappe.io/erpnext/user/manual/en/subcontracting)."
+
+msgid "The result of creating or submitting many documents at once."
+msgstr "نتيجة إنشاء أو ترحيل عدد كبير من المستندات دفعة واحدة."
+
+msgid "The rows and formulas of a custom financial statement."
+msgstr "صفوف قائمة مالية مخصصة وصيغها."
+
+#, python-brace-format
+msgid ""
+"The rows of Item {0} in Warehouse {1} are not the stock it should hold on this date. "
+"Make the Adjustment Entry again from the Stock Valuation Comparison report."
+msgstr ""
+"صفوف الصنف {0} في المستودع {1} لا تطابق المخزون الذي يُفترض أن يحتويه في هذا التاريخ."
+" أنشئ قيد التعديل مجددًا من تقرير مقارنة تقييم المخزون."
+
+msgid "The serial numbers and batches moved in a transaction."
+msgstr "الأرقام التسلسلية والدفعات المنقولة في معاملة."
+
+msgid "The standard chart for your country works for most businesses."
+msgstr "الدليل القياسي لبلدك يناسب معظم الأنشطة التجارية."
+
+msgid "The steps of a process you follow to keep quality in check."
+msgstr "خطوات عملية تتبعها للحفاظ على الجودة."
+
+msgid ""
+"The steps your team follows, so it is done the same way every time. See [Quality "
+"Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+msgstr ""
+"الخطوات التي يتبعها فريقك، لتُنفَّذ بالطريقة نفسها في كل مرة. راجع [إدارة "
+"الجودة](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+
+msgid ""
+"The stock qty and value of the selected items are set right on this date, without "
+"reposting. Stock and accounting reports before it keep the old values, and no stock "
+"transaction can be posted before it for these items afterwards."
+msgstr ""
+"تُضبط كمية المخزون وقيمته للأصناف المحددة على الصحيح في هذا التاريخ، دون إعادة ترحيل."
+" تحتفظ تقارير المخزون والمحاسبة السابقة له بالقيم القديمة، ولا يمكن بعد ذلك ترحيل أي "
+"معاملة مخزون قبله لهذه الأصناف."
+
+msgid "The tariff code an item is declared under at customs."
+msgstr "رمز التعريفة الجمركية الذي يُصرَّح بالصنف تحته في الجمارك."
+
+msgid "The taxes and charges, like shipping or insurance, to add to purchases."
+msgstr "الضرائب والرسوم، مثل الشحن أو التأمين، التي تُضاف إلى المشتريات."
+
+msgid "The taxes and charges, like shipping or insurance, to add to sales."
+msgstr "الضرائب والرسوم، مثل الشحن أو التأمين، التي تُضاف إلى المبيعات."
+
+msgid ""
+"The taxes that fill in on every invoice. We added your country's where we had them; "
+"check the rates match what you charge. Purchase taxes live in [Purchase Taxes and "
+"Charges Template](/desk/purchase-taxes-and-charges-template). See [Setting Up "
+"Taxes](https://docs.frappe.io/erpnext/user/manual/en/setting-up-taxes)."
+msgstr ""
+"الضرائب التي تُملأ في كل فاتورة. أضفنا ضرائب بلدك حيثما توفرت لدينا؛ تحقق من أن النسب"
+" تطابق ما تفرضه. ضرائب المشتريات موجودة في [قالب الضرائب والرسوم على المشتريات](/desk"
+"/purchase-taxes-and-charges-template). راجع [إعداد "
+"الضرائب](https://docs.frappe.io/erpnext/user/manual/en/setting-up-taxes)."
+
+msgid "The upkeep tasks an asset needs, and who does them."
+msgstr "مهام الصيانة التي يحتاجها الأصل، ومن ينفّذها."
+
+msgid "The wording and fee for a kind of payment reminder."
+msgstr "صياغة نوع من تذكيرات الدفع ورسومه."
+
+msgid "The work done for one operation of a work order."
+msgstr "العمل المنجز لعملية واحدة من أمر عمل."
+
+msgid "The year your books are kept and closed for."
+msgstr "السنة التي تُمسك دفاترك وتُغلق عنها."
+
+msgid "There are no differences to fix."
+msgstr "لا توجد فروقات لمعالجتها."
+
+msgid "There are no serial / batch tracked raw materials or finished goods to map"
+msgstr "لا توجد مواد خام أو سلع تامة الصنع متتبَّعة بالرقم التسلسلي / الدفعة لربطها"
+
+msgid "These already have a pending repost and are left out:"
+msgstr "هذه لديها إعادة ترحيل معلّقة بالفعل وتم استبعادها:"
+
+msgid "These cannot be settled by an Adjustment Entry and need a repost:"
+msgstr "هذه لا يمكن تسويتها بقيد تعديل وتحتاج إلى إعادة ترحيل:"
+
+#, python-brace-format
+msgid "These rows fall in a closed Accounting Period, remove them: {0}"
+msgstr "هذه الصفوف تقع في فترة محاسبية مغلقة، احذفها: {0}"
+
+msgid "This Job Card has no raw materials to transfer."
+msgstr "لا توجد مواد خام لنقلها في بطاقة العمل هذه."
+
+msgid "Time a workstation stood idle, and why."
+msgstr "الوقت الذي توقفت فيه محطة العمل، وسببه."
+
+msgid "Time logs"
+msgstr "سجلات الوقت"
+
+msgid "Time spent on tasks and activities, to bill or cost."
+msgstr "الوقت المصروف على المهام والأنشطة، للفوترة أو حساب التكلفة."
+
+#, python-brace-format
+msgid "To Date must be after {0}, the To Date of the last Stock Closing Entry {1}"
+msgstr "يجب أن يكون «إلى تاريخ» بعد {0}، وهو «إلى تاريخ» لآخر قيد إغلاق مخزون {1}"
+
+msgid "To Manufacture"
+msgstr "للتصنيع"
+
+msgid "To Order"
+msgstr "للطلب"
+
+msgid "To Time must be after From Time"
+msgstr "يجب أن يكون «إلى وقت» بعد «من وقت»"
+
+msgid "To Transfer"
+msgstr "للنقل"
+
+msgid "Total Completed qty"
+msgstr "إجمالي الكمية المكتملة"
+
+#, python-brace-format
+msgid "Total {0} of all items is zero, charges cannot be distributed on it."
+msgstr "إجمالي {0} لجميع الأصناف صفر، ولا يمكن توزيع الرسوم عليه."
+
+#, python-brace-format
+msgid "Total {0} of all items is zero. Set 'Distribute Charges Based On' to {1}."
+msgstr "إجمالي {0} لجميع الأصناف صفر. عيّن «توزيع الرسوم بناءً على» إلى {1}."
+
+msgid "Trace every posting"
+msgstr "تتبّع كل ترحيل"
+
+msgid "Track progress and costs"
+msgstr "تابع التقدم والتكاليف"
+
+msgid "Track what your business owns"
+msgstr "تابع ما يملكه نشاطك"
+
+msgid "Track your orders"
+msgstr "تابع أوامرك"
+
+msgid "Transfers"
+msgstr "التحويلات"
+
+msgid "Turns stock items or services into an asset, or one asset into another."
+msgstr "يحوّل أصناف المخزون أو الخدمات إلى أصل، أو أصلًا إلى آخر."
+
+msgid "Unassigned"
+msgstr "غير مُسنَد"
+
+msgid "Uncancelled Serial and Batch Bundle"
+msgstr "حزمة رقم تسلسلي ودفعة غير ملغاة"
+
+msgid "Undo a payment's match against invoices."
+msgstr "تراجع عن مطابقة دفعة مع الفواتير."
+
+msgid "Use Serial No Wise Valuation"
+msgstr "استخدام التقييم حسب الرقم التسلسلي"
+
+#, python-brace-format
+msgid ""
+"Valuation Method for Item {0} must be Moving Average because Serial No Wise Valuation"
+" is disabled. Enable Serial No Wise Valuation to use FIFO or LIFO."
+msgstr ""
+"يجب أن تكون طريقة التقييم للصنف {0} هي المتوسط المتحرك لأن التقييم حسب الرقم التسلسلي"
+" معطّل. فعّل التقييم حسب الرقم التسلسلي لاستخدام FIFO أو LIFO."
+
+msgid ""
+"Valuation Rate and Manual value this item on its own and deduct that cost from the "
+"raw material cost, like the pre-v16 scrap items. % of Component Cost allocates a "
+"percentage of the remaining raw material cost."
+msgstr ""
+"يقيّم «سعر التقييم» و«يدوي» هذا الصنف بمفرده ويخصمان تكلفته من تكلفة المواد الخام، "
+"مثل أصناف الخردة قبل الإصدار 16. أما «% من تكلفة المكوّن» فيخصص نسبة من تكلفة المواد "
+"الخام المتبقية."
+
+msgid "Valuation Rate cannot be negative."
+msgstr "لا يمكن أن يكون سعر التقييم سالبًا."
+
+msgid "Value Changes"
+msgstr "تغيرات القيمة"
+
+msgid ""
+"Value every outward movement at each Serial No's own incoming rate. If unchecked, the"
+" item is valued at Moving Average once stock transactions exist. Cannot be enabled "
+"once Serial Nos exist for this item."
+msgstr ""
+"قيّم كل حركة صادرة بسعر الوارد الخاص بكل رقم تسلسلي. إذا لم يُحدد، يُقيَّم الصنف "
+"بالمتوسط المتحرك بمجرد وجود معاملات مخزون. لا يمكن تفعيله بعد وجود أرقام تسلسلية لهذا"
+" الصنف."
+
+msgid "Visual Plant Floor"
+msgstr "عرض مرئي لأرضية المصنع"
+
+msgid "Waiting on Customer"
+msgstr "بانتظار الزبون"
+
+msgid "Warranty Claim Status"
+msgstr "حالة مطالبة الضمان"
+
+msgid "Warranty Expiring"
+msgstr "ضمان ينتهي قريبًا"
+
+msgid "We couldn't add the demo data"
+msgstr "تعذّرت إضافة البيانات التجريبية"
+
+msgid "We couldn't apply the recommended settings"
+msgstr "تعذّر تطبيق الإعدادات الموصى بها"
+
+msgid "We couldn't create your company"
+msgstr "تعذّر إنشاء شركتك"
+
+msgid "We couldn't personalize your setup"
+msgstr "تعذّر تخصيص إعدادك"
+
+msgid "We couldn't set up the basics"
+msgstr "تعذّر إعداد الأساسيات"
+
+msgid ""
+"We created a few to start with. Rename them, or add the places you actually keep "
+"stock. See [Warehouse](https://docs.frappe.io/erpnext/user/manual/en/warehouse)."
+msgstr ""
+"أنشأنا بعضها للبدء. أعد تسميتها، أو أضف الأماكن التي تحفظ فيها المخزون فعلًا. راجع "
+"[المستودع](https://docs.frappe.io/erpnext/user/manual/en/warehouse)."
+
+msgid ""
+"We set up a standard chart of accounts for your country. See how your accounts are "
+"grouped, and rename or add any to match how you report. See [Chart of "
+"Accounts](https://docs.frappe.io/erpnext/user/manual/en/chart-of-accounts)."
+msgstr ""
+"أعددنا دليل حسابات قياسيًا لبلدك. اطّلع على كيفية تجميع حساباتك، وأعد تسمية أي منها "
+"أو أضف حسابات لتوافق طريقة تقاريرك. راجع [دليل "
+"الحسابات](https://docs.frappe.io/erpnext/user/manual/en/chart-of-accounts)."
+
+msgid "We'll use these to create your company and its accounts."
+msgstr "سنستخدم هذه البيانات لإنشاء شركتك وحساباتها."
+
+msgid "What a subscription bills for, and at what price."
+msgstr "ما يُفوتَر عنه الاشتراك، وبأي سعر."
+
+msgid "What an employee costs and bills per hour for an activity."
+msgstr "تكلفة الموظف وسعر فوترته بالساعة لنشاط ما."
+
+msgid ""
+"What comes out at the end of production, kept in the Products group. See "
+"[Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr ""
+"ما ينتج في نهاية التصنيع، محفوظ في مجموعة Products. راجع "
+"[الصنف](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+msgid "What you did to fix or prevent a quality problem."
+msgstr "ما فعلته لمعالجة مشكلة جودة أو منعها."
+
+msgid "What you have in each warehouse, and what it is worth."
+msgstr "ما لديك في كل مستودع، وقيمته."
+
+msgid "What you ordered, what arrived and what is still to come."
+msgstr "ما طلبته، وما وصل، وما لم يصل بعد."
+
+msgid "What you ordered, what has arrived, and what is still to come."
+msgstr "ما طلبته، وما وصل، وما لم يصل بعد."
+
+msgid "What you own, where it is, and what it is worth today."
+msgstr "ما تملكه، وأين هو، وقيمته اليوم."
+
+msgid "When an asset depreciates, and by how much."
+msgstr "متى يُهلك الأصل، وبأي مقدار."
+
+msgid "When part of an invoice is due, like 50% in 30 days."
+msgstr "موعد استحقاق جزء من الفاتورة، مثل 50% خلال 30 يومًا."
+
+msgid ""
+"When something falls short of the procedure, note what happened, the cause, and what "
+"you will do about it. See [Non "
+"Conformance](https://docs.frappe.io/erpnext/user/manual/en/non-conformance)."
+msgstr ""
+"عندما لا يرقى شيء إلى الإجراء المتبع، دوّن ما حدث وسببه وما ستفعله حياله. راجع [عدم "
+"المطابقة](https://docs.frappe.io/erpnext/user/manual/en/non-conformance)."
+
+msgid ""
+"When your customer pays, record it here. It is matched against their invoice, so you "
+"can see what is still owed. See [Payment "
+"Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+msgstr ""
+"عندما يدفع زبونك، سجّل ذلك هنا. تُطابَق الدفعة مع فاتورته، لترى ما تبقى مستحقًا. راجع"
+" [قيد الدفع](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+
+msgid "Where each detail goes when you print on your bank's cheque."
+msgstr "موضع كل بيان عند الطباعة على شيك بنكك."
+
+msgid "Which warehouse received items go to."
+msgstr "المستودع الذي تذهب إليه الأصناف المستلمة."
+
+msgid ""
+"While making a Purchase Receipt or Purchase Invoice from a Purchase Order, use the "
+"exchange rate on its posting date rather than inheriting it from the Purchase Order."
+msgstr ""
+"عند إنشاء إشعار استلام مشتريات أو فاتورة شراء من أمر شراء، استخدم سعر الصرف في تاريخ "
+"ترحيلها بدلًا من توارثه من أمر الشراء."
+
+msgid "Who answers incoming calls, and when."
+msgstr "من يجيب على المكالمات الواردة، ومتى."
+
+msgid ""
+"Who does what, by when. Tasks roll up into the project's progress. See "
+"[Task](https://docs.frappe.io/erpnext/user/manual/en/task)."
+msgstr ""
+"من يفعل ماذا، ومتى. تُحتسب المهام ضمن تقدّم المشروع. راجع "
+"[المهمة](https://docs.frappe.io/erpnext/user/manual/en/task)."
+
+msgid "Who owes you, how much, and for how long."
+msgstr "من يدين لك، وبكم، ومنذ متى."
+
+msgid ""
+"Who owes you, how much, and for how long. See [Accounts "
+"Receivable](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable)."
+msgstr ""
+"من يدين لك، وبكم، ومنذ متى. راجع [الحسابات "
+"المدينة](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable)."
+
+msgid "Who you owe, how much, and when each bill is due."
+msgstr "لمن تدين، وبكم، وموعد استحقاق كل فاتورة."
+
+msgid "Who you owe, how much, and when it is due."
+msgstr "لمن تدين، وبكم، وموعد الاستحقاق."
+
+msgid "Work Order Not Finished"
+msgstr "أمر العمل لم ينتهِ"
+
+#, python-brace-format
+msgid "Work Order must reference a row in Production Plan {0}."
+msgstr "يجب أن يشير أمر العمل إلى صف في خطة الإنتاج {0}."
+
+msgid "Work Order must reference only one Production Plan row."
+msgstr "يجب أن يشير أمر العمل إلى صف واحد فقط من خطة الإنتاج."
+
+msgid "Works out the shipping charge on a sale or purchase."
+msgstr "يحسب رسوم الشحن على عملية بيع أو شراء."
+
+msgid "Write down how the work is done"
+msgstr "دوّن كيف يُنجَز العمل"
+
+msgid "Write down what goes into a product and make it with a work order."
+msgstr "دوّن مكونات المنتج واصنعه بأمر عمل."
+
+msgid "Write its bill of materials"
+msgstr "اكتب قائمة مواده"
+
+#, python-brace-format
+msgid "You are not permitted to access Company {0}"
+msgstr "غير مسموح لك بالوصول إلى الشركة {0}"
+
+#, python-brace-format
+msgid "You are not permitted to repair the Stock Ledger Entries of {0} {1}"
+msgstr "غير مسموح لك بإصلاح قيود دفتر أستاذ المخزون لـ {0} {1}"
+
+msgid "You can delete it anytime."
+msgstr "يمكنك حذفها في أي وقت."
+
+msgid "Your calling preferences, like when you take calls."
+msgstr "تفضيلات الاتصال لديك، مثل أوقات استقبال المكالمات."
+
+msgid "e.g. Last 3 weeks, Q1, May 2025"
+msgstr "مثال: آخر 3 أسابيع، الربع الأول، مايو 2025"
+
+#, python-brace-format
+msgid "from {0}"
+msgstr "من {0}"
+
+#, python-brace-format
+msgid "{0} (Accounting Period {1})"
+msgstr "{0} (الفترة المحاسبية {1})"
+
+#, python-brace-format
+msgid "{0} cannot be cleared against a bank statement"
+msgstr "لا يمكن إجراء مقاصة {0} مقابل كشف حساب بنكي"
+
+#, python-brace-format
+msgid "{0} cannot be reconciled against a Bank Transaction"
+msgstr "لا يمكن تسوية {0} مقابل معاملة بنكية"
+
+#, python-brace-format
+msgid "{0} converted"
+msgstr "تم تحويل {0}"
+
+#, python-brace-format
+msgid "{0} does not hold a Serial and Batch Bundle"
+msgstr "{0} لا يحتوي على حزمة رقم تسلسلي ودفعة"
+
+#, python-brace-format
+msgid "{0} has no serial / batch tracked finished good"
+msgstr "{0} ليس له منتج نهائي متتبَّع بالرقم التسلسلي / الدفعة"
+
+#, python-brace-format
+msgid "{0} in {1}"
+msgstr "{0} في {1}"
+
+#, python-brace-format
+msgid "{0} is both a finished good serial no and batch no in {1}, please specify which one"
+msgstr "{0} رقم تسلسلي ورقم دفعة لمنتج نهائي معًا في {1}، يُرجى تحديد أيهما"
+
+#, python-brace-format
+msgid "{0} is not a child table"
+msgstr "{0} ليس جدولًا فرعيًا"
+
+#, python-brace-format
+msgid "{0} is not a child table of {1}"
+msgstr "{0} ليس جدولًا فرعيًا لـ {1}"
+
+#, python-brace-format
+msgid "{0} is not a finished good serial / batch produced by {1}"
+msgstr "{0} ليس رقمًا تسلسليًا / دفعة لمنتج نهائي أنتجه {1}"
+
+#, python-brace-format
+msgid "{0} is not a valid reference field for {1}"
+msgstr "{0} ليس حقل مرجع صالحًا لـ {1}"
+
+#, python-brace-format
+msgid "{0} is required to get raw materials when {1} is set."
+msgstr "{0} مطلوب لجلب المواد الخام عند تعيين {1}."
+
+#, python-brace-format
+msgid "{0} is set from the lead's linked documents"
+msgstr "يُعيَّن {0} من المستندات المرتبطة بالزبون المحتمل"
+
+#, python-brace-format
+msgid "{0} is set from the opportunity's quotations"
+msgstr "يُعيَّن {0} من عروض الأسعار الخاصة بالفرصة"
+
+#, python-brace-format
+msgid "{0} must be a group warehouse of company {1}."
+msgstr "يجب أن يكون {0} مستودعًا رئيسيًا للشركة {1}."
+
+#, python-brace-format
+msgid "{0} must be greater than zero."
+msgstr "يجب أن يكون {0} أكبر من صفر."
+
+#, python-brace-format
+msgid "{0} view is currently unsupported in Custom Financial Report"
+msgstr "العرض {0} غير مدعوم حاليًا في التقرير المالي المخصص"
+
+#, python-brace-format
+msgid "{0} {1} does not belong to company {2}"
+msgstr "{0} {1} لا ينتمي إلى الشركة {2}"
+
+#, python-brace-format
+msgid ""
+"{0} {1} was submitted but could not be reconciled against Bank Transaction {2}. Match"
+" it manually from the Bank Reconciliation Tool."
+msgstr ""
+"رُحِّل {0} {1} لكن تعذّرت تسويته مقابل المعاملة البنكية {2}. طابقه يدويًا من أداة "
+"تسوية البنك."
+
+msgid "% of Lost Quotations"
+msgstr "% من عروض الأسعار الخاسرة"
+
+msgid "'Days Since Last Order' must be greater than zero"
+msgstr "يجب أن تكون «الأيام منذ آخر طلب» أكبر من صفر"
+
+#, python-brace-format
+msgid "Account {0} must be a non-group account of type Bank"
+msgstr "يجب أن يكون الحساب {0} حسابًا فرعيًا من نوع بنك"
+
+msgid "Additional Discount per Stock Unit"
+msgstr "الخصم الإضافي لكل وحدة مخزون"
+
+#, python-brace-format
+msgid "Cancel Maintenance Visits {0} before cancelling this Maintenance Visit"
+msgstr "ألغِ زيارات الصيانة {0} قبل إلغاء زيارة الصيانة هذه"
+
+msgid "Cancelled transactions cannot be deleted when Immutable Ledger is enabled."
+msgstr "لا يمكن حذف المعاملات الملغاة عند تفعيل دفتر الأستاذ غير القابل للتعديل."
+
+#, python-brace-format
+msgid "Cannot add an open task under completed Parent Task {0}."
+msgstr "لا يمكن إضافة مهمة مفتوحة تحت المهمة الأصل المكتملة {0}."
+
+#, python-brace-format
+msgid ""
+"Cannot create Intercompany {0}. All items in the source {1} have already been fully "
+"ordered. Please check the existing linked {2}s."
+msgstr ""
+"لا يمكن إنشاء {0} بين الشركات. جميع الأصناف في {1} المصدر طُلبت بالكامل بالفعل. يُرجى"
+" مراجعة {2} المرتبطة الموجودة."
+
+#, python-brace-format
+msgid "Cannot create a Subcontracting Order against Purchase Order {0} because it is {1}."
+msgstr "لا يمكن إنشاء أمر تعاقد من الباطن مقابل أمر الشراء {0} لأنه {1}."
+
+#, python-brace-format
+msgid ""
+"Cannot create recurring document: no exchange rate found for {0} to {1} on {2}. "
+"Please create a Currency Exchange record."
+msgstr ""
+"لا يمكن إنشاء المستند المتكرر: لم يُعثر على سعر صرف من {0} إلى {1} في {2}. يُرجى "
+"إنشاء سجل سعر صرف عملة."
+
+#, python-brace-format
+msgid "Cannot log time against cancelled Tasks: {0}"
+msgstr "لا يمكن تسجيل الوقت على مهام ملغاة: {0}"
+
+#, python-brace-format
+msgid ""
+"Cannot regenerate Stock Closing Entry {0} because the later Stock Closing Entry {1} "
+"is built on it. Cancel {1} first."
+msgstr ""
+"لا يمكن إعادة إنشاء قيد إغلاق المخزون {0} لأن قيد إغلاق المخزون اللاحق {1} مبني عليه."
+" ألغِ {1} أولًا."
+
+msgid "Cannot set Project to Completed"
+msgstr "لا يمكن تعيين المشروع إلى مكتمل"
+
+#, python-brace-format
+msgid "Cannot set the status of a Purchase Order to {0}."
+msgstr "لا يمكن تعيين حالة أمر الشراء إلى {0}."
+
+#, python-brace-format
+msgid "Cannot update items of Purchase Order {0} because it is {1}."
+msgstr "لا يمكن تحديث أصناف أمر الشراء {0} لأنه {1}."
+
+#, python-brace-format
+msgid "Company {0} does not match the company {1} of {2} {3}"
+msgstr "الشركة {0} لا تطابق الشركة {1} في {2} {3}"
+
+#, python-brace-format
+msgid "Currency must be {0} to match {1} {2}"
+msgstr "يجب أن تكون العملة {0} لتطابق {1} {2}"
+
+msgid "Currency of the outstanding amount. Defaults to the Company currency."
+msgstr "عملة المبلغ المستحق. الافتراضي عملة الشركة."
+
+#, python-brace-format
+msgid "Customer {0} does not match the customer of Maintenance Schedule {1}"
+msgstr "الزبون {0} لا يطابق زبون جدول الصيانة {1}"
+
+#, python-brace-format
+msgid "Days Since Last {0}"
+msgstr "الأيام منذ آخر {0}"
+
+msgid "Different Customer"
+msgstr "زبون مختلف"
+
+msgid "Discounts Cannot Be Combined"
+msgstr "لا يمكن الجمع بين الخصومات"
+
+msgid "Enable Automatically Create New Batch when entering Opening Stock for a batched item."
+msgstr "فعّل «إنشاء دفعة جديدة تلقائيًا» عند إدخال مخزون أول المدة لصنف بدفعات."
+
+#, python-brace-format
+msgid "Every day from {0} to {1} is a holiday for Sales Person {2}."
+msgstr "كل يوم من {0} إلى {1} عطلة لمندوب المبيعات {2}."
+
+msgid "Exchange Rate Not Found"
+msgstr "لم يُعثر على سعر الصرف"
+
+msgid "Immutable Ledger Enabled"
+msgstr "دفتر الأستاذ غير القابل للتعديل مفعّل"
+
+msgid "Invalid Company"
+msgstr "شركة غير صالحة"
+
+msgid "Invalid Parent Task"
+msgstr "مهمة أصل غير صالحة"
+
+msgid "Invalid Project"
+msgstr "مشروع غير صالح"
+
+msgid "Invalid UOM"
+msgstr "وحدة قياس غير صالحة"
+
+#, python-brace-format
+msgid "Last {0} Amount"
+msgstr "مبلغ آخر {0}"
+
+#, python-brace-format
+msgid "Last {0} Date"
+msgstr "تاريخ آخر {0}"
+
+msgid ""
+"Merge rows with the same account head in the ledger for Journal Entries and Payment "
+"Entries only."
+msgstr "دمج الصفوف ذات رأس الحساب نفسه في دفتر الأستاذ لقيود اليومية وقيود الدفع فقط."
+
+#, python-brace-format
+msgid "Multiple {0} records match {1}. Please select the Party ID."
+msgstr "عدة سجلات {0} تطابق {1}. يُرجى اختيار معرّف الطرف."
+
+msgid ""
+"Must be positive. If the unit rate would change the opening amount through rounding, "
+"the invoice uses quantity 1 and records this quantity in the description."
+msgstr ""
+"يجب أن تكون موجبة. إذا كان سعر الوحدة سيغيّر المبلغ الافتتاحي بسبب التقريب، تستخدم "
+"الفاتورة الكمية 1 وتسجّل هذه الكمية في الوصف."
+
+msgid "No Customer Group"
+msgstr "بلا مجموعة زبائن"
+
+#, python-brace-format
+msgid ""
+"No active Subcontracting BOM found for Finished Good {0}. Please select the Service "
+"Item manually for these rows."
+msgstr ""
+"لم يُعثر على قائمة مواد تعاقد من الباطن نشطة للمنتج النهائي {0}. يُرجى اختيار صنف "
+"الخدمة يدويًا لهذه الصفوف."
+
+#, python-brace-format
+msgid "Number of {0}s"
+msgstr "عدد {0}"
+
+msgid "Only a submitted Purchase Order can be held, closed or re-opened."
+msgstr "لا يمكن تعليق أمر الشراء أو إغلاقه أو إعادة فتحه إلا إذا كان مُرحَّلًا."
+
+msgid "Operation Row"
+msgstr "صف العملية"
+
+#, python-brace-format
+msgid "Operation {0} is added multiple times in the work order {1}"
+msgstr "أُضيفت العملية {0} عدة مرات في أمر العمل {1}"
+
+#, python-brace-format
+msgid ""
+"Operation {0} is added multiple times in the work order {1}. Please select the "
+"operation row."
+msgstr "أُضيفت العملية {0} عدة مرات في أمر العمل {1}. يُرجى اختيار صف العملية."
+
+#, python-brace-format
+msgid "Original Quantity: {0}"
+msgstr "الكمية الأصلية: {0}"
+
+#, python-brace-format
+msgid "Parent Task {0} is not in Project {1}. Pick a group task of the same project."
+msgstr "المهمة الأصل {0} ليست في المشروع {1}. اختر مهمة مجموعة من المشروع نفسه."
+
+#, python-brace-format
+msgid "Print Format {0} is not valid for {1}"
+msgstr "تنسيق الطباعة {0} غير صالح لـ {1}"
+
+msgid "Progress % for a task must be between 0 and 100."
+msgstr "يجب أن تكون نسبة الإنجاز للمهمة بين 0 و100."
+
+#, python-brace-format
+msgid "Project Template {0} is disabled"
+msgstr "قالب المشروع {0} معطّل"
+
+#, python-brace-format
+msgid "Project {0} is only {1} complete. Complete or cancel its tasks first."
+msgstr "المشروع {0} مكتمل بنسبة {1} فقط. أكمل مهامه أو ألغها أولًا."
+
+#, python-brace-format
+msgid "Row # {0}: Cannot return {1}, only {2} {3} of its component {4} is left to return"
+msgstr "الصف رقم {0}: لا يمكن إرجاع {1}، إذ لم يتبقَّ للإرجاع إلا {2} {3} من مكوّنه {4}"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Cannot change the UOM or conversion factor of Item {1} after part of it was"
+" received or delivered."
+msgstr ""
+"الصف رقم {0}: لا يمكن تغيير وحدة القياس أو معامل التحويل للصنف {1} بعد استلام جزء منه"
+" أو تسليمه."
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} does not match the item of its schedule row"
+msgstr "الصف رقم {0}: الصنف {1} لا يطابق صنف صف الجدول الخاص به"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Item {1} must be a stock item with Supply Raw Materials for Purchase "
+"enabled for a Subcontracting Material Request"
+msgstr ""
+"الصف رقم {0}: يجب أن يكون الصنف {1} صنفًا مخزنيًا مع تفعيل «توريد المواد الخام "
+"للشراء» لطلب مواد تعاقد من الباطن"
+
+#, python-brace-format
+msgid "Row #{0}: Objective {1} is not part of Quality Goal {2}"
+msgstr "الصف رقم {0}: الهدف {1} ليس جزءًا من هدف الجودة {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Parameter {1} is already added"
+msgstr "الصف رقم {0}: المعيار {1} مضاف بالفعل"
+
+#, python-brace-format
+msgid "Row #{0}: Parameter {1} is not part of Quality Feedback Template {2}"
+msgstr "الصف رقم {0}: المعيار {1} ليس جزءًا من قالب ملاحظات الجودة {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Quantity must be a positive number"
+msgstr "الصف رقم {0}: يجب أن تكون الكمية رقمًا موجبًا"
+
+#, python-brace-format
+msgid "Row {0} is not part of Request for Quotation {1}."
+msgstr "الصف {0} ليس جزءًا من طلب عرض السعر {1}."
+
+#, python-brace-format
+msgid "Row {0}: Account {1} must be a {2} account"
+msgstr "الصف {0}: يجب أن يكون الحساب {1} حساب {2}"
+
+#, python-brace-format
+msgid "Row {0}: Activity Type {1} is disabled"
+msgstr "الصف {0}: نوع النشاط {1} معطّل"
+
+#, python-brace-format
+msgid "Row {0}: Conversion Factor must be greater than zero."
+msgstr "الصف {0}: يجب أن يكون معامل التحويل أكبر من صفر."
+
+#, python-brace-format
+msgid "Row {0}: Number of visits can not be more than the {1} days between Start and End Date"
+msgstr ""
+"الصف {0}: لا يمكن أن يتجاوز عدد الزيارات الأيام البالغة {1} بين تاريخ البداية وتاريخ "
+"النهاية"
+
+#, python-brace-format
+msgid "Row {0}: Select the time log of Timesheet {1} that this amount bills"
+msgstr "الصف {0}: اختر سجل الوقت من سجل الدوام {1} الذي يفوتر عنه هذا المبلغ"
+
+#, python-brace-format
+msgid "Row {0}: Task {1} ends after its parent task {2}"
+msgstr "الصف {0}: المهمة {1} تنتهي بعد مهمتها الأصل {2}"
+
+#, python-brace-format
+msgid "Row {0}: Task {1} is not a Template Task"
+msgstr "الصف {0}: المهمة {1} ليست مهمة قالب"
+
+#, python-brace-format
+msgid "Row {0}: The same time log of Timesheet {1} is added more than once"
+msgstr "الصف {0}: سجل الوقت نفسه من سجل الدوام {1} مضاف أكثر من مرة"
+
+#, python-brace-format
+msgid "Row {0}: Timesheet {1} has no unbilled billable time logs"
+msgstr "الصف {0}: لا توجد في سجل الدوام {1} سجلات وقت قابلة للفوترة غير مفوترة"
+
+#, python-brace-format
+msgid ""
+"Row {0}: {1} {2} visits need an End Date of {3}. Change the End Date or the Number of"
+" Visits."
+msgstr ""
+"الصف {0}: تحتاج زيارات {1} {2} إلى تاريخ نهاية {3}. غيّر تاريخ النهاية أو عدد "
+"الزيارات."
+
+msgid "Sales Invoice (due)"
+msgstr "فاتورة المبيعات (المستحقة)"
+
+msgid "Save the Project before duplicating it"
+msgstr "احفظ المشروع قبل تكراره"
+
+msgid "Schedule Conflict"
+msgstr "تعارض في الجدول"
+
+#, python-brace-format
+msgid "Schedule rows {0} do not belong to Maintenance Schedule {1}"
+msgstr "صفوف الجدول {0} لا تنتمي إلى جدول الصيانة {1}"
+
+msgid "Select Operation Row"
+msgstr "اختر صف العملية"
+
+msgid "Select a submitted Maintenance Schedule for the scheduled visits"
+msgstr "اختر جدول صيانة مُرحَّلًا للزيارات المجدولة"
+
+#, python-brace-format
+msgid "Serial No {0} is still in stock in Warehouse {1}"
+msgstr "الرقم التسلسلي {0} لا يزال في المخزون في المستودع {1}"
+
+#, python-brace-format
+msgid "Serial No {0} was sold to Customer {1}, not {2}"
+msgstr "بيع الرقم التسلسلي {0} إلى الزبون {1}، وليس {2}"
+
+msgid "Serial Number Series is mandatory when entering Opening Stock for a serialized item."
+msgstr "سلسلة الأرقام التسلسلية إلزامية عند إدخال مخزون أول المدة لصنف ذي أرقام تسلسلية."
+
+msgid "Service Item Not Set"
+msgstr "صنف الخدمة غير معيّن"
+
+msgid "Show Completed Orders"
+msgstr "إظهار الأوامر المكتملة"
+
+#, python-brace-format
+msgid "Stock Closing Entry {0} must be submitted to generate the closing balance"
+msgstr "يجب ترحيل قيد إغلاق المخزون {0} لإنشاء الرصيد الختامي"
+
+msgid "Supplier Scorecard refresh failed"
+msgstr "فشل تحديث بطاقة أداء المورد"
+
+#, python-brace-format
+msgid "Supplier Scorecard standing of {0}: {1}"
+msgstr "تصنيف بطاقة أداء المورد لـ {0}: {1}"
+
+#, python-brace-format
+msgid "Supplier Scorecard {0} already has a submitted period overlapping {1} to {2}"
+msgstr "لبطاقة أداء المورد {0} بالفعل فترة مُرحَّلة تتداخل مع الفترة من {1} إلى {2}"
+
+#, python-brace-format
+msgid "Task {0} has child tasks in another project. Move them out of this group first."
+msgstr "للمهمة {0} مهام فرعية في مشروع آخر. انقلها خارج هذه المجموعة أولًا."
+
+msgid "Tax-exclusive additional discount carried from a source document, per stock unit."
+msgstr "خصم إضافي غير شامل للضريبة منقول من مستند مصدر، لكل وحدة مخزون."
+
+#, python-brace-format
+msgid "The Supplier Scorecard standing of {0} is now {1}."
+msgstr "أصبح تصنيف بطاقة أداء المورد لـ {0} الآن {1}."
+
+msgid ""
+"The cash or non-trade discount cannot be combined with discounts carried from other "
+"documents."
+msgstr "لا يمكن الجمع بين الخصم النقدي أو غير التجاري والخصومات المنقولة من مستندات أخرى."
+
+#, python-brace-format
+msgid "The cash or non-trade discount cannot be combined with the discount of {0}."
+msgstr "لا يمكن الجمع بين الخصم النقدي أو غير التجاري وخصم {0}."
+
+#, python-brace-format
+msgid ""
+"The criteria formula fails when every variable is {0}. Check its syntax and guard "
+"divisions by a variable, for example: {1}"
+msgstr ""
+"تفشل صيغة المعيار عندما تكون قيمة كل متغير {0}. تحقق من صياغتها واحمِ القسمة على "
+"متغير، مثلًا: {1}"
+
+msgid "To Date cannot be a future date"
+msgstr "لا يمكن أن يكون «إلى تاريخ» تاريخًا مستقبليًا"
+
+msgid "Total Consumed Material Cost"
+msgstr "إجمالي تكلفة المواد المستهلكة"
+
+msgid "Total Lost Quotations"
+msgstr "إجمالي عروض الأسعار الخاسرة"
+
+msgid "Total Lost Value"
+msgstr "إجمالي القيمة الخاسرة"
+
+#, python-brace-format
+msgid "Total {0} Considered"
+msgstr "إجمالي {0} المحتسبة"
+
+#, python-brace-format
+msgid "Total {0} Value"
+msgstr "إجمالي قيمة {0}"
+
+#, python-brace-format
+msgid "User {0} has no read or select permission on {1}"
+msgstr "ليس لدى المستخدم {0} إذن قراءة أو اختيار على {1}"
+
+msgid "Write Off Account must be a Profit and Loss account"
+msgstr "يجب أن يكون حساب الشطب حساب أرباح وخسائر"
+
+msgid "You are not permitted to view the timesheets of this project."
+msgstr "غير مسموح لك بعرض سجلات الدوام لهذا المشروع."
+
+#, python-brace-format
+msgid "{0} cannot be a group"
+msgstr "لا يمكن أن يكون {0} مجموعة"
+
+#, python-brace-format
+msgid "{0} was moved after the task it depends on. {1}"
+msgstr "نُقلت {0} بعد المهمة التي تعتمد عليها. {1}"
+
+#, python-brace-format
+msgid "{0} {1} is not linked to Supplier {2}"
+msgstr "{0} {1} غير مرتبط بالمورد {2}"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Utilities"
+msgstr "الأدوات المساعدة"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Bulk Transaction"
+msgstr "المعاملات المجمّعة"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "EDI"
+msgstr "التبادل الإلكتروني للبيانات (EDI)"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "ERPNext Integrations"
+msgstr "تكاملات ERPNext"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Telephony"
+msgstr "الاتصالات الهاتفية"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Customer Form Tour"
+msgstr "جولة نموذج الزبون"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Supplier Form Tour"
+msgstr "جولة نموذج المورد"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Forecasting"
+msgstr "التنبؤ"
 
 #~ msgid " Reserve Stock"
 #~ msgstr " حجز المخزون"
@@ -66331,9 +69747,6 @@ msgstr "جهات اتصال جديدة"
 
 #~ msgid "First Name"
 #~ msgstr "الاسم الأول"
-
-#~ msgid "Forecasting"
-#~ msgstr "التنبؤ"
 
 #~ msgid "Frequency"
 #~ msgstr "تكرر"

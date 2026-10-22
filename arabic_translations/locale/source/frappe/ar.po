@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: frappe/public/js/frappe/ui/page.html:49
 msgid " You are impersonating as another user."
@@ -37558,6 +37558,7 @@ msgstr "العمق"
 msgid "Duration (ms)"
 msgstr "المدة (مللي ثانية)"
 
+#, python-brace-format
 msgid ""
 "Email everyone for <b>{0}</b> notifications? This adds it to every user's email "
 "preferences. Users can still opt out individually afterwards."
@@ -37574,9 +37575,11 @@ msgstr "تفعيل إشعارات البريد الإلكتروني لجميع �
 msgid "Enable the notification type before emailing it to users."
 msgstr "فعّل نوع الإشعار قبل إرساله بالبريد الإلكتروني إلى المستخدمين."
 
+#, python-brace-format
 msgid "Enabling email for {0} across all users in the background."
 msgstr "جارٍ تفعيل البريد الإلكتروني لـ {0} لجميع المستخدمين في الخلفية."
 
+#, python-brace-format
 msgid "Fieldtype of {0} in {1} cannot be changed from {2} to {3}"
 msgstr "لا يمكن تغيير نوع الحقل {0} في {1} من {2} إلى {3}"
 
@@ -37627,6 +37630,7 @@ msgstr "إدراج صف أسفل"
 msgid "Insert Table"
 msgstr "إدراج جدول"
 
+#, python-brace-format
 msgid ""
 "Invalid Filters for field {0}. Filters must be a list of filters, where each filter "
 "is a list with four values: doctype, fieldname, operator, and value."
@@ -37634,9 +37638,11 @@ msgstr ""
 "مرشحات غير صالحة للحقل {0}. يجب أن تكون المرشحات قائمة من المرشحات، كل مرشح منها "
 "قائمة من أربع قيم: نوع المستند، واسم الحقل، والمعامل، والقيمة."
 
+#, python-brace-format
 msgid "Invalid Filters for field {0}. Filters must be valid JSON."
 msgstr "مرشحات غير صالحة للحقل {0}. يجب أن تكون المرشحات بصيغة JSON صالحة."
 
+#, python-brace-format
 msgid "Invalid aggregate function: {0}"
 msgstr "دالة تجميع غير صالحة: {0}"
 
@@ -37735,12 +37741,14 @@ msgstr "شكرًا لتواصلك معنا. سنعاود التواصل معك �
 msgid "Type Name"
 msgstr "اسم النوع"
 
+#, python-brace-format
 msgid "Type {0} or more characters for results."
 msgstr "اكتب {0} أحرف أو أكثر لعرض النتائج."
 
 msgid "Unable to load attachments."
 msgstr "تعذر تحميل المرفقات."
 
+#, python-brace-format
 msgid "Wait for it to finish. Deleting the lock file {} will not release the lock."
 msgstr "انتظر حتى تنتهي العملية. حذف ملف القفل {} لن يحرر القفل."
 
@@ -37758,87 +37766,111 @@ msgstr "غير مصرح لك بإرسال رسائل نصية"
 msgid "You created this document"
 msgstr "أنشأت هذا المستند"
 
+#, python-brace-format
 msgid "You don't have permission to print: {0}"
 msgstr "ليس لديك صلاحية الطباعة: {0}"
 
 msgid "You last edited this document"
 msgstr "قمت بآخر تعديل على هذا المستند"
 
+#, python-brace-format
 msgid "Zip file extracts to more than the maximum allowed size of {0} MB"
 msgstr "يتوسع ملف ZIP إلى أكثر من الحجم الأقصى المسموح به وهو {0} ميجابايت"
 
+#, python-brace-format
 msgid "added {0} row(s) to {1}"
 msgstr "أضاف {0} صفًا إلى {1}"
 
 msgid "cancelled this document"
 msgstr "ألغى هذا المستند"
 
+#, python-brace-format
 msgid "changed {0}"
 msgstr "غيّر {0}"
 
+#, python-brace-format
 msgid "cleared {0}"
 msgstr "مسح {0}"
 
+#, python-brace-format
 msgid "removed {0} row(s) from {1}"
 msgstr "أزال {0} صفًا من {1}"
 
+#, python-brace-format
 msgid "set {0} to"
 msgstr "عيّن {0} إلى"
 
+#, python-brace-format
 msgid "set {0} to {1} in row #{2}"
 msgstr "عيّن {0} إلى {1} في الصف رقم {2}"
 
 msgid "submitted this document"
 msgstr "رحّل هذا المستند"
 
+#, python-brace-format
 msgid "updated {0}"
 msgstr "حدّث {0}"
 
+#, python-brace-format
 msgid "visible_types entries must be strings or {type: [fields]} maps"
 msgstr "يجب أن تكون مدخلات visible_types نصوصًا أو خرائط {type: [fields]}"
 
+#, python-brace-format
 msgid "visible_types fields for {0} must be a list"
 msgstr "يجب أن تكون حقول visible_types للنوع {0} قائمة"
 
+#, python-brace-format
 msgid "visible_types is not valid JSON: {0}"
 msgstr "قيمة visible_types ليست بصيغة JSON صالحة: {0}"
 
 msgid "visible_types must be a list"
 msgstr "يجب أن تكون قيمة visible_types قائمة"
 
+#, python-brace-format
 msgid "{0} changed {1} to {2}"
 msgstr "{0} غيّر {1} إلى {2}"
 
+#, python-brace-format
 msgid "{0} created this document"
 msgstr "{0} أنشأ هذا المستند"
 
+#, python-brace-format
 msgid "{0} does not exist"
 msgstr "{0} غير موجود"
 
+#, python-brace-format
 msgid "{0} is a Virtual DocType and must implement its own delete() method."
 msgstr "{0} نوع مستند افتراضي ويجب أن ينفذ دالة delete() الخاصة به."
 
+#, python-brace-format
 msgid "{0} is a built-in Notification Type and cannot be deleted. Disable it instead."
 msgstr "{0} نوع إشعار مدمج ولا يمكن حذفه. عطّله بدلاً من ذلك."
 
+#, python-brace-format
 msgid "{0} is not an enabled Print Format for a Report"
 msgstr "{0} ليس تنسيق طباعة مفعّلاً لتقرير"
 
+#, python-brace-format
 msgid "{0} last edited this document"
 msgstr "{0} قام بآخر تعديل على هذا المستند"
 
+#, python-brace-format
 msgid "{0} liked"
 msgstr "أعجب {0}"
 
+#, python-brace-format
 msgid "{0} never sends email, so it cannot be enabled for users."
 msgstr "{0} لا يرسل بريدًا إلكترونيًا مطلقًا، لذا لا يمكن تفعيله للمستخدمين."
 
+#, python-brace-format
 msgid "{0} results found"
 msgstr "تم العثور على {0} نتيجة"
 
+#, python-brace-format
 msgid "{0} unread notifications"
 msgstr "{0} إشعارات غير مقروءة"
 
+#, python-brace-format
 msgid "{0}, list item {1} of {2}"
 msgstr "{0}، عنصر القائمة {1} من {2}"
 
@@ -37877,4 +37909,6325 @@ msgstr "إعادة تعيين تخطيط سطح المكتب"
 #. UI string with no POT entry; overlay-only
 msgid "Edit Layout"
 msgstr "تعديل التخطيط"
+
+msgid " Search..."
+msgstr " بحث..."
+
+#, python-brace-format
+msgid ""
+"\"{0}\" does not match any field. Map it in the Preview step, otherwise it will be "
+"ignored."
+msgstr "\"{0}\" لا يطابق أي حقل. اربطه في خطوة المعاينة، وإلا فسيُتجاهل."
+
+#, python-brace-format
+msgid "\"{0}\" is not a valid date. Use {1}"
+msgstr "\"{0}\" ليس تاريخًا صالحًا. استخدم {1}"
+
+#, python-brace-format
+msgid "\"{0}\" is not a valid datetime. Use {1}"
+msgstr "\"{0}\" ليس تاريخًا ووقتًا صالحين. استخدم {1}"
+
+#, python-brace-format
+msgid "\"{0}\" is not a valid number, or could mean two numbers. Write it like {1}"
+msgstr "\"{0}\" ليس رقمًا صالحًا، أو قد يُفهم على أنه رقمان. اكتبه هكذا {1}"
+
+#, python-brace-format
+msgid "\"{0}\" is not a valid {1} — {2}"
+msgstr "\"{0}\" ليس {1} صالحًا — {2}"
+
+#, python-brace-format
+msgid "\"{0}\" is not valid — {1}"
+msgstr "\"{0}\" غير صالح — {1}"
+
+#, python-brace-format
+msgid "\"{0}\" is not valid. Use duration format: d h m s"
+msgstr "\"{0}\" غير صالح. استخدم صيغة المدة: d h m s"
+
+#, python-brace-format
+msgid "+{0} more"
+msgstr "+{0} أخرى"
+
+msgid "-"
+msgstr "-"
+
+msgid ".csv, .xlsx"
+msgstr ".csv، .xlsx"
+
+#, python-brace-format
+msgid ".csv, .xlsx up to {0} MB"
+msgstr ".csv، .xlsx حتى {0} ميغابايت"
+
+#, python-brace-format
+msgid ".print-format p { margin: 0; }"
+msgstr ".print-format p { margin: 0; }"
+
+msgid ""
+"0 means this row references a base item: non-empty fields override it, empty fields "
+"mean no opinion. 1 means a full item the layer added, rendered as it stands."
+msgstr ""
+"0 يعني أن هذا الصف يشير إلى عنصر أساسي: الحقول غير الفارغة تتجاوزه، والحقول الفارغة "
+"لا تغيّر شيئًا. 1 يعني عنصرًا كاملًا أضافته الطبقة، ويُعرض كما هو."
+
+msgid "1 node"
+msgstr "عقدة واحدة"
+
+msgid "1 of N"
+msgstr "1 من N"
+
+msgid "1 row"
+msgstr "صف واحد"
+
+msgid "1 warning found."
+msgstr "عُثر على تحذير واحد."
+
+#, python-brace-format
+msgid ""
+"<b>{0}</b> has been customized on this site since the upgrade. Restoring replaces "
+"that customization with the pre-upgrade layout."
+msgstr ""
+"خُصِّص <b>{0}</b> على هذا الموقع منذ الترقية. تؤدي الاستعادة إلى استبدال هذا التخصيص "
+"بتخطيط ما قبل الترقية."
+
+#, python-brace-format
+msgid ""
+"<b>{0}</b> is shipped by its app. Saving this layout keeps your arrangement, and the "
+"app's later changes to this page's layout will stop showing up here. Its roles, icon "
+"and visibility keep following the app either way, and <b>Reset to Standard</b> undoes"
+" this."
+msgstr ""
+"<b>{0}</b> مُضمَّن مع تطبيقه. حفظ هذا التخطيط يُبقي ترتيبك، ولن تظهر هنا بعد ذلك "
+"تغييرات التطبيق اللاحقة على تخطيط هذه الصفحة. تبقى صلاحياتها وأيقونتها وظهورها تابعة "
+"للتطبيق في الحالتين، و<b>إعادة التعيين إلى القياسي</b> تتراجع عن ذلك."
+
+msgid "<div class=\"section-head import-log-title\">Import Log</div>"
+msgstr "<div class=\"section-head import-log-title\">سجل الاستيراد</div>"
+
+msgid "@jane"
+msgstr "@jane"
+
+msgid "A Single (Settings) doctype."
+msgstr "نوع مستند منفرد (إعدادات)."
+
+#, python-brace-format
+msgid "A custom settings map already exists for {0}."
+msgstr "توجد بالفعل خريطة إعدادات مخصصة لـ {0}."
+
+#, python-brace-format
+msgid "A customization for {0} already exists for this layer."
+msgstr "يوجد بالفعل تخصيص لـ {0} في هذه الطبقة."
+
+msgid "A folder cannot have a File URL"
+msgstr "لا يمكن أن يكون للمجلد رابط ملف"
+
+#, python-brace-format
+msgid "A layout saved on {0} could not be read and was skipped."
+msgstr "تعذّرت قراءة تخطيط محفوظ في {0} فتم تخطّيه."
+
+msgid "A layout with this name already exists"
+msgstr "يوجد تخطيط بهذا الاسم بالفعل"
+
+msgid "A new area to place fields in"
+msgstr "منطقة جديدة لوضع الحقول فيها"
+
+msgid "A person you deal with, at a customer, supplier or anywhere else."
+msgstr "شخص تتعامل معه، لدى زبون أو مورد أو أي جهة أخرى."
+
+msgid "A postal address of a customer, supplier, company or contact."
+msgstr "عنوان بريدي لزبون أو مورد أو شركة أو جهة اتصال."
+
+msgid "A private workspace is yours alone. Only you can see it."
+msgstr "مساحة العمل الخاصة لك وحدك. لا يراها أحد غيرك."
+
+#, python-brace-format
+msgid "A shared workspace needs a module other than {0}."
+msgstr "تحتاج مساحة العمل المشتركة إلى وحدة غير {0}."
+
+msgid ""
+"A sidebar needs at least one entry that leads somewhere. Put one back, or use Reset "
+"to drop this arrangement."
+msgstr ""
+"يحتاج الشريط الجانبي إلى عنصر واحد على الأقل يؤدي إلى مكان ما. أعِد أحدها، أو استخدم "
+"إعادة التعيين للتخلص من هذا الترتيب."
+
+#, python-brace-format
+msgid "A sidebar's name is part of its desk URL, so it cannot contain {0}."
+msgstr "اسم الشريط الجانبي جزء من رابطه في سطح المكتب، لذا لا يمكن أن يحتوي على {0}."
+
+msgid ""
+"A site's overrides on a standard (app-shipped) workspace. Site-owned and standard-"
+"only: there is no user layer, deliberately -- a private workspace is already yours to"
+" edit directly, and a public one is the site's. The merge is split on purpose. Roles,"
+" icon, visibility and sequence are a true diff, so an app's later changes to them "
+"keep flowing through. Content is a snapshot, so customizing the layout freezes it "
+"against app updates: workspace content is nested editor blocks where headings, "
+"paragraphs and spacers carry no key at all, and a delta cannot be written against "
+"unkeyed prose. Do not \"fix\" this into one or the other; "
+"`reset_workspace_customization` is the escape hatch."
+msgstr ""
+"تجاوزات الموقع على مساحة عمل قياسية (مُضمَّنة مع تطبيق). مملوكة للموقع ومقتصرة على "
+"القياسية: لا توجد طبقة مستخدم عن قصد -- فمساحة العمل الخاصة ملكك وتعدّلها مباشرة، "
+"والعامة ملك الموقع. الدمج مقسوم عن قصد. الصلاحيات والأيقونة والظهور والتسلسل فرق "
+"حقيقي، فتستمر تغييرات التطبيق اللاحقة عليها في السريان. أما المحتوى فلقطة، لذا فإن "
+"تخصيص التخطيط يجمّده أمام تحديثات التطبيق: محتوى مساحة العمل كتل محرر متداخلة لا تحمل"
+" فيها العناوين والفقرات والفواصل أي مفتاح، ولا يمكن كتابة فرق على نص بلا مفاتيح. لا "
+"\"تُصلح\" هذا إلى أحدهما؛ `reset_workspace_customization` هو مخرج الطوارئ."
+
+#, python-brace-format
+msgid "A snippet named {0} already exists for {1}."
+msgstr "يوجد بالفعل مقتطف باسم {0} لـ {1}."
+
+msgid "A standard Kanban Board cannot be private"
+msgstr "لا يمكن أن تكون لوحة كانبان القياسية خاصة"
+
+msgid "A standard Kanban Board cannot be renamed"
+msgstr "لا يمكن إعادة تسمية لوحة كانبان القياسية"
+
+msgid "A standard Kanban Board must use Kanban v2"
+msgstr "يجب أن تستخدم لوحة كانبان القياسية Kanban v2"
+
+msgid "A standard list layout cannot belong to a user"
+msgstr "لا يمكن أن ينتمي تخطيط القائمة القياسي إلى مستخدم"
+
+#, python-brace-format
+msgid "A standard settings map already exists for {0} in {1}."
+msgstr "توجد بالفعل خريطة إعدادات قياسية لـ {0} في {1}."
+
+msgid "A standard sidebar needs a module or an app to be written to."
+msgstr "يحتاج الشريط الجانبي القياسي إلى وحدة أو تطبيق ليُكتب فيه."
+
+msgid "A standard workspace belongs to the module that ships it."
+msgstr "تنتمي مساحة العمل القياسية إلى الوحدة التي تتضمنها."
+
+msgid "A standard workspace is shipped by the app; changes are saved as customizations."
+msgstr "مساحة العمل القياسية مُضمَّنة مع التطبيق؛ تُحفظ التغييرات عليها كتخصيصات."
+
+msgid "A standard workspace stays in the module that ships it."
+msgstr "تبقى مساحة العمل القياسية في الوحدة التي تتضمنها."
+
+msgid "A user preview on a link (rest the pointer on it)"
+msgstr "معاينة مستخدم على رابط (أبقِ المؤشر فوقه)"
+
+msgid "A value from a linked document"
+msgstr "قيمة من مستند مرتبط"
+
+msgid "Accept emit() calls for events no app registered through the automation_events hook."
+msgstr "قبول استدعاءات emit() لأحداث لم يسجّلها أي تطبيق عبر الخطاف automation_events."
+
+msgid "Access"
+msgstr "الوصول"
+
+msgid "Access added."
+msgstr "أُضيف الوصول."
+
+msgid "Action Type is required for action steps"
+msgstr "نوع الإجراء مطلوب لخطوات الإجراءات"
+
+msgid "Action completed"
+msgstr "اكتمل الإجراء"
+
+msgid "Action failed."
+msgstr "فشل الإجراء."
+
+msgid "Actions Snapshot"
+msgstr "لقطة الإجراءات"
+
+msgid "Add Filter"
+msgstr "إضافة عامل تصفية"
+
+msgid "Add More"
+msgstr "إضافة المزيد"
+
+msgid "Add Page"
+msgstr "إضافة صفحة"
+
+msgid "Add Permission"
+msgstr "إضافة إذن"
+
+#, python-brace-format
+msgid "Add Permission for {0}"
+msgstr "إضافة إذن لـ {0}"
+
+msgid "Add Report"
+msgstr "إضافة تقرير"
+
+msgid "Add Section"
+msgstr "إضافة قسم"
+
+msgid "Add Series"
+msgstr "إضافة سلسلة"
+
+msgid "Add To Folder"
+msgstr "إضافة إلى مجلد"
+
+msgid "Add User"
+msgstr "إضافة مستخدم"
+
+msgid "Add User Permission"
+msgstr "إضافة إذن مستخدم"
+
+#, python-brace-format
+msgid "Add User to {0}"
+msgstr "إضافة مستخدم إلى {0}"
+
+msgid "Add Workspace"
+msgstr "إضافة مساحة عمل"
+
+msgid "Add a link to your own private workspaces in the user menu."
+msgstr "أضف رابطًا إلى مساحات عملك الخاصة في قائمة المستخدم."
+
+msgid "Add a section"
+msgstr "إضافة قسم"
+
+msgid "Add a section to the canvas to see it here."
+msgstr "أضف قسمًا إلى لوحة الرسم لتراه هنا."
+
+msgid "Add card"
+msgstr "إضافة بطاقة"
+
+msgid "Add column..."
+msgstr "إضافة عمود..."
+
+msgid "Add field rules below, every rule must match before the flow can run"
+msgstr "أضف قواعد الحقول أدناه، يجب أن تتحقق كل القواعد قبل أن يعمل التدفق"
+
+msgid "Add field..."
+msgstr "إضافة حقل..."
+
+msgid "Add new attachments"
+msgstr "إضافة مرفقات جديدة"
+
+msgid "Add role"
+msgstr "إضافة صلاحية"
+
+msgid "Add to the Sidebar"
+msgstr "إضافة إلى الشريط الجانبي"
+
+msgid "Add to the dock"
+msgstr "إضافة إلى شريط الإرساء"
+
+#, python-brace-format
+msgctxt "Primary action in tree view"
+msgid "Add {0}"
+msgstr "إضافة {0}"
+
+#, python-brace-format
+msgid "Add {0} Access to {1}"
+msgstr "إضافة وصول {0} إلى {1}"
+
+#, python-brace-format
+msgid "Add {0} to a module"
+msgstr "إضافة {0} إلى وحدة"
+
+msgid "Added Roles"
+msgstr "الصلاحيات المضافة"
+
+msgid "Added Widgets"
+msgstr "العناصر المضافة"
+
+msgid "Added to global search"
+msgstr "أُضيف إلى البحث الشامل"
+
+#, python-brace-format
+msgid "Added {0} to {1}"
+msgstr "أُضيف {0} إلى {1}"
+
+msgid "Advanced Condition"
+msgstr "شرط متقدم"
+
+msgid "Advanced Expression using Python"
+msgstr "تعبير متقدم باستخدام Python"
+
+msgid "Alert dismissed"
+msgstr "أُغلق التنبيه"
+
+msgid "Align center"
+msgstr "محاذاة للوسط"
+
+msgid "Align left"
+msgstr "محاذاة لليسار"
+
+msgid "Align right"
+msgstr "محاذاة لليمين"
+
+#, python-brace-format
+msgid "All ({0})"
+msgstr "الكل ({0})"
+
+msgid "All DocTypes"
+msgstr "جميع أنواع المستندات"
+
+msgid "All Results"
+msgstr "كل النتائج"
+
+msgid "All apps"
+msgstr "كل التطبيقات"
+
+msgid "All available columns added."
+msgstr "أُضيفت كل الأعمدة المتاحة."
+
+msgid "All set! Opening your workspace"
+msgstr "كل شيء جاهز! جارٍ فتح مساحة عملك"
+
+msgid "Allow Unregistered Events"
+msgstr "السماح بالأحداث غير المسجّلة"
+
+msgid "Allow bulk actions"
+msgstr "السماح بالإجراءات المجمّعة"
+
+msgid "Allow notifications"
+msgstr "السماح بالإشعارات"
+
+msgid "Allow switching between list, kanban, report, and other views from the toolbar"
+msgstr "السماح بالتبديل بين عرض القائمة وكانبان والتقرير وغيرها من شريط الأدوات"
+
+#, python-brace-format
+msgid "Allowed: {0}"
+msgstr "المسموح: {0}"
+
+msgid "Allows the user to amend a cancelled document into a new copy."
+msgstr "يسمح للمستخدم بتعديل مستند ملغى إلى نسخة جديدة."
+
+msgid "Allows the user to cancel submitted documents."
+msgstr "يسمح للمستخدم بإلغاء المستندات المرحّلة."
+
+msgid "Allows the user to export document data from the system."
+msgstr "يسمح للمستخدم بتصدير بيانات المستندات من النظام."
+
+msgid "Allows the user to print or download the document as a PDF."
+msgstr "يسمح للمستخدم بطباعة المستند أو تنزيله بصيغة PDF."
+
+msgid ""
+"Allows the user to search and select records in other forms. This does not allow the "
+"user to view the record itself."
+msgstr "يسمح للمستخدم بالبحث عن السجلات واختيارها في نماذج أخرى. ولا يسمح له بعرض السجل نفسه."
+
+msgid "Allows the user to send emails linked to the document."
+msgstr "يسمح للمستخدم بإرسال رسائل بريد إلكتروني مرتبطة بالمستند."
+
+msgid ""
+"Allows the user to share document access with other users who may not have access to "
+"the document themselves."
+msgstr "يسمح للمستخدم بمشاركة الوصول إلى المستند مع مستخدمين آخرين قد لا يملكون الوصول إليه."
+
+msgid "Allows the user to submit documents."
+msgstr "يسمح للمستخدم بترحيل المستندات."
+
+msgid "Allows the user to use import documents into the system."
+msgstr "يسمح للمستخدم باستيراد المستندات إلى النظام."
+
+msgid "Allows the user to view the value of a masked field in the document."
+msgstr "يسمح للمستخدم بعرض قيمة حقل مُقنَّع في المستند."
+
+msgid "Almost done"
+msgstr "أوشكنا على الانتهاء"
+
+#, python-brace-format
+msgid "Already imported row {0}"
+msgstr "الصف {0} مستورد بالفعل"
+
+#, python-brace-format
+msgid "An edit to a shipped row in {0} cannot be carried by a customization."
+msgstr "لا يمكن أن يحمل التخصيص تعديلًا على صف مُضمَّن في {0}."
+
+msgid "An error occurred while updating your session defaults."
+msgstr "حدث خطأ أثناء تحديث القيم الافتراضية لجلستك."
+
+msgid "Animate the first bar above"
+msgstr "حرّك الشريط الأول أعلاه"
+
+#, python-brace-format
+msgid ""
+"Another {0} in this workspace is already labelled {1}. Labels are used to tell "
+"widgets apart when the workspace is saved, so the two would overwrite each other. "
+"Please pick a different label."
+msgstr ""
+"يوجد {0} آخر في مساحة العمل هذه بالتسمية {1}. تُستخدم التسميات للتمييز بين العناصر "
+"عند حفظ مساحة العمل، لذا سيستبدل أحدهما الآخر. يُرجى اختيار تسمية مختلفة."
+
+#, python-brace-format
+msgid "App {0} is not installed, so a standard dock cannot be written to it."
+msgstr "التطبيق {0} غير مثبّت، لذا لا يمكن كتابة شريط إرساء قياسي فيه."
+
+#, python-brace-format
+msgid "App {0} is not installed, so a standard sidebar cannot be written to it."
+msgstr "التطبيق {0} غير مثبّت، لذا لا يمكن كتابة شريط جانبي قياسي فيه."
+
+msgid "App-shipped roles whose access is revoked on this site."
+msgstr "صلاحيات مُضمَّنة مع التطبيق أُلغي وصولها على هذا الموقع."
+
+msgid "Appearance"
+msgstr "المظهر"
+
+msgid "Applied"
+msgstr "طُبِّق"
+
+msgid "Applies to DocType"
+msgstr "ينطبق على نوع المستند"
+
+msgid "Applying…"
+msgstr "جارٍ التطبيق…"
+
+msgid ""
+"Apps shows the hook-driven apps screen. Desktop Icons shows the arrangeable desktop "
+"icon grid instead."
+msgstr ""
+"يعرض «التطبيقات» شاشة التطبيقات المبنية على الخطافات. ويعرض «أيقونات سطح المكتب» "
+"بدلًا منها شبكة أيقونات سطح المكتب القابلة للترتيب."
+
+msgid ""
+"Archive of the previous navigation. Nothing reads it at runtime; it is kept as the "
+"migration's source so the conversion to module sidebars can be run again."
+msgstr ""
+"أرشيف التنقل السابق. لا يقرؤه شيء أثناء التشغيل؛ يُحتفظ به مصدرًا للترحيل كي يمكن "
+"إعادة التحويل إلى أشرطة الوحدات الجانبية."
+
+msgid "Arrange"
+msgstr "ترتيب"
+
+msgid "Arranging"
+msgstr "جارٍ الترتيب"
+
+msgid "Ascending"
+msgstr "تصاعدي"
+
+#, python-brace-format
+msgid "Assigned to {0}"
+msgstr "أُسند إلى {0}"
+
+msgid "Assignees"
+msgstr "المكلَّفون"
+
+msgid "Async items (loading state)"
+msgstr "عناصر غير متزامنة (حالة التحميل)"
+
+msgid "At least one assignee is required"
+msgstr "يلزم مكلَّف واحد على الأقل"
+
+msgid "At least one recipient is required"
+msgstr "يلزم مستلم واحد على الأقل"
+
+msgid "Attach Image field for card thumbnail."
+msgstr "حقل إرفاق صورة للصورة المصغرة للبطاقة."
+
+msgid "Attach Image field shown as a thumbnail before the card title."
+msgstr "حقل إرفاق صورة يُعرض صورةً مصغرة قبل عنوان البطاقة."
+
+msgid "Attach an import file to validate rows and mappings."
+msgstr "أرفق ملف استيراد للتحقق من الصفوف والربط."
+
+msgid "Attach document print"
+msgstr "إرفاق طباعة المستند"
+
+msgid "Attach files"
+msgstr "إرفاق ملفات"
+
+msgid "Attempt"
+msgstr "المحاولة"
+
+msgid "Auto repeat skipped. The owner cannot access the reference document."
+msgstr "تم تخطي التكرار التلقائي. لا يستطيع المالك الوصول إلى المستند المرجعي."
+
+#, python-brace-format
+msgid "Auto-disabled after {0} consecutive failures"
+msgstr "عُطِّل تلقائيًا بعد {0} إخفاقات متتالية"
+
+msgid ""
+"Auto-generated thumbnail of this format. Use the 'Generate Preview' button to "
+"(re)generate."
+msgstr ""
+"صورة مصغرة مُنشأة تلقائيًا لهذا التنسيق. استخدم زر «إنشاء معاينة» لإنشائها (أو إعادة "
+"إنشائها)."
+
+msgid "Automation Action"
+msgstr "إجراء التشغيل الآلي"
+
+msgid "Automation Event Subscription"
+msgstr "اشتراك حدث التشغيل الآلي"
+
+msgid "Automation Flow"
+msgstr "تدفق التشغيل الآلي"
+
+msgid "Automation Flow Title"
+msgstr "عنوان تدفق التشغيل الآلي"
+
+#, python-brace-format
+msgid "Automation Flow cannot target a child table: {0}"
+msgstr "لا يمكن أن يستهدف تدفق التشغيل الآلي جدولًا فرعيًا: {0}"
+
+#, python-brace-format
+msgid "Automation Flow {0} was auto-disabled"
+msgstr "عُطِّل تدفق التشغيل الآلي {0} تلقائيًا"
+
+msgid "Automation Run"
+msgstr "تنفيذ التشغيل الآلي"
+
+msgid "Automation Run Step"
+msgstr "خطوة تنفيذ التشغيل الآلي"
+
+msgid "Automation Settings"
+msgstr "إعدادات التشغيل الآلي"
+
+msgid "Automation Trigger Queue"
+msgstr "قائمة انتظار مشغّلات التشغيل الآلي"
+
+msgid "Automation User"
+msgstr "مستخدم التشغيل الآلي"
+
+#, python-brace-format
+msgid "Automation User {0} is disabled or missing"
+msgstr "مستخدم التشغيل الآلي {0} معطّل أو غير موجود"
+
+msgid "Automation event payload is too large"
+msgstr "حمولة حدث التشغيل الآلي كبيرة جدًا"
+
+msgid "Automation paused"
+msgstr "التشغيل الآلي متوقف مؤقتًا"
+
+#, python-brace-format
+msgid "Autoname: {0}"
+msgstr "التسمية التلقائية: {0}"
+
+msgid "Autosave failed"
+msgstr "فشل الحفظ التلقائي"
+
+msgid "Available to all users"
+msgstr "متاح لجميع المستخدمين"
+
+msgctxt "Go to previous slide"
+msgid "Back"
+msgstr "رجوع"
+
+msgid "Back to the builder"
+msgstr "العودة إلى المنشئ"
+
+msgid "Background"
+msgstr "الخلفية"
+
+msgid "Background Task"
+msgstr "مهمة خلفية"
+
+msgid "Background color"
+msgstr "لون الخلفية"
+
+msgid "Balance"
+msgstr "الرصيد"
+
+msgid "Barcode or QR code from a field or static value"
+msgstr "رمز شريطي أو رمز QR من حقل أو قيمة ثابتة"
+
+msgid "Barcode that is not a QR code"
+msgstr "رمز شريطي ليس رمز QR"
+
+msgid "Barcode value must be text under 2000 characters"
+msgstr "يجب أن تكون قيمة الرمز الشريطي نصًا أقل من 2000 حرف"
+
+msgid "Based on"
+msgstr "بناءً على"
+
+msgid "Basic (active + completed states)"
+msgstr "أساسي (حالتا النشط والمكتمل)"
+
+msgid "Basic (hover, or focus with Tab)"
+msgstr "أساسي (التمرير، أو التركيز بمفتاح Tab)"
+
+msgid "Basic (icon + title + description)"
+msgstr "أساسي (أيقونة + عنوان + وصف)"
+
+msgid "Basic (label + hint)"
+msgstr "أساسي (تسمية + تلميح)"
+
+msgid "Basic actions"
+msgstr "إجراءات أساسية"
+
+msgid ""
+"Blank means the site layer, which applies to everyone and is overridden by each "
+"user's own arrangement."
+msgstr "الفارغ يعني طبقة الموقع، التي تنطبق على الجميع ويتجاوزها ترتيب كل مستخدم الخاص."
+
+msgid "Blocked for child tables (istable). Required for document and date-based triggers."
+msgstr "محظور للجداول الفرعية (istable). مطلوب للمشغّلات المعتمدة على المستند والتاريخ."
+
+msgid "Blockquote"
+msgstr "اقتباس"
+
+msgid "Blocks"
+msgstr "الكتل"
+
+msgid "Board Name"
+msgstr "اسم اللوحة"
+
+msgid "Board Settings"
+msgstr "إعدادات اللوحة"
+
+msgid "Board name is required"
+msgstr "اسم اللوحة مطلوب"
+
+msgid "Board settings saved"
+msgstr "حُفظت إعدادات اللوحة"
+
+msgid "Border"
+msgstr "الحد"
+
+msgid "Border color"
+msgstr "لون الحد"
+
+msgid "Borders"
+msgstr "الحدود"
+
+msgid "Both"
+msgstr "كلاهما"
+
+msgid "Branch"
+msgstr "فرع"
+
+#, python-brace-format
+msgid "Branch for step {0} must be If or Else"
+msgstr "يجب أن يكون الفرع للخطوة {0} إذا (If) أو وإلا (Else)"
+
+msgid "Breadcrumb"
+msgstr "مسار التصفح"
+
+msgid "Bring every entry back onto the dock."
+msgstr "أعِد كل العناصر إلى شريط الإرساء."
+
+msgid "Builder is visual. HTML is hand-written."
+msgstr "المنشئ مرئي. أما HTML فيُكتب يدويًا."
+
+msgid "Bullet list"
+msgstr "قائمة نقطية"
+
+msgid "Bytes an emitted event payload may carry."
+msgstr "عدد البايتات التي يجوز أن تحملها حمولة الحدث المُطلَق."
+
+msgid ""
+"Bytes of output a step may publish to later steps. Larger output is dropped, not "
+"failed."
+msgstr ""
+"عدد بايتات المخرجات التي يجوز أن تنشرها الخطوة للخطوات اللاحقة. تُسقط المخرجات الأكبر"
+" ولا تفشل الخطوة."
+
+msgid "Camera access needs a secure (HTTPS) connection and a browser with camera support."
+msgstr "يتطلب الوصول إلى الكاميرا اتصالًا آمنًا (HTTPS) ومتصفحًا يدعم الكاميرا."
+
+msgid ""
+"Camera permission was denied. Allow camera access in your browser settings and try "
+"again."
+msgstr "رُفض إذن الكاميرا. اسمح بالوصول إلى الكاميرا في إعدادات متصفحك وحاول مرة أخرى."
+
+msgid "Can only unlink an Address or a Contact"
+msgstr "يمكن فك ربط عنوان أو جهة اتصال فقط"
+
+msgid "Can't check this condition"
+msgstr "تعذّر التحقق من هذا الشرط"
+
+msgid "Cannot edit filters for standard Web Forms"
+msgstr "لا يمكن تعديل عوامل التصفية لنماذج الويب القياسية"
+
+#, python-brace-format
+msgid "Cannot fetch image from {0}: {1}"
+msgstr "تعذّر جلب الصورة من {0}: {1}"
+
+#, python-brace-format
+msgid "Cannot generate PDF for more than {0} documents at a time"
+msgstr "لا يمكن إنشاء PDF لأكثر من {0} مستند في المرة الواحدة"
+
+msgid "Canvas"
+msgstr "لوحة الرسم"
+
+msgid "Card Fields"
+msgstr "حقول البطاقة"
+
+msgid "Card and Preview Fields"
+msgstr "حقول البطاقة والمعاينة"
+
+msgid "Card title…"
+msgstr "عنوان البطاقة…"
+
+msgid "Cell padding"
+msgstr "حشوة الخلية"
+
+msgid "Change Language"
+msgstr "تغيير اللغة"
+
+msgid "Change Time Zone"
+msgstr "تغيير المنطقة الزمنية"
+
+msgid "Change print settings"
+msgstr "تغيير إعدادات الطباعة"
+
+#, python-brace-format
+msgid "Changed {0} by {1}"
+msgstr "غُيِّر {0} بمقدار {1}"
+
+msgid "Check the Error Log for details."
+msgstr "راجع سجل الأخطاء للتفاصيل."
+
+msgid "Checking import file for issues..."
+msgstr "جارٍ فحص ملف الاستيراد بحثًا عن مشكلات..."
+
+msgid "Child table rows laid out with your own template"
+msgstr "صفوف جدول فرعي مرتّبة بقالبك الخاص"
+
+msgid "Choose a numeric field"
+msgstr "اختر حقلًا رقميًا"
+
+msgid "Choose a starting point for your print format."
+msgstr "اختر نقطة بداية لتنسيق الطباعة."
+
+msgid "Choose whether forms should be displayed in compact or full width."
+msgstr "اختر ما إذا كانت النماذج تُعرض بعرض مضغوط أو كامل."
+
+msgid "Chromium"
+msgstr "Chromium"
+
+msgid "Chromium renderer unavailable"
+msgstr "محرك عرض Chromium غير متاح"
+
+msgid "Chromium unavailable: this format uses a Typst block."
+msgstr "Chromium غير متاح: يستخدم هذا التنسيق كتلة Typst."
+
+#, python-brace-format
+msgid "Circular parent reference for {0}"
+msgstr "مرجع أصل دائري لـ {0}"
+
+msgid "Classic Format Data"
+msgstr "بيانات التنسيق الكلاسيكي"
+
+msgid "Clear Customizations"
+msgstr "مسح التخصيصات"
+
+msgid "Clear selection"
+msgstr "مسح التحديد"
+
+msgid "Clear the filters to see all records."
+msgstr "امسح عوامل التصفية لعرض جميع السجلات."
+
+msgid "Click Customize to add your first widget."
+msgstr "انقر «تخصيص» لإضافة أول عنصر."
+
+msgid "Click below to login."
+msgstr "انقر أدناه لتسجيل الدخول."
+
+msgid "Click below to reset your password."
+msgstr "انقر أدناه لإعادة تعيين كلمة المرور."
+
+#, python-brace-format
+msgid "Click on the {0} menu to edit"
+msgstr "انقر على القائمة {0} للتعديل"
+
+msgid "Click to navigate"
+msgstr "انقر للانتقال"
+
+msgid "Client-supplied resolver methods are not allowed"
+msgstr "لا يُسمح بطرق حل يقدّمها العميل"
+
+msgid "Code block"
+msgstr "كتلة برمجية"
+
+msgid "Collapse all"
+msgstr "طي الكل"
+
+msgid "Collapse sidebar"
+msgstr "طي الشريط الجانبي"
+
+msgid "Colon after labels"
+msgstr "نقطتان بعد التسميات"
+
+msgid "Colour"
+msgstr "اللون"
+
+#, python-brace-format
+msgid "Colours that are not hex codes: {0}"
+msgstr "ألوان ليست رموزًا ست عشرية: {0}"
+
+msgid "Column Field"
+msgstr "حقل العمود"
+
+msgid "Column name is required"
+msgstr "اسم العمود مطلوب"
+
+msgid "Column settings"
+msgstr "إعدادات العمود"
+
+msgid "Column warnings"
+msgstr "تحذيرات الأعمدة"
+
+msgid "Columns matched"
+msgstr "الأعمدة المطابَقة"
+
+msgid "Commit Every"
+msgstr "الحفظ كل"
+
+msgid "Compact"
+msgstr "مضغوط"
+
+msgid "Compact (narrow layouts)"
+msgstr "مضغوط (تخطيطات ضيقة)"
+
+msgid "Complete Onboarding"
+msgstr "إكمال الإعداد الأولي"
+
+msgid "Complete registration"
+msgstr "إكمال التسجيل"
+
+msgid "Complete the earlier steps before continuing."
+msgstr "أكمل الخطوات السابقة قبل المتابعة."
+
+msgid "Component Explorer"
+msgstr "مستكشف المكونات"
+
+msgid "Condition Values"
+msgstr "قيم الشرط"
+
+msgid "Condition based field"
+msgstr "حقل مبني على شرط"
+
+#, python-brace-format
+msgid "Condition took the {0} branch"
+msgstr "سلك الشرط الفرع {0}"
+
+#, python-brace-format
+msgid "Configure conditional naming rules for {0}. Rules are applied in priority order."
+msgstr "اضبط قواعد التسمية الشرطية لـ {0}. تُطبَّق القواعد حسب ترتيب الأولوية."
+
+msgid "Configure fields"
+msgstr "ضبط الحقول"
+
+#, python-brace-format
+msgid "Configure fields to show when searching for {0} globally. Open global search via {1}."
+msgstr "اضبط الحقول التي تظهر عند البحث عن {0} بحثًا شاملًا. افتح البحث الشامل عبر {1}."
+
+msgid "Configure form view behaviour."
+msgstr "اضبط سلوك عرض النموذج."
+
+msgid "Configure list view behaviour."
+msgstr "اضبط سلوك عرض القائمة."
+
+#, python-brace-format
+msgid ""
+"Configure naming series options for {0}. You can choose a series when creating a "
+"document."
+msgstr "اضبط خيارات سلسلة التسمية لـ {0}. يمكنك اختيار سلسلة عند إنشاء مستند."
+
+#, python-brace-format
+msgid ""
+"Configure print formats for {0}. You can choose a format when printing or emailing a "
+"document."
+msgstr ""
+"اضبط تنسيقات الطباعة لـ {0}. يمكنك اختيار تنسيق عند طباعة مستند أو إرساله بالبريد "
+"الإلكتروني."
+
+msgid "Configure report view behaviour."
+msgstr "اضبط سلوك عرض التقرير."
+
+msgid "Configure your email settings."
+msgstr "اضبط إعدادات بريدك الإلكتروني."
+
+msgid "Consecutive failures after which a flow is auto-disabled and its owner notified."
+msgstr "عدد الإخفاقات المتتالية التي يُعطَّل بعدها التدفق تلقائيًا ويُبلَّغ مالكه."
+
+msgid "Content must be a JSON object"
+msgstr "يجب أن يكون المحتوى كائن JSON"
+
+msgid "Content must be valid JSON"
+msgstr "يجب أن يكون المحتوى JSON صالحًا"
+
+msgctxt "Go to next slide"
+msgid "Continue"
+msgstr "متابعة"
+
+#, python-brace-format
+msgid "Control who can access {0}, by role."
+msgstr "تحكّم في من يمكنه الوصول إلى {0}، حسب الصلاحية."
+
+msgid "Control who can see this workspace and how it appears."
+msgstr "تحكّم في من يمكنه رؤية مساحة العمل هذه وكيف تظهر."
+
+msgid "Convert to new builder"
+msgstr "التحويل إلى المنشئ الجديد"
+
+msgid "Converted from the old Print Format Builder"
+msgstr "محوَّل من منشئ تنسيق الطباعة القديم"
+
+msgid "Copy"
+msgstr "نسخ"
+
+msgid "Copy file URL to clipboard"
+msgstr "نسخ رابط الملف إلى الحافظة"
+
+msgid "Copy this board to change its setup"
+msgstr "انسخ هذه اللوحة لتغيير إعدادها"
+
+msgid "Correlation Key"
+msgstr "مفتاح الربط"
+
+msgid "Could not convert this print format"
+msgstr "تعذّر تحويل تنسيق الطباعة هذا"
+
+msgid "Could not generate PDF"
+msgstr "تعذّر إنشاء PDF"
+
+msgid "Could not load groups."
+msgstr "تعذّر تحميل المجموعات."
+
+msgid "Could not load import file"
+msgstr "تعذّر تحميل ملف الاستيراد"
+
+msgid "Could not load the dock. Please try again."
+msgstr "تعذّر تحميل شريط الإرساء. يُرجى المحاولة مرة أخرى."
+
+msgid "Could not load the saved field rules"
+msgstr "تعذّر تحميل قواعد الحقول المحفوظة"
+
+msgid "Could not load the sidebar. Please try again."
+msgstr "تعذّر تحميل الشريط الجانبي. يُرجى المحاولة مرة أخرى."
+
+msgid "Could not load this document"
+msgstr "تعذّر تحميل هذا المستند"
+
+msgid "Could not load this image"
+msgstr "تعذّر تحميل هذه الصورة"
+
+msgid "Could not load this section. Please refresh the page."
+msgstr "تعذّر تحميل هذا القسم. يُرجى تحديث الصفحة."
+
+msgid "Could not load this tab."
+msgstr "تعذّر تحميل علامة التبويب هذه."
+
+#, python-brace-format
+msgid "Could not move {0}"
+msgstr "تعذّر نقل {0}"
+
+#, python-brace-format
+msgid "Could not move {0} cards"
+msgstr "تعذّر نقل {0} بطاقة"
+
+msgid "Could not open Settings. Please refresh the page."
+msgstr "تعذّر فتح الإعدادات. يُرجى تحديث الصفحة."
+
+msgid "Could not open the dock manager. Please refresh the page."
+msgstr "تعذّر فتح مدير شريط الإرساء. يُرجى تحديث الصفحة."
+
+msgid "Could not open the sidebar editor. Please refresh the page."
+msgstr "تعذّر فتح محرر الشريط الجانبي. يُرجى تحديث الصفحة."
+
+msgid "Could not render the preview"
+msgstr "تعذّر عرض المعاينة"
+
+#, python-brace-format
+msgid "Could not resolve host: {0}"
+msgstr "تعذّر تحليل المضيف: {0}"
+
+msgid "Could not start the camera."
+msgstr "تعذّر تشغيل الكاميرا."
+
+msgid "Could not update"
+msgstr "تعذّر التحديث"
+
+#, python-brace-format
+msgid "Could not write {0} to {1}. Left unchanged."
+msgstr "تعذّرت كتابة {0} في {1}. تُرك دون تغيير."
+
+#, python-brace-format
+msgid "Could not write {0}'s dock to it. Left unchanged."
+msgstr "تعذّرت كتابة شريط الإرساء الخاص بـ {0} فيه. تُرك دون تغيير."
+
+msgid "Couldn't load options"
+msgstr "تعذّر تحميل الخيارات"
+
+msgid "Couldn't render this letter head for the previewed document"
+msgstr "تعذّر عرض ترويسة الرسالة هذه للمستند المعروض"
+
+msgid "Couldn't render this template for the previewed document"
+msgstr "تعذّر عرض هذا القالب للمستند المعروض"
+
+msgid "Create Board"
+msgstr "إنشاء لوحة"
+
+msgid "Create Folder"
+msgstr "إنشاء مجلد"
+
+msgid "Create Layout"
+msgstr "إنشاء تخطيط"
+
+msgid "Create New User"
+msgstr "إنشاء مستخدم جديد"
+
+msgctxt "Description of a tree view shortcut"
+msgid "Create a new document"
+msgstr "إنشاء مستند جديد"
+
+#, python-brace-format
+msgid "Create a notification to alert users about {0} events."
+msgstr "أنشئ إشعارًا لتنبيه المستخدمين بأحداث {0}."
+
+#, python-brace-format
+msgid "Create a print format to customize how {0} prints."
+msgstr "أنشئ تنسيق طباعة لتخصيص طريقة طباعة {0}."
+
+#, python-brace-format
+msgid "Create a template to reuse when emailing {0}."
+msgstr "أنشئ قالبًا لإعادة استخدامه عند مراسلة {0} بالبريد الإلكتروني."
+
+#, python-brace-format
+msgid "Create a workflow to control the states {0} moves through."
+msgstr "أنشئ سير عمل للتحكم في الحالات التي يمر بها {0}."
+
+#, python-brace-format
+msgid "Create a {0} document first to preview this print format."
+msgstr "أنشئ مستند {0} أولًا لمعاينة تنسيق الطباعة هذا."
+
+#, python-brace-format
+msgid "Create a {0} to finish this step."
+msgstr "أنشئ {0} لإنهاء هذه الخطوة."
+
+msgid "Create copy"
+msgstr "إنشاء نسخة"
+
+msgid "Create layout"
+msgstr "إنشاء تخطيط"
+
+msgid "Create your account"
+msgstr "أنشئ حسابك"
+
+#, python-brace-format
+msgid "Create your first {0} to get started."
+msgstr "أنشئ أول {0} للبدء."
+
+#, python-brace-format
+msgid "Created {0}"
+msgstr "أُنشئ {0}"
+
+#, python-brace-format
+msgid "Created {0} {1}"
+msgstr "أُنشئ {0} {1}"
+
+msgid "Creation"
+msgstr "الإنشاء"
+
+msgid "Creator's Access"
+msgstr "وصول المنشئ"
+
+msgid "Cron Expression"
+msgstr "تعبير Cron"
+
+msgid "Current value"
+msgstr "القيمة الحالية"
+
+msgid "Current version"
+msgstr "الإصدار الحالي"
+
+msgid "Currently hidden"
+msgstr "مخفي حاليًا"
+
+msgid "Currently visible"
+msgstr "ظاهر حاليًا"
+
+msgid "Custom Block"
+msgstr "كتلة مخصصة"
+
+msgid "Custom CSS in the Style box"
+msgstr "CSS مخصص في مربع الأنماط"
+
+#, python-brace-format
+msgid "Custom CSS on fields: {0}"
+msgstr "CSS مخصص على الحقول: {0}"
+
+msgid "Custom Event"
+msgstr "حدث مخصص"
+
+msgid "Custom Event trigger requires an event name"
+msgstr "يتطلب مشغّل الحدث المخصص اسم حدث"
+
+msgid "Custom HTML format"
+msgstr "تنسيق HTML مخصص"
+
+msgid "Custom Module Renamed"
+msgstr "أُعيدت تسمية الوحدة المخصصة"
+
+msgid "Custom Sidebar"
+msgstr "شريط جانبي مخصص"
+
+msgid "Custom Table"
+msgstr "جدول مخصص"
+
+msgid "Custom Workspace"
+msgstr "مساحة عمل مخصصة"
+
+msgid "Custom hint text"
+msgstr "نص تلميح مخصص"
+
+msgid "Custom icon"
+msgstr "أيقونة مخصصة"
+
+msgid "Custom icon + footer"
+msgstr "أيقونة مخصصة + تذييل"
+
+msgid "Customized since"
+msgstr "مخصَّص منذ"
+
+msgid "Data Import Skipped Row"
+msgstr "صف متخطّى في استيراد البيانات"
+
+msgid "Data Import Value Mapping"
+msgstr "ربط القيم في استيراد البيانات"
+
+msgid "Date Based"
+msgstr "مبني على تاريخ"
+
+msgid "Date Based trigger requires a Date Field and a Date Direction"
+msgstr "يتطلب المشغّل المبني على تاريخ حقل تاريخ واتجاه تاريخ"
+
+msgid "Date Direction"
+msgstr "اتجاه التاريخ"
+
+msgid "Date Field"
+msgstr "حقل التاريخ"
+
+msgid "Date Offset (Days)"
+msgstr "إزاحة التاريخ (أيام)"
+
+msgid "Date format"
+msgstr "تنسيق التاريخ"
+
+msgid "Days a Failed or Skipped queue row is kept before the nightly sweep removes it."
+msgstr ""
+"عدد الأيام التي يُحتفظ فيها بصف قائمة الانتظار الفاشل أو المتخطّى قبل أن يحذفه "
+"التنظيف الليلي."
+
+msgid "Decrease"
+msgstr "تقليل"
+
+msgid "Decrease indent"
+msgstr "تقليل المسافة البادئة"
+
+msgid "Default Layout"
+msgstr "التخطيط الافتراضي"
+
+msgid "Default removed"
+msgstr "أُزيل الافتراضي"
+
+#, python-brace-format
+msgid "Default template: {0}"
+msgstr "القالب الافتراضي: {0}"
+
+msgid "Default updated"
+msgstr "حُدِّث الافتراضي"
+
+msgid "Delay"
+msgstr "التأخير"
+
+#, python-brace-format
+msgid "Delete layout <strong>{0}</strong>?"
+msgstr "حذف التخطيط <strong>{0}</strong>؟"
+
+#, python-brace-format
+msgid "Delete naming rule {0}?"
+msgstr "حذف قاعدة التسمية {0}؟"
+
+#, python-brace-format
+msgid "Delete series {0}?"
+msgstr "حذف السلسلة {0}؟"
+
+msgid "Delete snippet"
+msgstr "حذف المقتطف"
+
+#, python-brace-format
+msgid "Delete the <b>{0}</b> workspace? This cannot be undone."
+msgstr "حذف مساحة العمل <b>{0}</b>؟ لا يمكن التراجع عن ذلك."
+
+#, python-brace-format
+msgid "Delete the snippet '{0}'?"
+msgstr "حذف المقتطف '{0}'؟"
+
+msgid "Delete this user permission?"
+msgstr "حذف إذن المستخدم هذا؟"
+
+msgid "Delete this version"
+msgstr "حذف هذا الإصدار"
+
+#, python-brace-format
+msgid "Deleted {0} records from {1} doctype"
+msgstr "حُذف {0} سجل من نوع المستند {1}"
+
+msgid "Deleting..."
+msgstr "جارٍ الحذف..."
+
+msgid "Denormalized so the run survives deletion of its Automation Flow."
+msgstr "مكرَّر البيانات كي يبقى التنفيذ بعد حذف تدفق التشغيل الآلي الخاص به."
+
+#, python-brace-format
+msgid "Depends on: {0}"
+msgstr "يعتمد على: {0}"
+
+msgid "Deprecated"
+msgstr "مُهمَل"
+
+msgid "Deprecated, removed in version 17"
+msgstr "مُهمَل، وسيُزال في الإصدار 17"
+
+msgid ""
+"Deprecated, removed in version 17. Renders with the v16 stylesheet; new blocks and "
+"styling need Chromium or Typst."
+msgstr ""
+"مُهمَل، وسيُزال في الإصدار 17. يُعرض بورقة أنماط الإصدار 16؛ تحتاج الكتل والأنماط "
+"الجديدة إلى Chromium أو Typst."
+
+msgid "Descending"
+msgstr "تنازلي"
+
+msgid "Desk"
+msgstr "المكتب"
+
+msgid "Desktop Icons"
+msgstr "أيقونات سطح المكتب"
+
+msgid "Desktop Page"
+msgstr "صفحة سطح المكتب"
+
+msgid "Detail"
+msgstr "التفاصيل"
+
+msgid "Direction"
+msgstr "الاتجاه"
+
+msgid "Disable"
+msgstr "تعطيل"
+
+msgid "Disable Automations"
+msgstr "تعطيل التشغيل الآلي"
+
+msgid "Disable all notification and alert sounds across the application."
+msgstr "تعطيل جميع أصوات الإشعارات والتنبيهات في التطبيق."
+
+msgid "Disabled Reason"
+msgstr "سبب التعطيل"
+
+msgid "Disabled options (a page-size picker)"
+msgstr "خيارات معطّلة (منتقي حجم الصفحة)"
+
+msgid "Discard the draft and go back to this"
+msgstr "تجاهل المسودة والعودة إلى هذا"
+
+msgid "Discard your unapplied changes and go back to what this format prints?"
+msgstr "تجاهل تغييراتك غير المطبّقة والعودة إلى ما يطبعه هذا التنسيق؟"
+
+msgid "Discarding…"
+msgstr "جارٍ التجاهل…"
+
+msgid "Dismissible"
+msgstr "قابل للإغلاق"
+
+msgid "Display a sidebar in forms with attachments, preview image, tags, and other details."
+msgstr "عرض شريط جانبي في النماذج يحتوي المرفقات وصورة المعاينة والوسوم وتفاصيل أخرى."
+
+msgid "Display exact timestamps instead of relative time in the activity timeline."
+msgstr "عرض الطوابع الزمنية الدقيقة بدلًا من الوقت النسبي في سجل النشاط."
+
+msgid "Display the filter and group-by sidebar in list views."
+msgstr "عرض الشريط الجانبي لعوامل التصفية والتجميع في عروض القوائم."
+
+msgid "Display the search bar in the navigation area for quick access."
+msgstr "عرض شريط البحث في منطقة التنقل للوصول السريع."
+
+msgid "Doc Cancelled"
+msgstr "أُلغي المستند"
+
+msgid "Doc Created"
+msgstr "أُنشئ المستند"
+
+msgid "Doc Deleted"
+msgstr "حُذف المستند"
+
+msgid "Doc Status Reset"
+msgstr "إعادة تعيين حالة المستند"
+
+msgid "Doc Submitted"
+msgstr "رُحِّل المستند"
+
+msgid "Doc Updated"
+msgstr "حُدِّث المستند"
+
+msgid "DocType Settings"
+msgstr "إعدادات نوع المستند"
+
+msgid "DocType Settings Map"
+msgstr "خريطة إعدادات نوع المستند"
+
+msgid "DocType Settings Map Item"
+msgstr "عنصر خريطة إعدادات نوع المستند"
+
+#, python-brace-format
+msgid "DocType {0} not found"
+msgstr "لم يُعثر على نوع المستند {0}"
+
+msgid "DocTypes this role can access."
+msgstr "أنواع المستندات التي يمكن لهذه الصلاحية الوصول إليها."
+
+msgid "Dock"
+msgstr "شريط الإرساء"
+
+msgid "Dock Item"
+msgstr "عنصر شريط الإرساء"
+
+msgid "Dock Items"
+msgstr "عناصر شريط الإرساء"
+
+msgid "Dock updated"
+msgstr "حُدِّث شريط الإرساء"
+
+msgid "Dock updated for everyone"
+msgstr "حُدِّث شريط الإرساء للجميع"
+
+msgid "Document Owner"
+msgstr "مالك المستند"
+
+msgid "Document Permissions"
+msgstr "أذونات المستندات"
+
+msgid "Document owner"
+msgstr "مالك المستند"
+
+msgid "Document-less automations do not accept a document name"
+msgstr "التشغيل الآلي غير المرتبط بمستند لا يقبل اسم مستند"
+
+msgid "Documentation"
+msgstr "التوثيق"
+
+msgid "Don't panic. Run this command and reload the page:"
+msgstr "لا داعي للقلق. شغّل هذا الأمر وأعد تحميل الصفحة:"
+
+#, python-brace-format
+msgid "Done: {0}"
+msgstr "تم: {0}"
+
+msgid "Download Failed Rows"
+msgstr "تنزيل الصفوف الفاشلة"
+
+msgid "Download Skipped Rows"
+msgstr "تنزيل الصفوف المتخطّاة"
+
+msgid "Draft Data"
+msgstr "بيانات المسودة"
+
+msgid "Draft data must be an object"
+msgstr "يجب أن تكون بيانات المسودة كائنًا"
+
+msgid "Draft discarded"
+msgstr "تم تجاهل المسودة"
+
+msgid "Drag a CSV or Excel file here, or click to browse"
+msgstr "اسحب ملف CSV أو Excel إلى هنا، أو انقر للاستعراض"
+
+msgid "Drag into the layout, or click to insert"
+msgstr "اسحب إلى التخطيط، أو انقر للإدراج"
+
+msgid "Drag to change corner radius"
+msgstr "اسحب لتغيير نصف قطر الزاوية"
+
+#, python-brace-format
+msgid "Drag to change {0} {1}"
+msgstr "اسحب لتغيير {0} {1}"
+
+msgid ""
+"Drag to reorder, and under a section to put an entry in it. The eye takes an entry "
+"off the sidebar; the pencil renames it."
+msgstr ""
+"اسحب لإعادة الترتيب، وأسفل قسم لوضع عنصر فيه. أيقونة العين تُزيل العنصر من الشريط "
+"الجانبي؛ والقلم يعيد تسميته."
+
+msgid ""
+"Drag to reorder, and under a section to put an entry in it. The eye takes an entry "
+"off the sidebar; the pencil renames one and says how a section draws."
+msgstr ""
+"اسحب لإعادة الترتيب، وأسفل قسم لوضع عنصر فيه. أيقونة العين تُزيل العنصر من الشريط "
+"الجانبي؛ والقلم يعيد تسمية العنصر ويحدد طريقة عرض القسم."
+
+msgid "Drag to reorder. The eye takes an entry off the dock."
+msgstr "اسحب لإعادة الترتيب. أيقونة العين تُزيل العنصر من شريط الإرساء."
+
+msgid "Drag to resize"
+msgstr "اسحب لتغيير الحجم"
+
+msgid "Drain Seconds"
+msgstr "ثواني التصريف"
+
+msgid "Draw it as a row with its entries nested under it, rather than as a heading over them."
+msgstr "اعرضه صفًا تتداخل عناصره تحته، بدلًا من عنوان فوقها."
+
+msgid "Drop fields here"
+msgstr "أفلت الحقول هنا"
+
+msgid ""
+"Drop the site's arrangement of this sidebar and every person's own, so what you save "
+"here is what shows."
+msgstr "أسقِط ترتيب الموقع لهذا الشريط الجانبي وترتيب كل شخص الخاص، ليظهر ما تحفظه هنا."
+
+#, python-brace-format
+msgid "Drop this arrangement and go back to {0}."
+msgstr "أسقِط هذا الترتيب وعُد إلى {0}."
+
+msgid ""
+"Drops every person's own arrangement of this rail as well as the site's, so everybody"
+" is back on what the app ships."
+msgstr ""
+"يُسقط ترتيب كل شخص الخاص لهذا الشريط إضافةً إلى ترتيب الموقع، ليعود الجميع إلى ما "
+"يوفره التطبيق."
+
+#, python-brace-format
+msgid "Duplicate ID {0} in rows {1}"
+msgstr "المعرّف {0} مكرر في الصفوف {1}"
+
+msgid "Duplicate Kanban Board"
+msgstr "تكرار لوحة كانبان"
+
+msgid "Duplicate Label"
+msgstr "تسمية مكررة"
+
+#, python-brace-format
+msgid "Duplicate automation action_type: {0}"
+msgstr "نوع إجراء التشغيل الآلي مكرر: {0}"
+
+#, python-brace-format
+msgid "Duplicate automation relationship name on {0}"
+msgstr "اسم علاقة التشغيل الآلي مكرر في {0}"
+
+#, python-brace-format
+msgid "Duplicate record alias: {0}"
+msgstr "اسم مستعار للسجل مكرر: {0}"
+
+#, python-brace-format
+msgid ""
+"Duplicate {0} labels: {1}. Labels are used to tell widgets apart when a workspace is "
+"saved, so each {0} needs a unique label."
+msgstr ""
+"تسميات {0} مكررة: {1}. تُستخدم التسميات للتمييز بين العناصر عند حفظ مساحة العمل، لذا "
+"يحتاج كل {0} إلى تسمية فريدة."
+
+msgid "Dynamic Filter Error"
+msgstr "خطأ في عامل التصفية الديناميكي"
+
+msgid "Each relationship needs an alias and relationship name"
+msgstr "تحتاج كل علاقة إلى اسم مستعار واسم علاقة"
+
+msgid "Each row maps a field on a Single (Settings) doctype to surface for this doctype."
+msgstr "كل صف يربط حقلًا في نوع مستند منفرد (إعدادات) لإظهاره لنوع المستند هذا."
+
+msgid "Edit Letter Head HTML"
+msgstr "تعديل HTML ترويسة الرسالة"
+
+msgid "Edit Series"
+msgstr "تعديل السلسلة"
+
+msgid "Edit Typst"
+msgstr "تعديل Typst"
+
+msgid "Edit in the visual builder."
+msgstr "عدّل في المنشئ المرئي."
+
+msgid "Edit layout"
+msgstr "تعديل التخطيط"
+
+msgid "Edited"
+msgstr "معدَّل"
+
+msgid "Else"
+msgstr "وإلا"
+
+msgid "Email Template can only be used with the Email channel"
+msgstr "لا يمكن استخدام قالب البريد الإلكتروني إلا مع قناة البريد الإلكتروني"
+
+#, python-brace-format
+msgid "Email Template {0} has no content to send"
+msgstr "لا يحتوي قالب البريد الإلكتروني {0} على محتوى للإرسال"
+
+msgid "Email Templates"
+msgstr "قوالب البريد الإلكتروني"
+
+#, python-brace-format
+msgid "Emailed {0}"
+msgstr "أُرسل بريد إلكتروني إلى {0}"
+
+msgid "Empty = any value."
+msgstr "فارغ = أي قيمة."
+
+msgid "Empty State Message"
+msgstr "رسالة الحالة الفارغة"
+
+msgid "Empty Typst block"
+msgstr "كتلة Typst فارغة"
+
+msgid "Empty canvas. Drag and drop fields to build from scratch."
+msgstr "لوحة رسم فارغة. اسحب الحقول وأفلتها للبناء من الصفر."
+
+msgid "Empty text"
+msgstr "نص فارغ"
+
+msgid "Enable an Automation Flow only after adding at least one action"
+msgstr "لا تفعّل تدفق التشغيل الآلي إلا بعد إضافة إجراء واحد على الأقل"
+
+msgid "Enable checkboxes to select multiple records and perform bulk operations."
+msgstr "تفعيل مربعات الاختيار لتحديد عدة سجلات وتنفيذ عمليات مجمّعة."
+
+msgid ""
+"Enable developer mode to change whether a dock is standard -- it is backed by a file "
+"in its app."
+msgstr "فعّل وضع المطوّر لتغيير كون شريط الإرساء قياسيًا -- فهو مدعوم بملف في تطبيقه."
+
+msgid ""
+"Enable developer mode to change whether a sidebar is standard -- it is backed by a "
+"file in its app."
+msgstr "فعّل وضع المطوّر لتغيير كون الشريط الجانبي قياسيًا -- فهو مدعوم بملف في تطبيقه."
+
+msgid "Enable developer mode to create a standard Print Format Snippet"
+msgstr "فعّل وضع المطوّر لإنشاء مقتطف تنسيق طباعة قياسي"
+
+msgid "Enable this option to include the field in the data import template"
+msgstr "فعّل هذا الخيار لتضمين الحقل في قالب استيراد البيانات"
+
+msgid "Enabling requires at least one action and a valid trigger."
+msgstr "يتطلب التفعيل إجراءً واحدًا على الأقل ومشغّلًا صالحًا."
+
+msgid "Enter expressions that will be evaluated when the card is displayed. For example:"
+msgstr "أدخل تعبيرات تُقيَّم عند عرض البطاقة. مثلًا:"
+
+msgid "Enter this code to complete your login."
+msgstr "أدخل هذا الرمز لإكمال تسجيل الدخول."
+
+msgid "Entries"
+msgstr "العناصر"
+
+msgid "Error Summary"
+msgstr "ملخص الأخطاء"
+
+msgid "Event Name"
+msgstr "اسم الحدث"
+
+msgid "Event Payload"
+msgstr "حمولة الحدث"
+
+msgid "Event Payload Limit"
+msgstr "حد حمولة الحدث"
+
+msgid "Everyone is back on the dock this app ships"
+msgstr "عاد الجميع إلى شريط الإرساء الذي يوفره هذا التطبيق"
+
+msgid "Exit full screen"
+msgstr "الخروج من ملء الشاشة"
+
+msgid "Expand all"
+msgstr "توسيع الكل"
+
+msgid "Expand sidebar"
+msgstr "توسيع الشريط الجانبي"
+
+msgid "Expand/Collapse"
+msgstr "توسيع/طي"
+
+msgid "Expected an unsaved Print Format document"
+msgstr "كان المتوقع مستند تنسيق طباعة غير محفوظ"
+
+msgid "Expires At"
+msgstr "ينتهي في"
+
+msgid "Export this snippet to its module so it ships with the app. Requires developer mode."
+msgstr "صدّر هذا المقتطف إلى وحدته ليُضمَّن مع التطبيق. يتطلب وضع المطوّر."
+
+msgid "Export to app"
+msgstr "تصدير إلى التطبيق"
+
+msgid "Exported to the app"
+msgstr "صُدِّر إلى التطبيق"
+
+msgid "Exported to the module and shipped with its app"
+msgstr "مُصدَّر إلى الوحدة ومُضمَّن مع تطبيقها"
+
+#, python-brace-format
+msgid "Failed ({0})"
+msgstr "فشل ({0})"
+
+msgid "Failed Scheduled Jobs"
+msgstr "المهام المجدولة الفاشلة"
+
+msgid "Failed to add access."
+msgstr "فشلت إضافة الوصول."
+
+msgid "Failed to add user."
+msgstr "فشلت إضافة المستخدم."
+
+msgid "Failed to create user."
+msgstr "فشل إنشاء المستخدم."
+
+msgid "Failed to load Kanban board"
+msgstr "فشل تحميل لوحة كانبان"
+
+msgid "Failed to load data."
+msgstr "فشل تحميل البيانات."
+
+msgid "Failed to load import file"
+msgstr "فشل تحميل ملف الاستيراد"
+
+msgid "Failed to load settings"
+msgstr "فشل تحميل الإعدادات"
+
+msgid "Failed to load the import wizard bundle."
+msgstr "فشل تحميل حزمة معالج الاستيراد."
+
+msgid "Failed to load the import wizard. Please hard-refresh and try again."
+msgstr "فشل تحميل معالج الاستيراد. يُرجى إجراء تحديث كامل للصفحة والمحاولة مرة أخرى."
+
+msgid "Failed to remove permission."
+msgstr "فشلت إزالة الإذن."
+
+#, python-brace-format
+msgid "Failed to render template: {0}"
+msgstr "فشل عرض القالب: {0}"
+
+msgid "Failed to save"
+msgstr "فشل الحفظ"
+
+msgid "Failed to save permission."
+msgstr "فشل حفظ الإذن."
+
+msgid "Failure Threshold"
+msgstr "حد الإخفاقات"
+
+msgid "Fallback themes"
+msgstr "سمات احتياطية"
+
+msgid "Fast card"
+msgstr "بطاقة سريعة"
+
+msgid "Fetching latest status..."
+msgstr "جارٍ جلب أحدث حالة..."
+
+msgid "Field Template block"
+msgstr "كتلة قالب حقل"
+
+msgid "Field Value Changed"
+msgstr "تغيّرت قيمة الحقل"
+
+msgid "Field Value Changed trigger requires a Trigger Field"
+msgstr "يتطلب مشغّل «تغيّرت قيمة الحقل» حقلًا مشغِّلًا"
+
+#, python-brace-format
+msgid "Field \\u201c{0}\\u201d no longer exists on {1}"
+msgstr "الحقل \\u201c{0}\\u201d لم يعد موجودًا في {1}"
+
+msgid "Field borders"
+msgstr "حدود الحقول"
+
+msgid "Field is required"
+msgstr "الحقل مطلوب"
+
+msgid "Field label"
+msgstr "تسمية الحقل"
+
+msgid "Field of the board's reference doctype to show on the card."
+msgstr "حقل من نوع المستند المرجعي للوحة يُعرض على البطاقة."
+
+msgid "Field saved as snippet"
+msgstr "حُفظ الحقل كمقتطف"
+
+msgid "Field shown as the card title: ID or a text field."
+msgstr "الحقل المعروض عنوانًا للبطاقة: المعرّف أو حقل نصي."
+
+msgid "Fieldname on the Settings DocType to surface for this doctype."
+msgstr "اسم الحقل في نوع مستند الإعدادات لإظهاره لنوع المستند هذا."
+
+msgid ""
+"Fields shown in the card hover preview, in order. Icon and Label behave the same as "
+"Card Fields. Leave empty to use the doctype's preview fields, then card fields."
+msgstr ""
+"الحقول المعروضة في معاينة البطاقة عند التمرير، بالترتيب. تعمل الأيقونة والتسمية كما "
+"في حقول البطاقة. اتركها فارغة لاستخدام حقول المعاينة لنوع المستند، ثم حقول البطاقة."
+
+msgid "Fields shown on cards and in the hover preview."
+msgstr "الحقول المعروضة على البطاقات وفي المعاينة عند التمرير."
+
+msgid ""
+"Fields shown on each card, in order. Set an Icon to show it on the card (label on "
+"hover); leave Icon empty to show the Label text. Leave the table empty to auto-pick."
+msgstr ""
+"الحقول المعروضة على كل بطاقة، بالترتيب. عيّن أيقونة لعرضها على البطاقة (والتسمية عند "
+"التمرير)؛ اترك الأيقونة فارغة لعرض نص التسمية. اترك الجدول فارغًا للاختيار التلقائي."
+
+msgid ""
+"Fields the board can group cards by (swimlanes). New boards are pre-filled with the "
+"doctype's Select fields (except the column field). Add Link fields to offer more "
+"groupings; leave empty to hide the Group button."
+msgstr ""
+"الحقول التي يمكن للوحة تجميع البطاقات حسبها (مسارات أفقية). تُملأ اللوحات الجديدة "
+"مسبقًا بحقول الاختيار في نوع المستند (عدا حقل العمود). أضف حقول ربط لتوفير تجميعات "
+"أكثر؛ اتركها فارغة لإخفاء زر التجميع."
+
+msgid "Fields the board can group cards into swimlanes by."
+msgstr "الحقول التي يمكن للوحة تجميع البطاقات حسبها في مسارات أفقية."
+
+msgid "File upload"
+msgstr "رفع ملف"
+
+msgid ""
+"Filter Name, Reference Document Type and Module are required for a standard list "
+"layout"
+msgstr "اسم عامل التصفية ونوع المستند المرجعي والوحدة مطلوبة لتخطيط القائمة القياسي"
+
+msgid "Filter import log"
+msgstr "تصفية سجل الاستيراد"
+
+msgid "Filter nodes"
+msgstr "تصفية العقد"
+
+msgid "Filtered relationship queries require one target DocType"
+msgstr "تتطلب استعلامات العلاقات المصفّاة نوع مستند هدفًا واحدًا"
+
+msgid "Filters & Sorting"
+msgstr "التصفية والفرز"
+
+msgid "Filters applied"
+msgstr "طُبّقت عوامل التصفية"
+
+#, python-brace-format
+msgid "Finish {0} to finish this step."
+msgstr "أنهِ {0} لإنهاء هذه الخطوة."
+
+msgid "Finishing up..."
+msgstr "جارٍ الإنهاء..."
+
+msgid "Fix issues"
+msgstr "معالجة المشكلات"
+
+msgid "Fix issues summary"
+msgstr "ملخص معالجة المشكلات"
+
+msgid "Fixed text like a title or a note"
+msgstr "نص ثابت مثل عنوان أو ملاحظة"
+
+msgid "Floating"
+msgstr "عائم"
+
+msgid "Follows a promise"
+msgstr "يتبع وعدًا (promise)"
+
+msgid "Font size"
+msgstr "حجم الخط"
+
+msgid "Footer Date"
+msgstr "تاريخ التذييل"
+
+msgid "For everyone"
+msgstr "للجميع"
+
+#, python-brace-format
+msgid "For {0}"
+msgstr "لـ {0}"
+
+msgid "Force a new page"
+msgstr "فرض صفحة جديدة"
+
+#, python-brace-format
+msgid "Forced the {0} branch"
+msgstr "فُرض الفرع {0}"
+
+msgid "Formatting options"
+msgstr "خيارات التنسيق"
+
+msgid "Forms"
+msgstr "النماذج"
+
+msgid "From Value"
+msgstr "من القيمة"
+
+msgid "Full screen"
+msgstr "ملء الشاشة"
+
+msgid "Gantt View Mode"
+msgstr "وضع عرض مخطط جانت"
+
+msgid "Gap"
+msgstr "الفجوة"
+
+msgid "Generating PDF..."
+msgstr "جارٍ إنشاء PDF..."
+
+msgid "Generating preview…"
+msgstr "جارٍ إنشاء المعاينة…"
+
+msgid "Geo"
+msgstr "الجغرافيا"
+
+msgid "Get Started"
+msgstr "ابدأ الآن"
+
+msgid "Get around the system quickly with keyboard shortcuts."
+msgstr "تنقّل في النظام بسرعة باستخدام اختصارات لوحة المفاتيح."
+
+msgid "Get notified when a recipient opens an email you send."
+msgstr "احصل على إشعار عندما يفتح المستلم رسالة بريد إلكتروني أرسلتها."
+
+msgid "Get notified when there's a new reply in an email thread you're part of."
+msgstr "احصل على إشعار عند وصول رد جديد في سلسلة بريد إلكتروني تشارك فيها."
+
+msgid "Getting started"
+msgstr "البدء"
+
+msgid "Give the version a name"
+msgstr "أعطِ الإصدار اسمًا"
+
+msgid "Global"
+msgstr "عام"
+
+msgid "Global Layouts"
+msgstr "التخطيطات العامة"
+
+msgid "Global Search"
+msgstr "البحث الشامل"
+
+msgid "Global search updated"
+msgstr "حُدِّث البحث الشامل"
+
+msgid "Go back to the current version before applying"
+msgstr "عُد إلى الإصدار الحالي قبل التطبيق"
+
+msgid "Go to list"
+msgstr "الانتقال إلى القائمة"
+
+msgid "Going to Projects"
+msgstr "جارٍ الانتقال إلى المشاريع"
+
+msgid "Good afternoon"
+msgstr "مساء الخير"
+
+#, python-brace-format
+msgid "Good afternoon, {0}"
+msgstr "مساء الخير، {0}"
+
+msgid "Good evening"
+msgstr "مساء الخير"
+
+#, python-brace-format
+msgid "Good evening, {0}"
+msgstr "مساء الخير، {0}"
+
+msgid "Good morning"
+msgstr "صباح الخير"
+
+#, python-brace-format
+msgid "Good morning, {0}"
+msgstr "صباح الخير، {0}"
+
+msgid "Google Sheet"
+msgstr "جدول Google"
+
+msgid "Granted"
+msgstr "ممنوح"
+
+msgid "Great"
+msgstr "رائع"
+
+msgid "Grid"
+msgstr "شبكة"
+
+msgid "Grid lines"
+msgstr "خطوط الشبكة"
+
+msgid "Groups and submenus"
+msgstr "مجموعات وقوائم فرعية"
+
+msgid "Groups, shortcuts and disabled rows"
+msgstr "مجموعات واختصارات وصفوف معطّلة"
+
+msgid "HTML block"
+msgstr "كتلة HTML"
+
+msgid "HTML message with inline link"
+msgstr "رسالة HTML برابط مضمّن"
+
+#, python-brace-format
+msgid "Heading {0}"
+msgstr "عنوان {0}"
+
+msgid "Height"
+msgstr "الارتفاع"
+
+#, python-brace-format
+msgid ""
+"Hi {0}, an account has been created for you at {1}. Before you can log in, you'll "
+"need to set your password."
+msgstr ""
+"مرحبًا {0}، أُنشئ لك حساب في {1}. قبل أن تتمكن من تسجيل الدخول، عليك تعيين كلمة "
+"المرور."
+
+#, python-brace-format
+msgid "Hi {0}, let's get the basics right"
+msgstr "مرحبًا {0}، لنضبط الأساسيات"
+
+msgid "Hidden by its visibility condition"
+msgstr "مخفي بسبب شرط ظهوره"
+
+msgid "Hide colon"
+msgstr "إخفاء النقطتين"
+
+msgid ""
+"Hide this item. Explicit rather than implied by the row's presence, which is what "
+"lets a user's `hidden: 0` un-hide something the site hid."
+msgstr ""
+"إخفاء هذا العنصر. صريح وليس مستنتجًا من وجود الصف، وهذا ما يتيح لقيمة `hidden: 0` لدى"
+" المستخدم إظهار شيء أخفاه الموقع."
+
+msgid "Horizontal"
+msgstr "أفقي"
+
+msgid "Horizontal (arrows move between tabs, Home/End jump)"
+msgstr "أفقي (الأسهم تنتقل بين علامات التبويب، وHome/End للقفز)"
+
+msgid "Horizontal rule"
+msgstr "خط أفقي"
+
+msgid "Horizontal, with icons"
+msgstr "أفقي، مع أيقونات"
+
+msgid "Hover me"
+msgstr "مرّر المؤشر فوقي"
+
+msgid "How cards look in the new Kanban experience."
+msgstr "شكل البطاقات في تجربة كانبان الجديدة."
+
+msgid "How do you want to start?"
+msgstr "كيف تريد أن تبدأ؟"
+
+msgid "How it reads on the rail."
+msgstr "كيف يظهر على الشريط."
+
+msgid "How long a claimed row may stay Running before it is assumed crashed and requeued."
+msgstr ""
+"المدة التي يجوز أن يبقى فيها الصف المحجوز قيد التشغيل قبل افتراض تعطّله وإعادته إلى "
+"قائمة الانتظار."
+
+msgid ""
+"How many times a claimed row is retried when its run fails outside the flow's own "
+"steps, before the row is marked Failed."
+msgstr ""
+"عدد مرات إعادة محاولة الصف المحجوز عند فشل تنفيذه خارج خطوات التدفق نفسه، قبل وسم "
+"الصف بالفشل."
+
+msgid "How many times an automation may trigger another before the chain is refused."
+msgstr "عدد المرات التي يجوز فيها لتشغيل آلي أن يشغّل آخر قبل رفض السلسلة."
+
+msgid ""
+"How this entry reads on the rail. Required when the row adds and optional when it "
+"references, exactly as `icon` is -- and outside the row's identity, so re-labelling "
+"can never detach a row from itself."
+msgstr ""
+"كيف يظهر هذا العنصر على الشريط. مطلوب عندما يضيف الصف عنصرًا واختياري عندما يشير "
+"إليه، تمامًا مثل `icon` -- وهو خارج هوية الصف، فلا يمكن أن تفصل إعادة التسمية صفًا عن"
+" نفسه أبدًا."
+
+msgid "ID or a text field."
+msgstr "المعرّف أو حقل نصي."
+
+msgid "IP address:"
+msgstr "عنوان IP:"
+
+msgid "Icon-only pills (label becomes the accessible name)"
+msgstr "أزرار بأيقونات فقط (تصبح التسمية الاسم المتاح لقارئات الشاشة)"
+
+msgid "Icons"
+msgstr "الأيقونات"
+
+msgid "If"
+msgstr "إذا"
+
+msgid "If no Print Format is selected, the default template for this report will be used."
+msgstr "إذا لم يُختر تنسيق طباعة، فسيُستخدم القالب الافتراضي لهذا التقرير."
+
+msgid "If this was you:"
+msgstr "إذا كنت أنت:"
+
+msgid "If this wasn't you:"
+msgstr "إذا لم تكن أنت:"
+
+msgid "If you didn't request this code, you can safely ignore this email."
+msgstr "إذا لم تطلب هذا الرمز، يمكنك تجاهل هذه الرسالة بأمان."
+
+msgid "If you didn't request this, you can safely ignore this email. Your account is safe."
+msgstr "إذا لم تطلب ذلك، يمكنك تجاهل هذه الرسالة بأمان. حسابك آمن."
+
+msgid ""
+"If you didn't request this, you can safely ignore this email. Your password won't be "
+"changed."
+msgstr "إذا لم تطلب ذلك، يمكنك تجاهل هذه الرسالة بأمان. لن تتغير كلمة مرورك."
+
+msgid "If you weren't expecting this account, you can safely ignore this email."
+msgstr "إذا لم تكن تتوقع هذا الحساب، يمكنك تجاهل هذه الرسالة بأمان."
+
+msgid "If you weren't expecting this, you can safely ignore this email."
+msgstr "إذا لم تكن تتوقع ذلك، يمكنك تجاهل هذه الرسالة بأمان."
+
+msgid "Image loaded from a web address"
+msgstr "صورة محمّلة من عنوان ويب"
+
+msgid "Image size"
+msgstr "حجم الصورة"
+
+msgid "Import Action"
+msgstr "إجراء الاستيراد"
+
+msgid "Import could not start. Please resolve the errors in the import file."
+msgstr "تعذّر بدء الاستيراد. يُرجى حل الأخطاء في ملف الاستيراد."
+
+msgid "Import failed"
+msgstr "فشل الاستيراد"
+
+msgid "Import is running. Progress updates will appear shortly."
+msgstr "الاستيراد قيد التشغيل. ستظهر تحديثات التقدم قريبًا."
+
+msgid "Import log"
+msgstr "سجل الاستيراد"
+
+msgid "Import settings"
+msgstr "إعدادات الاستيراد"
+
+msgid "Import steps"
+msgstr "خطوات الاستيراد"
+
+#, python-brace-format
+msgid "Import {0}"
+msgstr "استيراد {0}"
+
+msgid "Imported"
+msgstr "مستورد"
+
+#, python-brace-format
+msgid "Importing or updating {0} of {1}, {2}"
+msgstr "جارٍ استيراد أو تحديث {0} من {1}، {2}"
+
+#, python-brace-format
+msgid "Importing row {0} of {1}"
+msgstr "جارٍ استيراد الصف {0} من {1}"
+
+msgid "Importing your data"
+msgstr "جارٍ استيراد بياناتك"
+
+msgid ""
+"In developer mode a standard workspace's edits belong to the app's JSON, not to a "
+"customization."
+msgstr ""
+"في وضع المطوّر، تنتمي تعديلات مساحة العمل القياسية إلى ملف JSON الخاص بالتطبيق، وليس "
+"إلى تخصيص."
+
+msgid "Include in Import Template"
+msgstr "تضمين في قالب الاستيراد"
+
+#, python-brace-format
+msgid "Include {0} in global search"
+msgstr "تضمين {0} في البحث الشامل"
+
+msgid "Incorrect configuration"
+msgstr "إعداد غير صحيح"
+
+msgid "Increase"
+msgstr "زيادة"
+
+msgid "Increase indent"
+msgstr "زيادة المسافة البادئة"
+
+msgid "Inherit"
+msgstr "توارث"
+
+msgid "Insert image"
+msgstr "إدراج صورة"
+
+msgid "Insert link"
+msgstr "إدراج رابط"
+
+msgid "Insert or Update Records"
+msgstr "إدراج السجلات أو تحديثها"
+
+msgid "Insert video"
+msgstr "إدراج فيديو"
+
+msgid "Inserted"
+msgstr "مُدرَج"
+
+msgid "Interactive content (a filters panel)"
+msgstr "محتوى تفاعلي (لوحة عوامل تصفية)"
+
+msgid "Intervals"
+msgstr "الفواصل الزمنية"
+
+msgid "Invalid Cloud Settings data."
+msgstr "بيانات إعدادات السحابة غير صالحة."
+
+msgid "Invalid Cloud Settings operation."
+msgstr "عملية إعدادات السحابة غير صالحة."
+
+msgid "Invalid Cloud Settings query."
+msgstr "استعلام إعدادات السحابة غير صالح."
+
+msgid "Invalid Cloud Settings time window."
+msgstr "النافذة الزمنية لإعدادات السحابة غير صالحة."
+
+msgid "Invalid Condition"
+msgstr "شرط غير صالح"
+
+msgid "Invalid Snippet"
+msgstr "مقتطف غير صالح"
+
+msgid "Invalid Typst block"
+msgstr "كتلة Typst غير صالحة"
+
+msgid "Invalid Typst markup"
+msgstr "ترميز Typst غير صالح"
+
+msgid "Invalid Upload"
+msgstr "رفع غير صالح"
+
+msgid "Invalid Website Theme Name"
+msgstr "اسم سمة الموقع غير صالح"
+
+msgid "Invalid arguments"
+msgstr "وسائط غير صالحة"
+
+msgid "Invalid automation relationship definition"
+msgstr "تعريف علاقة تشغيل آلي غير صالح"
+
+#, python-brace-format
+msgid "Invalid cron expression: {0}"
+msgstr "تعبير Cron غير صالح: {0}"
+
+#, python-brace-format
+msgid "Invalid expression in Web Form Dynamic Filter for {0}: {1}"
+msgstr "تعبير غير صالح في عامل التصفية الديناميكي لنموذج الويب لـ {0}: {1}"
+
+msgid "Invalid file name"
+msgstr "اسم ملف غير صالح"
+
+msgid "Invalid group field"
+msgstr "حقل تجميع غير صالح"
+
+#, python-brace-format
+msgid "Invalid value for {0}"
+msgstr "قيمة غير صالحة لـ {0}"
+
+msgid "Is Default Module"
+msgstr "الوحدة الافتراضية"
+
+msgid "Is Dismissible"
+msgstr "قابل للإغلاق"
+
+msgid "Is Optional"
+msgstr "اختياري"
+
+msgid "Issues"
+msgstr "المشكلات"
+
+msgid "It expires in 1 minute."
+msgstr "تنتهي صلاحيته خلال دقيقة واحدة."
+
+#, python-brace-format
+msgid "It expires in {0} minutes."
+msgstr "تنتهي صلاحيته خلال {0} دقيقة."
+
+msgid "Italic"
+msgstr "مائل"
+
+msgid "Item"
+msgstr "عنصر"
+
+msgid ""
+"Item definitions (shortcuts / charts / cards ...) backing blocks the site added, so "
+"they can be rendered. Managed by the workspace editor."
+msgstr ""
+"تعريفات العناصر (اختصارات / مخططات / بطاقات ...) التي تدعم الكتل التي أضافها الموقع، "
+"لتتمكن من عرضها. يديرها محرر مساحة العمل."
+
+msgid "Its sidebar is derived from the module that owns it."
+msgstr "شريطه الجانبي مشتق من الوحدة التي تملكه."
+
+msgid "Job was not running; status updated."
+msgstr "لم تكن المهمة قيد التشغيل؛ حُدِّثت الحالة."
+
+msgid "Jobs"
+msgstr "المهام"
+
+msgid "Just for me"
+msgstr "لي فقط"
+
+msgid "Kanban Board Field"
+msgstr "حقل لوحة كانبان"
+
+msgid "Kanban Board Group Field"
+msgstr "حقل تجميع لوحة كانبان"
+
+#, python-brace-format
+msgid "Kanban Board {0} not found."
+msgstr "لم يُعثر على لوحة كانبان {0}."
+
+msgid "Kanban Settings"
+msgstr "إعدادات كانبان"
+
+#, python-brace-format
+msgid "Keep Row {0}, Skip Rest"
+msgstr "الإبقاء على الصف {0} وتخطي الباقي"
+
+msgid "Keep scanner open after scan"
+msgstr "إبقاء الماسح مفتوحًا بعد المسح"
+
+msgid "Keep the app dock beside the sidebar, or let it slide in from the left edge."
+msgstr "أبقِ شريط إرساء التطبيقات بجوار الشريط الجانبي، أو اتركه ينزلق من الحافة اليسرى."
+
+msgid "Keep together"
+msgstr "إبقاء معًا"
+
+msgid ""
+"Kept in the row so an explicitly hidden entry stays hidden when its app later adds "
+"entries, instead of reappearing because it is simply absent."
+msgstr ""
+"يُحتفظ به في الصف كي يبقى العنصر المخفي صراحةً مخفيًا عندما يضيف تطبيقه عناصر لاحقًا،"
+" بدلًا من أن يعاود الظهور لمجرد غيابه."
+
+msgid "Kind"
+msgstr "النوع"
+
+msgid "Label Color"
+msgstr "لون التسمية"
+
+msgid "Label gap"
+msgstr "المسافة بعد التسمية"
+
+msgid "Label side"
+msgstr "جانب التسمية"
+
+msgid "Language, timezone and notification preferences."
+msgstr "تفضيلات اللغة والمنطقة الزمنية والإشعارات."
+
+msgid "Last modified by"
+msgstr "آخر تعديل بواسطة"
+
+msgid "Last modified on"
+msgstr "آخر تعديل في"
+
+msgid "Layers"
+msgstr "الطبقات"
+
+#, python-brace-format
+msgid "Layout <b>{0}</b> created"
+msgstr "أُنشئ التخطيط <b>{0}</b>"
+
+#, python-brace-format
+msgid "Layout <b>{0}</b> deleted"
+msgstr "حُذف التخطيط <b>{0}</b>"
+
+#, python-brace-format
+msgid "Layout <b>{0}</b> updated"
+msgstr "حُدِّث التخطيط <b>{0}</b>"
+
+msgid "Layout Order"
+msgstr "ترتيب التخطيط"
+
+msgid "Layout and fields used by the new Kanban experience for this board."
+msgstr "التخطيط والحقول المستخدمة في تجربة كانبان الجديدة لهذه اللوحة."
+
+msgid "Layout name"
+msgstr "اسم التخطيط"
+
+msgid "Layout name is required"
+msgstr "اسم التخطيط مطلوب"
+
+msgid "Layouts you create will show up here."
+msgstr "ستظهر هنا التخطيطات التي تنشئها."
+
+msgid "Leave anyway"
+msgstr "المغادرة على أي حال"
+
+msgid "Leave blank to inherit the app-shipped color."
+msgstr "اتركه فارغًا لتوارث اللون المُضمَّن مع التطبيق."
+
+msgid "Leave blank to inherit the app-shipped icon."
+msgstr "اتركه فارغًا لتوارث الأيقونة المُضمَّنة مع التطبيق."
+
+msgid "Leave blank to make this snippet available for all document types"
+msgstr "اتركه فارغًا لإتاحة هذا المقتطف لجميع أنواع المستندات"
+
+msgid "Leave blank to make this template available in all print formats"
+msgstr "اتركه فارغًا لإتاحة هذا القالب في جميع تنسيقات الطباعة"
+
+msgid "Leave blank to show every row. Reference the row with"
+msgstr "اتركه فارغًا لعرض كل الصفوف. أشِر إلى الصف باستخدام"
+
+#, python-brace-format
+msgid "Leave empty to grant {0} directly."
+msgstr "اتركه فارغًا لمنح {0} مباشرة."
+
+msgid "Leave it empty to keep the one it inherits."
+msgstr "اتركه فارغًا للإبقاء على ما يتوارثه."
+
+msgid "Leaves the desk. It has no sidebar."
+msgstr "يغادر سطح المكتب. ليس له شريط جانبي."
+
+msgid "Legacy html content (frappe.show_alert)"
+msgstr "محتوى HTML قديم (frappe.show_alert)"
+
+msgid "Let's get the basics right"
+msgstr "لنضبط الأساسيات"
+
+msgid "Let's get your workspace ready. It only takes a few minutes."
+msgstr "لنجهّز مساحة عملك. لن يستغرق ذلك سوى بضع دقائق."
+
+msgid "Letter head"
+msgstr "ترويسة الرسالة"
+
+msgid "Letter head changes are saved right away and apply to every print format that uses it."
+msgstr "تُحفظ تغييرات ترويسة الرسالة فورًا وتنطبق على كل تنسيق طباعة يستخدمها."
+
+msgid "Letterhead footer with HTML content"
+msgstr "تذييل ترويسة رسالة بمحتوى HTML"
+
+msgid "Letterhead image loaded from a web address"
+msgstr "صورة ترويسة رسالة محمّلة من عنوان ويب"
+
+msgid "Letterhead with HTML content"
+msgstr "ترويسة رسالة بمحتوى HTML"
+
+msgid "Letterhead with custom CSS"
+msgstr "ترويسة رسالة بـ CSS مخصص"
+
+msgid "Limits"
+msgstr "الحدود"
+
+msgid "Linked Field"
+msgstr "حقل مرتبط"
+
+msgid "Links To"
+msgstr "يرتبط بـ"
+
+msgid "List virtualization failed to load. Rendering full list."
+msgstr "فشل تحميل العرض الافتراضي للقائمة. يتم عرض القائمة كاملة."
+
+msgid "Live (next / previous on the first stepper above)"
+msgstr "مباشر (التالي / السابق في أول مؤشر خطوات أعلاه)"
+
+msgid "Live (updates via set_value)"
+msgstr "مباشر (يتحدّث عبر set_value)"
+
+msgid "Live activity updates will appear here."
+msgstr "ستظهر هنا تحديثات النشاط المباشرة."
+
+msgid "Load a document to see live status"
+msgstr "حمّل مستندًا لرؤية الحالة المباشرة"
+
+msgid ""
+"Load the template from a file in a module instead of the Template field. Requires "
+"developer mode."
+msgstr "حمّل القالب من ملف في وحدة بدلًا من حقل القالب. يتطلب وضع المطوّر."
+
+msgid "Loading full tree..."
+msgstr "جارٍ تحميل الشجرة كاملة..."
+
+msgid "Loading groups…"
+msgstr "جارٍ تحميل المجموعات…"
+
+msgid "Loading import log"
+msgstr "جارٍ تحميل سجل الاستيراد"
+
+msgid "Loading import preview..."
+msgstr "جارٍ تحميل معاينة الاستيراد..."
+
+msgid "Loading preview..."
+msgstr "جارٍ تحميل المعاينة..."
+
+msgid "Loading tree preview..."
+msgstr "جارٍ تحميل معاينة الشجرة..."
+
+msgid "Locale"
+msgstr "الإعدادات الإقليمية"
+
+msgid "Locked steps"
+msgstr "خطوات مقفلة"
+
+msgid "Long"
+msgstr "طويل"
+
+msgid "Long current page (truncates)"
+msgstr "صفحة حالية طويلة (تُقتطع)"
+
+msgid "Long text (wraps)"
+msgstr "نص طويل (يلتفّ)"
+
+msgid "Manage"
+msgstr "إدارة"
+
+msgid "Manage Dock"
+msgstr "إدارة شريط الإرساء"
+
+msgid "Manage Layouts"
+msgstr "إدارة التخطيطات"
+
+msgid "Manage Workspaces"
+msgstr "إدارة مساحات العمل"
+
+msgid "Manage priority"
+msgstr "إدارة الأولوية"
+
+msgid "Manage your profile information and display picture."
+msgstr "أدر معلومات ملفك الشخصي وصورة العرض."
+
+#, python-brace-format
+msgid "Manage {0} Dock"
+msgstr "إدارة شريط إرساء {0}"
+
+#, python-brace-format
+msgid "Manage {0} Sidebar"
+msgstr "إدارة الشريط الجانبي لـ {0}"
+
+msgid "Manual"
+msgstr "يدوي"
+
+msgid "Map To"
+msgstr "الربط إلى"
+
+msgid "Map each file column to a field. Save to apply changes."
+msgstr "اربط كل عمود في الملف بحقل. احفظ لتطبيق التغييرات."
+
+msgid "Mapping warnings"
+msgstr "تحذيرات الربط"
+
+msgid "Mappings"
+msgstr "الروابط"
+
+msgid "Margin"
+msgstr "الهامش"
+
+msgid "Margins"
+msgstr "الهوامش"
+
+msgid "Mark as Standard"
+msgstr "تعيين كقياسي"
+
+msgid "Mark as group"
+msgstr "تعيين كمجموعة"
+
+msgid "Mark as leaf"
+msgstr "تعيين كعنصر نهائي"
+
+msgid ""
+"Marks this DocType as deprecated. It will continue to work, but users will be warned "
+"against using it."
+msgstr "يُعلِّم نوع المستند هذا كمُهمَل. سيستمر في العمل، لكن سيُحذَّر المستخدمون من استخدامه."
+
+msgid "Match Fields"
+msgstr "مطابقة الحقول"
+
+msgid "Matched"
+msgstr "مطابَق"
+
+msgid "Matches the event name passed to emit()."
+msgstr "يطابق اسم الحدث المُمرَّر إلى emit()."
+
+msgid "Max Bulk Print Documents"
+msgstr "الحد الأقصى لمستندات الطباعة المجمّعة"
+
+msgid "Max Concurrent Bulk Exports Per User"
+msgstr "الحد الأقصى لعمليات التصدير المجمّع المتزامنة لكل مستخدم"
+
+msgid "Maximum Attempts"
+msgstr "الحد الأقصى للمحاولات"
+
+msgid "Maximum Recursion Depth"
+msgstr "الحد الأقصى لعمق التكرار"
+
+msgid ""
+"Maximum number of bulk PDF export jobs a single user can have queued or running at "
+"once."
+msgstr ""
+"الحد الأقصى لعدد مهام تصدير PDF المجمّع التي يمكن أن تكون لمستخدم واحد في قائمة "
+"الانتظار أو قيد التشغيل في آن واحد."
+
+msgid "Maximum number of documents that can be combined into a single bulk PDF export."
+msgstr "الحد الأقصى لعدد المستندات التي يمكن دمجها في تصدير PDF مجمّع واحد."
+
+msgid "Merge fields"
+msgstr "دمج الحقول"
+
+msgid "Merged From"
+msgstr "مدموج من"
+
+msgid "Merged table columns"
+msgstr "أعمدة جدول مدموجة"
+
+msgid "Message (default, no icon)"
+msgstr "رسالة (افتراضية، بلا أيقونة)"
+
+msgid "Min height"
+msgstr "الحد الأدنى للارتفاع"
+
+msgid "Minimize"
+msgstr "تصغير"
+
+msgid "Minimum 8 characters, including at least one number or special character."
+msgstr "8 أحرف على الأقل، منها رقم أو رمز خاص واحد على الأقل."
+
+msgid "Mixed"
+msgstr "مختلط"
+
+msgid "Modified"
+msgstr "التعديل"
+
+msgid "Module is required for a standard Kanban Board"
+msgstr "الوحدة مطلوبة للوحة كانبان القياسية"
+
+msgid "Module is required for a standard Print Format Snippet"
+msgstr "الوحدة مطلوبة لمقتطف تنسيق الطباعة القياسي"
+
+msgid "Module is required for a standard Print Template"
+msgstr "الوحدة مطلوبة لقالب الطباعة القياسي"
+
+msgid "Module is required for a standard layout"
+msgstr "الوحدة مطلوبة للتخطيط القياسي"
+
+#, python-brace-format
+msgid "Module {0} has no folder in an app, so a standard sidebar cannot be written to it."
+msgstr "ليس للوحدة {0} مجلد في أي تطبيق، لذا لا يمكن كتابة شريط جانبي قياسي فيها."
+
+#, python-brace-format
+msgid "Module {0} is now shipped by {1}; this site's module of that name is now {2}."
+msgstr ""
+"أصبحت الوحدة {0} مُضمَّنة الآن مع {1}؛ والوحدة التي تحمل هذا الاسم في هذا الموقع "
+"أصبحت {2}."
+
+msgid "More actions"
+msgstr "إجراءات أخرى"
+
+msgid "More options"
+msgstr "خيارات أخرى"
+
+msgid "More send options"
+msgstr "خيارات إرسال أخرى"
+
+msgid "Mount On"
+msgstr "التركيب على"
+
+msgid "Move to..."
+msgstr "نقل إلى..."
+
+msgid "Move to…"
+msgstr "نقل إلى…"
+
+#, python-brace-format
+msgid "Move {0}"
+msgstr "نقل {0}"
+
+#, python-brace-format
+msgid "Moving {0}"
+msgstr "جارٍ نقل {0}"
+
+msgid "Multiple actions (create button + docs link)"
+msgstr "إجراءات متعددة (زر إنشاء + رابط التوثيق)"
+
+msgid "Mute sounds"
+msgstr "كتم الأصوات"
+
+msgid "Muted"
+msgstr "باهت"
+
+msgid "My Space"
+msgstr "مساحتي"
+
+msgid "Named record alias this action operates on."
+msgstr "الاسم المستعار للسجل الذي يعمل عليه هذا الإجراء."
+
+msgid "Naming Rules"
+msgstr "قواعد التسمية"
+
+msgid "Narrow down the list."
+msgstr "ضيّق القائمة."
+
+msgid "Navigation on the desktop has two modes:"
+msgstr "للتنقل في سطح المكتب وضعان:"
+
+msgid "New Format Name"
+msgstr "اسم التنسيق الجديد"
+
+msgid "New Kanban"
+msgstr "كانبان الجديد"
+
+msgid "New Parent"
+msgstr "الأصل الجديد"
+
+msgid "New Print Format"
+msgstr "تنسيق طباعة جديد"
+
+msgid "New Role Name"
+msgstr "اسم الصلاحية الجديدة"
+
+msgid "New Template"
+msgstr "قالب جديد"
+
+msgid "New Workflow"
+msgstr "سير عمل جديد"
+
+msgid "New login to the Administrator account"
+msgstr "تسجيل دخول جديد إلى حساب المسؤول"
+
+msgid "New role created successfully."
+msgstr "أُنشئت الصلاحية الجديدة بنجاح."
+
+msgid "Next Run"
+msgstr "التشغيل التالي"
+
+msgid "Next page"
+msgstr "الصفحة التالية"
+
+msgid "Next step"
+msgstr "الخطوة التالية"
+
+#, python-brace-format
+msgid "Next: {0}"
+msgstr "التالي: {0}"
+
+msgid "No Email Templates found"
+msgstr "لم يُعثر على قوالب بريد إلكتروني"
+
+msgid "No HTML content yet."
+msgstr "لا يوجد محتوى HTML بعد."
+
+msgid "No Kanban Board specified."
+msgstr "لم تُحدَّد لوحة كانبان."
+
+msgid "No New Notifications"
+msgstr "لا توجد إشعارات جديدة"
+
+msgid "No Print Formats found"
+msgstr "لم يُعثر على تنسيقات طباعة"
+
+msgid "No Role Profiles include this role."
+msgstr "لا توجد ملفات صلاحيات تتضمن هذه الصلاحية."
+
+msgid "No Workflows found"
+msgstr "لم يُعثر على مسارات عمل"
+
+msgid "No access"
+msgstr "لا يوجد وصول"
+
+msgid "No actions available"
+msgstr "لا توجد إجراءات متاحة"
+
+#, python-brace-format
+msgid "No active user found with email address {0}"
+msgstr "لم يُعثر على مستخدم نشط بعنوان البريد الإلكتروني {0}"
+
+msgid "No addresses added yet"
+msgstr "لم تُضَف عناوين بعد"
+
+msgid "No available parents"
+msgstr "لا توجد عناصر أصل متاحة"
+
+msgid "No barcode value — set one in the panel"
+msgstr "لا توجد قيمة للرمز الشريطي — عيّنها في اللوحة"
+
+msgid "No cards to group."
+msgstr "لا توجد بطاقات للتجميع."
+
+msgid "No charts or cards yet"
+msgstr "لا توجد مخططات أو بطاقات بعد"
+
+msgid "No columns configured"
+msgstr "لم تُضبط أعمدة"
+
+msgid "No contact details"
+msgstr "لا توجد تفاصيل اتصال"
+
+msgid "No contacts added yet"
+msgstr "لم تُضَف جهات اتصال بعد"
+
+msgid "No data yet"
+msgstr "لا توجد بيانات بعد"
+
+msgid "No delay"
+msgstr "بلا تأخير"
+
+msgid "No document available to preview"
+msgstr "لا يوجد مستند متاح للمعاينة"
+
+msgid "No document to preview"
+msgstr "لا يوجد مستند للمعاينة"
+
+msgid "No documents added."
+msgstr "لم تُضَف مستندات."
+
+msgid "No documents found."
+msgstr "لم يُعثر على مستندات."
+
+msgid ""
+"No email account associated with the User. Please add an account under User > "
+"Settings > User Emails."
+msgstr ""
+"لا يوجد حساب بريد إلكتروني مرتبط بالمستخدم. يُرجى إضافة حساب من المستخدم > الإعدادات "
+"> رسائل المستخدم."
+
+msgid "No error log found for this import."
+msgstr "لم يُعثر على سجل أخطاء لهذا الاستيراد."
+
+msgid "No failed log entries"
+msgstr "لا توجد قيود فاشلة في السجل"
+
+msgid "No fields match"
+msgstr "لا توجد حقول مطابقة"
+
+msgid "No filters available for this report"
+msgstr "لا توجد عوامل تصفية متاحة لهذا التقرير"
+
+msgid "No image — set one in the panel"
+msgstr "لا توجد صورة — عيّنها في اللوحة"
+
+msgid "No issues to fix"
+msgstr "لا توجد مشكلات لمعالجتها"
+
+msgid "No letter head"
+msgstr "بلا ترويسة رسالة"
+
+msgid "No linked field set"
+msgstr "لم يُعيَّن حقل مرتبط"
+
+msgid "No matching field"
+msgstr "لا يوجد حقل مطابق"
+
+msgid "No matching records"
+msgstr "لا توجد سجلات مطابقة"
+
+msgid "No matching records."
+msgstr "لا توجد سجلات مطابقة."
+
+msgid "No module"
+msgstr "بلا وحدة"
+
+msgid "No notifications configured"
+msgstr "لم تُضبط إشعارات"
+
+msgid "No options"
+msgstr "لا توجد خيارات"
+
+msgid "No pages found."
+msgstr "لم يُعثر على صفحات."
+
+msgid "No pre-upgrade edits to standard workspaces were found."
+msgstr "لم يُعثر على تعديلات سابقة للترقية على مساحات العمل القياسية."
+
+#, python-brace-format
+msgid "No pre-upgrade layout edit is recorded for {0}."
+msgstr "لا يوجد تعديل تخطيط سابق للترقية مسجّل لـ {0}."
+
+msgid "No preview data for this row"
+msgstr "لا توجد بيانات معاينة لهذا الصف"
+
+msgid "No printable fields"
+msgstr "لا توجد حقول قابلة للطباعة"
+
+msgid "No private workspaces yet"
+msgstr "لا توجد مساحات عمل خاصة بعد"
+
+msgid "No problem. You can try it anytime from Desktop Settings."
+msgstr "لا بأس. يمكنك تجربته في أي وقت من إعدادات سطح المكتب."
+
+msgid "No recipients to notify"
+msgstr "لا يوجد مستلمون لإشعارهم"
+
+msgid "No records found."
+msgstr "لم يُعثر على سجلات."
+
+msgid "No related settings"
+msgstr "لا توجد إعدادات ذات صلة"
+
+msgid "No reports found."
+msgstr "لم يُعثر على تقارير."
+
+msgid "No results"
+msgstr "لا توجد نتائج"
+
+msgid "No roles have access yet."
+msgstr "لا توجد صلاحيات لها وصول بعد."
+
+msgid "No rows were imported"
+msgstr "لم يُستورد أي صف"
+
+msgid "No rules found."
+msgstr "لم يُعثر على قواعد."
+
+msgid "No saved layouts yet"
+msgstr "لا توجد تخطيطات محفوظة بعد"
+
+msgid "No sections yet"
+msgstr "لا توجد أقسام بعد"
+
+msgid "No session defaults configured."
+msgstr "لم تُضبط قيم افتراضية للجلسة."
+
+#, python-brace-format
+msgid "No settings from other areas are linked to {0}."
+msgstr "لا توجد إعدادات من مناطق أخرى مرتبطة بـ {0}."
+
+msgid "No source table selected"
+msgstr "لم يُحدَّد جدول مصدر"
+
+msgid "No successful log entries"
+msgstr "لا توجد قيود ناجحة في السجل"
+
+msgid "No templates"
+msgstr "لا توجد قوالب"
+
+msgid "No thanks"
+msgstr "لا، شكرًا"
+
+msgid "No user permissions yet."
+msgstr "لا توجد أذونات مستخدمين بعد."
+
+msgid "No users have this role."
+msgstr "لا يوجد مستخدمون لديهم هذه الصلاحية."
+
+msgid "No valid tree nodes found in the import file."
+msgstr "لم يُعثر على عقد شجرة صالحة في ملف الاستيراد."
+
+msgid "No value to encode"
+msgstr "لا توجد قيمة للترميز"
+
+msgid "No warnings or mapping issues were found. You can continue to import."
+msgstr "لم يُعثر على تحذيرات أو مشكلات ربط. يمكنك متابعة الاستيراد."
+
+msgid "No workspaces found."
+msgstr "لم يُعثر على مساحات عمل."
+
+msgid "No workspaces in this module."
+msgstr "لا توجد مساحات عمل في هذه الوحدة."
+
+#, python-brace-format
+msgid "No {0} created"
+msgstr "لم يُنشأ أي {0}"
+
+#, python-brace-format
+msgid "No {0} records yet"
+msgstr "لا توجد سجلات {0} بعد"
+
+msgid "No."
+msgstr "الرقم"
+
+msgid "No. of Rows"
+msgstr "عدد الصفوف"
+
+msgid "Not Editable"
+msgstr "غير قابل للتعديل"
+
+msgid "Not a builder format"
+msgstr "ليس تنسيقًا من المنشئ"
+
+msgid "Not imported:"
+msgstr "لم يُستورد:"
+
+msgid "Not in any app"
+msgstr "ليس في أي تطبيق"
+
+msgid "Not printed: no values for this record"
+msgstr "لا يُطبع: لا توجد قيم لهذا السجل"
+
+msgid "Not set"
+msgstr "غير معيّن"
+
+msgid "Not yet overwritten"
+msgstr "لم يُستبدل بعد"
+
+msgid "Not your workspace"
+msgstr "ليست مساحة عملك"
+
+msgid "Nothing has been added yet."
+msgstr "لم يُضَف شيء بعد."
+
+msgid "Nothing here yet"
+msgstr "لا شيء هنا بعد"
+
+msgid "Nothing left to navigate to"
+msgstr "لم يبقَ شيء للانتقال إليه"
+
+msgid "Nothing on the dock"
+msgstr "لا شيء على شريط الإرساء"
+
+msgid "Nothing on the sidebar"
+msgstr "لا شيء على الشريط الجانبي"
+
+msgid "Nothing to paste"
+msgstr "لا شيء للصق"
+
+msgid "Nothing to restore"
+msgstr "لا شيء للاستعادة"
+
+msgid "Notification categories"
+msgstr "فئات الإشعارات"
+
+#, python-brace-format
+msgid "Notified {0}"
+msgstr "أُشعِر {0}"
+
+msgid "Null = run as soon as possible. Used by waits and date/cron triggers."
+msgstr "فارغ = التشغيل في أقرب وقت ممكن. تستخدمه فترات الانتظار ومشغّلات التاريخ وCron."
+
+msgid "Numbered list"
+msgstr "قائمة مرقّمة"
+
+msgid ""
+"One entry on the dock. `link_type` says what kind of thing it opens, and each kind "
+"answers the two questions a click asks -- which page comes up and which shell comes "
+"up beside it -- in its own way. A `Sidebar` row *is* the shell: it selects that "
+"sidebar and opens its landing route. A `Workspace` row opens a page and derives its "
+"shell from the module that owns it. A `URL` row leaves the desk and has no shell at "
+"all. Every row also carries its own `icon` and `title`, so the rail reads the way its"
+" author wrote it -- blank at an upper layer means inherit. What a row points at *is* "
+"its identity, and none of it is stored: re-labelling cannot detach a row from itself,"
+" and re-pointing is not an edit but a different row. The same rows at all three "
+"layers -- the app's own dock, the site's arrangement and one person's -- told apart "
+"by the parent `Dock`, never by the row."
+msgstr ""
+"عنصر واحد على شريط الإرساء. يحدد `link_type` نوع ما يفتحه، ويجيب كل نوع بطريقته عن "
+"السؤالين اللذين تطرحهما النقرة -- أي صفحة تظهر وأي إطار يظهر بجانبها. صف `Sidebar` "
+"*هو* الإطار: يختار ذلك الشريط الجانبي ويفتح مساره الرئيسي. صف `Workspace` يفتح صفحة "
+"ويستمد إطاره من الوحدة التي تملكها. صف `URL` يغادر سطح المكتب ولا إطار له إطلاقًا. "
+"يحمل كل صف أيضًا `icon` و`title` خاصين به، ليظهر الشريط كما كتبه مؤلفه -- والفارغ في "
+"طبقة أعلى يعني التوارث. ما يشير إليه الصف *هو* هويته، ولا يُخزَّن شيء منه: لا يمكن أن"
+" تفصل إعادة التسمية صفًا عن نفسه، وتغيير الإشارة ليس تعديلًا بل صفًا مختلفًا. الصفوف "
+"نفسها في الطبقات الثلاث -- شريط إرساء التطبيق نفسه، وترتيب الموقع، وترتيب الشخص -- "
+"ويُميَّز بينها بـ `Dock` الأصل، لا بالصف أبدًا."
+
+msgid ""
+"One layer of one app's dock. Three of them share this table, told apart by `app`, "
+"`user` and `standard`: the app's own dock, which an app ships as an exported document"
+" and a developer authors; the site's arrangement of it, curated by a Workspace "
+"Manager and applying to everyone; and one person's own, applied last and winning. A "
+"dock belongs to an app, so arranging ERPNext's rail does not touch frappe's -- and a "
+"layer is addressed by app plus user rather than by user alone. Same shape at all "
+"three, because the rows are identical and the parent is what says whose they are; see"
+" `Custom Sidebar`, which layers a sidebar the same way in a table of its own."
+msgstr ""
+"طبقة واحدة من شريط إرساء تطبيق واحد. تتشارك ثلاث طبقات هذا الجدول، ويُميَّز بينها بـ "
+"`app` و`user` و`standard`: شريط الإرساء الخاص بالتطبيق، الذي يُضمِّنه التطبيق كمستند "
+"مُصدَّر ويؤلفه المطوّر؛ وترتيب الموقع له، الذي يتولاه مدير مساحة العمل وينطبق على "
+"الجميع؛ وترتيب الشخص الخاص، الذي يُطبَّق أخيرًا ويغلب. ينتمي شريط الإرساء إلى تطبيق، "
+"فترتيب شريط ERPNext لا يمس شريط frappe -- ويُحدَّد الطبقة بالتطبيق والمستخدم معًا لا "
+"بالمستخدم وحده. الشكل نفسه في الطبقات الثلاث، لأن الصفوف متطابقة والأصل هو ما يحدد "
+"لمن هي؛ راجع `Custom Sidebar`، الذي يرتّب طبقات الشريط الجانبي بالطريقة نفسها في جدول"
+" خاص به."
+
+msgid ""
+"One ordered list holding both references to base items (`added` unset -- non-empty "
+"fields override, empty fields mean no opinion) and items this layer added (`added` "
+"set -- full items, rendered as they stand). Row order is the arrangement; base items "
+"not named here keep their base order and follow the ones that are, which is how a "
+"newly installed app's items still reach someone who has already reordered."
+msgstr ""
+"قائمة مرتبة واحدة تضم الإشارات إلى العناصر الأساسية (`added` غير معيّن -- الحقول غير "
+"الفارغة تتجاوز، والفارغة لا تغيّر شيئًا) والعناصر التي أضافتها هذه الطبقة (`added` "
+"معيّن -- عناصر كاملة تُعرض كما هي). ترتيب الصفوف هو الترتيب المعتمد؛ والعناصر "
+"الأساسية غير المذكورة هنا تحتفظ بترتيبها الأساسي وتأتي بعد المذكورة، وبهذا تصل عناصر "
+"التطبيق المثبّت حديثًا إلى من أعاد الترتيب مسبقًا."
+
+msgid "Only a System Manager can write a script step"
+msgstr "لا يستطيع كتابة خطوة برمجية إلا مدير النظام"
+
+msgid "Only a new Kanban Board can be made standard"
+msgstr "لا يمكن جعل لوحة كانبان قياسية إلا إذا كانت جديدة"
+
+msgid "Only a new list layout can be made standard"
+msgstr "لا يمكن جعل تخطيط القائمة قياسيًا إلا إذا كان جديدًا"
+
+#, python-brace-format
+msgid "Only an {0} Server Script can be run from a flow"
+msgstr "لا يمكن تشغيل إلا سكربت خادم من نوع {0} من التدفق"
+
+#, python-brace-format
+msgid "Only files up to {0} MB are supported for preview."
+msgstr "المعاينة مدعومة فقط للملفات التي لا يتجاوز حجمها {0} ميغابايت."
+
+msgid "Only if Creator"
+msgstr "فقط إذا كان المنشئ"
+
+msgid ""
+"Only meaningful on a `Custom Sidebar` row referring to a base item that has no link "
+"-- a Section Break or a spacer -- which is the one kind of row with nothing else to "
+"name it by. A base row stores none: an unlinked one is identified by a hash of its "
+"type and label, and a linked one by its own link columns, which is what lets a rename"
+" repair the base row and the customization naming it together."
+msgstr ""
+"ذو معنى فقط في صف `Custom Sidebar` يشير إلى عنصر أساسي بلا رابط -- فاصل قسم أو مسافة "
+"-- وهو النوع الوحيد من الصفوف الذي لا شيء آخر يُسمّى به. الصف الأساسي لا يخزّن شيئًا:"
+" غير المرتبط يُعرَّف بتجزئة نوعه وتسميته، والمرتبط بأعمدة رابطه، وهذا ما يتيح لإعادة "
+"التسمية إصلاح الصف الأساسي والتخصيص الذي يسمّيه معًا."
+
+msgid ""
+"Only meaningful on a `Custom Sidebar`, where a row is either a reference to a base "
+"item or an item the site or the user added."
+msgstr ""
+"ذو معنى فقط في `Custom Sidebar`، حيث يكون الصف إما إشارة إلى عنصر أساسي أو عنصرًا "
+"أضافه الموقع أو المستخدم."
+
+msgid "Only own"
+msgstr "الخاص به فقط"
+
+msgid "Only standard (app-shipped) workspaces can be customized."
+msgstr "لا يمكن تخصيص إلا مساحات العمل القياسية (المُضمَّنة مع التطبيقات)."
+
+msgid "Only to you"
+msgstr "لك فقط"
+
+msgid "Open Role Permissions Manager"
+msgstr "فتح مدير أذونات الصلاحيات"
+
+msgid ""
+"Open a linked document in a side panel instead of navigating away from the report. "
+"Not available on mobile."
+msgstr "افتح المستند المرتبط في لوحة جانبية بدلًا من مغادرة التقرير. غير متاح على الجوال."
+
+msgid "Open file"
+msgstr "فتح الملف"
+
+msgid "Open file in new tab"
+msgstr "فتح الملف في علامة تبويب جديدة"
+
+msgid "Open in Desk"
+msgstr "فتح في سطح المكتب"
+
+msgid "Open in New Tab"
+msgstr "فتح في علامة تبويب جديدة"
+
+msgid "Open in full page"
+msgstr "فتح في صفحة كاملة"
+
+msgid "Open linked documents in a side panel instead of navigating away from the report."
+msgstr "افتح المستندات المرتبطة في لوحة جانبية بدلًا من مغادرة التقرير."
+
+msgid "Open the app dock"
+msgstr "فتح شريط إرساء التطبيقات"
+
+msgid ""
+"Open this board in the new Kanban experience. When off, the classic Kanban is used. "
+"Same List / Kanban route either way."
+msgstr ""
+"افتح هذه اللوحة في تجربة كانبان الجديدة. عند إيقافه، يُستخدم كانبان الكلاسيكي. المسار"
+" List / Kanban نفسه في الحالتين."
+
+#, python-brace-format
+msgid "Open {0} Workspace"
+msgstr "فتح مساحة عمل {0}"
+
+msgid "Opening settings..."
+msgstr "جارٍ فتح الإعدادات..."
+
+msgid "Opens the module's home and shows its sidebar."
+msgstr "يفتح الصفحة الرئيسية للوحدة ويعرض شريطها الجانبي."
+
+msgid "Optional"
+msgstr "اختياري"
+
+msgid "Optional alias for the destination reference returned by this action."
+msgstr "اسم مستعار اختياري للمرجع الوجهة الذي يُرجعه هذا الإجراء."
+
+msgid "Optional heading"
+msgstr "عنوان اختياري"
+
+msgid "Optional. Checked against a related record."
+msgstr "اختياري. يُتحقق منه مقابل سجل مرتبط."
+
+msgid ""
+"Optional. For logic the match fields cannot express, such as OR groups. The document "
+"is available as <code>doc</code>; the match fields and this expression must all be "
+"true."
+msgstr ""
+"اختياري. للمنطق الذي لا تستطيع حقول المطابقة التعبير عنه، مثل مجموعات OR. المستند "
+"متاح باسم <code>doc</code>؛ ويجب أن تتحقق حقول المطابقة وهذا التعبير جميعًا."
+
+msgid "Optional. The step runs only if this expression is true."
+msgstr "اختياري. لا تعمل الخطوة إلا إذا كان هذا التعبير صحيحًا."
+
+msgid ""
+"Optional. When set, the card shows this icon and the label on hover; when empty, the "
+"label is shown directly."
+msgstr ""
+"اختياري. عند تعيينه، تعرض البطاقة هذه الأيقونة والتسمية عند التمرير؛ وعند تركه "
+"فارغًا، تُعرض التسمية مباشرة."
+
+msgid "Or copy and paste:"
+msgstr "أو انسخ والصق:"
+
+msgid "Or skip rows instead"
+msgstr "أو تخطَّ الصفوف بدلًا من ذلك"
+
+msgid "Output Alias"
+msgstr "الاسم المستعار للمخرجات"
+
+msgid "Override Sidebar Position"
+msgstr "تجاوز موضع الشريط الجانبي"
+
+msgid ""
+"Override whether the standard workspace is shown. \"Inherit\" keeps the app-shipped "
+"value."
+msgstr "تجاوز ظهور مساحة العمل القياسية. \"توارث\" يُبقي القيمة المُضمَّنة مع التطبيق."
+
+msgid "Overrides the dock label for this module."
+msgstr "يتجاوز تسمية شريط الإرساء لهذه الوحدة."
+
+msgid "Overwritten"
+msgstr "مُستبدَل"
+
+msgid ""
+"Owned by an app: exported to its module's folder -- or to the app's own folder when "
+"it has no module -- and re-imported by migrate. Set via the Mark as Standard action, "
+"not by hand -- a standard sidebar with no exported file is an orphan and gets deleted"
+" on the next migrate. Everything else belongs to this site, however it got here."
+msgstr ""
+"مملوك لتطبيق: يُصدَّر إلى مجلد وحدته -- أو إلى مجلد التطبيق نفسه إن لم تكن له وحدة --"
+" ويُعاد استيراده عند الترحيل. يُعيَّن عبر إجراء «تعيين كقياسي»، لا يدويًا -- فالشريط "
+"الجانبي القياسي بلا ملف مُصدَّر يتيم ويُحذف عند الترحيل التالي. كل ما سوى ذلك ينتمي "
+"إلى هذا الموقع، أيًّا كانت طريقة وصوله."
+
+msgid ""
+"Owned by the app: exported to `<app>/dock/<app>/<app>.json` and re-imported by "
+"migrate. This is the app layer, and the layer the other two are laid over. Ordinarily"
+" set via the Export to App action rather than by hand, which is why it is writable "
+"only in developer mode -- a standard dock with no exported file is an orphan and gets"
+" deleted on the next migrate."
+msgstr ""
+"مملوك للتطبيق: يُصدَّر إلى `<app>/dock/<app>/<app>.json` ويُعاد استيراده عند الترحيل."
+" هذه طبقة التطبيق، والطبقة التي توضع الطبقتان الأخريان فوقها. يُعيَّن عادةً عبر إجراء"
+" «تصدير إلى التطبيق» لا يدويًا، ولهذا لا يمكن تعديله إلا في وضع المطوّر -- فشريط "
+"الإرساء القياسي بلا ملف مُصدَّر يتيم ويُحذف عند الترحيل التالي."
+
+msgid "PDF encryption is not supported by the Typst renderer"
+msgstr "تشفير PDF غير مدعوم في محرك عرض Typst"
+
+msgid "PDF renderer"
+msgstr "محرك عرض PDF"
+
+msgid "Padding"
+msgstr "الحشوة"
+
+msgid "Page break must follow a section"
+msgstr "يجب أن يأتي فاصل الصفحة بعد قسم"
+
+msgid "Page numbers"
+msgstr "أرقام الصفحات"
+
+#, python-brace-format
+msgid "Page size: {0}"
+msgstr "حجم الصفحة: {0}"
+
+msgid "Pages"
+msgstr "الصفحات"
+
+msgid "Pages this role can access."
+msgstr "الصفحات التي يمكن لهذه الصلاحية الوصول إليها."
+
+msgid "Paragraph"
+msgstr "فقرة"
+
+msgid "Parameters"
+msgstr "المعلمات"
+
+msgid "Parent Step"
+msgstr "الخطوة الأصل"
+
+#, python-brace-format
+msgid "Parent {0} not found in file"
+msgstr "لم يُعثر على الأصل {0} في الملف"
+
+msgid "Partially Failed"
+msgstr "فشل جزئيًا"
+
+#, python-brace-format
+msgid "Pass either an existing {0} name or a {1} to import into."
+msgstr "مرّر إما اسم {0} موجود أو {1} للاستيراد إليه."
+
+msgid "Password changed"
+msgstr "تم تغيير كلمة المرور"
+
+msgid ""
+"Path to the template file inside the app, e.g. "
+"templates/print_formats/my_template.html"
+msgstr "مسار ملف القالب داخل التطبيق، مثل templates/print_formats/my_template.html"
+
+msgid "Payload for custom emit() events."
+msgstr "الحمولة لأحداث emit() المخصصة."
+
+msgid ""
+"Per-row parent / is_group overrides for tree DocType imports, keyed by sheet row "
+"number. Applied at import time."
+msgstr ""
+"تجاوزات parent / is_group لكل صف في استيراد أنواع المستندات الشجرية، مفهرسة برقم الصف"
+" في الورقة. تُطبَّق وقت الاستيراد."
+
+msgid "Permission added."
+msgstr "أُضيف الإذن."
+
+msgid "Permission removed."
+msgstr "أُزيل الإذن."
+
+msgid "Permission row not found after add. Please refresh."
+msgstr "لم يُعثر على صف الإذن بعد الإضافة. يُرجى التحديث."
+
+msgid "Permission row not found after conversion. Please refresh."
+msgstr "لم يُعثر على صف الإذن بعد التحويل. يُرجى التحديث."
+
+msgid "Permission updated."
+msgstr "حُدِّث الإذن."
+
+msgid "Permissions for this doctype have been customized."
+msgstr "خُصِّصت الأذونات لنوع المستند هذا."
+
+msgid "Permissions reset"
+msgstr "أُعيد تعيين الأذونات"
+
+msgid "Pick a Server Script or write one here, not both"
+msgstr "اختر سكربت خادم أو اكتب واحدًا هنا، وليس كليهما"
+
+msgid "Pick a Server Script, or write one here"
+msgstr "اختر سكربت خادم، أو اكتب واحدًا هنا"
+
+msgid "Pick a module"
+msgstr "اختر وحدة"
+
+msgid "Pick a record in the toolbar above to preview it."
+msgstr "اختر سجلًا في شريط الأدوات أعلاه لمعاينته."
+
+msgid "Pick a source table"
+msgstr "اختر جدولًا مصدرًا"
+
+#, python-brace-format
+msgid "Pick a {0} to preview..."
+msgstr "اختر {0} للمعاينة..."
+
+msgid "Pick another title"
+msgstr "اختر عنوانًا آخر"
+
+msgid "Pick something for it to open."
+msgstr "اختر شيئًا ليفتحه."
+
+msgid "Pilot returned an invalid domain."
+msgstr "أعاد Pilot نطاقًا غير صالح."
+
+msgid "Pinned sits beside the sidebar. Floating slides in from the left edge."
+msgstr "المثبّت يبقى بجانب الشريط الجانبي. والعائم ينزلق من الحافة اليسرى."
+
+msgid "Placement"
+msgstr "الموضع"
+
+msgid "Placement and empty state"
+msgstr "الموضع والحالة الفارغة"
+
+msgid "Plain"
+msgstr "عادي"
+
+msgid "Plain text (strings render as text, never HTML)"
+msgstr "نص عادي (تُعرض السلاسل نصًا، وليس HTML أبدًا)"
+
+msgid "Play video"
+msgstr "تشغيل الفيديو"
+
+msgid "Please attach an import file or provide a Google Sheets URL."
+msgstr "يُرجى إرفاق ملف استيراد أو تقديم رابط Google Sheets."
+
+msgid "Please configure the start field for this Doctype in the controller file."
+msgstr "يُرجى ضبط حقل البداية لنوع المستند هذا في ملف المتحكم."
+
+msgid "Please enter a valid URL"
+msgstr "يُرجى إدخال رابط صالح"
+
+msgid "Please select Document Type and Import Type."
+msgstr "يُرجى اختيار نوع المستند ونوع الاستيراد."
+
+msgid "Please select a Document Type first"
+msgstr "يُرجى اختيار نوع مستند أولًا"
+
+msgid "Please select a Report first"
+msgstr "يُرجى اختيار تقرير أولًا"
+
+msgid "Please set at least one filter: User or DocType"
+msgstr "يُرجى تعيين عامل تصفية واحد على الأقل: المستخدم أو نوع المستند"
+
+#, python-brace-format
+msgid "Please {0}, click on the three dots (⋯) and select Manage to configure it."
+msgstr "يُرجى {0}، والنقر على النقاط الثلاث (⋯) واختيار «إدارة» لضبطها."
+
+msgid "Poor"
+msgstr "ضعيفة"
+
+msgid "Pre-filled with all document fields. Customize from there."
+msgstr "مملوء مسبقًا بجميع حقول المستند. خصّصه من هناك."
+
+msgid "Preferences"
+msgstr "التفضيلات"
+
+msgid "Prefix and suffix (rich content per option)"
+msgstr "بادئة ولاحقة (محتوى غني لكل خيار)"
+
+msgid "Prefix, suffix and icon-only crumbs"
+msgstr "بادئة ولاحقة ومسارات بأيقونات فقط"
+
+msgid "Preparing import..."
+msgstr "جارٍ تجهيز الاستيراد..."
+
+msgid "Preview Fields"
+msgstr "حقول المعاينة"
+
+msgid "Preview not available for this file type."
+msgstr "المعاينة غير متاحة لنوع الملف هذا."
+
+#, python-brace-format
+msgid "Preview: {0}"
+msgstr "معاينة: {0}"
+
+msgid "Previous page"
+msgstr "الصفحة السابقة"
+
+msgid "Previous step"
+msgstr "الخطوة السابقة"
+
+msgid "Print Format Snippet"
+msgstr "مقتطف تنسيق الطباعة"
+
+msgid "Print Formats"
+msgstr "تنسيقات الطباعة"
+
+msgid "Print Settings updated"
+msgstr "حُدِّثت إعدادات الطباعة"
+
+msgid "Print format"
+msgstr "تنسيق الطباعة"
+
+msgid "Print if empty"
+msgstr "الطباعة إذا كان فارغًا"
+
+msgid "Product engineer. Writes the release notes nobody reads."
+msgstr "مهندس منتجات. يكتب ملاحظات الإصدار التي لا يقرؤها أحد."
+
+msgid "Profiles"
+msgstr "الملفات الشخصية"
+
+msgid "Progress summary"
+msgstr "ملخص التقدم"
+
+msgid "Promise that fails"
+msgstr "وعد يفشل"
+
+msgid "Promise that succeeds"
+msgstr "وعد ينجح"
+
+msgid "Protect"
+msgstr "حماية"
+
+msgid "Published version"
+msgstr "الإصدار المنشور"
+
+#, python-brace-format
+msgid ""
+"Put <b>{0}</b> back to the sidebar its app ships? This removes the site's arrangement"
+" and every person's own, so nobody keeps a customization of this module."
+msgstr ""
+"إعادة <b>{0}</b> إلى الشريط الجانبي الذي يوفره تطبيقه؟ سيؤدي ذلك إلى إزالة ترتيب "
+"الموقع وترتيب كل شخص الخاص، فلا يبقى لأحد تخصيص لهذه الوحدة."
+
+msgid ""
+"Put this sidebar back to the site's arrangement? Everything you have arranged here is"
+" dropped."
+msgstr "إعادة هذا الشريط الجانبي إلى ترتيب الموقع؟ سيُسقط كل ما رتّبته هنا."
+
+msgid ""
+"Put this sidebar back to what the apps ship? Everything the site has arranged here is"
+" dropped, for everyone."
+msgstr ""
+"إعادة هذا الشريط الجانبي إلى ما توفره التطبيقات؟ سيُسقط كل ما رتّبه الموقع هنا، "
+"للجميع."
+
+msgid "Queue Retention Days"
+msgstr "أيام الاحتفاظ بقائمة الانتظار"
+
+msgid "Quick List"
+msgstr "قائمة سريعة"
+
+msgid "Radius"
+msgstr "نصف القطر"
+
+msgid "Ran script"
+msgstr "شُغِّل السكربت"
+
+msgid "Raw HTML or Jinja template"
+msgstr "قالب HTML أو Jinja خام"
+
+msgid "Raw Typst markup"
+msgstr "ترميز Typst خام"
+
+msgid "Re-check filters and condition in the worker before executing."
+msgstr "أعد التحقق من عوامل التصفية والشرط في العامل قبل التنفيذ."
+
+msgid "Read the migration guide"
+msgstr "اقرأ دليل الترحيل"
+
+msgid "Receive a copy of every email you send in your inbox."
+msgstr "استلم نسخة من كل رسالة بريد إلكتروني ترسلها في صندوق الوارد."
+
+msgid "Recent activity"
+msgstr "النشاط الأخير"
+
+msgid "Record alias could not be resolved"
+msgstr "تعذّر حل الاسم المستعار للسجل"
+
+msgid "Records you add will appear here."
+msgstr "ستظهر هنا السجلات التي تضيفها."
+
+msgid "Recursion Depth"
+msgstr "عمق التكرار"
+
+msgid "Refresh to see changes"
+msgstr "حدّث الصفحة لرؤية التغييرات"
+
+msgid "Related Record Condition"
+msgstr "شرط السجل المرتبط"
+
+msgid "Related Reports"
+msgstr "التقارير ذات الصلة"
+
+msgid "Related record condition must be a JSON object"
+msgstr "يجب أن يكون شرط السجل المرتبط كائن JSON"
+
+msgid "Related record condition needs a relationship"
+msgstr "يحتاج شرط السجل المرتبط إلى علاقة"
+
+#, python-brace-format
+msgid "Related record does not exist: {0} {1}"
+msgstr "السجل المرتبط غير موجود: {0} {1}"
+
+msgid "Relationship provider returned an invalid record reference"
+msgstr "أعاد موفّر العلاقة مرجع سجل غير صالح"
+
+msgid "Relationship source DocType does not match"
+msgstr "نوع المستند المصدر للعلاقة غير مطابق"
+
+msgid "Relationship target DocType is not allowed"
+msgstr "نوع المستند الهدف للعلاقة غير مسموح به"
+
+#, python-brace-format
+msgid "Relationship {0} cannot be used as a single record alias"
+msgstr "لا يمكن استخدام العلاقة {0} اسمًا مستعارًا لسجل واحد"
+
+#, python-brace-format
+msgid "Relationship {0} did not resolve to one record"
+msgstr "لم تُفضِ العلاقة {0} إلى سجل واحد"
+
+#, python-brace-format
+msgid "Relationship {0} returns multiple records"
+msgstr "العلاقة {0} تُرجع عدة سجلات"
+
+msgid "Relationships"
+msgstr "العلاقات"
+
+msgid "Relationships Snapshot"
+msgstr "لقطة العلاقات"
+
+msgid "Relationships must be a JSON list"
+msgstr "يجب أن تكون العلاقات قائمة JSON"
+
+msgid "Reliability"
+msgstr "الموثوقية"
+
+msgid "Reload Tree"
+msgstr "إعادة تحميل الشجرة"
+
+msgid "Remove Default"
+msgstr "إزالة الافتراضي"
+
+msgid "Remove Permission"
+msgstr "إزالة الإذن"
+
+msgid "Remove formatting"
+msgstr "إزالة التنسيق"
+
+msgid "Remove selected"
+msgstr "إزالة المحدد"
+
+#, python-brace-format
+msgid "Remove this role's access to {0}?"
+msgstr "إزالة وصول هذه الصلاحية إلى {0}؟"
+
+#, python-brace-format
+msgid "Remove this role's permission on {0}?"
+msgstr "إزالة إذن هذه الصلاحية على {0}؟"
+
+#, python-brace-format
+msgid "Remove {0} from this role?"
+msgstr "إزالة {0} من هذه الصلاحية؟"
+
+msgid "Removed Roles"
+msgstr "الصلاحيات المُزالة"
+
+msgid "Removed from global search"
+msgstr "أُزيل من البحث الشامل"
+
+msgid "Rename Entry"
+msgstr "إعادة تسمية العنصر"
+
+msgid "Renderer unavailable"
+msgstr "محرك العرض غير متاح"
+
+#, python-brace-format
+msgid ""
+"Replace your current draft with {0}? Nothing prints differently until you Save & "
+"Apply."
+msgstr "استبدال مسودتك الحالية بـ {0}؟ لن يتغير شيء في الطباعة حتى تنقر «حفظ وتطبيق»."
+
+msgid "Replicate Role"
+msgstr "استنساخ الصلاحية"
+
+msgid "Replicating Role..."
+msgstr "جارٍ استنساخ الصلاحية..."
+
+#, python-brace-format
+msgid "Reply-To Addresses still include {0}. Change it to {1} as well?"
+msgstr "لا تزال عناوين الرد تتضمن {0}. هل تريد تغييرها إلى {1} أيضًا؟"
+
+msgid "Report Error"
+msgstr "الإبلاغ عن خطأ"
+
+msgid "Report Settings"
+msgstr "إعدادات التقارير"
+
+msgid "Reporting & Sharing"
+msgstr "التقارير والمشاركة"
+
+msgid "Reports this role can access."
+msgstr "التقارير التي يمكن لهذه الصلاحية الوصول إليها."
+
+msgid "Request read receipts for outgoing emails"
+msgstr "طلب إيصالات القراءة للرسائل الصادرة"
+
+msgid "Requests to internal network addresses are not permitted"
+msgstr "لا يُسمح بالطلبات إلى عناوين الشبكة الداخلية"
+
+#, python-brace-format
+msgid ""
+"Reset <b>{0}</b> to the standard, app-shipped version? This removes all site "
+"customizations."
+msgstr ""
+"إعادة <b>{0}</b> إلى الإصدار القياسي المُضمَّن مع التطبيق؟ سيؤدي ذلك إلى إزالة جميع "
+"تخصيصات الموقع."
+
+msgid "Reset all"
+msgstr "إعادة تعيين الكل"
+
+msgid "Reset for everyone"
+msgstr "إعادة التعيين للجميع"
+
+msgid "Reset link emailed"
+msgstr "أُرسل رابط إعادة التعيين بالبريد الإلكتروني"
+
+msgid "Reset node"
+msgstr "إعادة تعيين العقدة"
+
+msgid "Reset password"
+msgstr "إعادة تعيين كلمة المرور"
+
+msgid "Reset to Standard"
+msgstr "إعادة التعيين إلى القياسي"
+
+#, python-brace-format
+msgid "Reset {0} permissions to their default? This removes all customizations."
+msgstr "إعادة تعيين أذونات {0} إلى الافتراضية؟ سيؤدي ذلك إلى إزالة جميع التخصيصات."
+
+msgid "Resizing preview..."
+msgstr "جارٍ تغيير حجم المعاينة..."
+
+msgid "Restore Workspace"
+msgstr "استعادة مساحة العمل"
+
+msgid "Restore again"
+msgstr "الاستعادة مرة أخرى"
+
+msgid "Restore classic layout"
+msgstr "استعادة التخطيط الكلاسيكي"
+
+#, python-brace-format
+msgid ""
+"Restore the pre-upgrade layout of <b>{0}</b>? The layout becomes a site "
+"customization, so later layout changes from the app will not show until it is reset "
+"to standard."
+msgstr ""
+"استعادة تخطيط ما قبل الترقية لـ <b>{0}</b>؟ يصبح التخطيط تخصيصًا للموقع، فلن تظهر "
+"تغييرات التخطيط اللاحقة من التطبيق حتى تُعاد إلى القياسي."
+
+msgid "Restore this version"
+msgstr "استعادة هذا الإصدار"
+
+msgid "Restore this version as your draft"
+msgstr "استعادة هذا الإصدار كمسودة لك"
+
+msgid "Restored with limits"
+msgstr "استُعيد مع قيود"
+
+msgid "Restoring…"
+msgstr "جارٍ الاستعادة…"
+
+#, python-brace-format
+msgid "Restrict specific users to specific {0} records."
+msgstr "قيّد مستخدمين محددين بسجلات {0} محددة."
+
+msgid "Resume From Step"
+msgstr "الاستئناف من الخطوة"
+
+msgid "Resume Queue"
+msgstr "قائمة انتظار الاستئناف"
+
+msgid "Resume Run"
+msgstr "استئناف التنفيذ"
+
+msgid "Retention"
+msgstr "الاحتفاظ"
+
+#, python-brace-format
+msgid "Reuse email templates when emailing {0}."
+msgstr "أعد استخدام قوالب البريد الإلكتروني عند مراسلة {0}."
+
+msgid "Revalidate on Run"
+msgstr "إعادة التحقق عند التشغيل"
+
+msgid "Review pending imports"
+msgstr "مراجعة عمليات الاستيراد المعلقة"
+
+msgid "Revisiting a finished flow (factual completion)"
+msgstr "إعادة زيارة تدفق منتهٍ (اكتمال فعلي)"
+
+msgid "Right-click here"
+msgstr "انقر بزر الفأرة الأيمن هنا"
+
+msgid "Right-click this task card"
+msgstr "انقر بزر الفأرة الأيمن على بطاقة المهمة هذه"
+
+msgid "Role Managed by Role Profile"
+msgstr "صلاحية يديرها ملف صلاحيات"
+
+msgid "Role Profiles that include this role."
+msgstr "ملفات الصلاحيات التي تتضمن هذه الصلاحية."
+
+msgid "Roles granted access on top of the app-shipped roles."
+msgstr "صلاحيات مُنح لها الوصول إضافةً إلى الصلاحيات المُضمَّنة مع التطبيق."
+
+msgid "Root records can't be deleted"
+msgstr "لا يمكن حذف السجلات الجذرية"
+
+msgid "Root records can't be renamed"
+msgstr "لا يمكن إعادة تسمية السجلات الجذرية"
+
+msgid "Route Signature"
+msgstr "توقيع المسار"
+
+#, python-brace-format
+msgid "Row #{0}"
+msgstr "الصف رقم {0}"
+
+#, python-brace-format
+msgid "Row #{0}: a dock entry opens a Sidebar, a Workspace or a web address, not a {1}."
+msgstr ""
+"الصف رقم {0}: عنصر شريط الإرساء يفتح شريطًا جانبيًا أو مساحة عمل أو عنوان ويب، وليس "
+"{1}."
+
+#, python-brace-format
+msgid "Row #{0}: an entry on this dock needs an icon and a title of its own."
+msgstr "الصف رقم {0}: يحتاج العنصر على شريط الإرساء هذا إلى أيقونة وعنوان خاصين به."
+
+msgid "Row Data"
+msgstr "بيانات الصف"
+
+msgid "Row Numbers"
+msgstr "أرقام الصفوف"
+
+msgid "Row errors"
+msgstr "أخطاء الصفوف"
+
+msgid "Row validation failed"
+msgstr "فشل التحقق من الصف"
+
+#, python-brace-format
+msgid "Row {0} failed"
+msgstr "فشل الصف {0}"
+
+#, python-brace-format
+msgid "Row {0}: Branch is only meaningful inside an If step"
+msgstr "الصف {0}: للفرع معنى داخل خطوة «إذا» فقط"
+
+#, python-brace-format
+msgid "Row {0}: Parent Step must be an earlier row"
+msgstr "الصف {0}: يجب أن تكون الخطوة الأصل صفًا سابقًا"
+
+#, python-brace-format
+msgid "Row {0}: Parent Step {1} is not an If step"
+msgstr "الصف {0}: الخطوة الأصل {1} ليست خطوة «إذا»"
+
+#, python-brace-format
+msgid "Row {0}: Step Key must be unique"
+msgstr "الصف {0}: يجب أن يكون مفتاح الخطوة فريدًا"
+
+#, python-brace-format
+msgid "Row {0}: Wait unit must be one of {1}"
+msgstr "الصف {0}: يجب أن تكون وحدة الانتظار إحدى {1}"
+
+#, python-brace-format
+msgid "Row {0}: an If step needs a Step Condition"
+msgstr "الصف {0}: تحتاج خطوة «إذا» إلى شرط خطوة"
+
+#, python-brace-format
+msgid "Row {0}: choose the If or Else branch"
+msgstr "الصف {0}: اختر الفرع «إذا» أو «وإلا»"
+
+#, python-brace-format
+msgid "Row {0}: duplicate output alias {1}"
+msgstr "الصف {0}: الاسم المستعار للمخرجات {1} مكرر"
+
+#, python-brace-format
+msgid "Row {0}: unknown target alias {1}"
+msgstr "الصف {0}: الاسم المستعار الهدف {1} غير معروف"
+
+#, python-brace-format
+msgid "Row {0}: unsupported Step Type {1}"
+msgstr "الصف {0}: نوع الخطوة {1} غير مدعوم"
+
+#, python-brace-format
+msgid "Row {0}: {1}"
+msgstr "الصف {0}: {1}"
+
+msgid "Rows"
+msgstr "الصفوف"
+
+msgid "Rows a drain runs between commits."
+msgstr "عدد الصفوف التي يعالجها التصريف بين كل حفظ وآخر."
+
+msgid "Rows checked"
+msgstr "الصفوف المفحوصة"
+
+msgid "Rows skipped"
+msgstr "الصفوف المتخطّاة"
+
+msgid "Run"
+msgstr "التنفيذ"
+
+msgid "Run 3-step progress"
+msgstr "تشغيل تقدم من 3 خطوات"
+
+msgid "Run After"
+msgstr "التشغيل بعد"
+
+msgid "Run As"
+msgstr "التشغيل باسم"
+
+msgid "Run State"
+msgstr "حالة التنفيذ"
+
+msgid "Run against"
+msgstr "التشغيل على"
+
+msgid "Running"
+msgstr "قيد التشغيل"
+
+msgid "Running…"
+msgstr "جارٍ التشغيل…"
+
+msgid "Same as what prints"
+msgstr "مطابق لما يُطبع"
+
+msgid "Same id updates in place"
+msgstr "المعرّف نفسه يتحدّث في مكانه"
+
+msgid "Save & Apply"
+msgstr "حفظ وتطبيق"
+
+msgid "Save & Apply Print Format"
+msgstr "حفظ تنسيق الطباعة وتطبيقه"
+
+msgid "Save Field as Snippet"
+msgstr "حفظ الحقل كمقتطف"
+
+msgid "Save Filters"
+msgstr "حفظ عوامل التصفية"
+
+msgid "Save Layout"
+msgstr "حفظ التخطيط"
+
+msgid "Save Section as Snippet"
+msgstr "حفظ القسم كمقتطف"
+
+msgid "Save a named version"
+msgstr "حفظ إصدار مسمّى"
+
+msgid "Save as snippet"
+msgstr "حفظ كمقتطف"
+
+msgid "Save failed"
+msgstr "فشل الحفظ"
+
+msgid "Save the role first to view this information."
+msgstr "احفظ الصلاحية أولًا لعرض هذه المعلومات."
+
+msgid "Save version"
+msgstr "حفظ الإصدار"
+
+msgid "Save your changes before importing."
+msgstr "احفظ تغييراتك قبل الاستيراد."
+
+msgid "Saved Reports"
+msgstr "التقارير المحفوظة"
+
+msgid "Saved Snippets"
+msgstr "المقتطفات المحفوظة"
+
+msgid "Saved versions"
+msgstr "الإصدارات المحفوظة"
+
+msgid "Saving your language and region"
+msgstr "جارٍ حفظ لغتك ومنطقتك"
+
+msgid "Saving…"
+msgstr "جارٍ الحفظ…"
+
+msgid "Schedule Send"
+msgstr "جدولة الإرسال"
+
+msgid "Schedule email"
+msgstr "جدولة البريد الإلكتروني"
+
+#, python-brace-format
+msgid "Scheduled for {0}"
+msgstr "مجدول في {0}"
+
+msgid "Scheduled trigger requires a Cron Expression"
+msgstr "يتطلب المشغّل المجدول تعبير Cron"
+
+msgid "Search by label or field name"
+msgstr "البحث بالتسمية أو اسم الحقل"
+
+msgid "Secondary"
+msgstr "ثانوي"
+
+msgid "Seconds a drain may keep claiming batches. 0 derives it from the queue's own timeout."
+msgstr ""
+"عدد الثواني التي يجوز للتصريف أن يستمر خلالها في حجز الدفعات. 0 يستمدها من مهلة قائمة"
+" الانتظار نفسها."
+
+msgid "Section background, padding, radius or custom CSS"
+msgstr "خلفية القسم أو حشوته أو نصف قطره أو CSS مخصص"
+
+msgid "Section saved as snippet"
+msgstr "حُفظ القسم كمقتطف"
+
+msgid "Sections hold the columns and fields of your document."
+msgstr "تحتوي الأقسام على أعمدة مستندك وحقوله."
+
+msgid "See warning icons on nodes below or check the Warnings section."
+msgstr "انظر أيقونات التحذير على العقد أدناه أو راجع قسم التحذيرات."
+
+msgid "Select Options"
+msgstr "خيارات الاختيار"
+
+msgid "Select a Document Type to add field rules."
+msgstr "اختر نوع مستند لإضافة قواعد الحقول."
+
+msgid "Select a Document Type to upload a file or Google Sheet."
+msgstr "اختر نوع مستند لرفع ملف أو جدول Google."
+
+msgid "Select a field"
+msgstr "اختر حقلًا"
+
+msgid "Select a link field"
+msgstr "اختر حقل ربط"
+
+msgid "Select at least one field"
+msgstr "اختر حقلًا واحدًا على الأقل"
+
+msgid "Select attachments"
+msgstr "اختر المرفقات"
+
+msgid "Select date format"
+msgstr "اختر تنسيق التاريخ"
+
+msgid "Select field whose options become the board columns."
+msgstr "اختر الحقل الذي تصبح خياراته أعمدة اللوحة."
+
+msgid "Select format"
+msgstr "اختر التنسيق"
+
+msgid "Select or Link field of the board's reference doctype to group cards by (swimlanes)."
+msgstr "حقل اختيار أو ربط من نوع المستند المرجعي للوحة لتجميع البطاقات حسبه (مسارات أفقية)."
+
+msgid "Select table…"
+msgstr "اختر جدولًا…"
+
+msgid "Selected row, descriptions and links"
+msgstr "الصف المحدد والأوصاف والروابط"
+
+msgid "Selection"
+msgstr "التحديد"
+
+#, python-brace-format
+msgid "Send automatic notifications for events on any {0}."
+msgstr "أرسل إشعارات تلقائية للأحداث على أي {0}."
+
+msgid "Send me a copy of outgoing emails"
+msgstr "أرسل لي نسخة من الرسائل الصادرة"
+
+msgid "Send notifications for email threads"
+msgstr "أرسل إشعارات لسلاسل البريد الإلكتروني"
+
+msgid "Send raw ESC/POS commands to a label or thermal printer."
+msgstr "أرسل أوامر ESC/POS خام إلى طابعة ملصقات أو طابعة حرارية."
+
+msgid "Send read receipt"
+msgstr "إرسال إيصال قراءة"
+
+msgid ""
+"Send this notification's content from an Email Template instead of Subject/Message. "
+"Also used for the bell if Send System Notification is checked. The template is looked"
+" up fresh on every send, so editing it later changes what gets sent here too."
+msgstr ""
+"أرسل محتوى هذا الإشعار من قالب بريد إلكتروني بدلًا من الموضوع/الرسالة. ويُستخدم أيضًا"
+" للجرس إذا حُدد «إرسال إشعار النظام». يُجلب القالب من جديد في كل إرسال، لذا فإن "
+"تعديله لاحقًا يغيّر ما يُرسل هنا أيضًا."
+
+msgid "Series added"
+msgstr "أُضيفت السلسلة"
+
+msgid "Series already exists"
+msgstr "السلسلة موجودة بالفعل"
+
+msgid "Series removed"
+msgstr "أُزيلت السلسلة"
+
+msgid "Series updated"
+msgstr "حُدِّثت السلسلة"
+
+msgid "Server Scripts are disabled. Enable them from the bench configuration."
+msgstr "سكربتات الخادم معطّلة. فعّلها من إعدادات bench."
+
+#, python-brace-format
+msgid "Set <strong>{0}</strong> = <em>?</em> to auto complete"
+msgstr "عيّن <strong>{0}</strong> = <em>?</em> للإكمال التلقائي"
+
+msgid "Set as Primary"
+msgstr "تعيين كأساسي"
+
+msgid "Set as default"
+msgstr "تعيين كافتراضي"
+
+msgid "Set at least one field"
+msgstr "عيّن حقلًا واحدًا على الأقل"
+
+msgid ""
+"Set default values for the current session. Values set here will be autofilled in "
+"forms and reports."
+msgstr ""
+"عيّن القيم الافتراضية للجلسة الحالية. تُملأ القيم المعيّنة هنا تلقائيًا في النماذج "
+"والتقارير."
+
+msgid "Set dynamic filter values as Python expressions."
+msgstr "عيّن قيم عوامل التصفية الديناميكية كتعبيرات Python."
+
+msgid "Set this to decide which position a layout appears in the dropdown"
+msgstr "عيّن هذا لتحديد موضع ظهور التخطيط في القائمة المنسدلة"
+
+msgid "Set up your authenticator app"
+msgstr "أعِدّ تطبيق المصادقة"
+
+#, python-brace-format
+msgid "Set {0}"
+msgstr "عُيِّن {0}"
+
+#, python-brace-format
+msgid "Set {0} in {1} to finish this step."
+msgstr "عيّن {0} في {1} لإنهاء هذه الخطوة."
+
+#, python-brace-format
+msgid "Set {0}…"
+msgstr "تعيين {0}…"
+
+msgid "Setting Field"
+msgstr "حقل الإعداد"
+
+msgid "Setting things up"
+msgstr "جارٍ تجهيز الأمور"
+
+msgid "Setting up your apps"
+msgstr "جارٍ إعداد تطبيقاتك"
+
+msgid "Settings DocType"
+msgstr "نوع مستند الإعدادات"
+
+msgid ""
+"Settings from Single doctypes applied to a doctype, with one standard and one custom "
+"record shown in DocType Settings → General."
+msgstr ""
+"إعدادات من أنواع المستندات المنفردة مطبّقة على نوع مستند، مع سجل قياسي وآخر مخصص "
+"يظهران في إعدادات نوع المستند ← عام."
+
+#, python-brace-format
+msgid "Settings from across the system that apply to {0}."
+msgstr "الإعدادات من أنحاء النظام التي تنطبق على {0}."
+
+#, python-brace-format
+msgid "Setup a multi-step workflow for {0}."
+msgstr "أعِدّ سير عمل متعدد الخطوات لـ {0}."
+
+msgid "Shapes"
+msgstr "الأشكال"
+
+msgid "Share usage data to help us improve"
+msgstr "شارك بيانات الاستخدام لمساعدتنا على التحسين"
+
+msgid "Ship as files in an app, tracked in git."
+msgstr "يُضمَّن كملفات في تطبيق، ومتتبَّع في git."
+
+msgid "Ship as files in an app, tracked in git. Developer mode only; duplicate to edit."
+msgstr "يُضمَّن كملفات في تطبيق، ومتتبَّع في git. في وضع المطوّر فقط؛ كرّره للتعديل."
+
+msgid "Ship this off by default"
+msgstr "تضمينه معطّلًا افتراضيًا"
+
+msgid "Ship with the app"
+msgstr "التضمين مع التطبيق"
+
+msgid "Shortcut"
+msgstr "اختصار"
+
+msgid "Show Assigned To"
+msgstr "إظهار المُسنَد إليه"
+
+msgid "Show Board"
+msgstr "إظهار اللوحة"
+
+msgid "Show Colon After Field Labels"
+msgstr "إظهار نقطتين بعد تسميات الحقول"
+
+msgid "Show My Space"
+msgstr "إظهار «مساحتي»"
+
+msgid "Show Tags on Cards"
+msgstr "إظهار الوسوم على البطاقات"
+
+msgid "Show a colon after field labels (e.g. \"Name:\"), matching the older print style."
+msgstr "إظهار نقطتين بعد تسميات الحقول (مثل \"الاسم:\")، مطابقةً لنمط الطباعة القديم."
+
+msgid ""
+"Show a summary dashboard with charts and statistics, where available, at the top of "
+"forms."
+msgstr "إظهار لوحة معلومات ملخصة بالمخططات والإحصاءات، حيثما توفرت، أعلى النماذج."
+
+msgid "Show absolute datetime in timeline"
+msgstr "إظهار التاريخ والوقت المطلقين في سجل النشاط"
+
+msgid "Show all (including disabled)"
+msgstr "إظهار الكل (بما في ذلك المعطّل)"
+
+msgid "Show column when"
+msgstr "إظهار العمود عندما"
+
+msgid "Show custom icon"
+msgstr "إظهار أيقونة مخصصة"
+
+msgid "Show dashboard"
+msgstr "إظهار لوحة المعلومات"
+
+msgid "Show desktop and in-app notifications for activity on your account."
+msgstr "إظهار إشعارات سطح المكتب وداخل التطبيق للنشاط على حسابك."
+
+msgid ""
+"Show document tags on cards (left of footer date), using the standard colored tag "
+"style."
+msgstr "إظهار وسوم المستند على البطاقات (يسار تاريخ التذييل)، بنمط الوسوم الملونة القياسي."
+
+msgid "Show label"
+msgstr "إظهار التسمية"
+
+msgid "Show navigation buttons"
+msgstr "إظهار أزرار التنقل"
+
+msgid "Show navigation buttons to view the previous and next record in the form toolbar."
+msgstr "إظهار أزرار التنقل لعرض السجل السابق والتالي في شريط أدوات النموذج."
+
+msgid "Show row when"
+msgstr "إظهار الصف عندما"
+
+msgid "Show search bar"
+msgstr "إظهار شريط البحث"
+
+msgid "Show the activity timeline with comments, emails, and version history."
+msgstr "إظهار سجل النشاط مع التعليقات ورسائل البريد الإلكتروني وسجل الإصدارات."
+
+msgid "Show the assignee stack and Assign control on cards and in the hover preview."
+msgstr "إظهار مجموعة المُسنَد إليهم وأداة الإسناد على البطاقات وفي المعاينة عند التمرير."
+
+msgid "Show timeline"
+msgstr "إظهار سجل النشاط"
+
+msgid "Show title"
+msgstr "إظهار العنوان"
+
+msgid "Show view switcher"
+msgstr "إظهار مبدّل العروض"
+
+msgid "Show with Undo"
+msgstr "إظهار مع تراجع"
+
+msgid "Show with description"
+msgstr "إظهار مع وصف"
+
+#, python-brace-format
+msgid "Showing all {0} rows"
+msgstr "عرض جميع الصفوف البالغة {0}"
+
+#, python-brace-format
+msgid "Showing first {0} rows of {1}"
+msgstr "عرض أول {0} صفوف من {1}"
+
+#, python-brace-format
+msgid "Showing {0}"
+msgstr "عرض {0}"
+
+#, python-brace-format
+msgid "Showing {0} of {1}"
+msgstr "عرض {0} من {1}"
+
+#, python-brace-format
+msgid "Showing {0} of {1} columns."
+msgstr "عرض {0} من {1} عمود."
+
+#, python-brace-format
+msgid "Showing {0} of {1} rows and {2} of {3} columns."
+msgstr "عرض {0} من {1} صف و{2} من {3} عمود."
+
+#, python-brace-format
+msgid "Showing {0} of {1} rows."
+msgstr "عرض {0} من {1} صف."
+
+msgid ""
+"Shown as the field label, or as the icon tooltip when an icon is set. Auto-filled "
+"from the field; edit to override."
+msgstr ""
+"يُعرض تسميةً للحقل، أو تلميحًا للأيقونة عند تعيينها. يُملأ تلقائيًا من الحقل؛ عدّله "
+"للتجاوز."
+
+msgid "Shown as the group option's name. Auto-filled from the field; edit to override."
+msgstr "يُعرض اسمًا لخيار المجموعة. يُملأ تلقائيًا من الحقل؛ عدّله للتجاوز."
+
+#, python-brace-format
+msgid "Shown only when: {0}"
+msgstr "يظهر فقط عندما: {0}"
+
+msgid "Sidebar Item"
+msgstr "عنصر الشريط الجانبي"
+
+msgid "Sidebar Menu"
+msgstr "قائمة الشريط الجانبي"
+
+msgid "Sidebar Moved"
+msgstr "نُقل الشريط الجانبي"
+
+msgid "Sidebar Position"
+msgstr "موضع الشريط الجانبي"
+
+msgid ""
+"Sidebar intent for a module, at either of the two layers a site has. `user` is what "
+"tells them apart: blank is the site layer, curated by a Workspace Manager and "
+"applying to everyone; a user's name is that person's own arrangement, which is "
+"applied on top and wins. The `Custom *` prefix elsewhere in this repo means site-"
+"owned override of app-shipped content, and this doctype knowingly overloads it: with "
+"the layers structurally identical there is nothing to gain from a second doctype, and"
+" `user` makes the layer unambiguous at a glance. Do not \"fix\" this by splitting it."
+msgstr ""
+"إعداد الشريط الجانبي لوحدة، في أي من الطبقتين المتاحتين للموقع. `user` هو ما يميّز "
+"بينهما: الفارغ طبقة الموقع، يتولاها مدير مساحة العمل وتنطبق على الجميع؛ واسم المستخدم"
+" هو ترتيب ذلك الشخص الخاص، ويُطبَّق فوقها ويغلب. تعني البادئة `Custom *` في مواضع "
+"أخرى من هذا المستودع تجاوزًا مملوكًا للموقع لمحتوى مُضمَّن مع التطبيق، ونوع المستند "
+"هذا يحمّلها معنى إضافيًا عن قصد: بما أن الطبقتين متطابقتان بنيويًا فلا فائدة من نوع "
+"مستند ثانٍ، و`user` يجعل الطبقة واضحة من النظرة الأولى. لا \"تُصلح\" هذا بتقسيمه."
+
+#, python-brace-format
+msgid "Sidebar is no longer shipped with {0}"
+msgstr "لم يعد الشريط الجانبي مُضمَّنًا مع {0}"
+
+msgid "Sidebar reset for everyone"
+msgstr "أُعيد تعيين الشريط الجانبي للجميع"
+
+msgid "Sidebar reset to the site's"
+msgstr "أُعيد الشريط الجانبي إلى ترتيب الموقع"
+
+msgid "Sidebar saved to its app"
+msgstr "حُفظ الشريط الجانبي في تطبيقه"
+
+msgid "Sidebar updated"
+msgstr "حُدِّث الشريط الجانبي"
+
+msgid "Sidebar updated for everyone"
+msgstr "حُدِّث الشريط الجانبي للجميع"
+
+msgid "Sides"
+msgstr "الجوانب"
+
+msgid "Single DocTypes cannot be renamed"
+msgstr "لا يمكن إعادة تسمية أنواع المستندات المنفردة"
+
+msgid "Sizes"
+msgstr "الأحجام"
+
+msgid "Sizes, with icons (sm is the default)"
+msgstr "الأحجام، مع أيقونات (sm هو الافتراضي)"
+
+msgid "Skip Row"
+msgstr "تخطي الصف"
+
+msgid "Skip every row that has one of these values. Skipped rows are not imported."
+msgstr "تخطَّ كل صف يحتوي على إحدى هذه القيم. لا تُستورد الصفوف المتخطّاة."
+
+msgid "Skipped Rows"
+msgstr "الصفوف المتخطّاة"
+
+#, python-brace-format
+msgid "Skipped row {0}"
+msgstr "تم تخطي الصف {0}"
+
+msgid "Slow"
+msgstr "بطيء"
+
+msgid "Small structured result returned by the action."
+msgstr "نتيجة منظَّمة صغيرة يُرجعها الإجراء."
+
+msgid "Snapshot"
+msgstr "لقطة"
+
+msgid "Snippet Type"
+msgstr "نوع المقتطف"
+
+msgid "Snippet name"
+msgstr "اسم المقتطف"
+
+msgid "Some cards were saved in another column"
+msgstr "حُفظت بعض البطاقات في عمود آخر"
+
+#, python-brace-format
+msgid ""
+"Some columns have invalid values. Map them to valid values below, or skip the rows "
+"that have them. Affected columns: {0}."
+msgstr ""
+"تحتوي بعض الأعمدة على قيم غير صالحة. اربطها بقيم صالحة أدناه، أو تخطَّ الصفوف التي "
+"تحتويها. الأعمدة المتأثرة: {0}."
+
+msgid "Some settings tabs may not load. Please refresh the page."
+msgstr "قد لا تُحمَّل بعض علامات تبويب الإعدادات. يُرجى تحديث الصفحة."
+
+msgid "Someone who can log in to your site."
+msgstr "شخص يمكنه تسجيل الدخول إلى موقعك."
+
+msgid "Space Between"
+msgstr "توزيع بالمسافات بين العناصر"
+
+msgid "Space Evenly"
+msgstr "توزيع بمسافات متساوية"
+
+msgid "Spacing"
+msgstr "التباعد"
+
+msgid "Spacing (mm)"
+msgstr "التباعد (مم)"
+
+msgid "Split across pages"
+msgstr "التقسيم عبر الصفحات"
+
+msgid "Split view"
+msgstr "عرض مقسوم"
+
+msgid "Split view in reports"
+msgstr "عرض مقسوم في التقارير"
+
+msgid "Sr. No"
+msgstr "م"
+
+msgid "Stale Running Minutes"
+msgstr "دقائق اعتبار التشغيل عالقًا"
+
+msgid "Standard 5-field cron, for example <code>0 9 * * 1</code>."
+msgstr "صيغة Cron القياسية ذات الحقول الخمسة، مثل <code>0 9 * * 1</code>."
+
+msgid "Standard DocType Settings Map can only be changed in Developer Mode."
+msgstr "لا يمكن تغيير خريطة إعدادات نوع المستند القياسية إلا في وضع المطوّر."
+
+msgid "Standard Kanban Boards can only be changed in developer mode"
+msgstr "لا يمكن تغيير لوحات كانبان القياسية إلا في وضع المطوّر"
+
+msgid "Standard Kanban Boards can only be deleted in developer mode"
+msgstr "لا يمكن حذف لوحات كانبان القياسية إلا في وضع المطوّر"
+
+msgid "Standard Report"
+msgstr "تقرير قياسي"
+
+#, python-brace-format
+msgid "Standard list layout {0} already exists with a similar name"
+msgstr "يوجد بالفعل تخطيط قائمة قياسي {0} باسم مشابه"
+
+msgid "Standard list layouts can only be changed in developer mode"
+msgstr "لا يمكن تغيير تخطيطات القوائم القياسية إلا في وضع المطوّر"
+
+msgid "Standard list layouts can only be deleted in developer mode"
+msgstr "لا يمكن حذف تخطيطات القوائم القياسية إلا في وضع المطوّر"
+
+msgid ""
+"Standard maps are shipped with an app and can only be changed in Developer Mode. "
+"Leave unchecked for user-created (custom) maps."
+msgstr ""
+"الخرائط القياسية مُضمَّنة مع تطبيق ولا يمكن تغييرها إلا في وضع المطوّر. اتركه غير "
+"محدد للخرائط التي ينشئها المستخدم (المخصصة)."
+
+msgid "Standard print formats can only be converted in developer mode"
+msgstr "لا يمكن تحويل تنسيقات الطباعة القياسية إلا في وضع المطوّر"
+
+msgid "Standard print formats can only be restored in developer mode"
+msgstr "لا يمكن استعادة تنسيقات الطباعة القياسية إلا في وضع المطوّر"
+
+msgid ""
+"Standard workspaces can't be edited directly. Your changes are saved as a "
+"customization."
+msgstr "لا يمكن تعديل مساحات العمل القياسية مباشرة. تُحفظ تغييراتك كتخصيص."
+
+msgid "Standard workspaces cannot be deleted. Reset to standard instead."
+msgstr "لا يمكن حذف مساحات العمل القياسية. أعِدها إلى القياسي بدلًا من ذلك."
+
+msgid "Start Closed"
+msgstr "يبدأ مطويًا"
+
+msgid "Start blank"
+msgstr "البدء من فراغ"
+
+msgid "Start from default"
+msgstr "البدء من الافتراضي"
+
+msgid "Start the import before opening the Import step."
+msgstr "ابدأ الاستيراد قبل فتح خطوة الاستيراد."
+
+msgid "Start with"
+msgstr "البدء بـ"
+
+msgid "Start with # to search by tag"
+msgstr "ابدأ بـ # للبحث حسب الوسم"
+
+msgid "Started by"
+msgstr "بدأه"
+
+msgid "Started on"
+msgstr "بدأ في"
+
+msgid "Starting from the default layout instead."
+msgstr "البدء من التخطيط الافتراضي بدلًا من ذلك."
+
+msgid "Starting import..."
+msgstr "جارٍ بدء الاستيراد..."
+
+msgid "Static value"
+msgstr "قيمة ثابتة"
+
+msgid "Step Condition"
+msgstr "شرط الخطوة"
+
+msgid "Step Key"
+msgstr "مفتاح الخطوة"
+
+msgid "Step Output Limit"
+msgstr "حد مخرجات الخطوة"
+
+msgid "Step Type"
+msgstr "نوع الخطوة"
+
+msgid "Step condition did not match"
+msgstr "لم يتحقق شرط الخطوة"
+
+msgid "Step outputs, record aliases and branch choices a resumed run picks up."
+msgstr "مخرجات الخطوات والأسماء المستعارة للسجلات واختيارات الفروع التي يستأنف منها التنفيذ."
+
+#, python-brace-format
+msgid "Step {0} is not an If step"
+msgstr "الخطوة {0} ليست خطوة «إذا»"
+
+#, python-brace-format
+msgid "Step {0} of {1}"
+msgstr "الخطوة {0} من {1}"
+
+msgid "Stop dispatching automations site-wide. Queued rows are left untouched."
+msgstr "إيقاف إطلاق التشغيل الآلي على مستوى الموقع. تُترك الصفوف في قائمة الانتظار كما هي."
+
+msgid "Stop on Error"
+msgstr "التوقف عند الخطأ"
+
+#, python-brace-format
+msgid ""
+"Stop shipping this sidebar with {0}? Its document and its exported file are both "
+"removed, and the module goes back to the sidebar generated from its contents."
+msgstr ""
+"إيقاف تضمين هذا الشريط الجانبي مع {0}؟ سيُزال مستنده وملفه المُصدَّر، وتعود الوحدة "
+"إلى الشريط الجانبي المُنشأ من محتوياتها."
+
+#, python-brace-format
+msgid ""
+"Stop shipping {0} with its app? Its exported file and this document are removed, and "
+"{1} goes back to the sidebar computed from its contents."
+msgstr ""
+"إيقاف تضمين {0} مع تطبيقه؟ سيُزال ملفه المُصدَّر وهذا المستند، ويعود {1} إلى الشريط "
+"الجانبي المحسوب من محتوياته."
+
+msgid "Strength:"
+msgstr "القوة:"
+
+msgid "Strikethrough"
+msgstr "يتوسطه خط"
+
+msgid "Striped"
+msgstr "مخطط بالتناوب"
+
+msgid "Styled"
+msgstr "منسّق"
+
+msgid "Submenus"
+msgstr "القوائم الفرعية"
+
+#, python-brace-format
+msgid "Submit a {0} to finish this step."
+msgstr "رحّل {0} لإنهاء هذه الخطوة."
+
+msgid "Submit it to finish this step."
+msgstr "رحّله لإنهاء هذه الخطوة."
+
+msgid "Submitting..."
+msgstr "جارٍ الترحيل..."
+
+msgid "Subscript"
+msgstr "منخفض"
+
+#, python-brace-format
+msgid "Success ({0})"
+msgstr "نجح ({0})"
+
+#, python-brace-format
+msgid "Successfully inserted {0}"
+msgstr "أُدرج {0} بنجاح"
+
+#, python-brace-format
+msgid "Successfully inserted {0} and updated {1} out of {2} records."
+msgstr "أُدرج {0} وحُدِّث {1} بنجاح من أصل {2} سجل."
+
+msgid "Superscript"
+msgstr "مرتفع"
+
+msgid "Swimlanes"
+msgstr "المسارات الأفقية"
+
+msgid "Swimlanes (Group By)"
+msgstr "المسارات الأفقية (التجميع حسب)"
+
+msgid "Switch between light, dark, or system theme."
+msgstr "بدّل بين السمة الفاتحة أو الداكنة أو سمة النظام."
+
+#, python-brace-format
+msgid "Switched back to Chromium: {0}"
+msgstr "عاد إلى Chromium: {0}"
+
+#, python-brace-format
+msgid "Switched to {0}"
+msgstr "تم التبديل إلى {0}"
+
+msgid "Switching you to the new navigation…"
+msgstr "جارٍ نقلك إلى التنقل الجديد…"
+
+msgid "System default"
+msgstr "افتراضي النظام"
+
+msgid "Table column conditions"
+msgstr "شروط أعمدة الجدول"
+
+msgid "Table styling"
+msgstr "تنسيق الجدول"
+
+msgid "Table title"
+msgstr "عنوان الجدول"
+
+msgid "Target Document Type is required"
+msgstr "نوع المستند الهدف مطلوب"
+
+msgid "Task list"
+msgstr "قائمة مهام"
+
+msgid "Test Run"
+msgstr "تشغيل تجريبي"
+
+#, python-brace-format
+msgid "Test Run: {0}"
+msgstr "تشغيل تجريبي: {0}"
+
+msgid "Text color"
+msgstr "لون النص"
+
+msgid "Text direction"
+msgstr "اتجاه النص"
+
+msgid "Text style"
+msgstr "نمط النص"
+
+msgid "That Server Script is disabled"
+msgstr "سكربت الخادم هذا معطّل"
+
+#, python-brace-format
+msgid ""
+"The <strong>Doc Status</strong> for all states has been reset to <strong>0</strong> "
+"because <strong>{0}</strong> is not submittable"
+msgstr ""
+"أُعيد تعيين <strong>حالة المستند</strong> لجميع الحالات إلى <strong>0</strong> لأن "
+"<strong>{0}</strong> غير قابل للترحيل"
+
+#, python-brace-format
+msgid ""
+"The <strong>Doc Status</strong> for all states has been reset to "
+"<strong>Draft</strong> because <strong>{0}</strong> is not submittable"
+msgstr ""
+"أُعيد تعيين <strong>حالة المستند</strong> لجميع الحالات إلى <strong>مسودة</strong> "
+"لأن <strong>{0}</strong> غير قابل للترحيل"
+
+msgid ""
+"The Administrator account may be compromised. Change the Administrator password "
+"immediately."
+msgstr "قد يكون حساب المسؤول مخترقًا. غيّر كلمة مرور المسؤول فورًا."
+
+msgid "The DocType these settings apply to."
+msgstr "نوع المستند الذي تنطبق عليه هذه الإعدادات."
+
+msgid "The File URL does not belong to this File record"
+msgstr "رابط الملف لا ينتمي إلى سجل الملف هذا"
+
+#, python-brace-format
+msgid "The Typst block could not render its template: {0}"
+msgstr "تعذّر على كتلة Typst عرض قالبها: {0}"
+
+#, python-brace-format
+msgid "The Typst block in {0} does not compile: {1}"
+msgstr "كتلة Typst في {0} لا تُترجَم: {1}"
+
+#, python-brace-format
+msgid "The Typst block in {0} has a template error: {1}"
+msgstr "في كتلة Typst في {0} خطأ في القالب: {1}"
+
+#, python-brace-format
+msgid "The Typst renderer cannot embed this image: {0}"
+msgstr "لا يستطيع محرك عرض Typst تضمين هذه الصورة: {0}"
+
+msgid ""
+"The app this one mounts on, for a companion app -- one with no rail of its own, whose"
+" entries live on a host's. Blank on every ordinary dock. An **app name** rather than "
+"a Link to a `Dock`: every consumer wants a string, and a pin aimed at a record would "
+"be a pin aimed at one of that app's three layers, which means nothing. App-layer "
+"only: `depends_on` hides it elsewhere and `validate` blanks it, because hiding a "
+"field does not stop an API write."
+msgstr ""
+"التطبيق الذي يُركَّب عليه هذا، لتطبيق مرافق -- ليس له شريط خاص به، وتوجد عناصره على "
+"شريط تطبيق مضيف. فارغ في كل شريط إرساء عادي. **اسم تطبيق** وليس ربطًا بـ `Dock`: كل "
+"مستهلك يريد نصًا، والتثبيت على سجل سيكون تثبيتًا على إحدى طبقات ذلك التطبيق الثلاث، "
+"وهذا لا معنى له. لطبقة التطبيق فقط: يخفيه `depends_on` في غيرها ويفرّغه `validate`، "
+"لأن إخفاء الحقل لا يمنع الكتابة عبر API."
+
+msgid ""
+"The app this sidebar is placed in. Derived from the module when there is one -- a "
+"module sits in exactly one app. Author-set when there is not: an app-rooted sidebar "
+"has no module to derive it from, and this is then the only thing that says which app "
+"ships the file."
+msgstr ""
+"التطبيق الذي يوضع فيه هذا الشريط الجانبي. يُستمد من الوحدة إن وُجدت -- فالوحدة تقع في"
+" تطبيق واحد بالضبط. ويعيّنه المؤلف إن لم توجد: الشريط الجانبي المرتبط بجذر التطبيق "
+"ليست له وحدة يُستمد منها، وعندئذ يكون هذا الحقل الوحيد الذي يحدد أي تطبيق يتضمن "
+"الملف."
+
+msgid ""
+"The app whose dock lists this module. A custom module may leave it empty and stand on"
+" its own."
+msgstr ""
+"التطبيق الذي يدرج شريط إرسائه هذه الوحدة. يجوز للوحدة المخصصة تركه فارغًا والاستقلال "
+"بنفسها."
+
+msgid ""
+"The app whose dock this layer arranges. Required: a dock belongs to an app, and a "
+"layer that named none would be one arrangement spanning every rail. An `Autocomplete`"
+" over installed apps rather than a Link, because there is no `App` doctype -- the "
+"house spelling, shared with `Sidebar.app` and `Desktop Icon.app`."
+msgstr ""
+"التطبيق الذي ترتّب هذه الطبقة شريط إرسائه. مطلوب: شريط الإرساء ينتمي إلى تطبيق، "
+"والطبقة التي لا تسمّي تطبيقًا ستكون ترتيبًا واحدًا يمتد عبر كل الأشرطة. حقل "
+"`Autocomplete` للتطبيقات المثبّتة بدلًا من ربط، لأنه لا يوجد نوع مستند `App` -- وهي "
+"الصيغة المعتمدة، المشتركة مع `Sidebar.app` و`Desktop Icon.app`."
+
+#, python-brace-format
+msgid "The block {0} points at a {1} this version of the app no longer ships."
+msgstr "تشير الكتلة {0} إلى {1} لم يعد هذا الإصدار من التطبيق يتضمنه."
+
+msgid "The card was saved in another column"
+msgstr "حُفظت البطاقة في عمود آخر"
+
+#, python-brace-format
+msgid "The change to {0} cannot be carried by a customization."
+msgstr "لا يمكن أن يحمل التخصيص التغيير على {0}."
+
+msgid "The classic builder can no longer create formats"
+msgstr "لم يعد بإمكان المنشئ الكلاسيكي إنشاء تنسيقات"
+
+msgid "The classic builder will be removed in version 17."
+msgstr "سيُزال المنشئ الكلاسيكي في الإصدار 17."
+
+msgid ""
+"The classic builder will be removed in version 17. Convert this format to the new "
+"builder to keep editing it."
+msgstr ""
+"سيُزال المنشئ الكلاسيكي في الإصدار 17. حوّل هذا التنسيق إلى المنشئ الجديد لمواصلة "
+"تعديله."
+
+#, python-brace-format
+msgid "The colour {0} is not one the desk offers and was skipped."
+msgstr "اللون {0} ليس من الألوان التي يوفرها سطح المكتب فتم تخطّيه."
+
+msgid "The dock as this arrangement leaves it."
+msgstr "شريط الإرساء كما يتركه هذا الترتيب."
+
+msgid "The field cards are grouped into columns by, and the column list."
+msgstr "الحقل الذي تُجمَّع البطاقات في أعمدة حسبه، وقائمة الأعمدة."
+
+msgid "The flow runs for real against this document, then everything it did is rolled back."
+msgstr "يعمل التدفق فعليًا على هذا المستند، ثم يُتراجع عن كل ما فعله."
+
+msgid ""
+"The flow's steps as they were when the run started. A resumed run executes these, not"
+" the current flow."
+msgstr "خطوات التدفق كما كانت عند بدء التنفيذ. التنفيذ المستأنف ينفّذ هذه، لا التدفق الحالي."
+
+msgid "The latest changes could not be saved and will be lost if you leave."
+msgstr "تعذّر حفظ أحدث التغييرات وستضيع إذا غادرت."
+
+msgid "The latest changes to this letter head are not saved."
+msgstr "أحدث التغييرات على ترويسة الرسالة هذه غير محفوظة."
+
+msgid "The latest changes to this print format are not saved."
+msgstr "أحدث التغييرات على تنسيق الطباعة هذا غير محفوظة."
+
+#, python-brace-format
+msgid "The latest changes to {0} could not be saved."
+msgstr "تعذّر حفظ أحدث التغييرات على {0}."
+
+#, python-brace-format
+msgid ""
+"The layout of {0} will be rewritten for the new builder. The original layout is kept "
+"as a backup you can restore from the Print Format form. Continue?"
+msgstr ""
+"ستُعاد كتابة تخطيط {0} للمنشئ الجديد. يُحتفظ بالتخطيط الأصلي نسخةً احتياطية يمكنك "
+"استعادتها من نموذج تنسيق الطباعة. هل تريد المتابعة؟"
+
+msgid "The link expires in 1 minute."
+msgstr "تنتهي صلاحية الرابط خلال دقيقة واحدة."
+
+#, python-brace-format
+msgid "The link expires in {0} minutes."
+msgstr "تنتهي صلاحية الرابط خلال {0} دقيقة."
+
+#, python-brace-format
+msgid "The link {0} was added to a shipped card and cannot be carried by a customization."
+msgstr "أُضيف الرابط {0} إلى بطاقة مُضمَّنة ولا يمكن أن يحمله التخصيص."
+
+msgid ""
+"The module this sidebar belongs to. Neither required nor unique: one module may own "
+"several sidebars, and which of them answers for the module itself is decided by the "
+"name -- the one called after the module -- rather than by a column here. May also be "
+"blank, which means the sidebar belongs to its app rather than to any one of the app's"
+" modules; such a sidebar is exported to the app's own folder and says which app in "
+"`app`."
+msgstr ""
+"الوحدة التي ينتمي إليها هذا الشريط الجانبي. ليس مطلوبًا ولا فريدًا: قد تملك الوحدة "
+"الواحدة عدة أشرطة جانبية، ويحدد الاسمُ أيها يمثّل الوحدة نفسها -- وهو المسمّى باسم "
+"الوحدة -- لا عمودٌ هنا. وقد يكون فارغًا، ما يعني أن الشريط الجانبي ينتمي إلى تطبيقه "
+"لا إلى إحدى وحداته؛ ويُصدَّر مثل هذا الشريط إلى مجلد التطبيق نفسه ويحدد التطبيق في "
+"`app`."
+
+msgid ""
+"The module this workspace belongs to. Decides which module's dock entry and sidebar "
+"it appears under."
+msgstr ""
+"الوحدة التي تنتمي إليها مساحة العمل هذه. تحدد عنصر شريط الإرساء والشريط الجانبي "
+"اللذين تظهر تحتهما."
+
+msgid "The next generated name continues after this number."
+msgstr "يستمر الاسم المُنشأ التالي بعد هذا الرقم."
+
+msgid ""
+"The ordered entries this layer has an opinion about. Row order is the arrangement; an"
+" entry this layer never names keeps its incoming order and follows the ones it does, "
+"which is how a newly installed app's modules still reach someone who has already "
+"arranged their dock."
+msgstr ""
+"العناصر المرتبة التي لهذه الطبقة رأي فيها. ترتيب الصفوف هو الترتيب المعتمد؛ والعنصر "
+"الذي لا تسمّيه هذه الطبقة يحتفظ بترتيبه الوارد ويأتي بعد المذكورة، وبهذا تصل وحدات "
+"التطبيق المثبّت حديثًا إلى من رتّب شريط إرسائه مسبقًا."
+
+msgid ""
+"The person whose own arrangement this is. Blank means the app's own dock or the "
+"site's arrangement of it, told apart by `standard`."
+msgstr ""
+"الشخص الذي هذا ترتيبه الخاص. الفارغ يعني شريط إرساء التطبيق نفسه أو ترتيب الموقع له، "
+"ويُميَّز بينهما بـ `standard`."
+
+msgid ""
+"The record this entry opens, in the doctype `link_type` names. A `Sidebar` target "
+"need not exist as a document: most modules have a computed base and no `Sidebar` row "
+"at all, so a row of that kind names a shell rather than referencing one, which is why"
+" link validation on a `Dock` is a deliberate no-op."
+msgstr ""
+"السجل الذي يفتحه هذا العنصر، في نوع المستند الذي يسمّيه `link_type`. لا يلزم أن يكون "
+"هدف `Sidebar` موجودًا كمستند: لمعظم الوحدات أساس محسوب ولا صف `Sidebar` لها إطلاقًا، "
+"لذا فإن صفًا من هذا النوع يسمّي إطارًا ولا يشير إليه، ولهذا فإن التحقق من الروابط في "
+"`Dock` لا يفعل شيئًا عن قصد."
+
+msgid ""
+"The report may be too large to render in a single request. Narrow the filters and try"
+" again, or use Print and save as PDF from your browser."
+msgstr ""
+"قد يكون التقرير أكبر من أن يُعرض في طلب واحد. ضيّق عوامل التصفية وحاول مرة أخرى، أو "
+"استخدم الطباعة والحفظ بصيغة PDF من متصفحك."
+
+msgid "The request could not be completed. Check your connection and try again."
+msgstr "تعذّر إكمال الطلب. تحقق من اتصالك وحاول مرة أخرى."
+
+msgid "The sidebar as this arrangement leaves it."
+msgstr "الشريط الجانبي كما يتركه هذا الترتيب."
+
+msgid ""
+"The site's editor.js block layout for this workspace, shown verbatim. Once set, the "
+"app's later changes to this workspace's layout stop reaching the site; roles, icon "
+"and visibility keep updating. Managed by the workspace editor."
+msgstr ""
+"تخطيط كتل editor.js الخاص بالموقع لمساحة العمل هذه، معروض حرفيًا. بمجرد تعيينه، تتوقف"
+" تغييرات التطبيق اللاحقة على تخطيط مساحة العمل هذه عن الوصول إلى الموقع؛ وتستمر "
+"الصلاحيات والأيقونة والظهور في التحديث. يديره محرر مساحة العمل."
+
+msgid "The step condition that skipped this step."
+msgstr "شرط الخطوة الذي تخطّى هذه الخطوة."
+
+msgid "The title of a standard workspace is managed by the app."
+msgstr "يدير التطبيق عنوان مساحة العمل القياسية."
+
+msgid "The workspace list may not load. Please refresh the page."
+msgstr "قد لا تُحمَّل قائمة مساحات العمل. يُرجى تحديث الصفحة."
+
+msgid "The workspace's place in the sidebar is not restored."
+msgstr "لا يُستعاد موضع مساحة العمل في الشريط الجانبي."
+
+msgid "Theme and layout preferences."
+msgstr "تفضيلات السمة والتخطيط."
+
+msgid "Theme name cannot contain '/' or path separators"
+msgstr "لا يمكن أن يحتوي اسم السمة على '/' أو فواصل مسارات"
+
+msgid "Themes"
+msgstr "السمات"
+
+#, python-brace-format
+msgid "There is already a section called {0}."
+msgstr "يوجد بالفعل قسم باسم {0}."
+
+msgid "There is nothing else you need to do."
+msgstr "لا يلزمك فعل أي شيء آخر."
+
+#, python-brace-format
+msgid "There is nothing to export for {0}. Put some entries on its dock first."
+msgstr "لا يوجد شيء لتصديره لـ {0}. ضع بعض العناصر على شريط إرسائه أولًا."
+
+msgid "These announcements will appear inside an alert below the Navbar."
+msgstr "ستظهر هذه الإعلانات داخل تنبيه أسفل شريط التنقل."
+
+#, python-brace-format
+msgid "These fields no longer exist in the DocType and were removed from the layout: {0}"
+msgstr "لم تعد هذه الحقول موجودة في نوع المستند وأُزيلت من التخطيط: {0}"
+
+msgid "These set how dates, numbers and money look across the app."
+msgstr "تحدد هذه كيف تظهر التواريخ والأرقام والمبالغ في التطبيق."
+
+msgid "This DocType is deprecated and may be removed in a future release"
+msgstr "نوع المستند هذا مُهمَل وقد يُزال في إصدار قادم"
+
+msgid "This action does not support the selected trigger"
+msgstr "هذا الإجراء لا يدعم المشغّل المحدد"
+
+msgid "This action requires a Document Type"
+msgstr "هذا الإجراء يتطلب نوع مستند"
+
+msgid "This app has nothing to arrange"
+msgstr "لا يوجد في هذا التطبيق ما يُرتَّب"
+
+msgid "This can take a minute. Please keep this page open."
+msgstr "قد يستغرق ذلك دقيقة. يُرجى إبقاء هذه الصفحة مفتوحة."
+
+#, python-brace-format
+msgid "This can't be saved with a Typst block: {0}"
+msgstr "لا يمكن الحفظ مع كتلة Typst: {0}"
+
+msgid "This chart couldn't load"
+msgstr "تعذّر تحميل هذا المخطط"
+
+msgid "This doctype isn't named by a series."
+msgstr "نوع المستند هذا لا يُسمّى بسلسلة."
+
+msgid "This document is a draft and cannot be printed."
+msgstr "هذا المستند مسودة ولا يمكن طباعته."
+
+msgid "This document is cancelled and cannot be printed."
+msgstr "هذا المستند ملغى ولا يمكن طباعته."
+
+msgid "This document type has no fields to print."
+msgstr "لا توجد في نوع المستند هذا حقول للطباعة."
+
+#, python-brace-format
+msgid ""
+"This drops the dock arrangement of every person on this site for {0}, and the site's "
+"own, back to what the app ships. It cannot be undone."
+msgstr ""
+"يُسقط هذا ترتيب شريط الإرساء لكل شخص في هذا الموقع لـ {0}، وترتيب الموقع نفسه، ويعيده"
+" إلى ما يوفره التطبيق. لا يمكن التراجع عن ذلك."
+
+msgid "This feature is deprecated and may be removed in a future release"
+msgstr "هذه الميزة مُهمَلة وقد تُزال في إصدار قادم"
+
+msgid "This flow has no steps to run."
+msgstr "لا توجد خطوات لتشغيلها في هذا التدفق."
+
+#, python-brace-format
+msgid "This format can no longer render through Typst: {0}"
+msgstr "لم يعد بالإمكان عرض هذا التنسيق عبر Typst: {0}"
+
+#, python-brace-format
+msgid "This format cannot use the Typst renderer: {0}"
+msgstr "لا يمكن لهذا التنسيق استخدام محرك عرض Typst: {0}"
+
+msgid "This format still has a classic layout. Convert it to the new builder first."
+msgstr "لا يزال لهذا التنسيق تخطيط كلاسيكي. حوّله إلى المنشئ الجديد أولًا."
+
+msgid "This format uses a Typst block, so its PDF Renderer must be Typst."
+msgstr "يستخدم هذا التنسيق كتلة Typst، لذا يجب أن يكون محرك عرض PDF هو Typst."
+
+msgid ""
+"This format uses a Typst block, which only the Typst renderer can print. Set the PDF "
+"Renderer to Typst or remove the block."
+msgstr ""
+"يستخدم هذا التنسيق كتلة Typst، ولا يطبعها إلا محرك عرض Typst. عيّن محرك عرض PDF إلى "
+"Typst أو أزل الكتلة."
+
+msgid "This import is complete. There are no pending warnings or mapping issues."
+msgstr "اكتمل هذا الاستيراد. لا توجد تحذيرات أو مشكلات ربط معلقة."
+
+msgid "This invitation expires in 1 day."
+msgstr "تنتهي صلاحية هذه الدعوة خلال يوم واحد."
+
+#, python-brace-format
+msgid "This invitation expires in {0} days."
+msgstr "تنتهي صلاحية هذه الدعوة خلال {0} يوم."
+
+msgid "This invitation has expired"
+msgstr "انتهت صلاحية هذه الدعوة"
+
+msgid "This is an archive of the previous navigation. Customize the module's sidebar instead."
+msgstr "هذا أرشيف للتنقل السابق. خصّص الشريط الجانبي للوحدة بدلًا من ذلك."
+
+#, python-brace-format
+msgid "This label is already used by another {0} in this workspace."
+msgstr "هذه التسمية مستخدمة بالفعل من {0} آخر في مساحة العمل هذه."
+
+msgid "This module has nothing to arrange"
+msgstr "لا يوجد في هذه الوحدة ما يُرتَّب"
+
+msgid ""
+"This module is the linked entity's default home — where it opens when nothing else "
+"decides — even when another app defines it. A sidebar that already lists the entity "
+"still holds you, so this settles cold entry rather than overriding where you are. "
+"Flag what you mean to own: a claim is declarative, so set it on the entities your app"
+" is about rather than only where you expect the default to disagree with you. Only an"
+" app-shipped sidebar may claim."
+msgstr ""
+"هذه الوحدة هي الموطن الافتراضي للكيان المرتبط — حيث يُفتح حين لا يحدد شيء آخر — حتى "
+"لو عرّفه تطبيق آخر. والشريط الجانبي الذي يدرج الكيان بالفعل يُبقيك فيه، فهذا يحسم "
+"الدخول المباشر ولا يتجاوز موضعك الحالي. ضع العلامة على ما تقصد امتلاكه: المطالبة "
+"تصريحية، فعيّنها على الكيانات التي يدور حولها تطبيقك لا فقط حيث تتوقع أن يخالفك "
+"الافتراضي. لا يحق المطالبة إلا لشريط جانبي مُضمَّن مع تطبيق."
+
+msgid "This restores the classic layout backup and discards the converted layout. Continue?"
+msgstr ""
+"يستعيد هذا النسخة الاحتياطية للتخطيط الكلاسيكي ويتجاهل التخطيط المحوَّل. هل تريد "
+"المتابعة؟"
+
+msgid "This role does not have access to any pages."
+msgstr "ليس لهذه الصلاحية وصول إلى أي صفحات."
+
+msgid "This role does not have access to any reports."
+msgstr "ليس لهذه الصلاحية وصول إلى أي تقارير."
+
+msgid "This role does not have access to any workspaces."
+msgstr "ليس لهذه الصلاحية وصول إلى أي مساحات عمل."
+
+msgid ""
+"This row *is* the entry, rather than an opinion about one a lower layer holds. Stored"
+" rather than inferred from the row carrying a body: under partial opinions a "
+"reference may carry an icon and no title, so body-presence stops telling the two "
+"apart -- and a reference to a row the app has since deleted would resurrect as a "
+"label-less button."
+msgstr ""
+"هذا الصف *هو* العنصر، وليس رأيًا في عنصر تحمله طبقة أدنى. يُخزَّن بدلًا من استنتاجه "
+"من احتواء الصف على محتوى: مع الآراء الجزئية قد تحمل الإشارة أيقونة بلا عنوان، فيكفّ "
+"وجود المحتوى عن التمييز بين الحالتين -- والإشارة إلى صف حذفه التطبيق لاحقًا ستعود "
+"زرًا بلا تسمية."
+
+msgid "This row has fewer cells than the header — check for missing commas or columns"
+msgstr "يحتوي هذا الصف على خلايا أقل من الترويسة — تحقق من وجود فواصل أو أعمدة ناقصة"
+
+msgid "This row has more cells than the header — check for extra commas or columns"
+msgstr "يحتوي هذا الصف على خلايا أكثر من الترويسة — تحقق من وجود فواصل أو أعمدة زائدة"
+
+msgid ""
+"This sidebar is customized on this site, and that arrangement is applied on top of "
+"what you save here."
+msgstr "هذا الشريط الجانبي مخصَّص في هذا الموقع، ويُطبَّق ذلك الترتيب فوق ما تحفظه هنا."
+
+msgid ""
+"This site is in developer mode, so edits to standard workspaces belong to the app's "
+"JSON and there is nothing to restore."
+msgstr ""
+"هذا الموقع في وضع المطوّر، لذا تنتمي تعديلات مساحات العمل القياسية إلى ملف JSON الخاص"
+" بالتطبيق ولا يوجد ما يُستعاد."
+
+msgid "This site is in read-only mode - it is undergoing maintenance or being updated."
+msgstr "هذا الموقع في وضع القراءة فقط - يخضع للصيانة أو التحديث."
+
+msgid "This site needs a migration"
+msgstr "يحتاج هذا الموقع إلى ترحيل"
+
+#, python-brace-format
+msgid "This version does not belong to {0}"
+msgstr "هذا الإصدار لا ينتمي إلى {0}"
+
+msgid ""
+"This workspace is hidden from other users. You can see it because you're a Workspace "
+"Manager."
+msgstr "مساحة العمل هذه مخفية عن المستخدمين الآخرين. يمكنك رؤيتها لأنك مدير مساحة عمل."
+
+msgid ""
+"This workspace isn't in any app's sidebar, so it can only be found through search. "
+"Ask a Workspace Manager to add it to an app."
+msgstr ""
+"مساحة العمل هذه ليست في الشريط الجانبي لأي تطبيق، لذا لا يمكن الوصول إليها إلا "
+"بالبحث. اطلب من مدير مساحة العمل إضافتها إلى تطبيق."
+
+msgid ""
+"This workspace isn't in any module's sidebar yet, so there's no way to navigate to "
+"it. Pick the module it belongs to."
+msgstr ""
+"مساحة العمل هذه ليست في الشريط الجانبي لأي وحدة بعد، لذا لا توجد طريقة للانتقال "
+"إليها. اختر الوحدة التي تنتمي إليها."
+
+msgid "Time:"
+msgstr "الوقت:"
+
+#, python-brace-format
+msgid "Timeout must be between 1 and {0} seconds"
+msgstr "يجب أن تكون المهلة بين 1 و{0} ثانية"
+
+msgid "Timing"
+msgstr "التوقيت"
+
+msgid "Timing (quick preview: shorter delays)"
+msgstr "التوقيت (معاينة سريعة: تأخيرات أقصر)"
+
+msgid "To Value"
+msgstr "إلى القيمة"
+
+msgid "To a group of users"
+msgstr "لمجموعة من المستخدمين"
+
+msgid "To everyone"
+msgstr "للجميع"
+
+msgid "Toggle Flash"
+msgstr "تبديل الفلاش"
+
+msgid "Too many redirects"
+msgstr "عمليات إعادة توجيه كثيرة جدًا"
+
+msgid "Top level"
+msgstr "المستوى الأعلى"
+
+msgid "Total rows"
+msgstr "إجمالي الصفوف"
+
+msgid "Transparent"
+msgstr "شفاف"
+
+msgid "Tree Parent Overrides"
+msgstr "تجاوزات الأصل في الشجرة"
+
+msgid "Tree Preview"
+msgstr "معاينة الشجرة"
+
+#, python-brace-format
+msgid "Tree preview of {0} nodes"
+msgstr "معاينة شجرة من {0} عقدة"
+
+msgid "Trigger"
+msgstr "المشغّل"
+
+msgid "Trigger Field"
+msgstr "الحقل المشغِّل"
+
+msgid "Trigger Queue Row"
+msgstr "صف قائمة انتظار المشغّلات"
+
+msgid "Trigger Type"
+msgstr "نوع المشغّل"
+
+msgid "Triggered At"
+msgstr "وقت التشغيل"
+
+msgid "Triggered By"
+msgstr "شغّله"
+
+msgid "Triggering User"
+msgstr "المستخدم المشغِّل"
+
+msgid "Truncated to 5k characters."
+msgstr "مقتطع إلى 5 آلاف حرف."
+
+msgid "Try a different search."
+msgstr "جرّب بحثًا مختلفًا."
+
+msgid "Try a different word."
+msgstr "جرّب كلمة مختلفة."
+
+msgid "Try it"
+msgstr "جرّبه"
+
+msgid "Try the new navigation"
+msgstr "جرّب التنقل الجديد"
+
+msgid ""
+"Tuning for the automation engine: dispatch limits, drain behaviour, retention and "
+"payload limits."
+msgstr "ضبط محرك التشغيل الآلي: حدود الإطلاق وسلوك التصريف والاحتفاظ وحدود الحمولة."
+
+msgid "Type something..."
+msgstr "اكتب شيئًا..."
+
+msgid "Type text, / for a field"
+msgstr "اكتب نصًا، أو / لإدراج حقل"
+
+msgid "Types"
+msgstr "الأنواع"
+
+msgid "Types (same options, four looks)"
+msgstr "الأنواع (الخيارات نفسها، بأربعة أشكال)"
+
+msgid "Typography"
+msgstr "الطباعة النصية"
+
+msgid "Typst"
+msgstr "Typst"
+
+msgid "Typst (fast)"
+msgstr "Typst (سريع)"
+
+msgid "Typst Markup"
+msgstr "ترميز Typst"
+
+msgid "Typst block requires the Typst renderer"
+msgstr "تتطلب كتلة Typst محرك عرض Typst"
+
+msgid "Typst block — content appears in the PDF"
+msgstr "كتلة Typst — يظهر المحتوى في ملف PDF"
+
+msgid "Typst cannot render:"
+msgstr "لا يستطيع Typst عرض:"
+
+msgid "Typst renderer unavailable"
+msgstr "محرك عرض Typst غير متاح"
+
+msgid "URL has no host"
+msgstr "الرابط بلا مضيف"
+
+msgid "URL is required"
+msgstr "الرابط مطلوب"
+
+msgid "URL must be http or https"
+msgstr "يجب أن يكون الرابط http أو https"
+
+msgid "Underline"
+msgstr "تسطير"
+
+msgid "Undo Skip"
+msgstr "التراجع عن التخطي"
+
+msgid "Undo Skip Duplicates"
+msgstr "التراجع عن تخطي المكررات"
+
+msgid "Undo skip"
+msgstr "التراجع عن التخطي"
+
+msgid "Unknown DocType"
+msgstr "نوع مستند غير معروف"
+
+msgid "Unknown Email Template"
+msgstr "قالب بريد إلكتروني غير معروف"
+
+msgid "Unknown Server Script"
+msgstr "سكربت خادم غير معروف"
+
+#, python-brace-format
+msgid "Unknown automation action: {0}"
+msgstr "إجراء تشغيل آلي غير معروف: {0}"
+
+#, python-brace-format
+msgid "Unknown automation relationship: {0}"
+msgstr "علاقة تشغيل آلي غير معروفة: {0}"
+
+#, python-brace-format
+msgid "Unknown derived relationship: {0}"
+msgstr "علاقة مشتقة غير معروفة: {0}"
+
+#, python-brace-format
+msgid "Unknown derived relationship: {0} on {1}"
+msgstr "علاقة مشتقة غير معروفة: {0} في {1}"
+
+#, python-brace-format
+msgid "Unknown parameter: {0}"
+msgstr "معلمة غير معروفة: {0}"
+
+#, python-brace-format
+msgid "Unknown related-condition source alias: {0}"
+msgstr "اسم مستعار غير معروف لمصدر الشرط المرتبط: {0}"
+
+#, python-brace-format
+msgid "Unknown relationship source alias: {0}"
+msgstr "اسم مستعار غير معروف لمصدر العلاقة: {0}"
+
+#, python-brace-format
+msgid "Unlink {0}"
+msgstr "فك ربط {0}"
+
+#, python-brace-format
+msgid "Unlink {0} {1} from {2}?"
+msgstr "فك ربط {0} {1} من {2}؟"
+
+msgid "Unmark as Standard"
+msgstr "إلغاء التعيين كقياسي"
+
+#, python-brace-format
+msgid "Unregistered automation event: {0}"
+msgstr "حدث تشغيل آلي غير مسجّل: {0}"
+
+msgid "Unsafe html gets stripped"
+msgstr "يُزال HTML غير الآمن"
+
+msgid "Unsaved changes"
+msgstr "تغييرات غير محفوظة"
+
+msgid "Unset as Primary"
+msgstr "إلغاء التعيين كأساسي"
+
+msgid "Unsupported HTTP method"
+msgstr "طريقة HTTP غير مدعومة"
+
+#, python-brace-format
+msgid "Unsupported count comparison: {0}"
+msgstr "مقارنة عدد غير مدعومة: {0}"
+
+#, python-brace-format
+msgid "Unsupported related condition: {0}"
+msgstr "شرط مرتبط غير مدعوم: {0}"
+
+msgid "Untitled section"
+msgstr "قسم بلا عنوان"
+
+#, python-brace-format
+msgid "Untitled {0}"
+msgstr "{0} بلا عنوان"
+
+msgid "Upcoming events"
+msgstr "الأحداث القادمة"
+
+#, python-brace-format
+msgid "Updated {0}"
+msgstr "حُدِّث {0}"
+
+msgid "Updating global search"
+msgstr "جارٍ تحديث البحث الشامل"
+
+msgid "Upload Failed"
+msgstr "فشل الرفع"
+
+msgid "Upload Photo"
+msgstr "رفع صورة"
+
+msgid "Upload an image or use a URL"
+msgstr "ارفع صورة أو استخدم رابطًا"
+
+msgid "Upsert"
+msgstr "إدراج أو تحديث"
+
+msgid "Use 'Download Failed Rows' on the Failed metric, fix the errors and import again."
+msgstr "استخدم «تنزيل الصفوف الفاشلة» على مقياس الفاشلة، وأصلح الأخطاء واستورد مرة أخرى."
+
+msgid "Use 'Download Skipped Rows' on the Skipped metric to export the skipped rows."
+msgstr "استخدم «تنزيل الصفوف المتخطّاة» على مقياس المتخطّاة لتصدير الصفوف المتخطّاة."
+
+msgid "Use HTML editor"
+msgstr "استخدام محرر HTML"
+
+msgid "Use Kanban v2 (New Experience)"
+msgstr "استخدام Kanban v2 (التجربة الجديدة)"
+
+msgid "Use POST for a Cloud Settings action."
+msgstr "استخدم POST لإجراء إعدادات السحابة."
+
+msgid "Use template"
+msgstr "استخدام قالب"
+
+#, python-brace-format
+msgid "Use {0} for values from the document."
+msgstr "استخدم {0} للقيم المأخوذة من المستند."
+
+msgid "User Workspaces"
+msgstr "مساحات عمل المستخدم"
+
+msgid "User added."
+msgstr "أُضيف المستخدم."
+
+msgid "User created."
+msgstr "أُنشئ المستخدم."
+
+msgid "User permission added"
+msgstr "أُضيف إذن المستخدم"
+
+msgid "Users who have this role."
+msgstr "المستخدمون الذين لديهم هذه الصلاحية."
+
+msgid "Users with any of these roles can see this workspace"
+msgstr "يمكن للمستخدمين الذين لديهم أي من هذه الصلاحيات رؤية مساحة العمل هذه"
+
+msgid "Value Based On field is required to create a dashboard chart"
+msgstr "حقل «القيمة بناءً على» مطلوب لإنشاء مخطط لوحة معلومات"
+
+msgid "Value Color"
+msgstr "لون القيمة"
+
+msgid "Value Mappings"
+msgstr "ربط القيم"
+
+msgid "Value from"
+msgstr "القيمة من"
+
+msgid "Value in File"
+msgstr "القيمة في الملف"
+
+msgid "Value text"
+msgstr "نص القيمة"
+
+msgid "Variants"
+msgstr "المتغيرات"
+
+msgid "Version History"
+msgstr "سجل الإصدارات"
+
+msgid "Version deleted"
+msgstr "حُذف الإصدار"
+
+msgid "Version history"
+msgstr "سجل الإصدارات"
+
+msgid "Version name"
+msgstr "اسم الإصدار"
+
+msgid "Version restored"
+msgstr "استُعيد الإصدار"
+
+msgid "Version saved"
+msgstr "حُفظ الإصدار"
+
+msgid "Vertical"
+msgstr "عمودي"
+
+msgid "Vertical (in a flex row)"
+msgstr "عمودي (في صف مرن)"
+
+msgid "Vertical (subtle, underline, and right-attached browser-tab)"
+msgstr "عمودي (خفيف، ومسطّر، وعلامة تبويب متصفح ملتصقة يمينًا)"
+
+msgid "Vertical whitespace"
+msgstr "مسافة عمودية"
+
+msgid "Vertical, with icons"
+msgstr "عمودي، مع أيقونات"
+
+msgid "Video"
+msgstr "فيديو"
+
+msgid "Visibility conditions"
+msgstr "شروط الظهور"
+
+msgid "Visible"
+msgstr "ظاهر"
+
+msgid "Wait Resume"
+msgstr "استئناف الانتظار"
+
+msgid "Wait for Event correlation key rendered empty"
+msgstr "مفتاح الربط في «انتظار حدث» أصبح فارغًا بعد المعالجة"
+
+msgid "Wait for Event requires a correlation key"
+msgstr "يتطلب «انتظار حدث» مفتاح ربط"
+
+msgid "Wait for Event requires a timeout"
+msgstr "يتطلب «انتظار حدث» مهلة"
+
+#, python-brace-format
+msgid "Wait for Event timeout unit must be one of {0}"
+msgstr "يجب أن تكون وحدة مهلة «انتظار حدث» إحدى {0}"
+
+msgid "Wait steps require a duration value and unit"
+msgstr "تتطلب خطوات الانتظار قيمة مدة ووحدة"
+
+#, python-brace-format
+msgid "Waited for {0} (simulated)"
+msgstr "انتُظر {0} (محاكاة)"
+
+#, python-brace-format
+msgid "Waited {0} {1} (simulated)"
+msgstr "انتُظر {0} {1} (محاكاة)"
+
+msgid "Waiting"
+msgstr "بانتظار"
+
+#, python-brace-format
+msgid "Waiting for {0}"
+msgstr "بانتظار {0}"
+
+#, python-brace-format
+msgid "Waiting {0} seconds"
+msgstr "انتظار {0} ثانية"
+
+msgid "We couldn't finish setting things up"
+msgstr "تعذّر إكمال الإعداد"
+
+msgid "We couldn't finish setting up your apps"
+msgstr "تعذّر إكمال إعداد تطبيقاتك"
+
+msgid "We couldn't save your language and region"
+msgstr "تعذّر حفظ لغتك ومنطقتك"
+
+msgid "We do not allow editing of this document."
+msgstr "لا نسمح بتعديل هذا المستند."
+
+msgid "WeasyPrint"
+msgstr "WeasyPrint"
+
+#, python-brace-format
+msgid "WeasyPrint cannot render this format: {0}. Switch the PDF Renderer to Chrome."
+msgstr "لا يستطيع WeasyPrint عرض هذا التنسيق: {0}. غيّر محرك عرض PDF إلى Chrome."
+
+msgid "WeasyPrint cannot render:"
+msgstr "لا يستطيع WeasyPrint عرض:"
+
+#, python-brace-format
+msgid "WeasyPrint cannot render: {0}"
+msgstr "لا يستطيع WeasyPrint عرض: {0}"
+
+msgid "WeasyPrint is deprecated and cannot be selected for a new format. Use Chrome instead."
+msgstr "WeasyPrint مُهمَل ولا يمكن اختياره لتنسيق جديد. استخدم Chrome بدلًا منه."
+
+msgid ""
+"WeasyPrint is deprecated and will be removed in version 17. Switch this format to "
+"Chrome."
+msgstr "WeasyPrint مُهمَل وسيُزال في الإصدار 17. غيّر هذا التنسيق إلى Chrome."
+
+msgid "WeasyPrint renderer unavailable"
+msgstr "محرك عرض WeasyPrint غير متاح"
+
+msgid "Web address"
+msgstr "عنوان ويب"
+
+msgid "Welcome to the Portal"
+msgstr "مرحبًا بك في البوابة"
+
+msgid "What it opens"
+msgstr "ما يفتحه"
+
+msgid ""
+"What kind of thing this entry opens. Spelled the way `Sidebar Item` spells it, so "
+"`frappe.ui.sidebar_item.get_route(row)` takes the two page kinds unchanged. `Sidebar`"
+" is a value here because a module entry is an entry like any other: it opens the "
+"shell, which is the one destination that is not a page."
+msgstr ""
+"نوع ما يفتحه هذا العنصر. مكتوب بالطريقة التي يكتبه بها `Sidebar Item`، لكي يأخذ "
+"`frappe.ui.sidebar_item.get_route(row)` نوعي الصفحات دون تغيير. `Sidebar` قيمة هنا "
+"لأن عنصر الوحدة عنصر كغيره: يفتح الإطار، وهو الوجهة الوحيدة التي ليست صفحة."
+
+msgid "What prints now"
+msgstr "ما يُطبع الآن"
+
+msgid "What the action threw as a message, if it failed."
+msgstr "الرسالة التي أطلقها الإجراء، إن فشل."
+
+msgid ""
+"What the rail draws this entry with. Required when the row *adds* an entry, because "
+"nothing below it holds one; optional when it references an entry a lower layer "
+"already has, where blank means inherit and filled is an override."
+msgstr ""
+"ما يرسم الشريط هذا العنصر به. مطلوب عندما *يضيف* الصف عنصرًا، لأنه لا شيء تحته يحمل "
+"واحدًا؛ واختياري عندما يشير إلى عنصر تملكه طبقة أدنى، حيث يعني الفارغ التوارث "
+"والمملوء تجاوزًا."
+
+msgid ""
+"What this sidebar is called, on screen and as its record name (`autoname: "
+"field:title`). Defaults to the module's name, and the default is stored -- so a "
+"module's own sidebar keeps the name it has always had, and a second sidebar under "
+"that module is told apart by being called something else. `unique` on top of that "
+"adds one thing the primary key does not: it refuses a second sidebar claiming the "
+"title of a row whose name has drifted away from it -- a legacy row, or one written "
+"straight to the table."
+msgstr ""
+"اسم هذا الشريط الجانبي، على الشاشة واسمًا لسجله (`autoname: field:title`). الافتراضي "
+"اسم الوحدة، ويُخزَّن الافتراضي -- فيحتفظ الشريط الجانبي للوحدة بالاسم الذي حمله "
+"دائمًا، ويُميَّز الشريط الثاني تحت تلك الوحدة بتسميته باسم آخر. ويضيف `unique` فوق "
+"ذلك أمرًا لا يضيفه المفتاح الأساسي: يرفض شريطًا جانبيًا ثانيًا يدّعي عنوان صف ابتعد "
+"اسمه عنه -- صف قديم، أو صف كُتب مباشرة في الجدول."
+
+msgid ""
+"When active, this map is used for its doctype. An active custom map overrides the "
+"standard one."
+msgstr ""
+"عند تفعيلها، تُستخدم هذه الخريطة لنوع مستندها. الخريطة المخصصة المفعّلة تتجاوز "
+"القياسية."
+
+msgid "Where a web address entry goes. A URL row has no shell and is gated by nothing."
+msgstr "وجهة عنصر عنوان الويب. صف URL ليس له إطار ولا يقيّده شيء."
+
+msgid "Which module's sidebar this workspace appears in"
+msgstr "الشريط الجانبي للوحدة الذي تظهر فيه مساحة العمل هذه"
+
+msgid "Which timestamp to show in the card footer."
+msgstr "أي طابع زمني يُعرض في تذييل البطاقة."
+
+msgid "Who can see this workspace"
+msgstr "من يمكنه رؤية مساحة العمل هذه"
+
+msgid "Widget Color"
+msgstr "لون العنصر"
+
+msgid "Width (px)"
+msgstr "العرض (بكسل)"
+
+msgid "Width in pixels"
+msgstr "العرض بالبكسل"
+
+msgid "With a create action"
+msgstr "مع إجراء إنشاء"
+
+msgid "With action"
+msgstr "مع إجراء"
+
+msgid "With click handlers"
+msgstr "مع معالجات النقر"
+
+msgid "With description"
+msgstr "مع وصف"
+
+msgid "With icon"
+msgstr "مع أيقونة"
+
+msgid "With image"
+msgstr "مع صورة"
+
+msgid "With indicator"
+msgstr "مع مؤشر"
+
+#, python-brace-format
+msgid ""
+"Workflow State '{0}' has Document Status {1}, but DocType '{2}' is not submittable. "
+"Only Document Status 0 (Draft) is allowed for non-submittable DocTypes."
+msgstr ""
+"حالة سير العمل '{0}' لها حالة المستند {1}، لكن نوع المستند '{2}' غير قابل للترحيل. لا"
+" يُسمح إلا بحالة المستند 0 (مسودة) لأنواع المستندات غير القابلة للترحيل."
+
+msgid "Working draft · not applied yet"
+msgstr "مسودة عمل · لم تُطبَّق بعد"
+
+msgid "Working..."
+msgstr "جارٍ العمل..."
+
+msgid "Workspace reset to standard"
+msgstr "أُعيدت مساحة العمل إلى القياسي"
+
+msgid "Workspace updated"
+msgstr "حُدِّثت مساحة العمل"
+
+#, python-brace-format
+msgid "Workspace {0} deleted"
+msgstr "حُذفت مساحة العمل {0}"
+
+msgid "Workspaces this role can access."
+msgstr "مساحات العمل التي يمكن لهذه الصلاحية الوصول إليها."
+
+msgid ""
+"Workspaces this site edited before the upgrade, as recorded in their version history."
+" Restoring writes the edit as a customization, so the workspace shows it again at its"
+" usual address."
+msgstr ""
+"مساحات العمل التي عدّلها هذا الموقع قبل الترقية، كما هي مسجلة في سجل إصداراتها. تكتب "
+"الاستعادة التعديل كتخصيص، فتعرضه مساحة العمل مجددًا في عنوانها المعتاد."
+
+msgid ""
+"Workspaces whose sidebars were merged to build this one. Read by the module-split "
+"tool."
+msgstr "مساحات العمل التي دُمجت أشرطتها الجانبية لبناء هذا الشريط. تقرؤها أداة تقسيم الوحدات."
+
+#, python-brace-format
+msgid "Would {0} {1} (not sent)"
+msgstr "كان سيُرسَل طلب {0} إلى {1} (لم يُرسل)"
+
+#, python-brace-format
+msgid ""
+"Write Typst here. Use {0} for values from the document. Check the PDF preview to see "
+"the result."
+msgstr "اكتب Typst هنا. استخدم {0} للقيم المأخوذة من المستند. راجع معاينة PDF لرؤية النتيجة."
+
+msgid "Write the format by hand in HTML and Jinja."
+msgstr "اكتب التنسيق يدويًا بـ HTML وJinja."
+
+msgid "Write the text to print"
+msgstr "اكتب النص المراد طباعته"
+
+#, python-brace-format
+msgid "Write {0} into {1} so the app ships it?"
+msgstr "كتابة {0} في {1} ليتضمنه التطبيق؟"
+
+msgid ""
+"You already have the maximum number of bulk PDF exports in progress. Please wait for "
+"one to finish."
+msgstr ""
+"لديك بالفعل الحد الأقصى من عمليات تصدير PDF المجمّع قيد التنفيذ. يُرجى الانتظار حتى "
+"تنتهي إحداها."
+
+#, python-brace-format
+msgid "You are impersonating {0}."
+msgstr "أنت تنتحل صفة {0}."
+
+msgid "You are not allowed to assign layouts to other users"
+msgstr "غير مسموح لك بإسناد تخطيطات إلى مستخدمين آخرين"
+
+msgid "You are not allowed to create or edit global layouts"
+msgstr "غير مسموح لك بإنشاء التخطيطات العامة أو تعديلها"
+
+msgid "You are not allowed to delete global layouts"
+msgstr "غير مسموح لك بحذف التخطيطات العامة"
+
+msgid "You are not allowed to delete this layout"
+msgstr "غير مسموح لك بحذف هذا التخطيط"
+
+msgid "You are not allowed to see this onboarding step"
+msgstr "غير مسموح لك برؤية خطوة الإعداد الأولي هذه"
+
+msgid "You are not allowed to update global layouts"
+msgstr "غير مسموح لك بتحديث التخطيطات العامة"
+
+msgid "You are not allowed to update this layout"
+msgstr "غير مسموح لك بتحديث هذا التخطيط"
+
+msgid "You are not allowed to update this onboarding step"
+msgstr "غير مسموح لك بتحديث خطوة الإعداد الأولي هذه"
+
+#, python-brace-format
+msgid "You are not permitted to access {0}."
+msgstr "غير مسموح لك بالوصول إلى {0}."
+
+msgid "You are not permitted to change Print Settings"
+msgstr "غير مسموح لك بتغيير إعدادات الطباعة"
+
+msgid "You are not permitted to print one of the selected documents"
+msgstr "غير مسموح لك بطباعة أحد المستندات المحددة"
+
+msgid "You can also drag column borders directly in the list view to resize"
+msgstr "يمكنك أيضًا سحب حدود الأعمدة مباشرة في عرض القائمة لتغيير حجمها"
+
+msgid "You can continue other work while this runs. Progress updates will appear here."
+msgstr "يمكنك متابعة أعمال أخرى أثناء التشغيل. ستظهر تحديثات التقدم هنا."
+
+msgid "You can only create a private workspace for yourself."
+msgstr "لا يمكنك إنشاء مساحة عمل خاصة إلا لنفسك."
+
+msgid "You don't have permission to view this."
+msgstr "ليس لديك إذن لعرض هذا."
+
+#, python-brace-format
+msgid "You have 1 pending {0} import with a file attached."
+msgstr "لديك عملية استيراد {0} واحدة معلقة مع ملف مرفق."
+
+msgid "You have no new notifications"
+msgstr "ليست لديك إشعارات جديدة"
+
+#, python-brace-format
+msgid "You have {0} pending {1} imports with files attached."
+msgstr "لديك {0} عمليات استيراد {1} معلقة مع ملفات مرفقة."
+
+msgid "You need the Workspace Manager role to create a workspace others can see."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لإنشاء مساحة عمل يراها الآخرون."
+
+msgid "You need the Workspace Manager role to delete this workspace."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لحذف مساحة العمل هذه."
+
+msgid "You need the Workspace Manager role to make a workspace public."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لجعل مساحة العمل عامة."
+
+msgid "You need the Workspace Manager role to manage this workspace."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لإدارة مساحة العمل هذه."
+
+msgid "You need the Workspace Manager role to move this workspace."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لنقل مساحة العمل هذه."
+
+msgid "You need the Workspace Manager role to restore workspace edits."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لاستعادة تعديلات مساحات العمل."
+
+msgid "You need the Workspace Manager role to see pre-upgrade workspace edits."
+msgstr "تحتاج إلى صلاحية مدير مساحة العمل لرؤية تعديلات مساحات العمل السابقة للترقية."
+
+msgid "You need to be Workspace Manager to change the dock for everyone."
+msgstr "يجب أن تكون مدير مساحة عمل لتغيير شريط الإرساء للجميع."
+
+msgid "You need to be Workspace Manager to change this for everyone."
+msgstr "يجب أن تكون مدير مساحة عمل لتغيير هذا للجميع."
+
+msgid "You need to be Workspace Manager to reset a workspace."
+msgstr "يجب أن تكون مدير مساحة عمل لإعادة تعيين مساحة عمل."
+
+msgid "You need to be Workspace Manager to reset the dock for everyone."
+msgstr "يجب أن تكون مدير مساحة عمل لإعادة تعيين شريط الإرساء للجميع."
+
+msgid "You need to be Workspace Manager to reset this for everyone."
+msgstr "يجب أن تكون مدير مساحة عمل لإعادة تعيين هذا للجميع."
+
+msgid "You need to be Workspace Manager to see the dock's site layer."
+msgstr "يجب أن تكون مدير مساحة عمل لرؤية طبقة الموقع لشريط الإرساء."
+
+msgid "You need to be Workspace Manager to see the sidebar's site layer."
+msgstr "يجب أن تكون مدير مساحة عمل لرؤية طبقة الموقع للشريط الجانبي."
+
+msgid "You will receive a copy of this email"
+msgstr "ستتلقى نسخة من هذه الرسالة"
+
+msgid "You will receive a copy of this email and a read receipt"
+msgstr "ستتلقى نسخة من هذه الرسالة وإيصال قراءة"
+
+msgid "You will receive a read receipt"
+msgstr "ستتلقى إيصال قراءة"
+
+msgid "You'll use these details to sign in."
+msgstr "ستستخدم هذه البيانات لتسجيل الدخول."
+
+msgid "You're all set."
+msgstr "كل شيء جاهز."
+
+#, python-brace-format
+msgid "You're invited to join {0}"
+msgstr "أنت مدعو للانضمام إلى {0}"
+
+msgid "YouTube video player"
+msgstr "مشغّل فيديو YouTube"
+
+msgid "Your Layouts"
+msgstr "تخطيطاتك"
+
+msgid ""
+"Your icons and their layout stay just as they are, and you can switch back anytime "
+"from Desktop Settings."
+msgstr "تبقى أيقوناتك وترتيبها كما هي، ويمكنك العودة في أي وقت من إعدادات سطح المكتب."
+
+msgid "Your invitation has been cancelled"
+msgstr "أُلغيت دعوتك"
+
+#, python-brace-format
+msgid ""
+"Your invitation to join {0} is no longer valid. Ask your team to send a new "
+"invitation if you'd still like to join."
+msgstr ""
+"دعوتك للانضمام إلى {0} لم تعد صالحة. اطلب من فريقك إرسال دعوة جديدة إن كنت لا تزال "
+"ترغب في الانضمام."
+
+#, python-brace-format
+msgid ""
+"Your invitation to join {0} was cancelled by the site administrator. If this was a "
+"mistake, reach out to your team to request a new invitation."
+msgstr ""
+"ألغى مسؤول الموقع دعوتك للانضمام إلى {0}. إن كان ذلك خطأً، فتواصل مع فريقك لطلب دعوة "
+"جديدة."
+
+msgid "Your session has expired due to inactivity. Please log in again to continue."
+msgstr "انتهت جلستك بسبب عدم النشاط. يُرجى تسجيل الدخول مجددًا للمتابعة."
+
+msgid "Your verification code"
+msgstr "رمز التحقق الخاص بك"
+
+msgid "Zoom"
+msgstr "تكبير"
+
+msgid "app ships this off"
+msgstr "التطبيق يوفره معطّلًا"
+
+msgid "applied the builder draft"
+msgstr "طبّق مسودة المنشئ"
+
+msgid "auto"
+msgstr "تلقائي"
+
+msgctxt "Custom Workspace"
+msgid "blue"
+msgstr "أزرق"
+
+msgid "card"
+msgstr "بطاقة"
+
+msgid "chart"
+msgstr "مخطط"
+
+msgid "custom block"
+msgstr "كتلة مخصصة"
+
+msgid "e.g. doc.apply_discount"
+msgstr "مثال: doc.apply_discount"
+
+msgid "e.g. row.qty > 0"
+msgstr "مثال: row.qty > 0"
+
+#, python-brace-format
+msgid "e.g. {0}"
+msgstr "مثال: {0}"
+
+#, python-brace-format
+msgid "edited {0} by {1}"
+msgstr "عدّله {1} في {0}"
+
+msgid "event"
+msgstr "حدث"
+
+msgid "here"
+msgstr "هنا"
+
+msgid "its app"
+msgstr "تطبيقه"
+
+msgid "none"
+msgstr "لا شيء"
+
+msgid "number card"
+msgstr "بطاقة رقم"
+
+msgid "onboarding"
+msgstr "الإعداد الأولي"
+
+msgid "or image URL"
+msgstr "أو رابط صورة"
+
+msgid "quick list"
+msgstr "قائمة سريعة"
+
+#, python-brace-format
+msgid "row {0}"
+msgstr "الصف {0}"
+
+#, python-brace-format
+msgid "rows {0}"
+msgstr "الصفوف {0}"
+
+#, python-brace-format
+msgid "saved version {0}"
+msgstr "حفظ الإصدار {0}"
+
+msgid "shortcut"
+msgstr "اختصار"
+
+msgid "the app"
+msgstr "التطبيق"
+
+msgid "the sidebar generated from this module's contents"
+msgstr "الشريط الجانبي المُنشأ من محتويات هذه الوحدة"
+
+msgid "the site's"
+msgstr "ترتيب الموقع"
+
+msgid "unlinked"
+msgstr "غير مرتبط"
+
+msgid "value"
+msgstr "القيمة"
+
+msgid "what the apps ship"
+msgstr "ما توفره التطبيقات"
+
+msgid "widget"
+msgstr "عنصر"
+
+msgid ""
+"wkhtmltopdf is deprecated and will be removed in version 17. Chrome is the supported "
+"renderer."
+msgstr "wkhtmltopdf مُهمَل وسيُزال في الإصدار 17. Chrome هو محرك العرض المدعوم."
+
+msgid ""
+"wkhtmltopdf is deprecated and will be removed in version 17. Switch this format to "
+"Chrome."
+msgstr "wkhtmltopdf مُهمَل وسيُزال في الإصدار 17. غيّر هذا التنسيق إلى Chrome."
+
+#, python-brace-format
+msgid "{0} (Copy)"
+msgstr "{0} (نسخة)"
+
+#, python-brace-format
+msgid "{0} (New Builder)"
+msgstr "{0} (المنشئ الجديد)"
+
+#, python-brace-format
+msgid "{0} (by {1})"
+msgstr "{0} (بواسطة {1})"
+
+#, python-brace-format
+msgid "{0} (detected)"
+msgstr "{0} (مُكتشَف)"
+
+#, python-brace-format
+msgid "{0} Permission for {1}"
+msgstr "إذن {0} لـ {1}"
+
+#, python-brace-format
+msgid "{0} already answers to the URL {1}, and two shells cannot share one."
+msgstr "{0} يستجيب بالفعل للرابط {1}، ولا يمكن لإطارين مشاركة رابط واحد."
+
+#, python-brace-format
+msgid "{0} and {1} more"
+msgstr "{0} و{1} أخرى"
+
+#, python-brace-format
+msgid ""
+"{0} belongs to its app and can only be edited in developer mode. Customize the "
+"sidebar instead to change it for this site."
+msgstr ""
+"{0} ينتمي إلى تطبيقه ولا يمكن تعديله إلا في وضع المطوّر. خصّص الشريط الجانبي بدلًا من"
+" ذلك لتغييره لهذا الموقع."
+
+#, python-brace-format
+msgid "{0} block"
+msgstr "كتلة {0}"
+
+#, python-brace-format
+msgid "{0} blocks"
+msgstr "{0} كتلة"
+
+#, python-brace-format
+msgid "{0} documents become searchable for everyone in this site"
+msgstr "تصبح مستندات {0} قابلة للبحث للجميع في هذا الموقع"
+
+#, python-brace-format
+msgid "{0} does not support {1} triggers"
+msgstr "{0} لا يدعم مشغّلات {1}"
+
+#, python-brace-format
+msgid "{0} fields"
+msgstr "{0} حقل"
+
+#, python-brace-format
+msgid "{0} has changed since you opened it. Refresh to get the latest version."
+msgstr "تغيّر {0} منذ فتحته. حدّث الصفحة للحصول على أحدث إصدار."
+
+#, python-brace-format
+msgid "{0} has children but Is Group is 0 — parent must be a group node"
+msgstr "لـ {0} عناصر فرعية لكن «مجموعة» قيمته 0 — يجب أن يكون الأصل عقدة مجموعة"
+
+#, python-brace-format
+msgid "{0} has invited you to join {1}."
+msgstr "دعاك {0} للانضمام إلى {1}."
+
+#, python-brace-format
+msgid "{0} has no classic layout to restore"
+msgstr "ليس لـ {0} تخطيط كلاسيكي لاستعادته"
+
+#, python-brace-format
+msgid "{0} has no field {1}"
+msgstr "ليس في {0} حقل {1}"
+
+#, python-brace-format
+msgid "{0} is a custom HTML format and cannot be edited in the builder."
+msgstr "{0} تنسيق HTML مخصص ولا يمكن تعديله في المنشئ."
+
+#, python-brace-format
+msgid "{0} is a shipped {1} edited in place; the app's version is shown."
+msgstr "{0} عنصر {1} مُضمَّن عُدِّل في مكانه؛ يُعرض إصدار التطبيق."
+
+#, python-brace-format
+msgid ""
+"{0} is a standard format and cannot be changed. A copy with this name will open in "
+"the new builder."
+msgstr "{0} تنسيق قياسي ولا يمكن تغييره. ستُفتح نسخة بهذا الاسم في المنشئ الجديد."
+
+#, python-brace-format
+msgid "{0} is already on the sidebar"
+msgstr "{0} موجود بالفعل على الشريط الجانبي"
+
+#, python-brace-format
+msgid ""
+"{0} is an archive of the previous navigation and can no longer be edited. Customize "
+"the module's sidebar instead."
+msgstr ""
+"{0} أرشيف للتنقل السابق ولم يعد قابلًا للتعديل. خصّص الشريط الجانبي للوحدة بدلًا من "
+"ذلك."
+
+#, python-brace-format
+msgid "{0} is another module's name, and a sidebar's title is what the desk calls it by."
+msgstr "{0} اسم وحدة أخرى، وعنوان الشريط الجانبي هو الاسم الذي يُعرف به في سطح المكتب."
+
+#, python-brace-format
+msgid "{0} is back to standard"
+msgstr "عاد {0} إلى القياسي"
+
+#, python-brace-format
+msgid "{0} is empty — click to add"
+msgstr "{0} فارغ — انقر للإضافة"
+
+#, python-brace-format
+msgid "{0} is no longer a sidebar of {1}. Reopen the one you meant to arrange."
+msgstr "لم يعد {0} شريطًا جانبيًا لـ {1}. أعد فتح الشريط الذي قصدت ترتيبه."
+
+#, python-brace-format
+msgid "{0} is no longer standard; its exported file has been removed."
+msgstr "لم يعد {0} قياسيًا؛ أُزيل ملفه المُصدَّر."
+
+#, python-brace-format
+msgid "{0} is not a classic print format"
+msgstr "{0} ليس تنسيق طباعة كلاسيكيًا"
+
+#, python-brace-format
+msgid "{0} is not a module you can assign a workspace to."
+msgstr "{0} ليست وحدة يمكنك إسناد مساحة عمل إليها."
+
+#, python-brace-format
+msgid "{0} is not a module."
+msgstr "{0} ليست وحدة."
+
+#, python-brace-format
+msgid "{0} is not a standard workspace."
+msgstr "{0} ليست مساحة عمل قياسية."
+
+#, python-brace-format
+msgid "{0} is not a valid condition: {1}"
+msgstr "{0} ليس شرطًا صالحًا: {1}"
+
+#, python-brace-format
+msgid "{0} is not an app on this site."
+msgstr "{0} ليس تطبيقًا في هذا الموقع."
+
+#, python-brace-format
+msgid "{0} is now standard and exported to {1}."
+msgstr "أصبح {0} قياسيًا وصُدِّر إلى {1}."
+
+#, python-brace-format
+msgid "{0} is rendered from an HTML file and cannot be converted"
+msgstr "يُعرض {0} من ملف HTML ولا يمكن تحويله"
+
+#, python-brace-format
+msgid "{0} is rendered from an HTML file and cannot be edited in the builder."
+msgstr "يُعرض {0} من ملف HTML ولا يمكن تعديله في المنشئ."
+
+#, python-brace-format
+msgid "{0} is rendered from an HTML file, so this format starts from the standard layout"
+msgstr "يُعرض {0} من ملف HTML، لذا يبدأ هذا التنسيق من التخطيط القياسي"
+
+#, python-brace-format
+msgid ""
+"{0} is the default print format for {1}. Disabling it will remove it as the default. "
+"Do you want to continue?"
+msgstr ""
+"{0} هو تنسيق الطباعة الافتراضي لـ {1}. تعطيله سيزيله من كونه الافتراضي. هل تريد "
+"المتابعة؟"
+
+#, python-brace-format
+msgid "{0} items"
+msgstr "{0} عنصر"
+
+#, python-brace-format
+msgid "{0} missing"
+msgstr "{0} مفقود"
+
+#, python-brace-format
+msgid "{0} more not shown"
+msgstr "{0} أخرى غير معروضة"
+
+#, python-brace-format
+msgid "{0} moved under {1}"
+msgstr "نُقل {0} تحت {1}"
+
+#, python-brace-format
+msgid "{0} must be a JSON object"
+msgstr "يجب أن يكون {0} كائن JSON"
+
+#, python-brace-format
+msgid "{0} must be a hex color code like #1a5fb4"
+msgstr "يجب أن يكون {0} رمز لون ست عشريًا مثل #1a5fb4"
+
+#, python-brace-format
+msgid "{0} must be text"
+msgstr "يجب أن يكون {0} نصًا"
+
+#, python-brace-format
+msgid "{0} now has no rail; its exported dock has been removed."
+msgstr "لم يعد لـ {0} شريط؛ أُزيل شريط الإرساء المُصدَّر الخاص به."
+
+#, python-brace-format
+msgid "{0} of 120 files"
+msgstr "{0} من 120 ملفًا"
+
+#, python-brace-format
+msgid "{0} of this app's modules are on no tier at all"
+msgstr "{0} من وحدات هذا التطبيق ليست في أي مستوى إطلاقًا"
+
+#, python-brace-format
+msgid "{0} of {1} cards could not be moved"
+msgstr "تعذّر نقل {0} من {1} بطاقة"
+
+#, python-brace-format
+msgid "{0} of {1} done · {2} skipped"
+msgstr "تم {0} من {1} · تُخطّي {2}"
+
+#, python-brace-format
+msgid "{0} of {1} steps done"
+msgstr "اكتملت {0} من {1} خطوات"
+
+#, python-brace-format
+msgid "{0} requires a Document Type"
+msgstr "{0} يتطلب نوع مستند"
+
+#, python-brace-format
+msgid "{0} requires a target document"
+msgstr "{0} يتطلب مستندًا هدفًا"
+
+#, python-brace-format
+msgid "{0} role changes"
+msgstr "{0} تغييرات في الصلاحيات"
+
+#, python-brace-format
+msgid "{0} rows"
+msgstr "{0} صف"
+
+#, python-brace-format
+msgid "{0} saved section(s) already exist by name and were not imported"
+msgstr "{0} من الأقسام المحفوظة موجودة بالفعل بالاسم نفسه ولم تُستورد"
+
+#, python-brace-format
+msgid "{0} selected"
+msgstr "تم تحديد {0}"
+
+#, python-brace-format
+msgid "{0} ships no dock yet. Export one to the app first."
+msgstr "لا يتضمن {0} شريط إرساء بعد. صدّر واحدًا إلى التطبيق أولًا."
+
+#, python-brace-format
+msgid "{0} trigger requires a Document Type"
+msgstr "مشغّل {0} يتطلب نوع مستند"
+
+#, python-brace-format
+msgid "{0} unlinked"
+msgstr "فُكّ ربط {0}"
+
+#, python-brace-format
+msgid "{0} warnings found."
+msgstr "عُثر على {0} تحذيرات."
+
+#, python-brace-format
+msgid "{0} was hidden, and is back on the sidebar"
+msgstr "كان {0} مخفيًا، وعاد إلى الشريط الجانبي"
+
+#, python-brace-format
+msgid ""
+"{0} workspace(s) have no module, so nothing can navigate to them. Give each one a "
+"module below."
+msgstr "{0} من مساحات العمل بلا وحدة، لذا لا يمكن الانتقال إليها. أعطِ كلًا منها وحدة أدناه."
+
+#, python-brace-format
+msgid "{0} workspace(s) in this module, which this site owns."
+msgstr "{0} من مساحات العمل في هذه الوحدة، التي يملكها هذا الموقع."
+
+#, python-brace-format
+msgid "{0} workspace(s) in this module, which {1} ships."
+msgstr "{0} من مساحات العمل في هذه الوحدة، التي يتضمنها {1}."
+
+#, python-brace-format
+msgid ""
+"{0} workspace(s) name the module {1}, which doesn't exist on this site — nothing can "
+"navigate to them. Give each one a module below."
+msgstr ""
+"{0} من مساحات العمل تسمّي الوحدة {1}، وهي غير موجودة في هذا الموقع — لا يمكن الانتقال"
+" إليها. أعطِ كلًا منها وحدة أدناه."
+
+#, python-brace-format
+msgid "{0} {1} returned {2}"
+msgstr "{0} {1} أعاد {2}"
+
+#, python-brace-format
+msgid "{0} {1} returned {2}: {3}"
+msgstr "{0} {1} أعاد {2}: {3}"
+
+#, python-brace-format
+msgid ""
+"{0}'s dock belongs to its app and can only be authored in developer mode. Arrange the"
+" dock instead to change it for this site."
+msgstr ""
+"شريط إرساء {0} ينتمي إلى تطبيقه ولا يمكن تأليفه إلا في وضع المطوّر. رتّب شريط الإرساء"
+" بدلًا من ذلك لتغييره لهذا الموقع."
+
+#, python-brace-format
+msgid "{0}'s dock is now standard and exported to the app."
+msgstr "أصبح شريط إرساء {0} قياسيًا وصُدِّر إلى التطبيق."
+
+#, python-brace-format
+msgid "{0}'s roles come from the Role Profile {1}. Edit that to change this."
+msgstr "تأتي صلاحيات {0} من ملف الصلاحيات {1}. عدّله لتغيير ذلك."
+
+#, python-brace-format
+msgid "{0}: pre-upgrade edits restored"
+msgstr "{0}: استُعيدت التعديلات السابقة للترقية"
+
+#, python-brace-format
+msgid "{0}: {1} did not match any results."
+msgstr "{0}: {1} لم يطابق أي نتائج."
+
+#, python-brace-format
+msgid "{0}: {1} is not a valid field on {2}"
+msgstr "{0}: {1} ليس حقلًا صالحًا في {2}"
+
+msgid "Add Aggregate"
+msgstr "إضافة تجميع"
+
+msgid "Add Group By"
+msgstr "إضافة تجميع حسب"
+
+msgid "Aggregate"
+msgstr "التجميع"
+
+msgid "Back to the editor"
+msgstr "العودة إلى المحرر"
+
+msgid "Background image loaded from a web address"
+msgstr "صورة خلفية محمّلة من عنوان ويب"
+
+msgid "Child table fields need 'name' in `fields` when using distinct or aggregate queries."
+msgstr ""
+"تحتاج حقول الجداول الفرعية إلى 'name' في `fields` عند استخدام استعلامات distinct أو "
+"التجميع."
+
+msgid "Clear Grouping"
+msgstr "مسح التجميع"
+
+msgid "Clear grouping"
+msgstr "مسح التجميع"
+
+msgid "Deprecated, removed in version 17. Switch to Chrome."
+msgstr "مُهمَل، وسيُزال في الإصدار 17. انتقل إلى Chrome."
+
+#, python-brace-format
+msgid "Grouped by {0}"
+msgstr "مجمّع حسب {0}"
+
+msgid "No records"
+msgstr "لا توجد سجلات"
+
+#, python-brace-format
+msgid ""
+"None of the columns in your file match {0}. Check that it is the right file; if it "
+"is, map its columns to {0} fields in the next step."
+msgstr ""
+"لا يطابق أي من أعمدة ملفك {0}. تحقق من أنه الملف الصحيح؛ وإن كان كذلك، فاربط أعمدته "
+"بحقول {0} في الخطوة التالية."
+
+msgid "Not made in the Print Format Editor"
+msgstr "لم يُنشأ في محرر تنسيق الطباعة"
+
+msgid "Opacity"
+msgstr "العتامة"
+
+msgid "Page background"
+msgstr "خلفية الصفحة"
+
+msgid "Paper Size"
+msgstr "حجم الورق"
+
+msgid "Paper size"
+msgstr "حجم الورق"
+
+msgid "Print Format Editor"
+msgstr "محرر تنسيق الطباعة"
+
+#, python-brace-format
+msgid "Queued for {0}. You can track the progress over {1}."
+msgstr "أُدرج في قائمة الانتظار لـ {0}. يمكنك متابعة التقدم عبر {1}."
+
+msgid "Select field"
+msgstr "اختر حقلًا"
+
+msgid "Set as Default Format"
+msgstr "تعيين كتنسيق افتراضي"
+
+msgid "Show totals"
+msgstr "إظهار الإجماليات"
+
+msgid "Standard is used when no default is set"
+msgstr "يُستخدم التنسيق القياسي عند عدم تعيين تنسيق افتراضي"
+
+msgid "The Print Format Editor is visual. HTML is hand-written."
+msgstr "محرر تنسيق الطباعة مرئي. أما HTML فيُكتب يدويًا."
+
+#, python-brace-format
+msgid "The Typst renderer cannot embed this background image: {0}"
+msgstr "لا يستطيع محرك عرض Typst تضمين صورة الخلفية هذه: {0}"
+
+#, python-brace-format
+msgid "This document has already been queued for {0}. You can track the progress over {1}."
+msgstr "أُدرج هذا المستند بالفعل في قائمة الانتظار لـ {0}. يمكنك متابعة التقدم عبر {1}."
+
+#, python-brace-format
+msgid "Your password was changed by {0}"
+msgstr "غيّر {0} كلمة مرورك"
+
+msgid "Zoom in"
+msgstr "تكبير"
+
+msgid "Zoom out"
+msgstr "تصغير"
+
+msgid "applied the editor draft"
+msgstr "طبّق مسودة المحرر"
+
+#, python-brace-format
+msgid "{0} is rendered from an HTML file and cannot be edited in the Print Format Editor."
+msgstr "يُعرض {0} من ملف HTML ولا يمكن تعديله في محرر تنسيق الطباعة."
+
+#, python-brace-format
+msgid "{0} will be removed in version 17. Switch to Chrome."
+msgstr "سيُزال {0} في الإصدار 17. انتقل إلى Chrome."
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Core"
+msgstr "النواة"
+
+#. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
+msgid "Arabic Translations"
+msgstr "الترجمات العربية"
 
