@@ -40,8 +40,17 @@ SOURCES = [
 	("Report", "report_name"),
 	("Module Def", "module_name"),
 	("Onboarding Step", "title"),
+	("Module Onboarding", "title"),
 	("Form Tour", "title"),
 	("Custom HTML Block", "name"),
+	# v16.5x navigation: module sidebars, the app dock, saved list layouts,
+	# the new Kanban and the desktop icon grid. Absent tables are skipped below.
+	("Sidebar", "title"),
+	("Sidebar Item", "label"),
+	("Dock Item", "title"),
+	("List Filter", "filter_name"),
+	("Kanban Board", "kanban_board_name"),
+	("Desktop Icon", "label"),
 ]
 
 
