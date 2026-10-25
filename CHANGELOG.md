@@ -24,6 +24,15 @@ descriptions, the stock valuation comparison report and finished-good mapping.
   Telephony and EDI, two form tours, and a workspace link) found by the audit
   on a live v16.52 site.
 - `build.py` removes its temporary files even when `msgmerge` fails.
+- **Terminology pass.** Standalone terms drop أل (مورد، قيد دفع), list headings
+  use the indefinite plural (موردون، قيود دفع), and إضافة constructs keep أل on
+  the complement (إعدادات الحسابات، ملخص الحسابات الدائنة). ID is now المعرّف.
+- **About 140 old entries fixed** that kept the English word order ("المورد نوع"
+  → نوع المورد, "الافتراضي حساب" → الحساب الافتراضي) or read "No" as "لا" in
+  field names. Document is now مستند throughout (the catalog had both وثيقة and
+  مستند), Filter = تصفية, Navbar = شريط التنقل.
+- **`audit.py`** imports `get_all_translations` (it crashed under `bench
+  execute`) and also checks DocType descriptions, which show as title tooltips.
 
 Corrects translations that were wrong rather than missing: the catalogs were
 seeded from machine translation, so coverage reached 100% while the *sense* was
