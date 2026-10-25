@@ -2546,7 +2546,7 @@ msgstr "محاسب"
 #: erpnext/stock/doctype/item/item.json:970
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json:339
 msgid "Accounting"
-msgstr "المحاسبة"
+msgstr "محاسبة"
 
 #. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Dunning'
@@ -2597,7 +2597,7 @@ msgstr "تفاصيل المحاسبة"
 #: erpnext/accounts/sidebar/accounts/accounts.json:579
 #: erpnext/assets/doctype/asset_repair/asset_repair.json:263
 msgid "Accounting Dimension"
-msgstr "البعد المحاسبي"
+msgstr "بُعد محاسبي"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:214
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:151
@@ -2716,7 +2716,7 @@ msgstr "مرشح بُعد محاسبي"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:447
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json:254
 msgid "Accounting Dimensions"
-msgstr "أبعاد المحاسبة"
+msgstr "أبعاد محاسبية"
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Purchase Invoice'
@@ -2806,7 +2806,7 @@ msgstr "دفتر الأستاذ"
 #: erpnext/accounts/doctype/accounting_period/accounting_period.json:87
 #: erpnext/accounts/workspace/accounting/accounting.json:665
 msgid "Accounting Period"
-msgstr "فترة المحاسبة"
+msgstr "فترة محاسبية"
 
 #: erpnext/accounts/doctype/accounting_period/accounting_period.py:50
 #, python-brace-format
@@ -2860,7 +2860,7 @@ msgstr ""
 #: erpnext/setup/doctype/supplier_group/supplier_group.json:78 erpnext/setup/install.py:422
 #: erpnext/setup/sidebar/setup/setup.json:575
 msgid "Accounts"
-msgstr "الحسابات"
+msgstr "حسابات"
 
 #. Label of the closing_settings_tab (Tab Break) field in DocType 'Accounts
 #. Settings'
@@ -2904,7 +2904,7 @@ msgstr "الحسابات المفقودة من التقرير"
 #: erpnext/workspace_sidebar/financial_reports.json:168
 #: erpnext/workspace_sidebar/invoicing.json:155 erpnext/workspace_sidebar/payments.json:158
 msgid "Accounts Payable"
-msgstr "الحسابات الدائنة"
+msgstr "حسابات دائنة"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
@@ -2941,7 +2941,7 @@ msgstr "ملخص الحسابات الدائنة"
 #: erpnext/workspace_sidebar/financial_reports.json:157
 #: erpnext/workspace_sidebar/invoicing.json:98 erpnext/workspace_sidebar/payments.json:147
 msgid "Accounts Receivable"
-msgstr "الحسابات المدينة"
+msgstr "حسابات مدينة"
 
 #. Label of the accounts_receivable_payable_tuning_section (Section Break)
 #. field in DocType 'Accounts Settings'
@@ -3239,7 +3239,7 @@ msgstr "أنشطة"
 #: erpnext/projects/sidebar/projects/projects.json:217
 #: erpnext/workspace_sidebar/projects.json:96
 msgid "Activity Cost"
-msgstr "تكلفة النشاط"
+msgstr "تكلفة نشاط"
 
 #: erpnext/projects/doctype/activity_cost/activity_cost.py:53
 #, python-brace-format
@@ -3267,7 +3267,7 @@ msgstr "تكلفة النشاط لكل موظف"
 #: erpnext/public/js/projects/timer.js:9 erpnext/templates/pages/timelog_info.html:25
 #: erpnext/workspace_sidebar/projects.json:85
 msgid "Activity Type"
-msgstr "نوع النشاط"
+msgstr "نوع نشاط"
 
 #. Option for the 'Type' (Select) field in DocType 'Advance Taxes and Charges'
 #. Option for the 'Type' (Select) field in DocType 'Purchase Taxes and Charges'
@@ -6882,7 +6882,7 @@ msgstr "أصناف التجميع"
 #: erpnext/stock/doctype/serial_no/serial_no.json:129
 #: erpnext/workspace_sidebar/assets.json:39
 msgid "Asset"
-msgstr "الأصول"
+msgstr "أصل"
 
 #. Label of the asset_account (Link) field in DocType 'Share Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json:87
@@ -6899,7 +6899,7 @@ msgstr "حساب الأصول"
 #: erpnext/assets/sidebar/assets/assets.json:158
 #: erpnext/assets/workspace/assets/assets.json:62 erpnext/workspace_sidebar/assets.json:207
 msgid "Asset Activity"
-msgstr "نشاط الأصل"
+msgstr "نشاط الأصول"
 
 #. Group in Asset's connections
 #. Name of a DocType
@@ -6980,7 +6980,7 @@ msgstr "مركز تكلفة استهلاك الأصول"
 #: erpnext/assets/sidebar/assets/assets.json:128
 #: erpnext/assets/workspace/assets/assets.json:42 erpnext/workspace_sidebar/assets.json:174
 msgid "Asset Depreciation Ledger"
-msgstr "دفتر حسابات استهلاك الأصول"
+msgstr "دفتر إهلاك الأصول"
 
 #. Name of a DocType
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json:224
@@ -7027,7 +7027,7 @@ msgstr ""
 #: erpnext/assets/sidebar/assets/assets.json:143
 #: erpnext/assets/workspace/assets/assets.json:52 erpnext/workspace_sidebar/assets.json:185
 msgid "Asset Depreciations and Balances"
-msgstr "استهلاك الأصول والأرصدة"
+msgstr "إهلاك الأصول وأرصدتها"
 
 #. Label of the asset_details (Section Break) field in DocType 'Serial No'
 #: erpnext/stock/doctype/serial_no/serial_no.json:124
@@ -7215,7 +7215,7 @@ msgstr "تخصيص ورديات الأصول"
 #: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json:44
 #: erpnext/assets/workspace/assets/assets.json:100
 msgid "Asset Shift Factor"
-msgstr "عامل وردية الأصل"
+msgstr "عامل وردية الأصول"
 
 #: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.py:32
 #, python-brace-format
@@ -7447,7 +7447,7 @@ msgstr "تم تعديل قيمة الأصل بعد ترحيل تعديل قيم�
 #: erpnext/assets/workspace/assets/assets.json:19 erpnext/desktop_icon/assets.json:10
 #: erpnext/workspace_sidebar/assets.json:279
 msgid "Assets"
-msgstr "الأصول"
+msgstr "أصول"
 
 #: erpnext/controllers/buying_controller.py:1163
 #, python-brace-format
@@ -7750,14 +7750,14 @@ msgstr "مُفوَّض من"
 #. Name of a DocType
 #: erpnext/setup/doctype/authorization_control/authorization_control.json:15
 msgid "Authorization Control"
-msgstr "التحكم في الترخيص"
+msgstr "تحكم في الترخيص"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json:170
 #: erpnext/setup/sidebar/setup/setup.json:200
 msgid "Authorization Rule"
-msgstr "قاعدة الترخيص"
+msgstr "قاعدة ترخيص"
 
 #: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:27
 msgid "Authorized Signatory"
@@ -8127,7 +8127,7 @@ msgstr "الكمية المتوفرة"
 #: erpnext/stock/report/available_serial_no/available_serial_no.json:17
 #: erpnext/stock/workspace/stock/stock.json:270
 msgid "Available Serial No"
-msgstr "الأرقام التسلسلية المتاحة"
+msgstr "أرقام تسلسلية متاحة"
 
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:39
 msgid "Available Stock"
@@ -8285,7 +8285,7 @@ msgstr "كمية رصيد المخزون"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:375
 #: erpnext/workspace_sidebar/manufacturing.json:39
 msgid "BOM"
-msgstr "قائمة مكونات المواد"
+msgstr "قائمة مواد"
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:21
 msgid "BOM 1"
@@ -8306,7 +8306,7 @@ msgstr "قائمة المواد 2"
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:339
 #: erpnext/workspace_sidebar/manufacturing.json:198
 msgid "BOM Comparison Tool"
-msgstr "أداة مقارنة قوائم المواد"
+msgstr "أداة مقارنة قوائم مواد"
 
 #: erpnext/stock/report/item_where_used/item_where_used.py:175
 msgid "BOM Component"
@@ -8331,7 +8331,7 @@ msgstr "تم إنشاء قائمة المواد"
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:309
 #: erpnext/workspace_sidebar/manufacturing.json:176
 msgid "BOM Creator"
-msgstr "منشئ قائمة المواد"
+msgstr "منشئ قائمة مواد"
 
 #. Label of the bom_creator_item (Data) field in DocType 'BOM'
 #. Name of a DocType
@@ -8367,7 +8367,7 @@ msgstr "رقم تفاصيل قائمة المواد"
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.json:18
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:228
 msgid "BOM Explorer"
-msgstr "مستكشف قائمة المواد"
+msgstr "مستكشف قائمة مواد"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json:184
@@ -8447,7 +8447,7 @@ msgstr "عملية قائمة المواد"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:258
 #: erpnext/workspace_sidebar/manufacturing.json:308
 msgid "BOM Operations Time"
-msgstr "وقت عمليات قائمة المواد"
+msgstr "وقت عمليات قوائم المواد"
 
 #: erpnext/stock/report/item_where_used/item_where_used.py:245
 msgid "BOM Output"
@@ -8493,7 +8493,7 @@ msgstr "مرجع الصنف الثانوي لقائمة المواد"
 #: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.json:21
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:238
 msgid "BOM Stock Analysis"
-msgstr "تحليل مخزون قائمة المواد"
+msgstr "تحليل مخزون قوائم المواد"
 
 #. Label of the tab_2_tab (Tab Break) field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json:195
@@ -8512,7 +8512,7 @@ msgstr "بدأ تحديث قائمة المواد"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json:105
 msgid "BOM Update Log"
-msgstr "سجل تحديث قائمة المواد"
+msgstr "سجل تحديث قوائم المواد"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
@@ -8521,7 +8521,7 @@ msgstr "سجل تحديث قائمة المواد"
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:324
 #: erpnext/workspace_sidebar/manufacturing.json:187
 msgid "BOM Update Tool"
-msgstr "أداة تحديث قائمة المواد (BOM)"
+msgstr "أداة تحديث قائمة مواد"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:102
 #, python-brace-format
@@ -8538,7 +8538,7 @@ msgstr "تم وضع تحديث قائمة المواد في قائمة الان�
 #: erpnext/manufacturing/report/bom_variance_report/bom_variance_report.json:15
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:248
 msgid "BOM Variance Report"
-msgstr "تقرير انحراف قائمة المواد"
+msgstr "تقرير انحراف قوائم المواد"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json:53
@@ -8720,7 +8720,7 @@ msgstr "الرقم التسلسلي للرصيد"
 #: erpnext/setup/doctype/email_digest/email_digest.json:140
 #: erpnext/workspace_sidebar/financial_reports.json:25
 msgid "Balance Sheet"
-msgstr "المركز المالي"
+msgstr "قائمة المركز المالي"
 
 #. Label of the bs_closing_balance (JSON) field in DocType 'Process Period
 #. Closing Voucher'
@@ -8892,14 +8892,14 @@ msgstr "رقم الحساب البنكي"
 #: erpnext/accounts/doctype/bank_account_subtype/bank_account_subtype.json:27
 #: erpnext/accounts/workspace/accounting/accounting.json:549
 msgid "Bank Account Subtype"
-msgstr "النوع الفرعي للحساب المصرفي"
+msgstr "نوع فرعي لحساب بنكي"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
 #: erpnext/accounts/doctype/bank_account_type/bank_account_type.json:27
 #: erpnext/accounts/workspace/accounting/accounting.json:539
 msgid "Bank Account Type"
-msgstr "نوع الحساب المصرفي"
+msgstr "نوع حساب بنكي"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:439
 #, python-brace-format
@@ -8909,7 +8909,7 @@ msgstr "الحساب البنكي {} في المعاملة البنكية {} ل�
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:15
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:20
 msgid "Bank Accounts"
-msgstr "حسابات مصرفية"
+msgstr "حسابات بنكية"
 
 #. Label of a chart in the Payments Workspace
 #. Label of the bank_balance (Check) field in DocType 'Email Digest'
@@ -8940,7 +8940,7 @@ msgstr "رسوم بنكية، رواتب، إلخ."
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.json:97
 #: erpnext/accounts/sidebar/accounts/accounts.json:339
 msgid "Bank Clearance"
-msgstr "المقاصة البنكية"
+msgstr "مقاصة بنكية"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_clearance_detail/bank_clearance_detail.json:107
@@ -9042,7 +9042,7 @@ msgstr "حساب السحب على المكشوف"
 #. Label of a Link in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:499
 msgid "Bank Reconciliation (old)"
-msgstr "التسوية البنكية (القديمة)"
+msgstr "تسوية بنكية (قديمة)"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
@@ -9056,7 +9056,7 @@ msgstr "بيان تسوية حساب بنكية"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json:126
 msgid "Bank Reconciliation Tool"
-msgstr "أداة تسوية البنك"
+msgstr "أداة تسوية بنكية"
 
 #: banking/src/pages/BankStatementImporter.tsx:99
 msgid "Bank Statement"
@@ -9097,7 +9097,7 @@ msgstr "كشف رصيد الحساب المصرفي وفقا لدفتر الأس
 #: erpnext/accounts/workspace/accounting/accounting.json:509
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:32
 msgid "Bank Transaction"
-msgstr "المعاملات المصرفية"
+msgstr "معاملة بنكية"
 
 #. Label of the bank_transaction_mapping (Table) field in DocType 'Bank'
 #. Name of a DocType
@@ -9114,7 +9114,7 @@ msgstr "مدفوعات المعاملات المصرفية"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.json:149
 msgid "Bank Transaction Rule"
-msgstr "قاعدة المعاملات البنكية"
+msgstr "قاعدة معاملات بنكية"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_transaction_rule_accounts/bank_transaction_rule_accounts.json:60
@@ -9205,7 +9205,7 @@ msgstr "حساب البنك/النقدية {0} لا ينتمي إلى الشرك
 #: erpnext/accounts/workspace/accounting/accounting.json:491
 #: erpnext/desktop_icon/banking.json:10 erpnext/setup/setup_wizard/data/industry_type.txt:8
 msgid "Banking"
-msgstr "الخدمات المصرفية"
+msgstr "خدمات بنكية"
 
 #. Label of the barcode_type (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json:27
@@ -9416,7 +9416,7 @@ msgstr "معرف الدُفعة إلزامي"
 #: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.json:16
 #: erpnext/stock/workspace/stock/stock.json:250 erpnext/workspace_sidebar/stock.json:532
 msgid "Batch Item Expiry Status"
-msgstr "حالة انتهاء صلاحية دفعة الصنف"
+msgstr "حالة انتهاء صلاحية دفعات الأصناف"
 
 #. Label of the section_break_gnhq (Section Break) field in DocType 'Stock
 #. Settings'
@@ -9526,7 +9526,7 @@ msgstr "رقم الدفعة"
 #: erpnext/public/js/utils/serial_no_batch_selector.js:211
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:50
 msgid "Batch Nos"
-msgstr "أرقام الدفعات"
+msgstr "أرقام دفعات"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2271
 msgid "Batch Nos are created successfully"
@@ -9769,7 +9769,7 @@ msgstr "المبلغ المفوتر"
 #: erpnext/accounts/report/billed_items_to_be_received/billed_items_to_be_received.json:20
 #: erpnext/buying/workspace/buying/buying.json:180
 msgid "Billed Items To Be Received"
-msgstr "الأصناف المفوترة التي سيتم استلامها"
+msgstr "أصناف مفوترة بانتظار الاستلام"
 
 #. Label of the billed_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Received Item'
@@ -9950,7 +9950,7 @@ msgstr "يصدر فواتير لزبون أو مورد عن الأشياء نف�
 #. Name of a DocType
 #: erpnext/stock/doctype/bin/bin.json:230
 msgid "Bin"
-msgstr "رصيد المخزون"
+msgstr "رصيد مخزون"
 
 #: erpnext/stock/doctype/bin/bin.js:16
 msgid "Bin Values Recalculated"
@@ -9973,7 +9973,7 @@ msgstr "التكنولوجيا الحيوية"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.json:177
 msgid "Bisect Accounting Statements"
-msgstr "تنصيف كشوفات الحسابات"
+msgstr "تنصيف كشوف حسابات"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:9
 msgid "Bisect Left"
@@ -9982,7 +9982,7 @@ msgstr "تنصيف يسار"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json:77
 msgid "Bisect Nodes"
-msgstr "عقد التنصيف"
+msgstr "عقد تنصيف"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:13
 msgid "Bisect Right"
@@ -10071,7 +10071,7 @@ msgstr "سعر أمر التوريد الشامل"
 #: erpnext/buying/doctype/buying_settings/buying_settings.json:294
 #: erpnext/selling/doctype/selling_settings/selling_settings.json:384
 msgid "Blanket Orders"
-msgstr "الأوامر الشاملة"
+msgstr "أوامر توريد شاملة"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:114
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:278
@@ -10294,7 +10294,7 @@ msgstr "العلامة التجارية اسم"
 
 #: erpnext/stock/report/stock_ledger/stock_ledger.js:91
 msgid "Brands"
-msgstr "العلامات التجارية"
+msgstr "علامات تجارية"
 
 #. Description of the Onboarding Step 'Plan and deliver projects'
 #: erpnext/setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json:5
@@ -10479,11 +10479,11 @@ msgstr "لا يمكن إسناد موازنة مقابل {0} لأن نوعه ا�
 #. Label of a Sidebar Item
 #: erpnext/accounts/sidebar/accounts/accounts.json:445
 msgid "Budgeting"
-msgstr "الموازنات"
+msgstr "موازنات"
 
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year_dashboard.py:9
 msgid "Budgets"
-msgstr "الميزانيات"
+msgstr "موازنات"
 
 #. Label of the buffer_time (Int) field in DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json:73
@@ -10535,12 +10535,12 @@ msgstr "مهام إعادة التسمية المجمعة"
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json:65
 #: erpnext/setup/sidebar/setup/setup.json:380
 msgid "Bulk Transaction Log"
-msgstr "سجل المعاملات المجمعة"
+msgstr "سجل المعاملات المجمّعة"
 
 #. Name of a DocType
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json:87
 msgid "Bulk Transaction Log Detail"
-msgstr "تفاصيل سجل المعاملات المجمعة"
+msgstr "تفاصيل سجل المعاملات المجمّعة"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:82
 msgid "Bulk Transfer"
@@ -10616,7 +10616,7 @@ msgstr "شراء وبيع"
 #: erpnext/stock/doctype/price_list/price_list.json:59
 #: erpnext/workspace_sidebar/buying.json:379
 msgid "Buying"
-msgstr "المشتريات"
+msgstr "مشتريات"
 
 #. Label of the sales_settings (Section Break) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json:216
@@ -10959,7 +10959,7 @@ msgstr "سعر حراري/ثانية"
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.json:16
 #: erpnext/crm/sidebar/crm/crm.json:201 erpnext/workspace_sidebar/crm.json:151
 msgid "Campaign Efficiency"
-msgstr "كفاءة الحملة"
+msgstr "كفاءة الحملات"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/campaign_email_schedule/campaign_email_schedule.json:33
@@ -11804,7 +11804,7 @@ msgstr "قيد نقدي"
 #: erpnext/accounts/workspace/accounting/accounting.json:54
 #: erpnext/workspace_sidebar/financial_reports.json:47
 msgid "Cash Flow"
-msgstr "التدفق النقدي"
+msgstr "تدفق نقدي"
 
 #: erpnext/public/js/financial_statements.js:384
 msgid "Cash Flow Statement"
@@ -11853,7 +11853,7 @@ msgstr "أمين الصندوق"
 #. Name of a DocType
 #: erpnext/accounts/doctype/cashier_closing/cashier_closing.json:131
 msgid "Cashier Closing"
-msgstr "إقفال الصندوق"
+msgstr "إقفال صندوق"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/cashier_closing_payments/cashier_closing_payments.json:35
@@ -12279,7 +12279,7 @@ msgstr "رقم الشيك"
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json:304
 #: erpnext/accounts/workspace/accounting/accounting.json:899
 msgid "Cheque Print Template"
-msgstr "نمودج طباعة الشيك"
+msgstr "قالب طباعة شيك"
 
 #. Label of the cheque_size (Select) field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json:85
@@ -12773,7 +12773,7 @@ msgstr "منتج مشترك"
 #: erpnext/edi/doctype/common_code/common_code.json:25
 #: erpnext/setup/sidebar/setup/setup.json:500
 msgid "Code List"
-msgstr "قائمة الرموز"
+msgstr "قائمة رموز"
 
 #. Description of the 'Line Reference' (Data) field in DocType 'Financial
 #. Report Row'
@@ -12906,7 +12906,7 @@ msgstr "العمولة المدفوعة لشريك المبيعات على ال�
 #: erpnext/edi/doctype/common_code/common_code.json:90
 #: erpnext/setup/doctype/uom/uom.json:56 erpnext/setup/sidebar/setup/setup.json:515
 msgid "Common Code"
-msgstr "الرمز المشترك"
+msgstr "رمز مشترك"
 
 #. Label of the communication_channel (Select) field in DocType 'Communication
 #. Medium'
@@ -12919,7 +12919,7 @@ msgstr "قناة الاتصال"
 #: erpnext/communication/doctype/communication_medium/communication_medium.json:72
 #: erpnext/setup/sidebar/setup/setup.json:485
 msgid "Communication Medium"
-msgstr "وسيلة الاتصال"
+msgstr "وسيلة اتصال"
 
 #. Name of a DocType
 #: erpnext/communication/doctype/communication_medium_timeslot/communication_medium_timeslot.json:52
@@ -13738,7 +13738,7 @@ msgstr "اسم المنافس"
 #: erpnext/public/js/utils/sales_common.js:601
 #: erpnext/selling/doctype/quotation/quotation.json:932
 msgid "Competitors"
-msgstr "المنافسون"
+msgstr "منافسون"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:412
 #: erpnext/manufacturing/doctype/job_card/job_card.js:674
@@ -13830,7 +13830,7 @@ msgstr "وقت الإكمال"
 #: erpnext/manufacturing/report/completed_work_orders/completed_work_orders.json:20
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:72
 msgid "Completed Work Orders"
-msgstr "أوامر العمل المكتملة"
+msgstr "أوامر عمل مكتملة"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1677
 msgid "Completed quantity cannot be negative."
@@ -14154,7 +14154,7 @@ msgstr "فاتورة المبيعات الموحدة"
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.json:20
 #: erpnext/accounts/workspace/accounting/accounting.json:104
 msgid "Consolidated Trial Balance"
-msgstr "ميزان المراجعة الموحد"
+msgstr "ميزان المراجعة الموحّد"
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:71
 msgid "Consolidated Trial Balance can be generated for Companies having same root Company."
@@ -14470,7 +14470,7 @@ msgstr "مدة العقد"
 #: erpnext/crm/doctype/contract/contract.json:166
 #: erpnext/crm/doctype/contract_template/contract_template.json:63
 msgid "Contract Template"
-msgstr "قالب العقد"
+msgstr "قالب عقد"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/contract_template_fulfilment_terms/contract_template_fulfilment_terms.json:23
@@ -14936,14 +14936,14 @@ msgstr "تخصيص التكلفة / فاقد العملية"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:465
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json:260
 msgid "Cost Center"
-msgstr "مركز التكلفة"
+msgstr "مركز تكلفة"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.json:77
 #: erpnext/accounts/sidebar/accounts/accounts.json:474
 msgid "Cost Center Allocation"
-msgstr "تخصيص مركز التكلفة"
+msgstr "تخصيص مركز تكلفة"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/cost_center_allocation_percentage/cost_center_allocation_percentage.json:35
@@ -15032,7 +15032,7 @@ msgstr "مركز التكلفة: {0} غير موجود"
 
 #: erpnext/setup/doctype/company/company.js:122
 msgid "Cost Centers"
-msgstr "مراكز التكلفة"
+msgstr "مراكز تكلفة"
 
 #. Label of the currency_detail (Section Break) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json:229
@@ -15267,7 +15267,7 @@ msgstr "بلد المنشأ"
 #: erpnext/selling/workspace/selling/selling.json:336
 #: erpnext/workspace_sidebar/selling.json:263
 msgid "Coupon Code"
-msgstr "رمز الكوبون"
+msgstr "رمز كوبون"
 
 #. Label of the coupon_code_based (Check) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json:188
@@ -16171,7 +16171,7 @@ msgstr "كوب"
 #: erpnext/setup/doctype/currency_exchange/currency_exchange.json:254
 #: erpnext/setup/sidebar/setup/setup.json:755
 msgid "Currency Exchange"
-msgstr "تصريف العملات"
+msgstr "سعر صرف عملة"
 
 #. Label of the currency_exchange_section (Section Break) field in DocType
 #. 'Accounts Settings'
@@ -16632,7 +16632,7 @@ msgstr "محددات مخصصة"
 #: erpnext/workspace_sidebar/crm.json:51 erpnext/workspace_sidebar/home.json:36
 #: erpnext/workspace_sidebar/invoicing.json:63 erpnext/workspace_sidebar/selling.json:297
 msgid "Customer"
-msgstr "الزبون"
+msgstr "زبون"
 
 #. Label of the customer (Link) field in DocType 'Customer Item'
 #: erpnext/accounts/doctype/customer_item/customer_item.json:15
@@ -16661,7 +16661,7 @@ msgstr "الزبون > مجموعة الزبائن > المنطقة"
 #: erpnext/selling/workspace/selling/selling.json:200
 #: erpnext/workspace_sidebar/selling.json:638
 msgid "Customer Acquisition and Loyalty"
-msgstr "اكتساب الزبائن و الولاء"
+msgstr "اكتساب الزبائن وولاؤهم"
 
 #. Label of the customer_address (Link) field in DocType 'Dunning'
 #. Label of the customer_address (Link) field in DocType 'POS Invoice'
@@ -16727,7 +16727,7 @@ msgstr "البريد الإلكتروني للزبون"
 #: erpnext/workspace_sidebar/financial_reports.json:344
 #: erpnext/workspace_sidebar/selling.json:528
 msgid "Customer Credit Balance"
-msgstr "رصيد الزبون"
+msgstr "رصيد زبون الدائن"
 
 #. Name of a DocType
 #: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json:57
@@ -16847,7 +16847,7 @@ msgstr "آراء الزبون"
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json:296
 #: erpnext/workspace_sidebar/crm.json:382 erpnext/workspace_sidebar/selling.json:308
 msgid "Customer Group"
-msgstr "مجموعة الزبائن"
+msgstr "مجموعة زبائن"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/customer_group_item/customer_group_item.json:25
@@ -16862,7 +16862,7 @@ msgstr "اسم مجموعة الزبائن"
 #. Label of the customer_groups (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json:172
 msgid "Customer Groups"
-msgstr "مجموعات الزبون"
+msgstr "مجموعات زبائن"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/customer_item/customer_item.json:25
@@ -16892,7 +16892,7 @@ msgstr "دفتر أستاذ الزبون"
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.json:16
 #: erpnext/accounts/workspace/accounting/accounting.json:172
 msgid "Customer Ledger Summary"
-msgstr "ملخص دفتر الأستاذ"
+msgstr "ملخص دفتر أستاذ الزبون"
 
 #. Label of the customer_contact_mobile (Small Text) field in DocType 'Purchase
 #. Order'
@@ -17154,7 +17154,7 @@ msgstr "مورد الزبون"
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.json:17
 #: erpnext/selling/workspace/selling/selling.json:220
 msgid "Customer-wise Item Price"
-msgstr "سعر الصنف حسب الزبون"
+msgstr "سعر صنف حسب الزبون"
 
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.py:44
 msgid "Customer/Lead Name"
@@ -17171,7 +17171,7 @@ msgstr "الزبون: "
 #. Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json:116
 msgid "Customers"
-msgstr "الزبائن"
+msgstr "زبائن"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -17197,7 +17197,7 @@ msgstr "التخفيض حسب الزبون"
 #: erpnext/stock/doctype/customs_tariff_number/customs_tariff_number.json:35
 #: erpnext/stock/doctype/item/item.json:702 erpnext/stock/workspace/stock/stock.json:700
 msgid "Customs Tariff Number"
-msgstr "رقم التعريفة الجمركية"
+msgstr "رقم تعريفة جمركية"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -17707,7 +17707,7 @@ msgstr "تفاصيل الخصم"
 #. Label of a Link in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:879
 msgid "Deduction Certificate"
-msgstr "شهادة الخصم"
+msgstr "شهادة استقطاع"
 
 #. Label of the deductions_or_loss_section (Section Break) field in DocType
 #. 'Payment Entry'
@@ -18301,7 +18301,7 @@ msgstr "حساب الإيرادات المؤجلة"
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.json:19
 #: erpnext/accounts/workspace/accounting/accounting.json:300
 msgid "Deferred Revenue and Expense"
-msgstr "الإيرادات والمصروفات المؤجلة"
+msgstr "إيرادات ومصروفات مؤجلة"
 
 #: erpnext/accounts/deferred_revenue.py:542
 msgid "Deferred accounting failed for some invoices:"
@@ -18360,14 +18360,14 @@ msgstr "الأيام المتأخرة"
 #: erpnext/stock/report/delayed_item_report/delayed_item_report.json:18
 #: erpnext/stock/workspace/stock/stock.json:328
 msgid "Delayed Item Report"
-msgstr "تأخر تقرير الصنف"
+msgstr "تقرير الأصناف المتأخرة"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.json:18
 #: erpnext/stock/workspace/stock/stock.json:338
 msgid "Delayed Order Report"
-msgstr "تأخر تقرير الطلب"
+msgstr "تقرير الطلبات المتأخرة"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -18685,7 +18685,7 @@ msgstr "مدير التسليم"
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:149
 #: erpnext/stock/sidebar/stock/stock.json:146 erpnext/workspace_sidebar/stock.json:63
 msgid "Delivery Note"
-msgstr "إشعار التسليم"
+msgstr "إشعار تسليم"
 
 #. Label of the dn_detail (Data) field in DocType 'POS Invoice Item'
 #. Label of the dn_detail (Data) field in DocType 'Sales Invoice Item'
@@ -18719,7 +18719,7 @@ msgstr "صنف معبأ في إذن التسليم"
 #: erpnext/stock/report/delivery_note_trends/delivery_note_trends.json:20
 #: erpnext/stock/workspace/stock/stock.json:298 erpnext/workspace_sidebar/stock.json:433
 msgid "Delivery Note Trends"
-msgstr "توجهات إشعارات التسليم"
+msgstr "اتجاهات إشعارات التسليم"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1544
 #, python-brace-format
@@ -18729,7 +18729,7 @@ msgstr "لم يتم اعتماد إشعار التسليم {0}"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1282
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:75
 msgid "Delivery Notes"
-msgstr "إشعارات التسليم"
+msgstr "إشعارات تسليم"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:101
 #, python-brace-format
@@ -18753,7 +18753,7 @@ msgstr "تفاصيل التسليم"
 #. Name of a DocType
 #: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json:113
 msgid "Delivery Schedule Item"
-msgstr "جدول التسليم"
+msgstr "صنف جدول تسليم"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -18796,7 +18796,7 @@ msgstr "التسليم حتى تاريخه"
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.json:197
 #: erpnext/stock/workspace/stock/stock.json:602 erpnext/workspace_sidebar/stock.json:334
 msgid "Delivery Trip"
-msgstr "رحلة التسليم"
+msgstr "رحلة تسليم"
 
 #. Name of a role
 #: erpnext/accounts/doctype/account/account.json:279
@@ -19083,7 +19083,7 @@ msgstr "صف الإهلاك {0}: يجب أن تكون القيمة المتوق�
 #: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json:74
 #: erpnext/assets/sidebar/assets/assets.json:66 erpnext/workspace_sidebar/assets.json:51
 msgid "Depreciation Schedule"
-msgstr "جدول الإهلاك الزمني"
+msgstr "جدول إهلاك"
 
 #. Label of the depreciation_schedule_view (HTML) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json:458
@@ -20264,7 +20264,7 @@ msgstr "التوقف (بالساعات)"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:122
 #: erpnext/workspace_sidebar/manufacturing.json:264
 msgid "Downtime Analysis"
-msgstr "تحليل وقت التعطل"
+msgstr "تحليل وقت التوقف"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
@@ -20273,7 +20273,7 @@ msgstr "تحليل وقت التعطل"
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:354
 #: erpnext/workspace_sidebar/manufacturing.json:209
 msgid "Downtime Entry"
-msgstr "قيد وقت التوقف"
+msgstr "قيد وقت توقف"
 
 #. Label of the downtime_reason_section (Section Break) field in DocType
 #. 'Downtime Entry'
@@ -20430,7 +20430,7 @@ msgstr "بسبب إدخال إقفال المخزون {0}، لا يمكنك إع
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:163
 #: erpnext/accounts/workspace/accounting/accounting.json:451
 msgid "Dunning"
-msgstr "إشعار المطالبة"
+msgstr "إشعار مطالبة"
 
 #. Label of the dunning_amount (Currency) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json:300
@@ -20484,7 +20484,7 @@ msgstr "مستوى المطالبة"
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json:114
 #: erpnext/accounts/workspace/accounting/accounting.json:889
 msgid "Dunning Type"
-msgstr "نوع المطالبة"
+msgstr "نوع مطالبة"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:190
 msgid "Duplicate Customer Group"
@@ -20671,7 +20671,7 @@ msgstr "ERPNext"
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json:19
 #: erpnext/workspace_sidebar/erpnext_settings.json:243
 msgid "ERPNext Settings"
-msgstr "إعدادات النظام"
+msgstr "إعدادات ERPNext"
 
 #. Label of the user_id (Data) field in DocType 'Employee Group Table'
 #: erpnext/setup/doctype/employee_group_table/employee_group_table.json:32
@@ -20842,7 +20842,7 @@ msgstr "معدات إلكترونية"
 #: erpnext/accounts/workspace/accounting/accounting.json:412
 #: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.json:18
 msgid "Electronic Invoice Register"
-msgstr "تسجيل الفاتورة الإلكترونية"
+msgstr "سجل الفواتير الإلكترونية"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:20
 msgid "Electronics"
@@ -21042,7 +21042,7 @@ msgstr "هاتف حالات الطوارئ"
 #: erpnext/stock/doctype/serial_no/serial_no.json:158
 #: erpnext/telephony/doctype/call_log/call_log.json:190
 msgid "Employee"
-msgstr "الموظف"
+msgstr "موظف"
 
 #. Label of the employee_link (Link) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
@@ -21087,7 +21087,7 @@ msgstr "سجل عمل الموظف خارج الشركة"
 #: erpnext/communication/doctype/communication_medium_timeslot/communication_medium_timeslot.json:42
 #: erpnext/setup/doctype/employee_group/employee_group.json:40
 msgid "Employee Group"
-msgstr "مجموعة الموظفين"
+msgstr "مجموعة موظفين"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/employee_group_table/employee_group_table.json:41
@@ -21162,7 +21162,7 @@ msgstr "الموظف {0} غير موجود"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:351
 msgid "Employees"
-msgstr "الموظفين"
+msgstr "موظفون"
 
 #: erpnext/stock/doctype/batch/batch_list.js:16
 msgid "Empty"
@@ -22237,7 +22237,7 @@ msgstr "لم يُعثر على سعر الصرف"
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json:192
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json:33
 msgid "Exchange Rate Revaluation"
-msgstr "إعادة تقييم سعر الصرف"
+msgstr "إعادة تقييم سعر صرف"
 
 #. Label of the accounts (Table) field in DocType 'Exchange Rate Revaluation'
 #. Name of a DocType
@@ -22777,7 +22777,7 @@ msgstr "قائمة انتظار FIFO/LIFO"
 #. Label of a Link in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:675
 msgid "FX Revaluation"
-msgstr "إعادة تقييم العملات الأجنبية"
+msgstr "إعادة تقييم عملات أجنبية"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:119
 msgid "FY"
@@ -22886,7 +22886,7 @@ msgstr "مقدّم التقييم"
 #: erpnext/quality_management/sidebar/quality/quality.json:309
 #: erpnext/workspace_sidebar/quality.json:132
 msgid "Feedback Template"
-msgstr "قالب الملاحظات"
+msgstr "قالب ملاحظات"
 
 #. Description of a DocType
 #: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json:5
@@ -23172,7 +23172,7 @@ msgstr "المنتج النهائي"
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:48
 #: erpnext/public/js/financial_statements.js:426
 msgid "Finance Book"
-msgstr "الدفتر المالي"
+msgstr "دفتر مالي"
 
 #. Label of the finance_book_detail (Section Break) field in DocType 'Asset
 #. Category'
@@ -23191,7 +23191,7 @@ msgstr "معرّف الدفتر المالي"
 #: erpnext/assets/doctype/asset/asset.json:259
 #: erpnext/assets/doctype/asset_category/asset_category.json:44
 msgid "Finance Books"
-msgstr "كتب المالية"
+msgstr "دفاتر مالية"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:17
 msgid "Finance Manager"
@@ -23202,7 +23202,7 @@ msgstr "مدير مالي"
 #: erpnext/accounts/report/financial_ratios/financial_ratios.json:18
 #: erpnext/accounts/workspace/accounting/accounting.json:114
 msgid "Financial Ratios"
-msgstr "النسب المالية"
+msgstr "نسب مالية"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json:180
@@ -23238,7 +23238,7 @@ msgstr "لم يتم العثور على نموذج التقرير المالي {
 #: erpnext/workspace_sidebar/financial_reports.json:391
 #: erpnext/workspace_sidebar/invoicing.json:309 erpnext/workspace_sidebar/payments.json:191
 msgid "Financial Reports"
-msgstr "التقارير المالية"
+msgstr "تقارير مالية"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:24
 msgid "Financial Services"
@@ -23248,7 +23248,7 @@ msgstr "الخدمات المالية"
 #: erpnext/accounts/workspace/accounting/accounting.json:26
 #: erpnext/public/js/financial_statements.js:350
 msgid "Financial Statements"
-msgstr "البيانات المالية"
+msgstr "قوائم مالية"
 
 #: erpnext/public/js/setup_wizard.js:148
 msgid "Financial Year Begins On"
@@ -23535,7 +23535,7 @@ msgstr "وقت الاستجابة الأول"
 #: erpnext/support/sidebar/support/support.json:172
 #: erpnext/workspace_sidebar/support.json:129
 msgid "First Response Time for Issues"
-msgstr "وقت الاستجابة الأول للمشكلات"
+msgstr "وقت أول استجابة للبلاغات"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -23543,7 +23543,7 @@ msgstr "وقت الاستجابة الأول للمشكلات"
 #: erpnext/crm/report/first_response_time_for_opportunity/first_response_time_for_opportunity.json:18
 #: erpnext/crm/sidebar/crm/crm.json:186 erpnext/workspace_sidebar/crm.json:140
 msgid "First Response Time for Opportunity"
-msgstr "وقت الاستجابة الأول للفرصة"
+msgstr "وقت أول استجابة للفرص"
 
 #: erpnext/regional/italy/utils.py:239
 #, python-brace-format
@@ -23580,7 +23580,7 @@ msgstr "النظام المالي إلزامي، يرجى تعيين النظا�
 #: erpnext/setup/doctype/target_detail/target_detail.json:31
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json:263
 msgid "Fiscal Year"
-msgstr "السنة المالية"
+msgstr "سنة مالية"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/fiscal_year_company/fiscal_year_company.json:28
@@ -24145,7 +24145,7 @@ msgstr "توقعات الطلب"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:200
 #: erpnext/workspace_sidebar/manufacturing.json:121
 msgid "Forecasting"
-msgstr "التنبؤ"
+msgstr "تنبؤ"
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:254
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:255
@@ -25321,7 +25321,7 @@ msgstr "إعطاء صنف مجاني لكل كمية N"
 #: erpnext/setup/sidebar/setup/setup.json:560
 #: erpnext/workspace_sidebar/erpnext_settings.json:15
 msgid "Global Defaults"
-msgstr "الإعدادات الافتراضية العامة"
+msgstr "إعدادات افتراضية عامة"
 
 #: erpnext/www/book_appointment/index.html:58
 msgid "Go back"
@@ -25620,7 +25620,7 @@ msgstr "هامش الربح الإجمالي ٪"
 #: erpnext/selling/workspace/selling/selling.json:52
 #: erpnext/workspace_sidebar/financial_reports.json:256
 msgid "Gross Profit"
-msgstr "الربح الإجمالي"
+msgstr "إجمالي الربح"
 
 #: erpnext/accounts/report/profitability_analysis/profitability_analysis.py:206
 msgid "Gross Profit / Loss"
@@ -25655,7 +25655,7 @@ msgstr "وحدة قياس الوزن الإجمالي"
 #: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.json:17
 #: erpnext/accounts/workspace/accounting/accounting.json:290
 msgid "Gross and Net Profit Report"
-msgstr "تقرير الربح الإجمالي والصافي"
+msgstr "تقرير إجمالي وصافي الربح"
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:151
 msgid "Group By Customer"
@@ -26197,7 +26197,7 @@ msgstr "تمت إضافة تاريخ العطلة {0} عدة مرات"
 #: erpnext/setup/sidebar/setup/setup.json:125
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.json:50
 msgid "Holiday List"
-msgstr "قائمة العطلات"
+msgstr "قائمة عطلات"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:89
 #, python-brace-format
@@ -26409,7 +26409,7 @@ msgstr "مهم: أنشئ نسخة احتياطية قبل المتابعة!"
 #: erpnext/accounts/workspace/accounting/accounting.json:401
 #: erpnext/regional/report/irs_1099/irs_1099.json:19
 msgid "IRS 1099"
-msgstr "مصلحة الضرائب 1099"
+msgstr "IRS 1099"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json:28
@@ -27704,7 +27704,7 @@ msgstr ""
 #: erpnext/selling/workspace/selling/selling.json:180
 #: erpnext/workspace_sidebar/selling.json:506
 msgid "Inactive Customers"
-msgstr "الزبائن الغير النشطين"
+msgstr "زبائن غير نشطين"
 
 #. Name of a report
 #: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.json:17
@@ -28056,7 +28056,7 @@ msgstr "حساب غير صحيح"
 #: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.json:19
 #: erpnext/stock/workspace/stock/stock.json:474
 msgid "Incorrect Balance Qty After Transaction"
-msgstr "كمية الرصيد غير الصحيحة بعد المعاملة"
+msgstr "كمية رصيد غير صحيحة بعد المعاملة"
 
 #: erpnext/controllers/subcontracting_controller.py:1072
 msgid "Incorrect Batch Consumed"
@@ -28111,7 +28111,7 @@ msgstr "الرقم التسلسلي المستهلك غير صحيح"
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.json:21
 #: erpnext/stock/workspace/stock/stock.json:504
 msgid "Incorrect Serial and Batch Bundle"
-msgstr "حزمة الرقم التسلسلي والدفعة غير صحيحة"
+msgstr "حزمة رقم تسلسلي ودفعة غير صحيحة"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:303
 #, python-brace-format
@@ -28175,7 +28175,7 @@ msgstr "القيود المسوّاة بشكل غير صحيح وفقاً للت
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json:1242
 #: erpnext/stock/doctype/shipment/shipment.json:420
 msgid "Incoterm"
-msgstr "مصطلح التجارة الدولية"
+msgstr "مصطلح تجارة دولية (Incoterm)"
 
 #. Label of the increase_in_asset_life (Int) field in DocType 'Asset Finance
 #. Book'
@@ -28358,7 +28358,7 @@ msgstr "تثبيت تاريخ"
 #: erpnext/selling/doctype/installation_note/installation_note.json:245
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:260
 msgid "Installation Note"
-msgstr "ملاحظة التثبيت"
+msgstr "مذكرة تركيب"
 
 #. Name of a DocType
 #: erpnext/selling/doctype/installation_note_item/installation_note_item.json:118
@@ -29138,7 +29138,7 @@ msgstr "عملة حساب المخزون"
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.py:178
 #: erpnext/stock/sidebar/stock/stock.json:461 erpnext/workspace_sidebar/stock.json:290
 msgid "Inventory Dimension"
-msgstr "بعد المخزون"
+msgstr "بُعد المخزون"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:169
 msgid "Inventory Dimension Negative Stock"
@@ -29216,7 +29216,7 @@ msgstr "تاريخ الفاتورة"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:152
 #: erpnext/accounts/workspace/accounting/accounting.json:461
 msgid "Invoice Discounting"
-msgstr "خصم الفواتير"
+msgstr "خصم فواتير"
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:87
 msgid "Invoice Document Type Selection Error"
@@ -29369,12 +29369,12 @@ msgstr "تم جلب الفواتير والمدفوعات وتخصيصها"
 #: erpnext/accounts/workspace/invoicing/invoicing.json:20
 #: erpnext/desktop_icon/invoicing.json:10 erpnext/workspace_sidebar/invoicing.json:335
 msgid "Invoicing"
-msgstr "الفوترة"
+msgstr "فوترة"
 
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:423
 msgid "Invoicing & Payments"
-msgstr "الفوترة والمدفوعات"
+msgstr "فوترة ومدفوعات"
 
 #. Label of the invoicing_features_section (Section Break) field in DocType
 #. 'Accounts Settings'
@@ -29954,7 +29954,7 @@ msgstr "قضية المواد"
 #: erpnext/support/sidebar/support/support.json:127
 #: erpnext/workspace_sidebar/support.json:96
 msgid "Issue Priority"
-msgstr "أولوية الإصدار"
+msgstr "أولوية بلاغ"
 
 #. Label of the issue_split_from (Link) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json:326
@@ -29982,7 +29982,7 @@ msgstr "ملخص المشكلات"
 #: erpnext/support/sidebar/support/support.json:112
 #: erpnext/workspace_sidebar/support.json:85
 msgid "Issue Type"
-msgstr "نوع القضية"
+msgstr "نوع بلاغ"
 
 #. Description of the 'Is Rate Adjustment Entry (Debit Note)' (Check) field in
 #. DocType 'Sales Invoice'
@@ -30007,7 +30007,7 @@ msgstr "نشر"
 #: erpnext/manufacturing/report/issued_items_against_work_order/issued_items_against_work_order.json:18
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:102
 msgid "Issued Items Against Work Order"
-msgstr "الأصناف الصادرة ضد طلب العمل"
+msgstr "أصناف مصروفة مقابل أمر عمل"
 
 #. Label of a chart in the Support Workspace
 #: erpnext/support/workspace/support/support.json:6
@@ -30107,7 +30107,7 @@ msgstr "صنف رقم 5"
 #: erpnext/stock/report/item_where_used/item_where_used.py:409
 #: erpnext/stock/workspace/stock/stock.json:640 erpnext/workspace_sidebar/stock.json:312
 msgid "Item Alternative"
-msgstr "الصنف البديل"
+msgstr "صنف بديل"
 
 #. Option for the 'Variant Based On' (Select) field in DocType 'Item'
 #. Name of a DocType
@@ -30119,7 +30119,7 @@ msgstr "الصنف البديل"
 #: erpnext/stock/doctype/item_variant/item_variant.json:17
 #: erpnext/stock/sidebar/stock/stock.json:416 erpnext/workspace_sidebar/stock.json:201
 msgid "Item Attribute"
-msgstr "موصفات الصنف"
+msgstr "سمة صنف"
 
 #. Name of a DocType
 #. Label of the item_attribute_value (Data) field in DocType 'Item Variant'
@@ -30136,7 +30136,7 @@ msgstr "قيم سمة الصنف"
 #. Label of the section_break_zlmj (Section Break) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json:1092
 msgid "Item Attributes"
-msgstr "خصائص الصنف"
+msgstr "سمات أصناف"
 
 #. Name of a report
 #: erpnext/stock/report/item_balance/item_balance.json:17
@@ -30585,7 +30585,7 @@ msgstr "بيانات الصنف"
 #: erpnext/stock/sidebar/stock/stock.json:401 erpnext/workspace_sidebar/selling.json:208
 #: erpnext/workspace_sidebar/stock.json:190
 msgid "Item Group"
-msgstr "مجموعة الصنف"
+msgstr "مجموعة أصناف"
 
 #. Label of the item_group_defaults (Table) field in DocType 'Item Group'
 #: erpnext/setup/doctype/item_group/item_group.json:86
@@ -30614,7 +30614,7 @@ msgstr "الخصم حسب مجموعة الأصناف"
 #. Label of the item_groups (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json:161
 msgid "Item Groups"
-msgstr "مجموعات السلعة"
+msgstr "مجموعات أصناف"
 
 #. Description of the 'Website Image' (Attach Image) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json:450
@@ -30632,7 +30632,7 @@ msgstr "معلومات الصنف"
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json:185
 #: erpnext/workspace_sidebar/manufacturing.json:98
 msgid "Item Lead Time"
-msgstr "مدة تجهيز المنتج"
+msgstr "مدة توريد صنف"
 
 #. Label of the locations (Table) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json:90
@@ -30664,7 +30664,7 @@ msgstr "مدير الصنف"
 #. Name of a DocType
 #: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json:71
 msgid "Item Manufacturer"
-msgstr "مادة المصنع"
+msgstr "مصنّع صنف"
 
 #. Label of the item_name (Data) field in DocType 'Opening Invoice Creation
 #. Tool Item'
@@ -30862,7 +30862,7 @@ msgstr "نفد مخزون الصنف"
 #: erpnext/stock/doctype/item_price/item_price.json:233
 #: erpnext/workspace_sidebar/selling.json:230
 msgid "Item Price"
-msgstr "سعر الصنف"
+msgstr "سعر صنف"
 
 #. Label of the item_price_settings_section (Section Break) field in DocType
 #. 'Accounts Settings'
@@ -30876,7 +30876,7 @@ msgstr "إعدادات سعر الصنف"
 #: erpnext/stock/report/item_price_stock/item_price_stock.json:16
 #: erpnext/stock/workspace/stock/stock.json:396 erpnext/workspace_sidebar/stock.json:444
 msgid "Item Price Stock"
-msgstr "سعر صنف المخزون"
+msgstr "سعر الصنف ومخزونه"
 
 #: erpnext/stock/get_item_details.py:1246 erpnext/stock/get_item_details.py:1270
 #, python-brace-format
@@ -30908,7 +30908,7 @@ msgstr "سعر الصنف محدث ل{0} في قائمة الأسعار {1}"
 #: erpnext/stock/report/item_prices/item_prices.json:16
 #: erpnext/stock/workspace/stock/stock.json:386
 msgid "Item Prices"
-msgstr "أسعار الصنف"
+msgstr "أسعار أصناف"
 
 #. Name of a DocType
 #. Label of the item_quality_inspection_parameter (Table) field in DocType
@@ -30967,7 +30967,7 @@ msgstr "الرقم التسلسلي للصنف"
 #: erpnext/stock/report/item_shortage_report/item_shortage_report.json:19
 #: erpnext/stock/workspace/stock/stock.json:112 erpnext/workspace_sidebar/stock.json:466
 msgid "Item Shortage Report"
-msgstr "تقرير نقص الصنف"
+msgstr "تقرير نقص الأصناف"
 
 #. Label of the supplier_items (Table) field in DocType 'Item'
 #. Name of a DocType
@@ -31049,7 +31049,7 @@ msgstr "صف ضريبة الصنف {0}: يجب أن ينتمي الحساب إل
 #: erpnext/stock/doctype/item_tax/item_tax.json:19
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json:595
 msgid "Item Tax Template"
-msgstr "قالب الضريبة الصنف"
+msgstr "قالب ضريبة صنف"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json:42
@@ -31067,7 +31067,7 @@ msgstr "الصنف لتصنيع"
 #: erpnext/stock/doctype/item_variant/item_variant.json:34
 #: erpnext/stock/report/item_where_used/item_where_used.py:386
 msgid "Item Variant"
-msgstr "متغير الصنف"
+msgstr "متغير صنف"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json:92
@@ -31080,7 +31080,7 @@ msgstr "وصف متغير الصنف"
 #: erpnext/stock/report/item_variant_details/item_variant_details.json:16
 #: erpnext/stock/workspace/stock/stock.json:416 erpnext/workspace_sidebar/stock.json:565
 msgid "Item Variant Details"
-msgstr "الصنف تفاصيل متغير"
+msgstr "تفاصيل متغيرات صنف"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -31091,7 +31091,7 @@ msgstr "الصنف تفاصيل متغير"
 #: erpnext/workspace_sidebar/erpnext_settings.json:181
 #: erpnext/workspace_sidebar/stock.json:599
 msgid "Item Variant Settings"
-msgstr "إعدادات متنوع السلعة"
+msgstr "إعدادات متغيرات الأصناف"
 
 #: erpnext/stock/doctype/item/item.js:1325
 #, python-brace-format
@@ -31151,7 +31151,7 @@ msgstr "أماكن استخدام الصنف"
 #: erpnext/stock/report/item_wise_consumption/item_wise_consumption.json:16
 #: erpnext/stock/workspace/stock/stock.json:358 erpnext/workspace_sidebar/buying.json:331
 msgid "Item Wise Consumption"
-msgstr "الاستهلاك حسب الصنف"
+msgstr "استهلاك حسب الصنف"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json:56
@@ -31475,7 +31475,7 @@ msgstr "الصنف {} غير موجود."
 #: erpnext/stock/report/item_wise_price_list_rate/item_wise_price_list_rate.json:16
 #: erpnext/stock/workspace/stock/stock.json:406
 msgid "Item-wise Price List Rate"
-msgstr "معدل قائمة الأسعار حسب الصنف"
+msgstr "سعر قائمة الأسعار حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Buying Workspace
@@ -31483,7 +31483,7 @@ msgstr "معدل قائمة الأسعار حسب الصنف"
 #: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.json:17
 #: erpnext/buying/workspace/buying/buying.json:72 erpnext/workspace_sidebar/buying.json:276
 msgid "Item-wise Purchase History"
-msgstr "الحركة التاريخية للمشتريات حسب الصنف"
+msgstr "سجل المشتريات حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
@@ -31494,7 +31494,7 @@ msgstr "الحركة التاريخية للمشتريات حسب الصنف"
 #: erpnext/buying/workspace/buying/buying.json:62
 #: erpnext/workspace_sidebar/financial_reports.json:234
 msgid "Item-wise Purchase Register"
-msgstr "سجل حركة المشتريات حسب الصنف"
+msgstr "دفتر المشتريات حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -31503,7 +31503,7 @@ msgstr "سجل حركة المشتريات حسب الصنف"
 #: erpnext/selling/workspace/selling/selling.json:72
 #: erpnext/workspace_sidebar/selling.json:671
 msgid "Item-wise Sales History"
-msgstr "الحركة التاريخية للمبيعات حسب الصنف"
+msgstr "سجل المبيعات حسب الصنف"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
@@ -31514,7 +31514,7 @@ msgstr "الحركة التاريخية للمبيعات حسب الصنف"
 #: erpnext/selling/workspace/selling/selling.json:62
 #: erpnext/workspace_sidebar/selling.json:473
 msgid "Item-wise Sales Register"
-msgstr "سجل حركة مبيعات حسب الصنف"
+msgstr "دفتر المبيعات حسب الصنف"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/financial_reports.json:223
@@ -31547,7 +31547,7 @@ msgstr "الأصناف المطلوبة"
 #. Label of a Link in the Buying Workspace
 #: erpnext/buying/workspace/buying/buying.json:266
 msgid "Items To Be Received"
-msgstr "الأصناف المطلوب استلامها"
+msgstr "أصناف بانتظار الاستلام"
 
 #. Label of a Link in the Buying Workspace
 #. Name of a report
@@ -31645,7 +31645,7 @@ msgstr "التخفيض حسب الصنف"
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.json:16
 #: erpnext/stock/workspace/stock/stock.json:122 erpnext/workspace_sidebar/stock.json:554
 msgid "Itemwise Recommended Reorder Level"
-msgstr "مستوى إعادة ترتيب يوصى به حسب الصنف"
+msgstr "مستوى إعادة الطلب الموصى به حسب الصنف"
 
 #: erpnext/stock/report/stock_valuation_comparison/stock_valuation_comparison.py:514
 #, python-brace-format
@@ -31745,7 +31745,7 @@ msgstr "صنف ثانوي لبطاقة العمل"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:112
 #: erpnext/workspace_sidebar/manufacturing.json:275
 msgid "Job Card Summary"
-msgstr "ملخص بطاقة العمل"
+msgstr "ملخص بطاقات العمل"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json:76
@@ -31778,7 +31778,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order/work_order.json:737
 #: erpnext/manufacturing/doctype/workstation/workstation.json:185
 msgid "Job Cards"
-msgstr "بطاقات العمل"
+msgstr "بطاقات عمل"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.js:106
 msgid "Job Paused"
@@ -31873,7 +31873,7 @@ msgstr "جول/متر"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:31
 msgid "Journal Entries"
-msgstr "قيود اليومية"
+msgstr "قيود يومية"
 
 #: erpnext/accounts/utils.py:1062
 #, python-brace-format
@@ -31909,7 +31909,7 @@ msgstr "قيود اليومية {0} غير مترابطة"
 #: erpnext/templates/form_grid/bank_reconciliation_grid.html:3
 #: erpnext/workspace_sidebar/invoicing.json:188 erpnext/workspace_sidebar/payments.json:48
 msgid "Journal Entry"
-msgstr "قيد اليومية"
+msgstr "قيد يومية"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json:303
@@ -31921,7 +31921,7 @@ msgstr "حساب قيد اليومية"
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json:95
 #: erpnext/accounts/workspace/accounting/accounting.json:849
 msgid "Journal Entry Template"
-msgstr "قالب قيد اليومية"
+msgstr "قالب قيد يومية"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/journal_entry_template_account/journal_entry_template_account.json:67
@@ -32151,7 +32151,7 @@ msgstr "فاتورة المورد لتكاليف الشحن"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:88
 #: erpnext/stock/sidebar/stock/stock.json:281 erpnext/workspace_sidebar/stock.json:122
 msgid "Landed Cost Voucher"
-msgstr "سند تكاليف الشحن"
+msgstr "سند تكاليف شحن"
 
 #. Label of the landed_cost_voucher_amount (Currency) field in DocType
 #. 'Purchase Invoice Item'
@@ -32350,7 +32350,7 @@ msgstr "عد الزبون المحتمل"
 #: erpnext/crm/report/lead_details/lead_details.json:17
 #: erpnext/crm/sidebar/crm/crm.json:111 erpnext/workspace_sidebar/crm.json:85
 msgid "Lead Details"
-msgstr "تفاصيل الزبون المحتمل"
+msgstr "تفاصيل الزبائن المحتملين"
 
 #. Label of the lead_name (Data) field in DocType 'Prospect Lead'
 #: erpnext/crm/doctype/prospect_lead/prospect_lead.json:32
@@ -32373,7 +32373,7 @@ msgstr "مالك الزبون المحتمل"
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.json:17
 #: erpnext/crm/sidebar/crm/crm.json:216 erpnext/workspace_sidebar/crm.json:162
 msgid "Lead Owner Efficiency"
-msgstr "كفاءة مالك الزبون المحتمل"
+msgstr "كفاءة مالكي الزبائن المحتملين"
 
 #: erpnext/crm/doctype/lead/lead.py:176
 msgid "Lead Owner cannot be same as the Lead Email Address"
@@ -32388,7 +32388,7 @@ msgstr "مسار الزبائن المحتملين"
 #. Label of a Workspace Sidebar Item
 #: erpnext/crm/sidebar/crm/crm.json:546 erpnext/workspace_sidebar/crm.json:437
 msgid "Lead Source"
-msgstr "مصدر الزبون المحتمل"
+msgstr "مصدر زبون محتمل"
 
 #. Label of the cumulative_lead_time (Int) field in DocType 'Master Production
 #. Schedule Item'
@@ -32437,7 +32437,7 @@ msgstr "تمت إضافة الزبون المحتمل {0} إلى الزبون ا
 #. Label of the leads_section (Tab Break) field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json:116
 msgid "Leads"
-msgstr "الزبائن المحتملون"
+msgstr "زبائن محتملون"
 
 #: erpnext/utilities/activation.py:78
 msgid "Leads help you get business, add all your contacts and more as your leads"
@@ -32519,7 +32519,7 @@ msgstr "شركة مراقب سلامة دفتر الأستاذ"
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.json:101
 #: erpnext/accounts/workspace/accounting/accounting.json:733
 msgid "Ledger Merge"
-msgstr "دمج دفتر الأستاذ"
+msgstr "دمج دفاتر الأستاذ"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/ledger_merge_accounts/ledger_merge_accounts.json:47
@@ -32909,7 +32909,7 @@ msgstr "تسعيرة خسر"
 #: erpnext/selling/report/lost_quotations/lost_quotations.py:34
 #: erpnext/selling/workspace/selling/selling.json:132
 msgid "Lost Quotations"
-msgstr "عروض الأسعار المفقودة"
+msgstr "عروض أسعار خاسرة"
 
 #. Label of the lost_reason (Data) field in DocType 'Opportunity Lost Reason'
 #: erpnext/crm/doctype/opportunity_lost_reason/opportunity_lost_reason.json:16
@@ -32956,7 +32956,7 @@ msgstr "القيمة المفقودة ٪"
 #: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json:187
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json:144
 msgid "Lower Deduction Certificate"
-msgstr "شهادة الاستقطاع الأدنى"
+msgstr "شهادة استقطاع مخفّض"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:312
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:429
@@ -32977,7 +32977,7 @@ msgstr "مبلغ الولاء"
 #: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json:107
 #: erpnext/workspace_sidebar/selling.json:174
 msgid "Loyalty Point Entry"
-msgstr "قيد نقاط الولاء"
+msgstr "قيد نقاط ولاء"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/loyalty_point_entry_redemption/loyalty_point_entry_redemption.json:37
@@ -33039,7 +33039,7 @@ msgstr "نقاط الولاء: {0}"
 #: erpnext/selling/workspace/selling/selling.json:394
 #: erpnext/workspace_sidebar/selling.json:163
 msgid "Loyalty Program"
-msgstr "برنامج الولاء"
+msgstr "برنامج ولاء"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json:47
@@ -33190,7 +33190,7 @@ msgstr "الحفاظ على السعر نفسه طوال دورة الشراء"
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json:196
 #: erpnext/workspace_sidebar/assets.json:87 erpnext/workspace_sidebar/crm.json:174
 msgid "Maintenance"
-msgstr "الصيانة"
+msgstr "صيانة"
 
 #. Label of the mntc_date (Date) field in DocType 'Maintenance Visit'
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json:127
@@ -33241,7 +33241,7 @@ msgstr "صلاحية الصيانة"
 #: erpnext/support/sidebar/support/support.json:50 erpnext/workspace_sidebar/crm.json:184
 #: erpnext/workspace_sidebar/support.json:39
 msgid "Maintenance Schedule"
-msgstr "جدول الصيانة"
+msgstr "جدول صيانة"
 
 #. Name of a DocType
 #. Label of the maintenance_schedule_detail (Link) field in DocType
@@ -33277,7 +33277,7 @@ msgstr "جدول الصيانة {0} موجود ضد {1}"
 #: erpnext/quality_management/sidebar/quality/quality.json:174
 #: erpnext/quality_management/workspace/quality/quality.json:52
 msgid "Maintenance Schedules"
-msgstr "جداول الصيانة"
+msgstr "جداول صيانة"
 
 #. Label of the maintenance_status (Select) field in DocType 'Asset Maintenance
 #. Log'
@@ -33653,7 +33653,7 @@ msgstr "الكمية المصنّعة (شاملة فاقد العملية)"
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json:247
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:418
 msgid "Manufacturer"
-msgstr "الصانع"
+msgstr "مصنّع"
 
 #. Label of the manufacturer_part_no (Data) field in DocType 'Purchase Invoice
 #. Item'
@@ -33716,7 +33716,7 @@ msgstr "رقم جزء الشركة المصنعة <b>{0}</b> غير صالح"
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order_dashboard.py:13
 #: erpnext/workspace_sidebar/manufacturing.json:436
 msgid "Manufacturing"
-msgstr "التصنيع"
+msgstr "تصنيع"
 
 #. Label of the semi_fg_bom (Link) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json:543
@@ -33973,7 +33973,7 @@ msgstr "حدّد إن كان هذا الزبون يمثّل شركة داخلي�
 #: erpnext/crm/doctype/prospect/prospect.json:62
 #: erpnext/selling/doctype/customer/customer.json:416
 msgid "Market Segment"
-msgstr "سوق القطاع"
+msgstr "شريحة سوق"
 
 #: erpnext/setup/doctype/company/company.py:500
 msgid "Marketing"
@@ -34004,7 +34004,7 @@ msgstr "البريد الجماعي"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:276
 #: erpnext/workspace_sidebar/manufacturing.json:132
 msgid "Master Production Schedule"
-msgstr "جدول الإنتاج الرئيسي"
+msgstr "جدول إنتاج رئيسي"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json:94
@@ -34285,7 +34285,7 @@ msgstr "المواد المطلوبة"
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json:194
 #: erpnext/manufacturing/doctype/work_order/work_order.json:747
 msgid "Material Requests"
-msgstr "طلبات المواد"
+msgstr "طلبات مواد"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:506
 msgid "Material Requests Required"
@@ -34381,7 +34381,7 @@ msgstr "مواد للمورد"
 #. Label of a Link in the Buying Workspace
 #: erpnext/buying/workspace/buying/buying.json:256
 msgid "Materials To Be Transferred"
-msgstr "المواد المطلوب تحويلها"
+msgstr "مواد بانتظار النقل"
 
 #: erpnext/controllers/subcontracting_controller.py:1592
 #, python-brace-format
@@ -34547,7 +34547,7 @@ msgstr "الحد الأقصى لعدد العينات التي يمكن الاح
 #. Label of a Sidebar Item
 #: erpnext/quality_management/sidebar/quality/quality.json:190
 msgid "Meetings & Feedback"
-msgstr "الاجتماعات والملاحظات"
+msgstr "اجتماعات وملاحظات"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -35143,7 +35143,7 @@ msgstr "طريقة الدفع"
 #: erpnext/accounts/sidebar/accounts/accounts.json:624
 #: erpnext/selling/page/point_of_sale/pos_controller.js:33
 msgid "Mode of Payment"
-msgstr "طريقة الدفع"
+msgstr "طريقة دفع"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json:33
@@ -35152,7 +35152,7 @@ msgstr "طريقة حساب الدفع"
 
 #: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:35
 msgid "Mode of Payments"
-msgstr "طريقة الدفع"
+msgstr "طرق دفع"
 
 #. Label of the model (Data) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json:65
@@ -35222,7 +35222,7 @@ msgstr "أوامر العمل المكتملة شهريًا"
 #: erpnext/accounts/sidebar/accounts/accounts.json:489
 #: erpnext/workspace_sidebar/selling.json:385
 msgid "Monthly Distribution"
-msgstr "التوزيع الشهري"
+msgstr "توزيع شهري"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/monthly_distribution_percentage/monthly_distribution_percentage.json:38
@@ -37827,7 +37827,7 @@ msgstr "افتتاحي"
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json:565
 #: erpnext/accounts/workspace/accounting/accounting.json:637
 msgid "Opening & Closing"
-msgstr "الافتتاح والإغلاق"
+msgstr "افتتاح وإقفال"
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:417
 #: erpnext/accounts/report/trial_balance/trial_balance.py:516
@@ -37939,7 +37939,7 @@ msgstr "فتح الفاتورة الصنف"
 #. Label of a Link in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:655
 msgid "Opening Invoice Tool"
-msgstr "أداة الفواتير الافتتاحية"
+msgstr "أداة فواتير افتتاحية"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1786
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2132
@@ -38204,7 +38204,7 @@ msgstr ""
 #: erpnext/setup/doctype/email_digest/email_digest.json:186
 #: erpnext/templates/generators/bom.html:61
 msgid "Operations"
-msgstr "العمليات"
+msgstr "عمليات"
 
 #. Label of the section_break_xvld (Section Break) field in DocType 'BOM
 #. Creator'
@@ -38242,7 +38242,7 @@ msgstr "نسبة الفرص/الزبائن المحتملين %"
 #: erpnext/crm/doctype/prospect/prospect.json:155
 #: erpnext/selling/page/sales_funnel/sales_funnel.py:99
 msgid "Opportunities"
-msgstr "الفرص"
+msgstr "فرص"
 
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:52
 msgid "Opportunities by Campaign"
@@ -38324,7 +38324,7 @@ msgstr "فرصة السلعة"
 #: erpnext/crm/doctype/opportunity_lost_reason/opportunity_lost_reason.json:25
 #: erpnext/crm/doctype/opportunity_lost_reason_detail/opportunity_lost_reason_detail.json:15
 msgid "Opportunity Lost Reason"
-msgstr "فرصة ضائعة السبب"
+msgstr "سبب خسارة فرصة"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/opportunity_lost_reason_detail/opportunity_lost_reason_detail.json:24
@@ -38368,7 +38368,7 @@ msgstr "ملخص الفرص حسب مرحلة البيع "
 #: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.py:48
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.js:64
 msgid "Opportunity Type"
-msgstr "نوع الفرصة"
+msgstr "نوع فرصة"
 
 #. Label of the section_break_14 (Section Break) field in DocType 'Opportunity'
 #: erpnext/crm/doctype/opportunity/opportunity.json:200
@@ -38580,7 +38580,7 @@ msgstr "أوامر"
 #: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:30
 #: erpnext/desktop_icon/organization.json:10 erpnext/setup/sidebar/setup/setup.json:66
 msgid "Organization"
-msgstr "المؤسسة"
+msgstr "مؤسسة"
 
 #. Label of the company_name (Data) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json:116
@@ -39060,7 +39060,7 @@ msgstr "الصنف المورَّد في أمر الشراء"
 #: erpnext/selling/sidebar/selling/selling.json:280
 #: erpnext/setup/sidebar/setup/setup.json:695 erpnext/workspace_sidebar/selling.json:75
 msgid "POS"
-msgstr "نقطة البيع"
+msgstr "نقطة بيع"
 
 #. Label of the invoice_fields (Table) field in DocType 'POS Settings'
 #: erpnext/accounts/doctype/pos_settings/pos_settings.json:19
@@ -39085,7 +39085,7 @@ msgstr "نقطة البيع مغلقة"
 #: erpnext/selling/workspace/selling/selling.json:384
 #: erpnext/workspace_sidebar/selling.json:130
 msgid "POS Closing Entry"
-msgstr "قيد إقفال نقطة البيع"
+msgstr "قيد إقفال نقطة بيع"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json:64
@@ -39141,7 +39141,7 @@ msgstr "حقل نقطة البيع"
 #: erpnext/selling/sidebar/selling/selling.json:324
 #: erpnext/workspace_sidebar/selling.json:108
 msgid "POS Invoice"
-msgstr "فاتورة نقاط البيع"
+msgstr "فاتورة نقطة بيع"
 
 #. Name of a DocType
 #. Label of the pos_invoice_item (Data) field in DocType 'POS Invoice Item'
@@ -39157,7 +39157,7 @@ msgstr "صنف فاتورة نقاط البيع"
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json:137
 #: erpnext/workspace_sidebar/selling.json:141
 msgid "POS Invoice Merge Log"
-msgstr "سجل دمج فاتورة نقاط البيع"
+msgstr "سجل دمج فواتير نقطة بيع"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pos_invoice_reference/pos_invoice_reference.json:76
@@ -39185,7 +39185,7 @@ msgstr "يجب تحديد الحقل {0} في فاتورة نقطة البيع."
 #. Label of the pos_invoices (Table) field in DocType 'POS Invoice Merge Log'
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json:48
 msgid "POS Invoices"
-msgstr "فواتير نقاط البيع"
+msgstr "فواتير نقطة بيع"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:86
 msgid "POS Invoices can't be added when Sales Invoice is enabled"
@@ -39225,7 +39225,7 @@ msgstr "محدّد أصناف نقطة البيع"
 #: erpnext/selling/workspace/selling/selling.json:374
 #: erpnext/workspace_sidebar/selling.json:119
 msgid "POS Opening Entry"
-msgstr "قيد افتتاح نقطة البيع"
+msgstr "قيد افتتاح نقطة بيع"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1275
 #, python-brace-format
@@ -39287,7 +39287,7 @@ msgstr "طريقة الدفع في نقاط البيع"
 #: erpnext/selling/sidebar/selling/selling.json:309
 #: erpnext/workspace_sidebar/selling.json:97
 msgid "POS Profile"
-msgstr "الملف الشخصي لنقطة البيع"
+msgstr "ملف نقطة بيع"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1268
 #, python-brace-format
@@ -39371,7 +39371,7 @@ msgstr "حقول بحث نقطة البيع"
 #: erpnext/workspace_sidebar/erpnext_settings.json:54
 #: erpnext/workspace_sidebar/selling.json:152
 msgid "POS Settings"
-msgstr "إعدادات نقاط البيع"
+msgstr "إعدادات نقطة البيع"
 
 #. Label of the pos_invoices (Table) field in DocType 'POS Closing Entry'
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json:227
@@ -39465,7 +39465,7 @@ msgstr "قائمة التعبئة"
 #: erpnext/stock/doctype/packing_slip/packing_slip.json:183
 #: erpnext/stock/sidebar/stock/stock.json:311 erpnext/workspace_sidebar/stock.json:144
 msgid "Packing Slip"
-msgstr "قائمة بمحتويات الشحنة"
+msgstr "قائمة تعبئة"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json:145
@@ -40164,7 +40164,7 @@ msgstr "رمز صنف الطرف"
 #. Name of a DocType
 #: erpnext/accounts/doctype/party_link/party_link.json:59
 msgid "Party Link"
-msgstr "رابط الطرف"
+msgstr "رابط طرف"
 
 #: erpnext/controllers/sales_and_purchase_return.py:49
 msgid "Party Mismatch"
@@ -40281,7 +40281,7 @@ msgstr "صنف خاص بالطرف"
 #: erpnext/setup/doctype/party_type/party_type.json:37
 #: erpnext/stock/report/serial_no_ledger/serial_no_ledger.py:81
 msgid "Party Type"
-msgstr "نوع الطرف"
+msgstr "نوع طرف"
 
 #: erpnext/accounts/party.py:898
 #, python-brace-format
@@ -40546,7 +40546,7 @@ msgstr "تاريخ استحقاق السداد"
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.json:85
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json:139
 msgid "Payment Entries"
-msgstr "قيود الدفع"
+msgstr "قيود دفع"
 
 #: erpnext/accounts/utils.py:1159
 #, python-brace-format
@@ -40581,7 +40581,7 @@ msgstr "قيد الدفع {0} غير مترابطة"
 #: erpnext/accounts/sidebar/accounts/accounts.json:98
 #: erpnext/workspace_sidebar/invoicing.json:177 erpnext/workspace_sidebar/payments.json:37
 msgid "Payment Entry"
-msgstr "قيد الدفع"
+msgstr "قيد دفع"
 
 #: banking/src/components/features/BankReconciliation/RecordPaymentModalContent.tsx:342
 msgid "Payment Entry Created"
@@ -40645,7 +40645,7 @@ msgstr "بوابة الدفع"
 #: erpnext/accounts/doctype/payment_gateway_account/payment_gateway_account.json:93
 #: erpnext/accounts/doctype/payment_request/payment_request.json:307
 msgid "Payment Gateway Account"
-msgstr "دفع حساب البوابة"
+msgstr "حساب بوابة دفع"
 
 #: erpnext/accounts/utils.py:1529
 msgid "Payment Gateway Account not created, please create one manually."
@@ -40751,7 +40751,7 @@ msgstr "دفع أمر"
 #: erpnext/accounts/workspace/accounting/accounting.json:212
 #: erpnext/workspace_sidebar/financial_reports.json:322
 msgid "Payment Period Based On Invoice Date"
-msgstr "طريقة الدفع بناء على تاريخ الفاتورة"
+msgstr "فترة السداد حسب تاريخ الفاتورة"
 
 #. Label of the payment_plan_section (Section Break) field in DocType
 #. 'Subscription Plan'
@@ -40777,7 +40777,7 @@ msgstr "تم استلام الدفعة"
 #: erpnext/accounts/workspace/accounting/accounting.json:607
 #: erpnext/workspace_sidebar/invoicing.json:221 erpnext/workspace_sidebar/payments.json:81
 msgid "Payment Reconciliation"
-msgstr "دفع المصالحة"
+msgstr "تسوية مدفوعات"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json:185
@@ -40848,7 +40848,7 @@ msgstr "المراجع الدفع"
 #: erpnext/selling/doctype/sales_order/sales_order.js:1173
 #: erpnext/workspace_sidebar/invoicing.json:199 erpnext/workspace_sidebar/payments.json:59
 msgid "Payment Request"
-msgstr "طلب الدفع من قبل المورد"
+msgstr "طلب دفع"
 
 #. Label of the payment_request_outstanding (Float) field in DocType 'Payment
 #. Entry Reference'
@@ -40939,7 +40939,7 @@ msgstr "جداول الدفع"
 #: erpnext/public/js/controllers/transaction.js:562
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:31
 msgid "Payment Term"
-msgstr "شرط الدفع"
+msgstr "شرط دفع"
 
 #. Label of the payment_term_name (Data) field in DocType 'Payment Term'
 #: erpnext/accounts/doctype/payment_term/payment_term.json:34
@@ -40970,14 +40970,14 @@ msgstr "شرط الدفع المستحق"
 #: erpnext/selling/doctype/quotation/quotation.json:748
 #: erpnext/selling/doctype/sales_order/sales_order.json:1536
 msgid "Payment Terms"
-msgstr "شروط الدفع"
+msgstr "شروط دفع"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.json:19
 #: erpnext/selling/workspace/selling/selling.json:210
 msgid "Payment Terms Status for Sales Order"
-msgstr "حالة شروط الدفع لأمر البيع"
+msgstr "حالة شروط الدفع لأوامر البيع"
 
 #. Name of a DocType
 #. Label of the payment_terms_template (Link) field in DocType 'POS Invoice'
@@ -41010,7 +41010,7 @@ msgstr "حالة شروط الدفع لأمر البيع"
 #: erpnext/selling/doctype/quotation/quotation.json:753
 #: erpnext/selling/doctype/sales_order/sales_order.json:1060
 msgid "Payment Terms Template"
-msgstr "نموذج شروط الدفع"
+msgstr "قالب شروط دفع"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json:159
@@ -41123,7 +41123,7 @@ msgstr "شرط الدفع {0} غير مستخدم في {1}"
 #: erpnext/workspace_sidebar/invoicing.json:167 erpnext/workspace_sidebar/payments.json:27
 #: erpnext/workspace_sidebar/payments.json:205
 msgid "Payments"
-msgstr "المدفوعات"
+msgstr "مدفوعات"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:342
 msgid "Payments could not be updated."
@@ -41169,7 +41169,7 @@ msgstr "مُثبّت ضد"
 #. Name of a DocType
 #: erpnext/accounts/doctype/pegged_currencies/pegged_currencies.json:30
 msgid "Pegged Currencies"
-msgstr "العملات المرتبطة"
+msgstr "عملات مربوطة"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pegged_currency_details/pegged_currency_details.json:42
@@ -41417,7 +41417,7 @@ msgstr "قيد إغلاق الفترة للفترة الحالية"
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json:134
 #: erpnext/accounts/workspace/accounting/accounting.json:685
 msgid "Period Closing Voucher"
-msgstr "قيد إغلاق الفترة"
+msgstr "قيد إقفال الفترة"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:658
 #, python-brace-format
@@ -42005,7 +42005,7 @@ msgstr "زيارات مخططة لخدمة ما اشتراه زبون."
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json:782
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:265
 msgid "Planning"
-msgstr "التخطيط"
+msgstr "تخطيط"
 
 #. Label of a Card Break in the Manufacturing Workspace
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:162
@@ -42038,7 +42038,7 @@ msgstr "لوحة معلومات المصنع"
 #: erpnext/public/js/plant_floor_visual/visual_plant.js:53
 #: erpnext/workspace_sidebar/manufacturing.json:399
 msgid "Plant Floor"
-msgstr "أرضية المصنع"
+msgstr "أرضية مصنع"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:57
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:97
@@ -43452,7 +43452,7 @@ msgstr "يرجى تحديث حالة الإصلاح."
 #: erpnext/selling/page/point_of_sale/point_of_sale.js:6
 #: erpnext/selling/workspace/selling/selling.json:366
 msgid "Point of Sale"
-msgstr "نقطة البيع"
+msgstr "نقطة بيع"
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json:4
@@ -44044,7 +44044,7 @@ msgstr "ألواح سعر الخصم"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json:408
 #: erpnext/workspace_sidebar/buying.json:144 erpnext/workspace_sidebar/selling.json:219
 msgid "Price List"
-msgstr "قائمة الأسعار"
+msgstr "قائمة أسعار"
 
 #. Label of the price_list_and_currency_section (Section Break) field in
 #. DocType 'POS Profile'
@@ -44278,7 +44278,7 @@ msgstr "أسعار تعرضها على زبون أو زبون محتمل."
 #: erpnext/stock/doctype/item/item.json:1108
 #: erpnext/stock/doctype/item/item_dashboard.py:19
 msgid "Pricing"
-msgstr "التسعير"
+msgstr "تسعير"
 
 #. Label of the pricing_rule (Link) field in DocType 'Coupon Code'
 #. Name of a DocType
@@ -44293,7 +44293,7 @@ msgstr "التسعير"
 #: erpnext/selling/sidebar/selling/selling.json:264
 #: erpnext/workspace_sidebar/selling.json:241
 msgid "Pricing Rule"
-msgstr "قاعدة التسعير"
+msgstr "قاعدة تسعير"
 
 #. Name of a DocType
 #. Label of the brands (Table) field in DocType 'Promotional Scheme'
@@ -44408,7 +44408,7 @@ msgstr "يتم تحديث قاعدة التسعير {0}"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json:511
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json:415
 msgid "Pricing Rules"
-msgstr "قواعد التسعير"
+msgstr "قواعد تسعير"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:79
 msgid "Pricing Rules are further filtered based on quantity."
@@ -44632,7 +44632,7 @@ msgstr "إجراء"
 #: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.json:86
 #: erpnext/accounts/workspace/accounting/accounting.json:695
 msgid "Process Deferred Accounting"
-msgstr "عملية المحاسبة المؤجلة"
+msgstr "معالجة محاسبة مؤجلة"
 
 #. Label of the process_description (Text Editor) field in DocType 'Quality
 #. Procedure Process'
@@ -44722,12 +44722,12 @@ msgstr "الاسم الكامل لصاحب العملية"
 #: erpnext/accounts/workspace/accounting/accounting.json:617
 #: erpnext/workspace_sidebar/invoicing.json:243 erpnext/workspace_sidebar/payments.json:103
 msgid "Process Payment Reconciliation"
-msgstr "معالجة تسوية الدفع"
+msgstr "معالجة تسوية مدفوعات"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json:116
 msgid "Process Payment Reconciliation Log"
-msgstr "سجل معالجة تسوية الدفع"
+msgstr "سجل معالجة تسوية المدفوعات"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json:169
@@ -44737,7 +44737,7 @@ msgstr "تخصيصات سجل معالجة تسوية الدفع"
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json:90
 msgid "Process Period Closing Voucher"
-msgstr "معالجة سند إقفال الفترة"
+msgstr "معالجة قيد إقفال الفترة"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_period_closing_voucher_detail/process_period_closing_voucher_detail.json:50
@@ -44749,7 +44749,7 @@ msgstr "تفاصيل معالجة سند إقفال الفترة"
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json:434
 #: erpnext/accounts/workspace/accounting/accounting.json:753
 msgid "Process Statement Of Accounts"
-msgstr "بيان العملية للحسابات"
+msgstr "معالجة كشوف حسابات"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_statement_of_accounts_cc/process_statement_of_accounts_cc.json:26
@@ -44764,7 +44764,7 @@ msgstr "بيان العملية لحسابات الزبائن"
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_subscription/process_subscription.json:45
 msgid "Process Subscription"
-msgstr "معالجة الاشتراك"
+msgstr "معالجة اشتراك"
 
 #. Label of the process_in_single_transaction (Check) field in DocType
 #. 'Transaction Deletion Record'
@@ -44815,7 +44815,7 @@ msgstr "الشراء"
 #: erpnext/buying/workspace/buying/buying.json:122
 #: erpnext/workspace_sidebar/buying.json:320
 msgid "Procurement Tracker"
-msgstr "المقتفي المشتريات"
+msgstr "متتبع مشتريات"
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:214
 msgid "Produce Qty"
@@ -44875,14 +44875,14 @@ msgstr "المنتج"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json:984
 #: erpnext/workspace_sidebar/selling.json:418
 msgid "Product Bundle"
-msgstr "حزم المنتجات"
+msgstr "حزمة منتجات"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/product_bundle_balance/product_bundle_balance.json:16
 #: erpnext/stock/workspace/stock/stock.json:142
 msgid "Product Bundle Balance"
-msgstr "حزمة المنتج الرصيد"
+msgstr "رصيد حزم المنتجات"
 
 #: erpnext/stock/report/item_where_used/item_where_used.py:275
 msgid "Product Bundle Component"
@@ -45006,7 +45006,7 @@ msgstr "معلومات صنف الإنتاج"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json:500
 #: erpnext/workspace_sidebar/manufacturing.json:109
 msgid "Production Plan"
-msgstr "خطة الإنتاج"
+msgstr "خطة إنتاج"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:200
 msgid "Production Plan Already Submitted"
@@ -45121,7 +45121,7 @@ msgstr "الربح هذا العام"
 #: erpnext/public/js/financial_statements.js:368 erpnext/setup/workspace/home/home.json:5
 #: erpnext/workspace_sidebar/financial_reports.json:36
 msgid "Profit and Loss"
-msgstr "الربح والخسارة"
+msgstr "أرباح وخسائر"
 
 #. Option for the 'Report Type' (Select) field in DocType 'Financial Report
 #. Template'
@@ -45250,7 +45250,7 @@ msgstr "ملخص المشروع لـ {0}"
 #: erpnext/projects/sidebar/projects/projects.json:262
 #: erpnext/workspace_sidebar/projects.json:107
 msgid "Project Template"
-msgstr "قالب المشروع"
+msgstr "قالب مشروع"
 
 #. Name of a DocType
 #: erpnext/projects/doctype/project_template_task/project_template_task.json:35
@@ -45276,7 +45276,7 @@ msgstr "قالب المشروع {0} معطّل"
 #: erpnext/projects/sidebar/projects/projects.json:232
 #: erpnext/workspace_sidebar/projects.json:118
 msgid "Project Type"
-msgstr "نوع المشروع"
+msgstr "نوع مشروع"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
@@ -45285,7 +45285,7 @@ msgstr "نوع المشروع"
 #: erpnext/projects/sidebar/projects/projects.json:277
 #: erpnext/workspace_sidebar/projects.json:129
 msgid "Project Update"
-msgstr "تحديث المشروع"
+msgstr "تحديث مشروع"
 
 #: erpnext/config/projects.py:44
 msgid "Project Update."
@@ -45782,7 +45782,7 @@ msgstr "إعدادات فاتورة الشراء"
 #: erpnext/workspace_sidebar/buying.json:298
 #: erpnext/workspace_sidebar/financial_reports.json:289
 msgid "Purchase Invoice Trends"
-msgstr "اتجهات فاتورة الشراء"
+msgstr "اتجاهات فواتير الشراء"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:375
 msgid "Purchase Invoice can be held after submitting."
@@ -45799,7 +45799,7 @@ msgstr "لا يمكن تعليق فاتورة شراء ليس عليها أي م
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:2080
 msgid "Purchase Invoices"
-msgstr "فواتير الشراء"
+msgstr "فواتير شراء"
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -45853,7 +45853,7 @@ msgstr "فواتير الشراء"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:535
 #: erpnext/workspace_sidebar/buying.json:75
 msgid "Purchase Order"
-msgstr "أمر الشراء"
+msgstr "أمر شراء"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:105
 msgid "Purchase Order Amount"
@@ -45935,7 +45935,7 @@ msgstr "طلب الشراء مطلوب للصنف {}"
 #: erpnext/buying/report/purchase_order_trends/purchase_order_trends.json:20
 #: erpnext/buying/workspace/buying/buying.json:82 erpnext/workspace_sidebar/buying.json:309
 msgid "Purchase Order Trends"
-msgstr "اتجهات أمر الشراء"
+msgstr "اتجاهات أوامر الشراء"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1637
 msgid "Purchase Order already created for all Sales Order items"
@@ -45958,7 +45958,7 @@ msgstr "طلب الشراء {0} يجب أن يعتمد"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:1005
 msgid "Purchase Orders"
-msgstr "طلبات الشراء"
+msgstr "أوامر شراء"
 
 #. Label of the purchase_orders_items_overdue (Check) field in DocType 'Email
 #. Digest'
@@ -46035,7 +46035,7 @@ msgstr "قائمة أسعار الشراء"
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:68
 #: erpnext/workspace_sidebar/stock.json:51
 msgid "Purchase Receipt"
-msgstr "إشعار استلام المشتريات"
+msgstr "إشعار استلام مشتريات"
 
 #. Description of the 'Auto create Purchase Receipt' (Check) field in DocType
 #. 'Buying Settings'
@@ -46090,7 +46090,7 @@ msgstr "إيصال الشراء مطلوب للصنف {}"
 #: erpnext/stock/report/purchase_receipt_trends/purchase_receipt_trends.json:20
 #: erpnext/stock/workspace/stock/stock.json:288 erpnext/workspace_sidebar/stock.json:422
 msgid "Purchase Receipt Trends"
-msgstr "شراء اتجاهات الإيصال"
+msgstr "اتجاهات إشعارات استلام المشتريات"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/buying.json:287
@@ -46139,7 +46139,7 @@ msgstr "شراء العودة"
 #: erpnext/accounts/sidebar/accounts/accounts.json:384
 #: erpnext/setup/doctype/company/company.js:154
 msgid "Purchase Tax Template"
-msgstr "قالب الضرائب على المشتريات"
+msgstr "قالب ضريبة مشتريات"
 
 #. Label of the purchase_tax_withholding_category (Link) field in DocType
 #. 'Item'
@@ -46179,7 +46179,7 @@ msgstr "الضرائب والرسوم الشراء"
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json:445
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json:643
 msgid "Purchase Taxes and Charges Template"
-msgstr "قالب الضرائب والرسوم على المشتريات"
+msgstr "قالب ضرائب ورسوم مشتريات"
 
 #. Label of the purchase_time (Int) field in DocType 'Item Lead Time'
 #. Label of the purchase_lead_time_tab (Tab Break) field in DocType 'Item Lead
@@ -46264,7 +46264,7 @@ msgstr "الأغراض المطلوبة"
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json:551
 #: erpnext/stock/workspace/stock/stock.json:592
 msgid "Putaway Rule"
-msgstr "قاعدة التخزين الموضعي"
+msgstr "قاعدة تخزين"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:55
 #, python-brace-format
@@ -46717,7 +46717,7 @@ msgstr "حل إجراء الجودة"
 #: erpnext/quality_management/sidebar/quality/quality.json:219
 #: erpnext/workspace_sidebar/quality.json:87
 msgid "Quality Feedback"
-msgstr "ردود فعل الجودة"
+msgstr "ملاحظات الجودة"
 
 #. Name of a DocType
 #: erpnext/quality_management/doctype/quality_feedback_parameter/quality_feedback_parameter.json:50
@@ -46727,7 +46727,7 @@ msgstr "معلمة ملاحظات الجودة"
 #. Name of a DocType
 #: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json:47
 msgid "Quality Feedback Template"
-msgstr "قالب ملاحظات الجودة"
+msgstr "قالب ملاحظات جودة"
 
 #. Name of a DocType
 #: erpnext/quality_management/doctype/quality_feedback_template_parameter/quality_feedback_template_parameter.json:24
@@ -46799,14 +46799,14 @@ msgstr "فحص الجودة غير مهيأ"
 #: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json:43
 #: erpnext/stock/workspace/stock/stock.json:720
 msgid "Quality Inspection Parameter"
-msgstr "معلمة فحص الجودة"
+msgstr "معيار فحص الجودة"
 
 #. Label of a Link in the Quality Workspace
 #. Name of a DocType
 #: erpnext/quality_management/workspace/quality/quality.json:80
 #: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json:28
 msgid "Quality Inspection Parameter Group"
-msgstr "مجموعة معلمات فحص الجودة"
+msgstr "مجموعة معايير فحص الجودة"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json:230
@@ -46857,7 +46857,7 @@ msgstr "ملخص فحص الجودة"
 #: erpnext/stock/workspace/stock/stock.json:710 erpnext/workspace_sidebar/quality.json:143
 #: erpnext/workspace_sidebar/stock.json:323
 msgid "Quality Inspection Template"
-msgstr "قالب فحص الجودة"
+msgstr "قالب فحص جودة"
 
 #. Label of the quality_inspection_template_name (Data) field in DocType
 #. 'Quality Inspection Template'
@@ -46890,7 +46890,7 @@ msgstr "فحص (فحوصات) الجودة"
 #. Label of a chart in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json:6
 msgid "Quality Inspections"
-msgstr "عمليات فحص الجودة"
+msgstr "فحوصات الجودة"
 
 #: erpnext/setup/doctype/company/company.py:554
 msgid "Quality Management"
@@ -47350,7 +47350,7 @@ msgstr "صنف المناقصة"
 #: erpnext/setup/doctype/quotation_lost_reason/quotation_lost_reason.json:38
 #: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json:15
 msgid "Quotation Lost Reason"
-msgstr "سبب خسارة المناقصة"
+msgstr "سبب خسارة عرض سعر"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json:24
@@ -47374,7 +47374,7 @@ msgstr "مناقصة لـ"
 #: erpnext/selling/workspace/selling/selling.json:102
 #: erpnext/workspace_sidebar/selling.json:649
 msgid "Quotation Trends"
-msgstr "مؤشرات المناقصة"
+msgstr "اتجاهات عروض الأسعار"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:509
 #, python-brace-format
@@ -47389,7 +47389,7 @@ msgstr "عرض مسعر {0} ليس من النوع {1}"
 #: erpnext/selling/doctype/quotation/quotation.py:369
 #: erpnext/selling/page/sales_funnel/sales_funnel.py:100
 msgid "Quotations"
-msgstr "عروض مسعرة"
+msgstr "عروض أسعار"
 
 #: erpnext/utilities/activation.py:87
 msgid "Quotations are proposals, bids you have sent to your customers"
@@ -48199,7 +48199,7 @@ msgstr "المستحقات للغير (مدينة)"
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:124
 msgid "Receivables & Payables"
-msgstr "المدينون والدائنون"
+msgstr "مدينون ودائنون"
 
 #. Option for the 'Payment Type' (Select) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json:129
@@ -48257,7 +48257,7 @@ msgstr "مستلم من"
 #: erpnext/accounts/report/received_items_to_be_billed/received_items_to_be_billed.json:17
 #: erpnext/buying/workspace/buying/buying.json:170
 msgid "Received Items To Be Billed"
-msgstr "الأصناف الواردة إلى أن توصف"
+msgstr "أصناف مستلمة بانتظار الفوترة"
 
 #: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:8
 msgid "Received On"
@@ -48420,7 +48420,7 @@ msgstr "القيود المسواة"
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:599
 msgid "Reconciliation"
-msgstr "التسوية"
+msgstr "تسوية"
 
 #. Option for the 'Posting Date inheritance for exchange gain / loss' (Select)
 #. field in DocType 'Accounts Settings'
@@ -48886,7 +48886,7 @@ msgstr "السجلات"
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:222
 msgid "Registers & Profitability"
-msgstr "السجلات والربحية"
+msgstr "سجلات وربحية"
 
 #. Label of the registration_details (Code) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json:668
@@ -49587,7 +49587,7 @@ msgstr "طلب المعلومات"
 #: erpnext/stock/doctype/material_request/material_request.js:224
 #: erpnext/workspace_sidebar/buying.json:51
 msgid "Request for Quotation"
-msgstr "طلب للحصول على الاقتباس"
+msgstr "طلب عرض سعر"
 
 #. Name of a DocType
 #. Label of the request_for_quotation_item (Data) field in DocType 'Supplier
@@ -49620,7 +49620,7 @@ msgstr "طلب"
 #: erpnext/stock/report/requested_items_to_be_transferred/requested_items_to_be_transferred.json:17
 #: erpnext/stock/workspace/stock/stock.json:308 erpnext/workspace_sidebar/stock.json:543
 msgid "Requested Items To Be Transferred"
-msgstr "الأصناف المطلوبة على أن يتم تحويلها"
+msgstr "أصناف مطلوبة بانتظار النقل"
 
 #. Name of a report
 #. Label of a Link in the Buying Workspace
@@ -49629,7 +49629,7 @@ msgstr "الأصناف المطلوبة على أن يتم تحويلها"
 #: erpnext/buying/workspace/buying/buying.json:150
 #: erpnext/workspace_sidebar/buying.json:254
 msgid "Requested Items to Order and Receive"
-msgstr "الأصناف المطلوبة للطلب والاستلام"
+msgstr "أصناف مطلوبة للطلب والاستلام"
 
 #. Label of the requested_qty (Float) field in DocType 'Job Card'
 #. Label of the requested_qty (Float) field in DocType 'Material Request Plan
@@ -49959,7 +49959,7 @@ msgstr "الرقم التسلسلي المحجوز"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:205
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:333
 msgid "Reserved Stock"
-msgstr "المخزون المحجوز"
+msgstr "مخزون محجوز"
 
 #: erpnext/stock/stock_ledger.py:2837
 msgid "Reserved Stock for Batch"
@@ -50581,7 +50581,7 @@ msgstr "راجع مستودعاتك"
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json:102
 #: erpnext/quality_management/doctype/quality_review/quality_review.json:61
 msgid "Reviews"
-msgstr "التعليقات"
+msgstr "مراجعات"
 
 #: erpnext/accounts/doctype/budget/budget.js:38
 msgid "Revise Budget"
@@ -50884,7 +50884,7 @@ msgstr "قيد ربح/خسارة التقريب لتحويل المخزون"
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:414
 #: erpnext/workspace_sidebar/manufacturing.json:410
 msgid "Routing"
-msgstr "التوجيه"
+msgstr "توجيه"
 
 #. Label of the routing_name (Data) field in DocType 'Routing'
 #: erpnext/manufacturing/doctype/routing/routing.json:19
@@ -53159,7 +53159,7 @@ msgstr "نفقات المبيعات"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:286
 #: erpnext/workspace_sidebar/manufacturing.json:143
 msgid "Sales Forecast"
-msgstr "توقعات المبيعات"
+msgstr "توقعات مبيعات"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json:82
@@ -53172,7 +53172,7 @@ msgstr "صنف توقعات المبيعات"
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:49
 #: erpnext/workspace_sidebar/crm.json:118 erpnext/workspace_sidebar/selling.json:616
 msgid "Sales Funnel"
-msgstr "هرم المبيعات"
+msgstr "قمع المبيعات"
 
 #. Label of the sales_incoming_rate (Currency) field in DocType 'Purchase
 #. Invoice Item'
@@ -53290,7 +53290,7 @@ msgstr "معاملات فاتورة المبيعات"
 #: erpnext/workspace_sidebar/financial_reports.json:278
 #: erpnext/workspace_sidebar/selling.json:517
 msgid "Sales Invoice Trends"
-msgstr "اتجاهات فاتورة المبيعات"
+msgstr "اتجاهات فواتير المبيعات"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:182
 msgid "Sales Invoice does not have Payments"
@@ -53422,7 +53422,7 @@ msgstr "فرص المبيعات حسب المصدر"
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.py:74
 #: erpnext/workspace_sidebar/selling.json:51
 msgid "Sales Order"
-msgstr "أمر البيع"
+msgstr "أمر بيع"
 
 #. Name of a report
 #. Label of a chart in the Selling Workspace
@@ -53432,7 +53432,7 @@ msgstr "أمر البيع"
 #: erpnext/selling/workspace/selling/selling.json:6
 #: erpnext/workspace_sidebar/selling.json:627
 msgid "Sales Order Analysis"
-msgstr "تحليل أوامر المبيعات"
+msgstr "تحليل أوامر البيع"
 
 #. Label of the sales_order_date (Date) field in DocType 'Production Plan Sales
 #. Order'
@@ -53518,7 +53518,7 @@ msgstr "حالة أمر المبيعات"
 #: erpnext/selling/workspace/selling/selling.json:92
 #: erpnext/workspace_sidebar/selling.json:660
 msgid "Sales Order Trends"
-msgstr "مجرى طلبات البيع"
+msgstr "اتجاهات أوامر البيع"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:288
 #, python-brace-format
@@ -53559,7 +53559,7 @@ msgstr "أمر البيع {0} غير موجود"
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json:164
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.js:42
 msgid "Sales Orders"
-msgstr "أوامر البيع"
+msgstr "أوامر بيع"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:395
 msgid "Sales Orders Required"
@@ -53623,7 +53623,7 @@ msgstr "أوامر المبيعات المطلوب تسليمها"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json:1146
 #: erpnext/workspace_sidebar/selling.json:374
 msgid "Sales Partner"
-msgstr "شريك المبيعات"
+msgstr "شريك مبيعات"
 
 #. Label of the sales_partner (Link) field in DocType 'Sales Partner Item'
 #: erpnext/accounts/doctype/sales_partner_item/sales_partner_item.json:15
@@ -53635,7 +53635,7 @@ msgstr "شريك المبيعات "
 #: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.json:17
 #: erpnext/selling/workspace/selling/selling.json:268
 msgid "Sales Partner Commission Summary"
-msgstr "ملخص عمولة شريك المبيعات"
+msgstr "ملخص عمولات شركاء المبيعات"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/sales_partner_item/sales_partner_item.json:25
@@ -53670,14 +53670,14 @@ msgstr "الفرق المستهدف لشركاء المبيعات استنادً
 #: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.json:17
 #: erpnext/selling/workspace/selling/selling.json:278
 msgid "Sales Partner Transaction Summary"
-msgstr "ملخص معاملات شريك المبيعات"
+msgstr "ملخص معاملات شركاء المبيعات"
 
 #. Name of a DocType
 #. Label of the sales_partner_type (Data) field in DocType 'Sales Partner Type'
 #: erpnext/selling/doctype/sales_partner_type/sales_partner_type.json:16
 #: erpnext/selling/doctype/sales_partner_type/sales_partner_type.json:26
 msgid "Sales Partner Type"
-msgstr "نوع شريك المبيعات"
+msgstr "نوع شريك مبيعات"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -53687,7 +53687,7 @@ msgstr "نوع شريك المبيعات"
 #: erpnext/workspace_sidebar/financial_reports.json:333
 #: erpnext/workspace_sidebar/selling.json:550
 msgid "Sales Partners Commission"
-msgstr "عمولة المناديب"
+msgstr "عمولات شركاء المبيعات"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
@@ -53696,7 +53696,7 @@ msgstr "عمولة المناديب"
 #: erpnext/accounts/workspace/accounting/accounting.json:330
 #: erpnext/workspace_sidebar/financial_reports.json:355
 msgid "Sales Payment Summary"
-msgstr "ملخص دفع المبيعات"
+msgstr "ملخص مدفوعات المبيعات"
 
 #. Option for the 'Select Customers By' (Select) field in DocType 'Process
 #. Statement Of Accounts'
@@ -53746,7 +53746,7 @@ msgstr "مندوب المبيعات <b>{0}</b> معطل."
 #: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.json:16
 #: erpnext/selling/workspace/selling/selling.json:248
 msgid "Sales Person Commission Summary"
-msgstr "ملخص مندوب مبيعات الشخص"
+msgstr "ملخص عمولات مندوبي المبيعات"
 
 #. Label of the sales_person_name (Data) field in DocType 'Sales Person'
 #: erpnext/setup/doctype/sales_person/sales_person.json:39
@@ -53775,7 +53775,7 @@ msgstr "أهداف مندوب المبيعات"
 #: erpnext/selling/workspace/selling/selling.json:238
 #: erpnext/workspace_sidebar/selling.json:682
 msgid "Sales Person-wise Transaction Summary"
-msgstr "ملخص المبيعات بناء على مندوب المبيعات"
+msgstr "ملخص معاملات حسب مندوب المبيعات"
 
 #. Label of a Sidebar Item
 #. Label of a Workspace Sidebar Item
@@ -53783,7 +53783,7 @@ msgstr "ملخص المبيعات بناء على مندوب المبيعات"
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:50
 #: erpnext/workspace_sidebar/crm.json:218
 msgid "Sales Pipeline"
-msgstr "خط أنابيب المبيعات"
+msgstr "مسار المبيعات"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -53839,7 +53839,7 @@ msgstr "مبيعات المعاده"
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:70
 #: erpnext/crm/sidebar/crm/crm.json:531 erpnext/workspace_sidebar/crm.json:426
 msgid "Sales Stage"
-msgstr "مرحلة المبيعات"
+msgstr "مرحلة مبيعات"
 
 #: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:8
 msgid "Sales Summary"
@@ -53851,7 +53851,7 @@ msgstr "ملخص المبيعات"
 #: erpnext/accounts/sidebar/accounts/accounts.json:369
 #: erpnext/setup/doctype/company/company.js:142
 msgid "Sales Tax Template"
-msgstr "قالب ضريبة المبيعات"
+msgstr "قالب ضريبة مبيعات"
 
 #. Label of the sales_tax_withholding_category (Link) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json:1022
@@ -53894,7 +53894,7 @@ msgstr "الضرائب على المبيعات والرسوم"
 #: erpnext/selling/doctype/sales_order/sales_order.json:758
 #: erpnext/stock/doctype/delivery_note/delivery_note.json:666
 msgid "Sales Taxes and Charges Template"
-msgstr "قالب الضرائب والرسوم على المبيعات"
+msgstr "قالب ضرائب ورسوم مبيعات"
 
 #. Label of the section_break2 (Section Break) field in DocType 'POS Invoice'
 #. Label of the sales_team (Table) field in DocType 'POS Invoice'
@@ -54989,7 +54989,7 @@ msgstr "يجب أن تكون كمية البيع أكبر من الصفر"
 #: erpnext/stock/doctype/price_list/price_list.json:67
 #: erpnext/workspace_sidebar/selling.json:708
 msgid "Selling"
-msgstr "المبيعات"
+msgstr "مبيعات"
 
 #: erpnext/accounts/report/gross_profit/gross_profit.py:365
 msgid "Selling Amount"
@@ -55128,7 +55128,7 @@ msgstr "متسلسل"
 #. Label of a Sidebar Item
 #: erpnext/stock/sidebar/stock/stock.json:327
 msgid "Serial & Batch"
-msgstr "الأرقام التسلسلية والدفعات"
+msgstr "أرقام تسلسلية ودفعات"
 
 #. Label of the serial_and_batch_item_settings_tab (Tab Break) field in DocType
 #. 'Stock Settings'
@@ -55250,7 +55250,7 @@ msgstr "إعدادات الصنف التسلسلي"
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json:96
 #: erpnext/workspace_sidebar/stock.json:257
 msgid "Serial No"
-msgstr "الرقم التسلسلي"
+msgstr "رقم تسلسلي"
 
 #: erpnext/stock/report/available_serial_no/available_serial_no.py:140
 msgid "Serial No (In/Out)"
@@ -55300,7 +55300,7 @@ msgstr "تداخل سلسلة الأرقام التسلسلية"
 #: erpnext/stock/report/serial_no_service_contract_expiry/serial_no_service_contract_expiry.json:20
 #: erpnext/stock/workspace/stock/stock.json:230
 msgid "Serial No Service Contract Expiry"
-msgstr "مسلسل العقد لا انتهاء الاشتراك خدمة"
+msgstr "انتهاء عقود خدمة الأرقام التسلسلية"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -55308,7 +55308,7 @@ msgstr "مسلسل العقد لا انتهاء الاشتراك خدمة"
 #: erpnext/stock/report/serial_no_status/serial_no_status.json:20
 #: erpnext/stock/workspace/stock/stock.json:200 erpnext/workspace_sidebar/stock.json:488
 msgid "Serial No Status"
-msgstr "حالة رقم المسلسل"
+msgstr "حالة رقم تسلسلي"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -55316,7 +55316,7 @@ msgstr "حالة رقم المسلسل"
 #: erpnext/stock/report/serial_no_warranty_expiry/serial_no_warranty_expiry.json:20
 #: erpnext/stock/workspace/stock/stock.json:220 erpnext/workspace_sidebar/stock.json:510
 msgid "Serial No Warranty Expiry"
-msgstr "المسلسل لا عودة انتهاء الاشتراك"
+msgstr "انتهاء ضمان الأرقام التسلسلية"
 
 #: erpnext/stock/doctype/item/item.py:1181
 #, python-brace-format
@@ -55349,7 +55349,7 @@ msgstr ""
 #: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.json:21
 #: erpnext/stock/workspace/stock/stock.json:180 erpnext/workspace_sidebar/stock.json:477
 msgid "Serial No and Batch Traceability"
-msgstr "إمكانية تتبع الرقم التسلسلي والدفعة"
+msgstr "تتبع الأرقام التسلسلية والدفعات"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1353
 msgid "Serial No is mandatory"
@@ -55464,7 +55464,7 @@ msgstr "الرقم التسلسلي: تم بالفعل معاملة {0} في ف�
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:50
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:172
 msgid "Serial Nos"
-msgstr "الأرقام التسلسلية"
+msgstr "أرقام تسلسلية"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:30
 #: erpnext/public/js/utils/serial_no_batch_selector.js:215
@@ -55572,7 +55572,7 @@ msgstr "الرقم التسلسلي والدفعة"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:500
 #: erpnext/workspace_sidebar/stock.json:279
 msgid "Serial and Batch Bundle"
-msgstr "حزمة الرقم التسلسلي والدفعة"
+msgstr "حزمة رقم تسلسلي ودفعة"
 
 #: erpnext/stock/doctype/item/item.py:1230
 msgid "Serial and Batch Bundle Exists"
@@ -55653,7 +55653,7 @@ msgstr "حجز الرقم التسلسلي والدفعة"
 #: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.json:19
 #: erpnext/stock/workspace/stock/stock.json:190
 msgid "Serial and Batch Summary"
-msgstr "ملخص الرقم التسلسلي والدفعة"
+msgstr "ملخص الأرقام التسلسلية والدفعات"
 
 #: erpnext/stock/utils.py:524
 #, python-brace-format
@@ -55797,7 +55797,7 @@ msgstr "أصناف الخدمة"
 #: erpnext/support/sidebar/support/support.json:142
 #: erpnext/workspace_sidebar/support.json:107
 msgid "Service Level Agreement"
-msgstr "اتفاقية مستوى الخدمة"
+msgstr "اتفاقية مستوى خدمة"
 
 #. Label of the service_level_agreement_creation (Datetime) field in DocType
 #. 'Issue'
@@ -55832,7 +55832,7 @@ msgstr "تمت إعادة ضبط اتفاقية مستوى الخدمة."
 #. Label of the sb_00 (Section Break) field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json:122
 msgid "Service Level Agreements"
-msgstr "اتفاقيات مستوى الخدمة"
+msgstr "اتفاقيات مستوى خدمة"
 
 #. Label of the service_level (Data) field in DocType 'Service Level Agreement'
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.json:43
@@ -56344,7 +56344,7 @@ msgstr "تسوية"
 #: erpnext/accounts/report/share_balance/share_balance.json:16
 #: erpnext/accounts/workspace/accounting/accounting.json:811
 msgid "Share Balance"
-msgstr "رصيد السهم"
+msgstr "رصيد الأسهم"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
@@ -56352,14 +56352,14 @@ msgstr "رصيد السهم"
 #: erpnext/accounts/report/share_ledger/share_ledger.json:17
 #: erpnext/accounts/workspace/accounting/accounting.json:801
 msgid "Share Ledger"
-msgstr "مشاركة دفتر الأستاذ"
+msgstr "دفتر أستاذ الأسهم"
 
 #. Label of a Card Break in the Accounting Workspace
 #. Label of a Desktop Icon
 #: erpnext/accounts/workspace/accounting/accounting.json:763
 #: erpnext/desktop_icon/share_management.json:9
 msgid "Share Management"
-msgstr "إدارة المشاركة"
+msgstr "إدارة الأسهم"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -56367,7 +56367,7 @@ msgstr "إدارة المشاركة"
 #: erpnext/accounts/report/share_ledger/share_ledger.py:59
 #: erpnext/accounts/workspace/accounting/accounting.json:781
 msgid "Share Transfer"
-msgstr "نقل المشاركة"
+msgstr "نقل أسهم"
 
 #. Label of the share_type (Link) field in DocType 'Share Balance'
 #. Label of the share_type (Link) field in DocType 'Share Transfer'
@@ -56380,7 +56380,7 @@ msgstr "نقل المشاركة"
 #: erpnext/accounts/report/share_ledger/share_ledger.py:54
 #: erpnext/accounts/workspace/accounting/accounting.json:791
 msgid "Share Type"
-msgstr "نوع المشاركة"
+msgstr "نوع سهم"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -56391,7 +56391,7 @@ msgstr "نوع المشاركة"
 #: erpnext/accounts/report/share_ledger/share_ledger.py:51
 #: erpnext/accounts/workspace/accounting/accounting.json:771
 msgid "Shareholder"
-msgstr "المساهم"
+msgstr "مساهم"
 
 #. Label of the shelf_life_in_days (Int) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json:371
@@ -56471,7 +56471,7 @@ msgstr "طرد الشحنة"
 #: erpnext/stock/doctype/shipment_parcel_template/shipment_parcel_template.json:60
 #: erpnext/stock/workspace/stock/stock.json:740
 msgid "Shipment Parcel Template"
-msgstr "قالب طرد الشحنة"
+msgstr "قالب طرد شحن"
 
 #. Label of the shipment_type (Select) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json:300
@@ -56626,7 +56626,7 @@ msgstr "مقاطعة البريدية"
 #: erpnext/stock/workspace/stock/stock.json:730 erpnext/workspace_sidebar/selling.json:440
 #: erpnext/workspace_sidebar/stock.json:301
 msgid "Shipping Rule"
-msgstr "قواعد الشحن"
+msgstr "قاعدة شحن"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json:42
@@ -57475,7 +57475,7 @@ msgstr "حساب ضريبة القيمة المضافة في جنوب أفريق
 #: erpnext/accounts/workspace/accounting/accounting.json:390
 #: erpnext/regional/doctype/south_africa_vat_settings/south_africa_vat_settings.json:37
 msgid "South Africa VAT Settings"
-msgstr "إعدادات ضريبة القيمة المضافة في جنوب أفريقيا"
+msgstr "إعدادات ضريبة القيمة المضافة لجنوب أفريقيا"
 
 #. Description of the 'Enable Item Search Index' (Check) field in DocType
 #. 'Global Defaults'
@@ -57873,7 +57873,7 @@ msgstr "تم تعيين الحالة إلى مرفوض لوجود قراءة و�
 #: erpnext/stock/sidebar/stock/stock.json:491 erpnext/stock/workspace/stock/stock.json:19
 #: erpnext/workspace_sidebar/stock.json:635
 msgid "Stock"
-msgstr "المخزون"
+msgstr "مخزون"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json:135
@@ -57901,7 +57901,7 @@ msgstr "حساب تسوية المخزون"
 #: erpnext/stock/sidebar/stock/stock.json:221 erpnext/stock/workspace/stock/stock.json:72
 #: erpnext/workspace_sidebar/stock.json:411
 msgid "Stock Ageing"
-msgstr "التبويب التاريخي للمخزن"
+msgstr "أعمار المخزون"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -57958,7 +57958,7 @@ msgstr "إغلاق المخزون"
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json:242
 msgid "Stock Closing Balance"
-msgstr "رصيد إغلاق المخزون"
+msgstr "رصيد إقفال المخزون"
 
 #. Label of the stock_closing_entry (Link) field in DocType 'Stock Closing
 #. Balance'
@@ -57968,7 +57968,7 @@ msgstr "رصيد إغلاق المخزون"
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json:82
 #: erpnext/stock/workspace/stock/stock.json:572
 msgid "Stock Closing Entry"
-msgstr "قيد إغلاق المخزون"
+msgstr "قيد إقفال المخزون"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:270
 msgid "Stock Closing Entry In Progress"
@@ -58340,7 +58340,7 @@ msgstr "كمية المخزون مقابل كمية الدفعة"
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.json:17
 #: erpnext/stock/workspace/stock/stock.json:534
 msgid "Stock Qty vs Serial No Count"
-msgstr "كمية المخزون مقابل الرقم التسلسلي"
+msgstr "كمية المخزون مقابل عدد الأرقام التسلسلية"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #. Label of the stock_received_but_not_billed (Link) field in DocType 'Company'
@@ -58371,7 +58371,7 @@ msgstr "جرد أصناف المخزون"
 
 #: erpnext/stock/doctype/item/item.py:723
 msgid "Stock Reconciliations"
-msgstr "تسويات المخزون"
+msgstr "عمليات جرد المخزون"
 
 #. Label of a Card Break in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json:24
@@ -58391,7 +58391,7 @@ msgstr "إعادة ترحيل المخزون"
 #: erpnext/workspace_sidebar/erpnext_settings.json:229
 #: erpnext/workspace_sidebar/stock.json:610
 msgid "Stock Reposting Settings"
-msgstr "إعدادات إعادة معالجة المخزون"
+msgstr "إعدادات إعادة ترحيل المخزون"
 
 #. Label of the stock_reservation_tab (Tab Break) field in DocType 'Stock
 #. Settings'
@@ -58749,7 +58749,7 @@ msgstr "حساب المخزون الذي ستُتتبع فيه قيمة مخزو
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.json:18
 #: erpnext/stock/workspace/stock/stock.json:444
 msgid "Stock and Account Value Comparison"
-msgstr "مقارنة قيمة المخزون والحساب"
+msgstr "مقارنة قيمة المخزون والحسابات"
 
 #. Label of the stock_tab (Tab Break) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json:885
@@ -59038,7 +59038,7 @@ msgstr "أمر تعاقد من الباطن"
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.json:19
 #: erpnext/buying/workspace/buying/buying.json:246
 msgid "Subcontract Order Summary"
-msgstr "ملخص أمر التعاقد من الباطن"
+msgstr "ملخص أوامر التعاقد من الباطن"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:84
 msgid "Subcontract Return"
@@ -59058,7 +59058,7 @@ msgstr "الصنف من الباطن"
 #. Name of a report
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.json:17
 msgid "Subcontracted Item To Be Received"
-msgstr "الصنف المتعاقد عليه من الباطن"
+msgstr "أصناف متعاقد عليها من الباطن بانتظار الاستلام"
 
 #: erpnext/stock/doctype/material_request/material_request.js:246
 msgid "Subcontracted Purchase Order"
@@ -59075,7 +59075,7 @@ msgstr "الكمية المتعاقد عليها من الباطن"
 #. Name of a report
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.json:17
 msgid "Subcontracted Raw Materials To Be Transferred"
-msgstr "المواد الخام المتعاقد عليها من الباطن"
+msgstr "مواد خام متعاقد عليها من الباطن بانتظار النقل"
 
 #. Label of a Desktop Icon
 #. Option for the 'Type' (Select) field in DocType 'Material Request Plan Item'
@@ -59090,7 +59090,7 @@ msgstr "المواد الخام المتعاقد عليها من الباطن"
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:220
 #: erpnext/stock/doctype/material_request/material_request.json:87
 msgid "Subcontracting"
-msgstr "التعاقد من الباطن"
+msgstr "تعاقد من الباطن"
 
 #. Label of a Sidebar Item
 #. Name of a DocType
@@ -59114,7 +59114,7 @@ msgstr "عامل تحويل التعاقد من الباطن"
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json:21
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:158
 msgid "Subcontracting Delivery"
-msgstr "تسليم المشاريع عن طريق التعاقد من الباطن"
+msgstr "تسليم التعاقد من الباطن"
 
 #: erpnext/stock/report/item_where_used/item_where_used.py:361
 msgid "Subcontracting Finished Good"
@@ -59144,7 +59144,7 @@ msgstr "التعاقد من الباطن داخلياً"
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json:291
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json:312
 msgid "Subcontracting Inward Order"
-msgstr "طلب وارد من الباطن"
+msgstr "أمر تعاقد وارد من الباطن"
 
 #. Label of the subcontracting_inward_order_item (Data) field in DocType 'Work
 #. Order'
@@ -59242,7 +59242,7 @@ msgstr "أمر شراء تعاقد من الباطن"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:638
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json:685
 msgid "Subcontracting Receipt"
-msgstr "إيصال استلام التعاقد من الباطن"
+msgstr "إيصال التعاقد من الباطن"
 
 #. Label of the subcontracting_receipt_item (Data) field in DocType 'Purchase
 #. Receipt Item'
@@ -59387,7 +59387,7 @@ msgstr "فترة الاكتتاب"
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json:158
 #: erpnext/accounts/workspace/accounting/accounting.json:481
 msgid "Subscription Plan"
-msgstr "خطة الاشتراك"
+msgstr "خطة اشتراك"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/subscription_plan_detail/subscription_plan_detail.json:33
@@ -59397,7 +59397,7 @@ msgstr "تفاصيل خطة الاشتراك"
 #. Label of the subscription_plans (Table) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json:193
 msgid "Subscription Plans"
-msgstr "خطط الاشتراك"
+msgstr "خطط اشتراك"
 
 #. Label of the price_determination (Select) field in DocType 'Subscription
 #. Plan'
@@ -59412,7 +59412,7 @@ msgstr "يعتمد سعر الاشتراك على"
 #: erpnext/accounts/workspace/accounting/accounting.json:919
 #: erpnext/workspace_sidebar/erpnext_settings.json:169
 msgid "Subscription Settings"
-msgstr "إعدادات الاشتراك"
+msgstr "إعدادات الاشتراكات"
 
 #. Label of the start_date (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json:222
@@ -59425,7 +59425,7 @@ msgstr "لا يمكن معالجة الاشتراكات للتواريخ الم�
 
 #: erpnext/selling/doctype/customer/customer_dashboard.py:28
 msgid "Subscriptions"
-msgstr "الاشتراكات"
+msgstr "اشتراكات"
 
 #. Label of the succeeded (Int) field in DocType 'Bulk Transaction Log'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json:45
@@ -59690,7 +59690,7 @@ msgstr "الموردة الكمية"
 #: erpnext/workspace_sidebar/buying.json:110 erpnext/workspace_sidebar/home.json:47
 #: erpnext/workspace_sidebar/invoicing.json:121
 msgid "Supplier"
-msgstr "المورد"
+msgstr "مورد"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:98
 msgid "Supplier > Supplier Type"
@@ -59724,7 +59724,7 @@ msgstr "تفاصيل عنوان المورد"
 #: erpnext/buying/workspace/buying/buying.json:228
 #: erpnext/workspace_sidebar/buying.json:353
 msgid "Supplier Addresses And Contacts"
-msgstr "عناوين الموردين وجهات الاتصال"
+msgstr "عناوين الموردين وجهات اتصالهم"
 
 #. Label of the contact_person (Link) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json:341
@@ -59797,7 +59797,7 @@ msgstr "تفاصيل المورد"
 #: erpnext/setup/doctype/supplier_group/supplier_group.json:120
 #: erpnext/workspace_sidebar/buying.json:121
 msgid "Supplier Group"
-msgstr "مجموعة الموردين"
+msgstr "مجموعة موردين"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/supplier_group_item/supplier_group_item.json:25
@@ -59867,7 +59867,7 @@ msgstr "دفتر أستاذ المورّد"
 #: erpnext/accounts/workspace/accounting/accounting.json:182
 #: erpnext/buying/workspace/buying/buying.json:218
 msgid "Supplier Ledger Summary"
-msgstr "ملخص دفتر الأستاذ"
+msgstr "ملخص دفتر أستاذ المورد"
 
 #. Label of the supplier_name (Data) field in DocType 'Purchase Invoice'
 #. Option for the 'Supplier Naming By' (Select) field in DocType 'Buying
@@ -59966,7 +59966,7 @@ msgstr "مستخدمو بوابة الموردين"
 #: erpnext/stock/doctype/material_request/material_request.js:230
 #: erpnext/workspace_sidebar/buying.json:63
 msgid "Supplier Quotation"
-msgstr "التسعيرة من المورد"
+msgstr "عرض سعر مورد"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -60022,7 +60022,7 @@ msgstr "نتيجة المورد"
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json:181
 #: erpnext/buying/sidebar/buying/buying.json:356 erpnext/workspace_sidebar/buying.json:177
 msgid "Supplier Scorecard"
-msgstr "بطاقة أداء المورد"
+msgstr "بطاقة أداء مورد"
 
 #. Name of a DocType
 #. Label of a Link in the Buying Workspace
@@ -60031,12 +60031,12 @@ msgstr "بطاقة أداء المورد"
 #: erpnext/buying/workspace/buying/buying.json:324
 #: erpnext/workspace_sidebar/buying.json:188
 msgid "Supplier Scorecard Criteria"
-msgstr "معايير بطاقة أداء المورد"
+msgstr "معايير بطاقة أداء مورد"
 
 #. Name of a DocType
 #: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.json:113
 msgid "Supplier Scorecard Period"
-msgstr "فترة بطاقة أداء المورد"
+msgstr "فترة بطاقة أداء مورد"
 
 #. Name of a DocType
 #: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json:73
@@ -60065,7 +60065,7 @@ msgstr "إعداد بطاقة أداء المورد"
 #: erpnext/buying/workspace/buying/buying.json:344
 #: erpnext/workspace_sidebar/buying.json:210
 msgid "Supplier Scorecard Standing"
-msgstr "تصنيف بطاقة أداء المورد"
+msgstr "تصنيف بطاقة أداء مورد"
 
 #. Name of a DocType
 #. Label of a Link in the Buying Workspace
@@ -60074,7 +60074,7 @@ msgstr "تصنيف بطاقة أداء المورد"
 #: erpnext/buying/workspace/buying/buying.json:334
 #: erpnext/workspace_sidebar/buying.json:199
 msgid "Supplier Scorecard Variable"
-msgstr "متغير بطاقة أداء المورد"
+msgstr "متغير بطاقة أداء مورد"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:240
 msgid "Supplier Scorecard refresh failed"
@@ -60134,7 +60134,7 @@ msgstr "المورد (ق)"
 #. Label of the suppliers (Table) field in DocType 'Request for Quotation'
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json:119
 msgid "Suppliers"
-msgstr "الموردين"
+msgstr "موردون"
 
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.py:73
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.py:135
@@ -60160,7 +60160,7 @@ msgstr "إمداد"
 #: erpnext/support/workspace/support/support.json:19
 #: erpnext/workspace_sidebar/support.json:154
 msgid "Support"
-msgstr "الدعم"
+msgstr "دعم"
 
 #. Name of a report
 #: erpnext/support/report/support_hour_distribution/support_hour_distribution.json:17
@@ -60574,7 +60574,7 @@ msgstr "حالة المهمة"
 #: erpnext/projects/doctype/task_type/task_type.json:30
 #: erpnext/projects/sidebar/projects/projects.json:247
 msgid "Task Type"
-msgstr "نوع المهمة"
+msgstr "نوع مهمة"
 
 #. Option for the '% Complete Method' (Select) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json:120
@@ -60623,7 +60623,7 @@ msgstr "ضريبة"
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json:340
 msgid "Tax & Compliance"
-msgstr "الضرائب والامتثال"
+msgstr "ضرائب وامتثال"
 
 #. Label of the tax_account (Link) field in DocType 'Import Supplier Invoice'
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json:49
@@ -60728,7 +60728,7 @@ msgstr "تفكيك الضرائب"
 #: erpnext/stock/doctype/item_tax/item_tax.json:29
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json:621
 msgid "Tax Category"
-msgstr "الفئة الضريبية"
+msgstr "فئة ضريبية"
 
 #: erpnext/controllers/buying_controller.py:271
 msgid "Tax Category has been changed to \"Total\" because all the Items are non-stock items"
@@ -60824,7 +60824,7 @@ msgstr "صف الضرائب"
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json:235
 #: erpnext/accounts/sidebar/accounts/accounts.json:414
 msgid "Tax Rule"
-msgstr "القاعدة الضريبية"
+msgstr "قاعدة ضريبية"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.py:139
 #, python-brace-format
@@ -60844,7 +60844,7 @@ msgstr "إعدادات الضرائب"
 #: erpnext/selling/workspace/selling/selling.json:422
 #: erpnext/workspace_sidebar/selling.json:407
 msgid "Tax Template"
-msgstr "قالب الضريبة"
+msgstr "قالب ضريبة"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.py:87
 msgid "Tax Template is mandatory."
@@ -60898,14 +60898,14 @@ msgstr "حساب حجب الضرائب"
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json:126
 #: erpnext/selling/doctype/customer/customer.json:515
 msgid "Tax Withholding Category"
-msgstr "فئة حجب الضرائب"
+msgstr "فئة استقطاع ضريبي"
 
 #. Name of a report
 #. Label of a Link in the Accounting Workspace
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.json:19
 #: erpnext/accounts/workspace/accounting/accounting.json:358
 msgid "Tax Withholding Details"
-msgstr "تفاصيل استقطاع الضريبة"
+msgstr "تفاصيل استقطاع ضريبي"
 
 #. Label of the tax_withholding_entries (Table) field in DocType 'Journal
 #. Entry'
@@ -60955,7 +60955,7 @@ msgstr "قيد اقتطاع الضريبة"
 #: erpnext/buying/doctype/supplier/supplier.json:527
 #: erpnext/selling/doctype/customer/customer.json:641
 msgid "Tax Withholding Group"
-msgstr "مجموعة حجز الضرائب"
+msgstr "مجموعة استقطاع ضريبي"
 
 #. Name of a DocType
 #. Label of the tax_withholding_rate (Float) field in DocType 'Tax Withholding
@@ -61066,7 +61066,7 @@ msgstr "نوع المستند الخاضع للضريبة"
 #: erpnext/setup/doctype/item_group/item_group.json:97
 #: erpnext/stock/doctype/item/item.json:796
 msgid "Taxes"
-msgstr "الضرائب"
+msgstr "ضرائب"
 
 #. Label of the taxes_and_charges_section (Section Break) field in DocType
 #. 'Payment Entry'
@@ -61322,7 +61322,7 @@ msgstr "الشروط والأحكام"
 #: erpnext/selling/workspace/selling/selling.json:432
 #: erpnext/workspace_sidebar/selling.json:396
 msgid "Terms Template"
-msgstr "قالب الشروط"
+msgstr "قالب شروط"
 
 #. Label of the terms_section_break (Section Break) field in DocType 'POS
 #. Invoice'
@@ -61361,7 +61361,7 @@ msgstr "قالب الشروط"
 #: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json:96
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json:883
 msgid "Terms and Conditions"
-msgstr "الشروط والأحكام"
+msgstr "شروط وأحكام"
 
 #. Label of the terms (Text Editor) field in DocType 'Material Request'
 #: erpnext/stock/doctype/material_request/material_request.json:262
@@ -61511,7 +61511,7 @@ msgstr "الاقاليم المستهدفة"
 #: erpnext/selling/report/territory_wise_sales/territory_wise_sales.json:17
 #: erpnext/selling/workspace/selling/selling.json:122
 msgid "Territory-wise Sales"
-msgstr "المبيعات حسب الإقليم"
+msgstr "مبيعات حسب الإقليم"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -63487,7 +63487,7 @@ msgstr "الموقت تجاوزت الساعات المعطاة."
 #: erpnext/projects/sidebar/projects/projects.json:82
 #: erpnext/templates/pages/projects.html:65 erpnext/workspace_sidebar/projects.json:63
 msgid "Timesheet"
-msgstr "سجل الدوام"
+msgstr "سجل دوام"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -63498,7 +63498,7 @@ msgstr "سجل الدوام"
 #: erpnext/projects/workspace/projects/projects.json:42
 #: erpnext/workspace_sidebar/projects.json:174
 msgid "Timesheet Billing Summary"
-msgstr "ملخص فواتير الجداول الزمنية"
+msgstr "ملخص فوترة سجلات الدوام"
 
 #. Label of the timesheet_detail (Data) field in DocType 'Sales Invoice
 #. Timesheet'
@@ -63528,7 +63528,7 @@ msgstr "لا يمكن إصدار فاتورة لجدول الدوام {0} في �
 #: erpnext/projects/doctype/timesheet/timesheet.py:677
 #: erpnext/templates/pages/projects.html:60
 msgid "Timesheets"
-msgstr "الجداول الزمنية"
+msgstr "سجلات دوام"
 
 #: erpnext/utilities/activation.py:126
 msgid "Timesheets help keep track of time, cost and billing for activities done by your team"
@@ -64017,7 +64017,7 @@ msgstr "أعمدة كثيرة جدًا. قم بتصدير التقرير وطب�
 #: erpnext/stock/sidebar/stock/stock.json:252 erpnext/stock/workspace/stock/stock.json:554
 #: erpnext/workspace_sidebar/manufacturing.json:166 erpnext/workspace_sidebar/stock.json:99
 msgid "Tools"
-msgstr "الأدوات"
+msgstr "أدوات"
 
 #. Label of a chart in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json:6
@@ -65557,7 +65557,7 @@ msgstr "ميزان المراجعة (بسيط)"
 #: erpnext/accounts/workspace/accounting/accounting.json:192
 #: erpnext/workspace_sidebar/financial_reports.json:311
 msgid "Trial Balance for Party"
-msgstr "ميزان المراجعة للحزب"
+msgstr "ميزان المراجعة لطرف"
 
 #: erpnext/accounts/report/trial_balance/trial_balance.py:585
 #, python-brace-format
@@ -65694,7 +65694,7 @@ msgstr "حسابات ضريبة القيمة المضافة في الإمارا�
 #. Name of a DocType
 #: erpnext/regional/doctype/uae_vat_settings/uae_vat_settings.json:36
 msgid "UAE VAT Settings"
-msgstr "إعدادات ضريبة القيمة المضافة في الإمارات"
+msgstr "إعدادات ضريبة القيمة المضافة الإماراتية"
 
 #. Label of the uom (Link) field in DocType 'POS Invoice Item'
 #. Label of the free_item_uom (Link) field in DocType 'Pricing Rule'
@@ -65817,14 +65817,14 @@ msgstr "إعدادات ضريبة القيمة المضافة في الإمار�
 #: erpnext/templates/emails/reorder_item.html:11
 #: erpnext/templates/includes/rfq/rfq_items.html:17
 msgid "UOM"
-msgstr "وحدة القياس"
+msgstr "وحدة قياس"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/doctype/uom_category/uom_category.json:28
 #: erpnext/stock/workspace/stock/stock.json:660
 msgid "UOM Category"
-msgstr "تصنيف وحدة القياس"
+msgstr "فئة وحدة قياس"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/uom_conversion_detail/uom_conversion_detail.json:45
@@ -65867,7 +65867,7 @@ msgstr "تفاصيل تحويل وحدة القياس"
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json:127
 #: erpnext/stock/workspace/stock/stock.json:650 erpnext/workspace_sidebar/stock.json:246
 msgid "UOM Conversion Factor"
-msgstr "عامل تحويل وحدة القياس"
+msgstr "معامل تحويل وحدة قياس"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1786
 #, python-brace-format
@@ -66132,7 +66132,7 @@ msgstr "وحدة القياس"
 #. Label of a Workspace Sidebar Item
 #: erpnext/stock/sidebar/stock/stock.json:446 erpnext/workspace_sidebar/stock.json:235
 msgid "Unit of Measure (UOM)"
-msgstr "وحدة القياس"
+msgstr "وحدة قياس (UOM)"
 
 #: erpnext/stock/doctype/item/item.py:491
 #, python-brace-format
@@ -66244,7 +66244,7 @@ msgstr "إلغاء التسوية"
 #: erpnext/accounts/workspace/accounting/accounting.json:627
 #: erpnext/workspace_sidebar/invoicing.json:232 erpnext/workspace_sidebar/payments.json:92
 msgid "Unreconcile Payment"
-msgstr "إلغاء تسوية الدفع"
+msgstr "إلغاء تسوية دفعة"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/unreconcile_payment_entries/unreconcile_payment_entries.json:77
@@ -68061,7 +68061,7 @@ msgstr "زبون غير مسجل"
 #: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:4
 #: erpnext/stock/workspace/stock/stock.json:162
 msgid "Warehouse Capacity Summary"
-msgstr "ملخص سعة المستودع"
+msgstr "ملخص سعة المستودعات"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:82
 #, python-brace-format
@@ -68119,7 +68119,7 @@ msgstr "إعدادات المستودع"
 #: erpnext/stock/report/stock_balance/stock_balance.js:94
 #: erpnext/stock/workspace/stock/stock.json:670
 msgid "Warehouse Type"
-msgstr "نوع المستودع"
+msgstr "نوع مستودع"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -68230,7 +68230,7 @@ msgstr "المستودع: {0} لا ينتمي إلى {1}"
 #: erpnext/stock/report/stock_balance/stock_balance.js:76
 #: erpnext/stock/report/stock_ledger/stock_ledger.js:30
 msgid "Warehouses"
-msgstr "المستودعات"
+msgstr "مستودعات"
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:178
 msgid "Warehouses with child nodes cannot be converted to ledger"
@@ -69122,7 +69122,7 @@ msgstr "الإنتاج تحت التشغيل"
 #: erpnext/templates/pages/material_request_info.html:45
 #: erpnext/workspace_sidebar/manufacturing.json:51
 msgid "Work Order"
-msgstr "أمر العمل"
+msgstr "أمر عمل"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:162
 msgid "Work Order / Subcontract PO"
@@ -69146,7 +69146,7 @@ msgstr "تحليل أمر العمل"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:82
 #: erpnext/workspace_sidebar/manufacturing.json:319
 msgid "Work Order Consumed Materials"
-msgstr "المواد المستهلكة في أمر العمل"
+msgstr "مواد مستهلكة في أوامر العمل"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json:215
@@ -69184,7 +69184,7 @@ msgstr "تحليل كمية أمر العمل"
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.json:17
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:92
 msgid "Work Order Stock Report"
-msgstr "تقرير مخزون أمر العمل"
+msgstr "تقرير مخزون أوامر العمل"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -69195,7 +69195,7 @@ msgstr "تقرير مخزون أمر العمل"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:42
 #: erpnext/workspace_sidebar/manufacturing.json:242
 msgid "Work Order Summary"
-msgstr "ملخص أمر العمل"
+msgstr "ملخص أوامر العمل"
 
 #: erpnext/stock/doctype/material_request/material_request.py:1215
 #, python-brace-format
@@ -69243,7 +69243,7 @@ msgstr "أمر العمل {0}: لم يتم العثور على بطاقة الم
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:56
 #: erpnext/stock/doctype/material_request/material_request.py:1203
 msgid "Work Orders"
-msgstr "طلبات العمل"
+msgstr "أوامر عمل"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1358
 #, python-brace-format
@@ -69255,7 +69255,7 @@ msgstr "أوامر العمل التي تم إنشاؤها: {0}"
 #: erpnext/manufacturing/report/work_orders_in_progress/work_orders_in_progress.json:17
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:62
 msgid "Work Orders in Progress"
-msgstr "أوامر العمل في التقدم"
+msgstr "أوامر عمل قيد التنفيذ"
 
 #. Option for the 'Status' (Select) field in DocType 'Work Order Operation'
 #. Label of the work_in_progress (Column Break) field in DocType 'Email Digest'
@@ -69335,7 +69335,7 @@ msgstr "يحسب رسوم الشحن على عملية بيع أو شراء."
 #: erpnext/templates/generators/bom.html:70
 #: erpnext/workspace_sidebar/manufacturing.json:377
 msgid "Workstation"
-msgstr "محطة العمل"
+msgstr "محطة عمل"
 
 #. Label of the workstation (Link) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json:28
@@ -69360,7 +69360,7 @@ msgstr "اسم محطة العمل"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_operating_component/workstation_operating_component.json:40
 msgid "Workstation Operating Component"
-msgstr "مكونات تشغيل محطة العمل"
+msgstr "مكوّن تشغيل محطة عمل"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_operating_component_account/workstation_operating_component_account.json:36
@@ -69392,7 +69392,7 @@ msgstr "حالة محطة العمل"
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:322
 #: erpnext/workspace_sidebar/manufacturing.json:388
 msgid "Workstation Type"
-msgstr "نوع محطة العمل"
+msgstr "نوع محطة عمل"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_working_hour/workstation_working_hour.json:52
@@ -69407,7 +69407,7 @@ msgstr "محطة العمل مغلقة في التواريخ التالية وف
 #. Label of the workstations_tab (Tab Break) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json:34
 msgid "Workstations"
-msgstr "محطات العمل"
+msgstr "محطات عمل"
 
 #. Label of the write_off (Section Break) field in DocType 'Journal Entry'
 #. Label of the column_break4 (Section Break) field in DocType 'POS Invoice'

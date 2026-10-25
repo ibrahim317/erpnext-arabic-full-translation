@@ -6107,7 +6107,7 @@ msgstr "الملف الوظيفي، المؤهلات المطلوبة الخ"
 #. Label of a Card Break in the Recruitment Workspace
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Jobs"
-msgstr "وظائف"
+msgstr "مهام"
 
 #. Option for the 'Dates Based On' (Select) field in DocType 'Leave Control
 #. Panel'
@@ -9179,7 +9179,7 @@ msgstr "ذكر"
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Reminders"
-msgstr "رسائل التذكير"
+msgstr "تذكيرات"
 
 #. Label of the remove_if_zero_valued (Check) field in DocType 'Salary
 #. Component'

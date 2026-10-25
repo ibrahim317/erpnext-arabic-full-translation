@@ -882,7 +882,7 @@ msgstr "جهة الاتصال / البريد الإلكتروني غير موج�
 #. Label of the contacts (Small Text) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Contacts"
-msgstr "جهات الاتصال"
+msgstr "جهات اتصال"
 
 #: frappe/public/js/frappe/list/list_view.js:2519
 #, python-brace-format
@@ -991,7 +991,7 @@ msgstr "سطح المكتب"
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_layout/desktop_layout.json
 msgid "Desktop Layout"
-msgstr "تنسيق سطح المكتب"
+msgstr "تخطيط سطح المكتب"
 
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_settings/desktop_settings.json
@@ -1611,7 +1611,7 @@ msgstr "هل اكتمل الإعداد؟"
 #. Label of the items (Table) field in DocType 'Workspace Sidebar'
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.json
 msgid "Items"
-msgstr "العناصر"
+msgstr "أصناف"
 
 #: frappe/core/doctype/rq_job/rq_job.py:121
 #, python-brace-format
@@ -1951,7 +1951,7 @@ msgstr "معرف السياسة"
 
 #: frappe/www/me.html:81
 msgid "Portal"
-msgstr "البوابة"
+msgstr "بوابة"
 
 #: frappe/core/doctype/doctype/doctype.py:1708
 #, python-brace-format
@@ -2345,7 +2345,7 @@ msgstr ""
 #. Label of the tasks (Table) field in DocType 'Workflow Transition Tasks'
 #: frappe/workflow/doctype/workflow_transition_tasks/workflow_transition_tasks.json
 msgid "Tasks"
-msgstr "المهام"
+msgstr "مهام"
 
 #. Description of the 'Client ID' (Data) field in DocType 'Google Settings'
 #: frappe/integrations/doctype/google_settings/google_settings.json
@@ -4544,7 +4544,7 @@ msgstr "العنوان سطر 2"
 #. Name of a DocType
 #: frappe/contacts/doctype/address_template/address_template.json
 msgid "Address Template"
-msgstr "نموذج العنوان"
+msgstr "قالب عنوان"
 
 #. Label of the address_title (Data) field in DocType 'Address'
 #. Label of the address_title (Data) field in DocType 'Contact Us Settings'
@@ -4575,7 +4575,7 @@ msgstr "عناوين"
 #. Name of a report
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.json
 msgid "Addresses And Contacts"
-msgstr "العناوين و جهات الاتصال"
+msgstr "عناوين وجهات اتصال"
 
 #. Description of a DocType
 #: frappe/custom/doctype/client_script/client_script.json
@@ -5759,7 +5759,7 @@ msgstr "أيام الواجب"
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 #: frappe/automation/workspace/tools/tools.json frappe/desk/doctype/todo/todo.json
 msgid "Assignment Rule"
-msgstr "قاعدة الاحالة"
+msgstr "قاعدة إسناد"
 
 #. Name of a DocType
 #: frappe/automation/doctype/assignment_rule_day/assignment_rule_day.json
@@ -5780,7 +5780,7 @@ msgstr "قاعدة التعيين غير مسموح بها على نوع الم�
 #. 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Assignment Rules"
-msgstr "قواعد الاحالة"
+msgstr "قواعد إسناد"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:152
 #, python-brace-format
@@ -5947,7 +5947,7 @@ msgstr "الجمهور"
 #. Name of a report
 #: frappe/custom/report/audit_system_hooks/audit_system_hooks.json
 msgid "Audit System Hooks"
-msgstr "تدقيق إجراءات النظام المبرمجة (Hooks)"
+msgstr "تدقيق خطافات النظام (Hooks)"
 
 #. Name of a DocType
 #: frappe/core/doctype/audit_trail/audit_trail.json
@@ -5973,7 +5973,7 @@ msgstr "المصادقة ككيان خدمة"
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Authentication"
-msgstr "المصادقة"
+msgstr "مصادقة"
 
 #: frappe/www/qrcode.html:19
 msgid "Authentication Apps you can use are: "
@@ -6223,7 +6223,7 @@ msgstr "حذف الحساب تلقائيًا خلال (ساعات)"
 #. Label of a Card Break in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
 msgid "Automation"
-msgstr "التشغيل الآلي"
+msgstr "تشغيل آلي"
 
 #. Label of the avatar (Attach Image) field in DocType 'Blogger'
 #: frappe/website/doctype/blogger/blogger.json
@@ -6389,7 +6389,7 @@ msgstr "صورة الخلفية"
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 #: frappe/public/js/frappe/ui/toolbar/toolbar.js:180
 msgid "Background Jobs"
-msgstr "المهام الخلفية"
+msgstr "مهام خلفية"
 
 #. Label of the background_jobs_check (Data) field in DocType 'System Health
 #. Report'
@@ -6831,7 +6831,7 @@ msgstr "مرتجع"
 #. Label of the brand (Section Break) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Brand"
-msgstr "العلامة التجارية"
+msgstr "علامة تجارية"
 
 #. Label of the brand_html (Code) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -7198,7 +7198,7 @@ msgstr "الة تصوير"
 #: frappe/website/doctype/web_page_view/web_page_view.json
 #: frappe/website/report/website_analytics/website_analytics.js:39
 msgid "Campaign"
-msgstr "الحملة"
+msgstr "حملة"
 
 #. Label of the campaign_description (Small Text) field in DocType 'UTM
 #. Campaign'
@@ -8075,7 +8075,7 @@ msgstr "معلومات العميل"
 #: frappe/custom/doctype/doctype_layout/doctype_layout.json
 #: frappe/website/doctype/web_page/web_page.js:103
 msgid "Client Script"
-msgstr "النص البرمجي للعميل"
+msgstr "سكربت عميل"
 
 #. Label of the client_secret (Password) field in DocType 'Connected App'
 #. Label of the client_secret (Password) field in DocType 'Google Settings'
@@ -8227,7 +8227,7 @@ msgstr "قابلية الطي تعتمد على (JS)"
 #: frappe/website/doctype/social_link_settings/social_link_settings.json
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Color"
-msgstr "اللون"
+msgstr "لون"
 
 #. Label of the column (Data) field in DocType 'Recorder Suggested Index'
 #: frappe/core/doctype/recorder_suggested_index/recorder_suggested_index.json
@@ -8413,7 +8413,7 @@ msgstr "الأسماء الشائعة والألقاب سهلة التخمين."
 #: frappe/email/doctype/email_queue/email_queue.json frappe/tests/test_translate.py:35
 #: frappe/tests/test_translate.py:119
 msgid "Communication"
-msgstr "الاتصالات"
+msgstr "مراسلة"
 
 #. Name of a DocType
 #: frappe/core/doctype/communication_link/communication_link.json
@@ -8423,7 +8423,7 @@ msgstr "حلقة اتصال"
 #. Label of a Link in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Communication Logs"
-msgstr "سجلات الاتصالات"
+msgstr "سجلات المراسلات"
 
 #. Label of the communication_type (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -8678,7 +8678,7 @@ msgstr "اتصال بـ {}"
 #: frappe/integrations/doctype/connected_app/connected_app.json
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Connected App"
-msgstr "التطبيق المتصل"
+msgstr "تطبيق متصل"
 
 #. Label of the connected_user (Link) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -8769,7 +8769,7 @@ msgstr "اتصل بنا"
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 #: frappe/website/workspace/website/website.json
 msgid "Contact Us Settings"
-msgstr "إعدادات الاتصال بنا"
+msgstr "إعدادات «اتصل بنا»"
 
 #. Description of the 'Query Options' (Small Text) field in DocType 'Contact
 #. Us
@@ -8994,7 +8994,7 @@ msgstr "عداد"
 #: frappe/geo/doctype/country/country.json
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Country"
-msgstr "الدولة"
+msgstr "دولة"
 
 #: frappe/utils/__init__.py:129
 msgid "Country Code Required"
@@ -9244,7 +9244,7 @@ msgstr "اضغط Ctrl + Enter لإضافة تعليق"
 #: frappe/geo/doctype/currency/currency.json
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Currency"
-msgstr "العملة"
+msgstr "عملة"
 
 #. Label of the currency_name (Data) field in DocType 'Currency'
 #: frappe/geo/doctype/currency/currency.json
@@ -9510,7 +9510,7 @@ msgstr "مخصص"
 #: frappe/core/doctype/doctype/doctype.json frappe/core/doctype/module_def/module_def.json
 #: frappe/core/workspace/build/build.json frappe/website/doctype/web_form/web_form.json
 msgid "Customization"
-msgstr "التخصيص"
+msgstr "تخصيص"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:358
 msgid "Customizations Discarded"
@@ -9684,7 +9684,7 @@ msgstr "المظهر الداكن"
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:562
 #: frappe/public/js/frappe/utils/utils.js:932
 msgid "Dashboard"
-msgstr "لوحة المعلومات"
+msgstr "لوحة معلومات"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -9724,7 +9724,7 @@ msgstr "اسم لوحة المعلومات"
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
 msgid "Dashboard Settings"
-msgstr "إعدادات اللوحة الرئيسية"
+msgstr "إعدادات لوحة المعلومات"
 
 #: frappe/public/js/frappe/list/base_list.js:204
 msgid "Dashboard View"
@@ -9733,7 +9733,7 @@ msgstr "عرض لوحة التحكم"
 #. Label of the tab_break_2 (Tab Break) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Dashboards"
-msgstr "لوحات"
+msgstr "لوحات معلومات"
 
 #. Label of a Card Break in the Tools Workspace
 #. Label of the data (Code) field in DocType 'Deleted Document'
@@ -9762,7 +9762,7 @@ msgstr "لوحات"
 #: frappe/website/doctype/web_form_field/web_form_field.json
 #: frappe/website/doctype/web_template_field/web_template_field.json
 msgid "Data"
-msgstr "البيانات"
+msgstr "بيانات"
 
 #: frappe/public/js/frappe/form/controls/data.js:59
 msgid "Data Clipped"
@@ -10300,12 +10300,12 @@ msgstr "DocType المحذوف"
 #. Name of a DocType
 #: frappe/core/doctype/deleted_document/deleted_document.json
 msgid "Deleted Document"
-msgstr "المستند المحذوف"
+msgstr "مستند محذوف"
 
 #. Label of a Link in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
 msgid "Deleted Documents"
-msgstr "المستندات المحذوفة"
+msgstr "مستندات محذوفة"
 
 #. Label of the deleted_name (Data) field in DocType 'Deleted Document'
 #: frappe/core/doctype/deleted_document/deleted_document.json
@@ -10460,7 +10460,7 @@ msgstr "وصف لإعلام المستخدم بأي إجراء سيتم تنفي
 #. Label of the designation (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Designation"
-msgstr "المسمى الوظيفي"
+msgstr "مسمى وظيفي"
 
 #. Label of the desk_access (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
@@ -10740,12 +10740,12 @@ msgstr ""
 #. Name of a DocType
 #: frappe/website/doctype/discussion_reply/discussion_reply.json
 msgid "Discussion Reply"
-msgstr "رد المناقشة"
+msgstr "رد مناقشة"
 
 #. Name of a DocType
 #: frappe/website/doctype/discussion_topic/discussion_topic.json
 msgid "Discussion Topic"
-msgstr "موضوع المناقشة"
+msgstr "موضوع مناقشة"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:620
 #: frappe/templates/discussions/reply_card.html:16
@@ -10841,7 +10841,7 @@ msgstr "إذن المستند"
 #. Name of a DocType
 #: frappe/core/doctype/docshare/docshare.json
 msgid "DocShare"
-msgstr "مشاركة المستند"
+msgstr "مشاركة مستند"
 
 #: frappe/workflow/doctype/workflow/workflow.js:264
 #, python-brace-format
@@ -11048,7 +11048,7 @@ msgstr "وثيقة الإجراءات"
 #: frappe/core/doctype/user/user.json
 #: frappe/email/doctype/document_follow/document_follow.json
 msgid "Document Follow"
-msgstr "متابعة المستند"
+msgstr "متابعة مستند"
 
 #: frappe/desk/form/document_follow.py:94
 msgid "Document Follow Notification"
@@ -11116,7 +11116,7 @@ msgstr "يجب أن يكون اسم المستند نصًا"
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
 msgid "Document Naming Rule"
-msgstr "قاعدة تسمية الوثيقة"
+msgstr "قاعدة تسمية مستند"
 
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json
@@ -11126,7 +11126,7 @@ msgstr "شرط قاعدة تسمية المستند"
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Document Naming Settings"
-msgstr "إعدادات تسمية المستند"
+msgstr "إعدادات تسمية المستندات"
 
 #: frappe/model/document.py:476
 msgid "Document Queued"
@@ -11156,7 +11156,7 @@ msgstr "مشاركة المستند"
 #. Name of a DocType
 #: frappe/core/doctype/document_share_key/document_share_key.json
 msgid "Document Share Key"
-msgstr "مفتاح مشاركة المستند"
+msgstr "مفتاح مشاركة مستند"
 
 #. Label of the document_share_key_expiry (Int) field in DocType 'System
 #. Settings'
@@ -11378,7 +11378,7 @@ msgstr "المستندات التي تمت استعادتها بالفعل"
 #: frappe/core/doctype/domain/domain.json frappe/core/doctype/has_domain/has_domain.json
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Domain"
-msgstr "شبكة النطاق"
+msgstr "نطاق"
 
 #. Label of the domain_name (Data) field in DocType 'Email Domain'
 #: frappe/email/doctype/email_domain/email_domain.json
@@ -11388,7 +11388,7 @@ msgstr "اسم النطاق"
 #. Name of a DocType
 #: frappe/core/doctype/domain_settings/domain_settings.json
 msgid "Domain Settings"
-msgstr "إعدادات النطاق"
+msgstr "إعدادات النطاقات"
 
 #. Label of the domains_html (HTML) field in DocType 'Domain Settings'
 #: frappe/core/doctype/domain_settings/domain_settings.json
@@ -12190,7 +12190,7 @@ msgstr ""
 #. Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Emails"
-msgstr "رسائل البريد الإلكتروني"
+msgstr "رسائل بريد إلكتروني"
 
 #: frappe/email/doctype/email_account/email_account.js:216
 msgid "Emails Pulled"
@@ -12813,7 +12813,7 @@ msgstr "نوع الحدث"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:56
 msgid "Events"
-msgstr "الأحداث"
+msgstr "أحداث"
 
 #: frappe/desk/doctype/event/event.py:270
 msgid "Events in Today's Calendar"
@@ -13708,7 +13708,7 @@ msgstr "الملف {0} غير موجود"
 #: frappe/automation/workspace/tools/tools.json
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Files"
-msgstr "الملفات"
+msgstr "ملفات"
 
 #: frappe/core/doctype/prepared_report/prepared_report.js:8
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:305
@@ -14335,7 +14335,7 @@ msgstr "إعدادات النموذج"
 #: frappe/desk/doctype/form_tour/form_tour.json
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Form Tour"
-msgstr "جولة النموذج"
+msgstr "جولة نموذج"
 
 #. Name of a DocType
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
@@ -14717,7 +14717,7 @@ msgstr "إعادة تعيين أنواع وثائق البحث العامة."
 #. Name of a DocType
 #: frappe/desk/doctype/global_search_settings/global_search_settings.json
 msgid "Global Search Settings"
-msgstr "إعدادات البحث العالمية"
+msgstr "إعدادات البحث الشامل"
 
 #: frappe/public/js/frappe/ui/keyboard.js:121
 msgid "Global Shortcuts"
@@ -15300,19 +15300,19 @@ msgstr "مساعدة"
 #: frappe/website/doctype/help_article/help_article.json
 #: frappe/website/workspace/website/website.json
 msgid "Help Article"
-msgstr "صفحة المساعدة"
+msgstr "مقالة مساعدة"
 
 #. Label of the help_articles (Int) field in DocType 'Help Category'
 #: frappe/website/doctype/help_category/help_category.json
 msgid "Help Articles"
-msgstr "مقالات المساعدة"
+msgstr "مقالات مساعدة"
 
 #. Name of a DocType
 #. Label of a Link in the Website Workspace
 #: frappe/website/doctype/help_category/help_category.json
 #: frappe/website/workspace/website/website.json
 msgid "Help Category"
-msgstr "فئة المساعدة"
+msgstr "فئة مساعدة"
 
 #. Label of the help_dropdown (Table) field in DocType 'Navbar Settings'
 #: frappe/core/doctype/navbar_settings/navbar_settings.json
@@ -15652,12 +15652,12 @@ msgstr ""
 #: frappe/public/js/frappe/list/list_view.js:447 frappe/public/js/frappe/model/meta.js:200
 #: frappe/public/js/frappe/model/model.js:122
 msgid "ID"
-msgstr "هوية شخصية"
+msgstr "المعرّف"
 
 #: frappe/desk/reportview.py:491 frappe/public/js/frappe/views/reports/report_view.js:978
 msgctxt "Label of name column in report"
 msgid "ID"
-msgstr "هوية شخصية"
+msgstr "المعرّف"
 
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:169
 msgid "ID (name)"
@@ -16615,7 +16615,7 @@ msgstr "التطبيق المثبت"
 #. Applications'
 #: frappe/core/doctype/installed_applications/installed_applications.json
 msgid "Installed Applications"
-msgstr "التطبيقات المثبتة"
+msgstr "تطبيقات مثبّتة"
 
 #: frappe/core/doctype/installed_applications/installed_applications.js:18
 #: frappe/public/js/frappe/ui/toolbar/about.js:8
@@ -16673,7 +16673,7 @@ msgstr "الباحث"
 #. Name of a DocType
 #: frappe/integrations/doctype/integration_request/integration_request.json
 msgid "Integration Request"
-msgstr "التكامل طلب"
+msgstr "طلب تكامل"
 
 #. Group in User's connections
 #. Name of a Workspace
@@ -16682,7 +16682,7 @@ msgstr "التكامل طلب"
 #: frappe/integrations/workspace/integrations/integrations.json
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Integrations"
-msgstr "التكاملات"
+msgstr "تكاملات"
 
 #. Description of the 'Delivery Status' (Select) field in DocType
 #. 'Communication'
@@ -17738,7 +17738,7 @@ msgstr "المناظر الطبيعيه"
 #: frappe/printing/page/print/print.js:104
 #: frappe/public/js/frappe/form/templates/print_layout.html:11
 msgid "Language"
-msgstr "اللغة"
+msgstr "لغة"
 
 #. Label of the language_code (Data) field in DocType 'Language'
 #: frappe/core/doctype/language/language.json
@@ -18032,7 +18032,7 @@ msgstr "رسالة"
 #: frappe/public/js/frappe/list/bulk_operations.js:52
 #: frappe/public/js/print_format_builder/LetterHeadEditor.vue:144
 msgid "Letter Head"
-msgstr "ترئيس الرسالة"
+msgstr "ترويسة رسالة"
 
 #. Label of the source (Select) field in DocType 'Letter Head'
 #: frappe/printing/doctype/letter_head/letter_head.json
@@ -18367,7 +18367,7 @@ msgstr "أعمدة القائمة"
 #. Name of a DocType
 #: frappe/desk/doctype/list_filter/list_filter.json
 msgid "List Filter"
-msgstr "تصفية القائمة"
+msgstr "تصفية قائمة"
 
 #. Label of the list_settings_section (Section Break) field in DocType 'User'
 #. Label of the section_break_8 (Section Break) field in DocType 'Customize
@@ -18480,7 +18480,7 @@ msgstr "تحميل..."
 #. Label of the location (Data) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Location"
-msgstr "الموقع"
+msgstr "موقع"
 
 #. Label of the log (Code) field in DocType 'Package Import'
 #: frappe/core/doctype/package_import/package_import.json
@@ -18686,7 +18686,7 @@ msgstr "تسجيل الخروج من جميع الأجهزة بعد تغيير �
 #. Label of a Card Break in the Users Workspace
 #: frappe/core/doctype/user/user.json frappe/core/workspace/users/users.json
 msgid "Logs"
-msgstr "السجلات"
+msgstr "سجلات"
 
 #. Name of a DocType
 #: frappe/core/doctype/logs_to_clear/logs_to_clear.json
@@ -19333,7 +19333,7 @@ msgstr "معلم"
 #: frappe/automation/doctype/milestone/milestone.json
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
 msgid "Milestone Tracker"
-msgstr "معلما المقتفي"
+msgstr "متتبع مراحل"
 
 #. Option for the 'Function' (Select) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
@@ -19513,7 +19513,7 @@ msgstr "وحدة Onboarding"
 #: frappe/core/doctype/module_profile/module_profile.json
 #: frappe/core/doctype/user/user.json frappe/core/workspace/users/users.json
 msgid "Module Profile"
-msgstr "ملف تعريف الوحدة"
+msgstr "ملف وحدات"
 
 #. Label of the module_profile_name (Data) field in DocType 'Module Profile'
 #: frappe/core/doctype/module_profile/module_profile.json
@@ -19865,7 +19865,7 @@ msgstr "الأسماء والألقاب في حد ذاتها سهلة التخم
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Naming"
-msgstr "التسمية"
+msgstr "تسمية"
 
 #. Description of the 'Auto Name' (Data) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
@@ -21055,12 +21055,12 @@ msgstr "لا شيء للتحديث"
 #: frappe/email/doctype/notification/notification.json
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
 msgid "Notification"
-msgstr "الإشعار"
+msgstr "إشعار"
 
 #. Name of a DocType
 #: frappe/desk/doctype/notification_log/notification_log.json
 msgid "Notification Log"
-msgstr "سجل الإخطار"
+msgstr "سجل الإشعارات"
 
 #. Name of a DocType
 #: frappe/email/doctype/notification_recipient/notification_recipient.json
@@ -21073,7 +21073,7 @@ msgstr "مستلم الإعلام"
 #: frappe/desk/doctype/notification_settings/notification_settings.json
 #: frappe/public/js/frappe/ui/notifications/notifications.js:37
 msgid "Notification Settings"
-msgstr "إعدادات الإشعار"
+msgstr "إعدادات الإشعارات"
 
 #. Name of a DocType
 #: frappe/desk/doctype/notification_subscribed_document/notification_subscribed_document.json
@@ -21104,7 +21104,7 @@ msgstr "إشعار: المستخدم {0} ليس لديه رقم هاتف محم�
 #: frappe/public/js/frappe/ui/notifications/notifications.js:50
 #: frappe/public/js/frappe/ui/notifications/notifications.js:187
 msgid "Notifications"
-msgstr "الإشعارات"
+msgstr "إشعارات"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:299
 msgid "Notifications Disabled"
@@ -21178,7 +21178,7 @@ msgstr "اسم بطاقة الرقم"
 #: frappe/desk/doctype/workspace/workspace.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:645
 msgid "Number Cards"
-msgstr "عدد البطاقات"
+msgstr "بطاقات أرقام"
 
 #. Label of the number_format (Select) field in DocType 'Language'
 #. Label of the number_format (Select) field in DocType 'System Settings'
@@ -21264,12 +21264,12 @@ msgstr "OAuth"
 #. Name of a DocType
 #: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
 msgid "OAuth Authorization Code"
-msgstr "مصادقة رمز التفويض"
+msgstr "رمز تفويض OAuth"
 
 #. Name of a DocType
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
 msgid "OAuth Bearer Token"
-msgstr "حامل رمز المصادقة"
+msgstr "رمز حامل OAuth"
 
 #. Name of a DocType
 #. Label of a Link in the Integrations Workspace
@@ -22025,14 +22025,14 @@ msgstr "PUT"
 #: frappe/core/doctype/package_release/package_release.json
 #: frappe/core/workspace/build/build.json frappe/www/attribution.html:34
 msgid "Package"
-msgstr "الحزمة"
+msgstr "حزمة"
 
 #. Name of a DocType
 #. Label of a Link in the Build Workspace
 #: frappe/core/doctype/package_import/package_import.json
 #: frappe/core/workspace/build/build.json
 msgid "Package Import"
-msgstr "استيراد الحزمة"
+msgstr "استيراد حزمة"
 
 #. Label of the package_name (Data) field in DocType 'Package'
 #: frappe/core/doctype/package/package.json
@@ -22042,12 +22042,12 @@ msgstr "اسم الحزمة"
 #. Name of a DocType
 #: frappe/core/doctype/package_release/package_release.json
 msgid "Package Release"
-msgstr "إصدار الحزمة"
+msgstr "إصدار حزمة"
 
 #. Label of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Packages"
-msgstr "الحزم"
+msgstr "حزم"
 
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
@@ -22077,7 +22077,7 @@ msgstr ""
 #: frappe/desk/doctype/workspace_link/workspace_link.json
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
 msgid "Page"
-msgstr "الصفحة"
+msgstr "صفحة"
 
 #. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:63
@@ -22392,7 +22392,7 @@ msgstr "بقعة"
 #. Name of a DocType
 #: frappe/core/doctype/patch_log/patch_log.json
 msgid "Patch Log"
-msgstr "سجل التصحيح"
+msgstr "سجل التصحيحات"
 
 #: frappe/modules/patch_handler.py:136
 #, python-brace-format
@@ -22535,7 +22535,7 @@ msgstr "خطأ في الإذن"
 #. Name of a DocType
 #: frappe/core/doctype/permission_inspector/permission_inspector.json
 msgid "Permission Inspector"
-msgstr "مفتش الأذونات"
+msgstr "مفتش أذونات"
 
 #. Label of the permlevel (Int) field in DocType 'Custom Field'
 #: frappe/core/page/permission_manager/permission_manager.js:463
@@ -22572,7 +22572,7 @@ msgstr "إذن قوانين"
 #. Inspector'
 #: frappe/core/doctype/permission_inspector/permission_inspector.json
 msgid "Permission Type"
-msgstr "نوع الإذن"
+msgstr "نوع إذن"
 
 #. Label of the section_break_4 (Section Break) field in DocType 'Custom
 #. DocPerm'
@@ -22594,7 +22594,7 @@ msgstr "نوع الإذن"
 #: frappe/core/workspace/users/users.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Permissions"
-msgstr "الصلاحيات"
+msgstr "أذونات"
 
 #: frappe/core/doctype/doctype/doctype.py:1833 frappe/core/doctype/doctype/doctype.py:1843
 msgid "Permissions Error"
@@ -22640,7 +22640,7 @@ msgstr "يتم تطبيق الأذونات على المستخدمين بناء�
 #: frappe/core/report/permitted_documents_for_user/permitted_documents_for_user.json
 #: frappe/core/workspace/users/users.json
 msgid "Permitted Documents For User"
-msgstr "المستندات يسمح للمستخدم"
+msgstr "مستندات مسموحة للمستخدم"
 
 #. Label of the permitted_roles (Table MultiSelect) field in DocType 'Workflow
 #. Action'
@@ -22656,7 +22656,7 @@ msgstr "الشخصية"
 #. Name of a DocType
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
 msgid "Personal Data Deletion Request"
-msgstr "طلب حذف البيانات الشخصية"
+msgstr "طلب حذف بيانات شخصية"
 
 #. Name of a DocType
 #: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
@@ -22666,7 +22666,7 @@ msgstr "خطوة حذف البيانات الشخصية"
 #. Name of a DocType
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
 msgid "Personal Data Download Request"
-msgstr "طلب تنزيل البيانات الشخصية"
+msgstr "طلب تنزيل بيانات شخصية"
 
 #. Label of the phone (Data) field in DocType 'Address'
 #. Label of the phone (Data) field in DocType 'Contact'
@@ -23316,12 +23316,12 @@ msgstr "بادئة"
 #: frappe/core/doctype/report/report.json
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:32
 msgid "Prepared Report"
-msgstr "أعد التقرير"
+msgstr "تقرير مُعَدّ"
 
 #. Name of a report
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.json
 msgid "Prepared Report Analytics"
-msgstr "تحليلات التقارير المعدة"
+msgstr "تحليلات التقارير المُعَدّة"
 
 #. Name of a role
 #: frappe/core/doctype/prepared_report/prepared_report.json
@@ -23772,7 +23772,7 @@ msgstr "الملكية تعتمد على"
 #. Name of a DocType
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "Property Setter"
-msgstr "الملكية واضعة"
+msgstr "معيّن خصائص"
 
 #. Description of a DocType
 #: frappe/custom/doctype/property_setter/property_setter.json
@@ -23954,7 +23954,7 @@ msgstr "إعدادات الإشعارات الفورية"
 #. Label of a Card Break in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Push Notifications"
-msgstr "الإشعارات الفورية"
+msgstr "إشعارات فورية"
 
 #. Label of the push_to_google_calendar (Check) field in DocType 'Google
 #. Calendar'
@@ -25659,7 +25659,7 @@ msgstr "اسم الدور"
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 #: frappe/core/workspace/users/users.json
 msgid "Role Permission for Page and Report"
-msgstr "إذن الدور للصفحة والتقرير"
+msgstr "إذن صلاحية لصفحة وتقرير"
 
 #. Label of the permissions_section (Section Break) field in DocType 'User
 #. Document Type'
@@ -25672,7 +25672,7 @@ msgstr "أذونات الصلاحيات"
 #: frappe/core/page/permission_manager/permission_manager.js:4
 #: frappe/core/workspace/users/users.json
 msgid "Role Permissions Manager"
-msgstr "مدير ضوابط الصلاحيات"
+msgstr "مدير أذونات الصلاحيات"
 
 #: frappe/public/js/frappe/list/list_view.js:1787
 msgctxt "Button in list view menu"
@@ -25687,12 +25687,12 @@ msgstr "مدير ضوابط الصلاحيات"
 #: frappe/core/doctype/user_role_profile/user_role_profile.json
 #: frappe/core/workspace/users/users.json
 msgid "Role Profile"
-msgstr "الملف الشخصي"
+msgstr "ملف صلاحيات"
 
 #. Label of the role_profiles (Table MultiSelect) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Role Profiles"
-msgstr "ملفات تعريف الأدوار"
+msgstr "ملفات صلاحيات"
 
 #. Name of a DocType
 #: frappe/core/doctype/role_replication/role_replication.json
@@ -25731,7 +25731,7 @@ msgstr "تم تعيين الدور حسب نوع المستخدم {0}"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Roles"
-msgstr "الصلاحيات"
+msgstr "صلاحيات"
 
 #. Label of the roles_permissions_tab (Tab Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -25810,7 +25810,7 @@ msgstr "مسار"
 #. Name of a DocType
 #: frappe/desk/doctype/route_history/route_history.json
 msgid "Route History"
-msgstr "سجل الطريق"
+msgstr "سجل المسارات"
 
 #. Label of the route_redirects (Table) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -26085,7 +26085,7 @@ msgstr "قوة المبيعات"
 #: frappe/contacts/doctype/contact/contact.json
 #: frappe/contacts/doctype/salutation/salutation.json
 msgid "Salutation"
-msgstr "اللقب"
+msgstr "لقب"
 
 #: frappe/integrations/doctype/webhook/webhook.py:109
 msgid "Same Field is entered more than once"
@@ -26261,7 +26261,7 @@ msgstr "الوظيفة المجدولة"
 #. Name of a DocType
 #: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
 msgid "Scheduled Job Log"
-msgstr "سجل الوظائف المجدولة"
+msgstr "سجل المهام المجدولة"
 
 #. Name of a DocType
 #. Label of a Link in the Build Workspace
@@ -26271,7 +26271,7 @@ msgstr "سجل الوظائف المجدولة"
 #: frappe/core/workspace/build/build.json
 #: frappe/desk/doctype/system_health_report_failing_jobs/system_health_report_failing_jobs.json
 msgid "Scheduled Job Type"
-msgstr "نوع الوظيفة المجدولة"
+msgstr "نوع مهمة مجدولة"
 
 #. Label of a Link in the Build Workspace
 #: frappe/core/workspace/build/build.json
@@ -26311,7 +26311,7 @@ msgstr "المجدول"
 #: frappe/core/doctype/scheduler_event/scheduler_event.json
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Scheduler Event"
-msgstr "حدث المجدول"
+msgstr "حدث مُجدوِل"
 
 #: frappe/core/doctype/data_import/data_import.py:106
 msgid "Scheduler Inactive"
@@ -26398,7 +26398,7 @@ msgstr "سكريبت لربطه بجميع صفحات الويب."
 #. Label of the scripting_tab (Tab Break) field in DocType 'Web Page'
 #: frappe/core/workspace/build/build.json frappe/website/doctype/web_page/web_page.json
 msgid "Scripting"
-msgstr "البرمجة النصية"
+msgstr "برمجة نصية"
 
 #. Label of the section_break_6 (Section Break) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -27280,7 +27280,7 @@ msgstr "خادم IP"
 #: frappe/core/doctype/server_script/server_script.json
 #: frappe/core/workspace/build/build.json
 msgid "Server Script"
-msgstr "خادم النصي"
+msgstr "سكربت خادم"
 
 #: frappe/utils/safe_exec.py:94
 msgid "Server Scripts are disabled. Please enable server scripts from bench configuration."
@@ -28295,7 +28295,7 @@ msgstr "نوع الارتباط الاجتماعي"
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Social Login Key"
-msgstr "مفتاح تسجيل الدخول الاجتماعي"
+msgstr "مفتاح تسجيل دخول اجتماعي"
 
 #. Label of the social_login_provider (Select) field in DocType 'Social Login
 #. Key'
@@ -29063,7 +29063,7 @@ msgstr "نجاح"
 #. Name of a DocType
 #: frappe/core/doctype/success_action/success_action.json
 msgid "Success Action"
-msgstr "إجراء النجاح"
+msgstr "إجراء نجاح"
 
 #. Label of the success_message (Data) field in DocType 'Module Onboarding'
 #: frappe/desk/doctype/module_onboarding/module_onboarding.json
@@ -29302,7 +29302,7 @@ msgstr "صحة النظام"
 #. Name of a DocType
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "System Health Report"
-msgstr "تقرير صحة النظام"
+msgstr "تقرير سلامة النظام"
 
 #. Name of a DocType
 #: frappe/desk/doctype/system_health_report_errors/system_health_report_errors.json
@@ -29592,7 +29592,7 @@ msgstr "بطاقة شعار"
 #. Name of a DocType
 #: frappe/desk/doctype/tag_link/tag_link.json
 msgid "Tag Link"
-msgstr "علامة الارتباط"
+msgstr "رابط وسم"
 
 #: frappe/model/meta.py:55 frappe/public/js/frappe/form/templates/form_sidebar.html:81
 #: frappe/public/js/frappe/list/bulk_operations.js:430
@@ -29602,7 +29602,7 @@ msgstr "علامة الارتباط"
 #: frappe/public/js/frappe/model/meta.js:207 frappe/public/js/frappe/model/model.js:133
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:171
 msgid "Tags"
-msgstr "بطاقات"
+msgstr "وسوم"
 
 #: frappe/integrations/doctype/google_drive/google_drive.js:29
 msgid "Take Backup"
@@ -30913,7 +30913,7 @@ msgstr "إلى الإصدار"
 #: frappe/automation/workspace/tools/tools.json frappe/desk/doctype/todo/todo.json
 #: frappe/desk/report/todo/todo.json
 msgid "ToDo"
-msgstr "قائمة المهام"
+msgstr "مهمة"
 
 #: frappe/public/js/frappe/form/controls/date.js:58
 #: frappe/public/js/frappe/ui/filters/filter.js:732
@@ -30959,7 +30959,7 @@ msgstr "رمز"
 #. Name of a DocType
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Token Cache"
-msgstr "ذاكرة التخزين المؤقت للرمز المميز"
+msgstr "ذاكرة تخزين مؤقت للرموز"
 
 #. Label of the token_type (Data) field in DocType 'Token Cache'
 #: frappe/integrations/doctype/token_cache/token_cache.json
@@ -31284,7 +31284,7 @@ msgstr "ترجمة"
 
 #: frappe/public/js/frappe/views/translation_manager.js:46
 msgid "Translations"
-msgstr "ترجمة"
+msgstr "ترجمات"
 
 #. Option for the 'Email Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -31628,12 +31628,12 @@ msgstr "إلغاء المتابعة"
 #. Name of a DocType
 #: frappe/email/doctype/unhandled_email/unhandled_email.json
 msgid "Unhandled Email"
-msgstr "البريد الإلكتروني غير معالج"
+msgstr "بريد إلكتروني غير معالج"
 
 #. Label of the unhandled_emails (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Unhandled Emails"
-msgstr "رسائل البريد الإلكتروني غير المعالجة"
+msgstr "رسائل بريد إلكتروني غير معالجة"
 
 #. Label of the unique (Check) field in DocType 'DocField'
 #. Label of the unique (Check) field in DocType 'Custom Field'
@@ -32109,7 +32109,7 @@ msgstr "تم استخدام OAuth"
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "User"
-msgstr "المستخدم"
+msgstr "مستخدم"
 
 #. Label of the user (Link) field in DocType 'Access Log'
 #: frappe/core/doctype/access_log/access_log.json
@@ -32163,7 +32163,7 @@ msgstr "تفاصيل المستخدم"
 #. Name of a report
 #: frappe/core/report/user_doctype_permissions/user_doctype_permissions.json
 msgid "User Doctype Permissions"
-msgstr "أذونات نوع مستند المستخدم"
+msgstr "أذونات المستخدم على أنواع المستندات"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_document_type/user_document_type.json
@@ -32187,7 +32187,7 @@ msgstr "مراسلات المستخدم"
 #. Name of a DocType
 #: frappe/core/doctype/user_group/user_group.json
 msgid "User Group"
-msgstr "مجموعة المستخدمين"
+msgstr "مجموعة مستخدمين"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_group_member/user_group_member.json
@@ -32248,7 +32248,7 @@ msgstr "اسم المستخدم"
 #. Name of a DocType
 #: frappe/core/doctype/user_permission/user_permission.json
 msgid "User Permission"
-msgstr "إذن المستخدم"
+msgstr "إذن مستخدم"
 
 #. Label of a Link in the Users Workspace
 #: frappe/core/page/permission_manager/permission_manager_help.html:30
@@ -32256,7 +32256,7 @@ msgstr "إذن المستخدم"
 #: frappe/public/js/frappe/views/reports/query_report.js:1881
 #: frappe/public/js/frappe/views/reports/report_view.js:1746
 msgid "User Permissions"
-msgstr "ضوابط المستخدم"
+msgstr "أذونات المستخدمين"
 
 #: frappe/public/js/frappe/list/list_view.js:1776
 msgctxt "Button in list view menu"
@@ -32307,7 +32307,7 @@ msgstr "بطاقات المستخدم"
 #: frappe/core/doctype/user/user.json frappe/core/doctype/user_type/user_type.json
 #: frappe/core/doctype/user_type/user_type.py:83
 msgid "User Type"
-msgstr "نوع المستخدم"
+msgstr "نوع مستخدم"
 
 #. Label of the user_type_modules (Table) field in DocType 'User Type'
 #. Name of a DocType
@@ -32447,7 +32447,7 @@ msgstr "اسم المستخدم {0} موجود بالفعل"
 #: frappe/core/workspace/users/users.json
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Users"
-msgstr "المستخدمين"
+msgstr "مستخدمون"
 
 #. Description of the 'Protect Attached Files' (Check) field in DocType
 #. 'DocType'
@@ -32695,7 +32695,7 @@ msgstr "جارٍ التحقق..."
 #. Name of a DocType
 #: frappe/core/doctype/version/version.json
 msgid "Version"
-msgstr "الإصدار"
+msgstr "إصدار"
 
 #: frappe/public/js/frappe/desk.js:166
 msgid "Version Updated"
@@ -32817,7 +32817,7 @@ msgstr "تمت المشاهدة بواسطة"
 #. Label of a Card Break in the Build Workspace
 #: frappe/core/doctype/doctype/doctype.json frappe/core/workspace/build/build.json
 msgid "Views"
-msgstr "العروض"
+msgstr "عروض"
 
 #. Label of the is_virtual (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
@@ -32864,7 +32864,7 @@ msgstr "هل تريد المناقشة؟"
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "Warehouse"
-msgstr "المستودع"
+msgstr "مستودع"
 
 #. Option for the 'Style' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
@@ -32966,7 +32966,7 @@ msgstr "عمود قائمة نموذج الويب"
 #: frappe/website/doctype/web_page/web_page.json
 #: frappe/website/workspace/website/website.json
 msgid "Web Page"
-msgstr "صفحة على الإنترنت"
+msgstr "صفحة ويب"
 
 #. Name of a DocType
 #: frappe/website/doctype/web_page_block/web_page_block.json
@@ -32980,7 +32980,7 @@ msgstr "رابط صفحة الويب"
 #. Name of a DocType
 #: frappe/website/doctype/web_page_view/web_page_view.json
 msgid "Web Page View"
-msgstr "عرض صفحة الويب"
+msgstr "مشاهدة صفحة ويب"
 
 #. Label of a Card Break in the Website Workspace
 #: frappe/website/workspace/website/website.json
@@ -32992,7 +32992,7 @@ msgstr "موقع إلكتروني"
 #: frappe/website/doctype/web_page_block/web_page_block.json
 #: frappe/website/doctype/web_template/web_template.json
 msgid "Web Template"
-msgstr "قالب الويب"
+msgstr "قالب ويب"
 
 #. Name of a DocType
 #: frappe/website/doctype/web_template_field/web_template_field.json
@@ -33020,7 +33020,7 @@ msgstr "عرض ويب"
 #: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Webhook"
-msgstr "خطاف الويب (Webhook)"
+msgstr "خطاف ويب (Webhook)"
 
 #. Label of the sb_webhook_data (Section Break) field in DocType 'Webhook'
 #. Name of a DocType
@@ -33079,7 +33079,7 @@ msgstr "رابط خطاف الويب"
 #: frappe/public/js/frappe/ui/toolbar/about.js:8
 #: frappe/website/workspace/website/website.json
 msgid "Website"
-msgstr "الموقع"
+msgstr "موقع ويب"
 
 #. Name of a report
 #. Label of a Link in the Website Workspace
@@ -33118,7 +33118,7 @@ msgstr "موقع العلامة الوصفية"
 #: frappe/website/doctype/website_route_meta/website_route_meta.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Route Meta"
-msgstr "موقع ميتا الطريق"
+msgstr "بيانات وصفية لمسار الموقع"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_route_redirect/website_route_redirect.json
@@ -33130,7 +33130,7 @@ msgstr "إعادة توجيه مسار الموقع"
 #: frappe/website/doctype/website_script/website_script.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Script"
-msgstr "نص الموقع البرمجي"
+msgstr "سكربت موقع ويب"
 
 #. Label of the website_search_field (Data) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -33146,7 +33146,7 @@ msgstr "يجب أن يكون حقل بحث الموقع اسم حقل صالح"
 #: frappe/website/doctype/website_settings/website_settings.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Settings"
-msgstr "إعدادات الموقع"
+msgstr "إعدادات موقع الويب"
 
 #. Label of the website_sidebar (Link) field in DocType 'Web Form'
 #. Label of the website_sidebar (Link) field in DocType 'Web Page'
@@ -33157,7 +33157,7 @@ msgstr "إعدادات الموقع"
 #: frappe/website/doctype/website_sidebar/website_sidebar.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Sidebar"
-msgstr "موقع الشريط الجانبي"
+msgstr "شريط جانبي لموقع ويب"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_sidebar_item/website_sidebar_item.json
@@ -33169,7 +33169,7 @@ msgstr "موقع الشريط الجانبي البند"
 #: frappe/website/doctype/website_slideshow/website_slideshow.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Slideshow"
-msgstr "موقع عرض الشرائح"
+msgstr "عرض شرائح لموقع ويب"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
@@ -33183,7 +33183,7 @@ msgstr "موقع السلعة عرض شرائح"
 #: frappe/website/doctype/website_theme/website_theme.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Theme"
-msgstr "سمة الموقع"
+msgstr "سمة موقع ويب"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_theme_ignore_app/website_theme_ignore_app.json
@@ -33288,7 +33288,7 @@ msgstr "رابط الترحيب"
 #. Name of a Workspace
 #: frappe/core/workspace/welcome_workspace/welcome_workspace.json
 msgid "Welcome Workspace"
-msgstr "مساحة عمل الترحيب"
+msgstr "مساحة عمل ترحيبية"
 
 #: frappe/core/doctype/user/user.py:414
 msgid "Welcome email sent"
@@ -33440,7 +33440,7 @@ msgstr "إجراء سير العمل"
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Master"
-msgstr "سجل إجراء سير العمل الرئيسي"
+msgstr "إجراء سير العمل الرئيسي"
 
 #. Label of the workflow_action_name (Data) field in DocType 'Workflow Action
 #. Master'
@@ -37668,7 +37668,7 @@ msgid "Notification Title"
 msgstr "عنوان الإشعار"
 
 msgid "Notification Type"
-msgstr "نوع الإشعار"
+msgstr "نوع إشعار"
 
 msgid "Notification Type Preference"
 msgstr "تفضيل نوع الإشعار"
@@ -38114,7 +38114,7 @@ msgid "Accept emit() calls for events no app registered through the automation_e
 msgstr "قبول استدعاءات emit() لأحداث لم يسجّلها أي تطبيق عبر الخطاف automation_events."
 
 msgid "Access"
-msgstr "الوصول"
+msgstr "وصول"
 
 msgid "Access added."
 msgstr "أُضيف الوصول."
@@ -39177,7 +39177,7 @@ msgid "Descending"
 msgstr "تنازلي"
 
 msgid "Desk"
-msgstr "المكتب"
+msgstr "مكتب"
 
 msgid "Desktop Icons"
 msgstr "أيقونات سطح المكتب"
@@ -39442,7 +39442,7 @@ msgid "Email Template {0} has no content to send"
 msgstr "لا يحتوي قالب البريد الإلكتروني {0} على محتوى للإرسال"
 
 msgid "Email Templates"
-msgstr "قوالب البريد الإلكتروني"
+msgstr "قوالب بريد إلكتروني"
 
 #, python-brace-format
 msgid "Emailed {0}"
@@ -39754,7 +39754,7 @@ msgid "Generating preview…"
 msgstr "جارٍ إنشاء المعاينة…"
 
 msgid "Geo"
-msgstr "الجغرافيا"
+msgstr "جغرافيا"
 
 msgid "Get Started"
 msgstr "ابدأ الآن"
@@ -40120,7 +40120,7 @@ msgid "Is Optional"
 msgstr "اختياري"
 
 msgid "Issues"
-msgstr "المشكلات"
+msgstr "بلاغات"
 
 msgid "It expires in 1 minute."
 msgstr "تنتهي صلاحيته خلال دقيقة واحدة."
@@ -40149,7 +40149,7 @@ msgid "Job was not running; status updated."
 msgstr "لم تكن المهمة قيد التشغيل؛ حُدِّثت الحالة."
 
 msgid "Jobs"
-msgstr "المهام"
+msgstr "مهام"
 
 msgid "Just for me"
 msgstr "لي فقط"
@@ -41117,7 +41117,7 @@ msgid "Page size: {0}"
 msgstr "حجم الصفحة: {0}"
 
 msgid "Pages"
-msgstr "الصفحات"
+msgstr "صفحات"
 
 msgid "Pages this role can access."
 msgstr "الصفحات التي يمكن لهذه الصلاحية الوصول إليها."
@@ -41290,7 +41290,7 @@ msgid "Print Format Snippet"
 msgstr "مقتطف تنسيق الطباعة"
 
 msgid "Print Formats"
-msgstr "تنسيقات الطباعة"
+msgstr "تنسيقات طباعة"
 
 msgid "Print Settings updated"
 msgstr "حُدِّثت إعدادات الطباعة"
@@ -41305,7 +41305,7 @@ msgid "Product engineer. Writes the release notes nobody reads."
 msgstr "مهندس منتجات. يكتب ملاحظات الإصدار التي لا يقرؤها أحد."
 
 msgid "Profiles"
-msgstr "الملفات الشخصية"
+msgstr "ملفات"
 
 msgid "Progress summary"
 msgstr "ملخص التقدم"
@@ -44225,9 +44225,9 @@ msgstr "سيُزال {0} في الإصدار 17. انتقل إلى Chrome."
 
 #. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
 msgid "Core"
-msgstr "النواة"
+msgstr "نواة"
 
 #. Site label with no POT entry (Module Def / Form Tour / Workspace Link)
 msgid "Arabic Translations"
-msgstr "الترجمات العربية"
+msgstr "ترجمات عربية"
 

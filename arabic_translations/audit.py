@@ -34,6 +34,7 @@ SOURCES = [
 	("Workspace Chart", "label"),
 	("Workspace Number Card", "label"),
 	("Dashboard Chart", "chart_name"),
+	("Dashboard Chart", "empty_state_message"),
 	("Dashboard Chart Link", "chart_name"),
 	("Number Card", "label"),
 	("Dashboard", "dashboard_name"),
