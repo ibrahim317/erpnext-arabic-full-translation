@@ -5076,7 +5076,7 @@ msgstr "ما بين"
 #: frappe/contacts/doctype/address/address.json:52
 #: frappe/public/js/frappe/form/templates/contact_list.html:18
 msgid "Billing"
-msgstr "الفواتير"
+msgstr "الفوترة"
 
 #. Label of the binary_logging (Data) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json:232
@@ -5242,7 +5242,7 @@ msgstr "علامة تجارية"
 #. Label of the brand_html (Code) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:148
 msgid "Brand HTML"
-msgstr "العلامة التجارية HTML"
+msgstr "HTML العلامة التجارية"
 
 #. Label of the banner_image (Attach Image) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:142
@@ -5903,7 +5903,7 @@ msgstr ""
 
 #: frappe/model/document.py:1163
 msgid "Cannot edit cancelled document"
-msgstr "لا يمكنك التعديل على وثيقة ملغية"
+msgstr "لا يمكن تعديل مستند ملغى"
 
 #: frappe/website/doctype/web_form/web_form.js:360
 msgid "Cannot edit filters for standard Web Forms"
@@ -7053,12 +7053,12 @@ msgstr "تعليق من جانب"
 #. Label of the comment_email (Data) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json:36
 msgid "Comment Email"
-msgstr "تعليق البريد الإلكتروني"
+msgstr "بريد التعليق الإلكتروني"
 
 #. Label of the comment_type (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json:28
 msgid "Comment Type"
-msgstr "تعليق نوع"
+msgstr "نوع التعليق"
 
 #: frappe/desk/form/utils.py:58
 msgid "Comment can only be edited by the owner"
@@ -7721,7 +7721,7 @@ msgstr "ساهم"
 #. Label of the contribution_docname (Data) field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json:69
 msgid "Contribution Document Name"
-msgstr "اسم وثيقة المساهمة"
+msgstr "اسم مستند المساهمة"
 
 #. Label of the contribution_status (Select) field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json:61
@@ -8954,7 +8954,7 @@ msgstr "حقل مخطط لوحة المعلومات"
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_link/dashboard_chart_link.json:34
 msgid "Dashboard Chart Link"
-msgstr "لوحة الرسم البياني رابط"
+msgstr "رابط مخطط لوحة المعلومات"
 
 #. Label of a Sidebar Item
 #. Name of a DocType
@@ -9397,7 +9397,7 @@ msgstr "التسمية الافتراضية"
 #: frappe/email/doctype/email_account/email_account.json:362
 #: frappe/email/doctype/email_account/email_account.py:324
 msgid "Default Outgoing"
-msgstr "الافتراضي الصادر"
+msgstr "الصادر الافتراضي"
 
 #. Label of the default_portal_home (Data) field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json:55
@@ -10517,7 +10517,7 @@ msgstr "دوك الأحداث"
 #. Label of the doc_status (Select) field in DocType 'Workflow Document State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json:42
 msgid "Doc Status"
-msgstr "حالة الوثيقة"
+msgstr "حالة المستند"
 
 #: frappe/public/js/workflow_builder/store.js:166
 #: frappe/workflow/doctype/workflow/workflow.js:141
@@ -10667,7 +10667,7 @@ msgstr "حقل تخطيط نوع المستند"
 #: frappe/core/doctype/doctype_link/doctype_link.json:80
 #: frappe/custom/doctype/property_setter/property_setter.json:42
 msgid "DocType Link"
-msgstr "رابط نوع الوثيقة"
+msgstr "رابط نوع المستند"
 
 #: frappe/public/js/form_builder/components/Field.vue:162
 msgid "DocType Missing"
@@ -10830,7 +10830,7 @@ msgstr "نوع المستند مطلوب"
 #: frappe/public/js/frappe/views/render_preview.js:42
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:90
 msgid "Document"
-msgstr "وثيقة"
+msgstr "مستند"
 
 #. Label of the actions (Table) field in DocType 'DocType'
 #. Label of the document_actions_section (Section Break) field in DocType
@@ -10838,7 +10838,7 @@ msgstr "وثيقة"
 #: frappe/core/doctype/doctype/doctype.json:506
 #: frappe/custom/doctype/customize_form/customize_form.json:299
 msgid "Document Actions"
-msgstr "وثيقة الإجراءات"
+msgstr "إجراءات المستند"
 
 #. Label of the document_follow_notifications_section (Section Break) field in
 #. DocType 'User'
@@ -10850,7 +10850,7 @@ msgstr "متابعة مستند"
 
 #: frappe/desk/form/document_follow.py:113
 msgid "Document Follow Notification"
-msgstr "وثيقة متابعة الإخطار"
+msgstr "إشعار متابعة المستند"
 
 #. Label of the section_break_12 (Section Break) field in DocType 'Email
 #. Account'
@@ -10864,7 +10864,7 @@ msgstr "ربط المستند"
 #: frappe/core/doctype/doctype/doctype.json:520
 #: frappe/custom/doctype/customize_form/customize_form.json:285
 msgid "Document Links"
-msgstr "روابط الوثيقة"
+msgstr "روابط المستند"
 
 #: frappe/core/doctype/doctype/doctype.py:1264
 #, python-brace-format
@@ -10979,7 +10979,7 @@ msgstr "انتهاء صلاحية مفتاح مشاركة المستند (بال
 #: frappe/core/report/document_share_report/document_share_report.json:17
 #: frappe/users/sidebar/users/users.json:303 frappe/users/workspace/users/users.json:90
 msgid "Document Share Report"
-msgstr "وثيقة حصة تقرير"
+msgstr "تقرير مشاركة المستندات"
 
 #. Label of the states (Table) field in DocType 'DocType'
 #. Label of the document_states_section (Section Break) field in DocType
@@ -11061,7 +11061,7 @@ msgstr "عنوان المستند"
 #: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json:20
 #: frappe/workflow/doctype/workflow/workflow.json:41
 msgid "Document Type"
-msgstr "نوع الوثيقة"
+msgstr "نوع المستند"
 
 #: frappe/desk/doctype/number_card/number_card.py:63
 msgid "Document Type and Function are required to create a number card"
@@ -11358,7 +11358,7 @@ msgstr "تنزيل الصفوف المتخطّاة"
 #: frappe/core/doctype/data_import/data_import.json:192
 #: frappe/public/js/data_import_wizard.bundle.js:480
 msgid "Download Template"
-msgstr "تحميل الوثيقة"
+msgstr "تنزيل القالب"
 
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.py:80
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.py:88
@@ -12063,7 +12063,7 @@ msgstr "حساب البريد الإلكتروني معطل."
 #. Label of the email_account_name (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:160
 msgid "Email Account Name"
-msgstr "البريد الإلكتروني اسم الحساب"
+msgstr "اسم حساب البريد الإلكتروني"
 
 #: frappe/core/doctype/user/user.py:890
 msgid "Email Account added multiple times"
@@ -12113,7 +12113,7 @@ msgstr "المجال البريد الإلكتروني"
 #. Name of a DocType
 #: frappe/email/doctype/email_flag_queue/email_flag_queue.json:51
 msgid "Email Flag Queue"
-msgstr "البريد الإلكتروني العلم قائمة الانتظار"
+msgstr "قائمة انتظار علامات البريد الإلكتروني"
 
 #. Label of the email_footer_address (Small Text) field in DocType 'System
 #. Settings'
@@ -12126,7 +12126,7 @@ msgstr "تذييل البريد الإلكتروني"
 #: frappe/email/doctype/email_group/email_group.json:82
 #: frappe/email/doctype/email_group_member/email_group_member.json:21
 msgid "Email Group"
-msgstr "البريد الإلكتروني المجموعة"
+msgstr "مجموعة بريد إلكتروني"
 
 #. Name of a DocType
 #: frappe/email/doctype/email_group_member/email_group_member.json:48
@@ -12176,7 +12176,7 @@ msgstr "قائمة انتظار البريد الإلكتروني"
 #. Name of a DocType
 #: frappe/email/doctype/email_queue_recipient/email_queue_recipient.json:39
 msgid "Email Queue Recipient"
-msgstr "البريد الإلكتروني المستلم قائمة الانتظار"
+msgstr "مستلم قائمة انتظار البريد الإلكتروني"
 
 #: frappe/email/queue.py:161
 msgid "Email Queue flushing aborted due to too many failures."
@@ -12190,7 +12190,7 @@ msgstr "سجلات قائمة انتظار البريد الإلكتروني."
 #. Label of the email_reply_help (HTML) field in DocType 'Email Template'
 #: frappe/email/doctype/email_template/email_template.json:49
 msgid "Email Reply Help"
-msgstr "البريد الإلكتروني رد مساعدة"
+msgstr "مساعدة الرد على البريد الإلكتروني"
 
 #. Label of the email_retry_limit (Int) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:530
@@ -12200,7 +12200,7 @@ msgstr "حد إعادة محاولة البريد الإلكتروني"
 #. Name of a DocType
 #: frappe/email/doctype/email_rule/email_rule.json:32
 msgid "Email Rule"
-msgstr "البريد الإلكتروني القاعدة"
+msgstr "قاعدة بريد إلكتروني"
 
 #: frappe/public/js/frappe/views/communication.js:1775
 msgid "Email Sent"
@@ -12282,7 +12282,7 @@ msgstr "البريد الإلكتروني إلى"
 #. Name of a DocType
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.json:49
 msgid "Email Unsubscribe"
-msgstr "البريد الإلكتروني إلغاء الاشتراك"
+msgstr "إلغاء الاشتراك في البريد الإلكتروني"
 
 #: frappe/desk/doctype/notification_type/notification_type.js:16
 #, python-brace-format
@@ -12763,7 +12763,7 @@ msgstr "النهاية"
 #: frappe/public/js/frappe/utils/common.js:381
 #: frappe/website/doctype/web_page/web_page.json:115
 msgid "End Date"
-msgstr "نهاية التاريخ"
+msgstr "تاريخ الانتهاء"
 
 #. Label of the end_date_field (Select) field in DocType 'Calendar View'
 #: frappe/desk/doctype/calendar_view/calendar_view.json:42
@@ -14403,7 +14403,7 @@ msgstr "ملفات"
 #: frappe/website/doctype/web_form/web_form.js:248
 #: frappe/website/doctype/web_form/web_form.js:319
 msgid "Filter"
-msgstr "منقي"
+msgstr "تصفية"
 
 #. Label of the filter_area (HTML) field in DocType 'Sidebar Item'
 #. Label of the filter_area (HTML) field in DocType 'Workspace Sidebar Item'
@@ -14528,7 +14528,7 @@ msgstr "تتطلب استعلامات العلاقات المصفّاة نوع �
 #: frappe/email/doctype/notification/notification.json:93
 #: frappe/email/doctype/notification/notification.json:352
 msgid "Filters"
-msgstr "فلاتر"
+msgstr "مرشحات"
 
 #: frappe/public/js/frappe/list/list_filter/layout_dialog.js:68
 msgid "Filters & Sorting"
@@ -14581,7 +14581,7 @@ msgstr "يجب أن تكون المرشحات صفوفًا رباعية القي
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:471
 #: frappe/public/js/frappe/views/kanban_v2/kanban_page.js:1029
 msgid "Filters saved"
-msgstr "مرشحات حفظ"
+msgstr "تم حفظ المرشحات"
 
 #. Description of the 'Script' (Code) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json:162
@@ -14924,7 +14924,7 @@ msgstr "تذييل العناصر"
 #. Label of the footer_logo (Attach Image) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:311
 msgid "Footer Logo"
-msgstr "تذييل الشعار"
+msgstr "شعار التذييل"
 
 #. Label of the footer_script (Code) field in DocType 'Letter Head'
 #: frappe/printing/doctype/letter_head/letter_head.json:185
@@ -16069,7 +16069,7 @@ msgstr "تجميع حسب"
 #. Label of the group_by_type (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:178
 msgid "Group By Type"
-msgstr "مجموعة حسب النوع"
+msgstr "تجميع حسب النوع"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:416
 msgid "Group By field is required to create a dashboard chart"
@@ -17039,7 +17039,7 @@ msgstr "إذا ووضع العمل تم الفحص لا تجاوز الوضع ف
 #: frappe/core/report/user_doctype_permissions/user_doctype_permissions.py:60
 #: frappe/public/js/frappe/roles_editor.js:112
 msgid "If Owner"
-msgstr "إذا المالك"
+msgstr "إذا كان المالك"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:92
 msgid "If a Role does not have access at Level 0, then higher levels are meaningless."
@@ -17570,17 +17570,17 @@ msgstr "سجل الاستيراد"
 #. Label of the import_log_preview (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json:151
 msgid "Import Log Preview"
-msgstr "استيراد سجل معاينة"
+msgstr "معاينة سجل الاستيراد"
 
 #. Label of the import_preview (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json:83
 msgid "Import Preview"
-msgstr "استيراد معاينة"
+msgstr "معاينة الاستيراد"
 
 #: frappe/core/doctype/data_import/data_import.js:928
 #: frappe/core/doctype/data_import/data_import.js:1391
 msgid "Import Progress"
-msgstr "استيراد التقدم"
+msgstr "تقدم الاستيراد"
 
 #: frappe/email/doctype/email_group/email_group.js:8
 #: frappe/email/doctype/email_group/email_group.js:30
@@ -17595,7 +17595,7 @@ msgstr "نوع الاستيراد"
 #. Label of the import_warnings (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json:186
 msgid "Import Warnings"
-msgstr "استيراد تحذيرات"
+msgstr "تحذيرات الاستيراد"
 
 #: frappe/public/js/frappe/views/file/file_view.js:111
 msgid "Import Zip"
@@ -17715,7 +17715,7 @@ msgstr "في البحث العالمية"
 
 #: frappe/core/doctype/doctype/doctype.js:92
 msgid "In Grid View"
-msgstr "في شبكة عرض"
+msgstr "في عرض الشبكة"
 
 #. Label of the in_list_view (Check) field in DocType 'DocField'
 #. Label of the in_list_view (Check) field in DocType 'Custom Field'
@@ -20505,7 +20505,7 @@ msgstr "رابط الاستمارة"
 #. Label of the link_doctype (Link) field in DocType 'Dynamic Link'
 #: frappe/core/doctype/dynamic_link/dynamic_link.json:17
 msgid "Link Document Type"
-msgstr "رابط نوع الوثيقة"
+msgstr "نوع مستند الرابط"
 
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:407
 #: frappe/workflow/doctype/workflow_action/workflow_action.py:205
@@ -22669,12 +22669,12 @@ msgstr "ضيّق القائمة."
 #: frappe/website/doctype/web_template/web_template.json:45
 #: frappe/website/doctype/website_settings/website_settings.json:159
 msgid "Navbar"
-msgstr "نافبار"
+msgstr "شريط التنقل"
 
 #. Name of a DocType
 #: frappe/core/doctype/navbar_item/navbar_item.json:88
 msgid "Navbar Item"
-msgstr "عنصر Navbar"
+msgstr "عنصر شريط التنقل"
 
 #. Label of a Sidebar Item
 #. Label of a Link in the Build Workspace
@@ -22682,7 +22682,7 @@ msgstr "عنصر Navbar"
 #: frappe/build/sidebar/build/build.json:138 frappe/build/workspace/build/build.json:58
 #: frappe/core/doctype/navbar_settings/navbar_settings.json:75
 msgid "Navbar Settings"
-msgstr "إعدادات Navbar"
+msgstr "إعدادات شريط التنقل"
 
 #. Label of the navbar_template (Link) field in DocType 'Website Settings'
 #. Label of the navbar_template_section (Section Break) field in DocType
@@ -24320,7 +24320,7 @@ msgstr "إعدادات الإشعارات"
 #. Name of a DocType
 #: frappe/desk/doctype/notification_subscribed_document/notification_subscribed_document.json:25
 msgid "Notification Subscribed Document"
-msgstr "وثيقة الاشتراك المكتوبة"
+msgstr "مستند مشترك في الإشعارات"
 
 #. Name of a DocType
 #. Label of the notification_type (Link) field in DocType 'Notification Type
@@ -25441,7 +25441,7 @@ msgstr ""
 #. Label of the options_help (HTML) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json:175
 msgid "Options Help"
-msgstr "خيارات مساعدة"
+msgstr "مساعدة الخيارات"
 
 #: frappe/core/doctype/doctype/doctype.py:1734
 msgid "Options for Rating field can range from 3 to 10"
@@ -27755,7 +27755,7 @@ msgstr "معاينة قبل الطباعة ستايل"
 #: frappe/custom/doctype/custom_field/custom_field.json:306
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json:374
 msgid "Print Width"
-msgstr "طباعة العرض"
+msgstr "عرض الطباعة"
 
 #. Description of the 'Print Width' (Data) field in DocType 'Customize Form
 #. Field'
@@ -28868,7 +28868,7 @@ msgstr "مرجع"
 #. Label of the date_changed (Select) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json:157
 msgid "Reference Date"
-msgstr "المرجع تاريخ"
+msgstr "التاريخ المرجعي"
 
 #. Label of the datetime_changed (Select) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json:330
@@ -28933,7 +28933,7 @@ msgstr "مرجع Doctype"
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json:78
 #: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json:65
 msgid "Reference Document"
-msgstr "وثيقة مرجعية"
+msgstr "مستند مرجعي"
 
 #. Label of the reference_docname (Dynamic Link) field in DocType 'Document
 #. Share Key'
@@ -28989,7 +28989,7 @@ msgstr "اسم المستند المرجعي"
 #: frappe/website/doctype/portal_menu_item/portal_menu_item.json:45
 #: frappe/workflow/doctype/workflow_action/workflow_action.json:37
 msgid "Reference Document Type"
-msgstr "مرجع نوع الوثيقة"
+msgstr "نوع المستند المرجعي"
 
 #. Label of the reference_name (Dynamic Link) field in DocType 'Automation Run'
 #. Label of the ref_name (Data) field in DocType 'Automation Trigger Queue'
@@ -29099,7 +29099,7 @@ msgstr "تحديث القائمة"
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json:55
 #: frappe/integrations/doctype/token_cache/token_cache.json:45
 msgid "Refresh Token"
-msgstr "تحديث رمز"
+msgstr "رمز التحديث"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:98
 msgid "Refresh to see changes"
@@ -29686,7 +29686,7 @@ msgstr "مدير التقارير"
 #: frappe/desk/doctype/number_card/number_card.json:160
 #: frappe/public/js/frappe/views/reports/query_report.js:2228
 msgid "Report Name"
-msgstr "تقرير الاسم"
+msgstr "اسم التقرير"
 
 #: frappe/desk/doctype/number_card/number_card.py:73
 msgid "Report Name, Report Field and Fucntion are required to create a number card"
@@ -31554,7 +31554,7 @@ msgstr "شريط البحث"
 #: frappe/core/doctype/doctype/doctype.json:340
 #: frappe/custom/doctype/customize_form/customize_form.json:170
 msgid "Search Fields"
-msgstr "البحث الحقول"
+msgstr "حقول البحث"
 
 #. Label of the allowed_in_global_search (Table) field in DocType 'Global
 #. Search Settings'
@@ -31894,7 +31894,7 @@ msgstr "حدد نوع المستند"
 
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:50
 msgid "Select Document Type"
-msgstr "حدد نوع الوثيقة"
+msgstr "حدد نوع المستند"
 
 #: frappe/core/page/permission_manager/permission_manager.js:178
 msgid "Select Document Type or Role to start."
@@ -32471,7 +32471,7 @@ msgstr "أرسل في"
 #. Label of the read_receipt (Check) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json:202
 msgid "Sent Read Receipt"
-msgstr "أرسلت مقروءة إيصال"
+msgstr "تم إرسال إشعار القراءة"
 
 #. Label of the sent_to (Code) field in DocType 'SMS Log'
 #: frappe/core/doctype/sms_log/sms_log.json:74
@@ -37941,7 +37941,7 @@ msgstr "إلى تاريخ"
 #. Label of the to_date_field (Select) field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json:137
 msgid "To Date Field"
-msgstr "إلى تاريخ الحقل"
+msgstr "حقل «إلى تاريخ»"
 
 #: frappe/desk/doctype/todo/todo_list.js:6
 msgid "To Do"
@@ -39794,7 +39794,7 @@ msgstr "تغير المستخدم"
 #. Label of the defaults (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json:491
 msgid "User Defaults"
-msgstr "المستخدم الافتراضي"
+msgstr "الإعدادات الافتراضية للمستخدم"
 
 #. Label of the user_details_tab (Tab Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json:718
@@ -39944,7 +39944,7 @@ msgstr "عرض جلسة المستخدم"
 #. Name of a DocType
 #: frappe/core/doctype/user_social_login/user_social_login.json:50
 msgid "User Social Login"
-msgstr "المستخدم تسجيل الدخول الاجتماعي"
+msgstr "تسجيل الدخول الاجتماعي للمستخدم"
 
 #. Label of the _user_tags (Data) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json:299
@@ -40535,7 +40535,7 @@ msgstr "عرض التقرير"
 #: frappe/core/doctype/doctype/doctype.json:327
 #: frappe/custom/doctype/customize_form/customize_form.json:265
 msgid "View Settings"
-msgstr "عرض إعدادات"
+msgstr "إعدادات العرض"
 
 #. Label of the view_switcher (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json:844
@@ -41595,7 +41595,7 @@ msgstr "تفاصيل سير العمل"
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json:133
 msgid "Workflow Document State"
-msgstr "سير العمل الوثيقة الدولة"
+msgstr "حالة مستند سير العمل"
 
 #: frappe/model/workflow.py:113
 msgid "Workflow Evaluation Error"

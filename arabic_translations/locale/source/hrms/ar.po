@@ -1596,7 +1596,7 @@ msgstr "ربط الوظيفة الافتتاح"
 #. Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
 msgid "Associated Document"
-msgstr "وثيقة مرتبطة"
+msgstr "مستند مرتبط"
 
 #. Label of the associated_document_type (Link) field in DocType 'Employee
 #. Grievance'
@@ -3412,7 +3412,7 @@ msgstr "الاستقطاعات قبل حساب الضريبة"
 #: hrms/hr/doctype/expense_claim_account/expense_claim_account.json
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 msgid "Default Account"
-msgstr "الافتراضي حساب"
+msgstr "الحساب الافتراضي"
 
 #. Label of the default_amount (Currency) field in DocType 'Salary Detail'
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
@@ -3913,7 +3913,7 @@ msgstr "تحميل PDF"
 #. Attendance'
 #: hrms/hr/doctype/upload_attendance/upload_attendance.json
 msgid "Download Template"
-msgstr "تحميل الوثيقة"
+msgstr "تنزيل القالب"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Advance'
 #. Option for the 'Approval Status' (Select) field in DocType 'Expense Claim'
@@ -4445,7 +4445,7 @@ msgstr "مركز تكلفة الموظف"
 #: hrms/payroll/doctype/employee_other_income/employee_other_income.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 msgid "Employee Details"
-msgstr "موظف تفاصيل"
+msgstr "تفاصيل الموظف"
 
 #. Label of the employee_emails (Small Text) field in DocType 'Training Event'
 #. Label of the employee_emails (Small Text) field in DocType 'Training
@@ -5182,7 +5182,7 @@ msgstr "النهاية"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/report/salary_register/salary_register.py:168
 msgid "End Date"
-msgstr "نهاية التاريخ"
+msgstr "تاريخ الانتهاء"
 
 #: frontend/src/views/attendance/ShiftAssignmentForm.vue:75
 msgid "End Date cannot be before Start Date"
@@ -5448,7 +5448,7 @@ msgstr "إثباتات الإعفاء"
 #: hrms/payroll/doctype/employee_tax_exemption_declaration_category/employee_tax_exemption_declaration_category.json
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Exemption Sub Category"
-msgstr "الإعفاء الفئة الفرعية"
+msgstr "فئة الإعفاء الفرعية"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:10
 msgid "Existing Record"
@@ -5933,7 +5933,7 @@ msgstr "قائمة تصفية"
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/www/jobs/index.html:19 hrms/www/jobs/index.html:312
 msgid "Filters"
-msgstr "فلاتر"
+msgstr "مرشحات"
 
 #. Label of the employee_status (Select) field in DocType 'Exit Interview'
 #: hrms/hr/doctype/exit_interview/exit_interview.json
@@ -6906,7 +6906,7 @@ msgstr "في"
 #. Label of the personal_id_number (Data) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
 msgid "Identification Document Number"
-msgstr "رقم وثيقة التعريف"
+msgstr "رقم مستند التعريف"
 
 #. Name of a DocType
 #. Label of the identification_document_type (Data) field in DocType
@@ -6915,7 +6915,7 @@ msgstr "رقم وثيقة التعريف"
 #: hrms/hr/doctype/identification_document_type/identification_document_type.json
 #: hrms/hr/doctype/travel_request/travel_request.json
 msgid "Identification Document Type"
-msgstr "نوع وثيقة التعريف"
+msgstr "نوع مستند التعريف"
 
 #. Description of the 'Process Payroll Accounting Entry based on Employee'
 #. (Check) field in DocType 'Payroll Settings'
@@ -10106,7 +10106,7 @@ msgstr "جدول الرواتب"
 #. Name of a DocType
 #: hrms/payroll/doctype/payroll_employee_detail/payroll_employee_detail.json
 msgid "Payroll Employee Detail"
-msgstr "الرواتب الموظف التفاصيل"
+msgstr "تفاصيل موظف الرواتب"
 
 #. Name of a DocType
 #. Label of the payroll_entry (Link) field in DocType 'Salary Slip'
@@ -11056,7 +11056,7 @@ msgstr "مرجع"
 #: hrms/hr/doctype/full_and_final_outstanding_statement/full_and_final_outstanding_statement.json
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 msgid "Reference Document"
-msgstr "وثيقة مرجعية"
+msgstr "مستند مرجعي"
 
 #. Label of the reference_document_name (Dynamic Link) field in DocType 'Exit
 #. Interview'
@@ -11079,7 +11079,7 @@ msgstr "اسم المستند المرجعي"
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 msgid "Reference Document Type"
-msgstr "مرجع نوع الوثيقة"
+msgstr "نوع المستند المرجعي"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
 #: hrms/hr/doctype/leave_application/leave_application.py:508
@@ -11391,7 +11391,7 @@ msgstr "تاريخ القرار"
 #. Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
 msgid "Resolution Details"
-msgstr "قرار تفاصيل"
+msgstr "تفاصيل الحل"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -12120,7 +12120,7 @@ msgstr "اختر الشروط والأحكام"
 #. Summary Group'
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgid "Select Users"
-msgstr "حدد المستخدمون"
+msgstr "حدد المستخدمين"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:383
 msgid "Select an employee to get the employee advance."
@@ -14190,7 +14190,7 @@ msgstr "حدث تدريب"
 #. Name of a DocType
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
 msgid "Training Event Employee"
-msgstr "تدريب الموظف للحدث"
+msgstr "موظف فعالية التدريب"
 
 #: hrms/hr/notification/training_scheduled/training_scheduled.html:7
 msgid "Training Event:"
