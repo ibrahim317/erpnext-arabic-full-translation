@@ -18,8 +18,27 @@ jobs:
           sudo apt-get update -q
           sudo apt-get install -y gettext
           pip install babel
-      - name: Validate all translation catalogs
+      - name: Validate source catalogs and overlay
         run: python scripts/check_catalogs.py
+
+      # The version-specific bundles are not committed (see release.yml), so
+      # build them here on every PR: a source edit that breaks msgmerge or
+      # produces a bad CSV is caught before a release, not by whoever runs
+      # overwrite mode afterwards.
+      - name: Fetch upstream POT templates
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/pots
+          raw=https://raw.githubusercontent.com/frappe
+          for app in frappe erpnext hrms; do
+            curl -fsSL "$raw/$app/version-16/$app/locale/main.pot" -o "/tmp/pots/$app-version-16.pot"
+          done
+          curl -fsSL "$raw/frappe/version-15/frappe/locale/main.pot" -o /tmp/pots/frappe-version-15.pot
+      - name: Build bundles
+        run: python scripts/build.py . /tmp/pots
+      - name: Validate built bundles too
+        run: python scripts/check_catalogs.py
+
       - name: Lint python
         run: |
           pip install ruff

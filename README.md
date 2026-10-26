@@ -28,7 +28,7 @@ Two delivery modes, selected via `arabic_translations_mode` in `site_config.json
 | Mode | What it does | Use when |
 |---|---|---|
 | `overlay` *(default)* | Compiles this app's own catalog. Other repos stay clean; survives `bench update`; works on Frappe Cloud. | Almost always |
-| `overwrite` | Copies version-matched `ar.po`/`ar.csv` bundles into the other apps' trees (legacy behaviour), then force-compiles. | Docker images where assets are built from the patched files |
+| `overwrite` | Copies version-matched `ar.po`/`ar.csv` bundles into the other apps' trees (legacy behaviour), then force-compiles. Needs the bundle tarball from the GitHub Release — see [Overwrite mode](#overwrite-mode-bundles). | Docker images where assets are built from the patched files |
 | `both` | Both of the above. | Belt and suspenders |
 
 Version detection picks the newest bundle `<=` the running Frappe major version, so a future v17 still receives the v16 bundle instead of silently doing nothing.
@@ -51,7 +51,7 @@ HRMS but not for the framework, which got the gettext backport mid-v15:
   would lose to Frappe's own MO). Both are generated from the same source catalog, so
   they cannot drift.
 
-The bundles in `arabic_translations/locale/other-apps/` follow exactly that layout.
+The bundles follow exactly that layout. They are **build output, not source** — generated from `locale/source/*.po` by `scripts/build.py` and attached to each GitHub Release rather than committed (they were three quarters of every diff, and only overwrite mode reads them).
 
 ## Installation
 
@@ -85,10 +85,34 @@ bench install-arabic-translations
 bench restore-original-translations --site yoursite
 ```
 
+### Overwrite mode: bundles
+
+Overlay mode needs nothing beyond the repository. Overwrite mode copies the
+version-specific bundles into the other apps' trees, and those live in
+`arabic_translations/locale/other-apps/`, which is **not committed**. Get them one
+of two ways:
+
+```bash
+# a) the tarball attached to the matching GitHub Release (pin the tag you run)
+REL=https://github.com/ibrahim317/erpnext-arabic-full-translation/releases
+curl -fsSL "$REL/download/v0.3.4/arabic-bundles.tar.gz" \
+  | tar -xz -C apps/arabic_translations/arabic_translations/locale/
+#    or .../releases/latest/download/arabic-bundles.tar.gz to track the newest
+
+# b) regenerate them yourself (needs gettext + babel, see Contributing)
+python scripts/build.py . /path/to/pots
+```
+
+`bench install-arabic-translations` without `--site` (the Docker path) exits
+non-zero with that instruction if the bundles are missing, so an image can't be
+built silently untranslated.
+
 ### Docker
 
 ```dockerfile
-RUN bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation
+RUN bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation --branch v0.3.4
+RUN curl -fsSL https://github.com/ibrahim317/erpnext-arabic-full-translation/releases/download/v0.3.4/arabic-bundles.tar.gz \
+      | tar -xz -C apps/arabic_translations/arabic_translations/locale/
 RUN bench install-arabic-translations
 RUN bench build
 ```
@@ -99,8 +123,8 @@ RUN bench build
 arabic_translations/locale/
 ├── ar.po                      # merged overlay catalog (what overlay mode ships)
 ├── source/<app>/ar.po         # canonical per-app catalogs — edit these
-└── other-apps/
-    ├── v15/
+└── other-apps/                # NOT committed: built by scripts/build.py, shipped as
+    ├── v15/                   # arabic-bundles.tar.gz on each GitHub Release
     │   ├── frappe/frappe/locale/ar.po            # frappe >=15.33 (its own MO beats a CSV)
     │   ├── frappe/frappe/translations/ar.csv     # frappe <15.33 (no PO machinery yet)
     │   ├── erpnext/erpnext/translations/ar.csv   # erpnext v15 is CSV-only

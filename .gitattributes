@@ -2,4 +2,3 @@
 # arabic_translations/locale/source/*.po — review the source catalogs,
 # not these. Collapsed in GitHub diffs; still diffable locally.
 arabic_translations/locale/ar.po linguist-generated=true
-arabic_translations/locale/other-apps/** linguist-generated=true

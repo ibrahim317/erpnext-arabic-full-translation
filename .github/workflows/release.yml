@@ -1,0 +1,78 @@
+name: Build release bundles
+
+# The version-specific bundles (locale/other-apps/**) are build output of
+# scripts/build.py and are not committed. Only overwrite mode reads them;
+# overlay mode (the default) uses the committed locale/ar.po. This workflow
+# regenerates them from locale/source/*.po for each published release and
+# attaches them as arabic-bundles.tar.gz, so that:
+#
+#   releases/download/<tag>/arabic-bundles.tar.gz     pins a version
+#   releases/latest/download/arabic-bundles.tar.gz    tracks the newest
+#
+# POTs are taken from the upstream version-15 / version-16 branch tips, the
+# same inputs scripts/build.py has always been run against.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bundles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install tooling
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y gettext
+          pip install babel
+
+      - name: Fetch upstream POT templates
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/pots
+          raw=https://raw.githubusercontent.com/frappe
+          for app in frappe erpnext hrms; do
+            curl -fsSL "$raw/$app/version-16/$app/locale/main.pot" -o "/tmp/pots/$app-version-16.pot"
+          done
+          curl -fsSL "$raw/frappe/version-15/frappe/locale/main.pot" -o /tmp/pots/frappe-version-15.pot
+          ls -la /tmp/pots
+
+      - name: Build bundles
+        run: python scripts/build.py . /tmp/pots
+
+      - name: Validate everything, bundles included
+        # check_catalogs.py walks locale/ recursively, so with the bundles
+        # present it gates msgfmt, placeholder parity and CSV shape on the
+        # exact files that will ship.
+        run: python scripts/check_catalogs.py
+
+      - name: Package
+        run: |
+          set -euo pipefail
+          tar -C arabic_translations/locale -czf arabic-bundles.tar.gz other-apps
+          sha256sum arabic-bundles.tar.gz | tee arabic-bundles.tar.gz.sha256
+          tar -tzf arabic-bundles.tar.gz | sed 's/^/  /'
+
+      - name: Attach to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" arabic-bundles.tar.gz arabic-bundles.tar.gz.sha256 --clobber
+
+      - name: Keep as a workflow artifact
+        # For workflow_dispatch runs (no release to attach to) and as a
+        # fallback record for release runs.
+        uses: actions/upload-artifact@v4
+        with:
+          name: arabic-bundles
+          path: |
+            arabic-bundles.tar.gz
+            arabic-bundles.tar.gz.sha256
