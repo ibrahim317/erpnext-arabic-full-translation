@@ -70,6 +70,19 @@ def get_frappe_major_version() -> int | None:
 		return None
 
 
+BUNDLES_HELP = (
+	"The version-specific bundles (arabic_translations/locale/other-apps/) are not "
+	"shipped in the repository; only overwrite mode needs them. Either download "
+	"arabic-bundles.tar.gz from the matching GitHub Release and extract it into "
+	"arabic_translations/locale/, or regenerate them with scripts/build.py. "
+	"See README > Overwrite mode."
+)
+
+
+def bundles_available() -> bool:
+	return (_locale_root() / "other-apps").is_dir()
+
+
 def available_bundle_versions() -> list[int]:
 	root = _locale_root() / "other-apps"
 	if not root.is_dir():
@@ -168,6 +181,13 @@ def check_overlay_precedence() -> list[str]:
 # --------------------------------------------------------------------------- #
 def copy_locale_files(apps: list[str] | None = None, version: int | None = None) -> list[str]:
 	"""Copy version-matched Arabic bundles into the other apps' source trees."""
+	if not bundles_available():
+		# Overwrite mode was asked for but the bundles are not on disk. Say
+		# exactly what to do; a bare "skipping" leaves a Docker image silently
+		# untranslated.
+		_LOGGER.error("Cannot copy Arabic bundles: %s", BUNDLES_HELP)
+		return []
+
 	major = version or get_frappe_major_version()
 	bundle_version = resolve_bundle_version(major)
 	if bundle_version is None:

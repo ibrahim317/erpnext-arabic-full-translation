@@ -1,3 +1,5 @@
+import sys
+
 import click
 import frappe
 
@@ -37,9 +39,15 @@ def install_arabic_translations(site=None, mode=None):
 			click.echo(f"Found apps: {', '.join(apps)}")
 			# Without a site there is no config and no compiled-assets target, so
 			# only the overwrite copy makes sense here (bench build handles the rest).
-			from arabic_translations.utils import copy_locale_files
+			from arabic_translations.utils import BUNDLES_HELP, bundles_available, copy_locale_files
 
-			copy_locale_files(apps=apps)
+			if not bundles_available():
+				# Fail the image build loudly: a RUN step that "succeeds" with
+				# nothing copied ships an untranslated image.
+				click.secho(f"Error: {BUNDLES_HELP}", fg="red", err=True)
+				sys.exit(1)
+			written = copy_locale_files(apps=apps)
+			click.echo(f"Copied {len(written)} file(s).")
 		except Exception as e:
 			click.echo(f"Error copying translations: {e}")
 			raise

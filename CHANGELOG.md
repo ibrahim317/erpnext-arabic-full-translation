@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+- **The version-specific bundles are no longer committed.**
+  `arabic_translations/locale/other-apps/` is build output of `scripts/build.py`
+  and was 74% of every translation diff, while only overwrite mode reads it
+  (overlay mode, the default, uses `locale/ar.po`). A release workflow now
+  builds the bundles from `locale/source/*.po` and attaches them to each GitHub
+  Release as `arabic-bundles.tar.gz`; CI builds and validates them on every PR
+  so they stay verified without being reviewed. Overwrite-mode and Docker
+  users download the tarball (README → Overwrite mode). `bench
+  install-arabic-translations` without `--site` now fails loudly when the
+  bundles are missing instead of building an untranslated image.
+
 ## 0.3.4
 
 Catches up with the v16.5x releases, which added about 2,700 strings: the
