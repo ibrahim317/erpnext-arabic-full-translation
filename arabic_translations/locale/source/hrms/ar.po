@@ -477,7 +477,7 @@ msgstr "الحساب {0} لا يتطابق مع الشركة {1}"
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounting"
-msgstr "المحاسبة"
+msgstr "محاسبة"
 
 #. Label of the accounting_dimensions_tab (Tab Break) field in DocType
 #. 'Payroll
@@ -495,7 +495,7 @@ msgstr "تفاصيل المحاسبة"
 #. Label of a Link in the Salary Payout Workspace
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounting Dimension"
-msgstr "البعد المحاسبي"
+msgstr "بُعد محاسبي"
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Expense Claim'
@@ -511,7 +511,7 @@ msgstr "البعد المحاسبي"
 #: hrms/hr/doctype/travel_request/travel_request.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 msgid "Accounting Dimensions"
-msgstr "أبعاد المحاسبة"
+msgstr "أبعاد محاسبية"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:121
 msgid "Accounting Ledger"
@@ -531,21 +531,21 @@ msgstr "تقارير المحاسبة"
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/payroll/doctype/salary_component/salary_component.json
 msgid "Accounts"
-msgstr "الحسابات"
+msgstr "حسابات"
 
 #. Label of a Link in the Expense Claims Workspace
 #. Label of a Link in the Salary Payout Workspace
 #: hrms/hr/workspace/expense_claims/expense_claims.json
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounts Payable"
-msgstr "الحسابات الدائنة"
+msgstr "حسابات دائنة"
 
 #. Label of a Link in the Expense Claims Workspace
 #. Label of a Link in the Salary Payout Workspace
 #: hrms/hr/workspace/expense_claims/expense_claims.json
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounts Receivable"
-msgstr "الحسابات المدينة"
+msgstr "حسابات مدينة"
 
 #. Label of a Link in the Salary Payout Workspace
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
@@ -622,7 +622,7 @@ msgstr "اسم النشاط"
 #. Label of a Link in the Shift & Attendance Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Activity Type"
-msgstr "نوع النشاط"
+msgstr "نوع نشاط"
 
 #. Label of the amount (Currency) field in DocType 'Employee Tax Exemption
 #. Proof Submission Detail'
@@ -1596,7 +1596,7 @@ msgstr "ربط الوظيفة الافتتاح"
 #. Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
 msgid "Associated Document"
-msgstr "وثيقة مرتبطة"
+msgstr "مستند مرتبط"
 
 #. Label of the associated_document_type (Link) field in DocType 'Employee
 #. Grievance'
@@ -2463,7 +2463,7 @@ msgstr "طي الكل"
 #. Label of the color (Color) field in DocType 'Leave Application'
 #: hrms/hr/doctype/leave_application/leave_application.json
 msgid "Color"
-msgstr "اللون"
+msgstr "لون"
 
 #. Label of the comments (Text) field in DocType 'Training Result Employee'
 #. Label of the comments (Small Text) field in DocType 'Travel Request
@@ -2840,14 +2840,14 @@ msgstr "كلفة"
 #: hrms/payroll/doctype/gratuity/gratuity.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 msgid "Cost Center"
-msgstr "مركز التكلفة"
+msgstr "مركز تكلفة"
 
 #. Label of the payroll_cost_centers (Table) field in DocType 'Salary
 #. Structure
 #. Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "Cost Centers"
-msgstr "مراكز التكلفة"
+msgstr "مراكز تكلفة"
 
 #. Label of the costings (Table) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
@@ -2876,7 +2876,7 @@ msgstr "تعذر تحديث الأهداف"
 #. Label of the country (Link) field in DocType 'Job Applicant'
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 msgid "Country"
-msgstr "الدولة"
+msgstr "دولة"
 
 #: hrms/overrides/company.py:38
 msgid "Country Fixture Deletion Failed"
@@ -3081,7 +3081,7 @@ msgstr "المعايير التي يجب على أساسها تقييم المو
 #: hrms/payroll/report/salary_register/salary_register.py:249
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Currency"
-msgstr "العملة"
+msgstr "عملة"
 
 #. Label of the currency_section (Section Break) field in DocType 'Employee
 #. Advance'
@@ -3170,7 +3170,7 @@ msgstr "نطاق مخصص"
 #: hrms/hr/report/project_profitability/project_profitability.js:31
 #: hrms/hr/report/project_profitability/project_profitability.py:133
 msgid "Customer"
-msgstr "الزبون"
+msgstr "زبون"
 
 #. Option for the 'Roster Color' (Select) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
@@ -3247,7 +3247,7 @@ msgstr "ملخص العمل اليومي الردود"
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Dashboard"
-msgstr "لوحة المعلومات"
+msgstr "لوحة معلومات"
 
 #. Label of the date (Date) field in DocType 'Employee Attendance Tool'
 #. Label of the date (Date) field in DocType 'Employee Referral'
@@ -3412,7 +3412,7 @@ msgstr "الاستقطاعات قبل حساب الضريبة"
 #: hrms/hr/doctype/expense_claim_account/expense_claim_account.json
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 msgid "Default Account"
-msgstr "الافتراضي حساب"
+msgstr "الحساب الافتراضي"
 
 #. Label of the default_amount (Currency) field in DocType 'Salary Detail'
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
@@ -3481,7 +3481,7 @@ msgstr "حذف {0}"
 #. Label of the delivery_trip (Link) field in DocType 'Expense Claim'
 #: hrms/hr/doctype/expense_claim/expense_claim.json
 msgid "Delivery Trip"
-msgstr "رحلة التسليم"
+msgstr "رحلة تسليم"
 
 #. Label of the department (Link) field in DocType 'Appraisal'
 #. Label of the department (Link) field in DocType 'Appraisal Cycle'
@@ -3775,7 +3775,7 @@ msgstr "وصف الشاغر الوظيفي"
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:609
 #: hrms/payroll/report/salary_register/salary_register.py:148
 msgid "Designation"
-msgstr "المسمى الوظيفي"
+msgstr "مسمى وظيفي"
 
 #. Name of a DocType
 #: hrms/hr/doctype/designation_skill/designation_skill.json
@@ -3913,7 +3913,7 @@ msgstr "تحميل PDF"
 #. Attendance'
 #: hrms/hr/doctype/upload_attendance/upload_attendance.json
 msgid "Download Template"
-msgstr "تحميل الوثيقة"
+msgstr "تنزيل القالب"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Advance'
 #. Option for the 'Approval Status' (Select) field in DocType 'Expense Claim'
@@ -4305,7 +4305,7 @@ msgstr "إرسال كشف الراتب إلي البريد الاكتروني ا
 #: hrms/payroll/report/salary_register/salary_register.py:115
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:17
 msgid "Employee"
-msgstr "الموظف"
+msgstr "موظف"
 
 #: hrms/payroll/report/bank_remittance/bank_remittance.py:40
 msgid "Employee A/C Number"
@@ -4445,7 +4445,7 @@ msgstr "مركز تكلفة الموظف"
 #: hrms/payroll/doctype/employee_other_income/employee_other_income.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 msgid "Employee Details"
-msgstr "موظف تفاصيل"
+msgstr "تفاصيل الموظف"
 
 #. Label of the employee_emails (Small Text) field in DocType 'Training Event'
 #. Label of the employee_emails (Small Text) field in DocType 'Training
@@ -4522,7 +4522,7 @@ msgstr "تظلم الموظف"
 #. Label of a Link in the Overview Workspace
 #: hrms/hr/workspace/overview/overview.json
 msgid "Employee Group"
-msgstr "مجموعة الموظفين"
+msgstr "مجموعة موظفين"
 
 #. Name of a DocType
 #: hrms/hr/doctype/employee_health_insurance/employee_health_insurance.json
@@ -5018,7 +5018,7 @@ msgstr "الموظف: {0} يجب أن يكمل {1} سنوات كحد أدنى ل
 #: hrms/hr/doctype/training_result/training_result.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 msgid "Employees"
-msgstr "الموظفين"
+msgstr "موظفون"
 
 #. Label of the employees_html (HTML) field in DocType 'Employee Attendance
 #. Tool'
@@ -5182,7 +5182,7 @@ msgstr "النهاية"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/report/salary_register/salary_register.py:168
 msgid "End Date"
-msgstr "نهاية التاريخ"
+msgstr "تاريخ الانتهاء"
 
 #: frontend/src/views/attendance/ShiftAssignmentForm.vue:75
 msgid "End Date cannot be before Start Date"
@@ -5448,7 +5448,7 @@ msgstr "إثباتات الإعفاء"
 #: hrms/payroll/doctype/employee_tax_exemption_declaration_category/employee_tax_exemption_declaration_category.json
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Exemption Sub Category"
-msgstr "الإعفاء الفئة الفرعية"
+msgstr "فئة الإعفاء الفرعية"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:10
 msgid "Existing Record"
@@ -5933,7 +5933,7 @@ msgstr "قائمة تصفية"
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/www/jobs/index.html:19 hrms/www/jobs/index.html:312
 msgid "Filters"
-msgstr "فلاتر"
+msgstr "مرشحات"
 
 #. Label of the employee_status (Select) field in DocType 'Exit Interview'
 #: hrms/hr/doctype/exit_interview/exit_interview.json
@@ -5972,7 +5972,7 @@ msgstr "الاسم الأول "
 
 #: hrms/hr/report/vehicle_expenses/vehicle_expenses.js:29
 msgid "Fiscal Year"
-msgstr "السنة المالية"
+msgstr "سنة مالية"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1409
 #, python-brace-format
@@ -6836,7 +6836,7 @@ msgstr "عطلة"
 #: hrms/hr/report/employees_working_on_a_holiday/employees_working_on_a_holiday.js:22
 #: hrms/hr/report/leave_ledger/leave_ledger.py:110 hrms/hr/workspace/leaves/leaves.json
 msgid "Holiday List"
-msgstr "قائمة العطلات"
+msgstr "قائمة عطلات"
 
 #. Label of the optional_holiday_list (Link) field in DocType 'Leave Period'
 #: hrms/hr/doctype/leave_period/leave_period.json
@@ -6906,7 +6906,7 @@ msgstr "في"
 #. Label of the personal_id_number (Data) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
 msgid "Identification Document Number"
-msgstr "رقم وثيقة التعريف"
+msgstr "رقم مستند التعريف"
 
 #. Name of a DocType
 #. Label of the identification_document_type (Data) field in DocType
@@ -6915,7 +6915,7 @@ msgstr "رقم وثيقة التعريف"
 #: hrms/hr/doctype/identification_document_type/identification_document_type.json
 #: hrms/hr/doctype/travel_request/travel_request.json
 msgid "Identification Document Type"
-msgstr "نوع وثيقة التعريف"
+msgstr "نوع مستند التعريف"
 
 #. Description of the 'Process Payroll Accounting Entry based on Employee'
 #. (Check) field in DocType 'Payroll Settings'
@@ -7825,7 +7825,7 @@ msgstr "الملف الوظيفي، المؤهلات المطلوبة الخ"
 #. Label of a Card Break in the Recruitment Workspace
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Jobs"
-msgstr "وظائف"
+msgstr "مهام"
 
 #. Option for the 'Dates Based On' (Select) field in DocType 'Leave Control
 #. Panel'
@@ -7847,7 +7847,7 @@ msgstr "تاريخ الانضمام"
 #: hrms/payroll/doctype/salary_withholding_cycle/salary_withholding_cycle.json
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Journal Entry"
-msgstr "قيد اليومية"
+msgstr "قيد يومية"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:18
 #: hrms/public/js/salary_slip_deductions_report_filters.js:25
@@ -8445,7 +8445,7 @@ msgstr "ترك"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 msgid "Letter Head"
-msgstr "ترئيس الرسالة"
+msgstr "ترويسة رسالة"
 
 #. Label of the level (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
@@ -8527,7 +8527,7 @@ msgstr "جارٍ تحديد الموقع..."
 #: hrms/hr/report/vehicle_expenses/vehicle_expenses.py:33
 #: hrms/templates/generators/job_opening.html:66
 msgid "Location"
-msgstr "الموقع"
+msgstr "موقع"
 
 #. Label of the device_id (Data) field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
@@ -8948,7 +8948,7 @@ msgstr "طريقة الدفع"
 #: hrms/payroll/doctype/gratuity/gratuity.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 msgid "Mode of Payment"
-msgstr "طريقة الدفع"
+msgstr "طريقة دفع"
 
 #. Label of the mode_of_travel (Select) field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
@@ -9491,7 +9491,7 @@ msgstr "قالب الإشعار"
 
 #: frontend/src/views/Notifications.vue:17
 msgid "Notifications"
-msgstr "الإشعارات"
+msgstr "إشعارات"
 
 #. Label of the notify_users_by_email (Check) field in DocType 'Employee
 #. Onboarding'
@@ -10055,7 +10055,7 @@ msgstr "تعتمد حسابات أيام الدفع على إعدادات الر
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Payment Entry"
-msgstr "قيد الدفع"
+msgstr "قيد دفع"
 
 #. Label of the section_break_5 (Tab Break) field in DocType 'Gratuity'
 #: hrms/payroll/doctype/gratuity/gratuity.json
@@ -10106,7 +10106,7 @@ msgstr "جدول الرواتب"
 #. Name of a DocType
 #: hrms/payroll/doctype/payroll_employee_detail/payroll_employee_detail.json
 msgid "Payroll Employee Detail"
-msgstr "الرواتب الموظف التفاصيل"
+msgstr "تفاصيل موظف الرواتب"
 
 #. Name of a DocType
 #. Label of the payroll_entry (Link) field in DocType 'Salary Slip'
@@ -11056,7 +11056,7 @@ msgstr "مرجع"
 #: hrms/hr/doctype/full_and_final_outstanding_statement/full_and_final_outstanding_statement.json
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 msgid "Reference Document"
-msgstr "وثيقة مرجعية"
+msgstr "مستند مرجعي"
 
 #. Label of the reference_document_name (Dynamic Link) field in DocType 'Exit
 #. Interview'
@@ -11079,7 +11079,7 @@ msgstr "اسم المستند المرجعي"
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 msgid "Reference Document Type"
-msgstr "مرجع نوع الوثيقة"
+msgstr "نوع المستند المرجعي"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
 #: hrms/hr/doctype/leave_application/leave_application.py:508
@@ -11247,7 +11247,7 @@ msgstr "تذكير"
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Reminders"
-msgstr "رسائل التذكير"
+msgstr "تذكيرات"
 
 #. Label of the remove_if_zero_valued (Check) field in DocType 'Salary
 #. Component'
@@ -11391,7 +11391,7 @@ msgstr "تاريخ القرار"
 #. Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
 msgid "Resolution Details"
-msgstr "قرار تفاصيل"
+msgstr "تفاصيل الحل"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -12120,7 +12120,7 @@ msgstr "اختر الشروط والأحكام"
 #. Summary Group'
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgid "Select Users"
-msgstr "حدد المستخدمون"
+msgstr "حدد المستخدمين"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:383
 msgid "Select an employee to get the employee advance."
@@ -13130,7 +13130,7 @@ msgstr "الأحد"
 #: hrms/hr/doctype/training_program/training_program.json
 #: hrms/hr/doctype/vehicle_log/vehicle_log.json
 msgid "Supplier"
-msgstr "المورد"
+msgstr "مورد"
 
 #: hrms/hr/report/employee_leave_balance/employee_leave_balance.js:46
 #: hrms/hr/report/employee_leave_balance_summary/employee_leave_balance_summary.js:42
@@ -13351,7 +13351,7 @@ msgstr "الشروط"
 #. Label of the terms (Text Editor) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Terms and Conditions"
-msgstr "الشروط والأحكام"
+msgstr "شروط وأحكام"
 
 #: hrms/templates/emails/training_event.html:20
 msgid "Thank you"
@@ -13603,7 +13603,7 @@ msgstr "الجداول الزمنية"
 #: hrms/hr/report/project_profitability/project_profitability.py:155
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Timesheet"
-msgstr "سجل الدوام"
+msgstr "سجل دوام"
 
 #. Label of the timesheets_section (Section Break) field in DocType 'Salary
 #. Slip'
@@ -14190,7 +14190,7 @@ msgstr "حدث تدريب"
 #. Name of a DocType
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
 msgid "Training Event Employee"
-msgstr "تدريب الموظف للحدث"
+msgstr "موظف فعالية التدريب"
 
 #: hrms/hr/notification/training_scheduled/training_scheduled.html:7
 msgid "Training Event:"
@@ -14577,12 +14577,12 @@ msgstr "الإجازات المستخدمة"
 #: hrms/hr/doctype/goal/goal.json hrms/hr/doctype/interviewer/interviewer.json
 #: hrms/hr/report/daily_work_summary_replies/daily_work_summary_replies.py:20
 msgid "User"
-msgstr "المستخدم"
+msgstr "مستخدم"
 
 #. Label of the users (Table) field in DocType 'Daily Work Summary Group'
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgid "Users"
-msgstr "المستخدمين"
+msgstr "مستخدمون"
 
 #: hrms/hr/report/project_profitability/project_profitability.py:188
 msgid "Utilization"

@@ -24,6 +24,7 @@ Usage
 import json
 
 import frappe
+from frappe.translate import get_all_translations
 
 # (doctype, field) pairs whose values Frappe renders through __() in the desk UI.
 SOURCES = [
@@ -34,14 +35,26 @@ SOURCES = [
 	("Workspace Chart", "label"),
 	("Workspace Number Card", "label"),
 	("Dashboard Chart", "chart_name"),
+	("Dashboard Chart", "empty_state_message"),
 	("Dashboard Chart Link", "chart_name"),
 	("Number Card", "label"),
 	("Dashboard", "dashboard_name"),
 	("Report", "report_name"),
 	("Module Def", "module_name"),
 	("Onboarding Step", "title"),
+	("Module Onboarding", "title"),
 	("Form Tour", "title"),
 	("Custom HTML Block", "name"),
+	# v16.5x navigation: module sidebars, the app dock, saved list layouts,
+	# the new Kanban and the desktop icon grid. Absent tables are skipped below.
+	("Sidebar", "title"),
+	("Sidebar Item", "label"),
+	("Dock Item", "title"),
+	("List Filter", "filter_name"),
+	("Kanban Board", "kanban_board_name"),
+	("Desktop Icon", "label"),
+	# shown as the form and list title tooltip
+	("DocType", "description"),
 ]
 
 
@@ -68,7 +81,7 @@ def _harvest():
 
 def report(as_po=False, lang="ar"):
 	"""Print every harvested label that has no translation in `lang`."""
-	translations = frappe.translate.get_all_translations(lang) or {}
+	translations = get_all_translations(lang) or {}
 	harvested = _harvest()
 
 	missing, identical = [], []

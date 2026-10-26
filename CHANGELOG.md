@@ -1,6 +1,38 @@
 # Changelog
 
-## 0.3.3
+## 0.3.4
+
+Catches up with the v16.5x releases, which added about 2,700 strings: the
+Frappe automation engine, the new print format editor (Typst/Chromium), module
+sidebars and the app dock, list layouts, Kanban v2, the data import wizard and
+the doctype settings dialog, plus ERPNext's onboarding steps, DocType
+descriptions, the stock valuation comparison report and finished-good mapping.
+
+- **2,692 new strings translated** (1,797 Frappe, 895 ERPNext), so the v16
+  bundles are back to 0 untranslated against both `version-16` and the
+  v16.52.0 / v16.51.1 release tags.
+- **Stuck-fuzzy fix.** Upstream's extractor flags `python-format` on any msgid
+  where `%` happens to form a %-directive, e.g. "% of materials…" (`% o`).
+  `msgmerge` then rejected the Arabic `% من` as a bad format string and marked
+  the entry fuzzy, so it never showed, however it was translated. `build.py`
+  and `extract_todo.py` now strip that flag from the POT *before* merging.
+  This releases 8 ERPNext, 1 Frappe and 1 HRMS entry, and the fuzzy column is
+  now 0 for all three apps.
+- **Site audit covers the v16.5x navigation doctypes**: Sidebar, Sidebar Item,
+  Dock Item, List Filter, Kanban Board, Desktop Icon and Module Onboarding.
+- **10 site labels with no POT entry** (module names such as Core, Utilities,
+  Telephony and EDI, two form tours, and a workspace link) found by the audit
+  on a live v16.52 site.
+- `build.py` removes its temporary files even when `msgmerge` fails.
+- **Terminology pass.** Standalone terms drop أل (مورد، قيد دفع), list headings
+  use the indefinite plural (موردون، قيود دفع), and إضافة constructs keep أل on
+  the complement (إعدادات الحسابات، ملخص الحسابات الدائنة). ID is now المعرّف.
+- **About 140 old entries fixed** that kept the English word order ("المورد نوع"
+  → نوع المورد, "الافتراضي حساب" → الحساب الافتراضي) or read "No" as "لا" in
+  field names. Document is now مستند throughout (the catalog had both وثيقة and
+  مستند), Filter = تصفية, Navbar = شريط التنقل.
+- **`audit.py`** imports `get_all_translations` (it crashed under `bench
+  execute`) and also checks DocType descriptions, which show as title tooltips.
 
 Corrects translations that were wrong rather than missing: the catalogs were
 seeded from machine translation, so coverage reached 100% while the *sense* was

@@ -19,14 +19,19 @@ from pathlib import Path
 
 from babel.messages.pofile import read_po
 
+sys.path.insert(0, str(Path(__file__).parent))
+from build import pot_without_pyformat
+
 ROOT = Path(__file__).resolve().parent.parent / "arabic_translations" / "locale" / "source"
 
 
 def sync(src: Path, pot: Path, out: Path) -> None:
 	"""msgmerge against the POT, then drop entries upstream no longer defines."""
 	merged = out.with_suffix(".merged.po")
+	clean_pot = pot_without_pyformat(pot, out.with_suffix(".pot"))
 	subprocess.run(
-		["msgmerge", "-q", "--no-fuzzy-matching", "-o", str(merged), str(src), str(pot)], check=True
+		["msgmerge", "-q", "--no-fuzzy-matching", "-o", str(merged), str(src), str(clean_pot)],
+		check=True,
 	)
 	subprocess.run(["msgattrib", "--no-obsolete", "-o", str(out), str(merged)], check=True)
 

@@ -4,15 +4,20 @@ Complete Arabic translations for **Frappe Framework**, **ERPNext**, and **HRMS**
 
 ## Coverage
 
-Measured against the current upstream `version-16` POT templates (not a stale snapshot):
+Measured against the upstream `version-16` POT templates as of October 2026
+(frappe `version-16` ≥ v16.52.0, erpnext `version-16` ≥ v16.51.1):
 
 | App | Translated | Untranslated | Fuzzy (excluded at runtime) |
 |---|---|---|---|
-| Frappe | 6,328 (100%) | 0 | 1 |
-| ERPNext | 10,181 (100%) | 0 | 11 |
-| HRMS | 2,228 (100%) | 0 | 1 |
+| Frappe | 7,908 (100%) | 1 | 0 |
+| ERPNext | 10,860 (100%) | 0 | 0 |
+| HRMS | 2,229 (100%) | 0 | 0 |
 
-Every string in the current upstream `version-16` templates is translated. The overlay catalog additionally carries strings that upstream removed after v16 but that remain live on v15 — 19,523 unique messages in total. Untranslated strings fall back to English; nothing breaks.
+The one open Frappe entry is `setup_wizard_text`, a dict key that upstream passes
+through `_()`, not text anyone sees. The overlay catalog additionally carries strings
+that upstream removed after v16 but that remain live on v15, plus site labels no POT
+contains — 22,287 unique messages in total. Untranslated strings fall back to English;
+nothing breaks.
 
 ## How it works
 

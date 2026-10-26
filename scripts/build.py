@@ -115,15 +115,39 @@ def strip_pyformat(path: Path):
 		write_po(fh, cat, width=88, sort_output=False, sort_by_file=False)
 
 
+def pot_without_pyformat(pot: Path, out: Path) -> Path:
+	"""Copy a POT with its `python-format` flags removed.
+
+	Upstream's extractor flags any msgid where `%` happens to form a valid
+	%-directive, e.g. "% of materials" (`% o`). msgmerge then checks the Arabic
+	against that directive, finds "% من" invalid and marks the entry fuzzy, so
+	Frappe skips it at runtime. Frappe never %-formats translations, so the flag
+	is wrong and has to go before merging, not after."""
+	lines = []
+	for line in pot.read_text(encoding="utf-8").splitlines(keepends=True):
+		if line.startswith("#,"):
+			flags = [f.strip() for f in line[2:].split(",") if f.strip() != "python-format"]
+			if not flags:
+				continue
+			line = "#, " + ", ".join(flags) + "\n"
+		lines.append(line)
+	out.write_text("".join(lines), encoding="utf-8")
+	return out
+
+
 def msgmerge(po: Path, pot: Path, out: Path):
 	out.parent.mkdir(parents=True, exist_ok=True)
 	tmp = out.with_suffix(".merge.tmp")
-	subprocess.run(
-		["msgmerge", "--quiet", "--no-fuzzy-matching", "-o", str(tmp), str(po), str(pot)],
-		check=True,
-	)
-	subprocess.run(["msgattrib", "--no-obsolete", "-o", str(out), str(tmp)], check=True)
-	tmp.unlink()
+	clean_pot = pot_without_pyformat(pot, out.with_suffix(".pot.tmp"))
+	try:
+		subprocess.run(
+			["msgmerge", "--quiet", "--no-fuzzy-matching", "-o", str(tmp), str(po), str(clean_pot)],
+			check=True,
+		)
+		subprocess.run(["msgattrib", "--no-obsolete", "-o", str(out), str(tmp)], check=True)
+	finally:
+		tmp.unlink(missing_ok=True)
+		clean_pot.unlink()
 	strip_pyformat(out)
 
 
