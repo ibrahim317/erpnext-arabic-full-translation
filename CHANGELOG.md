@@ -1,6 +1,12 @@
 # Changelog
 
-## Unreleased
+## 0.3.4
+
+Catches up with the v16.5x releases, which added about 2,700 strings: the
+Frappe automation engine, the new print format editor (Typst/Chromium), module
+sidebars and the app dock, list layouts, Kanban v2, the data import wizard and
+the doctype settings dialog, plus ERPNext's onboarding steps, DocType
+descriptions, the stock valuation comparison report and finished-good mapping.
 
 - **The version-specific bundles are no longer committed.**
   `arabic_translations/locale/other-apps/` is build output of `scripts/build.py`
@@ -12,14 +18,6 @@
   users download the tarball (README → Overwrite mode). `bench
   install-arabic-translations` without `--site` now fails loudly when the
   bundles are missing instead of building an untranslated image.
-
-## 0.3.4
-
-Catches up with the v16.5x releases, which added about 2,700 strings: the
-Frappe automation engine, the new print format editor (Typst/Chromium), module
-sidebars and the app dock, list layouts, Kanban v2, the data import wizard and
-the doctype settings dialog, plus ERPNext's onboarding steps, DocType
-descriptions, the stock valuation comparison report and finished-good mapping.
 
 - **2,692 new strings translated** (1,797 Frappe, 895 ERPNext), so the v16
   bundles are back to 0 untranslated against both `version-16` and the
