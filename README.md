@@ -4,20 +4,22 @@ Complete Arabic translations for **Frappe Framework**, **ERPNext**, and **HRMS**
 
 ## Coverage
 
-Measured against the upstream `version-16` POT templates as of October 2026
-(frappe `version-16` ≥ v16.52.0, erpnext `version-16` ≥ v16.51.1):
+Measured against the upstream `version-16` POT templates as of November 2026
+(frappe v16.55.2, erpnext v16.53.0, hrms v16.53.1). HRMS's published
+`version-16` POT was last regenerated in June 2026 and misses strings the code
+already uses, so the HRMS row is measured against it merged with the `develop` POT:
 
 | App | Translated | Untranslated | Fuzzy (excluded at runtime) |
 |---|---|---|---|
-| Frappe | 7,908 (100%) | 1 | 0 |
-| ERPNext | 10,860 (100%) | 0 | 0 |
-| HRMS | 2,229 (100%) | 0 | 0 |
+| Frappe | 7,987 (100%) | 2 | 0 |
+| ERPNext | 11,580 (100%) | 1 | 0 |
+| HRMS | 2,669 (100%) | 0 | 0 |
 
-The one open Frappe entry is `setup_wizard_text`, a dict key that upstream passes
-through `_()`, not text anyone sees. The overlay catalog additionally carries strings
-that upstream removed after v16 but that remain live on v15, plus site labels no POT
-contains — 22,287 unique messages in total. Untranslated strings fall back to English;
-nothing breaks.
+The open entries (`setup_wizard_text`, `title`, `account_type`) are dict keys that
+upstream passes through `_()`, not text anyone sees. The overlay catalog additionally
+carries strings that upstream removed after v16 but that remain live on v15, plus site
+labels no POT contains — 23,762 unique messages in total. Untranslated strings fall
+back to English; nothing breaks.
 
 ## How it works
 

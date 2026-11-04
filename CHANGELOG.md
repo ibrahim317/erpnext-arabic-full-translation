@@ -1,5 +1,29 @@
 # Changelog
 
+## Unreleased
+
+- **1,333 new strings translated** against frappe v16.55.2, erpnext v16.53.0 and
+  hrms v16.53.1 (84 Frappe, 835 ERPNext, 414 HRMS). HRMS's `version-16`
+  `main.pot` is stale (June 2026), so its new strings, such as the Recruitment
+  sidebar's Hiring Pipeline and the onboarding steps, come from the `develop` POT.
+- **About 100 site-only strings** that no POT contains but Frappe translates at
+  runtime: dialog field labels passed without `__()` (Schedule On, Leaves To
+  Adjust), the Journal Entry columns built in JS (Debit/Credit in Account
+  Currency), and the 23 standard Account Category names.
+- **HRMS terminology audit, aligned with ERPNext.** About 555 HRMS entries
+  rewritten. Fixes include "Leave" read as a verb (Leave Allocations was
+  اترك المخصصات), Vehicle Log (دخول السيارة → سجل المركبة), Income Tax Slab
+  (لوح → شريحة), Appointment Letter (رسالة موعد → خطاب تعيين) and Gratuity
+  (إكراميات). Standard terms are now: Job Opening = شاغر وظيفي, Check-in /
+  Check-out = تسجيل حضور / انصراف, Approver = المخول بالموافقة, Expense Claim =
+  مطالبة المصروفات, Salary Slip = قسيمة الراتب, Payroll = الرواتب,
+  Feedback = ملاحظات, Benefit = ميزة / مزايا, Encashment = صرف البدل,
+  Onboarding = تأهيل, KRA = مجال النتائج الرئيسية.
+- **Screenshot fixes**: Create a new {0} (إنشاء {0} جديد), the permission-matrix
+  columns (قراءة، تحديد، كتابة), Dismiss (إخفاء), Associate Job Opening, and the
+  stale-document error. ERPNext: Lost Reason, Clearance Date, Item Code, Repack,
+  Written Down Value, Prospect (now زبون مرتقب, distinct from Lead).
+
 ## 0.3.4
 
 Catches up with the v16.5x releases, which added about 2,700 strings: the

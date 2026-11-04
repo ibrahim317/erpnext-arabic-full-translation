@@ -11785,11 +11785,11 @@ msgstr "سيؤدي تحديد هذا إلى تقريب مبلغ الضريبة �
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:148
 msgid "Checkout"
-msgstr "الدفع"
+msgstr "إتمام الشراء"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:263
 msgid "Checkout Order / Submit Order / New Order"
-msgstr "طلب الخروج / ترحيل الطلب / طلب جديد"
+msgstr "إتمام الطلب / ترحيل الطلب / طلب جديد"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:12
 msgid "Chemical"
@@ -11968,7 +11968,7 @@ msgstr "مسح الجدول"
 #: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.py:152
 #: erpnext/templates/form_grid/bank_reconciliation_grid.html:7
 msgid "Clearance Date"
-msgstr "تاريخ الاستحقاق"
+msgstr "تاريخ المقاصة"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:132
 msgid "Clearance Date not mentioned"
@@ -12051,7 +12051,7 @@ msgstr "مستند مغلق"
 #. Label of the closed_documents (Table) field in DocType 'Accounting Period'
 #: erpnext/accounts/doctype/accounting_period/accounting_period.json
 msgid "Closed Documents"
-msgstr "وثائق مغلقة"
+msgstr "مستندات مغلقة"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2435
 msgid "Closed Work Order can not be stopped or Re-opened"
@@ -15470,7 +15470,7 @@ msgstr "تفاصيل الزبون"
 #. Visit'
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
 msgid "Customer Feedback"
-msgstr "آراء الزبون"
+msgstr "ملاحظات الزبون"
 
 #. Label of the customer_group (Link) field in DocType 'Customer Group Item'
 #. Label of the customer_group (Link) field in DocType 'Loyalty Program'
@@ -16536,7 +16536,7 @@ msgstr "المخزن الافتراضي للبضائع التامة الصنع"
 #. Label of the default_holiday_list (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Default Holiday List"
-msgstr "قائمة العطل الافتراضية"
+msgstr "قائمة العطلات الافتراضية"
 
 #. Label of the default_in_transit_warehouse (Link) field in DocType 'Company'
 #. Label of the default_in_transit_warehouse (Link) field in DocType
@@ -19518,7 +19518,7 @@ msgstr "سيغير تمكين هذا طريقة التعامل مع المعام
 #. Label of the encashment_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Encashment Date"
-msgstr "تاريخ التحصيل"
+msgstr "تاريخ صرف البدل"
 
 #: erpnext/crm/doctype/contract/contract.py:73
 msgid "End Date cannot be before Start Date."
@@ -19908,7 +19908,7 @@ msgstr "مثال: الرقم التسلسلي {0} محجوز في {1}."
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Exception Budget Approver Role"
-msgstr "دور الموافقة على الموازنة الاستثنائية"
+msgstr "دور المخول بالموافقة على الموازنة الاستثنائية"
 
 #: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.js:55
 msgid "Excess Materials Consumed"
@@ -20304,7 +20304,7 @@ msgstr "حساب المصاريف مفقود"
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Expense Claim"
-msgstr "مطالبة المصاريف"
+msgstr "مطالبة المصروفات"
 
 #. Label of the expense_account (Link) field in DocType 'Purchase Invoice Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -20545,7 +20545,7 @@ msgstr "قَامَة"
 #. Feedback'
 #: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
 msgid "Feedback By"
-msgstr "مقدّم التقييم"
+msgstr "مقدّم الملاحظات"
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -24659,7 +24659,7 @@ msgstr "دفعة واردة"
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:193
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:96
 msgid "Incoming Rate"
-msgstr "معدل الواردة"
+msgstr "سعر الوارد"
 
 #. Label of the incoming_rate (Currency) field in DocType 'Sales Invoice Item'
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -24686,7 +24686,7 @@ msgstr "الدفعة المستهلكة غير صحيحة"
 
 #: erpnext/stock/doctype/item/item.py:568
 msgid "Incorrect Check in (group) Warehouse for Reorder"
-msgstr "فحص غير صحيح في مستودع (المجموعة) لإعادة الطلب"
+msgstr "تحقق غير صحيح في المستودع (المجموعة) لإعادة الطلب"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:985
 msgid "Incorrect Component Quantity"
@@ -26749,7 +26749,7 @@ msgstr "سلة الأصناف"
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 #: erpnext/templates/includes/products_as_list.html:14
 msgid "Item Code"
-msgstr "رمز السلعة"
+msgstr "رمز الصنف"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:61
 msgid "Item Code (Final Product)"
@@ -28981,12 +28981,12 @@ msgstr "عروض الأسعار المفقودة ٪"
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.js:30
 #: erpnext/selling/report/lost_quotations/lost_quotations.py:24
 msgid "Lost Reason"
-msgstr "فقد السبب"
+msgstr "سبب الخسارة"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/lost_reason_detail/lost_reason_detail.json
 msgid "Lost Reason Detail"
-msgstr "تفاصيل السبب المفقود"
+msgstr "تفاصيل سبب الخسارة"
 
 #. Label of the lost_reasons (Table MultiSelect) field in DocType 'Opportunity'
 #. Label of the lost_detail_section (Section Break) field in DocType
@@ -29648,7 +29648,7 @@ msgstr ""
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Manufacture"
-msgstr "صناعة"
+msgstr "تصنيع"
 
 #. Description of the 'Material Request' (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -37594,7 +37594,7 @@ msgstr "يرجى تعيين قائمة عطلات افتراضية للشركة 
 #: erpnext/setup/doctype/employee/employee.py:272
 #, python-brace-format
 msgid "Please set a default Holiday List for Employee {0} or Company {1}"
-msgstr "يرجى تعيين قائمة العطل الافتراضية للموظف {0} أو الشركة {1}"
+msgstr "يرجى تعيين قائمة عطلات افتراضية للموظف {0} أو الشركة {1}"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1115
 #, python-brace-format
@@ -39544,7 +39544,7 @@ msgstr "بنسبة كذا"
 #: erpnext/crm/doctype/prospect/prospect.json erpnext/crm/workspace/crm/crm.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Prospect"
-msgstr "زبون محتمل"
+msgstr "زبون مرتقب"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/prospect_lead/prospect_lead.json
@@ -42652,7 +42652,7 @@ msgstr "إعادة تسمية غير مسموح به"
 #. Name of a DocType
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 msgid "Rename Tool"
-msgstr "إعادة تسمية أداة"
+msgstr "أداة إعادة التسمية"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:26
 #, python-brace-format
@@ -42707,7 +42707,7 @@ msgstr "مستوى إعادة الطلب بناء على مستودع"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Repack"
-msgstr "أعد حزم"
+msgstr "إعادة تعبئة"
 
 #. Group in Asset's connections
 #: erpnext/assets/doctype/asset/asset.json
@@ -43660,7 +43660,7 @@ msgstr "بائع تجزئة"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Retain Sample"
-msgstr "الاحتفاظ عينة"
+msgstr "الاحتفاظ بعينة"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:196
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:348
@@ -46864,7 +46864,7 @@ msgstr "لا يمكن أن يكون تاريخ التخريد قبل تاريخ 
 #. Option for the 'Status' (Select) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json erpnext/assets/doctype/asset/asset_list.js:16
 msgid "Scrapped"
-msgstr "ألغت"
+msgstr "مُخرَّد"
 
 #. Label of the search_apis_sb (Section Break) field in DocType 'Support
 #. Settings'
@@ -58912,7 +58912,7 @@ msgstr "ساعة عمل محطة العمل"
 #: erpnext/manufacturing/doctype/workstation/workstation.py:453
 #, python-brace-format
 msgid "Workstation is closed on the following dates as per Holiday List: {0}"
-msgstr "محطة العمل مغلقة في التواريخ التالية وفقا لقائمة العطل: {0}"
+msgstr "محطة العمل مغلقة في التواريخ التالية وفقًا لقائمة العطلات: {0}"
 
 #. Label of the workstations_tab (Tab Break) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
@@ -59029,7 +59029,7 @@ msgstr "لا تصلح"
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
 #: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
 msgid "Written Down Value"
-msgstr "القيمة المكتوبة"
+msgstr "القيمة المتناقصة"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:70
 msgid "Wrong Company"
@@ -62175,7 +62175,7 @@ msgstr "إخفاء الرقم الضريبي للزبون من معاملات ا
 
 #, python-brace-format
 msgid "Holiday List - {0} is not valid for current date."
-msgstr "قائمة العطل - {0} غير صالحة للتاريخ الحالي."
+msgstr "قائمة العطلات - {0} غير صالحة للتاريخ الحالي."
 
 msgid "How big is the team?"
 msgstr "ما حجم الفريق؟"
@@ -63062,7 +63062,7 @@ msgid "Planned End Date cannot be before Planned Start Date"
 msgstr "لا يمكن أن يكون تاريخ الانتهاء المخطط قبل تاريخ البدء المخطط"
 
 msgid "Please add a valid Holiday List on Appointment Booking Settings."
-msgstr "يرجى إضافة قائمة عطل صالحة في إعدادات حجز المواعيد."
+msgstr "يرجى إضافة قائمة عطلات صالحة في إعدادات حجز المواعيد."
 
 msgid "Please add an account for the Bank Entry rule."
 msgstr "يرجى إضافة حساب لقاعدة القيد البنكي."
@@ -63118,7 +63118,7 @@ msgid ""
 msgstr "يرجى مراجعة تهيئة {0} وإكمال أي أنشطة إعداد مالي مطلوبة."
 
 msgid "Please select a Holiday List to enable Appointment Scheduling."
-msgstr "يرجى اختيار قائمة عطل لتفعيل جدولة المواعيد."
+msgstr "يرجى اختيار قائمة عطلات لتفعيل جدولة المواعيد."
 
 msgid "Please select a bank account to view the bank clearance summary."
 msgstr "يرجى اختيار حساب بنكي لعرض ملخص التسوية البنكية."
@@ -69332,11 +69332,3439 @@ msgstr "اسم السند"
 msgid "Watch Video"
 msgstr "شاهد الفيديو"
 
+#, python-brace-format
 msgid "You haven't created a {0} yet"
 msgstr "لم تقم بإنشاء {0} حتى الآن"
 
 msgid "YouTube"
 msgstr "يوتيوب"
+
+msgid "1 raw material"
+msgstr "مادة خام واحدة"
+
+msgid "3D Model"
+msgstr "نموذج ثلاثي الأبعاد"
+
+#, python-brace-format
+msgid ""
+"<h4>Body Text and Closing Text Example</h4>\n"
+"\n"
+"<div>We have noticed that the following payments, totaling {{ currency }} {{ "
+"total_outstanding }}, are overdue:</div>\n"
+"<ul>\n"
+"{% for row in overdue_payments %}\n"
+"<li>Invoice {{ row.sales_invoice }}: {{ currency }} {{ row.outstanding }}, due on {{ "
+"row.due_date }}.</li>\n"
+"{% endfor %}\n"
+"</ul>\n"
+"<div>Please pay the amount due immediately to avoid any further dunning cost.</div>\n"
+"\n"
+"<h4>How to get fieldnames</h4>\n"
+"\n"
+"<p>The fieldnames you can use in your template are the fields in the document. You "
+"can find out the fields of any documents via Setup &gt; Customize Form View and "
+"selecting Dunning or Overdue Payment for the payment rows</p>\n"
+"\n"
+"<h4>Templating</h4>\n"
+"\n"
+"<p>Templates are compiled using the Jinja Templating Language. To learn more about "
+"Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read "
+"this documentation.</a></p>"
+msgstr ""
+"<h4>مثال على نص المتن ونص الختام</h4>\n"
+"\n"
+"<div>لاحظنا أن الدفعات التالية، البالغ مجموعها {{ currency }} {{ total_outstanding "
+"}}، متأخرة السداد:</div>\n"
+"<ul>\n"
+"{% for row in overdue_payments %}\n"
+"<li>الفاتورة {{ row.sales_invoice }}: {{ currency }} {{ row.outstanding }}، تاريخ "
+"الاستحقاق {{ row.due_date }}.</li>\n"
+"{% endfor %}\n"
+"</ul>\n"
+"<div>يرجى سداد المبلغ المستحق فورًا لتجنّب أي تكاليف مطالبة إضافية.</div>\n"
+"\n"
+"<h4>كيفية الحصول على أسماء الحقول</h4>\n"
+"\n"
+"<p>أسماء الحقول التي يمكنك استخدامها في القالب هي حقول المستند. يمكنك معرفة حقول أي "
+"مستند من الإعدادات &gt; تخصيص نموذج واختيار إشعار المطالبة أو الدفعة المتأخرة لصفوف "
+"الدفعات</p>\n"
+"\n"
+"<h4>القوالب</h4>\n"
+"\n"
+"<p>تُعالَج القوالب باستخدام لغة قوالب Jinja. لمعرفة المزيد عن Jinja، <a "
+"class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">اقرأ هذا "
+"التوثيق.</a></p>"
+
+#, python-brace-format
+msgid "A Process Period Closing Voucher already exists for {0}"
+msgstr "يوجد بالفعل مستند معالجة قيد إقفال الفترة لـ {0}"
+
+msgid "A Proforma Invoice can only be created against a submitted Sales Order."
+msgstr "لا يمكن إنشاء فاتورة مبدئية إلا مقابل أمر بيع مُرحَّل."
+
+msgid "A cancelled Proforma Invoice cannot be emailed."
+msgstr "لا يمكن إرسال فاتورة مبدئية ملغاة بالبريد الإلكتروني."
+
+#, python-brace-format
+msgid "A closing balance already exists for Bank Account {0} on {1}."
+msgstr "يوجد بالفعل رصيد إقفال للحساب المصرفي {0} بتاريخ {1}."
+
+#, python-brace-format
+msgid "A design with the status {0} cannot be changed. Make a new revision to change it."
+msgstr "لا يمكن تغيير تصميم حالته {0}. أنشئ مراجعة جديدة لتغييره."
+
+#, python-brace-format
+msgid ""
+"A draft {0} already exists for this Pick List: {1}. Do you still want to create a new"
+" one?"
+msgstr "توجد بالفعل مسودة {0} لقائمة الانتقاء هذه: {1}. هل ما زلت تريد إنشاء واحدة جديدة؟"
+
+msgid "A newer revision of this design already exists."
+msgstr "توجد بالفعل مراجعة أحدث لهذا التصميم."
+
+msgid "A phantom BOM cannot use 'Produce Item per Operation'."
+msgstr "لا يمكن لقائمة المواد الوهمية استخدام 'إنتاج الصنف لكل عملية'."
+
+#, python-brace-format
+msgid "A row in {0} was removed because its design part is not in the new design file."
+msgstr "تمت إزالة صف في {0} لأن جزء التصميم الخاص به غير موجود في ملف التصميم الجديد."
+
+msgid "A sub-assembly BOM is made for one unit."
+msgstr "تُعَدّ قائمة مواد التجميع الفرعي لوحدة واحدة."
+
+#, python-brace-format
+msgid ""
+"A transaction for customer {0} is blocked by its credit limit. Current outstanding: "
+"{1}, credit limit: {2}"
+msgstr ""
+"معاملة الزبون {0} محظورة بسبب حدّه الائتماني. الرصيد المستحق الحالي: {1}، الحد "
+"الائتماني: {2}"
+
+#, python-brace-format
+msgid "A {0} cannot be made from a {1} Blanket Order"
+msgstr "لا يمكن إنشاء {0} من أمر توريد شامل من نوع {1}"
+
+msgid "Account Name cannot be empty"
+msgstr "لا يمكن أن يكون اسم الحساب فارغًا"
+
+msgid "Account for Return Entries"
+msgstr "حساب قيود المرتجعات"
+
+#, python-brace-format
+msgid "Account {0} and Party Type {1} have different account types"
+msgstr "الحساب {0} ونوع الطرف {1} لهما نوعا حساب مختلفان"
+
+#, python-brace-format
+msgid "Account {0} must be a non-group account of type Stock"
+msgstr "يجب أن يكون الحساب {0} حسابًا غير تجميعي من نوع مخزون"
+
+msgid "Accounts and Transaction Details"
+msgstr "تفاصيل الحسابات والمعاملات"
+
+msgid "Add 3D Model"
+msgstr "إضافة نموذج ثلاثي الأبعاد"
+
+msgid "Add Another Batch"
+msgstr "إضافة دفعة أخرى"
+
+msgid "Add Back to BOM"
+msgstr "إعادة الإضافة إلى قائمة المواد"
+
+msgid "Add Holidays"
+msgstr "إضافة عطلات"
+
+msgid "Add Material"
+msgstr "إضافة مادة"
+
+msgid "Add Operation"
+msgstr "إضافة عملية"
+
+msgid "Add Sub-Assembly BOM"
+msgstr "إضافة قائمة مواد تجميع فرعي"
+
+#, python-brace-format
+msgid "Add material to {0}"
+msgstr "إضافة مادة إلى {0}"
+
+msgid "Add raw material"
+msgstr "إضافة مادة خام"
+
+msgid "Add raw materials to the finished good."
+msgstr "أضف المواد الخام إلى المنتج النهائي."
+
+msgid "Add the items of each sub-assembly BOM under the sub-assembly."
+msgstr "أضف أصناف كل قائمة مواد تجميع فرعي تحت التجميع الفرعي."
+
+msgid "Add to"
+msgstr "إضافة إلى"
+
+#, python-brace-format
+msgid ""
+"Add to Transit cannot be enabled on the standard Stock Entry Type {0}. Create a "
+"separate Stock Entry Type for transit transfers."
+msgstr ""
+"لا يمكن تفعيل الإضافة إلى العبور في نوع قيد المخزون القياسي {0}. أنشئ نوع قيد مخزون "
+"منفصلًا لتحويلات العبور."
+
+msgid ""
+"Adjustment Entry can only be used by the system from the Stock Valuation Comparison "
+"report. Users can only select the purpose Opening Stock to add opening stock, or "
+"Stock Reconciliation to update stock quantity or valuation rate."
+msgstr ""
+"لا يستخدم قيد التسوية إلا النظام من تقرير مقارنة تقييم المخزون. يمكن للمستخدمين فقط "
+"اختيار الغرض مخزون أول المدة لإضافة مخزون افتتاحي، أو جرد المخزون لتحديث كمية المخزون"
+" أو سعر التقييم."
+
+msgid "Adjustment during the period"
+msgstr "التسوية خلال الفترة"
+
+msgid "All items have already been delivered"
+msgstr "تم تسليم جميع الأصناف بالفعل"
+
+msgid "All parts are mapped to items"
+msgstr "جميع الأجزاء مربوطة بأصناف"
+
+#, python-brace-format
+msgid "All quantities of Item {0} in {1} are already linked to Assets."
+msgstr "جميع كميات الصنف {0} في {1} مرتبطة بالفعل بأصول."
+
+msgid "All required items have already been transferred, requested or picked."
+msgstr "تم بالفعل نقل جميع الأصناف المطلوبة أو طلبها أو انتقاؤها."
+
+msgid "Allow issuing Proforma Invoices against a Sales Order."
+msgstr "السماح بإصدار فواتير مبدئية مقابل أمر بيع."
+
+msgid "Allowed Companies"
+msgstr "الشركات المسموح بها"
+
+msgid "Allowed Companies is required when Restrict to Companies is checked"
+msgstr "حقل الشركات المسموح بها مطلوب عند تحديد تقييد بشركات"
+
+msgid "Ambiguous Exchange Journal"
+msgstr "قيد صرف ملتبس"
+
+msgid "An employee can only appear once in an Employee Group"
+msgstr "لا يمكن أن يظهر الموظف إلا مرة واحدة في مجموعة الموظفين"
+
+msgid "Appointment Duration must be greater than 0 minutes."
+msgstr "يجب أن تكون مدة الموعد أكبر من 0 دقيقة."
+
+msgid "Appointment With must be a Customer or a Lead"
+msgstr "يجب أن يكون حقل الموعد مع زبونًا أو زبونًا محتملًا"
+
+msgid "Appointment must start at the beginning of an available slot."
+msgstr "يجب أن يبدأ الموعد في بداية فترة زمنية متاحة."
+
+#, python-brace-format
+msgid "Assemblies {0} and {1} are mapped to item {2} but have different raw materials."
+msgstr "التجميعان {0} و{1} مربوطان بالصنف {2} لكن لهما مواد خام مختلفة."
+
+msgid "Asset Gross Value"
+msgstr "إجمالي قيمة الأصل"
+
+#, python-brace-format
+msgid "Asset Repair {0} deleted"
+msgstr "تم حذف إصلاح الأصل {0}"
+
+#, python-brace-format
+msgid "Asset Repair {0} discarded"
+msgstr "تم تجاهل إصلاح الأصل {0}"
+
+#, python-brace-format
+msgid "Asset Repair {0} marked as Cancelled"
+msgstr "تم تعيين إصلاح الأصل {0} كملغى"
+
+#, python-brace-format
+msgid "Asset Repair {0} marked as Completed"
+msgstr "تم تعيين إصلاح الأصل {0} كمكتمل"
+
+msgid "Asset Split"
+msgstr "تقسيم الأصل"
+
+#, python-brace-format
+msgid "Asset Value Adjustment cannot be posted before the last depreciation entry dated {0}"
+msgstr "لا يمكن ترحيل تعديل قيمة الأصل قبل آخر قيد إهلاك بتاريخ {0}"
+
+msgid "Asset Value After Depreciation"
+msgstr "قيمة الأصل بعد الإهلاك"
+
+msgid "Asset Value Updated"
+msgstr "تم تحديث قيمة الأصل"
+
+#, python-brace-format
+msgid "Asset returned by Employee {0}"
+msgstr "أعاد الموظف {0} الأصل"
+
+#, python-brace-format
+msgid "Asset {0} cannot be restored, as it is not scrapped"
+msgstr "لا يمكن استعادة الأصل {0} لأنه غير مُخرَّد"
+
+#, python-brace-format
+msgid "Asset {0} cannot be split, as it is {1}"
+msgstr "لا يمكن تقسيم الأصل {0} لأنه {1}"
+
+#, python-brace-format
+msgid "Asset {0} is disposed, its value cannot be adjusted"
+msgstr "تم استبعاد الأصل {0}، ولا يمكن تعديل قيمته"
+
+#, python-brace-format
+msgid "Asset {0} is {1} and cannot be moved"
+msgstr "الأصل {0} في حالة {1} ولا يمكن نقله"
+
+#, python-brace-format
+msgid ""
+"Asset {0} was split into Asset {1} after this adjustment, so it cannot be cancelled. "
+"Adjust the value of each asset instead."
+msgstr ""
+"تم تقسيم الأصل {0} إلى الأصل {1} بعد هذا التعديل، لذلك لا يمكن إلغاؤه. عدّل قيمة كل "
+"أصل بدلًا من ذلك."
+
+msgid "Attach a STEP file (.step or .stp) or a CSV file."
+msgstr "أرفق ملف STEP (‏.step أو ‏.stp) أو ملف CSV."
+
+#, python-brace-format
+msgid "Availability slots for {0} cannot overlap: rows {1} and {2}"
+msgstr "لا يمكن أن تتداخل فترات التوفر لـ {0}: الصفان {1} و{2}"
+
+msgid "Average Commission Rate"
+msgstr "متوسط نسبة العمولة"
+
+msgid "BOM Creator Material"
+msgstr "مادة منشئ قائمة المواد"
+
+msgid "BOM Creator Operation"
+msgstr "عملية منشئ قائمة المواد"
+
+msgid "BOM Node"
+msgstr "عقدة قائمة المواد"
+
+msgid "BOM Operations"
+msgstr "عمليات قائمة المواد"
+
+#, python-brace-format
+msgid "BOM recursion: {0} cannot be an ancestor of itself"
+msgstr "تكرار دائري في قائمة المواد: لا يمكن أن يكون {0} سلفًا لنفسه"
+
+#, python-brace-format
+msgid ""
+"BOM {0} is the BOM of an operation in {1}, which track semi-finished goods. Amend "
+"those BOMs to use the new BOM so their operation materials are fetched again."
+msgstr ""
+"قائمة المواد {0} هي قائمة مواد عملية في {1}، والتي تتتبع المنتجات نصف المصنعة. عدّل "
+"قوائم المواد تلك لتستخدم قائمة المواد الجديدة كي تُجلب مواد عملياتها من جديد."
+
+#, python-brace-format
+msgid "BOM {0} must be active and submitted."
+msgstr "يجب أن تكون قائمة المواد {0} نشطة ومُرحَّلة."
+
+#, python-brace-format
+msgid "BOM {0} uses itself as a raw material."
+msgstr "قائمة المواد {0} تستخدم نفسها كمادة خام."
+
+msgid "BOMs are already created from this design. Cancel them to create them again."
+msgstr "تم إنشاء قوائم المواد من هذا التصميم بالفعل. ألغِها لإنشائها مرة أخرى."
+
+#, python-brace-format
+msgid "Bank Account {0} does not belong to Company {1}"
+msgstr "الحساب المصرفي {0} لا ينتمي إلى الشركة {1}"
+
+#, python-brace-format
+msgid "Bank Account {0} does not belong to {1} {2}"
+msgstr "الحساب المصرفي {0} لا ينتمي إلى {1} {2}"
+
+#, python-brace-format
+msgid "Bank Account {0} is missing or disabled"
+msgstr "الحساب المصرفي {0} مفقود أو معطّل"
+
+#, python-brace-format
+msgid "Bank Account {0} must be a company account belonging to {1}"
+msgstr "يجب أن يكون الحساب المصرفي {0} حساب شركة يتبع {1}"
+
+msgid "Batch Size cannot be negative."
+msgstr "لا يمكن أن يكون حجم الدفعة سالبًا."
+
+#, python-brace-format
+msgid "Batch {0} does not belong to Item {1}"
+msgstr "الدفعة {0} لا تنتمي إلى الصنف {1}"
+
+#, python-brace-format
+msgid "Blanket Order {0} is a {1} order and cannot be used on a {2}"
+msgstr "أمر التوريد الشامل {0} أمر {1} ولا يمكن استخدامه في {2}"
+
+#, python-brace-format
+msgid "Blanket Order {0} is for {1}, not {2}"
+msgstr "أمر التوريد الشامل {0} مخصص لـ {1}، وليس {2}"
+
+#, python-brace-format
+msgid "Blanket Order {0} is in {1}, not {2}"
+msgstr "أمر التوريد الشامل {0} بعملة {1}، وليس {2}"
+
+msgid "Block Customer"
+msgstr "حظر الزبون"
+
+msgid ""
+"Blocks saving or submitting Sales Orders, Delivery Notes, Sales Invoices and POS "
+"Invoices for this customer."
+msgstr ""
+"يمنع حفظ أو ترحيل أوامر البيع وإشعارات التسليم وفواتير المبيعات وفواتير نقاط البيع "
+"لهذا الزبون."
+
+msgid "Books Closed Through"
+msgstr "الدفاتر مُقفلة حتى"
+
+msgid ""
+"Build a multi-level BOM by hand or from a CAD design, plan its operations, and create"
+" the BOMs."
+msgstr ""
+"أنشئ قائمة مواد متعددة المستويات يدويًا أو من تصميم CAD، وخطّط عملياتها، وأنشئ قوائم "
+"المواد."
+
+msgid "CAD File"
+msgstr "ملف CAD"
+
+#, python-brace-format
+msgid ""
+"Call Schedule Row {0}: To time slot should always be ahead of From time slot. Split "
+"overnight slots by day."
+msgstr ""
+"صف جدول المكالمات {0}: يجب أن تكون الفترة \"إلى\" دائمًا بعد الفترة \"من\". قسّم "
+"الفترات الممتدة لما بعد منتصف الليل حسب اليوم."
+
+#, python-brace-format
+msgid "Call Type {0} is not submitted."
+msgstr "نوع المكالمة {0} غير مُرحَّل."
+
+#, python-brace-format
+msgid "Cancel Asset Repair {0} instead, it cancels this Stock Entry"
+msgstr "ألغِ إصلاح الأصل {0} بدلًا من ذلك، فهو يلغي قيد المخزون هذا"
+
+msgid "Cancel the Process Period Closing Voucher document to stop processing"
+msgstr "ألغِ مستند معالجة قيد إقفال الفترة لإيقاف المعالجة"
+
+msgid "Cannot Combine Orders"
+msgstr "لا يمكن دمج الأوامر"
+
+#, python-brace-format
+msgid "Cannot activate BOM {0} because sub-assembly BOMs {1} are not active"
+msgstr "لا يمكن تفعيل قائمة المواد {0} لأن قوائم مواد التجميع الفرعي {1} غير نشطة"
+
+msgid ""
+"Cannot cancel since the asset's depreciation schedule has changed or depreciation has"
+" been posted after this allocation was submitted"
+msgstr "لا يمكن الإلغاء لأن جدول إهلاك الأصل تغيّر أو تم ترحيل إهلاك بعد ترحيل هذا التخصيص"
+
+#, python-brace-format
+msgid ""
+"Cannot cancel the depreciation schedule of submitted Asset {0}. Cancel the Asset "
+"instead."
+msgstr "لا يمكن إلغاء جدول إهلاك الأصل المُرحَّل {0}. ألغِ الأصل بدلًا من ذلك."
+
+#, python-brace-format
+msgid "Cannot change Account Type for {0} after ledger entries exist"
+msgstr "لا يمكن تغيير نوع الحساب لـ {0} بعد وجود قيود في دفتر الأستاذ"
+
+#, python-brace-format
+msgid ""
+"Cannot change Report Type of {0} from {1} to {2} because the account or its child "
+"accounts have ledger entries."
+msgstr ""
+"لا يمكن تغيير نوع التقرير لـ {0} من {1} إلى {2} لأن الحساب أو حساباته الفرعية لها "
+"قيود في دفتر الأستاذ."
+
+msgid ""
+"Cannot change the company or company shareholder status while shares or submitted "
+"share transfers exist"
+msgstr "لا يمكن تغيير الشركة أو حالة مساهم الشركة أثناء وجود أسهم أو عمليات نقل أسهم مُرحَّلة"
+
+#, python-brace-format
+msgid "Cannot change {0} for company {1} since it has active assets in this category"
+msgstr "لا يمكن تغيير {0} للشركة {1} لوجود أصول نشطة في هذه الفئة"
+
+#, python-brace-format
+msgid "Cannot change {0} of a certificate that is used in Tax Withholding Entries"
+msgstr "لا يمكن تغيير {0} لشهادة مستخدمة في قيود اقتطاع الضريبة"
+
+#, python-brace-format
+msgid "Cannot create a Sales Invoice against Lost Quotation {0}."
+msgstr "لا يمكن إنشاء فاتورة مبيعات مقابل عرض السعر المفقود {0}."
+
+msgid "Cannot delete a certificate that is used in Tax Withholding Entries"
+msgstr "لا يمكن حذف شهادة مستخدمة في قيود اقتطاع الضريبة"
+
+msgid "Cannot delete a shareholder with shares or submitted share transfers"
+msgstr "لا يمكن حذف مساهم لديه أسهم أو عمليات نقل أسهم مُرحَّلة"
+
+#, python-brace-format
+msgid "Cannot find {0} for Item {1}"
+msgstr "تعذّر العثور على {0} للصنف {1}"
+
+#, python-brace-format
+msgid ""
+"Cannot generate the closing balance of Stock Closing Entry {0} while Repost Item "
+"Valuation entries dated on or before {1} are pending. Try again once they are "
+"completed."
+msgstr ""
+"لا يمكن إنشاء رصيد الإقفال لقيد إقفال المخزون {0} بينما توجد قيود إعادة ترحيل تقييم "
+"الصنف معلقة بتاريخ {1} أو قبله. حاول مرة أخرى بعد اكتمالها."
+
+msgid "Cannot mark the category as Non Depreciable since it has assets being depreciated"
+msgstr "لا يمكن تعيين الفئة كغير قابلة للإهلاك لوجود أصول قيد الإهلاك فيها"
+
+#, python-brace-format
+msgid ""
+"Cannot merge into {0}. Its balance after the merge would be in {1}, but its Balance "
+"must be is {2}."
+msgstr "لا يمكن الدمج في {0}. سيكون رصيده بعد الدمج {1}، لكن طبيعة رصيده يجب أن تكون {2}."
+
+#, python-brace-format
+msgid ""
+"Cannot repost item valuation from {0} because {1} {2} falls in the closed Accounting "
+"Period {3}"
+msgstr ""
+"لا يمكن إعادة ترحيل تقييم الصنف من {0} لأن {1} {2} يقع في الفترة المحاسبية المُقفلة "
+"{3}"
+
+#, python-brace-format
+msgid "Cannot set the status of a Subcontracting Order to {0}."
+msgstr "لا يمكن تعيين حالة أمر التعاقد من الباطن إلى {0}."
+
+#, python-brace-format
+msgid ""
+"Cannot uniquely match exchange journals {0} to {1}. Review and cancel the matching "
+"exchange journal and reconciliation journal instead."
+msgstr ""
+"تعذّرت مطابقة قيود الصرف {0} مع {1} بشكل فريد. راجع قيد الصرف المطابق وقيد التسوية "
+"وألغِهما بدلًا من ذلك."
+
+#, python-brace-format
+msgid "Cannot update items of Quotation {0} because it has expired."
+msgstr "لا يمكن تحديث أصناف عرض السعر {0} لأنه منتهي الصلاحية."
+
+#, python-brace-format
+msgid "Cannot update items of Quotation {0} because it is {1}."
+msgstr "لا يمكن تحديث أصناف عرض السعر {0} لأنه {1}."
+
+#, python-brace-format
+msgid "Cannot update items of Supplier Quotation {0} because it is {1}."
+msgstr "لا يمكن تحديث أصناف عرض سعر المورد {0} لأنه {1}."
+
+msgid "Certificate Limit must be greater than 0"
+msgstr "يجب أن يكون حد الشهادة أكبر من 0"
+
+msgid "Change Existing BOM"
+msgstr "تغيير قائمة مواد موجودة"
+
+msgid "Change the Finished Good Quantity to make more."
+msgstr "غيّر كمية المنتج النهائي لإنتاج المزيد."
+
+#, python-brace-format
+msgid "Changes from {0}"
+msgstr "التغييرات من {0}"
+
+msgid "Check Serial No"
+msgstr "التحقق من الرقم التسلسلي"
+
+msgid "Cheque Print Format Requires Review"
+msgstr "تنسيق طباعة الشيك يحتاج إلى مراجعة"
+
+#, python-brace-format
+msgid "Circular reference found for account {0}"
+msgstr "تم العثور على مرجع دائري للحساب {0}"
+
+#, python-brace-format
+msgid "Claimed amount {0} for Vendor Invoice {1} exceeds its unclaimed amount {2}"
+msgstr "المبلغ المطالب به {0} لفاتورة المورد {1} يتجاوز المبلغ غير المطالب به {2}"
+
+#, python-brace-format
+msgid "Click on the model where {0} goes."
+msgstr "انقر على موضع {0} في النموذج."
+
+#, python-brace-format
+msgid "Closing Account {0} cannot be a group account"
+msgstr "لا يمكن أن يكون حساب الإقفال {0} حسابًا تجميعيًا"
+
+#, python-brace-format
+msgid "Closing Account {0} does not belong to Company {1}"
+msgstr "حساب الإقفال {0} لا ينتمي إلى الشركة {1}"
+
+#, python-brace-format
+msgid "Closing Account {0} is disabled"
+msgstr "حساب الإقفال {0} معطّل"
+
+msgid "Closing balances can only be recorded for company bank accounts."
+msgstr "لا يمكن تسجيل أرصدة الإقفال إلا للحسابات المصرفية للشركة."
+
+msgid "Comma separated email addresses"
+msgstr "عناوين بريد إلكتروني مفصولة بفواصل"
+
+msgid "Company Restriction"
+msgstr "تقييد بالشركة"
+
+msgid "Company Restrictions"
+msgstr "قيود الشركات"
+
+#, python-brace-format
+msgid "Company cannot be changed for Warehouse {0} as it has child warehouses"
+msgstr "لا يمكن تغيير الشركة للمستودع {0} لأن لديه مستودعات فرعية"
+
+#, python-brace-format
+msgid "Company cannot be changed for Warehouse {0} as it has stock transactions"
+msgstr "لا يمكن تغيير الشركة للمستودع {0} لأن لديه معاملات مخزون"
+
+#, python-brace-format
+msgid "Company cannot be changed, create South Africa VAT Settings for {0} instead"
+msgstr ""
+"لا يمكن تغيير الشركة، أنشئ إعدادات ضريبة القيمة المضافة لجنوب أفريقيا لـ {0} بدلًا من"
+" ذلك"
+
+msgid "Company is mandatory when Based On is Amount"
+msgstr "الشركة إلزامية عندما يكون الأساس هو المبلغ"
+
+msgid "Company is mandatory when Data Based On is Amount"
+msgstr "الشركة إلزامية عندما يكون أساس البيانات هو المبلغ"
+
+#, python-brace-format
+msgid "Company {0} does not exist or has no abbreviation"
+msgstr "الشركة {0} غير موجودة أو ليس لها اسم مختصر"
+
+#, python-brace-format
+msgid "Company {0} is not in United Arab Emirates."
+msgstr "الشركة {0} ليست في الإمارات العربية المتحدة."
+
+msgid "Compare with Previous Revision"
+msgstr "المقارنة مع المراجعة السابقة"
+
+msgid "Completion Date cannot be in the future"
+msgstr "لا يمكن أن يكون تاريخ الإكمال في المستقبل"
+
+msgid "Completion Date is mandatory for a completed Asset Repair"
+msgstr "تاريخ الإكمال إلزامي لإصلاح أصل مكتمل"
+
+msgid "Consolidated Accounts Payable"
+msgstr "الحسابات الدائنة الموحّدة"
+
+msgid "Consolidated Accounts Payable Summary"
+msgstr "ملخص الحسابات الدائنة الموحّدة"
+
+msgid "Consolidated Accounts Receivable"
+msgstr "الحسابات المدينة الموحّدة"
+
+msgid "Consolidated Accounts Receivable Summary"
+msgstr "ملخص الحسابات المدينة الموحّدة"
+
+msgid "Continue to Transfer"
+msgstr "متابعة إلى النقل"
+
+#, python-brace-format
+msgid "Conversion Rate from {0} to {1} must be greater than zero."
+msgstr "يجب أن يكون معدل التحويل من {0} إلى {1} أكبر من صفر."
+
+msgid "Conversion Rate must be greater than zero."
+msgstr "يجب أن يكون معدل التحويل أكبر من صفر."
+
+#, python-brace-format
+msgid "Cost Center Allocation {0} for {1} is already valid from {2}"
+msgstr "تخصيص مركز التكلفة {0} لـ {1} سارٍ بالفعل من {2}"
+
+#, python-brace-format
+msgid "Cost Center {0} does not belong to Company {1}"
+msgstr "مركز التكلفة {0} لا ينتمي إلى الشركة {1}"
+
+#, python-brace-format
+msgid "Cost Center {0} is a group cost center and cannot be used in an allocation"
+msgstr "مركز التكلفة {0} مركز تكلفة تجميعي ولا يمكن استخدامه في التخصيص"
+
+#, python-brace-format
+msgid "Cost Center {0} is disabled"
+msgstr "مركز التكلفة {0} معطّل"
+
+msgid "Could not be created from:"
+msgstr "تعذّر الإنشاء من:"
+
+msgid "Could not find a YouTube video ID in the URL"
+msgstr "تعذّر العثور على معرّف فيديو YouTube في الرابط"
+
+#, python-brace-format
+msgid "Could not move asset {0} out of CWIP"
+msgstr "تعذّر نقل الأصل {0} من الأعمال الرأسمالية تحت التنفيذ"
+
+msgid "Create BOMs"
+msgstr "إنشاء قوائم المواد"
+
+msgid "Create Contact"
+msgstr "إنشاء جهة اتصال"
+
+msgid "Create Items for Parts Without an Item"
+msgstr "إنشاء أصناف للأجزاء التي ليس لها صنف"
+
+msgid "Create Missing Items"
+msgstr "إنشاء الأصناف المفقودة"
+
+msgid "Create Proforma Invoice"
+msgstr "إنشاء فاتورة مبدئية"
+
+msgid "Create Visit"
+msgstr "إنشاء زيارة"
+
+msgid "Creating Proforma Invoice..."
+msgstr "جارٍ إنشاء الفاتورة المبدئية..."
+
+msgid "Credit Manager"
+msgstr "مدير الائتمان"
+
+#, python-brace-format
+msgid ""
+"Currency of Price List {0} cannot be changed because it has {1} Item Prices in {2}. "
+"Create a new Price List for {3} instead."
+msgstr ""
+"لا يمكن تغيير عملة قائمة الأسعار {0} لأن لديها {1} من أسعار الأصناف بعملة {2}. أنشئ "
+"قائمة أسعار جديدة بعملة {3} بدلًا من ذلك."
+
+msgid "Current BOM and New BOM must have the same company and currency"
+msgstr "يجب أن تكون لقائمة المواد الحالية وقائمة المواد الجديدة نفس الشركة والعملة"
+
+msgid "Customer Group is mandatory to merge invoices based on Customer Group"
+msgstr "مجموعة الزبائن إلزامية لدمج الفواتير على أساس مجموعة الزبائن"
+
+msgid "Customer Name is mandatory"
+msgstr "اسم الزبون إلزامي"
+
+#, python-brace-format
+msgid "Customer {0} already exists for this Opportunity"
+msgstr "الزبون {0} موجود بالفعل لفرصة البيع هذه"
+
+#, python-brace-format
+msgid "Customer {0} is not enrolled in a Loyalty Program"
+msgstr "الزبون {0} غير مسجّل في برنامج ولاء"
+
+msgid "Customers can be notified only for a submitted Delivery Trip"
+msgstr "لا يمكن إخطار الزبائن إلا لرحلة تسليم مُرحَّلة"
+
+#, python-brace-format
+msgid "Default Common Code {0} does not belong to Code List {1}"
+msgstr "الرمز المشترك الافتراضي {0} لا ينتمي إلى قائمة الرموز {1}"
+
+#, python-brace-format
+msgid "Default In-Transit Warehouse {0} must be a Transit ledger warehouse of Company {1}"
+msgstr "يجب أن يكون مستودع العبور الافتراضي {0} مستودع عبور تابعًا للشركة {1}"
+
+#, python-brace-format
+msgid "Default Price List {0} is not applicable for {1}"
+msgstr "قائمة الأسعار الافتراضية {0} غير قابلة للتطبيق على {1}"
+
+msgid "Default Proforma Print Format"
+msgstr "تنسيق الطباعة الافتراضي للفاتورة المبدئية"
+
+msgid "Default Quotation Validity Days must be a whole number of days, 0 or more."
+msgstr "يجب أن تكون أيام صلاحية عرض السعر الافتراضية عددًا صحيحًا من الأيام، 0 أو أكثر."
+
+msgid "Default print format used when generating a Proforma Invoice PDF."
+msgstr "تنسيق الطباعة الافتراضي المستخدم عند إنشاء ملف PDF للفاتورة المبدئية."
+
+#, python-brace-format
+msgid "Delivery Note {0} is cancelled"
+msgstr "إشعار التسليم {0} ملغى"
+
+#, python-brace-format
+msgid "Delivery Note {0} is closed and cannot be invoiced"
+msgstr "إشعار التسليم {0} مُغلق ولا يمكن فوترته"
+
+#, python-brace-format
+msgid "Delivery Notes are already on another Delivery Trip: {0}"
+msgstr "إشعارات التسليم موجودة بالفعل في رحلة تسليم أخرى: {0}"
+
+#, python-brace-format
+msgid "Delivery Notes {0} do not belong to Company {1}"
+msgstr "إشعارات التسليم {0} لا تنتمي إلى الشركة {1}"
+
+msgid "Design"
+msgstr "تصميم"
+
+msgid "Design File"
+msgstr "ملف التصميم"
+
+msgid "Design Name"
+msgstr "اسم التصميم"
+
+msgid "Design Quantity"
+msgstr "كمية التصميم"
+
+msgid "Design View"
+msgstr "عرض التصميم"
+
+#, python-brace-format
+msgid "Design file: {0}"
+msgstr "ملف التصميم: {0}"
+
+#, python-brace-format
+msgid "Difference Account {0} cannot be a Stock account"
+msgstr "لا يمكن أن يكون حساب الفروقات {0} حساب مخزون"
+
+msgid "Disabled Item Tax Template"
+msgstr "قالب ضريبة صنف معطّل"
+
+msgid "Discount applied in the reference document currency."
+msgstr "الخصم المطبّق بعملة المستند المرجعي."
+
+msgid "Discount must be between 0 and 100"
+msgstr "يجب أن يكون الخصم بين 0 و100"
+
+#, python-brace-format
+msgid "Dispatch Attachment {0} must be a Print Format for Delivery Note"
+msgstr "يجب أن يكون مرفق الإرسال {0} تنسيق طباعة لإشعار التسليم"
+
+#, python-brace-format
+msgid "Downtime overlaps with {0} for workstation {1}"
+msgstr "يتداخل التوقف مع {0} لمحطة العمل {1}"
+
+#, python-brace-format
+msgid "Dunning {0} has already been settled through Dunning {1}."
+msgstr "تمت تسوية إشعار المطالبة {0} بالفعل عبر إشعار المطالبة {1}."
+
+msgid ""
+"Each operation makes an item that a later operation can use. The last operation makes"
+" the finished good."
+msgstr "كل عملية تُنتج صنفًا يمكن لعملية لاحقة استخدامه. آخر عملية تُنتج المنتج النهائي."
+
+msgid ""
+"Each operation produces its own output item and puts it in stock, for example Cut "
+"Sheet, then Painted Sheet, then the final Box."
+msgstr ""
+"كل عملية تُنتج صنفها الخاص وتضعه في المخزون، مثلًا لوح مقصوص، ثم لوح مطلي، ثم الصندوق"
+" النهائي."
+
+msgid "Edit in Full Page"
+msgstr "التحرير في صفحة كاملة"
+
+msgid "Emailed To"
+msgstr "أُرسل بالبريد إلى"
+
+msgid "Enable Proforma Invoice"
+msgstr "تفعيل الفاتورة المبدئية"
+
+#, python-brace-format
+msgid "Enter the Incoming Rate (Costing) in the {0} Item table."
+msgstr "أدخل سعر الوارد (التكلفة) في جدول الأصناف {0}."
+
+#, python-brace-format
+msgid "Every row of Item {0} in {1} {2} already has a Quality Inspection"
+msgstr "كل صف للصنف {0} في {1} {2} لديه فحص جودة بالفعل"
+
+msgid "Exceeds Pending Qty"
+msgstr "يتجاوز الكمية المعلقة"
+
+msgid "Exceeds Requested Qty"
+msgstr "يتجاوز الكمية المطلوبة"
+
+msgid "Excess Return"
+msgstr "مرتجع زائد"
+
+msgid "Exchange Journal Mismatch"
+msgstr "عدم تطابق قيد الصرف"
+
+msgid "Exchange Rate Missing"
+msgstr "سعر الصرف مفقود"
+
+#, python-brace-format
+msgid "Exchange journal {0} could not be matched to reconciliation journal {1}."
+msgstr "تعذّرت مطابقة قيد الصرف {0} مع قيد التسوية {1}."
+
+#, python-brace-format
+msgid ""
+"Exchange rate from {0} to {1} on {2} not found. Create a {3} record and run the "
+"report again."
+msgstr ""
+"لم يتم العثور على سعر الصرف من {0} إلى {1} بتاريخ {2}. أنشئ سجل {3} وشغّل التقرير مرة"
+" أخرى."
+
+msgid "Exclude from BOM"
+msgstr "استبعاد من قائمة المواد"
+
+#, python-brace-format
+msgid "Finance Book {0} is not set on Asset {1}"
+msgstr "الدفتر المالي {0} غير معيّن على الأصل {1}"
+
+msgid "Finished Good Quantity"
+msgstr "كمية المنتج النهائي"
+
+msgid "Fix These Before Creating BOMs"
+msgstr "أصلح هذه قبل إنشاء قوائم المواد"
+
+msgid "Fix These Steps"
+msgstr "أصلح هذه الخطوات"
+
+msgid "From Date cannot be after To Date"
+msgstr "لا يمكن أن يكون تاريخ البدء بعد تاريخ الانتهاء"
+
+msgid "Fulfilment terms cannot be added or removed after submission."
+msgstr "لا يمكن إضافة شروط التنفيذ أو إزالتها بعد الترحيل."
+
+msgid "GL Balance (Account Currency)"
+msgstr "رصيد دفتر الأستاذ العام (بعملة الحساب)"
+
+msgid "Group By Company"
+msgstr "تجميع حسب الشركة"
+
+msgid "Group the report by Purchase Order or by Item, not both."
+msgstr "جمّع التقرير حسب أمر الشراء أو حسب الصنف، وليس كليهما."
+
+msgid "Hide Item Quantity in Print"
+msgstr "إخفاء كمية الصنف في الطباعة"
+
+msgid "Hide the item quantity and rate on the printed proforma."
+msgstr "إخفاء كمية الصنف وسعره في الفاتورة المبدئية المطبوعة."
+
+msgid ""
+"If checked, this Customer is only available for transactions in the companies listed "
+"below."
+msgstr "إذا تم تحديده، يكون هذا الزبون متاحًا للمعاملات في الشركات المدرجة أدناه فقط."
+
+msgid ""
+"If checked, this Item is only available for transactions in the companies listed "
+"below."
+msgstr "إذا تم تحديده، يكون هذا الصنف متاحًا للمعاملات في الشركات المدرجة أدناه فقط."
+
+msgid ""
+"If checked, this Supplier is only available for transactions in the companies listed "
+"below."
+msgstr "إذا تم تحديده، يكون هذا المورد متاحًا للمعاملات في الشركات المدرجة أدناه فقط."
+
+msgid "Include Existing BOM"
+msgstr "تضمين قائمة مواد موجودة"
+
+msgid "Include Item in Manufacturing"
+msgstr "تضمين الصنف في التصنيع"
+
+msgid "Include Items of Sub-Assemblies"
+msgstr "تضمين أصناف التجميعات الفرعية"
+
+msgid "Income Account is required to collect dunning fees or interest."
+msgstr "حساب الإيرادات مطلوب لتحصيل رسوم المطالبة أو الفوائد."
+
+msgid "Incorrect Stock Entry"
+msgstr "قيد مخزون غير صحيح"
+
+msgid "Increment must be greater than 0"
+msgstr "يجب أن تكون الزيادة أكبر من 0"
+
+msgid "Inside a used assembly"
+msgstr "داخل تجميع مستخدم"
+
+msgid "Invalid 3D Model"
+msgstr "نموذج ثلاثي الأبعاد غير صالح"
+
+msgid "Invalid Accounts"
+msgstr "حسابات غير صالحة"
+
+msgid "Invalid BOM"
+msgstr "قائمة مواد غير صالحة"
+
+msgid "Invalid Cashier"
+msgstr "أمين صندوق غير صالح"
+
+msgid "Invalid Clearance Date"
+msgstr "تاريخ مقاصة غير صالح"
+
+msgid "Invalid Design File"
+msgstr "ملف تصميم غير صالح"
+
+msgid "Invalid Item Selection"
+msgstr "اختيار صنف غير صالح"
+
+msgid "Invalid Parent Node"
+msgstr "عقدة أصل غير صالحة"
+
+msgid "Invalid Party"
+msgstr "طرف غير صالح"
+
+msgid "Invalid Party Type"
+msgstr "نوع طرف غير صالح"
+
+msgid "Invalid Tax Row"
+msgstr "صف ضريبة غير صالح"
+
+msgid "Invalid Transaction Type"
+msgstr "نوع معاملة غير صالح"
+
+msgid "Invalid Voucher"
+msgstr "سند غير صالح"
+
+#, python-brace-format
+msgid "Invalid currency: {0}"
+msgstr "عملة غير صالحة: {0}"
+
+#, python-brace-format
+msgid "Invalid party type: {0}"
+msgstr "نوع طرف غير صالح: {0}"
+
+msgid "Invalid transaction date"
+msgstr "تاريخ معاملة غير صالح"
+
+#, python-brace-format
+msgid "Inventory Dimension {0} cannot be deleted as stock transactions exist against it"
+msgstr "لا يمكن حذف بُعد المخزون {0} لوجود معاملات مخزون مرتبطة به"
+
+msgid "Invoiced Amount (Excl. Tax)"
+msgstr "المبلغ المفوتر (بدون الضريبة)"
+
+#, python-brace-format
+msgid ""
+"Invoices {0} of this POS session are not in this POS Closing Entry. Create the POS "
+"Closing Entry again to include them."
+msgstr ""
+"الفواتير {0} الخاصة بجلسة نقطة البيع هذه غير موجودة في قيد إقفال نقطة البيع هذا. أنشئ"
+" قيد إقفال نقطة البيع مرة أخرى لتضمينها."
+
+msgid "Inward Order Summary"
+msgstr "ملخص الأوامر الواردة"
+
+msgid "Is Assembly"
+msgstr "تجميع"
+
+msgid "Is Packed Item"
+msgstr "صنف معبّأ"
+
+msgid "Is Rate of Depreciation Entered"
+msgstr "تم إدخال معدل الإهلاك"
+
+msgid "Item Group for New Items"
+msgstr "مجموعة الأصناف للأصناف الجديدة"
+
+#, python-brace-format
+msgid "Item Tax Row {0}: Account {1} is a group account"
+msgstr "صف ضريبة الصنف {0}: الحساب {1} حساب تجميعي"
+
+#, python-brace-format
+msgid "Item Tax Template {0} does not belong to Company {1}"
+msgstr "قالب ضريبة الصنف {0} لا ينتمي إلى الشركة {1}"
+
+#, python-brace-format
+msgid "Item Tax Template {0} is disabled"
+msgstr "قالب ضريبة الصنف {0} معطّل"
+
+msgid "Item group of the items created from design parts."
+msgstr "مجموعة الأصناف للأصناف المُنشأة من أجزاء التصميم."
+
+msgid "Item image updated"
+msgstr "تم تحديث صورة الصنف"
+
+msgid "Item this step makes"
+msgstr "الصنف الذي تُنتجه هذه الخطوة"
+
+#, python-brace-format
+msgid ""
+"Item {0} is already a component of Product Bundle {1}; nested bundles are not "
+"supported."
+msgstr "الصنف {0} مكوّن بالفعل في حزمة المنتجات {1}؛ الحزم المتداخلة غير مدعومة."
+
+#, python-brace-format
+msgid "Item {0} is missing from this disassembly. Get the items again."
+msgstr "الصنف {0} مفقود من عملية التفكيك هذه. اجلب الأصناف مرة أخرى."
+
+#, python-brace-format
+msgid "Item {0} is not a row of {1} {2}."
+msgstr "الصنف {0} ليس صفًا في {1} {2}."
+
+#, python-brace-format
+msgid "Item {0} is not a stock item."
+msgstr "الصنف {0} ليس صنفًا مخزنيًا."
+
+#, python-brace-format
+msgid "Item {0} is not part of the BOM {1} and cannot be added to this disassembly."
+msgstr "الصنف {0} ليس جزءًا من قائمة المواد {1} ولا يمكن إضافته إلى عملية التفكيك هذه."
+
+#, python-brace-format
+msgid "Item {0} quantity ({1} in stock UOM) does not match the BOM quantity {2}."
+msgstr "كمية الصنف {0} ({1} بوحدة قياس المخزون) لا تطابق كمية قائمة المواد {2}."
+
+#, python-brace-format
+msgid ""
+"Item {0}: cannot return {1} to the store, Work Order {2} has only {3} of it left "
+"unconsumed."
+msgstr ""
+"الصنف {0}: لا يمكن إرجاع {1} إلى المخزن، فأمر العمل {2} لم يتبقَّ منه دون استهلاك سوى"
+" {3}."
+
+msgid "Items To Be Delivered"
+msgstr "أصناف بانتظار التسليم"
+
+#, python-brace-format
+msgid "Items {0} are not Customer Provided Items"
+msgstr "الأصناف {0} ليست أصنافًا مقدَّمة من الزبون"
+
+msgid "Job Card Required"
+msgstr "بطاقة العمل مطلوبة"
+
+#, python-brace-format
+msgid ""
+"Job Card {0} has no completed quantity yet. Click Start Job when the work begins, "
+"then click Complete Job and enter the quantity made. After that you can submit it."
+msgstr ""
+"بطاقة العمل {0} ليس لها كمية مكتملة بعد. انقر على بدء المهمة عند بدء العمل، ثم انقر "
+"على إكمال المهمة وأدخل الكمية المُنتَجة. بعد ذلك يمكنك ترحيلها."
+
+#, python-brace-format
+msgid "Job Card {0} is not for workstation {1}"
+msgstr "بطاقة العمل {0} ليست لمحطة العمل {1}"
+
+#, python-brace-format
+msgid "Job Card {0} is not open"
+msgstr "بطاقة العمل {0} غير مفتوحة"
+
+msgid "Job Not Done Yet"
+msgstr "لم يُنجَز العمل بعد"
+
+#, python-brace-format
+msgid "Journal Entries are already created for Supplier {0}"
+msgstr "تم إنشاء قيود اليومية بالفعل للمورد {0}"
+
+msgid "Last Step"
+msgstr "الخطوة الأخيرة"
+
+msgid "Last YouTube Update"
+msgstr "آخر تحديث من YouTube"
+
+msgid "Latitude must be between -90 and 90"
+msgstr "يجب أن يكون خط العرض بين -90 و90"
+
+#, python-brace-format
+msgid "Lead {0} is added more than once"
+msgstr "تمت إضافة الزبون المحتمل {0} أكثر من مرة"
+
+#, python-brace-format
+msgid "Lead {0} is already converted to Customer {1}"
+msgstr "تم تحويل الزبون المحتمل {0} بالفعل إلى الزبون {1}"
+
+#, python-brace-format
+msgid "Lead {0} is already in Prospect {1}"
+msgstr "الزبون المحتمل {0} موجود بالفعل في الزبون المرتقب {1}"
+
+#, python-brace-format
+msgid "Lead {0} is already in another Prospect"
+msgstr "الزبون المحتمل {0} موجود بالفعل في زبون مرتقب آخر"
+
+#, python-brace-format
+msgid "Lead {0} is disabled. Enable it to create a new {1}."
+msgstr "الزبون المحتمل {0} معطّل. فعّله لإنشاء {1} جديد."
+
+msgid "Leave blank if the Customer is blocked indefinitely"
+msgstr "اتركه فارغًا إذا كان الزبون محظورًا إلى أجل غير مسمى"
+
+msgid "Loading 3D model..."
+msgstr "جارٍ تحميل النموذج ثلاثي الأبعاد..."
+
+msgid "Longitude must be between -180 and 180"
+msgstr "يجب أن يكون خط الطول بين -180 و180"
+
+msgid "Lost On"
+msgstr "تاريخ الخسارة"
+
+msgid "Loyalty Points can be redeemed in a Payment Request only for Shopping Cart orders"
+msgstr "لا يمكن استبدال نقاط الولاء في طلب دفع إلا لطلبات سلة التسوق"
+
+msgid "Loyalty Points to redeem must be greater than 0."
+msgstr "يجب أن تكون نقاط الولاء المراد استبدالها أكبر من 0."
+
+msgid "Made from Stock Valuation Comparison"
+msgstr "مُنشأ من مقارنة تقييم المخزون"
+
+#, python-brace-format
+msgid "Maintenance Manager {0} must be a member of the team."
+msgstr "يجب أن يكون مدير الصيانة {0} عضوًا في الفريق."
+
+msgid "Makes"
+msgstr "يُنتج"
+
+#, python-brace-format
+msgid ""
+"Manufactured Qty ({0}) cannot be less than the Disassembled Qty ({1}) of Work Order "
+"{2}. Cancel the disassembly first."
+msgstr ""
+"لا يمكن أن تكون الكمية المصنّعة ({0}) أقل من الكمية المفككة ({1}) لأمر العمل {2}. "
+"ألغِ عملية التفكيك أولًا."
+
+msgid "Map Item"
+msgstr "ربط الصنف"
+
+msgid "Map Items"
+msgstr "ربط الأصناف"
+
+#, python-brace-format
+msgid "Map an item to these parts: {0}"
+msgstr "اربط صنفًا بهذه الأجزاء: {0}"
+
+msgid "Map the finished good to an item."
+msgstr "اربط المنتج النهائي بصنف."
+
+msgid "Matched On"
+msgstr "تمت المطابقة في"
+
+msgid "Matching parts to items..."
+msgstr "جارٍ مطابقة الأجزاء مع الأصناف..."
+
+#, python-brace-format
+msgid "Material Request {0} is stopped"
+msgstr "طلب المواد {0} متوقف"
+
+msgid "Materials"
+msgstr "المواد"
+
+#, python-brace-format
+msgid "Materials row #{0}"
+msgstr "صف المواد #{0}"
+
+#, python-brace-format
+msgid "Maximum Samples - {0} can be retained for Item {1}."
+msgstr "يمكن الاحتفاظ بحد أقصى {0} من العينات للصنف {1}."
+
+msgid ""
+"Merging is only possible if following properties are same in both records. Is Group, "
+"Root Type, Company, Account Currency and, for ledger accounts, Account Type"
+msgstr ""
+"لا يمكن الدمج إلا إذا كانت الخصائص التالية متطابقة في السجلين: مجموعة، نوع الجذر، "
+"الشركة، عملة الحساب، ونوع الحساب لحسابات دفتر الأستاذ"
+
+msgid "Message (if any)"
+msgstr "الرسالة (إن وجدت)"
+
+msgid "Missing Account Types"
+msgstr "أنواع حسابات مفقودة"
+
+msgid "Missing Design Name"
+msgstr "اسم التصميم مفقود"
+
+msgid "Missing Disassembly Item"
+msgstr "صنف التفكيك مفقود"
+
+msgid "Missing Invoices"
+msgstr "فواتير مفقودة"
+
+msgid "Missing POS Fields"
+msgstr "حقول نقطة البيع مفقودة"
+
+msgid "Missing Part"
+msgstr "جزء مفقود"
+
+#, python-brace-format
+msgid "Mode of Payment {0} is disabled."
+msgstr "طريقة الدفع {0} معطّلة."
+
+#, python-brace-format
+msgid "Mode of Payment {0} is not allowed in POS Profile {1}."
+msgstr "طريقة الدفع {0} غير مسموح بها في ملف نقطة البيع {1}."
+
+msgid "Move Materials"
+msgstr "نقل المواد"
+
+#, python-brace-format
+msgid ""
+"Move the raw materials to the Work In Progress warehouse {0} first. Click Move "
+"Materials on Job Card {1} and submit the Stock Entry it opens. Then click Start Job."
+msgstr ""
+"انقل المواد الخام إلى مستودع الإنتاج تحت التشغيل {0} أولًا. انقر على نقل المواد في "
+"بطاقة العمل {1} ورحّل قيد المخزون الذي يفتحه. ثم انقر على بدء المهمة."
+
+msgid "Nested Product Bundle"
+msgstr "حزمة منتجات متداخلة"
+
+msgid "Net Change in Other Balance Sheet Accounts"
+msgstr "صافي التغير في حسابات الميزانية العمومية الأخرى"
+
+msgid "Net change from Asset Value Adjustments"
+msgstr "صافي التغير من تعديلات قيمة الأصول"
+
+msgid "New Asset Value cannot be negative"
+msgstr "لا يمكن أن تكون قيمة الأصل الجديدة سالبة"
+
+msgid "New Asset Value is the same as the current asset value"
+msgstr "قيمة الأصل الجديدة مماثلة لقيمة الأصل الحالية"
+
+#, python-brace-format
+msgid "New BOM {0} must be submitted and active"
+msgstr "يجب أن تكون قائمة المواد الجديدة {0} مُرحَّلة ونشطة"
+
+msgid "New Proforma Invoice"
+msgstr "فاتورة مبدئية جديدة"
+
+msgid "New Revision"
+msgstr "مراجعة جديدة"
+
+msgid "No Available Purchase Row"
+msgstr "لا يوجد صف شراء متاح"
+
+msgid "No Credit Note was created because the returned items were not invoiced"
+msgstr "لم يتم إنشاء إشعار دائن لأن الأصناف المرتجعة لم تتم فوترتها"
+
+msgid "No Pending Materials"
+msgstr "لا توجد مواد معلقة"
+
+#, python-brace-format
+msgid ""
+"No open Sales Orders found for this Sales Forecast's items. Use {0} to see the "
+"forecasted demand."
+msgstr ""
+"لم يتم العثور على أوامر بيع مفتوحة لأصناف توقعات المبيعات هذه. استخدم {0} لرؤية الطلب"
+" المتوقع."
+
+msgid "No proforma invoices yet."
+msgstr "لا توجد فواتير مبدئية بعد."
+
+msgid "No raw materials"
+msgstr "لا توجد مواد خام"
+
+msgid "Node"
+msgstr "عقدة"
+
+msgid "Node of the assembly this part goes into. 0 means the finished good."
+msgstr "عقدة التجميع الذي يدخل فيه هذا الجزء. 0 تعني المنتج النهائي."
+
+msgid "Node of the design part. 0 means the finished good."
+msgstr "عقدة جزء التصميم. 0 تعني المنتج النهائي."
+
+msgid "Not Allowed Purpose"
+msgstr "غرض غير مسموح به"
+
+msgid "Not Assigned"
+msgstr "غير معيّن"
+
+msgid "Not Enough Stock"
+msgstr "المخزون غير كافٍ"
+
+msgid "Not Mapped"
+msgstr "غير مربوط"
+
+msgid "Not Ordered"
+msgstr "لم يُطلب"
+
+#, python-brace-format
+msgid "Not permitted to view Contact {0}"
+msgstr "غير مسموح بعرض جهة الاتصال {0}"
+
+msgid ""
+"Number of days after the invoice due date before canceling the subscription or "
+"marking it as unpaid"
+msgstr "عدد الأيام بعد تاريخ استحقاق الفاتورة قبل إلغاء الاشتراك أو تعيينه كغير مدفوع"
+
+msgid "Number of periods must be greater than zero"
+msgstr "يجب أن يكون عدد الفترات أكبر من صفر"
+
+#, python-brace-format
+msgid "Numeric Values cannot be changed for Attribute {0} as it is used in variants"
+msgstr "لا يمكن تغيير القيم الرقمية للسمة {0} لأنها مستخدمة في المتغيرات"
+
+msgid "Only a POS Closing Entry with status Failed can be retried"
+msgstr "لا يمكن إعادة المحاولة إلا لقيد إقفال نقطة بيع حالته فشل"
+
+msgid "Only a submitted Delivery Note can be closed or reopened"
+msgstr "لا يمكن إغلاق أو إعادة فتح إلا إشعار تسليم مُرحَّل"
+
+msgid "Only a submitted Purchase Receipt can be closed or reopened"
+msgstr "لا يمكن إغلاق أو إعادة فتح إلا إشعار استلام مشتريات مُرحَّل"
+
+msgid "Only a submitted Quotation can be set as Lost."
+msgstr "لا يمكن تعيين عرض السعر كمفقود إلا إذا كان مُرحَّلًا."
+
+msgid "Only a submitted Repost Item Valuation with status Failed can be restarted"
+msgstr "لا يمكن إعادة تشغيل إلا قيد إعادة ترحيل تقييم صنف مُرحَّل حالته فشل"
+
+msgid "Only a submitted Sales Order can be put On Hold, Closed or re-opened"
+msgstr "لا يمكن تعليق أمر البيع أو إغلاقه أو إعادة فتحه إلا إذا كان مُرحَّلًا"
+
+msgid "Only a submitted Subcontracting Inward Order can be closed or re-opened."
+msgstr "لا يمكن إغلاق أو إعادة فتح إلا أمر تعاقد وارد من الباطن مُرحَّل."
+
+msgid "Only a submitted Subcontracting Order can be closed or re-opened."
+msgstr "لا يمكن إغلاق أو إعادة فتح إلا أمر تعاقد من الباطن مُرحَّل."
+
+msgid "Only a submitted Work Order can be closed, stopped or resumed"
+msgstr "لا يمكن إغلاق أمر العمل أو إيقافه أو استئنافه إلا إذا كان مُرحَّلًا"
+
+msgid "Only an Asset Repair with Repair Status Completed can be submitted."
+msgstr "لا يمكن ترحيل إصلاح الأصل إلا إذا كانت حالة الإصلاح مكتمل."
+
+msgid "Only an issued Proforma Invoice can be emailed."
+msgstr "لا يمكن إرسال الفاتورة المبدئية بالبريد الإلكتروني إلا بعد إصدارها."
+
+#, python-brace-format
+msgid "Only one step can be the Last Step, but it is ticked on steps {0}."
+msgstr "يمكن أن تكون خطوة واحدة فقط هي الخطوة الأخيرة، لكنها محددة في الخطوات {0}."
+
+#, python-brace-format
+msgid "Only stock items can be forecast: {0}"
+msgstr "لا يمكن التنبؤ إلا بالأصناف المخزنية: {0}"
+
+msgid "Only system users can fetch exchange rates from an external provider."
+msgstr "لا يمكن جلب أسعار الصرف من مزوّد خارجي إلا لمستخدمي النظام."
+
+msgid ""
+"Only works for Purchase Receipt, Purchase Invoice with Update Stock and Stock Entry "
+"with no row that has both a Source and Target Warehouse"
+msgstr ""
+"يعمل فقط لإشعار استلام المشتريات، وفاتورة الشراء مع تحديث المخزون، وقيد المخزون الذي "
+"لا يحتوي على صف له مستودع مصدر ومستودع هدف معًا"
+
+#, python-brace-format
+msgid ""
+"Only {0} Loyalty Points of Customer {1} are free. The other points are used in open "
+"Shopping Cart orders."
+msgstr "{0} فقط من نقاط ولاء الزبون {1} متاحة. النقاط الأخرى مستخدمة في طلبات سلة تسوق مفتوحة."
+
+#, python-brace-format
+msgid "Only {0} {1} of {2} is pending in Work Order {3}."
+msgstr "{0} {1} فقط من {2} معلقة في أمر العمل {3}."
+
+#, python-brace-format
+msgid "Only {0} {1} of {2} is pending to request in Job Card {3}."
+msgstr "{0} {1} فقط من {2} معلقة للطلب في بطاقة العمل {3}."
+
+msgid "Open a design with a STEP file to place parts in the model."
+msgstr "افتح تصميمًا يحتوي على ملف STEP لوضع الأجزاء في النموذج."
+
+#, python-brace-format
+msgid "Opening Accumulated Depreciation must be less than or equal to {0}"
+msgstr "يجب أن يكون الإهلاك المتراكم الافتتاحي أقل من أو يساوي {0}"
+
+msgid "Operation Name"
+msgstr "اسم العملية"
+
+msgid "Operation Time (Minutes)"
+msgstr "وقت العملية (بالدقائق)"
+
+msgid "Operation of the routing that uses this material."
+msgstr "عملية التوجيه التي تستخدم هذه المادة."
+
+#, python-brace-format
+msgid ""
+"Operation {0} has already completed {1}, more than the {2} that operation {3} would "
+"have. Cancel the Job Cards of operation {0} first."
+msgstr ""
+"أكملت العملية {0} بالفعل {1}، أكثر من {2} التي ستتوفر لدى العملية {3}. ألغِ بطاقات "
+"العمل للعملية {0} أولًا."
+
+#, python-brace-format
+msgid "Operations row #{0}"
+msgstr "صف العمليات #{0}"
+
+#, python-brace-format
+msgid "Opportunity From must be one of {0}"
+msgstr "يجب أن يكون حقل فرصة البيع من أحد {0}"
+
+#, python-brace-format
+msgid "Opportunity {0} is already for a Customer"
+msgstr "فرصة البيع {0} مرتبطة بزبون بالفعل"
+
+msgid "Outdated"
+msgstr "قديم"
+
+msgid "Output Item"
+msgstr "صنف الناتج"
+
+msgid "Output Item BOM"
+msgstr "قائمة مواد صنف الناتج"
+
+msgid "Output Item not set"
+msgstr "صنف الناتج غير معيّن"
+
+msgid "Output Node"
+msgstr "عقدة الناتج"
+
+msgid "Output Qty"
+msgstr "كمية الناتج"
+
+msgid "Output Quantity"
+msgstr "كمية الناتج"
+
+msgid "Output of Operation ID"
+msgstr "ناتج معرّف العملية"
+
+#, python-brace-format
+msgid "Output of {0}"
+msgstr "ناتج {0}"
+
+msgid "Overlapping Slabs"
+msgstr "شرائح متداخلة"
+
+msgid "Own BOM"
+msgstr "قائمة مواد خاصة"
+
+#, python-brace-format
+msgid "Packing Slip cannot be cancelled as Delivery Note {0} is already submitted."
+msgstr "لا يمكن إلغاء قائمة التعبئة لأن إشعار التسليم {0} مُرحَّل بالفعل."
+
+msgid "Parent Node"
+msgstr "العقدة الأصل"
+
+#, python-brace-format
+msgid "Parent Warehouse {0} must be a group warehouse of Company {1}"
+msgstr "يجب أن يكون المستودع الأصل {0} مستودعًا تجميعيًا للشركة {1}"
+
+#, python-brace-format
+msgid "Parent Warehouse {0} must be a group warehouse of company {1}"
+msgstr "يجب أن يكون المستودع الأصل {0} مستودعًا تجميعيًا للشركة {1}"
+
+msgid "Part"
+msgstr "جزء"
+
+msgid "Part Name"
+msgstr "اسم الجزء"
+
+msgid "Part Node"
+msgstr "عقدة الجزء"
+
+msgid "Part Number"
+msgstr "رقم الجزء"
+
+msgid "Part number of the top assembly in the design file."
+msgstr "رقم جزء التجميع الأعلى في ملف التصميم."
+
+#, python-brace-format
+msgid "Part {0} is inside its own assembly."
+msgstr "الجزء {0} موجود داخل تجميعه الخاص."
+
+#, python-brace-format
+msgid "Part {0} is mapped to item {1}, which is also its own assembly."
+msgstr "الجزء {0} مربوط بالصنف {1}، وهو أيضًا تجميعه الخاص."
+
+#, python-brace-format
+msgid "Part {0} was removed because its assembly is not in the new design file."
+msgstr "تمت إزالة الجزء {0} لأن تجميعه غير موجود في ملف التصميم الجديد."
+
+msgid "Parts"
+msgstr "الأجزاء"
+
+msgid "Parts Not Used in Any BOM"
+msgstr "أجزاء غير مستخدمة في أي قائمة مواد"
+
+msgid "Parts Without an Item"
+msgstr "أجزاء ليس لها صنف"
+
+#, python-brace-format
+msgid "Parts from the submitted design file cannot be removed: {0}"
+msgstr "لا يمكن إزالة أجزاء من ملف التصميم المُرحَّل: {0}"
+
+msgid "Parts used directly"
+msgstr "أجزاء مستخدمة مباشرة"
+
+#, python-brace-format
+msgid "Parts {0} and {1} in the same assembly are mapped to item {2}."
+msgstr "الجزءان {0} و{1} في التجميع نفسه مربوطان بالصنف {2}."
+
+#, python-brace-format
+msgid "Party Type {0} is not valid for {1} {2}"
+msgstr "نوع الطرف {0} غير صالح لـ {1} {2}"
+
+msgid "Party query filters must be a dictionary"
+msgstr "يجب أن تكون عوامل تصفية استعلام الطرف قاموسًا"
+
+msgid "Payment Ledger Balance (Account Currency)"
+msgstr "رصيد دفتر أستاذ المدفوعات (بعملة الحساب)"
+
+msgid "Payment Term Discount"
+msgstr "خصم شرط الدفع"
+
+msgid "Payment Term Discounts Calculated"
+msgstr "تم حساب خصومات شروط الدفع"
+
+msgid "Payment amount must be greater than 0."
+msgstr "يجب أن يكون مبلغ الدفع أكبر من 0."
+
+#, python-brace-format
+msgid "Pending Qty {0} cannot be more than the {1} left after the Total Completed Qty"
+msgstr "لا يمكن أن تكون الكمية المعلقة {0} أكثر من {1} المتبقية بعد إجمالي الكمية المكتملة"
+
+#, python-brace-format
+msgid ""
+"Period Closing Voucher {0} has GL Entry Processing Status {1}. Complete or cancel it "
+"before closing the next period."
+msgstr ""
+"حالة معالجة قيود دفتر الأستاذ العام لقيد إقفال الفترة {0} هي {1}. أكمله أو ألغِه قبل "
+"إقفال الفترة التالية."
+
+#, python-brace-format
+msgid "Period Closing Voucher {0} has already been processed"
+msgstr "تمت معالجة قيد إقفال الفترة {0} بالفعل"
+
+#, python-brace-format
+msgid "Period Closing Voucher {0} must be submitted before processing"
+msgstr "يجب ترحيل قيد إقفال الفترة {0} قبل المعالجة"
+
+msgid ""
+"Pick a BOM to copy its raw materials into this step. Leave it empty to add the raw "
+"materials yourself with Add Raw Materials."
+msgstr ""
+"اختر قائمة مواد لنسخ موادها الخام إلى هذه الخطوة. اتركه فارغًا لإضافة المواد الخام "
+"بنفسك عبر إضافة مواد خام."
+
+msgid "Pickup Date cannot be before today"
+msgstr "لا يمكن أن يكون تاريخ الاستلام قبل اليوم"
+
+#, python-brace-format
+msgid "Place in Model ({0} of {1} placed)"
+msgstr "الوضع في النموذج (تم وضع {0} من {1})"
+
+msgid "Placements in Model"
+msgstr "المواضع في النموذج"
+
+#, python-brace-format
+msgid "Plaid transaction {0} could not be imported"
+msgstr "تعذّر استيراد معاملة Plaid {0}"
+
+#, python-brace-format
+msgid "Please add accounts for the following Account Types: {0}"
+msgstr "يرجى إضافة حسابات لأنواع الحسابات التالية: {0}"
+
+msgid "Please attach a CSV file to rename"
+msgstr "يرجى إرفاق ملف CSV لإعادة التسمية"
+
+#, python-brace-format
+msgid "Please delete Item Lead Time {0}, before merging {1} into {2}"
+msgstr "يرجى حذف مدة توريد الصنف {0} قبل دمج {1} في {2}"
+
+msgid "Please enter Account Name for every row in the uploaded template"
+msgstr "يرجى إدخال اسم الحساب لكل صف في القالب المرفوع"
+
+msgid "Please enter a quantity or amount for at least one item."
+msgstr "يرجى إدخال كمية أو مبلغ لصنف واحد على الأقل."
+
+#, python-brace-format
+msgid "Please find attached the proforma invoice {0}."
+msgstr "تجد مرفقًا الفاتورة المبدئية {0}."
+
+msgid "Please save the document before creating or updating the Print Format."
+msgstr "يرجى حفظ المستند قبل إنشاء تنسيق الطباعة أو تحديثه."
+
+msgid "Please select a Task"
+msgstr "يرجى اختيار مهمة"
+
+msgid "Please select at least one Lost Reason"
+msgstr "يرجى اختيار سبب خسارة واحد على الأقل"
+
+msgid "Please set a default Asset Shift Factor to use shift based depreciation."
+msgstr "يرجى تعيين عامل وردية أصول افتراضي لاستخدام الإهلاك القائم على الورديات."
+
+msgid "Previous Depreciation Schedule"
+msgstr "جدول الإهلاك السابق"
+
+msgid "Previous Quantity"
+msgstr "الكمية السابقة"
+
+msgid "Previous Revision"
+msgstr "المراجعة السابقة"
+
+#, python-brace-format
+msgid "Previous period is not closed. Close the period from {0} first."
+msgstr "الفترة السابقة غير مُقفلة. أقفل الفترة من {0} أولًا."
+
+#, python-brace-format
+msgid "Price List {0} is not applicable for country {1}"
+msgstr "قائمة الأسعار {0} غير قابلة للتطبيق على الدولة {1}"
+
+#, python-brace-format
+msgid "Price List {0} is the default in {1}, so it must stay applicable for {2}"
+msgstr "قائمة الأسعار {0} هي الافتراضية في {1}، لذا يجب أن تبقى قابلة للتطبيق على {2}"
+
+msgid "Price UOM"
+msgstr "وحدة قياس السعر"
+
+msgid "Pricing Rule Removed"
+msgstr "تمت إزالة قاعدة التسعير"
+
+msgid "Print Format Conflict"
+msgstr "تعارض في تنسيق الطباعة"
+
+msgid "Print Format Creation"
+msgstr "إنشاء تنسيق الطباعة"
+
+#, python-brace-format
+msgid ""
+"Print Format {0} already exists and could not be identified as generated by this "
+"template. Rename the existing Print Format before continuing."
+msgstr ""
+"تنسيق الطباعة {0} موجود بالفعل وتعذّر التعرف عليه كتنسيق أنشأه هذا القالب. أعد تسمية "
+"تنسيق الطباعة الموجود قبل المتابعة."
+
+msgid "Print Preview"
+msgstr "معاينة الطباعة"
+
+msgid "Process Period Closing Voucher must be submitted before processing"
+msgstr "يجب ترحيل مستند معالجة قيد إقفال الفترة قبل المعالجة"
+
+msgid "Produce Item per Operation"
+msgstr "إنتاج الصنف لكل عملية"
+
+#, python-brace-format
+msgid "Production Plan {0} is {1}"
+msgstr "خطة الإنتاج {0} في حالة {1}"
+
+msgid "Proforma"
+msgstr "مبدئية"
+
+msgid "Proforma Email Template"
+msgstr "قالب البريد الإلكتروني للفاتورة المبدئية"
+
+msgid "Proforma Invoice"
+msgstr "فاتورة مبدئية"
+
+msgid "Proforma Invoice Item"
+msgstr "صنف الفاتورة المبدئية"
+
+msgid "Proforma Invoice is not enabled in Selling Settings."
+msgstr "الفاتورة المبدئية غير مفعّلة في إعدادات البيع."
+
+#, python-brace-format
+msgid "Proforma Invoice {0}"
+msgstr "الفاتورة المبدئية {0}"
+
+#, python-brace-format
+msgid "Proforma Invoice {0} created"
+msgstr "تم إنشاء الفاتورة المبدئية {0}"
+
+msgid "Proforma Invoices"
+msgstr "الفواتير المبدئية"
+
+msgid "Proforma No"
+msgstr "رقم الفاتورة المبدئية"
+
+msgid "Proforma PDF"
+msgstr "ملف PDF للفاتورة المبدئية"
+
+msgid "Proforma emailed"
+msgstr "تم إرسال الفاتورة المبدئية بالبريد الإلكتروني"
+
+msgid "Projected"
+msgstr "المتوقع"
+
+msgid "Prospect Name"
+msgstr "اسم الزبون المرتقب"
+
+#, python-brace-format
+msgid "Prospect {0} is already converted to Customer {1}"
+msgstr "تم تحويل الزبون المرتقب {0} بالفعل إلى الزبون {1}"
+
+#, python-brace-format
+msgid "Prospect {0} is already converted to a Customer"
+msgstr "تم تحويل الزبون المرتقب {0} بالفعل إلى زبون"
+
+msgid "Purchase Order Required for Purchase Invoice & Receipt Creation"
+msgstr "أمر الشراء مطلوب لإنشاء فاتورة الشراء وإشعار الاستلام"
+
+#, python-brace-format
+msgid ""
+"Purchase Orders {0} have different currencies, taxes or discounts, so they cannot "
+"share one Purchase Receipt. Make one Subcontracting Receipt for each Purchase Order."
+msgstr ""
+"أوامر الشراء {0} لها عملات أو ضرائب أو خصومات مختلفة، لذلك لا يمكن أن تشترك في إشعار "
+"استلام مشتريات واحد. أنشئ إيصال تعاقد من الباطن واحدًا لكل أمر شراء."
+
+msgid "Purchase Receipt Required for Purchase Invoice Creation"
+msgstr "إشعار استلام المشتريات مطلوب لإنشاء فاتورة الشراء"
+
+#, python-brace-format
+msgid "Purchase Receipt {0} is already made against Subcontracting Receipt {1}"
+msgstr "تم إنشاء إشعار استلام المشتريات {0} بالفعل مقابل إيصال التعاقد من الباطن {1}"
+
+#, python-brace-format
+msgid "Purchase Receipt {0} is closed and cannot be invoiced"
+msgstr "إشعار استلام المشتريات {0} مُغلق ولا يمكن فوترته"
+
+#, python-brace-format
+msgid "Quality Inspection {0} is used by {1} {2}. Cancel {2} first."
+msgstr "فحص الجودة {0} مستخدم في {1} {2}. ألغِ {2} أولًا."
+
+msgid "Quantity Changed"
+msgstr "تغيّرت الكمية"
+
+msgid "Quantity from the design file."
+msgstr "الكمية من ملف التصميم."
+
+msgid "Quantity of the finished good the BOM is made for"
+msgstr "كمية المنتج النهائي التي أُعدّت لها قائمة المواد"
+
+msgid "Quantity of the output item this operation makes for the whole Work Order"
+msgstr "كمية صنف الناتج التي تُنتجها هذه العملية لأمر العمل بالكامل"
+
+msgid "Rate must be at least 0 and less than 100"
+msgstr "يجب أن يكون السعر 0 على الأقل وأقل من 100"
+
+msgid "Raw Materials Not Linked to an Operation"
+msgstr "مواد خام غير مرتبطة بعملية"
+
+msgid "Raw Materials Not Moved"
+msgstr "مواد خام لم يتم نقلها"
+
+msgid "Raw Materials To Be Received"
+msgstr "مواد خام بانتظار الاستلام"
+
+#, python-brace-format
+msgid "Reassign the maintenance tasks of {0} before removing them from the team."
+msgstr "أعد إسناد مهام الصيانة الخاصة بـ {0} قبل إزالته من الفريق."
+
+msgid ""
+"Recalculate Valuation Rate is only allowed for a Purchase Receipt, a Purchase Invoice"
+" with Update Stock or a Stock Entry with no row that has both a Source and Target "
+"Warehouse"
+msgstr ""
+"لا يُسمح بإعادة حساب سعر التقييم إلا لإشعار استلام المشتريات، أو فاتورة الشراء مع "
+"تحديث المخزون، أو قيد المخزون الذي لا يحتوي على صف له مستودع مصدر ومستودع هدف معًا"
+
+#, python-brace-format
+msgid "Receipt Document Type {0} is not supported"
+msgstr "نوع مستند الاستلام {0} غير مدعوم"
+
+msgid "Record Output"
+msgstr "تسجيل الناتج"
+
+msgid "Remove Existing BOM"
+msgstr "إزالة قائمة المواد الموجودة"
+
+msgid "Remove Operation"
+msgstr "إزالة العملية"
+
+msgid "Remove from BOM"
+msgstr "إزالة من قائمة المواد"
+
+#, python-brace-format
+msgid "Rename Tool: {0} of {1} {2} rows could not be renamed"
+msgstr "أداة إعادة التسمية: تعذّرت إعادة تسمية {0} من أصل {1} من صفوف {2}"
+
+msgid "Reports To"
+msgstr "يرفع تقاريره إلى"
+
+#, python-brace-format
+msgid "Reposting will start within the timeslot configured in {0}"
+msgstr "ستبدأ إعادة الترحيل ضمن الفترة الزمنية المضبوطة في {0}"
+
+msgid "Request Missing Materials"
+msgstr "طلب المواد المفقودة"
+
+msgid "Requested Quantity"
+msgstr "الكمية المطلوبة"
+
+#, python-brace-format
+msgid "Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {2}."
+msgstr ""
+"لا يمكن أن تكون الكمية المحجوزة ({0}) كسرًا. للسماح بذلك، عطّل '{1}' في وحدة القياس "
+"{2}."
+
+msgid "Reserved Quantity for Production Plan"
+msgstr "الكمية المحجوزة لخطة الإنتاج"
+
+msgid "Reserved Quantity for Subcontracting"
+msgstr "الكمية المحجوزة للتعاقد من الباطن"
+
+msgid "Restrict to Companies"
+msgstr "تقييد بشركات"
+
+msgid "Restricted to Other Companies"
+msgstr "مقيّد بشركات أخرى"
+
+msgid "Returned by Customer"
+msgstr "أعاده الزبون"
+
+msgid "Returned exchange rate must be a positive finite number."
+msgstr "يجب أن يكون سعر الصرف المُرجَع رقمًا موجبًا محدودًا."
+
+msgid "Returned to Customer"
+msgstr "أُعيد إلى الزبون"
+
+msgid "Revision"
+msgstr "مراجعة"
+
+msgid "Revisions"
+msgstr "المراجعات"
+
+msgid "Role Allowed to Close Books & Make Changes to Closed Periods"
+msgstr "الدور المسموح له بإقفال الدفاتر وإجراء تغييرات على الفترات المُقفلة"
+
+msgid "Rotate"
+msgstr "تدوير"
+
+#, python-brace-format
+msgid "Routing {0} is disabled"
+msgstr "التوجيه {0} معطّل"
+
+#, python-brace-format
+msgid "Row #{0}: A Product Bundle cannot contain its own parent Item {1}."
+msgstr "الصف #{0}: لا يمكن أن تحتوي حزمة المنتجات على صنفها الأصل {1}."
+
+#, python-brace-format
+msgid "Row #{0}: Acceptance Criteria Formula is required for parameter {1}"
+msgstr "الصف #{0}: صيغة معايير القبول مطلوبة للمعيار {1}"
+
+#, python-brace-format
+msgid "Row #{0}: Acceptance Criteria Value is required for parameter {1}"
+msgstr "الصف #{0}: قيمة معايير القبول مطلوبة للمعيار {1}"
+
+#, python-brace-format
+msgid "Row #{0}: Account is mandatory"
+msgstr "الصف #{0}: الحساب إلزامي"
+
+#, python-brace-format
+msgid "Row #{0}: Account {1} does not belong to company {2}."
+msgstr "الصف #{0}: الحساب {1} لا ينتمي إلى الشركة {2}."
+
+#, python-brace-format
+msgid "Row #{0}: Account {1} is a group account"
+msgstr "الصف #{0}: الحساب {1} حساب تجميعي"
+
+#, python-brace-format
+msgid "Row #{0}: Account {1} is a group account."
+msgstr "الصف #{0}: الحساب {1} حساب تجميعي."
+
+#, python-brace-format
+msgid "Row #{0}: Account {1} is added more than once"
+msgstr "الصف #{0}: تمت إضافة الحساب {1} أكثر من مرة"
+
+#, python-brace-format
+msgid "Row #{0}: Account {1} is disabled."
+msgstr "الصف #{0}: الحساب {1} معطّل."
+
+#, python-brace-format
+msgid "Row #{0}: Account {1} must be an Expense ledger account of company {2}"
+msgstr "الصف #{0}: يجب أن يكون الحساب {1} حساب مصروفات في دفتر الأستاذ للشركة {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Asset {1} cannot be sold before its last depreciation entry dated {2}"
+msgstr "الصف #{0}: لا يمكن بيع الأصل {1} قبل آخر قيد إهلاك له بتاريخ {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Asset {1} is already added in another row"
+msgstr "الصف #{0}: الأصل {1} مضاف بالفعل في صف آخر"
+
+#, python-brace-format
+msgid "Row #{0}: Asset {1} must be submitted"
+msgstr "الصف #{0}: يجب ترحيل الأصل {1}"
+
+#, python-brace-format
+msgid "Row #{0}: BOM {1} is not an active, submitted BOM of item {2}."
+msgstr "الصف #{0}: قائمة المواد {1} ليست قائمة مواد نشطة ومُرحَّلة للصنف {2}."
+
+#, python-brace-format
+msgid "Row #{0}: Cannot delete item {1} which has an issued Proforma Invoice."
+msgstr "الصف #{0}: لا يمكن حذف الصنف {1} لأن له فاتورة مبدئية صادرة."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Cannot set quantity less than delivered and reserved quantity. Unreserve "
+"stock before reducing the quantity."
+msgstr ""
+"الصف #{0}: لا يمكن تعيين كمية أقل من الكمية المسلّمة والمحجوزة. ألغِ حجز المخزون قبل "
+"تقليل الكمية."
+
+#, python-brace-format
+msgid "Row #{0}: Company {1} already has an expense account"
+msgstr "الصف #{0}: لدى الشركة {1} حساب مصروفات بالفعل"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Consumed Asset {1} cannot be capitalized before its last depreciation entry"
+" dated {2}"
+msgstr "الصف #{0}: لا يمكن رسملة الأصل المستهلك {1} قبل آخر قيد إهلاك له بتاريخ {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Consumed Asset {1} is added more than once"
+msgstr "الصف #{0}: تمت إضافة الأصل المستهلك {1} أكثر من مرة"
+
+#, python-brace-format
+msgid "Row #{0}: Contact {1} does not belong to Customer {2}"
+msgstr "الصف #{0}: جهة الاتصال {1} لا تنتمي إلى الزبون {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Customer {1} of POS Invoice {2} is not in Customer Group {3}"
+msgstr "الصف #{0}: الزبون {1} في فاتورة نقطة البيع {2} ليس ضمن مجموعة الزبائن {3}"
+
+#, python-brace-format
+msgid "Row #{0}: Default Inventory Account {1} must be a Stock account that is not a group."
+msgstr "الصف #{0}: يجب أن يكون حساب المخزون الافتراضي {1} حساب مخزون غير تجميعي."
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Date {1} cannot be before From Date {2}"
+msgstr "الصف #{0}: لا يمكن أن يكون تاريخ التسليم {1} قبل تاريخ البدء {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Note Item does not belong to Delivery Note {1}"
+msgstr "الصف #{0}: صنف إشعار التسليم لا ينتمي إلى إشعار التسليم {1}"
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Note {1} belongs to Customer {2}"
+msgstr "الصف #{0}: إشعار التسليم {1} يخص الزبون {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Note {1} is added more than once"
+msgstr "الصف #{0}: تمت إضافة إشعار التسليم {1} أكثر من مرة"
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Note {1} is already in Shipment {2}"
+msgstr "الصف #{0}: إشعار التسليم {1} موجود بالفعل في الشحنة {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Note {1} must be submitted"
+msgstr "الصف #{0}: يجب ترحيل إشعار التسليم {1}"
+
+#, python-brace-format
+msgid "Row #{0}: Delivery Note {1} was created from Sales Invoice {2}, which already bills it"
+msgstr "الصف #{0}: تم إنشاء إشعار التسليم {1} من فاتورة المبيعات {2}، والتي تفوتره بالفعل"
+
+#, python-brace-format
+msgid "Row #{0}: Demand Qty is mandatory"
+msgstr "الصف #{0}: كمية الطلب إلزامية"
+
+#, python-brace-format
+msgid "Row #{0}: Depreciation Amount must be greater than zero"
+msgstr "الصف #{0}: يجب أن يكون مبلغ الإهلاك أكبر من صفر"
+
+#, python-brace-format
+msgid "Row #{0}: Due Date must match the Payment Schedule."
+msgstr "الصف #{0}: يجب أن يطابق تاريخ الاستحقاق جدول الدفع."
+
+#, python-brace-format
+msgid "Row #{0}: Dunning charges must have a negative deduction amount."
+msgstr "الصف #{0}: يجب أن يكون لرسوم المطالبة مبلغ خصم سالب."
+
+#, python-brace-format
+msgid "Row #{0}: Dunning charges must use the income account {1} configured on Dunning {2}."
+msgstr ""
+"الصف #{0}: يجب أن تستخدم رسوم المطالبة حساب الإيرادات {1} المضبوط في إشعار المطالبة "
+"{2}."
+
+#, python-brace-format
+msgid "Row #{0}: Dunning charges require a Receive payment from a Customer."
+msgstr "الصف #{0}: تتطلب رسوم المطالبة دفعة من نوع استلام من زبون."
+
+#, python-brace-format
+msgid "Row #{0}: Dunning {1} belongs to a different company."
+msgstr "الصف #{0}: إشعار المطالبة {1} يخص شركة مختلفة."
+
+#, python-brace-format
+msgid "Row #{0}: Dunning {1} belongs to a different customer."
+msgstr "الصف #{0}: إشعار المطالبة {1} يخص زبونًا مختلفًا."
+
+#, python-brace-format
+msgid "Row #{0}: Dunning {1} must be submitted."
+msgstr "الصف #{0}: يجب ترحيل إشعار المطالبة {1}."
+
+#, python-brace-format
+msgid "Row #{0}: Installation can only be recorded against a submitted Delivery Note"
+msgstr "الصف #{0}: لا يمكن تسجيل التركيب إلا مقابل إشعار تسليم مُرحَّل"
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} does not match item {2} sent by {3}."
+msgstr "الصف #{0}: الصنف {1} لا يطابق الصنف {2} المرسل من {3}."
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} is not an alternative of Item {2}"
+msgstr "الصف #{0}: الصنف {1} ليس بديلًا للصنف {2}"
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} is transferred more than the {2} picked in {3}."
+msgstr "الصف #{0}: تم نقل الصنف {1} بأكثر من {2} المنتقاة في {3}."
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} must be taken from {2}, where {3} sent it."
+msgstr "الصف #{0}: يجب أخذ الصنف {1} من {2}، حيث أرسله {3}."
+
+#, python-brace-format
+msgid "Row #{0}: Item {1} was picked from {2}, not {3}."
+msgstr "الصف #{0}: تم انتقاء الصنف {1} من {2}، وليس {3}."
+
+#, python-brace-format
+msgid "Row #{0}: Minimum Value cannot be greater than Maximum Value for parameter {1}"
+msgstr "الصف #{0}: لا يمكن أن تكون القيمة الدنيا أكبر من القيمة القصوى للمعيار {1}"
+
+#, python-brace-format
+msgid "Row #{0}: Mode of Payment {1} is added more than once"
+msgstr "الصف #{0}: تمت إضافة طريقة الدفع {1} أكثر من مرة"
+
+#, python-brace-format
+msgid "Row #{0}: Next Due Date cannot be before the Start Date"
+msgstr "الصف #{0}: لا يمكن أن يكون تاريخ الاستحقاق التالي قبل تاريخ البدء"
+
+#, python-brace-format
+msgid "Row #{0}: Opening Amount for {1} cannot be negative"
+msgstr "الصف #{0}: لا يمكن أن يكون المبلغ الافتتاحي لـ {1} سالبًا"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Outstanding must be positive and cannot exceed the unpaid invoice or "
+"installment amount."
+msgstr ""
+"الصف #{0}: يجب أن يكون المبلغ المستحق موجبًا ولا يتجاوز مبلغ الفاتورة أو القسط غير "
+"المدفوع."
+
+#, python-brace-format
+msgid "Row #{0}: Parameter {1} is added more than once"
+msgstr "الصف #{0}: تمت إضافة المعيار {1} أكثر من مرة"
+
+#, python-brace-format
+msgid "Row #{0}: Parcel count must be at least 1"
+msgstr "الصف #{0}: يجب أن يكون عدد الطرود 1 على الأقل"
+
+#, python-brace-format
+msgid "Row #{0}: Parcel {1} cannot be negative"
+msgstr "الصف #{0}: لا يمكن أن يكون الطرد {1} سالبًا"
+
+#, python-brace-format
+msgid "Row #{0}: Parent Node {1} does not exist."
+msgstr "الصف #{0}: العقدة الأصل {1} غير موجودة."
+
+#, python-brace-format
+msgid "Row #{0}: Payment Schedule is already included in this Dunning."
+msgstr "الصف #{0}: جدول الدفع مضمّن بالفعل في إشعار المطالبة هذا."
+
+#, python-brace-format
+msgid "Row #{0}: Payment Schedule must belong to the selected Sales Invoice."
+msgstr "الصف #{0}: يجب أن ينتمي جدول الدفع إلى فاتورة المبيعات المحددة."
+
+#, python-brace-format
+msgid "Row #{0}: Payment must be overdue on the Dunning Posting Date."
+msgstr "الصف #{0}: يجب أن تكون الدفعة متأخرة في تاريخ ترحيل إشعار المطالبة."
+
+#, python-brace-format
+msgid "Row #{0}: Percentage (%) for Cost Center {1} must be greater than 0"
+msgstr "الصف #{0}: يجب أن تكون النسبة (%) لمركز التكلفة {1} أكبر من 0"
+
+#, python-brace-format
+msgid "Row #{0}: Please select a valid Quality Inspection with Item Code {1}."
+msgstr "الصف #{0}: يرجى اختيار فحص جودة صالح برمز الصنف {1}."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Please select a valid Quality Inspection with Reference Type {1} and "
+"Reference Name {2}."
+msgstr "الصف #{0}: يرجى اختيار فحص جودة صالح بنوع المرجع {1} واسم المرجع {2}."
+
+#, python-brace-format
+msgid "Row #{0}: Rate {1} differs from the rate {2} agreed in Blanket Order {3}"
+msgstr "الصف #{0}: السعر {1} يختلف عن السعر {2} المتفق عليه في أمر التوريد الشامل {3}"
+
+#, python-brace-format
+msgid "Row #{0}: Sales Invoice {1} must have the same {2} as this Dunning."
+msgstr "الصف #{0}: يجب أن يكون لفاتورة المبيعات {1} نفس {2} الخاص بإشعار المطالبة هذا."
+
+#, python-brace-format
+msgid "Row #{0}: Schedule Date cannot be before the Available-for-use Date {1}"
+msgstr "الصف #{0}: لا يمكن أن يكون تاريخ الجدول قبل تاريخ الإتاحة للاستخدام {1}"
+
+#, python-brace-format
+msgid "Row #{0}: Select an accessible, submitted Sales Invoice."
+msgstr "الصف #{0}: اختر فاتورة مبيعات مُرحَّلة يمكنك الوصول إليها."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Set a Rate of Depreciation or an Expected Value After Useful Life for the "
+"Written Down Value method"
+msgstr "الصف #{0}: عيّن معدل إهلاك أو قيمة متوقعة بعد العمر الإنتاجي لطريقة القيمة المتناقصة"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Since 'Produce Item per Operation' is enabled, the BOM {1} cannot be used "
+"for Sub Assembly Items"
+msgstr ""
+"الصف #{0}: نظرًا لتفعيل 'إنتاج الصنف لكل عملية'، لا يمكن استخدام قائمة المواد {1} "
+"لأصناف التجميع الفرعي"
+
+#, python-brace-format
+msgid "Row #{0}: Target Warehouse must be {1}, as on Delivery Note {2}"
+msgstr "الصف #{0}: يجب أن يكون المستودع الهدف {1}، كما في إشعار التسليم {2}"
+
+#, python-brace-format
+msgid "Row #{0}: The batch {1} is disabled."
+msgstr "الصف #{0}: الدفعة {1} معطّلة."
+
+#, python-brace-format
+msgid "Row #{0}: The line does not belong to Sales Order {1}"
+msgstr "الصف #{0}: السطر لا ينتمي إلى أمر البيع {1}"
+
+#, python-brace-format
+msgid "Row #{0}: The same Sales Order line is already in row #{1}"
+msgstr "الصف #{0}: سطر أمر البيع نفسه موجود بالفعل في الصف #{1}"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: UOM {1} is not configured for Item {2}. Add a UOM conversion on the Item or"
+" use its stock UOM."
+msgstr ""
+"الصف #{0}: وحدة القياس {1} غير مضبوطة للصنف {2}. أضف معامل تحويل لوحدة القياس في "
+"الصنف أو استخدم وحدة قياس المخزون الخاصة به."
+
+#, python-brace-format
+msgid "Row #{0}: Unreserve stock before changing the UOM or conversion factor of Item {1}."
+msgstr "الصف #{0}: ألغِ حجز المخزون قبل تغيير وحدة القياس أو معامل التحويل للصنف {1}."
+
+#, python-brace-format
+msgid "Row #{0}: Unreserve stock before deleting item {1}."
+msgstr "الصف #{0}: ألغِ حجز المخزون قبل حذف الصنف {1}."
+
+#, python-brace-format
+msgid "Row #{0}: Work Order {1} does not allow alternative items"
+msgstr "الصف #{0}: أمر العمل {1} لا يسمح بأصناف بديلة"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: Work Order {1} reserved Item {2} after this return. Cancel the Work Order "
+"first."
+msgstr "الصف #{0}: حجز أمر العمل {1} الصنف {2} بعد هذا المرتجع. ألغِ أمر العمل أولًا."
+
+#, python-brace-format
+msgid "Row #{0}: attach the 3D model as a STEP, STL or GLB file."
+msgstr "الصف #{0}: أرفق النموذج ثلاثي الأبعاد كملف STEP أو STL أو GLB."
+
+#, python-brace-format
+msgid "Row #{0}: picked qty {1} {2} exceeds the pending qty in Material Request {3}."
+msgstr "الصف #{0}: الكمية المنتقاة {1} {2} تتجاوز الكمية المعلقة في طلب المواد {3}."
+
+#, python-brace-format
+msgid "Row #{0}: select the serial and batch numbers for the new quantity of Item {1}"
+msgstr "الصف #{0}: اختر الأرقام التسلسلية وأرقام الدفعات للكمية الجديدة من الصنف {1}"
+
+#, python-brace-format
+msgid "Row #{0}: set the Part Number or the Item."
+msgstr "الصف #{0}: عيّن رقم الجزء أو الصنف."
+
+#, python-brace-format
+msgid "Row #{0}: the placements in the model are not valid."
+msgstr "الصف #{0}: المواضع في النموذج غير صالحة."
+
+#, python-brace-format
+msgid ""
+"Row #{0}: {1} assets of {2} are linked to {3}, which keeps only {4} after this "
+"return. Delete the extra draft assets first."
+msgstr ""
+"الصف #{0}: {1} من أصول {2} مرتبطة بـ {3}، الذي لا يحتفظ إلا بـ {4} بعد هذا المرتجع. "
+"احذف مسودات الأصول الزائدة أولًا."
+
+#, python-brace-format
+msgid "Row #{0}: {1} is already a member of this team."
+msgstr "الصف #{0}: {1} عضو بالفعل في هذا الفريق."
+
+#, python-brace-format
+msgid "Row #{0}: {1} is not a member of the maintenance team {2}"
+msgstr "الصف #{0}: {1} ليس عضوًا في فريق الصيانة {2}"
+
+#, python-brace-format
+msgid ""
+"Row #{0}: {1} is received but is neither the finished good nor a secondary item. Set "
+"its Secondary Item Type or remove the row."
+msgstr ""
+"الصف #{0}: تم استلام {1} لكنه ليس المنتج النهائي ولا صنفًا ثانويًا. عيّن نوع الصنف "
+"الثانوي أو أزل الصف."
+
+#, python-brace-format
+msgid "Row #{0}: {1} must match the Payment Schedule."
+msgstr "الصف #{0}: يجب أن يطابق {1} جدول الدفع."
+
+#, python-brace-format
+msgid "Row #{0}: {1} {2} belongs to Company {3}, not {4}"
+msgstr "الصف #{0}: {1} {2} يخص الشركة {3}، وليس {4}"
+
+#, python-brace-format
+msgid "Row #{0}: {1} {2} is already in another Payment Order"
+msgstr "الصف #{0}: {1} {2} موجود بالفعل في أمر دفع آخر"
+
+#, python-brace-format
+msgid "Row #{0}: {1} {2} is already paid"
+msgstr "الصف #{0}: {1} {2} مدفوع بالفعل"
+
+#, python-brace-format
+msgid "Row #{0}: {1} {2} must be submitted"
+msgstr "الصف #{0}: يجب ترحيل {1} {2}"
+
+#, python-brace-format
+msgid "Row {0} does not belong to this Sales Order"
+msgstr "الصف {0} لا ينتمي إلى أمر البيع هذا"
+
+#, python-brace-format
+msgid "Row {0} has no value in the code column {1}"
+msgstr "الصف {0} ليس له قيمة في عمود الرمز {1}"
+
+#, python-brace-format
+msgid ""
+"Row {0} in {1} and row {2} in {3} apply to the same quantity and amount. Change the "
+"ranges, set a different {4}, or enable {5} on both rows."
+msgstr ""
+"الصف {0} في {1} والصف {2} في {3} ينطبقان على نفس الكمية والمبلغ. غيّر النطاقات، أو "
+"عيّن {4} مختلفًا، أو فعّل {5} في كلا الصفين."
+
+#, python-brace-format
+msgid "Row {0}: A target already exists for this fiscal year and item group."
+msgstr "الصف {0}: يوجد هدف بالفعل لهذه السنة المالية ومجموعة الأصناف."
+
+#, python-brace-format
+msgid "Row {0}: Account {1} cannot be used for landed cost charges"
+msgstr "الصف {0}: لا يمكن استخدام الحساب {1} لرسوم تكاليف الشحن"
+
+#, python-brace-format
+msgid "Row {0}: Account {1} is disabled."
+msgstr "الصف {0}: الحساب {1} معطّل."
+
+#, python-brace-format
+msgid "Row {0}: Account {1} must be a ledger account of type Bank, Cash or Receivable."
+msgstr "الصف {0}: يجب أن يكون الحساب {1} حساب دفتر أستاذ من نوع مصرف أو نقد أو مستحق."
+
+#, python-brace-format
+msgid "Row {0}: Applicable Charges for Item {1} cannot be negative"
+msgstr "الصف {0}: لا يمكن أن تكون الرسوم المطبقة للصنف {1} سالبة"
+
+#, python-brace-format
+msgid "Row {0}: Applicable Charges for Item {1} cannot be positive"
+msgstr "الصف {0}: لا يمكن أن تكون الرسوم المطبقة للصنف {1} موجبة"
+
+#, python-brace-format
+msgid "Row {0}: Employee {1} is already working at this time on another Job Card"
+msgstr "الصف {0}: الموظف {1} يعمل بالفعل في هذا الوقت على بطاقة عمل أخرى"
+
+#, python-brace-format
+msgid "Row {0}: Employee {1} is already working from {2} to {3} on Job Card {4}"
+msgstr "الصف {0}: الموظف {1} يعمل بالفعل من {2} إلى {3} على بطاقة العمل {4}"
+
+#, python-brace-format
+msgid "Row {0}: Item {1} is not the Finished Good of Purchase Order {2}."
+msgstr "الصف {0}: الصنف {1} ليس المنتج النهائي لأمر الشراء {2}."
+
+#, python-brace-format
+msgid ""
+"Row {0}: Landed Cost Voucher can only be made against a Manufacture or Repack Stock "
+"Entry. Stock Entry {1} is a {2}."
+msgstr ""
+"الصف {0}: لا يمكن إنشاء سند تكاليف الشحن إلا مقابل قيد مخزون من نوع تصنيع أو إعادة "
+"تعبئة. قيد المخزون {1} من نوع {2}."
+
+#, python-brace-format
+msgid "Row {0}: Please enter Account Name"
+msgstr "الصف {0}: يرجى إدخال اسم الحساب"
+
+#, python-brace-format
+msgid "Row {0}: Please select an active and submitted BOM for Item {1}."
+msgstr "الصف {0}: يرجى اختيار قائمة مواد نشطة ومُرحَّلة للصنف {1}."
+
+#, python-brace-format
+msgid "Row {0}: Pricing Rule {1} no longer applies to item {2} and has been removed"
+msgstr "الصف {0}: لم تعد قاعدة التسعير {1} تنطبق على الصنف {2} وتمت إزالتها"
+
+#, python-brace-format
+msgid "Row {0}: Rate of Depreciation cannot be negative"
+msgstr "الصف {0}: لا يمكن أن يكون معدل الإهلاك سالبًا"
+
+#, python-brace-format
+msgid "Row {0}: Salvage Value Percentage must be between 0 and 100"
+msgstr "الصف {0}: يجب أن تكون نسبة القيمة التخريدية بين 0 و100"
+
+#, python-brace-format
+msgid "Row {0}: Service Item {1} and its rate must match Purchase Order {2}."
+msgstr "الصف {0}: يجب أن يطابق صنف الخدمة {1} وسعره أمر الشراء {2}."
+
+#, python-brace-format
+msgid "Row {0}: Target Qty and Target Amount cannot be negative"
+msgstr "الصف {0}: لا يمكن أن تكون الكمية المستهدفة والمبلغ المستهدف سالبين"
+
+#, python-brace-format
+msgid "Row {0}: To Time must be later than From Time. Split overnight slots by day."
+msgstr ""
+"الصف {0}: يجب أن يكون وقت الانتهاء بعد وقت البدء. قسّم الفترات الممتدة لما بعد منتصف "
+"الليل حسب اليوم."
+
+#, python-brace-format
+msgid "Row {0}: Total packed qty cannot be greater than {1} for the Item {2}."
+msgstr "الصف {0}: لا يمكن أن يكون إجمالي الكمية المعبّأة أكبر من {1} للصنف {2}."
+
+#, python-brace-format
+msgid "Row {0}: Voucher is not eligible for clearance with the selected filters."
+msgstr "الصف {0}: السند غير مؤهل للمقاصة وفق عوامل التصفية المحددة."
+
+#, python-brace-format
+msgid "Row {0}: level {1} does not follow the level of the row above."
+msgstr "الصف {0}: المستوى {1} لا يتبع مستوى الصف الذي فوقه."
+
+#, python-brace-format
+msgid "Row {0}: {1} cannot be {2} when {3} is {4}"
+msgstr "الصف {0}: لا يمكن أن يكون {1} {2} عندما يكون {3} {4}"
+
+#, python-brace-format
+msgid "Row {0}: {1} is not a valid Party Type"
+msgstr "الصف {0}: {1} ليس نوع طرف صالحًا"
+
+#, python-brace-format
+msgid ""
+"Rows {0}: the items already have stock transactions in these warehouses, use the "
+"purpose Stock Reconciliation instead of Opening Stock"
+msgstr ""
+"الصفوف {0}: للأصناف معاملات مخزون بالفعل في هذه المستودعات، استخدم الغرض جرد المخزون "
+"بدلًا من مخزون أول المدة"
+
+msgid ""
+"STEP file (.step or .stp) or CSV file. A CSV file needs a Level or Item Number "
+"column, a Part Number or Part Name column, and a Quantity column."
+msgstr ""
+"ملف STEP (‏.step أو ‏.stp) أو ملف CSV. يحتاج ملف CSV إلى عمود المستوى أو رقم الصنف، "
+"وعمود رقم الجزء أو اسم الجزء، وعمود الكمية."
+
+msgid ""
+"STEP, STL or GLB file of a material added in ERPNext, used to place it in the 3D "
+"model."
+msgstr ""
+"ملف STEP أو STL أو GLB لمادة مضافة في ERPNext، يُستخدم لوضعها في النموذج ثلاثي "
+"الأبعاد."
+
+#, python-brace-format
+msgid "Sales Forecast {0} already has Master Production Schedule {1}"
+msgstr "توقعات المبيعات {0} لها بالفعل جدول الإنتاج الرئيسي {1}"
+
+#, python-brace-format
+msgid "Sales Order status cannot be set to {0}"
+msgstr "لا يمكن تعيين حالة أمر البيع إلى {0}"
+
+#, python-brace-format
+msgid "Sales Order {0} has reserved stock. Unreserve it before closing."
+msgstr "أمر البيع {0} لديه مخزون محجوز. ألغِ حجزه قبل الإغلاق."
+
+msgid "Save and Submit"
+msgstr "حفظ وترحيل"
+
+msgid "Save as Draft"
+msgstr "حفظ كمسودة"
+
+msgid "Save the Production Plan before creating Material Requests"
+msgstr "احفظ خطة الإنتاج قبل إنشاء طلبات المواد"
+
+msgid "Save the design before creating BOMs."
+msgstr "احفظ التصميم قبل إنشاء قوائم المواد."
+
+#, python-brace-format
+msgid "Select a Finance Book, as Asset {0} has named finance books"
+msgstr "اختر دفترًا ماليًا، لأن للأصل {0} دفاتر مالية مسمّاة"
+
+#, python-brace-format
+msgid "Select a valid Sales Order row for Item {0}."
+msgstr "اختر صفًا صالحًا من أمر البيع للصنف {0}."
+
+msgid "Select either Items or Item Groups, not both"
+msgstr "اختر الأصناف أو مجموعات الأصناف، وليس كليهما"
+
+msgid "Select the parts to map and set their items."
+msgstr "اختر الأجزاء المراد ربطها وعيّن أصنافها."
+
+msgid "Select the stock Account to compare with the stock value"
+msgstr "اختر حساب المخزون لمقارنته بقيمة المخزون"
+
+#, python-brace-format
+msgid "Selected {0} does not contain the Item Code {1}"
+msgstr "{0} المحدد لا يحتوي على رمز الصنف {1}"
+
+msgid "Semi-Finished"
+msgstr "نصف مصنّع"
+
+msgid "Send Proforma Invoice"
+msgstr "إرسال الفاتورة المبدئية"
+
+#, python-brace-format
+msgid "Send materials for Job Card {0} to the supplier from its Subcontracting Order."
+msgstr "أرسل مواد بطاقة العمل {0} إلى المورد من أمر التعاقد من الباطن الخاص بها."
+
+#, python-brace-format
+msgid "Serial No {0} is still in stock in Warehouse {1} and was not delivered to a customer."
+msgstr "الرقم التسلسلي {0} لا يزال في المخزون في المستودع {1} ولم يُسلَّم إلى زبون."
+
+#, python-brace-format
+msgid "Serial No {0} was delivered to Customer {1}, not to {2}."
+msgstr "تم تسليم الرقم التسلسلي {0} إلى الزبون {1}، وليس إلى {2}."
+
+#, python-brace-format
+msgid ""
+"Serial and Batch Bundle {0} is not posted by {1} {2}. A bundle is submitted with the "
+"transaction it belongs to."
+msgstr ""
+"حزمة الرقم التسلسلي والدفعة {0} غير مُرحَّلة من {1} {2}. تُرحَّل الحزمة مع المعاملة "
+"التي تنتمي إليها."
+
+msgid "Set Item Image"
+msgstr "تعيين صورة الصنف"
+
+#, python-brace-format
+msgid "Set an Item Price for item {0} before removing or replacing its Rate pricing rule."
+msgstr "عيّن سعر صنف للصنف {0} قبل إزالة قاعدة تسعير السعر الخاصة به أو استبدالها."
+
+msgid "Set the Design Name or the Finished Good."
+msgstr "عيّن اسم التصميم أو المنتج النهائي."
+
+#, python-brace-format
+msgid "Set {0} in Item {1} or disable {2} in {3}"
+msgstr "عيّن {0} في الصنف {1} أو عطّل {2} في {3}"
+
+msgid "Share balances can only be changed through Share Transfer"
+msgstr "لا يمكن تغيير أرصدة الأسهم إلا عبر نقل الأسهم"
+
+msgid "Shift Factor must be greater than zero."
+msgstr "يجب أن يكون عامل الوردية أكبر من صفر."
+
+msgid "Short"
+msgstr "النقص"
+
+msgid "Show Incorrect Entries"
+msgstr "عرض القيود غير الصحيحة"
+
+#, python-brace-format
+msgid "Signed file {0} is not supported, import the XML file instead"
+msgstr "الملف الموقّع {0} غير مدعوم، استورد ملف XML بدلًا منه"
+
+msgid "Signee and Signed On are required for a signed contract."
+msgstr "الموقِّع وتاريخ التوقيع مطلوبان للعقد الموقَّع."
+
+msgid "Split Quantity must be greater than zero"
+msgstr "يجب أن تكون كمية التقسيم أكبر من صفر"
+
+#, python-brace-format
+msgid "Standard Stock Entry Type {0} cannot be deleted"
+msgstr "لا يمكن حذف نوع قيد المخزون القياسي {0}"
+
+msgid "Standard rated supplies with no VAT Emirate"
+msgstr "توريدات بالسعر القياسي بدون إمارة ضريبة القيمة المضافة"
+
+msgid "Status Cancelled can only be set by cancelling the Quality Inspection"
+msgstr "لا يمكن تعيين الحالة ملغى إلا بإلغاء فحص الجودة"
+
+msgid "Status cannot be changed because an ordered Quotation exists."
+msgstr "لا يمكن تغيير الحالة لوجود عرض سعر تم طلبه."
+
+#, python-brace-format
+msgid "Status {0} cannot be set manually."
+msgstr "لا يمكن تعيين الحالة {0} يدويًا."
+
+#, python-brace-format
+msgid "Status {0} is set from the Opportunity's Quotations"
+msgstr "تُعيَّن الحالة {0} من عروض أسعار فرصة البيع"
+
+#, python-brace-format
+msgid "Step {0}"
+msgstr "الخطوة {0}"
+
+#, python-brace-format
+msgid "Step {0} ({1})"
+msgstr "الخطوة {0} ({1})"
+
+#, python-brace-format
+msgid "Step {0} Output"
+msgstr "ناتج الخطوة {0}"
+
+msgid "Stock Balance needs a DuckDB sync of Stock Ledger Entry"
+msgstr "يحتاج رصيد المخزون إلى مزامنة DuckDB لقيود دفتر أستاذ المخزون"
+
+msgid "Stock Closing Entry Failed"
+msgstr "فشل قيد إقفال المخزون"
+
+msgid "Stock Reposting Ongoing"
+msgstr "إعادة ترحيل المخزون جارية"
+
+#, python-brace-format
+msgid ""
+"Stock Reservation Entry {0} is already used by Work Order {1}. Close the Work Order "
+"to release the unused stock."
+msgstr ""
+"قيد حجز المخزون {0} مستخدم بالفعل في أمر العمل {1}. أغلق أمر العمل لتحرير المخزون غير"
+" المستخدم."
+
+#, python-brace-format
+msgid ""
+"Stock ageing data is not available from a snapshot. Uncheck {0}, or turn off {1} for "
+"this report."
+msgstr "بيانات تقادم المخزون غير متاحة من لقطة. ألغِ تحديد {0}، أو أوقف {1} لهذا التقرير."
+
+msgid "Sub-Assembly"
+msgstr "تجميع فرعي"
+
+msgid "Sub-Assembly BOM"
+msgstr "قائمة مواد التجميع الفرعي"
+
+msgid "Sub-assembly item"
+msgstr "صنف تجميع فرعي"
+
+msgid "Subcontracted Items To Be Delivered"
+msgstr "أصناف متعاقد عليها من الباطن بانتظار التسليم"
+
+msgid "Subcontracted Job Card"
+msgstr "بطاقة عمل متعاقد عليها من الباطن"
+
+msgid "Subcontracted Qty"
+msgstr "الكمية المتعاقد عليها من الباطن"
+
+msgid "Subcontracted Raw Materials To Be Received"
+msgstr "مواد خام متعاقد عليها من الباطن بانتظار الاستلام"
+
+msgid "Subcontracting Inward Order Summary"
+msgstr "ملخص أوامر التعاقد الواردة من الباطن"
+
+msgid ""
+"Subject and message used when emailing a Proforma Invoice. The template gets the "
+"Proforma Invoice as doc, e.g. {{ doc.customer_name }}. Leave empty to send the "
+"default text."
+msgstr ""
+"الموضوع والرسالة المستخدمان عند إرسال فاتورة مبدئية بالبريد الإلكتروني. يتلقى القالب "
+"الفاتورة المبدئية باسم doc، مثل {{ doc.customer_name }}. اتركه فارغًا لإرسال النص "
+"الافتراضي."
+
+#, python-brace-format
+msgid "Submit Job Card {0} before making its Manufacture entry"
+msgstr "رحّل بطاقة العمل {0} قبل إنشاء قيد التصنيع الخاص بها"
+
+#, python-brace-format
+msgid "Submit Subcontracting Receipt {0} before making a Purchase Receipt"
+msgstr "رحّل إيصال التعاقد من الباطن {0} قبل إنشاء إشعار استلام مشتريات"
+
+msgid "Submit this design before creating BOMs."
+msgstr "رحّل هذا التصميم قبل إنشاء قوائم المواد."
+
+msgid "Submit this design before making a new revision."
+msgstr "رحّل هذا التصميم قبل إنشاء مراجعة جديدة."
+
+msgid "Suggest Items"
+msgstr "اقتراح أصناف"
+
+msgid "Superseded"
+msgstr "مُستبدَل"
+
+msgid "Superseded By"
+msgstr "استُبدل بـ"
+
+#, python-brace-format
+msgid "Supplier Invoice {0} is already imported in Purchase Invoice {1}"
+msgstr "فاتورة المورد {0} مستوردة بالفعل في فاتورة الشراء {1}"
+
+#, python-brace-format
+msgid "Supplier Quotation {0} has expired."
+msgstr "انتهت صلاحية عرض سعر المورد {0}."
+
+#, python-brace-format
+msgid "Supplier Quotation {0} is cancelled"
+msgstr "عرض سعر المورد {0} ملغى"
+
+msgid "Target Asset is mandatory"
+msgstr "الأصل الهدف إلزامي"
+
+#, python-brace-format
+msgid "Task {0} does not belong to Asset Maintenance {1}"
+msgstr "المهمة {0} لا تنتمي إلى صيانة الأصل {1}"
+
+msgid "Template Type"
+msgstr "نوع القالب"
+
+msgid "Templates cannot be merged"
+msgstr "لا يمكن دمج القوالب"
+
+msgid "The 3D file could not be loaded."
+msgstr "تعذّر تحميل الملف ثلاثي الأبعاد."
+
+msgid "The 3D viewer files are missing. Run yarn install for ERPNext."
+msgstr "ملفات عارض النماذج ثلاثية الأبعاد مفقودة. شغّل yarn install لـ ERPNext."
+
+msgid "The BOM of the finished good gets its operations from this routing."
+msgstr "تحصل قائمة مواد المنتج النهائي على عملياتها من هذا التوجيه."
+
+msgid ""
+"The BOM of the finished good is made for this quantity. Part quantities are for one "
+"finished good."
+msgstr "تُعَدّ قائمة مواد المنتج النهائي لهذه الكمية. كميات الأجزاء لمنتج نهائي واحد."
+
+msgid "The BOMs are being created. The status changes when they are ready."
+msgstr "يجري إنشاء قوائم المواد. تتغير الحالة عندما تصبح جاهزة."
+
+msgid "The BOMs could not be created. See the Error Log in the Details tab."
+msgstr "تعذّر إنشاء قوائم المواد. راجع سجل الأخطاء في تبويب التفاصيل."
+
+msgid "The BOMs of this design are being created. Wait until the status changes."
+msgstr "يجري إنشاء قوائم مواد هذا التصميم. انتظر حتى تتغير الحالة."
+
+msgid ""
+"The Blank Template contains just the account type and root type required to build the"
+" Chart of Accounts. Please enter the account names and add more rows as per your "
+"requirement."
+msgstr ""
+"يحتوي القالب الفارغ على نوع الحساب ونوع الجذر المطلوبين فقط لبناء دليل الحسابات. يرجى"
+" إدخال أسماء الحسابات وإضافة المزيد من الصفوف حسب حاجتك."
+
+msgid "The CSV file has no parts."
+msgstr "ملف CSV لا يحتوي على أجزاء."
+
+msgid "The CSV file needs a Level or an Item Number column."
+msgstr "يحتاج ملف CSV إلى عمود المستوى أو رقم الصنف."
+
+msgid "The CSV file needs a Part Number or a Part Name column."
+msgstr "يحتاج ملف CSV إلى عمود رقم الجزء أو اسم الجزء."
+
+msgid "The CSV file needs a Quantity column."
+msgstr "يحتاج ملف CSV إلى عمود الكمية."
+
+msgid "The STEP file could not be read."
+msgstr "تعذّرت قراءة ملف STEP."
+
+msgid "The STEP file has an assembly that contains itself."
+msgstr "يحتوي ملف STEP على تجميع يحتوي على نفسه."
+
+msgid "The STEP file has no product structure."
+msgstr "ملف STEP لا يحتوي على هيكل منتج."
+
+msgid "The STEP file is incomplete or damaged."
+msgstr "ملف STEP غير مكتمل أو تالف."
+
+#, python-brace-format
+msgid "The STEP file refers to a missing {0} #{1}."
+msgstr "يشير ملف STEP إلى {0} مفقود #{1}."
+
+msgid ""
+"The Sample Template contains all the required accounts pre filled in the template. "
+"You can add more accounts or change existing accounts in the template as per your "
+"choice."
+msgstr ""
+"يحتوي القالب النموذجي على جميع الحسابات المطلوبة معبّأة مسبقًا. يمكنك إضافة المزيد من"
+" الحسابات أو تغيير الحسابات الموجودة في القالب حسب اختيارك."
+
+#, python-brace-format
+msgid ""
+"The account-payee message in Print Format {0} could not be identified unambiguously. "
+"Its HTML has been preserved. Review and escape the message in its custom HTML, or "
+"regenerate the format using Update Print Format."
+msgstr ""
+"تعذّر التعرف بشكل قاطع على رسالة \"يُصرف للمستفيد فقط\" في تنسيق الطباعة {0}. تم "
+"الإبقاء على HTML الخاص بها. راجع الرسالة وقم بتهريبها في HTML المخصص، أو أعد إنشاء "
+"التنسيق باستخدام تحديث تنسيق الطباعة."
+
+msgid "The appointment time has passed. Please book the appointment again."
+msgstr "انقضى وقت الموعد. يرجى حجز الموعد مرة أخرى."
+
+msgid "The attached PDF file could not be found."
+msgstr "تعذّر العثور على ملف PDF المرفق."
+
+#, python-brace-format
+msgid ""
+"The company {0} is not in the United States. IRS 1099 is only available for companies"
+" in the United States."
+msgstr ""
+"الشركة {0} ليست في الولايات المتحدة. نموذج IRS 1099 متاح فقط للشركات في الولايات "
+"المتحدة."
+
+#, python-brace-format
+msgid ""
+"The cost of items consumed in Asset Capitalization {0} has changed, but its Target "
+"Asset {1} is already submitted. Cancel the Target Asset and this Asset "
+"Capitalization, then repost."
+msgstr ""
+"تغيّرت تكلفة الأصناف المستهلكة في رسملة الأصل {0}، لكن الأصل الهدف {1} مُرحَّل "
+"بالفعل. ألغِ الأصل الهدف ورسملة الأصل هذه، ثم أعد الترحيل."
+
+msgid ""
+"The depreciation schedule this allocation replaced, restored when the allocation is "
+"cancelled"
+msgstr "جدول الإهلاك الذي استبدله هذا التخصيص، ويُستعاد عند إلغاء التخصيص"
+
+msgid "The driver must be active to submit a Delivery Trip."
+msgstr "يجب أن يكون السائق نشطًا لترحيل رحلة تسليم."
+
+msgid "The driver's licence must be valid on the departure date."
+msgstr "يجب أن تكون رخصة السائق سارية في تاريخ المغادرة."
+
+msgid ""
+"The frequency at which project progress and company transaction details will be "
+"updated. Set it to daily or monthly if you post a lot of transactions. Daily "
+"refreshes nightly; Monthly refreshes on the 1st of each month."
+msgstr ""
+"عدد مرات تحديث تقدّم المشاريع وتفاصيل معاملات الشركة. اضبطه على يومي أو شهري إذا كنت "
+"ترحّل الكثير من المعاملات. اليومي يُحدَّث كل ليلة؛ والشهري يُحدَّث في الأول من كل "
+"شهر."
+
+msgid "The grand total of a Proforma Invoice cannot be negative."
+msgstr "لا يمكن أن يكون الإجمالي الكلي للفاتورة المبدئية سالبًا."
+
+msgid ""
+"The increase in shifts cannot be balanced by reducing the shifts of the rows after "
+"the changed rows"
+msgstr "لا يمكن موازنة الزيادة في الورديات بتقليل ورديات الصفوف التي تلي الصفوف المعدّلة"
+
+msgid "The item image could not be uploaded."
+msgstr "تعذّر رفع صورة الصنف."
+
+msgid "The licence expiry date cannot precede its issuing date."
+msgstr "لا يمكن أن يسبق تاريخ انتهاء الرخصة تاريخ إصدارها."
+
+#, python-brace-format
+msgid "The materials come from BOM {0}."
+msgstr "المواد مأخوذة من قائمة المواد {0}."
+
+#, python-brace-format
+msgid "The parent account {0} does not exist in the uploaded template"
+msgstr "الحساب الأصل {0} غير موجود في القالب المرفوع"
+
+#, python-brace-format
+msgid "The parts under {0} will be removed from the BOM."
+msgstr "ستُزال الأجزاء الموجودة تحت {0} من قائمة المواد."
+
+msgid "The signature of a signed contract cannot be changed. Amend the contract instead."
+msgstr "لا يمكن تغيير توقيع عقد موقَّع. عدّل العقد بدلًا من ذلك."
+
+#, python-brace-format
+msgid ""
+"The total Work Order quantity {0} in Material Request {1} cannot be greater than "
+"allowed requested quantity {2} for Item {3}"
+msgstr ""
+"لا يمكن أن يكون إجمالي كمية أمر العمل {0} في طلب المواد {1} أكبر من الكمية المطلوبة "
+"المسموح بها {2} للصنف {3}"
+
+#, python-brace-format
+msgid "The uploaded genericode file has no {0} element."
+msgstr "ملف genericode المرفوع لا يحتوي على العنصر {0}."
+
+#, python-brace-format
+msgid "The value {0} cannot be removed as it is assigned to an existing Item {1}."
+msgstr "لا يمكن إزالة القيمة {0} لأنها معيّنة لصنف موجود {1}."
+
+msgid "There are no item variants for the selected filters"
+msgstr "لا توجد متغيرات أصناف لعوامل التصفية المحددة"
+
+msgid "There are no overdue payments to include in this Dunning."
+msgstr "لا توجد دفعات متأخرة لتضمينها في إشعار المطالبة هذا."
+
+msgid ""
+"These raw materials are short in their source warehouse, so the transfer cannot be "
+"submitted yet."
+msgstr "هذه المواد الخام ناقصة في مستودعها المصدر، لذلك لا يمكن ترحيل النقل بعد."
+
+msgid "This Gift Card cannot be used by this customer"
+msgstr "لا يمكن لهذا الزبون استخدام بطاقة الهدايا هذه"
+
+msgid "This Proforma Invoice has no PDF to send."
+msgstr "هذه الفاتورة المبدئية ليس لها ملف PDF لإرساله."
+
+msgid "This design has a newer revision. Create BOMs from the latest revision."
+msgstr "لهذا التصميم مراجعة أحدث. أنشئ قوائم المواد من أحدث مراجعة."
+
+msgid "This design has no previous revision."
+msgstr "لا توجد مراجعة سابقة لهذا التصميم."
+
+#, python-brace-format
+msgid "This item comes from BOM {0} and cannot be changed."
+msgstr "هذا الصنف مأخوذ من قائمة المواد {0} ولا يمكن تغييره."
+
+#, python-brace-format
+msgid "This makes a Stock Entry that puts {0} made in this Job Card into {1}."
+msgstr "ينشئ هذا قيد مخزون يضع {0} المُنتَج في بطاقة العمل هذه في {1}."
+
+#, python-brace-format
+msgid "This revision has the same parts as {0}."
+msgstr "لهذه المراجعة نفس أجزاء {0}."
+
+#, python-brace-format
+msgid "This schedule was restored when Asset Shift Allocation {0} was cancelled."
+msgstr "تمت استعادة هذا الجدول عند إلغاء تخصيص وردية الأصل {0}."
+
+#, python-brace-format
+msgid "Tick Last Step on the step that makes {0}. Its Output Item must be {0}."
+msgstr "حدّد الخطوة الأخيرة على الخطوة التي تُنتج {0}. يجب أن يكون صنف الناتج الخاص بها {0}."
+
+msgid ""
+"Tick this on the step that makes this BOM's own item. The other steps make in-between"
+" items."
+msgstr ""
+"حدّد هذا على الخطوة التي تُنتج صنف قائمة المواد هذه نفسه. الخطوات الأخرى تُنتج "
+"أصنافًا وسيطة."
+
+msgid "To Move"
+msgstr "المطلوب نقله"
+
+#, python-brace-format
+msgid "Total Cost {0}"
+msgstr "إجمالي التكلفة {0}"
+
+#, python-brace-format
+msgid "Total Depreciation Amount {0} must be equal to the depreciable value {1}"
+msgstr "يجب أن يساوي إجمالي مبلغ الإهلاك {0} القيمة القابلة للإهلاك {1}"
+
+msgid "Total delivery schedule quantity cannot be greater than the item quantity"
+msgstr "لا يمكن أن يكون إجمالي كمية جدول التسليم أكبر من كمية الصنف"
+
+#, python-brace-format
+msgid "Total proforma {0} (including past proformas) exceeds the ordered {0} for: {1}"
+msgstr "إجمالي {0} الفواتير المبدئية (بما فيها السابقة) يتجاوز {0} المطلوبة لـ: {1}"
+
+msgid "Totals are dropped when the companies use different currencies"
+msgstr "تُحذف الإجماليات عندما تستخدم الشركات عملات مختلفة"
+
+#, python-brace-format
+msgid "Transaction not allowed against closed Work Order {0}"
+msgstr "المعاملة غير مسموح بها مقابل أمر العمل المُغلق {0}"
+
+#, python-brace-format
+msgid "Transfer materials for Work Order {0} from its Job Cards."
+msgstr "انقل مواد أمر العمل {0} من بطاقات العمل الخاصة به."
+
+#, python-brace-format
+msgid "Unable to find exchange rate from {0} to {1} on {2}"
+msgstr "تعذّر العثور على سعر الصرف من {0} إلى {1} بتاريخ {2}"
+
+msgid "Unable to import a signed file"
+msgstr "تعذّر استيراد ملف موقّع"
+
+#, python-brace-format
+msgid "Unable to read file {0}"
+msgstr "تعذّرت قراءة الملف {0}"
+
+msgid "Unsubscribe from this campaign"
+msgstr "إلغاء الاشتراك في هذه الحملة"
+
+#, python-brace-format
+msgid "Unsupported filter operator {0}"
+msgstr "عامل التصفية {0} غير مدعوم"
+
+msgid "Unsupported target document type"
+msgstr "نوع المستند الهدف غير مدعوم"
+
+msgid "Unvalued Output"
+msgstr "ناتج غير مقيَّم"
+
+msgid "Upload Item Image"
+msgstr "رفع صورة الصنف"
+
+msgid "Use the item as a raw material without its own BOM."
+msgstr "استخدام الصنف كمادة خام دون قائمة مواد خاصة به."
+
+msgid "Used In"
+msgstr "مستخدم في"
+
+#, python-brace-format
+msgid "User {0} is disabled. Only a user who can edit Users can enable it."
+msgstr "المستخدم {0} معطّل. لا يمكن تفعيله إلا لمستخدم يملك صلاحية تعديل المستخدمين."
+
+#, python-brace-format
+msgid "User {0} is not in Applicable for Users of POS Profile {1}"
+msgstr "المستخدم {0} ليس ضمن المستخدمين المسموح لهم في ملف نقطة البيع {1}"
+
+#, python-brace-format
+msgid "Uses existing BOM {0}"
+msgstr "يستخدم قائمة المواد الموجودة {0}"
+
+msgid "Value Adjustment Amount"
+msgstr "مبلغ تعديل القيمة"
+
+msgid "Value of Assets Consumed in Capitalization"
+msgstr "قيمة الأصول المستهلكة في الرسملة"
+
+msgid "Value of goods must be greater than 0"
+msgstr "يجب أن تكون قيمة البضائع أكبر من 0"
+
+#, python-brace-format
+msgid "Value {0} for Attribute {1} must be a number for Item {2}"
+msgstr "يجب أن تكون القيمة {0} للسمة {1} رقمًا للصنف {2}"
+
+msgid "View PDF"
+msgstr "عرض PDF"
+
+msgid "Voucher Already Reconciled"
+msgstr "السند تمت تسويته بالفعل"
+
+#, python-brace-format
+msgid "Warehouse Type {0} is required by the system and cannot be deleted"
+msgstr "نوع المستودع {0} مطلوب من النظام ولا يمكن حذفه"
+
+#, python-brace-format
+msgid "Warehouse {0} can not be converted to group as it is an Item's default warehouse"
+msgstr "لا يمكن تحويل المستودع {0} إلى مجموعة لأنه المستودع الافتراضي لصنف"
+
+#, python-brace-format
+msgid "Warehouse {0} can not be converted to group as quantity exists for Item {1}"
+msgstr "لا يمكن تحويل المستودع {0} إلى مجموعة لوجود كمية للصنف {1}"
+
+#, python-brace-format
+msgid "Warehouse {0} cannot be disabled as stock exists for Item {1}"
+msgstr "لا يمكن تعطيل المستودع {0} لوجود مخزون للصنف {1}"
+
+#, python-brace-format
+msgid "Warehouse {0} is a group warehouse"
+msgstr "المستودع {0} مستودع تجميعي"
+
+#, python-brace-format
+msgid "Warehouse {0} must be an enabled warehouse that is not a group."
+msgstr "يجب أن يكون المستودع {0} مستودعًا مفعّلًا وغير تجميعي."
+
+#, python-brace-format
+msgid "Work Order status cannot be set to {0}"
+msgstr "لا يمكن تعيين حالة أمر العمل إلى {0}"
+
+#, python-brace-format
+msgid "Work Order {0} is already Closed"
+msgstr "أمر العمل {0} مُغلق بالفعل"
+
+#, python-brace-format
+msgid "Work Order {0} must be submitted"
+msgstr "يجب ترحيل أمر العمل {0}"
+
+msgid "Work Orders are made larger to cover their BOM's % Process Loss"
+msgstr "تُكبَّر أوامر العمل لتغطية % فاقد العملية في قائمة المواد الخاصة بها"
+
+msgid "Work Orders include this loss"
+msgstr "تتضمن أوامر العمل هذا الفاقد"
+
+#, python-brace-format
+msgid "Workstation Type {0} has no enabled Workstation"
+msgstr "نوع محطة العمل {0} ليس له محطة عمل مفعّلة"
+
+#, python-brace-format
+msgid "You are not permitted to add or remove Company {0} in Allowed Companies"
+msgstr "غير مسموح لك بإضافة الشركة {0} إلى الشركات المسموح بها أو إزالتها منها"
+
+#, python-brace-format
+msgid "You are not permitted to link or update User {0}"
+msgstr "غير مسموح لك بربط المستخدم {0} أو تحديثه"
+
+#, python-brace-format
+msgid "You are not permitted to view {0}"
+msgstr "غير مسموح لك بعرض {0}"
+
+#, python-brace-format
+msgid "You cannot read the design file {0}."
+msgstr "لا يمكنك قراءة ملف التصميم {0}."
+
+#, python-brace-format
+msgid "You need to cancel Sales Invoice {0} to be able to cancel this document."
+msgstr "يجب إلغاء فاتورة المبيعات {0} لتتمكن من إلغاء هذا المستند."
+
+msgid "amount"
+msgstr "المبلغ"
+
+msgid "min"
+msgstr "دقيقة"
+
+msgid "quantity"
+msgstr "الكمية"
+
+msgid "the target warehouse"
+msgstr "المستودع الهدف"
+
+msgid "then"
+msgstr "ثم"
+
+#, python-brace-format
+msgid "{0} BOMs will be created"
+msgstr "سيتم إنشاء {0} من قوائم المواد"
+
+#, python-brace-format
+msgid "{0} and {1} are mapped to item {2}. Only one BOM can be made for an item."
+msgstr "{0} و{1} مربوطان بالصنف {2}. لا يمكن إنشاء إلا قائمة مواد واحدة للصنف."
+
+#, python-brace-format
+msgid "{0} and {1} are required"
+msgstr "{0} و{1} مطلوبان"
+
+#, python-brace-format
+msgid "{0} are mandatory in POS Settings"
+msgstr "{0} إلزامية في إعدادات نقطة البيع"
+
+#, python-brace-format
+msgid "{0} cannot be changed for Serial No."
+msgstr "لا يمكن تغيير {0} للرقم التسلسلي."
+
+#, python-brace-format
+msgid ""
+"{0} cannot be changed to Sales Invoice while POS Invoices {1} are not consolidated. "
+"Consolidate them with a POS Closing Entry or a POS Invoice Merge Log first."
+msgstr ""
+"لا يمكن تغيير {0} إلى فاتورة مبيعات بينما فواتير نقطة البيع {1} غير موحّدة. وحّدها "
+"بقيد إقفال نقطة بيع أو بسجل دمج فواتير نقطة البيع أولًا."
+
+#, python-brace-format
+msgid "{0} cannot be renamed with the Rename Tool"
+msgstr "لا يمكن إعادة تسمية {0} باستخدام أداة إعادة التسمية"
+
+#, python-brace-format
+msgid ""
+"{0} draft {1} documents already exist for this Pick List: {2}. Do you still want to "
+"create a new one?"
+msgstr ""
+"توجد بالفعل {0} من مسودات مستندات {1} لقائمة الانتقاء هذه: {2}. هل ما زلت تريد إنشاء "
+"واحد جديد؟"
+
+#, python-brace-format
+msgid ""
+"{0} has no raw materials. Click Add Raw Materials for this step in the Steps section,"
+" or select a BOM for its output item {1}."
+msgstr ""
+"{0} ليس له مواد خام. انقر على إضافة مواد خام لهذه الخطوة في قسم الخطوات، أو اختر "
+"قائمة مواد لصنف الناتج {1}."
+
+#, python-brace-format
+msgid "{0} is mandatory for a {1} Blanket Order"
+msgstr "{0} إلزامي لأمر التوريد الشامل من نوع {1}"
+
+#, python-brace-format
+msgid "{0} is mandatory in POS Settings"
+msgstr "{0} إلزامي في إعدادات نقطة البيع"
+
+#, python-brace-format
+msgid "{0} is not a valid Party Type"
+msgstr "{0} ليس نوع طرف صالحًا"
+
+#, python-brace-format
+msgid "{0} is not a valid time zone"
+msgstr "{0} ليست منطقة زمنية صالحة"
+
+#, python-brace-format
+msgid "{0} is not a voucher this tool can clear"
+msgstr "{0} ليس سندًا يمكن لهذه الأداة مقاصته"
+
+#, python-brace-format
+msgid "{0} is not supported when {1} is {2}"
+msgstr "{0} غير مدعوم عندما يكون {1} {2}"
+
+#, python-brace-format
+msgid "{0} is required for the {1} party"
+msgstr "{0} مطلوب للطرف {1}"
+
+#, python-brace-format
+msgid "{0} is required to enable YouTube tracking"
+msgstr "{0} مطلوب لتفعيل تتبع YouTube"
+
+#, python-brace-format
+msgid "{0} is used in a later step"
+msgstr "{0} مستخدم في خطوة لاحقة"
+
+#, python-brace-format
+msgid "{0} items added"
+msgstr "تمت إضافة {0} من الأصناف"
+
+#, python-brace-format
+msgid "{0} items created"
+msgstr "تم إنشاء {0} من الأصناف"
+
+#, python-brace-format
+msgid "{0} minutes"
+msgstr "{0} دقيقة"
+
+#, python-brace-format
+msgid "{0} must be greater than 0"
+msgstr "يجب أن يكون {0} أكبر من 0"
+
+#, python-brace-format
+msgid "{0} must be greater than zero"
+msgstr "يجب أن يكون {0} أكبر من صفر"
+
+#, python-brace-format
+msgid "{0} must be the same as in Purchase Order {1}."
+msgstr "يجب أن يكون {0} نفسه كما في أمر الشراء {1}."
+
+#, python-brace-format
+msgid "{0} operations"
+msgstr "{0} عمليات"
+
+#, python-brace-format
+msgid "{0} parts"
+msgstr "{0} أجزاء"
+
+#, python-brace-format
+msgid "{0} parts mapped"
+msgstr "تم ربط {0} من الأجزاء"
+
+#, python-brace-format
+msgid "{0} parts not mapped"
+msgstr "لم يتم ربط {0} من الأجزاء"
+
+#, python-brace-format
+msgid "{0} parts not used"
+msgstr "{0} من الأجزاء غير مستخدمة"
+
+#, python-brace-format
+msgid "{0} raw materials"
+msgstr "{0} مواد خام"
+
+#, python-brace-format
+msgid "{0} removed from BOM"
+msgstr "تمت إزالة {0} من قائمة المواد"
+
+#, python-brace-format
+msgid "{0} step {1} ({2})"
+msgstr "{0} الخطوة {1} ({2})"
+
+#, python-brace-format
+msgid "{0} {1} cannot be used with Company {2} because of Company Restrictions"
+msgstr "لا يمكن استخدام {0} {1} مع الشركة {2} بسبب قيود الشركات"
+
+#, python-brace-format
+msgid "{0} {1} has unsubscribed from emails"
+msgstr "ألغى {0} {1} الاشتراك في رسائل البريد الإلكتروني"
+
+#, python-brace-format
+msgid "{0} {1} is already in Payment Order {2}"
+msgstr "{0} {1} موجود بالفعل في أمر الدفع {2}"
+
+#, python-brace-format
+msgid "{0} {1} is for {2} {3}, not {4}"
+msgstr "{0} {1} مخصص لـ {2} {3}، وليس {4}"
+
+#, python-brace-format
+msgid "{0} {1} is not a valid date and time"
+msgstr "{0} {1} ليس تاريخًا ووقتًا صالحين"
+
+#, python-brace-format
+msgid "{0} {1} is not linked to Customer {2}"
+msgstr "{0} {1} غير مرتبط بالزبون {2}"
+
+#, python-brace-format
+msgid "{0} {1} is not linked to {2} {3}"
+msgstr "{0} {1} غير مرتبط بـ {2} {3}"
+
+#, python-brace-format
+msgid "{0} {1} is not the {0} of {2} {3}"
+msgstr "{0} {1} ليس {0} الخاص بـ {2} {3}"
+
+#, python-brace-format
+msgid "{0} {1} must be submitted to reserve stock against it."
+msgstr "يجب ترحيل {0} {1} لحجز المخزون مقابله."
+
+#, python-brace-format
+msgid "{0}: Clearance date cannot be before cheque date."
+msgstr "{0}: لا يمكن أن يكون تاريخ المقاصة قبل تاريخ الشيك."
+
+#, python-brace-format
+msgid "{0}: Clearance date cannot be before posting date."
+msgstr "{0}: لا يمكن أن يكون تاريخ المقاصة قبل تاريخ الترحيل."
+
+#, python-brace-format
+msgid "{0}: Only submitted vouchers can be cleared."
+msgstr "{0}: لا يمكن مقاصة إلا السندات المُرحَّلة."
+
+#, python-brace-format
+msgid ""
+"{0}: Unreconcile the voucher from its Bank Transaction before changing the clearance "
+"date."
+msgstr "{0}: ألغِ تسوية السند من معاملته المصرفية قبل تغيير تاريخ المقاصة."
+
+#, python-brace-format
+msgid "{0}: add raw materials or operations."
+msgstr "{0}: أضف مواد خام أو عمليات."
+
+#, python-brace-format
+msgid "{0}: an operation can use only the output of an earlier operation."
+msgstr "{0}: لا يمكن للعملية استخدام إلا ناتج عملية سابقة."
+
+#, python-brace-format
+msgid "{0}: an operation output can be used only when each operation produces an item."
+msgstr "{0}: لا يمكن استخدام ناتج عملية إلا عندما تُنتج كل عملية صنفًا."
+
+#, python-brace-format
+msgid "{0}: choose an earlier operation of this BOM."
+msgstr "{0}: اختر عملية سابقة من قائمة المواد هذه."
+
+#, python-brace-format
+msgid "{0}: choose one design part, one item or one earlier operation output."
+msgstr "{0}: اختر جزء تصميم واحدًا أو صنفًا واحدًا أو ناتج عملية سابقة واحدًا."
+
+#, python-brace-format
+msgid "{0}: choose the Output Item, that is the item this step makes."
+msgstr "{0}: اختر صنف الناتج، أي الصنف الذي تُنتجه هذه الخطوة."
+
+#, python-brace-format
+msgid "{0}: choose the item this step makes."
+msgstr "{0}: اختر الصنف الذي تُنتجه هذه الخطوة."
+
+#, python-brace-format
+msgid "{0}: design part node {1} does not exist."
+msgstr "{0}: عقدة جزء التصميم {1} غير موجودة."
+
+#, python-brace-format
+msgid "{0}: map an item before creating its BOM."
+msgstr "{0}: اربط صنفًا قبل إنشاء قائمة المواد الخاصة به."
+
+#, python-brace-format
+msgid "{0}: map an item for every raw material."
+msgstr "{0}: اربط صنفًا لكل مادة خام."
+
+#, python-brace-format
+msgid "{0}: placement {1} of {2}"
+msgstr "{0}: الموضع {1} من {2}"
+
+#, python-brace-format
+msgid "{0}: set the Workstation Type."
+msgstr "{0}: عيّن نوع محطة العمل."
+
+#, python-brace-format
+msgid "{0}: set the operation time."
+msgstr "{0}: عيّن وقت العملية."
+
+#, python-brace-format
+msgid "{0}: the operation is not part of this BOM."
+msgstr "{0}: العملية ليست جزءًا من قائمة المواد هذه."
+
+#, python-brace-format
+msgid "{0}: this is the Last Step, so its Output Item must be {1}."
+msgstr "{0}: هذه هي الخطوة الأخيرة، لذا يجب أن يكون صنف الناتج الخاص بها {1}."
+
+#, python-brace-format
+msgid "{0}: {1} moved out of {2}"
+msgstr "{0}: تم نقل {1} من {2}"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Cash and Cash Equivalents"
+msgstr "النقد وما في حكمه"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Current Tax Liabilities"
+msgstr "التزامات الضريبة الحالية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Finance Costs"
+msgstr "تكاليف التمويل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Intangible Assets"
+msgstr "الأصول غير الملموسة"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Investment Income"
+msgstr "إيرادات الاستثمار"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Long-term Borrowings"
+msgstr "القروض طويلة الأجل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Long-term Investments"
+msgstr "الاستثمارات طويلة الأجل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Operating Expenses"
+msgstr "المصروفات التشغيلية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Current Assets"
+msgstr "أصول متداولة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Current Liabilities"
+msgstr "التزامات متداولة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Direct Costs"
+msgstr "تكاليف مباشرة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Non-current Assets"
+msgstr "أصول غير متداولة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Non-current Liabilities"
+msgstr "التزامات غير متداولة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Operating Income"
+msgstr "إيرادات تشغيلية أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Payables"
+msgstr "ذمم دائنة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Other Receivables"
+msgstr "ذمم مدينة أخرى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Reserves and Surplus"
+msgstr "الاحتياطيات والفائض"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Revenue from Operations"
+msgstr "الإيرادات من العمليات"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Share Capital"
+msgstr "رأس المال"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Short-term Borrowings"
+msgstr "القروض قصيرة الأجل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Tangible Assets"
+msgstr "الأصول الملموسة"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Trade Payables"
+msgstr "الذمم الدائنة التجارية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Trade Receivables"
+msgstr "الذمم المدينة التجارية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Debit in Account Currency"
+msgstr "مدين بعملة الحساب"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Credit in Account Currency"
+msgstr "دائن بعملة الحساب"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid ""
+"Note: On checking Is Mandatory the accounting dimension will become mandatory against"
+" that specific account for all accounting transactions"
+msgstr ""
+"ملاحظة: عند تحديد إلزامي يصبح البُعد المحاسبي إلزاميًا مقابل ذلك الحساب في جميع "
+"المعاملات المحاسبية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "If you have any questions, please get back to us."
+msgstr "إذا كانت لديك أي أسئلة، يرجى التواصل معنا."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Make Payment"
+msgstr "إجراء الدفع"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Requesting payment against {0} {1} for amount {2}"
+msgstr "طلب دفع مقابل {0} {1} بمبلغ {2}"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Thank you for your business!"
+msgstr "شكرًا لتعاملك معنا!"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Banking Setup"
+msgstr "إعداد الخدمات المصرفية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Enter the Full Name of the Supplier"
+msgstr "أدخل الاسم الكامل للمورد"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Enter the Full Name of the Customer"
+msgstr "أدخل الاسم الكامل للزبون"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid ""
+"Note: System will not check over-delivery and over-booking for Item {0} as quantity "
+"or amount is 0"
+msgstr ""
+"ملاحظة: لن يتحقق النظام من التسليم الزائد والحجز الزائد للصنف {0} لأن الكمية أو "
+"المبلغ 0"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Point Of Sale"
+msgstr "نقطة البيع"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Only records belonging to {0} will be deleted"
+msgstr "سيتم حذف السجلات التابعة لـ {0} فقط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "You are about to permanently delete data for {0} entries for company {1}."
+msgstr "أنت على وشك حذف بيانات {0} من القيود نهائيًا للشركة {1}."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "To use Serial / Batch feature, enable {0} in {1}."
+msgstr "لاستخدام ميزة الرقم التسلسلي / الدفعة، فعّل {0} في {1}."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Item Search Index needs SQLite {0} or later. This server has SQLite {1}."
+msgstr "يحتاج فهرس البحث عن الأصناف إلى SQLite {0} أو أحدث. هذا الخادم يستخدم SQLite {1}."
 
 #~ msgid " Reserve Stock"
 #~ msgstr " حجز المخزون"
