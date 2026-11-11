@@ -24714,7 +24714,7 @@ msgstr "إشارة: {0} {1}"
 #: frappe/website/doctype/web_page_view/web_page_view.json
 #: frappe/website/report/website_analytics/website_analytics.js:37
 msgid "Referrer"
-msgstr "المرجع"
+msgstr "جهة الإحالة"
 
 #: frappe/printing/page/print/print.js:73 frappe/public/js/frappe/desk.js:168
 #: frappe/public/js/frappe/desk.js:543 frappe/public/js/frappe/form/form.js:1201

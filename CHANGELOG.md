@@ -22,7 +22,13 @@
 - **Screenshot fixes**: Create a new {0} (إنشاء {0} جديد), the permission-matrix
   columns (قراءة، تحديد، كتابة), Dismiss (إخفاء), Associate Job Opening, and the
   stale-document error. ERPNext: Lost Reason, Clearance Date, Item Code, Repack,
-  Written Down Value, Prospect (now زبون مرتقب, distinct from Lead).
+  Written Down Value, Prospect (now زبون مرتقب, distinct from Lead). Interview
+  feedback is sent, not posted: Submit Feedback = إرسال الملاحظات.
+- **HRMS no longer overrides generic msgids with an HR-only sense.** The overlay
+  lets HRMS win on every screen, so Jobs stays مهام (background jobs), Advances
+  stays الدفعات المقدمة, Make is إنشاء (the ERPNext create button) and Referrer
+  is جهة الإحالة. Walk In is زيارة مباشرة and Relieving Date تاريخ ترك العمل in
+  both ERPNext and HRMS.
 
 ## 0.3.4
 

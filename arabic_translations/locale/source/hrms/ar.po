@@ -817,7 +817,7 @@ msgstr "عوامل التصفية المتقدمة"
 #: hrms/hr/doctype/expense_claim/expense_claim.json
 #: hrms/hr/workspace/expense_claims/expense_claims.json
 msgid "Advances"
-msgstr "السلف"
+msgstr "الدفعات المقدمة"
 
 #. Name of a role
 #: hrms/hr/doctype/expense_claim/expense_claim.json
@@ -5833,7 +5833,7 @@ msgstr "درجة الملاحظات"
 #. Option for the 'Status' (Select) field in DocType 'Training Event Employee'
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
 msgid "Feedback Submitted"
-msgstr "تم ترحيل الملاحظات"
+msgstr "تم إرسال الملاحظات"
 
 #: hrms/public/js/templates/interview_feedback.html:14
 msgid "Feedback Summary"
@@ -5845,7 +5845,7 @@ msgid ""
 "Feedback already submitted for the Interview {0}. Please cancel the previous "
 "Interview Feedback {1} to continue."
 msgstr ""
-"تم ترحيل الملاحظات بالفعل للمقابلة {0}. يرجى إلغاء ملاحظات المقابلة السابقة {1} "
+"تم إرسال الملاحظات بالفعل للمقابلة {0}. يرجى إلغاء ملاحظات المقابلة السابقة {1} "
 "للمتابعة."
 
 #: hrms/hr/doctype/training_feedback/training_feedback.py:31
@@ -7364,7 +7364,7 @@ msgstr "تذكير بملاحظات المقابلة"
 #: hrms/hr/doctype/interview/interview.py:340
 #, python-brace-format
 msgid "Interview Feedback {0} submitted successfully"
-msgstr "تم ترحيل ملاحظات المقابلة {0} بنجاح"
+msgstr "تم إرسال ملاحظات المقابلة {0} بنجاح"
 
 #: hrms/hr/doctype/interview/interview.py:87
 msgid "Interview Not Rescheduled"
@@ -7825,7 +7825,7 @@ msgstr "الملف الوظيفي، المؤهلات المطلوبة الخ"
 #. Label of a Card Break in the Recruitment Workspace
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Jobs"
-msgstr "الوظائف"
+msgstr "مهام"
 
 #. Option for the 'Dates Based On' (Select) field in DocType 'Leave Control
 #. Panel'
@@ -8598,7 +8598,7 @@ msgstr "MICR"
 #: hrms/hr/doctype/vehicle_log/vehicle_log.json
 #: hrms/hr/report/vehicle_expenses/vehicle_expenses.py:31
 msgid "Make"
-msgstr "الشركة المصنّعة"
+msgstr "إنشاء"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:163
 msgid "Make Bank Entry"
@@ -9368,8 +9368,8 @@ msgid ""
 "No salary slip found to submit for the above selected criteria OR salary slip already"
 " submitted"
 msgstr ""
-"لم يتم العثور على أي زلة الراتب لترحيل المعايير المذكورة أعلاه أو زلة الراتب قدمت "
-"بالفعل"
+"لم يتم العثور على قسيمة راتب لترحيلها وفق المعايير المحددة أعلاه، أو أن قسيمة الراتب "
+"مُرحّلة بالفعل"
 
 #: frontend/src/views/salary_slip/Dashboard.vue:50
 msgid "No salary slips found"
@@ -9618,7 +9618,7 @@ msgstr "في إجازة"
 #. Label of a Card Break in the Employee Lifecycle Workspace
 #: hrms/hr/workspace/employee_lifecycle/employee_lifecycle.json
 msgid "Onboarding"
-msgstr "الإعداد والتأهيل"
+msgstr "تأهيل"
 
 #. Label of the table_for_activity (Section Break) field in DocType 'Employee
 #. Onboarding'
@@ -9647,7 +9647,7 @@ msgstr "لا يمكن ترحيل سوى شكوى الموظف التي حالت�
 
 #: hrms/hr/doctype/interview/interview.py:322
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
-msgstr "لا يُسمح بترحيل ملاحظات المقابلة إلا للمحاور"
+msgstr "لا يُسمح بإرسال ملاحظات المقابلة إلا للمحاور"
 
 #: hrms/hr/doctype/interview/interview.py:26
 msgid "Only Interviews with Cleared or Rejected status can be submitted."
@@ -9672,7 +9672,7 @@ msgstr "يمكن فقط إلغاء التخصيص المنتهي"
 
 #: hrms/hr/doctype/interview/interview.js:66
 msgid "Only interviewers can submit feedback"
-msgstr "لا يمكن ترحيل الملاحظات إلا للمحاورين"
+msgstr "لا يمكن إرسال الملاحظات إلا للمحاورين"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:174
 #, python-brace-format
@@ -10494,7 +10494,7 @@ msgstr "يرجى تعيين أساس الرواتب في إعدادات الرو
 #: hrms/payroll/doctype/gratuity/gratuity.py:175
 #, python-brace-format
 msgid "Please set Relieving Date for employee: {0}"
-msgstr "يرجى تحديد تاريخ إخلاء الطرف للموظف: {0}"
+msgstr "يرجى تحديد تاريخ ترك العمل للموظف: {0}"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:197
 #: hrms/hr/doctype/employee_advance/employee_advance.py:301
@@ -11113,7 +11113,7 @@ msgstr "تفاصيل الإحالة"
 #. Label of the referrer (Link) field in DocType 'Employee Referral'
 #: hrms/hr/doctype/employee_referral/employee_referral.json
 msgid "Referrer"
-msgstr "المُحيل"
+msgstr "جهة الإحالة"
 
 #. Label of the referrer_details_section (Section Break) field in DocType
 #. 'Employee Referral'
@@ -13036,7 +13036,7 @@ msgstr "ترحيل"
 #: hrms/hr/doctype/interview/interview.js:57 hrms/hr/doctype/interview/interview.js:61
 #: hrms/hr/doctype/interview/interview.js:133
 msgid "Submit Feedback"
-msgstr "ترحيل الملاحظات"
+msgstr "إرسال الملاحظات"
 
 #: hrms/hr/doctype/exit_interview/exit_questionnaire_notification_template.html:15
 msgid "Submit Now"
@@ -13044,7 +13044,7 @@ msgstr "رحّل الآن"
 
 #: hrms/payroll/doctype/employee_tax_exemption_declaration/employee_tax_exemption_declaration.js:43
 msgid "Submit Proof"
-msgstr "ترحيل الإثبات"
+msgstr "تقديم الإثبات"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:150
 msgid "Submit Salary Slip"
@@ -13073,7 +13073,7 @@ msgstr "مُرحَّل"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:409
 msgid "Submitting Salary Slips and creating Journal Entry..."
-msgstr "ترحيل قسائم الرواتب وإنشاء قيد دفتر اليومية..."
+msgstr "جارٍ ترحيل قسائم الرواتب وإنشاء قيد اليومية..."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1536
 msgid "Submitting Salary Slips..."
@@ -14733,7 +14733,7 @@ msgstr "تحذير: تم فصل وحدة إدارة القروض عن ERPNext."
 
 #: hrms/setup.py:392
 msgid "Walk In"
-msgstr "حضور شخصي"
+msgstr "زيارة مباشرة"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:431
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:157
@@ -15262,7 +15262,7 @@ msgstr "{0} ليس يوم عطلة."
 #: hrms/hr/doctype/interview_feedback/interview_feedback.py:29
 #, python-brace-format
 msgid "{0} is not allowed to submit Interview Feedback for the Interview: {1}"
-msgstr "غير مسموح لـ {0} بترحيل ملاحظات المقابلة للمقابلة: {1}"
+msgstr "غير مسموح لـ {0} بإرسال ملاحظات المقابلة للمقابلة: {1}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:619
 #, python-brace-format

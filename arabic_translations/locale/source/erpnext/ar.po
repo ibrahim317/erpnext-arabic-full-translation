@@ -29421,7 +29421,7 @@ msgstr "المواد الرئيسية والاختيارية التي تم در�
 #: erpnext/manufacturing/doctype/work_order/work_order.js:839
 #: erpnext/setup/doctype/vehicle/vehicle.json
 msgid "Make"
-msgstr "سنة الصنع"
+msgstr "إنشاء"
 
 #: erpnext/assets/doctype/asset/asset_list.js:32
 msgid "Make Asset Movement"
@@ -42523,7 +42523,7 @@ msgstr "يجب أن يكون تاريخ الإصدار في المستقبل"
 #. Label of the relieving_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Relieving Date"
-msgstr "تاريخ المغادرة"
+msgstr "تاريخ ترك العمل"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:125
 msgid "Remaining"
@@ -58009,7 +58009,7 @@ msgstr "في انتظار الدفع..."
 
 #: erpnext/setup/setup_wizard/data/marketing_source.txt:10
 msgid "Walk In"
-msgstr "زبون غير مسجل"
+msgstr "زيارة مباشرة"
 
 #: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:4
 msgid "Warehouse Capacity Summary"

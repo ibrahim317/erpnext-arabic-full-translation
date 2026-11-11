@@ -6435,9 +6435,9 @@ msgstr "البحث المتقدم"
 msgid "Advanced Settings"
 msgstr "إعدادات متقدمة"
 
-#. source: hrms
+#. source: erpnext
 msgid "Advances"
-msgstr "السلف"
+msgstr "الدفعات المقدمة"
 
 #. source: hrms
 msgid "Advances to Settle"
@@ -33329,7 +33329,7 @@ msgstr "درجة الملاحظات"
 
 #. source: hrms
 msgid "Feedback Submitted"
-msgstr "تم ترحيل الملاحظات"
+msgstr "تم إرسال الملاحظات"
 
 #. source: hrms
 msgid "Feedback Summary"
@@ -33345,7 +33345,7 @@ msgid ""
 "Feedback already submitted for the Interview {0}. Please cancel the previous "
 "Interview Feedback {1} to continue."
 msgstr ""
-"تم ترحيل الملاحظات بالفعل للمقابلة {0}. يرجى إلغاء ملاحظات المقابلة السابقة {1} "
+"تم إرسال الملاحظات بالفعل للمقابلة {0}. يرجى إلغاء ملاحظات المقابلة السابقة {1} "
 "للمتابعة."
 
 #. source: hrms
@@ -42491,7 +42491,7 @@ msgstr "تذكير بملاحظات المقابلة"
 #. source: hrms
 #, python-brace-format
 msgid "Interview Feedback {0} submitted successfully"
-msgstr "تم ترحيل ملاحظات المقابلة {0} بنجاح"
+msgstr "تم إرسال ملاحظات المقابلة {0} بنجاح"
 
 #. source: hrms
 msgid "Interview Not Rescheduled"
@@ -45990,9 +45990,9 @@ msgstr "لم تكن المهمة قيد التشغيل؛ حُدِّثت الحا
 msgid "Job: {0} has been triggered for processing failed transactions"
 msgstr "المهمة: تم تشغيل {0} لمعالجة المعاملات الفاشلة"
 
-#. source: hrms
+#. source: frappe
 msgid "Jobs"
-msgstr "الوظائف"
+msgstr "مهام"
 
 #. source: frappe
 #, python-brace-format
@@ -49185,9 +49185,9 @@ msgstr "رئيسي"
 msgid "Major/Optional Subjects"
 msgstr "المواد الرئيسية والاختيارية التي تم دراستها"
 
-#. source: hrms
+#. source: erpnext
 msgid "Make"
-msgstr "الشركة المصنّعة"
+msgstr "إنشاء"
 
 #. source: frappe
 msgid "Make \"name\" searchable in Global Search"
@@ -54601,8 +54601,8 @@ msgid ""
 "No salary slip found to submit for the above selected criteria OR salary slip already"
 " submitted"
 msgstr ""
-"لم يتم العثور على أي زلة الراتب لترحيل المعايير المذكورة أعلاه أو زلة الراتب قدمت "
-"بالفعل"
+"لم يتم العثور على قسيمة راتب لترحيلها وفق المعايير المحددة أعلاه، أو أن قسيمة الراتب "
+"مُرحّلة بالفعل"
 
 #. source: hrms
 msgid "No salary slips found"
@@ -56318,7 +56318,7 @@ msgstr "تأهيل موظف جديد"
 
 #. source: hrms
 msgid "Onboarding"
-msgstr "الإعداد والتأهيل"
+msgstr "تأهيل"
 
 #. source: hrms
 msgid "Onboarding Activities"
@@ -56560,7 +56560,7 @@ msgstr "تضمين المدفوعات المخصصة فقط"
 
 #. source: hrms
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
-msgstr "لا يُسمح بترحيل ملاحظات المقابلة إلا للمحاور"
+msgstr "لا يُسمح بإرسال ملاحظات المقابلة إلا للمحاور"
 
 #. source: hrms
 msgid "Only Interviews with Cleared or Rejected status can be submitted."
@@ -56715,7 +56715,7 @@ msgstr "فقط إذا كان ملف PDF محمياً بكلمة مرور"
 
 #. source: hrms
 msgid "Only interviewers can submit feedback"
-msgstr "لا يمكن ترحيل الملاحظات إلا للمحاورين"
+msgstr "لا يمكن إرسال الملاحظات إلا للمحاورين"
 
 #. source: erpnext
 msgid "Only leaf nodes are allowed in transaction"
@@ -63832,7 +63832,7 @@ msgstr "يرجى تعيين حساب مصروفات الشراء المقابل 
 #. source: hrms
 #, python-brace-format
 msgid "Please set Relieving Date for employee: {0}"
-msgstr "يرجى تحديد تاريخ إخلاء الطرف للموظف: {0}"
+msgstr "يرجى تحديد تاريخ ترك العمل للموظف: {0}"
 
 #. source: erpnext
 msgid "Please set Root Type"
@@ -69382,9 +69382,9 @@ msgstr "تفاصيل الإحالة"
 msgid "Referral Sales Partner"
 msgstr "شريك مبيعات الإحالة"
 
-#. source: hrms
+#. source: frappe
 msgid "Referrer"
-msgstr "المُحيل"
+msgstr "جهة الإحالة"
 
 #. source: hrms
 msgid "Referrer Details"
@@ -69653,7 +69653,7 @@ msgstr "تم الصرف"
 msgid "Reliability"
 msgstr "الموثوقية"
 
-#. source: hrms
+#. source: erpnext
 msgid "Relieving Date"
 msgstr "تاريخ ترك العمل"
 
@@ -84665,7 +84665,7 @@ msgstr "ترحيل قيود ERR؟"
 
 #. source: hrms
 msgid "Submit Feedback"
-msgstr "ترحيل الملاحظات"
+msgstr "إرسال الملاحظات"
 
 #. source: erpnext
 msgid "Submit Generated Invoices"
@@ -84694,7 +84694,7 @@ msgstr "ترحيل قسائم العمل الإضافي"
 
 #. source: hrms
 msgid "Submit Proof"
-msgstr "ترحيل الإثبات"
+msgstr "تقديم الإثبات"
 
 #. source: hrms
 msgid "Submit Salary Slip"
@@ -84806,7 +84806,7 @@ msgstr "جارٍ الترحيل"
 
 #. source: hrms
 msgid "Submitting Salary Slips and creating Journal Entry..."
-msgstr "ترحيل قسائم الرواتب وإنشاء قيد دفتر اليومية..."
+msgstr "جارٍ ترحيل قسائم الرواتب وإنشاء قيد اليومية..."
 
 #. source: hrms
 msgid "Submitting Salary Slips..."
@@ -97628,9 +97628,9 @@ msgstr "بانتظار الزبون"
 msgid "Waiting {0} seconds"
 msgstr "انتظار {0} ثانية"
 
-#. source: hrms
+#. source: erpnext
 msgid "Walk In"
-msgstr "حضور شخصي"
+msgstr "زيارة مباشرة"
 
 #. source: frappe
 msgid "Want to discuss?"
@@ -104522,7 +104522,7 @@ msgstr "{0} لم تتم إضافته في الجدول"
 #. source: hrms
 #, python-brace-format
 msgid "{0} is not allowed to submit Interview Feedback for the Interview: {1}"
-msgstr "غير مسموح لـ {0} بترحيل ملاحظات المقابلة للمقابلة: {1}"
+msgstr "غير مسموح لـ {0} بإرسال ملاحظات المقابلة للمقابلة: {1}"
 
 #. source: erpnext
 #, python-brace-format
