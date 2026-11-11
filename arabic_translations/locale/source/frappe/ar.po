@@ -1212,7 +1212,7 @@ msgstr "حقول الفلتر تحتوي على تدوين علامة اقتبا
 #: frappe/public/js/frappe/form/controls/link.js:724
 #, python-brace-format
 msgid "Filtered by: {0}."
-msgstr "مفلتر حسب: {0}."
+msgstr "مُصفّى حسب: {0}."
 
 #. Label of the filters_editor (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -5503,7 +5503,7 @@ msgstr "تطبيق هذا الحكم إذا كان المستخدم هو مال�
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:75
 msgid "Apply to all Documents Types"
-msgstr "تنطبق على جميع أنواع الوثائق"
+msgstr "تنطبق على جميع أنواع المستندات"
 
 #: frappe/model/workflow.py:266
 #, python-brace-format
@@ -7280,7 +7280,7 @@ msgstr "إلغاء الكل"
 
 #: frappe/public/js/frappe/form/form.js:966
 msgid "Cancel All Documents"
-msgstr "إلغاء جميع الوثائق"
+msgstr "إلغاء جميع المستندات"
 
 #: frappe/email/doctype/newsletter/newsletter.js:132
 msgid "Cancel Scheduling"
@@ -9122,7 +9122,7 @@ msgstr "إنشاء سجل جديد"
 #: frappe/public/js/frappe/web_form/web_form_list.js:225
 #, python-brace-format
 msgid "Create a new {0}"
-msgstr "إنشاء جديد {0}"
+msgstr "إنشاء {0} جديد"
 
 #: frappe/www/login.html:162
 #, python-brace-format
@@ -10751,12 +10751,12 @@ msgstr "موضوع مناقشة"
 #: frappe/templates/discussions/reply_card.html:16
 #: frappe/templates/discussions/reply_section.html:29
 msgid "Dismiss"
-msgstr "رفض"
+msgstr "إخفاء"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:572
 msgctxt "Stop showing the onboarding widget."
 msgid "Dismiss"
-msgstr "رفض"
+msgstr "إخفاء"
 
 #. Label of the display (Section Break) field in DocType 'DocField'
 #. Label of the updates_tab (Tab Break) field in DocType 'System Settings'
@@ -11179,7 +11179,7 @@ msgstr "تقرير مشاركة المستندات"
 #: frappe/custom/doctype/customize_form/customize_form.json
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Document States"
-msgstr "الولايات ثيقة"
+msgstr "حالات المستند"
 
 #: frappe/model/meta.py:50 frappe/public/js/frappe/model/meta.js:202
 #: frappe/public/js/frappe/model/model.js:137
@@ -12292,7 +12292,7 @@ msgstr "تمكين الوارد"
 #. Label of the enable_onboarding (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Enable Onboarding"
-msgstr "تمكين Onboarding"
+msgstr "تفعيل الإعداد الأولي"
 
 #. Label of the enable_outgoing (Check) field in DocType 'User Email'
 #. Label of the enable_outgoing (Check) field in DocType 'Email Account'
@@ -13771,7 +13771,7 @@ msgstr "السجلات التي تمت تصفيتها"
 #: frappe/website/doctype/help_article/help_article.py:91 frappe/www/list.py:45
 #, python-brace-format
 msgid "Filtered by \"{0}\""
-msgstr "تمت تصفيتها من قبل \"{0}\""
+msgstr "مُصفّى حسب \"{0}\""
 
 #. Label of the filters (Code) field in DocType 'Access Log'
 #. Label of the filters_sb (Section Break) field in DocType 'Prepared Report'
@@ -14712,7 +14712,7 @@ msgstr "البحث العالمي DocType"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:24
 msgid "Global Search Document Types Reset."
-msgstr "إعادة تعيين أنواع وثائق البحث العامة."
+msgstr "تمت إعادة تعيين أنواع المستندات في البحث العام."
 
 #. Name of a DocType
 #: frappe/desk/doctype/global_search_settings/global_search_settings.json
@@ -19505,7 +19505,7 @@ msgstr "اسم وحدة"
 #: frappe/core/workspace/build/build.json
 #: frappe/desk/doctype/module_onboarding/module_onboarding.json
 msgid "Module Onboarding"
-msgstr "وحدة Onboarding"
+msgstr "الإعداد الأولي للوحدة"
 
 #. Name of a DocType
 #. Label of the module_profile (Link) field in DocType 'User'
@@ -20088,7 +20088,7 @@ msgstr "بطاقة رقمية جديدة"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:66
 msgid "New Onboarding"
-msgstr "إعداد جديد"
+msgstr "إعداد أولي جديد"
 
 #: frappe/core/doctype/user/user.js:185 frappe/www/update-password.html:42
 msgid "New Password"
@@ -21467,31 +21467,31 @@ msgstr "إعداد"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:232
 msgid "Onboarding Name"
-msgstr "اسم الإعداد"
+msgstr "اسم الإعداد الأولي"
 
 #. Name of a DocType
 #: frappe/desk/doctype/onboarding_permission/onboarding_permission.json
 msgid "Onboarding Permission"
-msgstr "إذن على متن الطائرة"
+msgstr "صلاحية الإعداد الأولي"
 
 #. Label of the onboarding_status (Small Text) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Onboarding Status"
-msgstr "حالة الإعداد"
+msgstr "حالة الإعداد الأولي"
 
 #. Name of a DocType
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Onboarding Step"
-msgstr "خطوة Onboarding"
+msgstr "خطوة الإعداد الأولي"
 
 #. Name of a DocType
 #: frappe/desk/doctype/onboarding_step_map/onboarding_step_map.json
 msgid "Onboarding Step Map"
-msgstr "خريطة خطوة Onboarding"
+msgstr "خريطة خطوات الإعداد الأولي"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:264
 msgid "Onboarding complete"
-msgstr "اكتمل الإعداد"
+msgstr "اكتمل الإعداد الأولي"
 
 #. Description of the 'Is Submittable' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json frappe/core/doctype/doctype/doctype_list.js:42
@@ -22978,7 +22978,7 @@ msgstr "يرجى التأكد من أن وثائق الاتصال المرجعي
 
 #: frappe/model/document.py:986
 msgid "Please refresh to get the latest document."
-msgstr "يرجى تحديث للحصول على أحدث وثيقة."
+msgstr "يرجى تحديث الصفحة للحصول على أحدث نسخة من المستند."
 
 #: frappe/printing/page/print/print.js:535
 msgid "Please remove the printer mapping in Printer Settings and try again."
@@ -23489,7 +23489,7 @@ msgstr "طباعة"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:48
 msgid "Print Documents"
-msgstr "طباعة الوثائق"
+msgstr "طباعة المستندات"
 
 #. Label of the print_format (Link) field in DocType 'Auto Repeat'
 #. Label of a Link in the Build Workspace
@@ -23674,7 +23674,7 @@ msgstr "لم يتم تعيين ربط الطابعة."
 #. Label of a Card Break in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
 msgid "Printing"
-msgstr "طبع"
+msgstr "الطباعة"
 
 #: frappe/utils/print_format.py:291
 msgid "Printing failed"
@@ -24271,7 +24271,7 @@ msgstr "رد: {0}"
 #: frappe/desk/doctype/notification_log/notification_log.json
 #: frappe/email/doctype/email_flag_queue/email_flag_queue.json
 msgid "Read"
-msgstr "قرأ"
+msgstr "قراءة"
 
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Label of the read_only (Check) field in DocType 'DocField'
@@ -24714,7 +24714,7 @@ msgstr "إشارة: {0} {1}"
 #: frappe/website/doctype/web_page_view/web_page_view.json
 #: frappe/website/report/website_analytics/website_analytics.js:37
 msgid "Referrer"
-msgstr "المرجع"
+msgstr "جهة الإحالة"
 
 #: frappe/printing/page/print/print.js:73 frappe/public/js/frappe/desk.js:168
 #: frappe/public/js/frappe/desk.js:543 frappe/public/js/frappe/form/form.js:1201
@@ -26611,7 +26611,7 @@ msgstr "ينظر من خلال الجدول"
 #: frappe/website/doctype/web_form_field/web_form_field.json
 #: frappe/website/doctype/web_template_field/web_template_field.json
 msgid "Select"
-msgstr "حدد"
+msgstr "تحديد"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:149
 #: frappe/public/js/frappe/form/controls/multicheck.js:166
@@ -26678,7 +26678,7 @@ msgstr "حدد نوع المستند"
 
 #: frappe/core/page/permission_manager/permission_manager.js:179
 msgid "Select Document Type or Role to start."
-msgstr "حدد نوع الوثيقة أو دور للبدء."
+msgstr "اختر نوع المستند أو الدور للبدء."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:34
 msgid "Select Document Types to set which User Permissions are used to limit access."
@@ -33652,7 +33652,7 @@ msgstr "تغليف"
 #: frappe/core/doctype/docperm/docperm.json frappe/core/doctype/docshare/docshare.json
 #: frappe/core/doctype/user_document_type/user_document_type.json
 msgid "Write"
-msgstr "الكتابة"
+msgstr "كتابة"
 
 #: frappe/model/base_document.py:948
 msgid "Wrong Fetch From value"
@@ -33832,7 +33832,7 @@ msgstr "لا يسمح لك بإرسال رسائل البريد الإلكترو
 
 #: frappe/website/doctype/web_form/web_form.py:570
 msgid "You are not allowed to update this Web Form Document"
-msgstr "لا يسمح لك بتحديث الوثيقة نموذج الويب هذه"
+msgstr "غير مسموح لك بتحديث مستند نموذج الويب هذا"
 
 #: frappe/public/js/frappe/request.js:37
 msgid "You are not connected to Internet. Retry after sometime."
@@ -34673,7 +34673,7 @@ msgstr "jane@example.com"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:46
 msgid "just now"
-msgstr "الآن فقط"
+msgstr "الآن"
 
 #: frappe/desk/desktop.py:255 frappe/desk/query_report.py:289
 msgid "label"
@@ -38114,7 +38114,7 @@ msgid "Accept emit() calls for events no app registered through the automation_e
 msgstr "قبول استدعاءات emit() لأحداث لم يسجّلها أي تطبيق عبر الخطاف automation_events."
 
 msgid "Access"
-msgstr "وصول"
+msgstr "الوصول"
 
 msgid "Access added."
 msgstr "أُضيف الوصول."
@@ -41305,7 +41305,7 @@ msgid "Product engineer. Writes the release notes nobody reads."
 msgstr "مهندس منتجات. يكتب ملاحظات الإصدار التي لا يقرؤها أحد."
 
 msgid "Profiles"
-msgstr "ملفات"
+msgstr "الملفات التعريفية"
 
 msgid "Progress summary"
 msgstr "ملخص التقدم"
@@ -44234,4 +44234,541 @@ msgstr "ترجمات عربية"
 #. Site label with no POT entry
 msgid "Page to show on the website"
 msgstr "صفحة تُعرض على الموقع"
+
+msgid "AI Agents"
+msgstr "وكلاء الذكاء الاصطناعي"
+
+msgid "API discovery cache is being generated. Please try again in 10 seconds."
+msgstr "يجري إنشاء ذاكرة اكتشاف واجهة API المؤقتة. يرجى المحاولة مرة أخرى بعد 10 ثوانٍ."
+
+msgid "Add Email Account"
+msgstr "إضافة حساب بريد إلكتروني"
+
+msgid "Agent Instructions"
+msgstr "تعليمات الوكيل"
+
+msgid "CSS grid"
+msgstr "شبكة CSS"
+
+msgid "Can Create"
+msgstr "يمكنه الإنشاء"
+
+msgid "Cannot change the provider of this sign-in identifier."
+msgstr "لا يمكن تغيير مزوّد معرّف تسجيل الدخول هذا."
+
+msgid "Cannot change the sign-in identifier for the frappe provider."
+msgstr "لا يمكن تغيير معرّف تسجيل الدخول لمزوّد frappe."
+
+msgid "Choose your email provider"
+msgstr "اختر مزوّد بريدك الإلكتروني"
+
+#, python-brace-format
+msgid ""
+"Clients sign in with OAuth: they open this site's login and ask you to allow access. "
+"Configure this in {0}."
+msgstr ""
+"تسجّل العملاء الدخول عبر OAuth: يفتحون صفحة تسجيل الدخول في هذا الموقع ويطلبون منك "
+"السماح بالوصول. اضبط ذلك في {0}."
+
+#, python-brace-format
+msgid "Connect MCP clients to {0}."
+msgstr "ربط عملاء MCP بـ {0}."
+
+msgid "Connect mailbox"
+msgstr "ربط صندوق البريد"
+
+#, python-brace-format
+msgid "Connected {0}"
+msgstr "تم ربط {0}"
+
+msgid "Could not prepare the PDF for printing. Try Download PDF."
+msgstr "تعذّر تجهيز ملف PDF للطباعة. جرّب تنزيل PDF."
+
+msgid "Couldn't connect. Please try again."
+msgstr "تعذّر الاتصال. يرجى المحاولة مرة أخرى."
+
+msgid "Create a record named after the file's value when the import runs."
+msgstr "إنشاء سجل باسم القيمة الواردة في الملف عند تشغيل الاستيراد."
+
+msgid "Custom email"
+msgstr "بريد إلكتروني مخصص"
+
+#, python-brace-format
+msgid "DocType {0} is not available for discovery"
+msgstr "نوع المستند {0} غير متاح للاكتشاف"
+
+msgid "Either key, IP flag, or User flag is required."
+msgstr "يلزم وجود المفتاح أو علامة IP أو علامة المستخدم."
+
+msgid ""
+"Empty uses the size in Print Settings. A receipt size prints one page as tall as the "
+"content."
+msgstr ""
+"إذا تُرك فارغًا يُستخدم الحجم المحدد في إعدادات الطباعة. يطبع حجم الإيصال صفحة واحدة "
+"بطول المحتوى."
+
+msgid "Enable MCP"
+msgstr "تفعيل MCP"
+
+#, python-brace-format
+msgid "Failed to print {0} documents"
+msgstr "فشلت طباعة {0} مستندات"
+
+#, python-brace-format
+msgid "For more information, see {0}."
+msgstr "لمزيد من المعلومات، راجع {0}."
+
+msgid ""
+"Frappe wasn't allowed to read and send your email. Sign in again and allow access to "
+"your mail."
+msgstr ""
+"لم يُسمح لـ Frappe بقراءة بريدك الإلكتروني وإرساله. سجّل الدخول مرة أخرى واسمح "
+"بالوصول إلى بريدك."
+
+msgid "How to turn it on"
+msgstr "طريقة التفعيل"
+
+msgid ""
+"IMAP is turned off for this mailbox. In Yandex Mail settings, under Email clients, "
+"turn on IMAP and \"App passwords and OAuth tokens\"."
+msgstr ""
+"بروتوكول IMAP معطّل لصندوق البريد هذا. في إعدادات Yandex Mail، ضمن عملاء البريد "
+"الإلكتروني، فعّل IMAP و\"كلمات مرور التطبيقات ورموز OAuth\"."
+
+msgid ""
+"IMAP is turned off for this mailbox. Turn it on in Gmail settings under Forwarding "
+"and POP/IMAP, or ask your Google Workspace admin."
+msgstr ""
+"بروتوكول IMAP معطّل لصندوق البريد هذا. فعّله في إعدادات Gmail ضمن إعادة التوجيه "
+"وPOP/IMAP، أو اطلب ذلك من مسؤول Google Workspace."
+
+msgid "IMAP is turned off for this mailbox. Turn it on in Outlook settings or ask your admin."
+msgstr ""
+"بروتوكول IMAP معطّل لصندوق البريد هذا. فعّله في إعدادات Outlook أو اطلب ذلك من "
+"المسؤول."
+
+msgid ""
+"IMAP is turned off for this mailbox. Turn it on in your mail settings or ask your "
+"admin."
+msgstr "بروتوكول IMAP معطّل لصندوق البريد هذا. فعّله في إعدادات بريدك أو اطلب ذلك من المسؤول."
+
+msgid "Install it:"
+msgstr "ثبّته:"
+
+msgid "MCP Settings"
+msgstr "إعدادات MCP"
+
+msgid "Mailbox connected"
+msgstr "تم ربط صندوق البريد"
+
+msgid "Mailbox reconnected"
+msgstr "تمت إعادة ربط صندوق البريد"
+
+#, python-brace-format
+msgid "Method {0} is not available for discovery"
+msgstr "الطريقة {0} غير متاحة للاكتشاف"
+
+#, python-brace-format
+msgid "Method {0} is not available for discovery on DocType {1}"
+msgstr "الطريقة {0} غير متاحة للاكتشاف في نوع المستند {1}"
+
+msgid ""
+"Microsoft doesn't let this Outlook.com mailbox send email from other apps. Please use"
+" a Microsoft 365 work mailbox."
+msgstr ""
+"لا تسمح Microsoft لصندوق بريد Outlook.com هذا بإرسال البريد من تطبيقات أخرى. يرجى "
+"استخدام صندوق بريد عمل على Microsoft 365."
+
+msgid "Name shown to AI clients. Defaults to the site's host name."
+msgstr "الاسم الذي يظهر لعملاء الذكاء الاصطناعي. الافتراضي اسم مضيف الموقع."
+
+msgid ""
+"Only members of this site's Frappe Cloud team can connect a mailbox. Log in to Frappe"
+" Cloud in this browser, then try again."
+msgstr ""
+"لا يمكن ربط صندوق بريد إلا لأعضاء فريق Frappe Cloud الخاص بهذا الموقع. سجّل الدخول "
+"إلى Frappe Cloud في هذا المتصفح، ثم حاول مرة أخرى."
+
+msgid "Open Gmail settings"
+msgstr "فتح إعدادات Gmail"
+
+msgid "Open Yandex Mail settings"
+msgstr "فتح إعدادات Yandex Mail"
+
+#, python-brace-format
+msgid "PDF Generator set to Chromium: {0}"
+msgstr "تم ضبط مولد PDF على Chromium: {0}"
+
+msgid "PlutoPrint"
+msgstr "PlutoPrint"
+
+msgid "PlutoPrint (light)"
+msgstr "PlutoPrint (خفيف)"
+
+msgid "PlutoPrint is not installed on this server"
+msgstr "PlutoPrint غير مثبّت على هذا الخادم"
+
+msgid "PlutoPrint renderer unavailable"
+msgstr "محرّك عرض PlutoPrint غير متاح"
+
+msgid "Preparing PDF..."
+msgstr "جارٍ تجهيز ملف PDF..."
+
+msgid "Print the PDF"
+msgstr "طباعة ملف PDF"
+
+msgid "Receipt 58 mm"
+msgstr "إيصال 58 مم"
+
+msgid "Receipt 80 mm"
+msgstr "إيصال 80 مم"
+
+msgid "Reconnect"
+msgstr "إعادة الربط"
+
+#, python-brace-format
+msgid "Reconnected {0}"
+msgstr "تمت إعادة ربط {0}"
+
+msgid "Report generation failed"
+msgstr "فشل إنشاء التقرير"
+
+#, python-brace-format
+msgid "Report generation failed {0}"
+msgstr "فشل إنشاء التقرير {0}"
+
+#, python-brace-format
+msgid "Report {0} failed to generate."
+msgstr "فشل إنشاء التقرير {0}."
+
+#, python-brace-format
+msgid "Report {0} is ready."
+msgstr "التقرير {0} جاهز."
+
+msgid ""
+"SMTP AUTH is turned off for this mailbox. Ask your Microsoft 365 admin to turn on "
+"Authenticated SMTP for it."
+msgstr ""
+"مصادقة SMTP AUTH معطّلة لصندوق البريد هذا. اطلب من مسؤول Microsoft 365 تفعيل SMTP "
+"المصادق عليه له."
+
+msgid "SMTP is turned off for this mailbox. Ask your admin to turn it on."
+msgstr "بروتوكول SMTP معطّل لصندوق البريد هذا. اطلب من المسؤول تفعيله."
+
+msgid "Server Name"
+msgstr "اسم الخادم"
+
+msgid "Set the filters and generate a new one."
+msgstr "اضبط عوامل التصفية وأنشئ تقريرًا جديدًا."
+
+msgid "Set up manually"
+msgstr "الإعداد يدويًا"
+
+msgid "Sign in to this site:"
+msgstr "سجّل الدخول إلى هذا الموقع:"
+
+msgid "Sign-in took too long. Please try again."
+msgstr "استغرق تسجيل الدخول وقتًا طويلًا. يرجى المحاولة مرة أخرى."
+
+msgid "Sign-in was cancelled."
+msgstr "تم إلغاء تسجيل الدخول."
+
+msgid "Something went wrong. Contact your System Manager."
+msgstr "حدث خطأ ما. تواصل مع مدير النظام."
+
+msgid ""
+"Tell AI agents what this site is for and how your team uses it. Agents receive this "
+"text when they connect."
+msgstr ""
+"أخبر وكلاء الذكاء الاصطناعي بالغرض من هذا الموقع وكيف يستخدمه فريقك. يتلقى الوكلاء "
+"هذا النص عند اتصالهم."
+
+msgid ""
+"The Print button prints the generated PDF instead of the page preview, so the "
+"printout matches the downloaded PDF."
+msgstr ""
+"يطبع زر الطباعة ملف PDF المُنشأ بدلًا من معاينة الصفحة، فتطابق النسخة المطبوعة ملف "
+"PDF الذي يتم تنزيله."
+
+msgid "Then use it:"
+msgstr "ثم استخدمه:"
+
+#, python-brace-format
+msgid "This format cannot use the PlutoPrint renderer: {0}"
+msgstr "لا يمكن لهذا التنسيق استخدام محرّك عرض PlutoPrint: {0}"
+
+msgid "This is a background report"
+msgstr "هذا تقرير يعمل في الخلفية"
+
+msgid "This mailbox can't send email from other apps. Please use a work mailbox."
+msgstr "لا يمكن لصندوق البريد هذا إرسال البريد من تطبيقات أخرى. يرجى استخدام صندوق بريد عمل."
+
+msgid "This mailbox is already connected."
+msgstr "صندوق البريد هذا مربوط بالفعل."
+
+msgid "This mailbox was signed out. Reconnect it to sign in again."
+msgstr "تم تسجيل الخروج من صندوق البريد هذا. أعد ربطه لتسجيل الدخول مرة أخرى."
+
+msgid "View Details"
+msgstr "عرض التفاصيل"
+
+msgid "You signed in to a different mailbox. Sign in to this account's mailbox."
+msgstr "سجّلت الدخول إلى صندوق بريد مختلف. سجّل الدخول إلى صندوق بريد هذا الحساب."
+
+msgid ""
+"Your Google Workspace admin has blocked Frappe. Ask them to allow it under Security >"
+" API controls in the Google Admin console."
+msgstr ""
+"حظر مسؤول Google Workspace الخاص بك Frappe. اطلب منه السماح به ضمن الأمان > عناصر "
+"التحكم في واجهة API في وحدة تحكم مسؤول Google."
+
+msgid "Your Microsoft 365 admin must approve Frappe first."
+msgstr "يجب أن يوافق مسؤول Microsoft 365 لديك على Frappe أولًا."
+
+msgid "Your admin must approve Frappe first."
+msgstr "يجب أن يوافق المسؤول على Frappe أولًا."
+
+msgid "frappectl"
+msgstr "frappectl"
+
+msgid "frappectl is a command-line client for Frappe sites, built for people and AI agents."
+msgstr "frappectl عميل سطر أوامر لمواقع Frappe، مصمَّم للأشخاص ولوكلاء الذكاء الاصطناعي."
+
+#, python-brace-format
+msgctxt "Prepared Report Notification"
+msgid "{0} Error: {1}"
+msgstr "{0} خطأ: {1}"
+
+#, python-brace-format
+msgid "{0} sign-in is only available on Frappe Cloud"
+msgstr "تسجيل الدخول عبر {0} متاح فقط على Frappe Cloud"
+
+#, python-brace-format
+msgid "{0} sign-in isn't available right now"
+msgstr "تسجيل الدخول عبر {0} غير متاح حاليًا"
+
+#, python-brace-format
+msgid "{0} sign-in isn't available right now. You can still set it up manually."
+msgstr "تسجيل الدخول عبر {0} غير متاح حاليًا. لا يزال بإمكانك الإعداد يدويًا."
+
+#, python-brace-format
+msgid "{0} wasn't connected with one-click sign-in"
+msgstr "لم يتم ربط {0} عبر تسجيل الدخول بنقرة واحدة"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Toggle error details"
+msgstr "إظهار/إخفاء تفاصيل الخطأ"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Skip Next Execution"
+msgstr "تخطي التنفيذ التالي"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Reason for impersonating"
+msgstr "سبب انتحال الهوية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Select a DocType"
+msgstr "اختر نوع مستند"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "This is the name by which the note will be saved, you can change this later"
+msgstr "هذا هو الاسم الذي ستُحفظ به الملاحظة، ويمكنك تغييره لاحقًا"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid ""
+"You can change the visibility of the note with this, setting it to public will allow "
+"other users to view it."
+msgstr "يمكنك تغيير ظهور الملاحظة من هنا، وجعلها عامة يتيح للمستخدمين الآخرين عرضها."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "visit the workspace"
+msgstr "زيارة مساحة العمل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Setup Wizard"
+msgstr "معالج الإعداد"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Restore Workspace Edits"
+msgstr "استعادة تعديلات مساحة العمل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Domains"
+msgstr "المجالات"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Places"
+msgstr "الأماكن"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "File \"{0}\" was skipped because only {1} uploads are allowed"
+msgstr "تم تخطي الملف \"{0}\" لأنه مسموح برفع {1} ملفات فقط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "File \"{0}\" was skipped because only {1} uploads are allowed for DocType \"{2}\""
+msgstr "تم تخطي الملف \"{0}\" لأنه مسموح برفع {1} ملفات فقط لنوع المستند \"{2}\""
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "File \"{0}\" was skipped because size exceeds {1} MB"
+msgstr "تم تخطي الملف \"{0}\" لأن حجمه يتجاوز {1} ميغابايت"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "QZ Tray Connection Active!"
+msgstr "اتصال QZ Tray نشط!"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "{0}: a grid of icons you can arrange, which is what you use today."
+msgstr "{0}: شبكة من الأيقونات يمكنك ترتيبها، وهي ما تستخدمه حاليًا."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "{0}: your modules sit in a dock, and each one has its own sidebar."
+msgstr "{0}: توضع وحداتك في شريط إرساء، ولكل منها شريط جانبي خاص."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "This document is locked"
+msgstr "هذا المستند مقفل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Create your first invoice to get started."
+msgstr "أنشئ فاتورتك الأولى للبدء."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "No invoices yet"
+msgstr "لا توجد فواتير بعد"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Manage your preferences"
+msgstr "إدارة تفضيلاتك"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Marketing medium (e.g. cpc, banner, email)"
+msgstr "وسيلة التسويق (مثل cpc أو banner أو email)"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "The referrer (e.g. google, newsletter)"
+msgstr "مصدر الإحالة (مثل google أو newsletter)"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Use to differentiate ad variants (e.g. A/B testing)"
+msgstr "يُستخدم للتمييز بين نسخ الإعلان (مثل اختبار A/B)"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Chart Color"
+msgstr "لون المخطط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Chart Config"
+msgstr "إعدادات المخطط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Chart Label"
+msgstr "تسمية المخطط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Choose an existing chart or create a new chart"
+msgstr "اختر مخططًا موجودًا أو أنشئ مخططًا جديدًا"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Quarter Day"
+msgstr "ربع يوم"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Add assignee"
+msgstr "إضافة مُسنَد إليه"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Unassign"
+msgstr "إلغاء الإسناد"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Unassign {0} from {1}?"
+msgstr "إلغاء إسناد {0} من {1}؟"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Unassigned {0}"
+msgstr "تم إلغاء إسناد {0}"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Preview Chart"
+msgstr "معاينة المخطط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Type of Chart"
+msgstr "نوع المخطط"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "CSV Decimal Separator"
+msgstr "فاصل الكسور العشرية في CSV"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "CSV Delimiter"
+msgstr "فاصل CSV"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "CSV Preview"
+msgstr "معاينة CSV"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "CSV Quoting"
+msgstr "علامات الاقتباس في CSV"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "File Format"
+msgstr "تنسيق الملف"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Minimal"
+msgstr "الحد الأدنى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Non-numeric"
+msgstr "غير رقمي"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Move Down"
+msgstr "نقل للأسفل"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Move Up"
+msgstr "نقل للأعلى"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Shrink"
+msgstr "تصغير"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Viewing {0} ({1}). Editing is off."
+msgstr "عرض {0} ({1}). التعديل متوقف."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "You cannot read {0} documents, so there is nothing to preview"
+msgstr "لا يمكنك قراءة مستندات {0}، لذا لا يوجد ما يمكن معاينته"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "Delete the version {0}? This cannot be undone."
+msgstr "حذف الإصدار {0}؟ لا يمكن التراجع عن ذلك."
+
+#. site-only: not in any POT, resolved by msgid at runtime
+#, python-brace-format
+msgid "+ {0} more rows in this document — all print in the real output"
+msgstr "+ {0} صفوف أخرى في هذا المستند — تُطبع جميعها في المخرجات الفعلية"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Clear Cache"
+msgstr "مسح ذاكرة التخزين المؤقت"
+
+#. site-only: not in any POT, resolved by msgid at runtime
+msgid "Parent Step Branch"
+msgstr "فرع الخطوة الأصل"
 
