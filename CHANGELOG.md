@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.5
 
 - **1,333 new strings translated** against frappe v16.55.2, erpnext v16.53.0 and
   hrms v16.53.1 (84 Frappe, 835 ERPNext, 414 HRMS). HRMS's `version-16`

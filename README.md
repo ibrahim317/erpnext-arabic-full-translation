@@ -97,7 +97,7 @@ of two ways:
 ```bash
 # a) the tarball attached to the matching GitHub Release (pin the tag you run)
 REL=https://github.com/ibrahim317/erpnext-arabic-full-translation/releases
-curl -fsSL "$REL/download/v0.3.4/arabic-bundles.tar.gz" \
+curl -fsSL "$REL/download/v0.3.5/arabic-bundles.tar.gz" \
   | tar -xz -C apps/arabic_translations/arabic_translations/locale/
 #    or .../releases/latest/download/arabic-bundles.tar.gz to track the newest
 
@@ -112,8 +112,8 @@ built silently untranslated.
 ### Docker
 
 ```dockerfile
-RUN bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation --branch v0.3.4
-RUN curl -fsSL https://github.com/ibrahim317/erpnext-arabic-full-translation/releases/download/v0.3.4/arabic-bundles.tar.gz \
+RUN bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation --branch v0.3.5
+RUN curl -fsSL https://github.com/ibrahim317/erpnext-arabic-full-translation/releases/download/v0.3.5/arabic-bundles.tar.gz \
       | tar -xz -C apps/arabic_translations/arabic_translations/locale/
 RUN bench install-arabic-translations
 RUN bench build
